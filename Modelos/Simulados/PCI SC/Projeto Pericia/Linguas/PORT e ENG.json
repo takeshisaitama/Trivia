@@ -1,0 +1,413 @@
+{
+  "title": "Projeto Perícia - Simulado 01: Lote 1 (Línguas)",
+  "messages": {
+    "reprovado": "Otávio: ((Com desprezo, fecha o livro de gramática)) - Sua interpretação sofreu um erro de coesão fatal. Volte para a análise sintática básica. Com o meu material, você não vai passar vergonha. Agora, com o seu desempenho... já não garanto.",
+    "reserva": "Otávio: ((Analisando seu resultado)) - Acertou, mas com a precisão de quem chuta a regência do verbo 'aspirar'. Está no cadastro de reserva. Falta polir a norma culta.",
+    "call4": "Otávio: ((Acena com a cabeça)) - A concordância está correta. Passou pela primeira fase. Continue, mas não se esqueça das exceções da crase.",
+    "call3": "Otávio: ((Sorrindo levemente)) - Perfeito. Sua análise foi sintaticamente impecável. Mostrou que domina tanto a semântica quanto a estrutura. A vaga está se aproximando.",
+    "call2": "Otávio: ((Impressionado)) - Nível Revisor da FEPESE. Você não só respondeu, você identificou a intenção da banca em cada alternativa. Está roteado para a nomeação.",
+    "call1": "Otávio: ((Entrega uma caneta Montblanc)) - NÍVEL IMORTAL DA ABL. Sua proficiência na língua pátria e estrangeira é absoluta. A vaga é sua. Use esta caneta para assinar o termo de posse."
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "pp_s01_l01_pt_boss_tutorial",
+      "subject": "Língua Portuguesa - Interpretação e Gramática",
+      "source": "BOSS TUTORIAL - Mapeamento Tático (Português)",
+      "timer_override": 1200,
+      "front": "**(BOSS TUTORIAL) - Otávio:**\n(abre a Gramática Normativa sobre a mesa de necrópsia)\n- Estrategista, a perícia textual exige precisão cirúrgica. Para desvendar este lote, você precisa dominar a anatomia das conjunções, a patologia dos parônimos e a cadeia de custódia da pontuação. Estude este laudo preliminar antes de prosseguir:",
+      "stem": [
+        "**1) Interpretação - Causa vs. Sintoma:** \n Em textos dissertativos sobre segurança, o autor frequentemente distingue entre o c(problema estrutural) (falência do Estado, falta de direitos sociais) e as c(soluções superficiais) (leis simbólicas, oportunismo político). Identificar essa dicotomia é a chave para encontrar a tese central.",
+        "**2) Parônimos - Descrição vs. Discrição:** \n c(Descrição) (com 'e') refere-se ao ato de descrever, narrar ou detalhar algo. c(Discrição) (com 'i') refere-se à qualidade de ser discreto, reservado ou modesto. Confundir essas vogais altera completamente o sentido da frase.",
+        "**3) Parônimos - Mandado vs. Mandato:** \n c(Mandado) (com 'd') é uma ordem judicial escrita (ex: mandado de busca e apreensão, mandado de prisão). c(Mandato) (com 't') é uma procuração ou período de representação política (ex: mandato de senador, mandato presidencial).",
+        "**4) Expressão Temporal - A cerca de vs. Há cerca de:** \n c(Há cerca de) (com verbo haver) indica tempo decorrido/passado (ex: aconteceu há cerca de anos). c(A cerca de) indica distância aproximada (ex: estamos a cerca de 10km). c(Acerca de) (junto) significa 'sobre' ou 'a respeito de'.",
+        "**5) Vírgula e Aposto Explicativo:** \n O c(Aposto Explicativo) é um termo que esclarece ou detalha um substantivo anterior. Ele deve vir obrigatoriamente c(isolado por vírgulas) (ou travessões). Ex: O Rio, c(cidade maravilhosa), sofre.",
+        "**6) A Vírgula da Morte (Sujeito vs. Verbo):** \n É terminantemente c(proibido) separar o sujeito do seu verbo com vírgula, mesmo que o sujeito seja longo. Essa é a armadilha mais comum de pontuação em concursos. Ex Errado: \"As milícias e facções, controlam...\"",
+        "**7) Vírgula e Adjunto Adverbial Deslocado:** \n Quando um termo que indica circunstância (tempo, lugar, modo) é movido para o início ou meio da frase, a vírgula é c(recomendada) (se for curto) ou c(obrigatória) (se for longo) para marcar o deslocamento e facilitar a leitura.",
+        "**8) Vírgula e Conjunções Adversativas:** \n Antes de conjunções como 'mas', 'porém', 'todavia', a vírgula é obrigatória. Cuidado com estruturas correlativas como 'não X, c(mas sim) Y': a vírgula não deve separar o 'mas' do 'sim' ou do complemento imediato de forma a quebrar a fluidez lógica.",
+        "**9) Pronome Relativo 'Onde':** \n O pronome c(Onde) só pode ser usado para retomar c(lugares físicos) ou espaciais (mesmo que metafóricos, como 'no Brasil'). Jamais use 'onde' para retomar situações, épocas ou conceitos abstratos (nesses casos, use 'em que').",
+        "**10) Conjunção 'Conquanto':** \n É uma conjunção c(concessiva) que equivale a 'embora', 'ainda que'. Ela introduz uma ideia de oposição ou ressalva que não impede o fato principal, mas exige o verbo no modo c(subjuntivo).",
+        "**11) Conjunção 'Todavia':** \n É uma conjunção c(adversativa) pura, equivalente a 'mas', 'porém', 'entretanto'. Ela estabelece um contraste direto com a oração anterior. Não confundir com comparativos de superioridade ('mais do que').",
+        "**12) Conjunção 'Contanto que':** \n É uma conjunção c(condicional), equivalente a 'desde que' ou 'caso'. Ela impõe uma condição para que algo aconteça. Não serve para substituir conjunções de oposição ('mas').",
+        "**13) Coesão Referencial - 'Que' e 'As quais':** \n O pronome relativo 'que' pode ser substituído por c(o qual/a qual/os quais/as quais) para retomar o substantivo anterior, concordando em gênero e número. Isso ajuda a evitar ambiguidades e confirmar o antecedente.",
+        "**14) Inferência Textual:** \n Responder questões de interpretação exige buscar a c(parafrase) ou a c(conclusão lógica) baseada em dados citados no texto. Se o texto diz \"dados indicam X\", a resposta correta muitas vezes apenas reescreve X com outras palavras.",
+        "**15) Vultoso vs. Vultuoso:** \n c(Vultoso) significa volumoso, de grande vulto ou grande quantia (ex: soma vultosa). c(Vultuoso) é um termo médico que significa inchado, congesto (ex: face vultuosa). Em contextos financeiros, sempre use vultoso."
+      ],
+      "options": [
+        "A) Ciente, Perito. Protocolo de análise textual carregado."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Interpretação - Causa vs. Sintoma**\n- **Como aparece:** A banca contrapõe o diagnóstico do autor (raiz do problema) a medidas citadas no texto (paliativos).\n- **Pegadinha:** Afirmar que a solução defendida pelo autor é o aumento da repressão (sintoma), quando ele defende a mudança estrutural (causa).\n- **Decisão:** Identifique a tese central. Se o autor critica \"leis simbólicas\", a alternativa que sugere mais leis está errada.\n\n**2) Parônimos - Descrição vs. Discrição**\n- **Como aparece:** Frases com lacunas ou termos destacados para julgar a correção ortográfica.\n- **Pegadinha:** Usar \"discrição\" (reserva) em contextos de detalhamento policial ou \"descrição\" em contextos de sigilo.\n- **Decisão:** Verbo descrever/relatar = Descrição. Adjetivo discreto/reservado = Discrição.\n\n**3) Parônimos - Mandado vs. Mandato**\n- **Como aparece:** Contexto jurídico (juiz/polícia) vs Contexto político (cargo/eleição).\n- **Pegadinha:** \"Mandato de segurança\" ou \"Mandado de senador\".\n- **Decisão:** Se tem Juiz/Ordem/Prisão = MandaDO. Se tem Voto/Cargo/Tempo = MandaTO.\n\n**4) Expressão Temporal - A cerca de vs. Há cerca de**\n- **Como aparece:** Indicação de tempo decorrido ou distância.\n- **Pegadinha:** Usar \"a cerca de\" para tempo passado (\"A cerca de 10 anos...\").\n- **Decisão:** Pode substituir por \"faz\"? Use HÁ. É distância ou futuro? Use A.\n\n**5) Vírgula e Aposto Explicativo**\n- **Como aparece:** Um termo entre o sujeito e o verbo que explica o sujeito.\n- **Pegadinha:** Retirar uma das vírgulas (deixando o termo \"manco\") ou retirar ambas.\n- **Decisão:** Se explica/renomeia o anterior, tem que ter \"muros\" (vírgulas) dos dois lados.\n\n**6) A Vírgula da Morte (Sujeito vs. Verbo)**\n- **Como aparece:** Sujeito longo ou composto seguido de vírgula antes do verbo.\n- **Pegadinha:** A pausa na fala induz a colocar a vírgula na escrita. Ex: \"As milícias e facções, controlam...\".\n- **Decisão:** Ache o verbo. Pergunte \"quem?\". Se tiver vírgula no meio, é erro fatal.\n\n**7) Vírgula e Adjunto Adverbial Deslocado**\n- **Como aparece:** Termos de tempo/lugar no início da frase.\n- **Pegadinha:** Omitir a vírgula em adjuntos longos para dificultar a leitura.\n- **Decisão:** Se o termo de circunstância mudou de lugar e é longo, a vírgula é obrigatória.\n\n**8) Vírgula e Conjunções Adversativas**\n- **Como aparece:** Orações coordenadas sindéticas adversativas (mas, porém).\n- **Pegadinha:** Colocar a vírgula depois da conjunção (\"Mas, ele foi\") ou omitir antes.\n- **Decisão:** A vírgula vem ANTES do \"mas\". Em estruturas \"não X, mas Y\", a vírgula também precede o mas.\n\n**9) Pronome Relativo 'Onde'**\n- **Como aparece:** Retomada de termos em textos coesivos.\n- **Pegadinha:** Usar \"onde\" para retomar \"situação\", \"lei\" ou \"época\".\n- **Decisão:** Teste: cabe \"no qual lugar\"? Sim = Onde. Não = Em que.\n\n**10) Conjunção 'Conquanto'**\n- **Como aparece:** Substituição de conectivos em reescrita.\n- **Pegadinha:** Dizer que \"Conquanto\" equivale a \"Conforme\" ou \"Porquanto\".\n- **Decisão:** Conquanto = Embora (Oposição + Subjuntivo). Exige verbo modificado.\n\n**11) Conjunção 'Todavia'**\n- **Como aparece:** Relação lógica entre períodos.\n- **Pegadinha:** Substituir por conectivos de conclusão (portanto) ou condição.\n- **Decisão:** Todavia = Mas (Contraste puro).\n\n**12) Conjunção 'Contanto que'**\n- **Como aparece:** Estruturas condicionais.\n- **Pegadinha:** Confundir com \"No entanto\" (adversativa) pela sonoridade.\n- **Decisão:** Contanto que = Caso/Desde que (Hipótese). Não é oposição.\n\n**13) Coesão Referencial - 'Que' e 'As quais'**\n- **Como aparece:** Identificação do antecedente do pronome.\n- **Pegadinha:** Afirmar que a substituição altera o sentido ou a correção.\n- **Decisão:** Se o \"que\" retoma um substantivo, ele pode ser trocado por o qual/a qual (flexionado). É a prova dos nove.\n\n**14) Inferência Textual**\n- **Como aparece:** Perguntas \"De acordo com o texto\" ou \"Infere-se que\".\n- **Pegadinha:** Extrapolação (trazer dados reais que não estão no texto) ou Contradição (dizer o oposto).\n- **Decisão:** A resposta certa é uma paráfrase. Se o texto diz \"40%\", a resposta diz \"extensão territorial\".\n\n**15) Vultoso vs. Vultuoso**\n- **Como aparece:** Contexto de valores monetários ou descrição física.\n- **Pegadinha:** \"Quantia vultuosa\" (parece chique, mas está errado).\n- **Decisão:** Dinheiro/Volume = Vultoso. Cara inchada = Vultuoso.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o texto opõe diagnóstico e paliativo, **ENTÃO** a tese é a mudança estrutural.\n**2) SE** é relatar/escrever, **ENTÃO** é dEscrição.\n**3) SE** é ordem de juiz/polícia, **ENTÃO** é mandaDo.\n**4) SE** pode trocar por \"faz\" (tempo), **ENTÃO** é Há.\n**5) SE** explica o termo anterior, **ENTÃO** isole por vírgulas.\n**6) SE** separa sujeito e verbo, **ENTÃO** é erro gramatical grave.\n**7) SE** deslocou adjunto longo, **ENTÃO** use vírgula.\n**8) SE** indica oposição (mas), **ENTÃO** vírgula antes.\n**9) SE** não é lugar físico, **ENTÃO** proibido usar \"onde\".\n**10) SE** é \"Conquanto\", **ENTÃO** é concessão (embora).\n**11) SE** é \"Todavia\", **ENTÃO** é adversidade (mas).\n**12) SE** é \"Contanto que\", **ENTÃO** é condição (caso).\n**13) SE** troca por \"o qual\", **ENTÃO** é pronome relativo.\n**14) SE** não está escrito/parafraseado, **ENTÃO** não é inferência válida.\n**15) SE** é dinheiro/volume, **ENTÃO** é vultoso.\n\n!Interpretando a Banca!\n~Gatilho~\n**1) Troca de Vogais/Consoantes:** A banca aposta que você lê rápido e não vê a diferença entre e/i (descrição) ou d/t (mandado).\n**2) Falsos Sinônimos:** Conectivos que soam parecidos (conquanto/porquanto, contanto/no entanto) são armadilhas clássicas de reescrita.\n\n!Break para Respirar!\n~Otávio~\n- Perito, a precisão da linguagem é sua primeira arma. Se você não sabe a diferença entre um mandado e um mandato, você prende a pessoa errada. Olhos abertos."
+    },
+    {
+      "type": "reading_block",
+      "id": "pp_s01_l01_pt_texto_01",
+      "timer_override": 900,
+      "content": {
+        "title": "Rio de Janeiro: Colapso das políticas públicas sociais",
+        "body": "1. Os últimos dias no Brasil têm sido marcados por\n2. intensos debates em torno da Operação Contenção,\n3. no Rio de Janeiro. Políticos de ideologias antagônicas\n4. se reúnem em palcos de vaidade, disputando\n5. protagonismo sobre o caos. A hipocrisia institucional\n6. alcança o absurdo: partidos promovem cursos com\n7. \"especialistas\" que jamais pisaram no chão de fábrica\n8. da segurança pública.\n9. Esses analistas comparam modelos de operações\n10. entre Rio e São Paulo, sem perceber que enfrentam\n11. inimigos distintos. No Rio, predomina uma facção\n12. agressiva e expansionista; em São Paulo, uma\n13. organização de perfil mafioso, hierarquizada e\n14. empresarial. São estruturas criminosas de naturezas\n15. diferentes, que exigem estratégias específicas,\n16. planejamento técnico e ação coordenada.\n17. Deve-se compreender que a segurança pública é o\n18. último degrau da falência estatal. De acordo com\n19. dados recentes, as milícias e facções controlam mais\n20. de 40% do território fluminense, impondo suas\n21. próprias leis. O enfrentamento deve seguir a Lei\n22. 12.850/13 e a Convenção de Palermo (2000), exigindo\n23. atuação interinstitucional, jamais ideológica.\n24. O Rio de Janeiro, esse sagrado e trágico retrato da\n25. nação, é o espelho da alma brasileira, onde a\n26. corrupção e a desigualdade corroem o tecido\n27. humano. Mais do que criar leis simbólicas e\n28. punitivistas — verdadeiros espasmos legislativos — é\n29. preciso cumprir o Art. 6º da CF/88 (direitos sociais) e\n30. o Art. 3º, que obriga o Estado a promover o bem de\n31. todos, sem preconceitos ou quaisquer formas de\n32. discriminação. O verdadeiro antídoto contra o crime\n33. não é o chumbo, mas o cumprimento da Constituição.\n\nPEREIRA, Jeferson Botelho. Adaptado para a prova.\nDisponível em: https://www.migalhas.com.br/depeso/443580/rio-de-janeiro-colapso-das-politicas-publicas-sociais",
+        "source": "Simulado 01 - Comentado.pdf - Texto pai (Português)"
+      },
+      "questions": [
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_q01",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 1",
+          "timer_override": 300,
+          "front": "**Questão 1**\n\nSobre o texto, é correto o que se afirma em:",
+          "options": [
+            "A) O autor defende que a prática de crimes é um motor necessário para que o Estado evolua suas leis e alcance o progresso social.",
+            "B) A eficácia do combate ao crime no Rio de Janeiro depende da aplicação rigorosa dos modelos de gestão operacional já consolidados em São Paulo.",
+            "C) No cenário de crise na segurança, o autor identifica agentes políticos que utilizam a tragédia para autopromoção e para a criação de legislações de caráter puramente simbólico.",
+            "D) O autor argumenta que a solução definitiva para a criminalidade reside exclusivamente no aumento do poder bélico e no enfrentamento direto das facções.",
+            "E) A Constituição Federal de 1988, ao tratar de segurança pública, prioriza a repressão penal em detrimento dos direitos sociais básicos."
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) No cenário de crise na segurança, o autor identifica agentes políticos que utilizam a tragédia para autopromoção e para a criação de legislações de caráter puramente simbólico.**\nRESPOSTA: (C)\nNo cenário de crise na segurança, o autor identifica agentes políticos que utilizam a tragédia para autopromoção e para a criação de legislações de caráter puramente simbólico.\nPara o autor o problema é estrutural (falta de Estado social) e a solução atual é superficial (oportunismo político e leis de fachada). Os termos-chave desse entendimento observados no texto são \"palcos de vaidade\" (que remete à ideia de autopromoção) e \"Espasmos legislativos\" (que remetem à ideia de leis simbólicas). Por isso o correto é o que se apresenta na alternativa c).\n\n~Gentalha~\n**A) O autor defende que a prática de crimes é um motor necessário...**\nAnálise das demais alternativas:\nA) O texto diz o oposto. Ele classifica o crime como um \"câncer social em metástase\" e a segurança pública como o \"último degrau da falência estatal\". Para o autor, o crime é uma patologia, não um elemento de progresso.\n\n**B) A eficácia do combate... depende da aplicação rigorosa dos modelos... de São Paulo.**\nB) O autor critica justamente os \"analistas que comparam modelos... sem perceber que enfrentam inimigos distintos\". Ele enfatiza que o Rio tem uma facção \"agressiva\" e SP uma \"mafiosa\", exigindo, portanto, estratégias específicas, e não a cópia de modelos.\n\n**D) O autor argumenta que a solução... reside exclusivamente no aumento do poder bélico...**\nD) O texto nega essa tese ao afirmar categoricamente: \"O verdadeiro antídoto contra o crime não é o chumbo\". Ele desloca a solução para o campo dos direitos sociais e do cumprimento da Constituição.\n\n**E) A Constituição... prioriza a repressão penal em detrimento dos direitos sociais básicos.**\nE) O autor utiliza a Constituição (Art. 3º e 6º) como ferramenta de defesa dos direitos sociais (educação, saúde, trabalho). Ele argumenta que a segurança é fruto da garantia desses direitos, e não da priorização da repressão penal.\n\n~Teoria~\nPara identificar a tese do autor, busque as críticas diretas feitas no texto. Termos como \"palcos de vaidade\" e \"espasmos legislativos\" indicam uma visão negativa sobre a atuação política atual, caracterizando-a como oportunista e superficial.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o texto fala em \"palcos de vaidade\", **ENTÃO** há crítica à c(autopromoção).\n**SE** o texto fala em \"espasmos legislativos\", **ENTÃO** as leis são c(simbólicas/ineficazes).\n\n!Interpretando a Banca!\n~Fumaça~\nA banca cria distratores que dizem exatamente o **oposto** do texto (como dizer que \"é chumbo\" quando o texto diz \"não é chumbo\") ou que sugerem a **cópia de modelos** (SP pro Rio) quando o texto prega a diferenciação.\n\n!Break para Respirar!\n~Otávio~\n- Interpretar é perícia. Você não pode colocar palavras na boca da testemunha (o texto). Se ele disse \"não é chumbo\", qualquer alternativa que sugira força bélica é falso testemunho."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_q02",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 2",
+          "timer_override": 300,
+          "front": "**Questão 2**\n\nAssinale a frase, extraída do texto fornecido, na qual o segmento sublinhado pode ser corretamente substituído pelo termo que está entre parênteses, sem alteração do sentido.",
+          "options": [
+            "A) “__De acordo com__ dados recentes, as milícias e facções controlam mais de 40% do território...” (Conquanto).",
+            "B) “O Rio de Janeiro, esse sagrado e trágico retrato da nação, é o espelho da alma brasileira, __onde__ a corrupção e a desigualdade corroem o tecido humano.” (em que pese)",
+            "C) “São estruturas criminosas de naturezas diferentes, __que__ exigem estratégias específicas, planejamento técnico e ação coordenada.” (as quais)",
+            "D) “__Mais do que__ criar leis simbólicas e punitivistas — verdadeiros espasmos legislativos — é preciso cumprir o Art. 6º da CF/88...” (todavia)",
+            "E) “O verdadeiro antídoto contra o crime não é o chumbo, __mas__ o cumprimento da Constituição.” (Contanto que)"
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**Pronomes Relativos:** \"Que\" é um pronome relativo universal, mas pode ser substituído por \"o qual/a qual/os quais/as quais\" para retomar um substantivo anterior e evitar repetição, mantendo a concordância de gênero e número.\n**Conectivos:** Substituir conectivos exige manter o sentido lógico original (oposição, condição, causa) e a estrutura gramatical (ex: alguns exigem subjuntivo).\n\n~Gabarito~\n**C) “São estruturas criminosas de naturezas diferentes, __que__ exigem estratégias específicas, planejamento técnico e ação coordenada.” (as quais)**\n**RESPOSTA: (C)**\n“São estruturas criminosas de naturezas diferentes, que exigem estratégias específicas, planejamento técnico e ação coordenada.” (as quais)\nNa alternativa c), temos:\nO termo \"que\" é um pronome relativo que retoma o substantivo anterior \"estruturas criminosas\" (feminino, plural). A substituição por \"as quais\" mantém a concordância de gênero e número e preserva a função de retomar o antecedente, sem alterar o sentido da oração.\n\n~Gentalha~\n**A) “__De acordo com__ dados recentes...” (Conquanto).**\nErro das alternativas:\nA) \"De acordo com\" é uma locução prepositiva de conformidade. Ela indica que a informação que segue (os dados das facções) está em harmonia com uma fonte ou autoridade. Já \"conquanto\" é uma conjunção concessiva (equivale a \"embora\"). Além da mudança drástica de sentido (de concordância para oposição), a substituição exigiria uma alteração verbal. \"Conquanto\" exige o modo subjuntivo (Conquanto existam dados...), o que tornaria a frase agramatical no texto original.\n\n**B) “...__onde__ a corrupção...” (em que pese)**\nB) \"onde\" é um pronome relativo que retoma um lugar (neste caso, o Brasil/Rio de Janeiro como metáfora de lugar). Sua função é conectar a oração principal ao local onde a corrupção ocorre. Já \"em que pese\" é uma locução concessiva/argumentativa (equivale a \"apesar de\" ou \"embora se considere\"). É um erro de classe gramatical. Você não pode substituir um pronome relativo por uma locução concessiva sem ferir a estrutura sintática da frase. A frase perderia seu referencial de lugar.\n\n**D) “__Mais do que__ criar leis...” (todavia)**\nD) \"Mais do que\" é uma locução comparativa de superioridade. No contexto, ela estabelece uma escala de prioridade: cumprir a lei é mais importante do que criar novas leis. \"Todavia\" é uma conjunção adversativa (indica oposição, como o \"mas\" ou \"porém\"). A substituição rompe a comparação. Enquanto o original pesa duas ações, o \"todavia\" tentaria criar uma oposição entre ideias que, no texto, são complementares dentro da crítica do autor.\n\n**E) “...__mas__ o cumprimento...” (Contanto que)**\nE) \"mas\" é uma conjunção adversativa que, neste caso específico, faz parte de uma estrutura correlativa de exclusão: \"não é X, mas [é] Y\". \"Contanto que\" é uma conjunção condicional. O autor está afirmando um fato (o antídoto é a Constituição). Se trocarmos por \"contanto que\", transformamos uma afirmação em uma condição. Além disso, o \"mas\" ali liga dois núcleos, enquanto \"contanto que\" exigiria uma oração inteira subordinada.\n\n!Regra de Bolso!\n~Lógica~\n**SE** posso trocar \"que\" por \"o qual/a qual\", **ENTÃO** é c(Pronome Relativo).\n**SE** é \"De acordo com\", **ENTÃO** é c(Conformidade).\n**SE** é \"Conquanto\", **ENTÃO** é c(Concessão) (oposição).\n\n!Interpretando a Banca!\n~Gatilho~\nA questão de reescrita exige dois testes: 1) O sentido se manteve? (Conformidade virou Oposição? Errado). 2) A gramática quebrou? (Conquanto exige subjuntivo). Se falhar em um, elimine.\n\n!Break para Respirar!\n~Otávio~\n- Trocar conectivos é como trocar reagentes químicos. Se você usar um ácido (oposição) no lugar de uma base (conformidade), a reação explode. Use a tabela periódica das conjunções."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_q03",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 3",
+          "timer_override": 240,
+          "front": "**Questão 3**\n\nAssinale a pergunta que tem resposta no texto fornecido.",
+          "options": [
+            "A) Quais são os nomes dos partidos políticos que promovem os cursos de segurança pública mencionados pelo autor?",
+            "B) De que maneira a Convenção de Palermo (2000) alterou o texto original da Lei 12.850/13 no ordenamento jurídico brasileiro?",
+            "C) Qual é a estimativa da extensão territorial do estado do Rio de Janeiro sob o controle de grupos criminosos como milícias e facções?",
+            "D) Qual o valor do investimento necessário para que o Estado recupere o controle dos \"becos e vielas\" onde o crime hoje impera?",
+            "E) Em qual artigo da Constituição Federal de 1988 estão descritas as punições específicas para o descumprimento dos direitos sociais?"
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) Qual é a estimativa da extensão territorial do estado do Rio de Janeiro sob o controle de grupos criminosos como milícias e facções?**\nRESPOSTA: (C)\nQual é a estimativa da extensão territorial do estado do Rio de Janeiro sob o controle de grupos criminosos como milícias e facções?\nConsiderando o texto, o trecho em destaque \"De acordo com dados recentes do Ministério da Justiça e de estudos acadêmicos de segurança pública, as milícias e facções controlam mais de 40% do território fluminense...\" permite inferir a extensão territorial do estado do Rio de Janeiro sob o controle de grupos criminosos como milícias e facções.\n\n~Gentalha~\n**A) Quais são os nomes dos partidos políticos...?**\ncomentário_professor_gentalha:\n(não há análise das demais alternativas no material)\n\n**B) De que maneira a Convenção de Palermo... alterou o texto original...?**\n(não há análise das demais alternativas no material)\n\n**D) Qual o valor do investimento necessário...?**\n(não há análise das demais alternativas no material)\n\n**E) Em qual artigo... estão descritas as punições específicas...?**\n(não há análise das demais alternativas no material)\n\n~Teoria~\nQuestões de \"compreensão\" exigem que a resposta esteja **escrita** ou **diretamente inferível** no texto. Informações externas ou curiosidades não abordadas (nomes específicos, valores monetários não citados) tornam a alternativa inválida.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o texto diz \"mais de 40%\", **ENTÃO** ele respondeu à pergunta sobre c(extensão).\n**SE** o texto não citou nomes ou valores, **ENTÃO** perguntas sobre \"quais nomes\" ou \"qual valor\" estão c(sem resposta).\n\n!Interpretando a Banca!\n~Ouro~\nA banca testa se você leu o texto ou se está imaginando coisas. O critério é a **literalidade**. Se não está escrito, não é a resposta.\n\n!Break para Respirar!\n~Otávio~\n- O laudo pericial só responde ao que foi perguntado e examinado. Não invente dados que não estão na cena do crime (o texto)."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_boss_inter_01",
+          "subject": "Língua Portuguesa",
+          "source": "BOSS INTERMEDIÁRIO I - Revisão Tática (Português)",
+          "timer_override": 400,
+          "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n(aponta para o quadro de evidências)\n- Perito, revisamos a estrutura dissertativa, os pronomes e a extração de dados. Confirme se sua leitura está calibrada:",
+          "stem": [
+            "vf(I. O pronome relativo \"que\" pode ser substituído por \"os quais/as quais\" para retomar o antecedente sem alterar o sentido.)",
+            "vf(II. A conjunção \"Conquanto\" expressa conformidade, sendo sinônimo de \"De acordo com\".)",
+            "vf(III. Perguntas de compreensão textual devem ser respondidas exclusivamente com dados presentes no texto, sem extrapolação.)",
+            "vf(IV. O autor do texto defende o aumento do poder bélico (\"chumbo\") como solução única para a segurança.)"
+          ],
+          "options": [
+            "A) I e III são verdadeiras.",
+            "B) II e IV são verdadeiras.",
+            "C) Apenas I é verdadeira.",
+            "D) Todas são falsas.",
+            "E) Todas são verdadeiras."
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Pronomes Relativos:** O pronome \"que\" retoma o termo imediatamente anterior. A prova real é a substituição por \"o qual/a qual/os quais/as quais\", flexionando para concordar com o antecedente.\n**2) Conectivos:** \"Conquanto\" é uma conjunção concessiva (ideia de oposição/embora). \"De acordo com\" é conformativa. São sentidos opostos.\n**3) Compreensão de Texto:** Respostas sobre dados (como extensão territorial) exigem ancoragem literal ou inferência direta de uma frase do texto. Não se inventa dado.\n**4) Interpretação:** Se o texto diz explicitamente \"não é o chumbo\", qualquer alternativa que sugira aumento bélico como solução está errada por contradição direta.\n\n~Gabarito~\n**I) O pronome relativo \"que\" pode ser substituído por \"os quais/as quais\"...**\n**Verdadeira:** A troca confirma o antecedente e mantém a correção gramatical.\n\n**III) Perguntas de compreensão textual devem ser respondidas exclusivamente com dados presentes...**\n**Verdadeira:** A resposta correta deve ser rastreável no texto (ex: os 40% citados).\n\n~Gentalha~\n**II) A conjunção \"Conquanto\" expressa conformidade...**\n**Falsa:** Conquanto expressa concessão (embora). Conformidade seria \"Conforme\" ou \"Segundo\".\n\n**IV) O autor... defende o aumento do poder bélico (\"chumbo\")...**\n**Falsa:** O texto nega essa tese: \"O verdadeiro antídoto... NÃO é o chumbo\".\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** troca por \"o qual/a qual\", **ENTÃO** o \"que\" é relativo.\n**2) SE** é \"Conquanto\", **ENTÃO** é concessão (oposição).\n**3) SE** o dado não está no texto, **ENTÃO** a resposta está errada.\n**4) SE** o texto diz \"não é X\", **ENTÃO** a alternativa que diz \"é X\" é falsa."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_q04",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 4",
+          "timer_override": 240,
+          "front": "**Questão 4**\n\nAssinale a alternativa em que o termo destacado está correto de acordo com a norma culta e o contexto do texto fornecido.",
+          "options": [
+            "A) Ao criticar os \"especialistas de gabinete\", o autor sugere que falta a esses profissionais a devida **descrição** para lidar com dados sensíveis da segurança pública.",
+            "B) A Operação Contenção, deflagrada no Rio de Janeiro contra o crime organizado, foi pautada por um **mandato** judicial de busca e apreensão.",
+            "C) O controle de 40% do território fluminense pelas facções permite a arrecadação de uma **vultuosa** quantia de dinheiro através de taxas ilegais.",
+            "D) Conforme o Art. 3º da Constituição Federal citado no texto, o Estado deve promover o bem de todos, sem preconceitos de origem ou quaisquer outras formas de **discriminação**.",
+            "E) O autor argumenta que a falência das políticas de prevenção e o domínio das facções ocorrem no Rio de Janeiro **a cerca de** muitos anos."
+          ],
+          "answer": 3,
+          "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) ...sem preconceitos de origem ou quaisquer outras formas de discriminação.**\nRESPOSTA: (D)\nConforme o Art. 3º da Constituição Federal citado no texto, o Estado deve promover o bem de todos, sem preconceitos de origem ou quaisquer outras formas de discriminação.\nA tabela apresenta um resumo dos parônimos apresentados nas alternativas da questão:\n{{img:C:/Users/ACER/Documents/GitHub/Policia-Cientifica-Santa-Catarina/Simulado/Projeto Perícia/Simulado 01/IMG/4 verso.png|60%|A tabela apresenta um resumo dos parônimos apresentados nas alternativas da questão.}}\n\n~Gentalha~\n**A) ...falta a esses profissionais a devida descrição...**\ncomentário_professor_gentalha:\n(não há análise das demais alternativas no material)\n\n**B) ...foi pautada por um mandato judicial...**\n(não há análise das demais alternativas no material)\n\n**C) ...arrecadação de uma vultuosa quantia...**\n(não há análise das demais alternativas no material)\n\n**E) ...ocorrem no Rio de Janeiro a cerca de muitos anos.**\n(não há análise das demais alternativas no material)\n\n~Teoria~\n**Parônimos:** Palavras com grafia e som parecidos, mas significados diferentes.\n- **Discrição** (Reserva) vs **Descrição** (Relato).\n- **Mandado** (Ordem) vs **Mandato** (Período).\n- **Vultoso** (Volume/Dinheiro) vs **Vultuoso** (Inchado).\n- **Há cerca de** (Tempo) vs **A cerca de** (Distância).\n- **Discriminação** (Segregar) vs **Descriminação** (Inocentar/Tirar crime).\n\n!Regra de Bolso!\n~Lógica~\n**SE** é segregar, **ENTÃO** é D**I**scriminar.\n**SE** é ordem judicial, **ENTÃO** é Manda**D**o.\n**SE** é dinheiro/volume, **ENTÃO** é Vulto**S**o.\n**SE** é tempo passado, **ENTÃO** é **Há**.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca sempre troca uma letra (e/i, d/t, s/z). O contexto é rei: \"Juiz\" puxa Mandado. \"Dinheiro\" puxa Vultoso. \"Tempo\" puxa Há.\n\n!Break para Respirar!\n~Otávio~\n- Um perito que escreve \"mandato de busca\" ou \"face vultosa\" (no sentido de dinheiro) perde a credibilidade no primeiro parágrafo do laudo. Vocabulário técnico é obrigação."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_q05",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 5",
+          "timer_override": 300,
+          "front": "**Questão 5**\n\nAssinale a alternativa correta quanto ao emprego de vírgula(s), com base no texto e na norma culta.",
+          "options": [
+            "A) O autor afirma, que a segurança pública é o último degrau da falência estatal, marcada pela ausência de serviços primordiais como educação e saúde.",
+            "B) No Rio de Janeiro predomina uma facção expansionista enquanto, em São Paulo, vigora uma organização de perfil mafioso, hierarquizado e empresarial.",
+            "C) O Rio de Janeiro, esse sagrado e trágico retrato da nação, é o espelho da alma brasileira, onde a corrupção e a desigualdade corroem o tecido humano.",
+            "D) As milícias e as facções criminosas, controlam mais de 40% do território fluminense, impondo suas próprias leis e tributos à população.",
+            "E) Para o autor o verdadeiro antídoto contra o crime não é o chumbo, mas sim, o cumprimento da Constituição e a garantia da justiça social em movimento."
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) O Rio de Janeiro, esse sagrado e trágico retrato da nação, é o espelho...**\nRESPOSTA: (C)\nO Rio de Janeiro, esse sagrado e trágico retrato da nação, é o espelho da alma brasileira, onde a corrupção e a desigualdade corroem o tecido humano.\nNa alternativa c) ocorre aposto explicativo, visto que o segmento \"esse sagrado e trágico retrato da nação\" explica o substantivo \"Rio de Janeiro\" e deve vir isolado por vírgulas. Dessa forma, a vírgula antes de \"onde a corrupção...\" introduz uma explicação adicional sobre o \"espelho da alma brasileira\", estando gramaticalmente bem empregada.\n\n~Gentalha~\n**A) O autor afirma, que a segurança pública...**\nAnálise do erro das outras alternativas:\nA) Nunca se separa o verbo de seu objeto direto por vírgula.\n\n**B) ...enquanto, em São Paulo, vigora...**\nB) O adjunto adverbial \"No Rio de Janeiro\" está deslocado e, por ser de extensão média/longa, deveria vir seguido de vírgula. Além disso, falta uma vírgula antes da conjunção \"enquanto\".\n\n**D) As milícias e as facções criminosas, controlam...**\nD) A vírgula está separando o sujeito composto (\"As milícias e as facções criminosas\") do seu respectivo verbo (\"controlam\").\n\n**E) ...mas sim, o cumprimento...**\nE) Falta uma vírgula após o adjunto adverbial deslocado \"Para o autor\". Além disso, a vírgula após \"mas sim\" está incorreta, pois separa a conjunção do seu complemento.\n\n~Teoria~\n**Aposto Explicativo:** Termo que explica um substantivo anterior deve vir isolado por pontuação (vírgulas).\n**Ordem Direta:** Não se separa Sujeito de Verbo nem Verbo de Objeto.\n**Adjunto Adverbial:** Se deslocado, pede vírgula.\n**Conjunções:** A vírgula vem **antes** da adversativa (mas), não depois, a menos que haja intercalação.\n\n!Regra de Bolso!\n~Lógica~\n**SE** explica o termo anterior, **ENTÃO** é Aposto (vírgula antes e depois).\n**SE** separa Sujeito do Verbo, **ENTÃO** é c(Crime Hediondo) gramatical.\n\n!Interpretando a Banca!\n~Gatilho~\nIdentifique o verbo. Pergunte \"Quem?\". Se tiver vírgula entre o Quem (Sujeito) e o Verbo, a alternativa está errada. É o filtro mais rápido.\n\n!Break para Respirar!\n~Otávio~\n- A pontuação dita o ritmo e a lógica. Uma vírgula errada pode transformar vítima em réu. \"Não mate\" é diferente de \"Não, mate\". Precisão."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_boss_inter_02",
+          "subject": "Língua Portuguesa",
+          "source": "BOSS INTERMEDIÁRIO II - Revisão Tática (Português)",
+          "timer_override": 400,
+          "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n(fecha a pasta de evidências)\n- Perito, finalizamos a análise de parônimos e pontuação. Verifique se seu relatório final contém erros:",
+          "stem": [
+            "vf(I. O termo \"Discrição\" refere-se ao ato de descrever detalhadamente uma cena de crime.)",
+            "vf(II. É proibido separar o sujeito do verbo com vírgula, exceto se o sujeito for muito extenso.)",
+            "vf(III. O termo \"Vultoso\" deve ser usado para se referir a grandes quantias de dinheiro.)",
+            "vf(IV. A expressão \"A cerca de\" deve ser usada para indicar tempo decorrido, como em \"A cerca de 10 anos\".)"
+          ],
+          "options": [
+            "A) Apenas III é verdadeira.",
+            "B) I e IV são verdadeiras.",
+            "C) II e III são verdadeiras.",
+            "D) Todas são falsas.",
+            "E) Todas são verdadeiras."
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Parônimos:** Vultoso = Dinheiro. Discrição = Reserva.\n**Vírgula:** Proibida entre sujeito/verbo.\n\n~Gabarito~\n**III) O termo \"Vultoso\" deve ser usado para se referir a grandes quantias de dinheiro.**\n**Verdadeira:** Vultoso = Vulto/Volume. Vultuoso = Inchado (médico).\n\n~Gentalha~\n**I) O termo \"Discrição\" refere-se ao ato de descrever...**\n**Falsa:** Descrever é **DE**scrição. Discrição é ser discreto.\n\n**II) É proibido separar o sujeito do verbo com vírgula, exceto se o sujeito for muito extenso.**\n**Falsa:** É proibido **SEMPRE**. A extensão do sujeito não autoriza a vírgula da morte.\n\n**IV) A expressão \"A cerca de\" deve ser usada para indicar tempo decorrido...**\n**Falsa:** Tempo decorrido é **HÁ** (verbo haver). \"A cerca de\" é distância.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é descrever, **ENTÃO** é **DE**scrição.\n**SE** separa Sujeito/Verbo, **ENTÃO** está **Errado** (sem exceção).\n**SE** é tempo passado, **ENTÃO** é **HÁ**.\n\n!Break para Respirar!\n~Otávio~\n- Ciclo de Português encerrado. Sua base normativa está sólida? O próximo desafio exige proficiência internacional."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_pt_boss_final",
+          "subject": "Língua Portuguesa",
+          "source": "BOSS FINAL (PORTUGUÊS) - O Veredito",
+          "timer_override": 600,
+          "front": "**(BOSS FINAL) - Otávio:**\n(carimba o laudo com força)\n- Estrategista, antes de mudar de idioma, prove que domina o vernáculo. Julgue os conceitos táticos aplicados neste lote:",
+          "stem": [
+            "vf(I. Um aposto explicativo deve vir isolado por pontuação, como vírgulas.)",
+            "vf(II. A conjunção \"Todavia\" indica condição, podendo substituir \"Contanto que\".)",
+            "vf(III. \"Mandado\" refere-se a ordem judicial, enquanto \"Mandato\" é representação política.)",
+            "vf(IV. Em perguntas de interpretação, se o dado não consta no texto, a alternativa está incorreta.)",
+            "vf(V. A crase ou a vírgula podem ser usadas opcionalmente para separar sujeito e verbo.)"
+          ],
+          "options": [
+            "A) I, III e IV são verdadeiras.",
+            "B) II e V são verdadeiras.",
+            "C) Todas são verdadeiras.",
+            "D) Apenas I e III são verdadeiras.",
+            "E) Nenhuma é verdadeira."
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Pontuação (Aposto):** O Aposto Explicativo é um termo que esclarece um substantivo anterior e deve vir isolado por pontuação (geralmente duas vírgulas).\n**2) Conectivos:** \"Todavia\" é uma conjunção adversativa (mas/porém/contudo). \"Contanto que\" é condicional (caso/desde que). Não são intercambiáveis.\n**3) Parônimos (Mandado/Mandato):** \"Mandado\" (com D) refere-se a uma ordem, geralmente judicial. \"Mandato\" (com T) refere-se a uma representação política ou procuração.\n**4) Interpretação:** A extrapolação ocorre quando a alternativa traz uma informação que pode ser verdade no mundo real, mas não foi citada no texto. Em prova, isso torna o item errado.\n**5) Pontuação (Sujeito/Verbo):** A regra de ouro da sintaxe proíbe separar o sujeito do seu verbo com vírgula, independentemente da extensão do sujeito.\n\n~Gabarito~\n**I) Um aposto explicativo deve vir isolado por pontuação...**\n**Verdadeira:** É a regra padrão para termos explicativos deslocados.\n\n**III) \"Mandado\" refere-se a ordem judicial, enquanto \"Mandato\" é representação política.**\n**Verdadeira:** A distinção D (Juiz manda) vs T (Político) é clássica.\n\n**IV) Em perguntas de interpretação, se o dado não consta no texto...**\n**Verdadeira:** O texto é a única fonte de verdade para a questão.\n\n~Gentalha~\n**II) A conjunção \"Todavia\" indica condição...**\n**Falsa:** Todavia indica oposição (adversidade). Condição seria \"Se\" ou \"Caso\".\n\n**V) A crase ou a vírgula podem ser usadas opcionalmente para separar sujeito e verbo.**\n**Falsa:** É um erro gramatical grave separar sujeito e verbo, e a crase não tem essa função de pausa.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é aposto explicativo, **ENTÃO** isola com vírgulas.\n**2) SE** é Todavia, **ENTÃO** é oposição (não condição).\n**3) SE** é ordem judicial, **ENTÃO** é MandaDO.\n**4) SE** não está no texto, **ENTÃO** é extrapolação (erro).\n**5) SE** separa sujeito e verbo, **ENTÃO** a pontuação está errada."
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "pp_s01_l01_en_boss_tutorial",
+      "subject": "Língua Inglesa - Ballistics",
+      "source": "BOSS TUTORIAL - Tactical English Mapping",
+      "timer_override": 1200,
+      "front": "**(BOSS TUTORIAL) - Otávio:**\n(adjusts the comparison microscope)\n- *Expert*, a perícia balística internacional exige domínio técnico em inglês. Aqui, as palavras são as evidências. Decifre este glossário tático antes de examinar a cena do crime:",
+      "stem": [
+        "**1) Class Characteristics (Características de Classe):** \n São especificações de c(fábrica) (make and model). Incluem o número de c(lands and grooves) (cheios e raias). Elas c(não individualizam) a arma; apenas indicam o modelo/fabricante. Elas \"sugerem\" (suggest), mas não \"confirmam\" (confirm).",
+        "**2) Individual Characteristics (Características Individuais):** \n São as c(imperfeições microscópicas) únicas causadas pelo uso (wear and tear), fabricação aleatória ou negligência. Elas funcionam como uma \"impressão digital\" (fingerprint) e são as c(únicas) capazes de provar que uma bala saiu de uma arma específica.",
+        "**3) Rifling (Raiamento):** \n São os c(sulcos espirais) (spiral grooves) dentro do cano (barrel) que fazem a bala girar (spin) para dar estabilidade. O cano age como um \"molde\" (mold) no metal mais macio da bala.",
+        "**4) Distinctive (Distintivo/Característico):** \n Significa algo que diferencia, que é c(típico) ou c(característico). Não confunda com 'distinto' (educado) em outros contextos. Aqui, é sinônimo de c(Unique) ou c(Characteristic).",
+        "**5) However (Conector):** \n Significa c(Entretanto/Porém). Introduz um c(contraste) (contrast) ou oposição à ideia anterior. É crucial para entender quando o autor muda a direção do argumento.",
+        "**6) Consequently (Conector):** \n Significa c(Consequentemente). Introduz um c(resultado) (result/effect) ou conclusão lógica de uma ação anterior.",
+        "**7) Insist ON (Regência):** \n O verbo 'Insist' exige a preposição c(ON). E em inglês, qualquer verbo que vem depois de preposição deve estar no c(Gerúndio) (-ing). Ex: Insist c(on comparing).",
+        "**8) Under the microscope (Expressão):** \n Expressão idiomática e técnica que significa \"sob análise minuciosa\". A preposição correta para instrumentos óticos de análise é c(under) (sob a lente do microscópio).",
+        "**9) GSR (Gunshot Residue - Resíduo de Disparo):** \n Nuvem de partículas (chumbo, bário, antimônio) expelida no tiro. Pode se depositar nas c(mãos), roupas ou rosto.",
+        "**10) SEM (Scanning Electron Microscopy):** \n Microscopia Eletrônica de Varredura. É a técnica usada para c(detectar) os elementos do GSR.",
+        "**11) Passive Voice (Voz Passiva):** \n Estrutura \"To Be + Past Participle\" (ex: c(were fired)). Foca na ação ou no objeto, não no sujeito. Muito comum em textos técnicos.",
+        "**12) Reference 'They' (Referência Pronominal):** \n Pronomes como 'they', 'it', 'them' substituem substantivos citados antes. Para descobrir quem são, pergunte ao verbo: \"Quem foi disparado?\" (Bullets).",
+        "**13) Lands and Grooves:** \n Termos técnicos para os \"cheios\" (partes altas) e \"raias/sulcos\" (partes baixas) dentro do cano da arma.",
+        "**14) Striations (Estrias):** \n Marcas lineares ou arranhões na bala ou estojo, cruciais para a identificação individual.",
+        "**15) Breech Face (Espelho da Culatra):** \n Parte da arma que deixa marcas na base do estojo (cartridge case) quando ocorre o recuo do disparo."
+      ],
+      "options": [
+        "A) Copy that, Sir. Ready to engage."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Class Characteristics**\n- **Como aparece:** A banca pergunta se \"marca de classe\" prova que o tiro saiu de uma arma X.\n- **Pegadinha:** Dizer que classe (marca/modelo) é suficiente para individualizar.\n- **Decisão:** Class = Grupo (sugere). Individual = Único (confirma).\n\n**2) Individual Characteristics**\n- **Como aparece:** Descrição de imperfeições aleatórias.\n- **Pegadinha:** Confundir com especificações de fábrica (que são Classe).\n- **Decisão:** Falha/Desgaste/Aleatório = Individual (Prova autoria).\n\n**3) Rifling (Raiamento)**\n- **Como aparece:** Função das ranhuras no cano.\n- **Pegadinha:** Dizer que \"spin\" (giro) é para velocidade, quando é para estabilidade.\n- **Decisão:** Grooves = Spin = Stability.\n\n**4) Distinctive (Vocabulário)**\n- **Como aparece:** Sinônimos.\n- **Pegadinha:** Confundir com \"Ambiguous\" ou \"Vague\".\n- **Decisão:** Distinctive = Típico/Único/Característico.\n\n**5) However (Conector)**\n- **Como aparece:** Início de frase mudando o sentido.\n- **Pegadinha:** Dizer que introduz adição ou causa.\n- **Decisão:** However = Mas (Contraste).\n\n**6) Consequently (Conector)**\n- **Como aparece:** Após uma explicação de processo.\n- **Pegadinha:** Dizer que é contraste.\n- **Decisão:** Consequently = Resultado/Efeito.\n\n**7) Insist ON (Regência)**\n- **Como aparece:** Lacuna após o verbo insist.\n- **Pegadinha:** Insist \"in\" ou \"at\".\n- **Decisão:** Quem insiste, insiste ON + Ing (gerúndio).\n\n**8) Under the microscope**\n- **Como aparece:** Preposição de lugar para análise ótica.\n- **Pegadinha:** \"In\" the microscope ou \"At\".\n- **Decisão:** Objeto sob a lente = UNDER.\n\n**9) GSR (Gunshot Residue)**\n- **Como aparece:** O que prova o disparo recente.\n- **Pegadinha:** Confundir composição (é Pb, Ba, Sb).\n- **Decisão:** Nuvem de partículas = GSR.\n\n**10) SEM (Scanning Electron Microscopy)**\n- **Como aparece:** Método de análise.\n- **Pegadinha:** Usar métodos químicos simples para confirmação definitiva.\n- **Decisão:** Detecção de GSR = SEM.\n\n**11) Passive Voice**\n- **Como aparece:** Foco no objeto (\"The gun was fired\").\n- **Pegadinha:** Achar que o sujeito da frase é quem praticou a ação.\n- **Decisão:** To Be + Particípio = Passiva (Sujeito sofre a ação).\n\n**12) Reference 'They'**\n- **Como aparece:** Pronome no início da frase.\n- **Pegadinha:** Retomar o sujeito errado (ex: armas em vez de balas).\n- **Decisão:** Pergunte ao verbo: \"Quem sofreu a ação?\".\n\n**13) Lands and Grooves**\n- **Como aparece:** Componentes do raiamento.\n- **Pegadinha:** Dizer que são características individuais (são de classe).\n- **Decisão:** Parte da fabricação do cano.\n\n**14) Striations**\n- **Como aparece:** Marcas finas (riscos).\n- **Pegadinha:** Ignorar que são elas que permitem o \"match\".\n- **Decisão:** Estrias = Identificação Individual.\n\n**15) Breech Face**\n- **Como aparece:** Marcas no estojo (casing).\n- **Pegadinha:** Confundir com marcas na bala (bullet).\n- **Decisão:** Recuo contra a culatra marca o estojo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é marca/modelo, **ENTÃO** é Classe (não prova).\n**2) SE** é desgaste/imperfeição, **ENTÃO** é Individual (prova).\n**3) SE** é raiamento, **ENTÃO** gera giro e estabilidade.\n**4) SE** é distinctive, **ENTÃO** é único/claro.\n**5) SE** é However, **ENTÃO** é contraste.\n**6) SE** é Consequently, **ENTÃO** é resultado.\n**7) SE** é Insist, **ENTÃO** use ON.\n**8) SE** é microscópio, **ENTÃO** use UNDER.\n**9) SE** é resíduo de tiro, **ENTÃO** é GSR.\n**10) SE** é análise de GSR, **ENTÃO** use SEM.\n**11) SE** é To Be + Particípio, **ENTÃO** é voz passiva.\n**12) SE** é pronome, **ENTÃO** busque o substantivo anterior lógico.\n**13) SE** são cheios e raias, **ENTÃO** são do cano.\n**14) SE** são estrias, **ENTÃO** individualizam.\n**15) SE** é recuo no estojo, **ENTÃO** é marca de culatra.\n\n!Interpretando a Banca!\n~Gatilho~\n**1) Absolutos:** A banca adora dizer que características de classe \"provam\" ou \"garantem\" identidade. Errado. Só sugerem.\n**2) Preposições:** Em inglês técnico, a regência é fixa (collocation). Não traduza ao pé da letra (\"insistir em\" vira \"on\", não \"in\").\n\n!Break para Respirar!\n~Otávio~\n- *Forensic English is mandatory.* Não adianta ser um excelente perito se você não consegue ler o manual da sua própria arma ou o *paper* mais recente sobre balística."
+    },
+    {
+      "type": "reading_block",
+      "id": "pp_s01_l01_en_texto_01",
+      "timer_override": 900,
+      "content": {
+        "title": "The Science of Ballistics and Firearm Identification",
+        "body": "Forensic ballistics is a highly specialized discipline that involves the analysis of firearms, ammunition, and the trajectories of projectiles. While the field covers several sub-categories—internal, external, and terminal ballistics—the most critical aspect for criminal investigations is often firearm identification.\n\nThis process relies on the principle that firearm barrels are manufactured with spiral grooves, known as rifling, which spin the bullet to ensure stability in flight. When a weapon is fired, the harder metal of the barrel acts as a mold for the softer metal of the bullet, imparting distinctive markings on its surface.\n\nThese markings are categorized into two types: class characteristics and individual characteristics. Class characteristics refer to the design specifications determined by the manufacturer, such as the number of lands and grooves and the direction of the twist. However, sharing these traits does not confirm that two bullets came from the same specific gun; it only suggests they were fired from the same make and model. To establish a definitive match, examiners must look for individual characteristics—microscopic imperfections and striations caused by manufacturing randomness, wear, and tear, or neglect. These random irregularities are unique to a single firearm, much like a human fingerprint.\n\nFurthermore, the investigation is not limited to the bullet. The cartridge case provides a wealth of information. When the firing pin strikes the primer, it leaves a specific impression. Additionally, the breech face of the firearm leaves marks on the cartridge base as the casing is slammed back by the expanding gases. By using a comparison microscope, experts can view two samples side-by-side to determine if there is a match.\n\nAnother crucial component is the analysis of Gunshot Residue (GSR). When a gun is discharged, a plume of gaseous cloud containing unburned powder and metallic particles—primarily lead, barium, and antimony—is expelled. These particles can settle on the hands, clothes, or face of the shooter.\n\nConsequently, detecting these elements via Scanning Electron Microscopy (SEM) can provide powerful evidence linking a suspect to the discharge of a firearm, although environmental contamination must always be ruled out to avoid false positives.",
+        "source": "Simulado 01 - Comentado.pdf - Texto pai (Inglês)"
+      },
+      "questions": [
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_q06",
+          "subject": "Língua Inglesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 6",
+          "timer_override": 360,
+          "front": "**Questão 6**\n\nAnalyze the assertions below regarding the distinction between class and individual characteristics in ballistics:\n\nChoose the correct alternative:",
+          "stem": [
+            "vf(I. Class characteristics are sufficient to prove that a specific bullet was fired from a specific suspect's gun.)",
+            "vf(II. Individual characteristics result from random microscopic imperfections and the wear and tear of the weapon over time.)",
+            "vf(III. Class characteristics include specifications like the number of lands and grooves, which are determined by the manufacturer.)",
+            "vf(IV. If two bullets share the same class characteristics, they definitely originated from the same unique firearm.)"
+          ],
+          "options": [
+            "A) Only statements I and IV are correct.",
+            "B) Only statements II and III are correct.",
+            "C) Only statement II is correct.",
+            "D) Only statements III and IV are correct.",
+            "E) All statements are correct."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**B) Only statements II and III are correct.**\nRESPOSTA: (B)\nOnly statements II and III are correct.\nLetra B.\nAssertiva II – CORRETA\n“Individual characteristics result from random microscopic imperfections and the wear and tear of the weapon over time.”\nTotalmente coerente com o texto:\n“individual characteristics—microscopic imperfections and striations caused by manufacturing randomness, wear, and tear, or neglect.”\nEssas características são aleatórias e únicas, motivo pelo qual permitem a individualização do armamento.\nAssertiva III – CORRETA\n“Class characteristics include specifications like the number of lands and grooves, which are determined by the manufacturer.”\nExatamente como descrito no texto:\n“Class characteristics refer to the design specifications determined by the manufacturer, such as the number of lands and grooves and the direction of the twist.”\n\n~Gentalha~\n**I) Class characteristics are sufficient to prove...**\nAssertiva I – INCORRETA\n“Class characteristics are sufficient to prove that a specific bullet was fired from a specific suspect's gun.”\nErro conceitual grave.\nO texto afirma explicitamente que class characteristics NÃO são suficientes para uma identificação definitiva:\n“sharing these traits does not confirm that two bullets came from the same specific gun; it only suggests they were fired from the same make and model.”\nOu seja, elas apenas indicam compatibilidade geral, não autoria individual.\n\n**IV) If two bullets share the same class characteristics...**\nAssertiva IV – INCORRETA\n“If two bullets share the same class characteristics, they definitely originated from the same unique firearm.”\nAfirmação expressamente negada no texto.\nClass characteristics não individualizam, apenas indicam mesmo modelo/calibre, nunca a mesma arma específica.\n\n~Teoria~\n**Class Characteristics:** Características de fábrica (modelo, calibre, número de raias). São genéricas. Não provam identidade única, apenas sugerem compatibilidade de modelo.\n**Individual Characteristics:** Marcas únicas causadas por falhas de fabricação, desgaste (wear and tear) e uso. São como impressões digitais. Provam identidade única.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é marca de fábrica (Class), **ENTÃO** c(NÃO PROVA) identidade única.\n**SE** é imperfeição/desgaste (Individual), **ENTÃO** c(PROVA) identidade única.\n\n!Interpretando a Banca!\n~Gatilho~\nCuidado com palavras absolutas como \"Sufficient\" (suficiente) ou \"Definitely\" (definitivamente). Na ciência forense, classe nunca é suficiente para individualizar.\n\n!Break para Respirar!\n~Otávio~\n- Confundir Classe com Individual é como prender todos os donos de Honda Civic prata porque o assaltante usou um Honda Civic prata. Você precisa da placa (Individual), não só do modelo (Classe)."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_q07",
+          "subject": "Língua Inglesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 7",
+          "timer_override": 240,
+          "front": "**Questão 7**\n\nIn the first paragraph, the word \"distinctive\" (\"...imparting distinctive markings on its surface\") could be replaced, without changing the context, by:",
+          "options": [
+            "A) Ambiguous",
+            "B) Characteristic",
+            "C) Temporary",
+            "D) Invisible",
+            "E) Irrelevant"
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**B) Characteristic**\nRESPOSTA: (B)\nCharacteristic\nLetra B.\nA palavra distinctive significa:\n1) que distingue,\n2) que diferencia,\n3) que possui características próprias.\nO sinônimo que mantém exatamente o mesmo sentido contextual é:\nCharacteristic → algo que é típico, identificador, próprio.\n\n~Gentalha~\n**A) Ambiguous**\nDemais alternativas:\nA) Ambiguous → significa ambíguo, confuso (oposto da ideia).\n\n**C) Temporary**\nC) Temporary → temporário (não se aplica).\n\n**D) Invisible**\nD) Invisible → invisível (contradiz o conceito).\n\n**E) Irrelevant**\nE) Irrelevant → irrelevante (sem relação semântica).\n\n~Teoria~\n**Vocabulário Técnico:** \"Distinctive\" vem de \"Distinction\". Significa algo que serve para distinguir, identificar ou diferenciar. É sinônimo de \"típico\", \"característico\" ou \"único\" em contextos forenses.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é Distinctive, **ENTÃO** serve para c(Distinguir/Identificar).\n**SE** serve para identificar, **ENTÃO** é c(Characteristic).\n\n!Interpretando a Banca!\n~Gatilho~\nQuestões de sinônimos exigem que você conheça a definição raiz. \"Distinct\" = Claro, Diferente. \"Distinctive\" = Que tem a qualidade de diferenciar.\n\n!Break para Respirar!\n~Otávio~\n- Em balística, o que não é *distinctive* é ruído. Buscamos o detalhe que grita a identidade da arma."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_q08",
+          "subject": "Língua Inglesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 8",
+          "timer_override": 300,
+          "front": "**Questão 8**\n\nAnalyze the use of the connectors \"However\" (2nd paragraph) and \"Consequently\" (4th paragraph). Check the correct analysis:",
+          "options": [
+            "A) \"However\" introduces an addition to the previous idea, while \"Consequently\" introduces a contrast.",
+            "B) \"However\" indicates a cause, while \"Consequently\" indicates a time sequence.",
+            "C) Both connectors serve to introduce examples in the text.",
+            "D) \"However\" introduces a contrast/opposition, while \"Consequently\" introduces a result/effect.",
+            "E) \"However\" could be replaced by \"Therefore\" without changing the meaning."
+          ],
+          "answer": 3,
+          "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) \"However\" introduces a contrast/opposition, while \"Consequently\" introduces a result/effect.**\nRESPOSTA: (D)\n\"However\" introduces a contrast/opposition, while \"Consequently\" introduces a result/effect.\nLetra D.\n1) However\nUsado no 2º parágrafo para contrapor ideias:\n“However, sharing these traits does not confirm…”\nEle estabelece oposição entre:\n- a existência de características comuns\n- e a impossibilidade de identificação individual só com elas\nFunção clássica de contraste / adversidade.\n2) Consequently\nUsado no 4º parágrafo:\n“Consequently, detecting these elements via SEM can provide powerful evidence…”\nIndica resultado lógico da explicação anterior:\nDisparo → liberação de partículas → possibilidade de detecção\n\n~Gentalha~\n**A) \"However\" introduces an addition...**\nDemais alternativas:\nA) inverte as funções.\n\n**B) \"However\" indicates a cause...**\nB) não indicam causa nem sequência temporal.\n\n**C) Both connectors serve to introduce examples...**\nC) conectivos não introduzem exemplos.\n\n**E) \"However\" could be replaced by \"Therefore\"...**\nE) However ≠ Therefore (oposição ≠ conclusão).\n\n~Teoria~\n**Connectors (Conectivos):** São as dobradiças do texto.\n- **However:** Adversativo (Mas, Contudo). Introduz Contraste/Oposição.\n- **Consequently:** Conclusivo (Consequentemente, Logo). Introduz Resultado/Efeito.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é However, **ENTÃO** é c(Contraste) (Contrast).\n**SE** é Consequently, **ENTÃO** é c(Resultado) (Result).\n\n!Interpretando a Banca!\n~Gatilho~\nConectivos são questões certas. Memorize a trindade: Contrast (However/But), Result (Consequently/Therefore), Addition (Furthermore/Moreover).\n\n!Break para Respirar!\n~Otávio~\n- Sem conectivos, seu laudo é uma lista de compras. Com conectivos, vira uma narrativa lógica irrefutável."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_boss_inter_01",
+          "subject": "Língua Inglesa",
+          "source": "BOSS INTERMEDIÁRIO I - Tactical Review (English)",
+          "timer_override": 400,
+          "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n(checks the ammo box)\n- *Expert*, revisamos as características balísticas e os conectivos. Confirme a integridade dos dados:",
+          "stem": [
+            "vf(I. Class characteristics (like make and model) are unique enough to identify a specific firearm.)",
+            "vf(II. The connector \"However\" is used to introduce a contrast or opposition to the previous idea.)",
+            "vf(III. Individual characteristics are caused by random imperfections and wear, making them unique like a fingerprint.)",
+            "vf(IV. The word \"Distinctive\" implies something ambiguous or vague in a forensic context.)"
+          ],
+          "options": [
+            "A) I and IV are correct.",
+            "B) II and III are correct.",
+            "C) Only II is correct.",
+            "D) All statements are correct.",
+            "E) All statements are incorrect."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Connectors:** However = Oposição/Contraste.\n**Ballistics:** Individual = Fingerprint. Class = Make/Model.\n\n~Gabarito~\n**II) The connector \"However\" is used to introduce a contrast...**\n**Correct:** However = Oposição/Contraste.\n\n**III) Individual characteristics are caused by random imperfections...**\n**Correct:** Imperfeições aleatórias geram a unicidade (\"fingerprint\").\n\n~Gentalha~\n**I) Class characteristics... are unique enough to identify a specific firearm.**\n**Incorrect:** Características de classe NÃO são únicas e NÃO identificam arma específica.\n\n**IV) The word \"Distinctive\" implies something ambiguous...**\n**Incorrect:** Distinctive significa \"característico/claro\", o oposto de ambíguo.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é Class, **ENTÃO** c(NÃO É ÚNICO).\n**SE** é However, **ENTÃO** c(CONTRASTA).\n\n!Break para Respirar!\n~Otávio~\n- *Target hit.* Você sabe diferenciar o genérico do específico. Essa é a essência da criminalística."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_q09",
+          "subject": "Língua Inglesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 9",
+          "timer_override": 300,
+          "front": "**Questão 9**\n\nIn the sentence \"These particles can settle on the hands...\", the preposition ON indicates a relationship of surface contact.\n\nChoose the alternative that correctly fills the gaps in the sentence below regarding standard preposition use in English:\n\n\"The forensic expert insisted ___ comparing the striations ___ the microscope before signing the report.\"",
+          "options": [
+            "A) on – under",
+            "B) in – at",
+            "C) at – on",
+            "D) about – within",
+            "E) for – by"
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\n**A) on – under**\nRESPOSTA: (A)\non – under\nLetra A.\nFrase:\n“The forensic expert insisted ___ comparing the striations ___ the microscope before signing the report.”\n1) Insisted ON\nRegência correta do verbo to insist:\ninsist on + gerund\nExemplo padrão:\nHe insisted on reviewing the evidence.\n2) Under the microscope\nExpressão idiomática consagrada no inglês técnico:\nsignifica análise rigorosa/detalhada\nExemplo:\nThe data was examined under the microscope.\n\n~Gentalha~\n**B) in – at**\nDemais alternativas:\ninsist in / at / for → regência incorreta.\nwithin / by / at the microscope → não são expressões naturais no idioma.\n\n**C) at – on**\ninsist in / at / for → regência incorreta.\nwithin / by / at the microscope → não são expressões naturais no idioma.\n\n**D) about – within**\ninsist in / at / for → regência incorreta.\nwithin / by / at the microscope → não são expressões naturais no idioma.\n\n**E) for – by**\ninsist in / at / for → regência incorreta.\nwithin / by / at the microscope → não são expressões naturais no idioma.\n\n~Teoria~\n**Regência Verbal (Insist):** O verbo \"insist\" pede a preposição \"ON\". E o verbo seguinte deve vir no gerúndio (-ing).\n**Expressão (Microscope):** Quando analisamos algo usando microscópio, dizemos que o objeto está \"UNDER the microscope\" (sob a lente/sob análise).\n\n!Regra de Bolso!\n~Lógica~\n**SE** é Insist, **ENTÃO** é c(ON).\n**SE** é análise ótica, **ENTÃO** é c(UNDER) the microscope.\n\n!Interpretando a Banca!\n~Gatilho~\nPreposições são \"collocations\" (combinações fixas). Não tente traduzir (\"insistir em\" = \"in\"). Em inglês, quem insiste, insiste **ON**.\n\n!Break para Respirar!\n~Otávio~\n- A preposição errada pode mudar o local da evidência. \"On the table\" é uma coisa, \"Under the table\" é outra bem diferente (geralmente propina)."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_q10",
+          "subject": "Língua Inglesa",
+          "source": "Simulado 01 - Comentado.pdf - Questão 10",
+          "timer_override": 240,
+          "front": "**Questão 10**\n\nIn the sentence \"it only suggests they were fired from the same make and model\" (2nd Paragraph), the pronoun \"they\" refers to:",
+          "options": [
+            "A) The manufacturers.",
+            "B) The firearms.",
+            "C) The bullets.",
+            "D) The lands and grooves.",
+            "E) The examiners."
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) The bullets.**\nRESPOSTA: (C)\nThe bullets.\nLetra C.\nTrecho:\n“…it only suggests they were fired from the same make and model.”\nAnálise do referente:\nO parágrafo fala de:\n- bullets\n- analisadas quanto às suas marcas\n- comparadas entre si\nO pronome “they” retoma diretamente os projéteis (bullets) que compartilham características de classe.\n\n~Gentalha~\n**A) The manufacturers.**\nDemais alternativas:\nA) manufacturers → não são mencionados como sujeitos da ação.\n\n**B) The firearms.**\nB) firearms → quem é disparado são os projéteis, não as armas.\n\n**D) The lands and grooves.**\nD) lands and grooves → são partes do cano, não “fired”.\n\n**E) The examiners.**\nE) examiners → agentes da análise, não do disparo.\n\n~Teoria~\n**Referência Pronominal:** Pronomes (they, it, he) retomam substantivos já citados. A técnica é perguntar ao verbo da oração: \"Quem/O que sofreu a ação?\".\n\n!Regra de Bolso!\n~Lógica~\n**SE** o verbo é \"were fired\" (foram disparadas), **ENTÃO** o sujeito só pode ser a munição/projétil (c(Bullets)).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca tenta confundir \"quem atira\" (gun) com \"quem é atirado\" (bullet). O pronome \"they\" é plural, então busque o substantivo plural mais lógico anterior.\n\n!Break para Respirar!\n~Otávio~\n- *Chain of custody applied to grammar.* Rastrear o pronome até o nome é o mesmo que rastrear a bala até a arma. Sem nexo causal, não há prova."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_boss_inter_02",
+          "subject": "Língua Inglesa",
+          "source": "BOSS INTERMEDIÁRIO II - Tactical Review (English)",
+          "timer_override": 400,
+          "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n(holsters the weapon)\n- *Expert*, preposições e pronomes verificados. Valide os últimos dados:",
+          "stem": [
+            "vf(I. The correct preposition for \"insist\" is \"in\", as in \"insist in doing something\".)",
+            "vf(II. When using a microscope, we say the object is \"under\" the microscope.)",
+            "vf(III. In the sentence \"they were fired\", the pronoun \"they\" refers to the firearms themselves.)",
+            "vf(IV. The Passive Voice structure \"were fired\" focuses on the action rather than the shooter.)"
+          ],
+          "options": [
+            "A) I and III are correct.",
+            "B) II and IV are correct.",
+            "C) Only II is correct.",
+            "D) All statements are incorrect.",
+            "E) All statements are correct."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Prepositions:** Insist ON. Under the microscope.\n**Passive Voice:** Fired = Bullets.\n\n~Gabarito~\n**II) When using a microscope, we say the object is \"under\" the microscope.**\n**Correct:** Posição física e expressão correta (Sob a lente).\n\n**IV) The Passive Voice structure \"were fired\" focuses on the action...**\n**Correct:** Voz passiva destaca o fato (ser disparado) e esconde o agente.\n\n~Gentalha~\n**I) The correct preposition for \"insist\" is \"in\"...**\n**Incorrect:** Insist exige c(ON).\n\n**III) ...the pronoun \"they\" refers to the firearms themselves.**\n**Incorrect:** \"They\" refere-se às balas (bullets). Armas não são disparadas (projetadas).\n\n!Regra de Bolso!\n~Lógica~\n**SE** é Insist, **ENTÃO** c(ON).\n**SE** é Fired (projetado), **ENTÃO** é c(Bullet).\n\n!Break para Respirar!\n~Otávio~\n- Ciclo de Inglês completo. Sua proficiência técnica foi atestada."
+        },
+        {
+          "type": "normal",
+          "id": "pp_s01_l01_en_boss_final",
+          "subject": "Língua Inglesa",
+          "source": "BOSS FINAL (ENGLISH) - The Verdict",
+          "timer_override": 600,
+          "front": "**(BOSS FINAL) - Otávio:**\n(signs the international report)\n- *Strategist*, o laudo final está em suas mãos. Julgue os conceitos balísticos e gramaticais deste lote:",
+          "stem": [
+            "vf(I. Class characteristics only suggest a make/model, while individual characteristics can confirm a specific gun.)",
+            "vf(II. \"However\" introduces a result, while \"Consequently\" introduces a contrast.)",
+            "vf(III. The verb \"insist\" requires the preposition \"on\" followed by a gerund.)",
+            "vf(IV. \"Distinctive\" means ambiguous or unclear in a technical context.)",
+            "vf(V. \"Under the microscope\" is the correct idiom for forensic analysis.)"
+          ],
+          "options": [
+            "A) II and IV are correct.",
+            "B) I, III and V are correct.",
+            "C) All are correct.",
+            "D) Only I is correct.",
+            "E) None are correct."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Ballistics:** Class (sugere) vs Individual (confirma).\n**Connectors:** However (contraste).\n**Prepositions:** Insist ON. Under.\n\n~Gabarito~\n**I) Class characteristics only suggest... while individual... confirm...**\n**Correct:** Diferença fundamental da balística.\n\n**III) The verb \"insist\" requires the preposition \"on\"...**\n**Correct:** Regra de regência verbal.\n\n**V) \"Under the microscope\" is the correct idiom...**\n**Correct:** Expressão técnica padrão.\n\n~Gentalha~\n**II) \"However\" introduces a result...**\n**Incorrect:** Invertido. However = Contraste. Consequently = Resultado.\n\n**IV) \"Distinctive\" means ambiguous...**\n**Incorrect:** Distinctive = Característico/Único.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é Classe, **ENTÃO** c(Sugere).\n**SE** é Individual, **ENTÃO** c(Confirma).\n**SE** é However, **ENTÃO** c(Contraste).\n\n!Break para Respirar!\n~Otávio~\n- *Mission accomplished.* Você dominou a perícia bilíngue. O Simulado 01, Lote 1, está encerrado. Descanse, Perito. Amanhã tem mais."
+        }
+      ]
+    }
+  ]
+}
