@@ -1,1 +1,604 @@
-
+{
+  "title": "Águia Simulados - SEFAZ/SC 2026: Lote 2 (Exatas)",
+  "messages": {
+    "reprovado": "Otávio: ((Analisa sua planilha de respostas com desdém)) - Futuro Auditor, sua escrituração matemática está repleta de inconsistências. Volte para os princípios básicos do cálculo, ou a banca vai liquidar suas notas fiscais sem dó.",
+    "reserva": "Otávio: ((Carimba o documento)) - A contabilidade das suas respostas fechou, mas com margem de erro estatístico apertada. Você está no cadastro de reserva. Falta auditoria rigorosa nas projeções numéricas.",
+    "call4": "Otávio: ((Acena afirmativamente)) - O balanço bateu. Você passou pela primeira triagem quantitativa. Mas fique atento aos desvios-padrão e juros embutidos, eles são as notas explicativas da banca.",
+    "call3": "Otávio: ((Aponta para o painel de resultados)) - Excelente análise quantitativa. Você não caiu nas pegadinhas de raciocínio lógico e dominou a interpretação. Sua nomeação está sendo processada.",
+    "call2": "Otávio: ((Impressionado, fecha a pasta)) - Nível Conselheiro do TCE. Você encontrou todas as fraudes matemáticas e lógicas nas alternativas. A vaga está praticamente garantida no seu patrimônio líquido.",
+    "call1": "Otávio: ((Entrega o crachá da SEFAZ)) - NÍVEL MÁXIMO. Sua proficiência estatística e financeira é um ativo intangível de valor inestimável. Você zerou o DRE da banca. A vaga é sua. Bem-vindo à SEFAZ/SC."
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_tutorial",
+      "subject": "Matemática Financeira, Estatística e Raciocínio Lógico",
+      "source": "BOSS TUTORIAL - Mapeamento Tático (Exatas)",
+      "timer_override": 1200,
+      "front": "**(BOSS TUTORIAL) - Otávio:**\n(Abre as planilhas de cálculo avançado e as tabelas estatísticas)\n- Futuro Auditor, nas Exatas da SEFAZ, o detalhe é tudo. Um erro de juros simples no lugar de compostos destrói o balanço. Preste muita atenção aos conceitos-chave para garantir que sua contabilidade mental esteja em dia. Leia esta colinha com calma:",
+      "stem": [
+        "**1) Juros Compostos vs Equivalência:**\n Em c(juros compostos), a equivalência de capitais pode ser feita em c(qualquer data focal). A data mais cômoda é aquela onde está a incógnita principal, evitando transportes desnecessários.",
+        "**2) Desconto Comercial Simples:**\n Também conhecido como desconto c(por fora). O desconto incide sobre o c(valor nominal) do título, diferentemente do desconto racional (por dentro), que incide sobre o valor atual.",
+        "**3) Taxa Efetiva no Desconto:**\n Para encontrar a taxa de juros efetivamente suportada numa operação de desconto, divide-se o c(juros real pago (desconto)) pelo c(valor líquido efetivamente recebido).",
+        "**4) Sistema de Amortização Constante (SAC):**\n A amortização é c(constante). Os juros incidem sobre o c(saldo devedor anterior), formando uma c(Progressão Aritmética) decrescente. Logo, as prestações também caem em PA.",
+        "**5) Sistema Francês (Tabela Price):**\n A c(prestação) é constante. A amortização cresce a cada período, enquanto os juros decrescem. Para achar o saldo devedor, basta calcular o c(valor presente) das parcelas restantes.",
+        "**6) Tarifas Antecipadas em Empréstimos:**\n Empréstimos que retêm juros ou tarifas no ato (desconto) reduzem o valor liberado. A c(taxa efetiva) de juros será sempre calculada sobre o valor c(realmente recebido) pelo cliente.",
+        "**7) Valor Presente Líquido (VPL):**\n Se a Taxa Mínima de Atratividade (TMA) for c(menor) que a Taxa Interna de Retorno (TIR), o projeto é atrativo e terá VPL c(positivo). À TIR, o VPL é c(zero).",
+        "**8) Variância de Grupos Reunidos:**\n A variância total não é a simples média das variâncias. Ela é a média das variâncias (c(dentro) dos grupos) somada à variância das médias (c(entre) os grupos).",
+        "**9) Probabilidade Condicional:**\n Quando houver uma condição (ex: \"sabendo-se que...\"), o espaço amostral original é c(reduzido) à condição dada. O evento pedido deve estar contido nesse novo espaço.",
+        "**10) Distribuição Normal:**\n A curva normal é simétrica ao redor da média. Valores a ±1, ±2 e ±3 desvios-padrão abrangem aproximadamente 68%, 95% e 99,7% da distribuição.",
+        "**11) Teste de Hipóteses (Z-Score):**\n A estatística de teste z é a diferença entre a proporção amostral e a da hipótese nula, dividida pelo c(erro-padrão) sob H0 (raiz de p(1-p)/n).",
+        "**12) Erros do Tipo I e Tipo II:**\n Erro Tipo I: rejeitar H0 quando ela é c(verdadeira). Erro Tipo II: não rejeitar H0 quando ela é c(falsa). Só se comete Erro Tipo II quando a decisão for c(não rejeitar).",
+        "**13) Regressão Linear Simples:**\n O coeficiente de determinação ($R^2$) é a proporção da variação de Y que é c(explicada) pela reta de regressão. É a razão entre a soma dos quadrados explicada e a total.",
+        "**14) Princípio Fundamental da Contagem e Blocos:**\n Para elementos que não podem ficar juntos (ex: não vizinhos), costuma ser mais fácil calcular o c(total de arranjos) e subtrair os casos em que ficam c(juntos) (tratando como bloco).",
+        "**15) Distribuição Binomial:**\n Usada em tentativas c(independentes) com reposição. \"No máximo 1\" sucesso significa P(X=0) + P(X=1).",
+        "**16) Amostragem Estratificada vs Conglomerados:**\n Na c(estratificada), garante-se representação de c(todos) os grupos. Nos c(conglomerados), sorteiam-se c(alguns) grupos inteiros, ignorando os outros.",
+        "**17) Equivalência Lógica e Dedução:**\n Premissas verdadeiras e uso de c(Modus Tollens): se P $\\rightarrow$ Q e Q é falso, conclui-se que P é falso.",
+        "**18) Problemas de Verdades e Mentiras:**\n Encontre afirmações que se c(contradizem). Exatamente uma delas será verdadeira e a outra falsa. Isso quebra o problema em cenários lógicos claros.",
+        "**19) Raciocínio Sequencial (Padrões Geométricos):**\n Se uma figura subdivide-se, busque a lei de formação relacionando o termo *n* com o número de elementos por c(Progressão Aritmética) (ex: soma de 1 a n).",
+        "**20) Negação Lógica de Quantificadores:**\n Para negar o \"Todo\", troca-se por c(Algum/Pelo menos um/Existe) e c(nega-se o verbo). \"Todo A é B\" torna-se \"Algum A NÃO é B\"."
+      ],
+      "options": [
+        "A) Certo, Mestre Otávio. Tabela de juros carregada e hipóteses testadas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n- **Financeira:** Dominar juros compostos, SAC, Tabela Price e o cálculo da taxa efetiva é obrigatório. Se há desconto no ato ou tarifa, a taxa real SEMPRE incide no líquido, nunca no nominal.\n- **Estatística:** Probabilidade condicional reduz o universo de possibilidades. Em Testes de Hipótese, fique atento aos Erros do Tipo I e II dependendo da decisão tomada (rejeitar ou não rejeitar H0).\n- **Raciocínio Lógico:** Fique calmo com negações de quantificadores e deduções proposicionais. O Modus Tollens salva vidas!\n\n!Regra de Bolso!\n~Lógica~\n**SE** tem \"Todo\", **ENTÃO** nega-se com c(Algum ... não).\n**SE** é Sistema SAC, **ENTÃO** a prestação decresce em c(PA).\n**SE** a decisão foi \"não rejeitar H0\", **ENTÃO** o único erro possível de ter cometido é o c(Erro Tipo II).\n\n!Interpretando a Banca!\n~Gatilho~\nAs bancas adoram fornecer as tabelas com valores pré-calculados de juros, logaritmos ou distribuição Z. Se o dado está lá, você VAI usar. Fique de olho na aproximação pedida (diferença entre juros SIMPLES x COMPOSTOS).\n\n!Break para Respirar!\n~Otávio~\n- Sem pressa, Auditor. O cálculo errado numa planilha vira uma bomba na prestação de contas. Monte a equação, revise as premissas e, só depois, aperte o igual!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q17",
+      "subject": "Matemática Financeira",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 17",
+      "timer_override": 300,
+      "front": "**Questão 17:**\n\nUma dívida deveria ser quitada com dois pagamentos: R$ 10.000,00 daqui a 2 meses e R$ 15.600,00 daqui a 5 meses. O devedor propôs pagar R$ 8.000,00 hoje e o restante em um único pagamento daqui a 4 meses. Considerando juros compostos de 4% ao mês, o valor desse pagamento único, que torna a proposta financeiramente equivalente ao plano original, é de:\nDados: $1,04^2 = 1,0816$ e $1,04^4 \\approx 1,1699$.",
+      "options": [
+        "A) R$ 14.067,17.",
+        "B) R$ 16.520,00.",
+        "C) R$ 17.816,00.",
+        "D) R$ 16.456,80.",
+        "E) R$ 17.680,80."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**B) R$ 16.456,80.**\n\n- **Passo 1 — Data focal.** Em juros compostos, a equivalência vale em qualquer data. A mais cômoda é o mês 4, data do próprio X, que assim não precisa ser transportado.\n- **Passo 2 — Plano original no mês 4.** A parcela do mês 2 é capitalizada por 2 meses e a do mês 5 é descontada por 1 mês:\n  $10.000 \\times 1,04^2 = 10.816,00$\n  $15.600 \\div 1,04 = 15.000,00$\n  Total = $25.816,00$\n- **Passo 3 — Proposta no mês 4.** A entrada de hoje é capitalizada por 4 meses:\n  $8.000 \\times 1,1699 = 9.359,20$.\n- **Passo 4 — Equivalência.**\n  $9.359,20 + X = 25.816,00 \\Rightarrow X = 16.456,80$.\n\n~Gentalha~\n**C) R$ 16.520,00.** resulta de juros simples (fatores 1,08 e 1,16).\n**E) R$ 17.816,00.** abate a entrada sem capitalizá-la.\n**D) R$ 17.680,80.** capitaliza, em vez de descontar, a parcela do mês 5.\n**A) R$ 14.067,17.** é o saldo a pagar na data zero, que ainda teria de ser levado ao mês 4.\n\n~Teoria~\n**Equivalência em Juros Compostos:** Transportar capitais para uma mesma data focal. Fluxos equivalentes devem ter a mesma soma na mesma data focal.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q18",
+      "subject": "Matemática Financeira",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 18",
+      "timer_override": 300,
+      "front": "**Questão 18:**\n\nUm título de valor nominal R$ 50.000,00 foi descontado 3 meses antes do vencimento, em operação de desconto comercial simples à taxa de 4% ao mês. A taxa mensal de juros compostos efetivamente suportada pelo tomador nessa operação é de, aproximadamente:\n\n{{img:C:/Users/ACER/Documents/Concurso/SEFAZ-SC/SIMULADOS ÁGUIA/01/Computação/Matemática Financeira/IMG/Q18.png|100%|Dados}}",
+      "options": [
+        "A) 3,85%.",
+        "B) 4,35%.",
+        "C) 4,17%.",
+        "D) 4,55%.",
+        "E) 4,00%."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**C) 4,35%.**\n\n- **Passo 1 — Valor recebido.** No desconto comercial simples, o desconto incide sobre o valor nominal:\n  $D = 50.000 \\times 0,04 \\times 3 = 6.000$\n  Líquido = $50.000 - 6.000 = 44.000$\n- **Passo 2 — Taxa composta implícita.** O tomador recebe R$ 44.000,00 hoje e paga R$ 50.000,00 em 3 meses:\n  $(1 + i)^3 = 50.000 / 44.000 = 1 / 0,88 \\approx 1,1364$.\n- **Passo 3 — Tabela.** O valor mais próximo na tabela da imagem (x^3) é $1,0435^3 \\approx 1,1363$, logo $i \\approx 4,35\\%$ ao mês.\n\n~Gentalha~\n**D) 4,55%.** é a taxa efetiva de juros SIMPLES (6.000 ÷ 44.000 ÷ 3), e o enunciado pede compostos.\n**E) 4,17%.** aplica a uma operação de três meses a conversão de um único período, 0,04 ÷ 0,96.\n**A) 3,85%.** é a taxa composta equivalente a 12% no trimestre, calculada sobre o valor nominal, e não sobre o líquido.\n**B) 4,00%.** é a própria taxa de desconto.\n\n~Teoria~\n**Taxa Efetiva:** É sempre calculada baseada no valor que o cliente colocou no bolso (Valor Líquido) contra o valor final que pagará (Valor Nominal).\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q19",
+      "subject": "Matemática Financeira",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 19",
+      "timer_override": 300,
+      "front": "**Questão 19:**\n\nUm financiamento foi contratado pelo Sistema de Amortização Constante (SAC), em 10 prestações mensais, a primeira paga um mês após a contratação. A primeira prestação foi de R$ 6.000,00 e a quinta, de R$ 5.520,00. O total de juros pagos ao longo de todo o financiamento é de:",
+      "options": [
+        "A) R$ 12.000,00.",
+        "B) R$ 9.600,00.",
+        "C) R$ 6.000,00.",
+        "D) R$ 6.600,00.",
+        "E) R$ 5.280,00."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**A) R$ 6.600,00.**\n\n- **Passo 1 — Estrutura da prestação.** No SAC, a amortização A é constante e os juros da prestação k incidem sobre o saldo anterior a ela, que é $(11 - k) \\times A$:\n  $P_k = A + i \\times A \\times (11 - k)$.\n- **Passo 2 — As duas prestações dadas.**\n  $P_1 = A + 10iA = 6.000$\n  $P_5 = A + 6iA = 5.520$\n  Subtraindo: $4iA = 480$, isto é, $iA = 120$. Os juros caem R$ 120,00 a cada prestação.\n- **Passo 3 — Amortização e taxa.** $A + 10 \\times 120 = 6.000 \\Rightarrow A = 4.800$; a taxa é desnecessária para achar o financiamento: $10 \\times 4.800 = 48.000$.\n- **Passo 4 — Total de juros.** Os juros formam a progressão 1.200, 1.080, ..., 120:\n  $J = 120 \\times (10 + 9 + \\cdots + 1) = 120 \\times 55 = 6.600$.\n\n~Gentalha~\n**B) R$ 6.000,00.** toma o saldo médio como metade do valor financiado.\n**E) R$ 12.000,00.** supõe dez prestações iguais à primeira.\n**C) R$ 9.600,00.** multiplica por dez a média entre a 1ª e a 5ª.\n**D) R$ 5.280,00.** conta cinco intervalos entre a 1ª e a 5ª prestação, quando são quatro.\n\n~Teoria~\n**SAC:** As parcelas formam uma Progressão Aritmética decrescente de razão ($- i \\times A$). Os juros decrescem pela mesma razão.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q20",
+      "subject": "Matemática Financeira",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 20",
+      "timer_override": 300,
+      "front": "**Questão 20:**\n\nUma instituição concede empréstimo de R$ 20.000,00 pelo prazo de 6 meses, a juros simples de 2% ao mês, descontados integralmente do valor liberado no ato da contratação. Também no ato, retém-se uma tarifa de R$ 400,00. Ao final do prazo, o tomador devolve os R$ 20.000,00. A taxa mensal efetiva de juros simples da operação é de, aproximadamente:",
+      "options": [
+        "A) 2,27%.",
+        "B) 2,00%.",
+        "C) 2,33%.",
+        "D) 2,71%.",
+        "E) 3,26%."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) 2,71%.**\n\n- **Passo 1 — Valor liberado.**\n  Juros antecipados = $20.000 \\times 0,02 \\times 6 = 2.400$\n  Liberado = $20.000 - 2.400 - 400 = 17.200$\n- **Passo 2 — Custo efetivo.** O tomador recebe R$ 17.200,00 e devolve R$ 20.000,00: paga R$ 2.800,00 de juros efetivos em 6 meses.\n- **Passo 3 — Taxa mensal efetiva.**\n  $i = \\frac{2.800}{17.200 \\times 6} = \\frac{2.800}{103.200} \\approx 2,71\\%$ ao mês.\n\n~Gentalha~\n**C) 2,33%.** divide os R$ 2.800,00 pelo valor nominal, e não pelo liberado.\n**B) 2,27%.** ignora a tarifa (2.400 ÷ 17.600 ÷ 6).\n**A) 2,00%.** é a taxa contratada.\n**E) 3,26%.** divide por 5 meses.\n\n~Teoria~\n**Taxa Efetiva:** Sempre relacione o custo total da operação com o capital **efetivamente liberado**.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_inter_01",
+      "subject": "Revisão Exatas",
+      "source": "BOSS INTERMEDIÁRIO I - Auditoria Numérica",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Muito bem, finalizamos as primeiras planilhas do trimestre. Audite a consistência das regras financeiras e descontos das 4 primeiras operações:",
+      "stem": [
+        "vf(I. Na matemática financeira, a equivalência de capitais em juros compostos só pode ser aferida no exato momento da data de vencimento da última parcela do plano original.)",
+        "vf(II. No desconto comercial simples (desconto por fora), a taxa de desconto incide sobre o valor nominal do título, resultando em um valor líquido inferior ao nominal.)",
+        "vf(III. Em uma operação de empréstimo onde há retenção de tarifa e juros antecipados, a taxa mensal efetiva suportada pelo tomador será sempre superior à taxa nominal declarada no contrato.)",
+        "vf(IV. No Sistema de Amortização Constante (SAC), os juros e o saldo devedor decrescem seguindo uma Progressão Geométrica ao longo do tempo.)",
+        "vf(V. O custo efetivo de uma operação de crédito exige que o cálculo da taxa relacione os encargos totais pagos com o capital efetivamente liberado na conta do tomador.)"
+      ],
+      "options": [
+        "A) Apenas II e IV são verdadeiras.",
+        "B) Apenas I, II e IV são verdadeiras.",
+        "C) II, III e V são verdadeiras.",
+        "D) Todas são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Juros Compostos e Equivalência:** A magia dos juros compostos é que a equivalência é imune à data focal. O resultado bate em qualquer data.\n**2 e 3) Desconto Comercial:** O desconto por fora incide no valor de face (Nominal). A taxa efetiva (real) dessa operação, porém, é calculada com base no valor líquido que sobrou na mão do devedor, inflando o custo percentual da dívida.\n**4) Amortização (SAC):** A amortização é constante. Como os juros caem sobre um saldo devedor que é abatido por parcelas constantes, o comportamento dos juros (e da prestação) forma uma Progressão ARITMÉTICA, não geométrica.\n\n~Gabarito~\n**II, III e V** são as verdadeiras.\n\n~Gentalha~\n**I) ... a equivalência de capitais em juros compostos só pode ser aferida no exato momento da data de vencimento...**\n**Falsa.** Em juros compostos, diferentemente dos simples, a data focal é livre.\n\n**IV) ... os juros e o saldo devedor decrescem seguindo uma Progressão Geométrica...**\n**Falsa.** Formam uma Progressão Aritmética (PA).\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q21",
+      "subject": "Matemática Financeira",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 21",
+      "timer_override": 300,
+      "front": "**Questão 21:**\n\nUm projeto exige investimento inicial de R$ 72.000,00 e gera duas entradas de caixa de mesmo valor, ao final do 1º e do 2º ano. A taxa interna de retorno do projeto é de 25% ao ano. Adotada a taxa mínima de atratividade de 10% ao ano, o valor presente líquido do projeto é de:\nDados: $1/1,1 \\approx 0,9091$ e $1/1,21 \\approx 0,8264$.",
+      "options": [
+        "A) zero.",
+        "B) R$ 13.197,27.",
+        "C) R$ 28.000,00.",
+        "D) R$ 15.121,21.",
+        "E) R$ 14.775,00."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Gabarito~\n**C) R$ 14.775,00.**\n\n- **Passo 1 — Valor das entradas pela TIR.** À TIR, o VPL é nulo:\n  $72.000 = \\frac{X}{1,25} + \\frac{X}{1,25^2} = X(0,80 + 0,64) = 1,44X$,\n  logo $X = 50.000$.\n- **Passo 2 — VPL à taxa mínima de atratividade.**\n  $VP = 50.000 \\times (0,9091 + 0,8264) = 50.000 \\times 1,7355 = 86.775$\n  $VPL = 86.775 - 72.000 = 14.775$\n\nConclusão. O VPL é positivo, como era de esperar: a taxa de 10% é inferior à TIR de 25%.\n\n~Gentalha~\n**A) zero.** é o VPL à própria TIR.\n**E) R$ 28.000,00.** soma as entradas sem descontá-las.\n**D) R$ 15.121,21.** desconta o 2º ano por 1,2 (desconto simples).\n**B) R$ 13.197,27.** obtém X com desconto simples na TIR ($X/1,25 + X/1,5$).\n\n~Teoria~\n**TIR e VPL:** À TIR, o valor presente dos fluxos iguala o investimento (VPL = 0). O VPL à TMA re-desconta os fluxos descobertos.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q22",
+      "subject": "Matemática Financeira",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 22",
+      "timer_override": 300,
+      "front": "**Questão 22:**\n\nUm financiamento de R$ 100.000,00 será pago pelo Sistema Francês de Amortização, em 12 prestações mensais iguais e postecipadas, à taxa de 2% ao mês. Imediatamente após o pagamento da 3ª prestação, o saldo devedor é de, aproximadamente:\nDados: $a_{12|2\\%} = 10,5753$ e $a_{9|2\\%} = 8,1622$, em que $a_{n|i}$ é o fator de valor atual de uma série uniforme de n termos à taxa i.",
+      "options": [
+        "A) R$ 77.632,00.",
+        "B) R$ 75.000,00.",
+        "C) R$ 77.182,00.",
+        "D) R$ 71.632,00.",
+        "E) R$ 84.939,00."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**D) R$ 77.182,00.**\n\n- **Passo 1 — Prestação.**\n  $PMT = \\frac{100.000}{a_{12|2\\%}} = \\frac{100.000}{10,5753} \\approx 9.456,00$.\n- **Passo 2 — Saldo após a 3ª prestação.** O saldo é o valor atual das 9 prestações restantes:\n  $SD_3 = 9.456,00 \\times 8,1622 \\approx 77.182$.\n\n~Gentalha~\n**B) R$ 71.632,00.** subtrai três prestações inteiras, como se não houvesse juros.\n**A) R$ 75.000,00.** é o saldo no SAC.\n**E) R$ 77.632,00.** supõe amortização fixa de 9.456 - 2.000, quando no sistema francês a amortização cresce a cada prestação.\n**C) R$ 84.939,00.** usa o fator de 10 termos.\n\n~Teoria~\n**Sistema Francês (Tabela Price):** O saldo devedor em qualquer momento é o Valor Presente das parcelas que AINDA VÃO VENCER.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q23",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 23",
+      "timer_override": 300,
+      "front": "**Questão 23:**\n\nA tabela resume os tempos de atendimento, em minutos, registrados por duas equipes de uma central.\n\n{{img:C:/Users/ACER/Documents/Concurso/SEFAZ-SC/SIMULADOS ÁGUIA/01/Computação/Matemática Financeira/IMG/Q23.png|100%|Tabela de Atendimentos}}\n\nOs desvios-padrão foram calculados com divisor igual ao número de atendimentos de cada equipe. A variância do conjunto dos 100 tempos, calculada com divisor 100, é igual a:",
+      "options": [
+        "A) 100,0.",
+        "B) 52,8.",
+        "C) 76,8.",
+        "D) 49,0.",
+        "E) 196,0."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) 76,8.**\n\n- **Passo 1 — Média geral.**\n  $\\bar{x} = \\frac{40 \\times 50 + 60 \\times 60}{100} = 56$.\n- **Passo 2 — Decomposição da variância.** A variância total é a média das variâncias (dentro dos grupos) somada à variância das médias (entre os grupos):\n  dentro = $\\frac{40 \\times 36 + 60 \\times 64}{100} = 52,8$\n  entre = $\\frac{40 \\times 36 + 60 \\times 16}{100} = 24,0$\n  total = $52,8 + 24,0 = 76,8$\n\n~Gentalha~\n**B) 52,8.** esquece a dispersão entre as médias.\n**A) 49,0.** eleva ao quadrado a média dos desvios-padrão.\n**D) 100,0.** soma as variâncias.\n**E) 196,0.** soma os desvios-padrão antes de elevar ao quadrado.\n\n~Teoria~\n**Variância de Grupos Combinados:** Não basta tirar a média ponderada das variâncias locais. Você tem que somar o espalhamento dos grupos em relação à nova média geral (variância \"entre\").\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q24",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 24",
+      "timer_override": 300,
+      "front": "**Questão 24:**\n\nUma caixa contém 8 peças, das quais 3 são defeituosas. Retiram-se, ao acaso e sem reposição, 3 peças. Sabendo-se que ao menos uma das peças retiradas é defeituosa, a probabilidade de que exatamente uma delas seja defeituosa é de:",
+      "options": [
+        "A) 225/512.",
+        "B) 15/28.",
+        "C) 15/46.",
+        "D) 15/23.",
+        "E) 23/28."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**A) 15/23.**\n\n- **Passo 1 — Casos possíveis.** $\\binom{8}{3} = 56$.\n- **Passo 2 — Exatamente uma defeituosa.** Escolhe 1 de 3 defeituosas e 2 de 5 perfeitas: $\\binom{3}{1} \\times \\binom{5}{2} = 3 \\times 10 = 30$.\n- **Passo 3 — Ao menos uma defeituosa.** Pelo complementar: $56 - \\binom{5}{3} = 56 - 10 = 46$.\n- **Passo 4 — Condicional.** Como o evento \"exatamente uma\" está contido em \"ao menos uma\":\n  $P = \\frac{30}{46} = \\frac{15}{23}$.\n\n~Gentalha~\n**B) 15/28.** é a probabilidade sem a condição (30 ÷ 56).\n**C) 23/28.** é a probabilidade da própria condição.\n**D) 225/512.** aplica a binomial, que pressupõe reposição.\n**E) 15/46.** é a probabilidade condicional de exatamente DUAS defeituosas.\n\n~Teoria~\n**Probabilidade Condicional:** A restrição (\"sabendo que...\") torna-se o seu novo denominador.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_inter_02",
+      "subject": "Revisão Exatas",
+      "source": "BOSS INTERMEDIÁRIO II - Auditoria Numérica",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Segundo bloco concluído. Hora de testar seus reflexos de probabilidade condicional, variância combinada e amortização Tabela Price:",
+      "stem": [
+        "vf(I. Na tabela Price (Sistema Francês), as parcelas são sempre constantes; entretanto, a parcela de amortização cresce a cada pagamento, enquanto a cota de juros decai.)",
+        "vf(II. A Taxa Interna de Retorno (TIR) de um projeto é aquela que equaliza os valores presentes das entradas e saídas, ou seja, onde o Valor Presente Líquido (VPL) torna-se zero.)",
+        "vf(III. A variância do conjunto de duas equipes combinadas não pode ser obtida apenas através da média ponderada de suas respectivas variâncias isoladas.)",
+        "vf(IV. Em problemas de probabilidade que impõem uma condição (ex: \"sabendo que ocorreu Y\"), o espaço amostral original de possibilidades é ignorado e restringe-se apenas ao evento condicionante.)",
+        "vf(V. Se a Taxa Mínima de Atratividade (TMA) aplicada a um fluxo de caixa for superior à sua Taxa Interna de Retorno (TIR), o projeto revelará um VPL positivo, sendo viável economicamente.)"
+      ],
+      "options": [
+        "A) Nenhuma é verdadeira.",
+        "B) I, II e V são verdadeiras.",
+        "C) Apenas III e IV são verdadeiras.",
+        "D) I, II, III e IV são verdadeiras.",
+        "E) Todas são verdadeiras."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Tabela Price:** O valor da PMT não muda. No começo paga-se muito juro, no fim paga-se muita amortização.\n**2 e 5) VPL e TIR:** O gráfico do VPL desce conforme a taxa sobe. Se a taxa do mercado (TMA) passar da TIR (que zera o jogo), seu VPL afunda e fica negativo, tornando o projeto inviável.\n**3) Variância Intergrupo:** Variância de dois grupos tem que considerar o abismo entre as duas médias (variância \"entre\" grupos), além do espalhamento normal \"dentro\" de cada um.\n**4) Condicional:** Toda probabilidade condicional corta o denominador e cria um novo universo menor.\n\n~Gabarito~\n**I, II, III e IV** são verdadeiras.\n\n~Gentalha~\n**V) Se a Taxa Mínima de Atratividade... for superior à sua TIR... o projeto revelará um VPL positivo...**\n**Falsa.** TMA maior que TIR joga o VPL pro território negativo.\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q25",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 25",
+      "timer_override": 300,
+      "front": "**Questão 25:**\n\nO tempo de processamento de uma tarefa segue distribuição normal. Sabe-se que 15,87% das tarefas levam menos de 40 minutos e que 2,28% levam mais de 70 minutos. A proporção de tarefas cujo tempo de processamento fica entre 45 e 65 minutos é de:\nDados, em que Z é a variável normal padrão:\n\n{{img:C:/Users/ACER/Documents/Concurso/SEFAZ-SC/SIMULADOS ÁGUIA/01/Computação/Matemática Financeira/IMG/Q25.png|100%|Tabela Z}}",
+      "options": [
+        "A) 62,47%.",
+        "B) 68,26%.",
+        "C) 77,45%.",
+        "D) 81,85%.",
+        "E) 38,30%."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\n**B) 62,47%.**\n\n- **Passo 1 — Padronização.** $15,87\\% = 1 - 0,8413$, de modo que 40 está 1 desvio abaixo da média ($z = -1,0$); $2,28\\% = 1 - 0,9772$, de modo que 70 está 2 desvios acima ($z = 2,0$):\n  $\\mu - \\sigma = 40$\n  $\\mu + 2\\sigma = 70$\n- **Passo 2 — Parâmetros.** Subtraindo: $3\\sigma = 30$, logo $\\sigma = 10$ e $\\mu = 50$.\n- **Passo 3 — Faixa pedida.** $z(45) = -0,5$ e $z(65) = 1,5$:\n  $P = P(Z \\le 1,5) - P(Z \\le -0,5) = 0,9332 - (1 - 0,6915) = 0,6247$.\n\n~Gentalha~\n**D) 77,45%.** usa 40 como limite inferior.\n**E) 81,85%.** é a faixa de 40 a 70.\n**C) 68,26%.** é a faixa de um desvio para cada lado.\n**A) 38,30%.** é a faixa de meio desvio para cada lado.\n\n~Teoria~\n**Distribuição Normal Padrão:** Use as probabilidades dadas para encontrar a Média ($\\mu$) e o Desvio Padrão ($\\sigma$). Depois, converta o intervalo desejado de volta para Z-Score.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q26",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 26",
+      "timer_override": 300,
+      "front": "**Questão 26:**\n\nPara testar se a proporção p de clientes satisfeitos com um serviço supera 50%, colheu-se amostra aleatória de 400 clientes, dos quais 208 se declararam satisfeitos. Testa-se $H_0: p = 0,5$ contra $H_1: p > 0,5$, ao nível de significância de 5%, pela aproximação normal, cujo valor crítico unilateral é 1,645. Considere as afirmações a seguir.\n\nI. A estatística do teste vale 0,80.\nII. Ao nível de 5%, rejeita-se $H_0$.\nIII. Se 220 dos 400 clientes se declarassem satisfeitos, $H_0$ seria rejeitada ao nível de 5%.\nIV. Com a decisão tomada a partir da amostra observada, o único erro a que o teste fica exposto é o erro do tipo II.\n\nEstá correto o que se afirma em:",
+      "options": [
+        "A) I e II, apenas.",
+        "B) I, III e IV, apenas.",
+        "C) I, II, III e IV.",
+        "D) I e III, apenas.",
+        "E) I, II e III, apenas."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**E) I, III e IV, apenas.**\n\n- **Passo 1 — Estatística do teste (Item I).** $\\hat{p} = 208 / 400 = 0,52$; sob $H_0$, o erro-padrão é $\\sqrt{0,5 \\times 0,5 / 400} = 0,025$:\n  $z = \\frac{0,52 - 0,50}{0,025} = 0,80$. O item I está correto.\n- **Passo 2 — Decisão (Item II).** Como $0,80 < 1,645$, $H_0$ c(não) é rejeitada. O item II está falso.\n- **Passo 3 — Item III.** Com 220 satisfeitos, $\\hat{p} = 0,55$ e $z = 0,05 / 0,025 = 2,0 > 1,645$: rejeita-se $H_0$. Correto.\n- **Passo 4 — Item IV.** Como a decisão (passo 2) foi NÃO rejeitar $H_0$, o único erro lógico possível de ter sido cometido na prática é o de \"não rejeitar uma hipótese falsa\", que se chama c(Erro Tipo II). Correto.\n\n~Teoria~\n**Testes de Hipótese:** Calcule a estatística Z e compare com a barreira crítica. Se ultrapassar, rejeita H0. E não esqueça: Erro Tipo I só ocorre se você rejeitar H0; Erro Tipo II só ocorre se você aceitar/não rejeitar H0.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q27",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 27",
+      "timer_override": 300,
+      "front": "**Questão 27:**\n\nA tabela apresenta, para cinco pessoas, as horas semanais de estudo (x) e a pontuação obtida em um teste (y).\n\n{{img:C:/Users/ACER/Documents/Concurso/SEFAZ-SC/SIMULADOS ÁGUIA/01/Computação/Matemática Financeira/IMG/Q27.png|100%|Tabela de Estudo e Pontuação}}\n\nAjustada aos dados a reta de regressão de y sobre x pelo método dos mínimos quadrados, o valor previsto de y para x = 20 e a proporção da variação de y explicada pela reta são, respectivamente:",
+      "options": [
+        "A) 40 e 96%.",
+        "B) 47,1 e 96%.",
+        "C) 44 e 96%.",
+        "D) 44 e 98%.",
+        "E) 44 e 4%."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**D) 44 e 96%.**\n\n- **Passo 1 — Somas.** $n=5$; $\\sum x=50$; $\\sum y=120$; $\\sum x^2 = 560$; $\\sum xy = 1.320$; $\\sum y^2 = 3.130$; logo $\\bar{x} = 10$ e $\\bar{y} = 24$.\n- **Passo 2 — Inclinação.**\n  $b = \\frac{\\sum xy - n\\bar{x}\\bar{y}}{\\sum x^2 - n\\bar{x}^2} = \\frac{1.320 - 1.200}{560 - 500} = \\frac{120}{60} = 2$.\n- **Passo 3 — Intercepto e previsão.** $a = \\bar{y} - b\\bar{x} = 24 - 20 = 4$; a reta é $\\hat{y} = 4 + 2x$ e $\\hat{y}(20) = 44$.\n- **Passo 4 — Coeficiente de determinação.** $S_{yy} = 3.130 - 5 \\times 24^2 = 250$:\n  $r^2 = \\frac{S_{xy}^2}{S_{xx} S_{yy}} = \\frac{120^2}{60 \\times 250} = \\frac{14.400}{15.000} = 0,96$ (96%).\n\n~Gentalha~\n**B) 44 e 98%.** é o próprio r, e não $r^2$.\n**E) 44 e 4%.** é a parcela não explicada.\n**A) 40 e 96%.** omite o intercepto.\n**C) 47,1 e 96%.** ajusta a reta pela origem ($b = 1.320/560$).\n\n~Teoria~\n**Regressão Linear Mínimos Quadrados:** Calcular coeficientes a (intercepto) e b (inclinação). O $R^2$ informa o percentual de explicação da variável dependente pela reta.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q28",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 28",
+      "timer_override": 300,
+      "front": "**Questão 28:**\n\nSeis pessoas, entre as quais Lia e Rui, vão ocupar seis cadeiras dispostas lado a lado em uma fileira. O número de maneiras de acomodá-las de modo que Lia e Rui não fiquem em cadeiras vizinhas e que Lia fique em alguma cadeira à esquerda da de Rui é:",
+      "options": [
+        "A) 120.",
+        "B) 480.",
+        "C) 240.",
+        "D) 360.",
+        "E) 600."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) 240.**\n\n- **Passo 1 — Total de Permutações.** $6! = 720$.\n- **Passo 2 — Excluindo os blocos juntos (Lia e Rui vizinhos).** Tratando os dois como um bloco que permuta entre si: $5! \\times 2 = 240$. \n  Total não vizinhos: $720 - 240 = 480$.\n- **Passo 3 — Simetria (Ordem Esquerda/Direita).** Nesses 480 casos onde não estão juntos, em exatamente METADE deles Lia estará à esquerda de Rui, e na outra metade, Rui à esquerda de Lia. $480 \\div 2 = 240$.\n\n~Gentalha~\n**D) 480.** esquece a condição de ordem (esquerda).\n**B) 360.** esquece a de não vizinhança ($720 \\div 2$).\n**A) 120.** conta só Lia *imediatamente* à esquerda de Rui.\n**E) 600.** desconta só uma das duas ordens de vizinhança do bloco total.\n\n~Teoria~\n**Permutações com Restrição:** O método do complementar é mais seguro. Calcule o total livre e subtraia as permutações onde eles agem como um \"bloco colado\".\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_inter_03",
+      "subject": "Revisão Exatas",
+      "source": "BOSS INTERMEDIÁRIO III - Auditoria Numérica",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Terceiro relatório em mãos. Agora a regressão e o raciocínio em arranjos lógicos entrarão no balanço. Confirme os apontamentos:",
+      "stem": [
+        "vf(I. Na distribuição Normal Padrão (curva de Gauss Z), o ponto correspondente à média possui valor z = 0, dividindo a área da probabilidade em duas metades simétricas de 50%.)",
+        "vf(II. Ao realizar um teste de hipóteses que resulte na aceitação da hipótese nula (não rejeição de H0), o pesquisador afasta completamente o risco de cometer o Erro do Tipo I.)",
+        "vf(III. Na regressão linear simples baseada nos Mínimos Quadrados, a reta estimada obrigatoriamente passará pelo ponto exato das coordenadas das médias de X e Y (x-barra, y-barra).)",
+        "vf(IV. O coeficiente de determinação (R²) de 0,96 em uma regressão indica que 4% das variações na variável dependente foram perfeitamente explicadas pela reta traçada.)",
+        "vf(V. Em questões de análise combinatória, agrupar indivíduos com restrição de proximidade como um único \"bloco permutável\" é uma estratégia para garantir que eles permaneçam juntos no arranjo.)"
+      ],
+      "options": [
+        "A) I, II, III e V são verdadeiras.",
+        "B) Apenas III e V são verdadeiras.",
+        "C) Todas são verdadeiras.",
+        "D) I, II e IV são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Normal Z:** A curva normal é o grande sino onde a média = mediana = moda = centro Z=0.\n**2) Teste Hipótese:** O Erro do Tipo I (condenar inocente) só ocorre se você rejeitar H0. Se você não rejeitou, blindou-se contra ele.\n**3 e 4) Regressão Linear:** A reta do método dos Mínimos Quadrados ancora no ponto da média geral (centro de gravidade). E atenção ao R²: o número de fato (96%) é o percentual EXPLICADO, e não o resíduo.\n\n~Gabarito~\n**I, II, III e V** são as verdadeiras.\n\n~Gentalha~\n**IV) O coeficiente de determinação... de 0,96... indica que 4% das variações... foram perfeitamente explicadas...**\n**Falsa.** 96% foram explicadas. 4% sobraram sem explicação lógica pelo modelo (resíduos).\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q29",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 29",
+      "timer_override": 300,
+      "front": "**Questão 29:**\n\nEm uma linha de produção, cada peça fabricada é defeituosa com probabilidade 0,1, independentemente das demais. Em um lote de 10 peças, a probabilidade de haver no máximo uma peça defeituosa é de, aproximadamente:\nDado: $0,9^9 \\approx 0,3874$.",
+      "options": [
+        "A) 0,3874.",
+        "B) 0,2639.",
+        "C) 0,3487.",
+        "D) 0,9298.",
+        "E) 0,7361."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Gabarito~\n**C) 0,7361.**\n\n- A questão envolve distribuição binomial com n = 10 e p = 0,1. Queremos \"no máximo 1\", ou seja, P(0) + P(1).\n- **Passo 1 — Nenhuma defeituosa (P=0).** $P(0) = \\binom{10}{0} \\times 0,1^0 \\times 0,9^{10} = 0,9^{10} = 0,9 \\times 0,9^9 = 0,9 \\times 0,3874 \\approx 0,3487$.\n- **Passo 2 — Exatamente uma (P=1).** $P(1) = \\binom{10}{1} \\times 0,1^1 \\times 0,9^9 = 10 \\times 0,1 \\times 0,3874 = 0,3874$.\n- **Passo 3 — Soma.** $P(X \\le 1) = 0,3487 + 0,3874 = 0,7361$ (ou, de uma vez, $0,9^9 \\times 1,9$).\n\n~Gentalha~\n**A) 0,3487.** é apenas a parcela de P=0.\n**B) 0,3874.** é apenas a parcela de P=1.\n**D) 0,2639.** é o complementar, P(X >= 2).\n**E) 0,9298.** inclui também P(X = 2).\n\n~Teoria~\n**Distribuição Binomial:** Eventos independentes binários. A probabilidade de K sucessos é Combinação(N, K) * p^K * (1-p)^(N-K).\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q30",
+      "subject": "Estatística",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 30",
+      "timer_override": 300,
+      "front": "**Questão 30:**\n\nUma população de 2.400 imóveis está distribuída em três bairros, com 600, 800 e 1.000 imóveis, respectivamente. Deseja-se selecionar uma amostra de 120 imóveis. Julgue as afirmações a seguir como verdadeiras (V) ou falsas (F).\n\n(   ) Na amostragem estratificada proporcional, o segundo bairro contribui com 40 imóveis.\n(   ) Na amostragem sistemática feita sobre a lista única dos 2.400 imóveis, o intervalo de seleção é de 20 imóveis.\n(   ) Na amostragem por conglomerados, sorteiam-se imóveis dentro de cada um dos três bairros, de modo que todos os bairros fiquem representados na amostra.\n(   ) Na amostragem por cotas, o pesquisador escolhe os imóveis até completar a cota fixada para cada bairro, e a amostra assim obtida é probabilística.\n\nA sequência correta, de cima para baixo, é:",
+      "options": [
+        "A) F, F, F, F.",
+        "B) V, V, F, F.",
+        "C) V, F, F, V.",
+        "D) V, V, V, V.",
+        "E) V, F, V, F."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**E) V, V, F, F.**\n\n- **1ª afirmação (V).** A fração amostral global é $120 / 2.400 = 1/20$. Mantendo a proporção, o segundo bairro (800) contribui com $800 / 20 = 40$ imóveis.\n- **2ª afirmação (V).** Na sistemática, o intervalo (salto) é a População sobre a Amostra: $N / n = 2.400 / 120 = 20$.\n- **3ª afirmação (F).** Sortear unidades dentro de cada bairro, para garantir a presença de c(todos), descreve a amostragem estratificada. Na amostragem por conglomerados, sorteiam-se os próprios c(grupos) (bairros inteiros), e c(nem todos) ficam representados.\n- **4ª afirmação (F).** Na amostragem por cotas, a escolha final das unidades fica a critério subjetivo do pesquisador. Por não ter sorteio aleatório final, a amostra é c(não probabilística).\n\n~Teoria~\n**Técnicas de Amostragem:** Estratificada divide e tira amostra de *todos* os estratos. Conglomerados divide e escolhe apenas *alguns* conglomerados inteiros.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q31",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 31",
+      "timer_override": 300,
+      "front": "**Questão 31:**\n\nConsidere verdadeiras as seguintes premissas:\n• Se Ana viaja, então Bruno fica em casa.\n• Se Bruno fica em casa, então Carla não trabalha.\n• Carla trabalha ou Davi descansa.\n• Davi não descansa.\n• Ana viaja se, e somente se, Eva não viaja.\n\nA partir dessas premissas, conclui-se corretamente que:",
+      "options": [
+        "A) Ana não viaja e Bruno fica em casa.",
+        "B) Ana viaja ou Carla não trabalha.",
+        "C) Ana não viaja e Eva viaja.",
+        "D) Bruno não fica em casa e Davi descansa.",
+        "E) Carla trabalha e Eva não viaja."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**A) Ana não viaja e Eva viaja.**\n\n- **Passo 1 — Fato inicial absoluto.** \"Davi não descansa\" é a única premissa simples e verdadeira (âncora).\n- **Passo 2 — Disjunção (OU).** \"Carla trabalha OU Davi descansa\": sendo a disjunção verdadeira e a parte de Davi ser falsa (ele não descansa), a outra parte obrigatoriamente é verdadeira: c(Carla trabalha).\n- **Passo 3 — Modus Tollens.** \"SE Bruno fica em casa, ENTÃO Carla não trabalha\": o consequente revelou-se falso (pois vimos que ela trabalha). A regra diz que se o consequente é falso, o antecedente também é. c(Bruno não fica em casa).\n- **Passo 4 — Modus Tollens de novo.** \"SE Ana viaja, ENTÃO Bruno fica em casa\": consequente falso de novo, logo o antecedente é falso. c(Ana não viaja).\n- **Passo 5 — Bicondicional (Se e somente se).** \"Ana viaja SSE Eva não viaja\": o bicondicional exige que as duas partes tenham o mesmo valor lógico. Como \"Ana viaja\" é falso, a frase \"Eva não viaja\" também tem que ser falsa. Logo, c(Eva viaja).\n\nConclusão final que é toda verdadeira: Ana não viaja e Eva viaja.\n\n~Gentalha~\n(B) Bruno não fica em casa.\n(C) Eva viaja.\n(D) Davi não descansa.\n(E) As duas partes da disjunção \"Ou\" gerada são falsas na letra E.\n\n~Teoria~\n**Dedução Lógica:** Sempre comece pela afirmação simples ou pela disjunção que já tenha uma resposta óbvia, e vá \"subindo\" na cadeia.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q32",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 32",
+      "timer_override": 300,
+      "front": "**Questão 32:**\n\nEm um grupo de cinco pessoas — A, B, C, D e E —, cada pessoa é de um de dois tipos: as do tipo V não fazem afirmações falsas, e as do tipo F não fazem afirmações verdadeiras. Cada uma fez uma afirmação, reproduzida no quadro.\n\n{{img:C:/Users/ACER/Documents/Concurso/SEFAZ-SC/SIMULADOS ÁGUIA/01/Computação/Matemática Financeira/IMG/Q32.png|100%|Tabela de Verdades e Mentiras}}\n\nSão do tipo F as pessoas:",
+      "options": [
+        "A) A, B e D.",
+        "B) B, C e D.",
+        "C) B e E.",
+        "D) B, D e E.",
+        "E) D e E."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**E) B, D e E.**\n\n- **Passo 1 — O par contraditório.** A diz \"B é do tipo F\" e E diz \"B é do tipo V\". Uma afirmação anula a outra. Exatamente uma das duas é verdadeira e a outra é falsa. Logo, A e E são de tipos diferentes. A afirmação de C diz exatamente isso (\"A e E são de tipos diferentes\"). Como o que C falou ocorreu de fato, C é do tipo c(Verdadeiro (V)).\n- **Passo 2 — Hipótese B ser tipo V.** Se B diz a verdade, \"C e D são do mesmo tipo\", como C é verdadeiro, D também seria verdadeiro. E também seria verdadeiro (ele disse que B é V). Haveria quatro pessoas do tipo V (B, C, D, E). E a pessoa D diz que \"exatamente 3 são do tipo V\". Haveria uma contradição com a realidade de D (seriam 4, não 3). Logo, a hipótese afunda. B c(NÃO) é do tipo V.\n- **Passo 3 — Conclusão.** B é do tipo c(Falso (F)). Se B é mentiroso, E mentiu ao chamar ele de verdadeiro (logo, E é tipo c(F)). E A falou a verdade (logo, A é tipo c(V)). \nSendo falsa a afirmação de B (mentiroso), C e D NÃO SÃO do mesmo tipo. Como C é tipo V, D só pode ser tipo c(F).  \n\nBalanço final: Tipo V (A, C = 2 pessoas). Tipo F (B, D, E = 3 pessoas). Bate perfeitamente com D dizendo mentira (ele falou que eram 3 V, e na verdade são 2).\nMentem (Tipo F): B, D e E.\n\n~Teoria~\n**Verdades e Mentiras:** Encontre a contradição direta. Alguém chamando o outro de mentiroso e um terceiro chamando o mesmo de verdadeiro cria uma encruzilhada lógica perfeita.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_inter_04",
+      "subject": "Revisão Exatas",
+      "source": "BOSS INTERMEDIÁRIO IV - Auditoria Numérica",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Quarto fechamento. A estatística e a teoria dos conjuntos não perdoam desvios no caixa probatório. Verifique a legalidade das sentenças:",
+      "stem": [
+        "vf(I. Na distribuição de probabilidade binomial, assume-se que os ensaios ou extrações ocorrem com reposição e os eventos são mutuamente independentes.)",
+        "vf(II. A amostragem probabilística estratificada consiste em sortear alguns bairros (estratos) e pesquisar todos os seus domicílios, negligenciando completamente os bairros não sorteados.)",
+        "vf(III. A falácia da Afirmação do Consequente (Se A, então B; ocorreu B, logo ocorreu A) é um raciocínio lógico inválido que não garante a veracidade do antecedente.)",
+        "vf(IV. Diante de afirmações conflitantes em testes lógicos de Verdade e Mentira, encontrar duas afirmações que anulam a outra diretamente garante que uma delas é necessariamente falsa.)",
+        "vf(V. Em conjuntos baseados no Diagrama de Venn, a área de intersecção tripla (aqueles que usam três aplicativos simultaneamente) precisa ser deduzida do total das intersecções duplas para evitar re-contagens.)"
+      ],
+      "options": [
+        "A) Apenas III e V são verdadeiras.",
+        "B) Todas são verdadeiras.",
+        "C) I, II, III e IV são verdadeiras.",
+        "D) Nenhuma é verdadeira.",
+        "E) I, III, IV e V são verdadeiras."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Binomial vs Hipergeométrica:** Binomial = Com reposição, p fixo. O que sai volta. Sem reposição o modelo muda para Hipergeométrica, exceto se a amostra for irrisória.\n**2) Amostragem:** Cuidado com o embaralhamento de bancas. Estratificada pega UMA FATIA de todos os bolos. Conglomerado pega ALGUNS BOLOS INTEIROS e ignora os outros.\n**3, 4 e 5) Lógica e Conjuntos:** Nunca suba o rio (afirmar consequente = erro). Em conjuntos, o centro (os 3 juntos) foi contado múltiplas vezes e precisa ser descontado das duplas (a base do Princípio da Inclusão-Exclusão).\n\n~Gabarito~\n**I, III, IV e V** são verdadeiras.\n\n~Gentalha~\n**II) A amostragem probabilística estratificada consiste em sortear alguns bairros... negligenciando completamente os bairros não sorteados.**\n**Falsa.** Esse processo, onde se negligenciam blocos inteiros, é a característica brutal da Amostragem por CONGLOMERADOS, e não da estratificada.\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q33",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 33",
+      "timer_override": 300,
+      "front": "**Questão 33:**\n\nAs figuras a seguir são formadas por palitos de mesmo comprimento, e a sequência prossegue segundo o mesmo padrão.\n\n{{img:C:/Users/ACER/Documents/Concurso/SEFAZ-SC/SIMULADOS ÁGUIA/01/Computação/Matemática Financeira/IMG/Q33.png|100%|Sequência de Palitos}}\n\nA figura dessa sequência formada por exatamente 165 palitos contém, no total, quantos triângulos cujo lado é um único palito?",
+      "options": [
+        "A) 81.",
+        "B) 121.",
+        "C) 100.",
+        "D) 55.",
+        "E) 64."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**D) 100.**\n\n- **Passo 1 — Contagem de palitos.** A figura $n$ é um triângulo de lado $n$ subdividido. Os triângulos voltados para cima formam a soma $1 + 2 + \\dots + n = \\frac{n(n+1)}{2}$. Cada triângulo tem 3 lados/palitos, mas como não há compartilhamento entre os lados exclusivos de cada triângulo virado para cima, a conta dos palitos totais é exata: $palitos = 3 \\times \\frac{n(n+1)}{2}$.\n- Conferência: Fig 1 (n=1) = $3(2)/2 = 3$. Fig 2 (n=2) = $3(6)/2 = 9$. Fig 3 (n=3) = $3(12)/2 = 18$.\n- **Passo 2 — A figura de 165 palitos.** \n  $165 = 3 \\times \\frac{n(n+1)}{2} \\Rightarrow \\frac{165 \\times 2}{3} = n(n+1) \\Rightarrow 110 = n(n+1) \\Rightarrow n = 10$.\n- **Passo 3 — Triângulos unitários.** O número total de triângulos unitários (virados para cima e para baixo) em uma pirâmide de base $n$ é sempre c($n^2$).\n  Logo, $10^2 = 100$ triângulos.\n\n~Gentalha~\n**A) 55.** conta só os triângulos voltados para cima.\n**C) 81.** e **E) 121.** correspondem às figuras $n=9$ e $n=11$.\n\n~Teoria~\n**Sequências Figurais Geométricas:** Busque relacionar o índice $n$ (1, 2, 3...) com o total de palitos ou formas. Quase sempre formará uma Progressão Aritmética na base ou no topo que pode ser somada.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q34",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 34",
+      "timer_override": 300,
+      "front": "**Questão 34:**\n\nA negação lógica da proposição “Todo livro devolvido no prazo foi lido por algum aluno da turma” é:",
+      "options": [
+        "A) Algum livro não devolvido no prazo foi lido por todos os alunos da turma.",
+        "B) Algum livro devolvido no prazo deixou de ser lido por algum aluno da turma.",
+        "C) Todo livro devolvido no prazo deixou de ser lido por algum aluno da turma.",
+        "D) Algum livro devolvido no prazo não foi lido por nenhum aluno da turma.",
+        "E) Nenhum livro devolvido no prazo foi lido por algum aluno da turma."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**C) Algum livro devolvido no prazo não foi lido por nenhum aluno da turma.**\n\n- A proposição original tem a forma \"c(Para todo) livro devolvido no prazo, c(Existe) aluno que o leu\".\n- **Passo 1 — Negação dos quantificadores.** Nega-se o universal trocando \"Todo\" pelo particular \"Algum/Pelo menos um\", e negando a ação do predicado. O predicado era \"foi lido por algum\". A negação dele passa a ser \"não foi lido por nenhum\".\n- **Passo 2 — Redação.** Juntando as peças: \"c(Algum) livro devolvido no prazo c(não foi lido por nenhum) aluno da turma.\"\n\n~Gentalha~\n**A) Nenhum...** nega o universal com outro universal (\"nenhum\"). Isso é a oposição contrária, não a negação lógica exata (contraditória).\n**B) ...não devolvido...** nega a condição do sujeito (muda a classe dos livros), o que está errado.\n**D) Todo livro...** conserva o quantificador universal.\n**E) ...deixou de ser lido por algum...** afirmar que \"algum não leu\" (deixou de ser lido por algum) não anula o fato da frase original que \"algum (outro) aluno leu\". \n\n~Teoria~\n**Negação Lógica (Quantificadores):** \"Todo A é B\" vira \"Algum A não é B\". Nunca negue o 'Todo' com 'Nenhum'.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q35",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 35",
+      "timer_override": 300,
+      "front": "**Questão 35:**\n\nSeis amigos — Ana, Beto, Caio, Dora, Elis e Fábio — sentam-se em torno de uma mesa circular, em seis lugares igualmente espaçados, todos voltados para o centro da mesa. Sabe-se que Ana senta-se em frente a Beto; que Caio senta-se imediatamente à direita de Ana; que Elis senta-se em frente a Caio; e que Dora não é vizinha de Caio. A pessoa sentada em frente a Dora e a pessoa sentada imediatamente à direita de Elis são, respectivamente:",
+      "options": [
+        "A) Fábio e Dora.",
+        "B) Fábio e Ana.",
+        "C) Beto e Dora.",
+        "D) Fábio e Beto.",
+        "E) Caio e Dora."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\n**B) Fábio e Dora.**\n\n- **Passo 1 — Referência Inicial.** Imagine um relógio de 6 posições (12, 2, 4, 6, 8, 10). Pondo Ana na posição 6 (embaixo), Beto ocupa a posição 12 (em frente, no topo).\n- **Passo 2 — Direita/Esquerda.** Como eles olham para o centro, a c(direita) de Ana (na posição 6) fica na posição 4. Logo, Caio ocupa a posição 4. Elis, em frente a Caio, vai para a posição 10 (cruzando o centro).\n- **Passo 3 — Sobra (Dora e Fábio).** Restam as posições 2 e 8. A posição 2 fica entre Beto(12) e Caio(4). Como Dora c(não é vizinha) de Caio, ela não pode ficar na 2. Dora assume a posição 8 (entre Ana e Elis). Por eliminação, Fábio assume a posição 2.\n- **Passo 4 — Solução.** Quem está em frente a Dora (pos. 8)? É a posição 2, ou seja, c(Fábio). Quem está imediatamente à direita de Elis (pos. 10)? É a posição 8 (Lembre-se que Elis olha pro centro, a mão direita dela aponta para o 8). Ou seja, c(Dora).\n\n~Teoria~\n**Ordenação Circular e Orientação:** A maior armadilha é esquecer que a \"direita\" e \"esquerda\" das cadeiras são sempre relativas à visão de quem senta olhando para o centro da mesa.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_q36",
+      "subject": "Raciocínio Lógico",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 36",
+      "timer_override": 300,
+      "front": "**Questão 36:**\n\nEm uma pesquisa com 200 pessoas sobre o uso de três aplicativos, X, Y e Z, apurou-se que 90 usam X, 80 usam Y, 70 usam Z, 30 usam X e Y, 25 usam X e Z, 20 usam Y e Z, e 30 não usam nenhum dos três. O número de pessoas que usam exatamente um dos três aplicativos é:",
+      "options": [
+        "A) 165.",
+        "B) 100.",
+        "C) 90.",
+        "D) 105.",
+        "E) 95."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) 105.**\n\n- **Passo 1 — União total (Usam pelo menos um).** 200 total - 30 (nenhum) = 170.\n- **Passo 2 — Interseção tripla (t).** Pelo princípio da Inclusão-Exclusão:\n  $Uniao = X + Y + Z - (XY + XZ + YZ) + XYZ$\n  $170 = 90 + 80 + 70 - (30 + 25 + 20) + t$\n  $170 = 240 - 75 + t \\Rightarrow 170 = 165 + t \\Rightarrow t = 5$ (Usam os 3).\n- **Passo 3 — Usam exatamente dois.** \n  (XY sem Z): $30 - 5 = 25$.\n  (XZ sem Y): $25 - 5 = 20$.\n  (YZ sem X): $20 - 5 = 15$.\n  Total EXATAMENTE dois = 60.\n- **Passo 4 — Usam exatamente UM.** Pegamos todos que usam algum app (170) e subtraímos os que usam exatamente dois (60) e o que usa os três (5).\n  $Exatamente~Um = 170 - 60 - 5 = 105$.\n  *(Verificação: Só X = $90-25-20-5 = 40$. Só Y = $80-25-15-5 = 35$. Só Z = $70-20-15-5 = 30$. Total = $40+35+30=105$.)*\n\n~Gentalha~\n**A) 90.** subtrai duas vezes as interseções duplas sem devolver a tripla.\n**B) 95.** e **C) 100.** devolvem a tripla uma e duas vezes, quando são três.\n**E) 165.** é a soma com uma única subtração das interseções, o que dá o subtotal da fórmula base, não o resultado final.\n\n~Teoria~\n**Conjuntos - Inclusão e Exclusão:** Comece descobrindo a interseção central (quem usa os 3). Depois, subtraia ela de todas as duplas. O que sobrar nas bordas são os exclusivos de um grupo.\n\n!Break para Respirar!\n~Otávio~\n- O cálculo exige frieza. Revise os passos lógicos e não confie no cálculo mental se a planilha de rascunho está ali para isso."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_inter_05",
+      "subject": "Revisão Exatas",
+      "source": "BOSS INTERMEDIÁRIO V - Auditoria Numérica",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Último acerto do modelo antes da defesa final. Avalie os fundamentos geométricos e lógicos da auditoria de encerramento:",
+      "stem": [
+        "vf(I. Sequências figurais formadas pela subdivisão sucessiva de polígonos muitas vezes obedecem a padrões somatórios atrelados a progressões numéricas, como a soma de Gauss.)",
+        "vf(II. Negar que \"Todo auditor da receita é catarinense\" logicamente não requer a afirmação de que \"Nenhum é catarinense\", bastando apenas encontrar um auditor da receita que não o seja.)",
+        "vf(III. A negação direta da proposição \"Nenhum livro foi lido\" (quantificador universal negativo) é a declaração \"Algum livro foi lido\".)",
+        "vf(IV. Em problemas de ordenação e arranjo circular de N elementos sentados voltados para o centro, o fato de o campo de referência (direita e esquerda) ser determinado pela orientação deles é uma armadilha que precisa ser respeitada na contagem.)",
+        "vf(V. No cruzamento triplo de conjuntos com totais definidos em diagrama de Venn, o valor das bordas (quem faz apenas 1 atividade exclusiva) não sofre qualquer impacto da definição da interseção tripla, permanecendo constante independentemente dela.)"
+      ],
+      "options": [
+        "A) II, III e V são verdadeiras.",
+        "B) Todas são verdadeiras.",
+        "C) I, II, III e IV são verdadeiras.",
+        "D) Apenas I e IV são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Sequências Padrão:** O pulo do gato das figuras é que quase tudo se resume a 1+2+3...+N (que vale N*(N+1)/2). Achar esse núcleo abre o cofre da questão.\n**2 e 3) Negação de Quantificadores:** Universal (Todo/Nenhum) só cai se bater de frente com Particular Existencial (Algum / Algum não).\n**4 e 5) Círculos e Conjuntos:** Direita num círculo para dentro vai contra o relógio. Esquerda vai com o relógio. E em conjuntos, a intersecção tripla destrói as bordas: se ela aumenta, tudo se comprime no núcleo, alterando todo o diagrama.\n\n~Gabarito~\n**I, II, III e IV** são verdadeiras.\n\n~Gentalha~\n**V) No cruzamento triplo de conjuntos... o valor das bordas... não sofre qualquer impacto da definição da interseção tripla...**\n**Falsa.** O diagrama de Venn inteiro respira e expande com a interseção tripla. A intersecção influi em todas as subtrações sucessivas, alterando fortemente as exclusividades nas bordas extremas.\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_final_p1",
+      "subject": "Revisão Final Exatas",
+      "source": "BOSS FINAL - Parecer da Auditoria (Parte 1/4)",
+      "timer_override": 500,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- A auditoria final vai começar. Serão 4 partes para aprovar suas contas em Exatas e Lógica. Primeira parte, princípios financeiros:",
+      "stem": [
+        "vf(I. A equivalência de capitais em regime de juros compostos dispensa a necessidade de combinar uma única data focal entre as partes, pois o valor se igualará temporalmente na soma final independentemente de onde ocorrer a concentração dos pagamentos.)",
+        "vf(II. Uma desvantagem direta sofrida pelo tomador na adoção da Tabela Price em comparação ao SAC é a lentidão na queda inicial do saldo devedor, uma vez que o peso maciço das primeiras parcelas é destinado à quitação de juros em vez da efetiva amortização do principal.)",
+        "vf(III. A taxa efetiva em desconto comercial simples costuma divergir gravemente da taxa contratual quando o período antecipado é longo, uma vez que ela incide retroativamente do montante original e pune o valor de face descontado com distorção matemática superior aos juros racionais.)",
+        "vf(IV. Se um empréstimo apresenta tarifas administrativas deduzidas antecipadamente em folha pelo credor, a taxa efetiva real da operação sobe exponencialmente quando o devedor calcula o peso do juro acordado aplicado não sob o que contratou, mas sob a quantia líquida minguada de fato por ele recebida na conta.)",
+        "vf(V. Um VPL nulo demonstra que os fluxos futuros a valor presente igualaram o desembolso do instante inicial usando a régua da TIR do próprio investimento, significando, portanto, que a taxa mínima de atratividade adotada não foi suficiente para agregar valor econômico extra além da sobrevivência vegetativa do projeto.)"
+      ],
+      "options": [
+        "A) I, II e IV são verdadeiras.",
+        "B) Nenhuma é verdadeira.",
+        "C) Todas são verdadeiras.",
+        "D) Apenas III e V são verdadeiras.",
+        "E) II, III, IV e V são verdadeiras."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Juros Compostos:** Falso (I). É o contrário. Juros compostos independe DA data focal escolhida, ou seja, BATE em qualquer ponto no tempo, não precisando \"combinar\" uma data focal para salvar as contas. Você pode fazer na data zero ou no futuro, dá na mesma.\n**2, 3, 4, 5) Matemática Financeira:** (II) Tabela Price é um balão de juros nas primeiras parcelas. SAC é que derruba o saldo. (III) Desconto comercial (por fora) é extorsivo justamente por isso, ele rouba o líquido, inflando a taxa efetiva real (por dentro). (IV) Taxas extras antecipadas (TAC/IOF descontados do recebido) disparam a taxa efetiva real, porque o devedor pagou aluguel (juros) cheio por um dinheiro (menor) que ele nem teve o prazer de usar. (V) VPL=0 se a TMA for igual à TIR, o que é apenas o \"ponto de empate/sobrevivência\".\n\n~Gabarito~\n**II, III, IV e V** são verdadeiras.\n\n~Gentalha~\n**I) A equivalência... dispensa a necessidade de combinar uma única data focal entre as partes, pois o valor se igualará temporalmente na soma final independentemente de onde ocorrer a concentração dos pagamentos.**\n**Falsa.** Em juros compostos, a equivalência bate c(em toda e qualquer) data do tempo, diferente de juros simples, onde combinar a data focal é imperativo, pois ela altera completamente o valor da resposta.\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_final_p2",
+      "subject": "Revisão Final Exatas",
+      "source": "BOSS FINAL - Parecer da Auditoria (Parte 2/4)",
+      "timer_override": 500,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Segunda parte. Traga à mesa os arquivos de probabilidade e estatística amostral. É aqui que os peritos costumam tropeçar:",
+      "stem": [
+        "vf(I. A aplicação do método dos mínimos quadrados na regressão linear visa desenhar uma reta inclinada capaz de prever cenários incertos ao minimizar impiedosamente a soma dos quadrados das dispersões (erros ou resíduos) entre o que se observou e a linha projetada.)",
+        "vf(II. Se o desvio-padrão interno aferido pela variação de cada equipe é alto, porém o afastamento central entre as médias delas é baixo, a variância geral tende a explodir e ultrapassar consideravelmente a soma bruta das variâncias locais.)",
+        "vf(III. Em testes estatísticos, o Erro Tipo II, de aceitar uma nulidade intrinsecamente falha, cresce quando endurecemos demais e baixamos o limite de confiança e o poder de precisão, exigindo testes extremos para validar rejeições (como uma proteção excessiva no teste a favor do Erro Tipo I).)",
+        "vf(IV. Probabilidades calculadas mediante condicionantes (\"dado que X de fato o ocorreu\") devem abandonar a análise do universo global de opções listadas, reduzindo e espremendo seu divisor novo e enxuto apenas para atender aos casos já englobados pela certeza da condição posta.)",
+        "vf(V. Ao tratar sobre distribuição normal na inferência estatística, uma das utilidades da conversão do score global real (tempos ou limites brutos em relógio) em escores-Z padronizados é a oportunidade fantástica de uniformizar testes e usar as referências tabeladas clássicas imunes à escala natural do negócio auditado.)"
+      ],
+      "options": [
+        "A) Nenhuma é verdadeira.",
+        "B) Todas são verdadeiras.",
+        "C) I, II e IV são verdadeiras.",
+        "D) I, III, IV e V são verdadeiras.",
+        "E) Apenas III e V são verdadeiras."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Regressão Linear:** Corretíssimo. O objetivo de \"mínimos quadrados\" é literalmente o que a expressão carrega: puxar o fio o mais próximo de todas as estrelas desenhadas ao redor dele minimizando os quadrados do erro.\n**2) Variância de Grupos Reunidos:** Falsa. A variância não explode com médias próximas. Ao contrário: é a variância ENTRE grupos (que é o distanciamento brutal entre as médias locais delas) que funciona como póvora na equação de dispersão total.\n**3, 4, 5) Hipóteses, Distribuição Normal e Condicional:** (III) Existe a gangorra do erro. Você enforca a margem do Tipo I para não rejeitar inocente, mas abre o flanco e escancara os poros, e a falsidade vaza no teste limpo aprovada (o perigo do Tipo II). (IV) Uma condição nova destrói o universo global; todo o novo cenário de 100% de margem orbita em torno dela (Ex: Esqueça todas as cartas. Sei que a carta tirada é preta. Pule de 52 para 26). (V) Z é padronização, a língua comum onde todos se entendem no gráfico de sino em zero central.\n\n~Gabarito~\n**I, III, IV e V** são as verdadeiras.\n\n~Gentalha~\n**II) Se o desvio-padrão interno... é alto, porém o afastamento central entre as médias delas é baixo, a variância geral tende a explodir...**\n**Falsa.** O que causa \"explosão\" exponencial de desvios no pacote não é uma média parecida (que seria pacífica), e sim quando a média do grupo 1 diverge bruscamente (variância entre) e espanta-se com a média do grupo 2 num total aglomerado.\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_final_p3",
+      "subject": "Revisão Final Exatas",
+      "source": "BOSS FINAL - Parecer da Auditoria (Parte 3/4)",
+      "timer_override": 500,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Terceira etapa, reta final. Revise suas inferências indutivas. Cuidado para não afirmar consequentes lógicos ou confundir tipos de amostragens que o IBGE costuma aplicar:",
+      "stem": [
+        "vf(I. Na amostragem estratificada, garantir fielmente que bairros ou fatias pequenas fiquem estatisticamente representados na prancheta de captação não viola a aleatoriedade e os moldes da teoria probabilística limpa, muito ao contrário.)",
+        "vf(II. Diferentemente da estratificação pura que picota todos os cenários demográficos, a escolha da amostragem por conglomerados autoriza tecnicamente o auditor a jogar os dados num pote, retirar três unidades inteiras que serão inspecionadas até o tutano e riscar cegamente as demais unidades, descartando as mesmas.)",
+        "vf(III. A estrutura lógica da disjunção exclusiva (ou... ou) inviabiliza que o conectivo exiba o campo da verdade se houver acerto em ambos os membros ao mesmo tempo, exigindo, sem desculpas, a estrita divergência entre proposições opostas em polos de veracidade.)",
+        "vf(IV. Na aplicação pesada do Modus Tollens contra proposições condicionais verdadeiras, desvendar o campo falso empírico enrustido no seu consequente de cauda tem força imperativa e retroativa para invalidar o antecedente principal inteiramente.)",
+        "vf(V. Um erro comum no teste lógico da negação de premissas universais (Todos) recai no espelhamento do universal absoluto contrário (Nenhum), sendo a manobra matematicamente correta desidratá-lo ao grau existencial rebaixado (Algum/Ao menos um) seguido da oposição da sua veracidade primária original.)"
+      ],
+      "options": [
+        "A) I, II, III e IV são verdadeiras.",
+        "B) Apenas III e V são verdadeiras.",
+        "C) I, II e IV são verdadeiras.",
+        "D) Todas são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**Todas verdadeiras.**\n**1 e 2) Amostragem:** Estratificada separa em extratos e coleta pílulas de TODOS eles fielmente mantendo a regra proporcional. Conglomerados, separa as áreas (tipo quarteirão), sorteia alguns, os outros ele abandona, e investiga profundamente o quarteirão sorteado.\n**3, 4 e 5) Raciocínio Lógico:** (III) A disjunção exclusiva condena os iguais. Se ambos os polos forem falsos ou se ambos forem verdadeiros, o arranjo vira falso; só dá verdadeiro em pólos trocados (V e F). (IV) Se $P \\rightarrow Q$ (verdadeira), e descobre que não ocorreu $Q$, então você puxa e descobre $P$ não ocorreu. É a maior arma das equivalências! (V) Negação Lógica do Universal. Não puxe a corda do Todo para o extremo inverso polar dele do Nenhum, basta encontrar um misero cisne negro pontual (Existencial), que o seu Todo Afirmativo apodrece automaticamente por colapso (Algum não é).\n\n~Gabarito~\n**I, II, III, IV e V** - Todas são verdadeiras.\n\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_exatas_boss_final_p4",
+      "subject": "Revisão Final Exatas",
+      "source": "BOSS FINAL - Parecer da Auditoria (Parte 4/4)",
+      "timer_override": 500,
+      "front": "**(BOSS INTERMEDIÁRIO) - Otávio:**\n- Último teste do painel de exatas. O raciocínio dedutivo, verdades, mentiras e conjuntos no espelho retrovisor. Sele o destino:",
+      "stem": [
+        "vf(I. Na técnica diagramática de Venn em conjuntos com três esferas concorrentes que exibem valores unificados informados de duplas de choque, os miolos dessas intersecções duplas são viciados, pois inevitavelmente agasalham sorrateiramente dentro do bolo as presenças da terceira intersecção tripla total no centro gravitacional deles.)",
+        "vf(II. A resolução visual e dedutiva das negações cruzadas no raciocínio sequencial lógico de \"quem mente e quem fala a verdade\" pressupõe garimpar a inconsistência fatal. Identificando quem condena categoricamente a índole de outro que paradoxalmente atesta sua veracidade suprema gera um curto-circuito vital onde a exclusividade da falsidade de um emerge.)",
+        "vf(III. Agrupar em \"bloco indivisível imutável\" termos de análise combinatória serve estritamente para cálculos onde os participantes estão irremediavelmente acorrentados; porém, esquecer da permutação aleatória que dança internamente nesse suposto bloco monolítico (Lia e Rui trocando de lugares na cadeira vizinha) condena o seu balanço final ao fracasso.)",
+        "vf(IV. Nas distribuições probabilísticas binomiais com limite de extração imposto em \"no máximo uma única peça fatal defeituosa na fita de teste\", é mandatório no cálculo matemático do estatístico consolidar não apenas as métricas das combinações parciais que carregam o defeito unitário solitário exigido pela falha sistêmica, mas sim abarcar junto a soma da probabilidade límpida do cenário perfeito ileso imaculado da peça (Probabilidade zero de quebras).)",
+        "vf(V. Ao tratar da posição e ordem numa mesa circular, o referencial é fundamental. Se as cadeiras têm numeração imutável no espaço e as pessoas olham para o centro, a mão esquerda aponta sempre no sentido anti-horário e a mão direita, por consequência, segue o ponteiro regular.)"
+      ],
+      "options": [
+        "A) I, II, III e IV são verdadeiras.",
+        "B) Nenhuma é verdadeira.",
+        "C) I, II e IV são verdadeiras.",
+        "D) Apenas III e V são verdadeiras.",
+        "E) Todas são verdadeiras."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**Todas Verdadeiras.**\n**1) Teoria dos Conjuntos:** Regra de Venn: As pétalas contêm o coração. Se o cara disse que 50 amam Futebol e Volei. Saiba: Dentro desses 50, muitos também amam Natação e estão na tríplice aliança ali do meio encubados e escondidos do olho cego do auditor ingênuo.\n**2) Verdades e Mentiras:** Achar o conflito. Se A diz que B mente, e E diz que B é verdadeiro. Acabou. O conflito é ali. Um dos dois ali é a mentira crua.\n**3 e 4) Combinatória e Probabilidade Binomial:** (III) Bloco indivisível amarra duas opções? Então joga na chave mestra do fatorial geral e, em seguida, faz o fatorial pequeno de dentro do bloco também (a não ser que eles digam que tem regra de direita-esquerda impeditiva). (IV) Sim. \"No máximo 1 erro\", abriga em seu escudo não apenas 1, mas o glorioso ZERO DEFEITOS com louvor supremo. O 0 e o 1 compõem a solução em dupla soma.\n**5) Orientação Circular:** Se N elementos sentam virados todos cravando os olhos no perú do meio da mesa: quem fica na perna 6, olha o 12. A direita da perna 6 foge do 12 caindo para a perna 4; anti-horário em termos de quadrante externo.\n\n~Gabarito~\n**I, II, III, IV e V** - Todas são verdadeiras.\n\n\n!Break para Respirar!\n~Otávio~\n- Mais uma etapa concluída. Foque na precisão dos cálculos e das regras lógicas. Avante, Auditor!"
+    }
+  ]
+}
