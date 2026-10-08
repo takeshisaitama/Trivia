@@ -38,7 +38,7 @@ Cada questão no Trivia Otávio é representada por um objeto JSON dentro de uma
 
 ### Exclamações e Tags Especiais
 - O uso de pontos de exclamação `!` é **ESTRITAMENTE RESERVADO** para as tags do sistema.
-- **NUNCA** use `!` em textos normais, pontuação de frases ou para indicar Fatorial na matemática (use `FAT 5`).
+- **NUNCA** use `!` em textos normais, no final de frases empolgantes ou para indicar Fatorial na matemática (use `FAT(5)`). Lembre-se: `!` é de uso EXCLUSIVO para as Tags Primárias.
 - Tags principais permitidas: `!Otávio!`, `!Regra de Bolso!`, `!Interpretando a Banca!`, `!Break para Respirar!`. Não use duplas exclamações (como `!!`).
 - As sub-tags devem sempre estar dentro das tags principais e são precedidas por um til `~`. Exemplo dentro de `!Otávio!`: `~Teoria~`, `~Gabarito~`, `~Gentalha~`.
 
@@ -87,6 +87,11 @@ Isso faz com que o aplicativo renderize botões clicáveis interativos de Certo/
 
 ## 5. Formatação Exata do Verso (`back`)
 
+### Cláusula Pétrea (Fidelidade Absoluta ao Material Base)
+- **NUNCA TROQUE O GABARITO.** A preparação é para concursos reais e o erro custa caro.
+- O raciocínio no verso deve refletir rigorosamente de **70% a 100%** da linha de ensino do material original fornecido. Se o professor elaborou o cálculo de uma maneira, mantenha a essência dessa mesma lógica. Você pode formatar e dar espaços para melhorar a legibilidade.
+- Se houver falha grotesca da banca ou polêmica e o material explicar que "a banca errou ao considerar a alternativa X, mas considerou X e o recurso não coube", você copia o gabarito errado da banca (pois o candidato precisa aprender a malícia da banca) e explica a polêmica. Nesse caso, coloque no início do texto da frente da carta: `(Polêmica)`.
+
 ### Respostas Certo/Errado para itens V/F (`stem`)
 Nas seções `~Gabarito~` ou `~Gentalha~`, a explicação de uma afirmativa específica do `stem` deve seguir o espaçamento rígido:
 1. Afirmação inteira em negrito.
@@ -108,15 +113,29 @@ Esta técnica na verdade não funciona assim.
 ### Espaçamento na `~Teoria~`
 Ao listar múltiplos itens (como nas regras de Bosses), o título do item deve estar em negrito (geralmente com o número), seguido por `\n` para a explicação. Não amontoe tudo na mesma linha.
 
-**Exemplo correto:**
+**Exemplo correto para Boss Tutorial:**
 ```text
-**1 - Juros Compostos vs Equivalência**
-- **Como aparece**:
+**1) Juros Compostos vs Equivalência:**
+Como aparece:
 A questão pede para comparar dois fluxos de caixa em juros compostos.
-- **Pegadinha**:
+Pegadinha:
 Achar que você precisa levar todos os valores para a data zero.
-- **Decisão**:
+Decisão:
 A equivalência funciona em c(qualquer data focal).
+
+**2) Outro Título:**
+Como aparece:
+...
+```
+
+**Exemplo correto para múltiplos itens na `~Teoria~` de cards normais:**
+Se a questão exige conhecimento de mais de um conceito para ser resolvida, você é **obrigado** a explicar todos os conceitos necessários na `~Teoria~`, não se limitando a apenas um item.
+```text
+**1) Título do Conceito A:**
+Explicação detalhada sobre o conceito A.
+
+**2) Título do Conceito B:**
+Explicação detalhada sobre o conceito B.
 ```
 
 ---
@@ -147,7 +166,12 @@ Os simulados no Trivia Otávio não são blocos passivos. Eles são agrupados po
 As interações da Inteligência Artificial devem assumir o personagem do "Mestre Otávio" de forma subliminar no texto de revisão:
 - Ele é cirúrgico, sério com o estudo, não aceita chute, e foca na aprovação.
 - Adeque o papel ao cargo e à banca: fale de coisas como "Futuro Auditor", "Banca CEBRASPE exige sangue frio", etc.
-- **Break para Respirar:** Use essa tag em questões extensas, de Exatas, ou Bosses. Nela fica a `~Otávio~` subtag para oferecer suporte e lembretes táticos do campo de batalha do concurseiro.
+### Obrigatoriedade das Tags Principais
+O verso do card é composto por tags primárias (ex: `!Otávio!`) e secundárias (ex: `~Teoria~`).
+- `!Otávio!`: Obrigatório. Suas tags secundárias são `~Teoria~` (obrigatória e pode ter múltiplos itens), `~Gabarito~` e `~Gentalha~`.
+- `!Regra de Bolso!`: **OBRIGATÓRIO EM TODOS OS CARDS**. Deve conter a tag secundária `~Lógica~` no formato de silogismo lógico (Ex: **1) SE** X, **ENTÃO** Y).
+- `!Interpretando a Banca!`: **Obrigatório em questões comuns** (não vai nos chefes). Não use frases genéricas óbvias (ex: "Atenção nas crases"). Seja cirúrgico: explique exatamente a pegadinha nuclear daquela questão com base no material fornecido.
+- `!Break para Respirar!`: Vai em TODOS os Bosses e, em cartas normais, APENAS naquelas com alto nível de dificuldade (conforme extraído do comentário da resolução).
 
 ---
 
