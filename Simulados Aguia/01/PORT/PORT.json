@@ -1,0 +1,532 @@
+{
+  "title": "Águia Simulados - SEFAZ/SC 2026: Lote 1 (Línguas)",
+  "messages": {
+    "reprovado": "Otávio: ((Analisa sua planilha de respostas com desdém)) - Futuro Auditor, sua escrituração gramatical está repleta de inconsistências. Volte para os princípios básicos da norma culta, ou a FCC vai glosar sua aprovação sem dó.",
+    "reserva": "Otávio: ((Carimba o documento)) - A contabilidade das suas respostas fechou, mas com margem de erro apertada. Você está no cadastro de reserva. Falta auditoria rigorosa nos detalhes do texto.",
+    "call4": "Otávio: ((Acena afirmativamente)) - A concordância bateu. Você passou pela primeira triagem fiscal. Mas fique atento aos conectivos e pronomes, eles são as notas explicativas da FCC.",
+    "call3": "Otávio: ((Aponta para o painel de resultados)) - Excelente análise sintática. Você não caiu nas pegadinhas de semântica e dominou a interpretação. Sua nomeação está sendo processada.",
+    "call2": "Otávio: ((Impressionado, fecha a pasta)) - Nível Conselheiro do TCE. Você encontrou todas as fraudes gramaticais nas alternativas. A vaga está praticamente garantida no seu patrimônio líquido.",
+    "call1": "Otávio: ((Entrega o crachá da SEFAZ)) - NÍVEL MÁXIMO. Sua proficiência é um ativo intangível de valor inestimável. Você zerou o balanço da FCC. A vaga é sua. Bem-vindo à SEFAZ/SC."
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_tutorial",
+      "subject": "Língua Portuguesa - Interpretação e Gramática",
+      "source": "BOSS TUTORIAL - Mapeamento Tático (Português)",
+      "timer_override": 1200,
+      "front": "**(BOSS TUTORIAL) - Otávio:**\n(abre o Manual de Redação e o balanço financeiro)\n- Futuro Auditor, a FCC não elabora provas, ela faz auditorias textuais. Para gabaritar este lote de Português, você precisa entender o balanço patrimonial dos conectivos, o fluxo de caixa dos pronomes e não extrapolar nos relatórios de interpretação. Analise esta colinha antes de cruzar as bases de dados:",
+      "stem": [
+        "**1) Interpretação - Extrapolação vs. Equivalência:** \n A FCC não quer que você deduza coisas mirabolantes. Se o texto diz que algo é \"tão nocivo quanto\", é uma relação de c(equivalência). Afirmar que é \"mais prejudicial\" é uma c(extrapolação) (erro grave).",
+        "**2) Coesão - Onde está o pronome?:** \n Pronomes como c(eles) ou c(os) retomam substantivos anteriores para evitar repetição. O segredo é perguntar ao verbo: de quem é a autoridade? (seus dados). Quem era requisitado? (os registros).",
+        "**3) Reescrita - Mas vs. Senão:** \n O c(mas) introduz a causa real quando a anterior foi negada. O c(senão) (junto) significa \"mas sim\". Cuidado com c(se não) (separado), que é condição + negação.",
+        "**4) Figuras de Linguagem - Metáfora:** \n Chamar planilhas de c(ilhas) (verdadeiras ilhas alimentadas à mão) é uma c(metáfora) pois faz uma transposição de sentido por semelhança (isolamento) sem usar conectivo comparativo (como, igual a).",
+        "**5) Conjunções - Enquanto:** \n A conjunção c(Enquanto) pode ser temporal (marca a duração de algo) ou pode ter valor de c(contraste) (oposição, equivalendo a \"ao passo que\"). O contexto é rei.",
+        "**6) Voz Passiva Analítica:** \n O objeto direto vira sujeito paciente. Mas atenção com locuções: o verbo auxiliar não se apassiva, apenas o principal. Ex: \"tendem a multiplicar\" vira c(tendem a ser multiplicadas).",
+        "**7) Vocabulário - Pontuais vs. Vistosos:** \n Acordos c(pontuais) são acordos c(circunstanciais) (específicos, caso a caso). Painéis c(vistosos) são painéis c(chamativos) (que impressionam).",
+        "**8) Sintaxe - O que o verbo exige?:** \n O verbo convencer exige alvo e assunto (convencer c(alguém) c(de algo)). Assim, \"gestores\" é o objeto direto, e a oração iniciada por \"de que\" é a subordinada substantiva objetiva indireta.",
+        "**9) Vírgulas da FCC:** \n A regra de ouro da FCC: nunca, jamais, separe o c(sujeito) do seu c(verbo), nem o c(verbo) do seu c(objeto direto).",
+        "**10) Crase - Àquela vs. A casa:** \n O demonstrativo c(aquela) aceita crase se o termo anterior exigir a preposição 'a' (fez referência c(àquela)). A palavra c(casa) no sentido de lar (sem especificador) NÃO aceita crase.",
+        "**11) Discurso Indireto:** \n Passar do direto para indireto exige adaptação temporal e pronominal. O c(imperativo) vira c(subjuntivo pretérito), o pronome de proximidade \"este\" vira c(aquele), e advérbios mudam (hoje vira c(naquele dia)).",
+        "**12) Formação de Palavras - Desigualdade:** \n Formada por derivação c(prefixal e sufixal) (des-igual-dade). As partes existem separadamente. Não confunda com a parassintética (onde os afixos precisam entrar juntos, ex: entardecer).",
+        "**13) Redação Oficial - Fechos:** \n Para o Presidente da República ou autoridades superiores: c(Respeitosamente). Para as demais (mesma hierarquia ou inferior): c(Atenciosamente).",
+        "**14) Tempos Verbais - Correlação:** \n Uma hipótese no passado c(mais-que-perfeito do subjuntivo) (se tivessem compartilhado / conquanto houvessem aberto) exige a consequência no c(futuro do pretérito) (apontaria / dependeria).",
+        "**15) Verbos Irregulares - Requerer e Propor:** \n c(Requerer) não segue \"querer\". No pretérito perfeito é requereu, e subjuntivo é requerer. c(Propor) segue pôr (quando ela c(propuser)).",
+        "**16) Conectivos de Concessão e Causa:** \n c(Embora) introduz concessão (fato que não impediu o resultado). c(Porque) introduz causa (motivo)."
+      ],
+      "options": [
+        "A) Entendido, Mestre. Planilha de auditoria carregada."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n- **Conectivos e Equivalência:** A banca testa sua capacidade de ler a relação exata (causa, proporção, semelhança). Se diz \"tão nocivo quanto\", não é \"mais prejudicial\".\n- **Reescrita:** A essência da FCC. Trocar conectivos sem mudar o sentido. O adversativo \"mas\" é perfeito para introduzir uma causa real quando a primeira foi negada.\n- **Pontuação:** O terror das vírgulas. Sujeito e Verbo são uma conta corrente inseparável.\n- **Redação Oficial:** São regras engessadas, basta decorar.\n\n!Regra de Bolso!\n~Lógica~\n**SE** não está explícito nem subentendido logicamente, **ENTÃO** é c(Extrapolação).\n**SE** tem \"este\" no direto, **ENTÃO** tem c(aquele) no indireto.\n**SE** é autoridade superior, **ENTÃO** o fecho é c(Respeitosamente).\n\n!Interpretando a Banca!\n~Gatilho~\nA FCC gosta de questões de pronomes (O que o \"ele\" ou o \"o\" retomam?). Vá voltando no texto e substitua o pronome pelo substantivo candidato. Se a frase fizer sentido, você achou.\n\n!Break para Respirar!\n~Otávio~\n- Auditor, a FCC é metódica. Ela adora cobrar paralelismo e uso correto dos tempos verbais. Na dúvida de verbo irregular, conjugue na sua cabeça com a palavra-raiz (propor = pôr)."
+    },
+    {
+      "type": "reading_block",
+      "id": "sefaz_sc_01_pt_texto_01",
+      "timer_override": 900,
+      "content": {
+        "title": "A digitalização dos serviços públicos e as bases de dados",
+        "body": "A digitalização dos serviços públicos avançou de\nmodo irregular pelo território catarinense. Enquanto al\ngumas secretarias já cruzam bases de dados para an\ntecipar gargalos no atendimento, outras ainda depen\ndem de planilhas isoladas — verdadeiras ilhas alimen\ntadas à mão — e sujeitas a divergências que só se re\nvelam quando alguém, por acaso, confronta dois rela\ntórios. Essa desigualdade não decorre de falta de re\ncursos, mas de uma cultura institucional que trata a in\nformação como propriedade de cada setor, e não como\nativo compartilhado.\nReverter esse quadro exige mais do que comprar sis\ntemas novos. Exige convencer gestores de que abrir\nseus dados a outras áreas não enfraquece sua autori\ndade sobre eles; ao contrário, multiplica o valor que pro\nduzem. Não por acaso, os órgãos que mais avançaram\nforam aqueles em que a abertura partiu de quem deti\nnha os registros, e não de quem os requisitava.\nHá, contudo, um risco simétrico ao do isolamento:\no de supor que a simples reunião de dados produza,\npor si, conhecimento. Bases cruzadas sem critério ten\ndem a multiplicar inconsistências, e indicadores calcu\nlados sobre registros não verificados emprestam apa\nrência de rigor a conclusões que não resistiriam a um\nexame atento. A pressa em exibir painéis vistosos pode\nser, nesse sentido, tão nociva quanto a recusa em com\npartilhar.\nEnquanto essa dupla convicção — a de que dados\nabertos valem mais e a de que dados abertos exigem\ncuidado — não se espalhar, o cruzamento de informa\nções continuará dependendo de acordos pontuais entre\nservidores bem-intencionados, e não de um fluxo ins\ntitucional estável. E acordos pontuais, como se sabe,\nduram o tempo de permanência de quem os firmou.",
+        "source": "Simulado 01 SEFAZ/SC 2026 - Texto (Língua Portuguesa)"
+      },
+      "questions": [
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q01",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 001",
+          "timer_override": 240,
+          "front": "**Questão 01:**\n\nDepreende-se corretamente do texto que:",
+          "options": [
+            "A) a aquisição de sistemas novos é apresentada como providência dispensável, uma vez que a desigualdade descrita decorre de fatores culturais, e não de fatores materiais.",
+            "B) o êxito da integração pressupõe, a um só tempo, disposição para compartilhar os dados e rigor no tratamento do que se compartilha, sob pena de se obter mera aparência de conhecimento.",
+            "C) a pressa em exibir painéis vistosos é considerada mais prejudicial do que a recusa em compartilhar, por conferir aparência de rigor a conclusões que não resistiriam a exame atento.",
+            "D) os acordos pontuais entre servidores bem intencionados são apresentados como forma de cruzamento de informações cuja duração independe da permanência de quem os firmou.",
+            "E) os órgãos que mais avançaram na integração foram aqueles em que a abertura das bases resultou da pressão exercida pelas áreas que requisitavam os registros alheios."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**B) o êxito da integração pressupõe, a um só tempo, disposição para compartilhar os dados e rigor no tratamento do que se compartilha, sob pena de se obter mera aparência de conhecimento.**\nO 2º parágrafo defende a abertura dos dados, o 3º adverte que a reunião sem critério só empresta \"aparência de rigor\" às conclusões, e o 4º funde as duas exigências na \"dupla convicção\": dados abertos valem mais e exigem cuidado.\n\n~Gentalha~\n**A) a aquisição de sistemas novos é apresentada como providência dispensável...**\nIncorreta. O texto afirma que reverter o quadro \"exige mais do que comprar sistemas novos\": a compra é insuficiente, e não dispensável. A passagem nega que ela baste, sem negar que seja necessária.\n\n**C) a pressa em exibir painéis vistosos é considerada mais prejudicial do que a recusa...**\nIncorreta. O texto diz que a pressa em exibir painéis \"pode ser [...] tão nociva quanto a recusa em compartilhar\", relação de equivalência, e não de superioridade do dano.\n\n**D) os acordos pontuais entre servidores bem intencionados são apresentados como forma de cruzamento... cuja duração independe...**\nIncorreta. O último período afirma que os acordos pontuais \"duram o tempo de permanência de quem os firmou\", isto é, sua duração depende justamente da permanência de quem os celebrou.\n\n**E) os órgãos que mais avançaram na integração foram aqueles em que a abertura das bases resultou da pressão...**\nIncorreta. O 2º parágrafo atribui o avanço aos órgãos em que a abertura \"partiu de quem detinha os registros, e não de quem os requisitava\", o inverso da origem apontada na alternativa.\n\n~Teoria~\n**Interpretação vs Extrapolação:** A alternativa errada na FCC quase sempre brinca de mudar o \"sinal\" (negativo para positivo) ou de criar proporções diferentes (dizer que X é MAIOR que Y quando o texto diz X = Y). Leia as comparações com lupa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o texto diz \"mais do que comprar\", **ENTÃO** a compra não é dispensável, apenas insuficiente.\n**SE** diz \"tão nociva quanto\", **ENTÃO** não é \"mais nociva\" (são equivalentes).\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC adora colocar \"mais prejudicial\" em vez de \"tão prejudicial quanto\". É a armadilha do superlativo falso. Preste atenção aos detalhes de equivalência!\n\n!Break para Respirar!\n~Otávio~\n- Futuro Auditor, você não audita um balanço inventando números. Você atesta o que está no papel. Em interpretação, atenha-se aos dados do texto."
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q02",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 002",
+          "timer_override": 240,
+          "front": "**Questão 02:**\n\nOs pronomes **\"eles\"**, em \"sua autoridade sobre eles\" (2º parágrafo), **\"os\"**, em \"quem os requisitava\" (2º parágrafo), e **\"os\"**, em \"quem os firmou\" (4º parágrafo), retomam, respectivamente:",
+          "options": [
+            "A) gestores, registros e acordos pontuais.",
+            "B) dados, órgãos e acordos pontuais.",
+            "C) dados, registros e servidores bem-intencionados.",
+            "D) dados, registros e acordos pontuais.",
+            "E) dados, gestores e acordos pontuais."
+          ],
+          "answer": 3,
+          "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) dados, registros e acordos pontuais.**\n- \"eles\" retoma \"seus dados\" (autoridade sobre os dados).\n- o primeiro \"os\" retoma \"os registros\" (quem os requisitava).\n- o segundo \"os\" retoma \"acordos pontuais\" (quem os firmou).\n\n~Gentalha~\n**A) gestores, registros e acordos pontuais.**\n\"Eles\" retoma \"seus dados\": a autoridade de que se fala é a do gestor SOBRE os dados abertos a outras áreas, e não sobre os próprios gestores.\n\n**B) dados, órgãos e acordos pontuais.**\nO segundo \"os\" é objeto de \"requisitava\" e retoma \"os registros\", que é o que se requisita; \"órgãos\" é o antecedente de \"aqueles em que\", não do pronome oblíquo.\n\n**C) dados, registros e servidores bem-intencionados.**\nO \"os\" de \"quem os firmou\" é objeto de \"firmar\" e retoma \"acordos pontuais\"; os servidores são os que firmam os acordos, e não o que é firmado.\n\n**E) dados, gestores e acordos pontuais.**\n\"Quem os requisitava\" opõe-se a \"quem detinha os registros\": o pronome retoma \"os registros\", e não \"gestores\", que não figura naquele período.\n\n~Teoria~\n**Coesão e Pronomes Pessoais/Oblíquos:** Retomam termos para evitar repetições. A melhor forma de resolver é ler o trecho e fazer a pergunta ao verbo:\n- Autoridade sobre *o quê*? (sobre os dados).\n- Requisitava *o quê*? (os registros).\n- Firmou *o quê*? (acordos).\n\n!Regra de Bolso!\n~Lógica~\n**SE** você tem dúvida do que o pronome substitui, **ENTÃO** coloque o substantivo no lugar do pronome e veja se a frase faz sentido sintático.\n\n!Interpretando a Banca!\n~Ouro~\nEm questões de \"respectivamente\" de pronomes, elimine pelas opções mais óbvias. Achou o terceiro pronome com clareza? Você já corta metade das alternativas.\n\n!Break para Respirar!\n~Otávio~\n- Auditor, pronomes são como notas de rodapé no relatório financeiro: apontam diretamente para um valor já citado. Não perca a rastreabilidade do texto."
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q03",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 003",
+          "timer_override": 240,
+          "front": "**Questão 03:**\n\nMantêm-se a correção gramatical e o sentido do trecho **\"Essa desigualdade não decorre de falta de recursos, mas de uma cultura institucional que trata a informação como propriedade de cada setor\"** (1º parágrafo) na seguinte reescrita:",
+          "options": [
+            "A) Não é da falta de recursos que essa desigualdade decorre, mas de uma cultura institucional que trata a informação como propriedade de cada setor.",
+            "B) Essa desigualdade decorre menos da falta de recursos do que de uma cultura institucional que trata a informação como propriedade de cada setor.",
+            "C) Essa desigualdade não decorre de falta de recursos, se não de uma cultura institucional que trata a informação como propriedade de cada setor.",
+            "D) Essa desigualdade decorre de falta de recursos, mas também de uma cultura institucional que trata a informação como propriedade de cada setor.",
+            "E) Essa desigualdade não decorre de falta de recursos, mas de uma cultura institucional que tratam a informação como propriedade de cada setor."
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\n**A) Não é da falta de recursos que essa desigualdade decorre, mas de uma cultura institucional que trata a informação como propriedade de cada setor.**\nA construção clivada \"Não é da falta de recursos que essa desigualdade decorre, mas de...\" realça a causa negada e mantém a correção do original: o adversativo \"mas\" introduz a causa verdadeira.\n\n~Gentalha~\n**B) Essa desigualdade decorre menos da falta de recursos do que de uma cultura...**\n\"Decorre menos da falta de recursos do que de...\" admite a falta de recursos como causa secundária, ao passo que o original a exclui por completo.\n\n**C) Essa desigualdade não decorre de falta de recursos, se não de uma cultura...**\nA grafia exigida é \"senão\" (= mas sim), conjunção que substitui um termo por outro; \"se não\" é conjunção condicional seguida de advérbio de negação, inadequada à construção.\n\n**D) Essa desigualdade decorre de falta de recursos, mas também de uma cultura...**\nA reescrita afirma que a desigualdade decorre de falta de recursos, quando o original nega expressamente essa origem e a atribui à cultura institucional.\n\n**E) Essa desigualdade não decorre de falta de recursos, mas de uma cultura institucional que tratam...**\nO verbo de \"que tratam\" concorda com o antecedente do relativo, \"uma cultura institucional\", no singular; a forma exigida é \"trata\".\n\n~Teoria~\n**Reescrita e Conectivos:** O texto diz \"NÃO é A, mas B\". Qualquer alternativa que afirme que é \"A e B\" ou \"Menos A e mais B\" está alterando o sentido lógico. A palavra \"senão\" (tudo junto) equivale a \"mas sim\".\n\n!Regra de Bolso!\n~Lógica~\n**SE** for conjunção significando \"mas sim\", **ENTÃO** escreve-se c(senão) (junto).\n**SE** o original nega \"A\" e afirma \"B\", **ENTÃO** a alternativa não pode admitir \"A\".\n\n!Interpretando a Banca!\n~Gatilho~\nNa FCC, erro de reescrita geralmente não é uma palavra fora de ordem. É um conectivo que muda o sentido ou um erro grave de concordância (como o \"tratam\" da letra E).\n\n!Break para Respirar!\n~Otávio~\n- A diferença entre 'se não' (condição) e 'senão' (mas sim) é a diferença entre uma multa de R$ 1.000 e R$ 100.000. Precisão cirúrgica na ortografia!"
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q04",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 004",
+          "timer_override": 180,
+          "front": "**Questão 04:**\n\nNo segmento **\"verdadeiras ilhas alimentadas à mão\"** (1º parágrafo), o emprego da palavra **\"ilhas\"** constitui:",
+          "options": [
+            "A) metonímia.",
+            "B) comparação.",
+            "C) catacrese.",
+            "D) hipérbole.",
+            "E) metáfora."
+          ],
+          "answer": 4,
+          "back": "Gabarito: E.\n\n!Otávio!\n~Gabarito~\n**E) metáfora.**\nA palavra \"ilhas\" é transposta para as planilhas por semelhança (o isolamento, a ausência de ligação com o entorno), sem conectivo comparativo explícito (como \"como\"), o que caracteriza a metáfora.\n\n~Gentalha~\n**A) metonímia.**\nA metonímia funda-se em relação de contiguidade entre os termos (parte e todo, continente e conteúdo, causa e efeito), relação inexistente entre \"ilha\" e planilha isolada.\n\n**B) comparação.**\nA comparação exige conectivo expresso (\"como\", \"tal qual\", \"feito\"); no trecho, as planilhas são designadas diretamente como \"ilhas\", sem termo comparativo.\n\n**C) catacrese.**\nA catacrese supre a falta de termo próprio na língua (\"pé da mesa\", \"dente de alho\"), o que não ocorre: há palavras próprias para designar planilhas isoladas, e \"ilhas\" é escolha expressiva.\n\n**D) hipérbole.**\nA hipérbole consiste no exagero intencional de uma ideia, e a imagem não amplia a dimensão das planilhas: apenas transfere para elas o traço de isolamento.\n\n~Teoria~\n**Figuras de Linguagem:**\n- **Metáfora:** Comparação implícita (sem conectivo). \"Ela é uma flor\".\n- **Comparação:** Com conectivo. \"Ela é como uma flor\".\n- **Metonímia:** Troca do autor pela obra, continente pelo conteúdo. \"Li Machado de Assis\".\n- **Catacrese:** Metáfora cristalizada por falta de nome. \"Céu da boca\".\n- **Hipérbole:** Exagero intencional. \"Chorei rios\".\n\n!Regra de Bolso!\n~Lógica~\n**SE** não tem conectivo \"como\", **ENTÃO** não é comparação, é c(Metáfora).\n**SE** não tem termo próprio na língua (ex: braço do sofá), **ENTÃO** é c(Catacrese).\n\n!Interpretando a Banca!\n~Ouro~\nA banca usou a palavra \"verdadeiras\" para reforçar o sentido figurado. Isso é uma pista clássica de que se trata de uma metáfora sendo empregada.\n\n!Break para Respirar!\n~Otávio~\n- Chamar um balanço maquiado de 'ilha da fantasia' é metáfora. Se você esquecer essa diferença na prova, é sua nota que vai ficar isolada."
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_boss_inter_01",
+          "subject": "Língua Portuguesa",
+          "source": "BOSS INTERMEDIÁRIO I - Revisão Fiscal (Português)",
+          "timer_override": 400,
+          "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n(fecha o primeiro relatório)\n- Auditor, concluímos o primeiro trimestre de análise gramatical. Precisamos verificar se os conceitos de semântica e pronomes estão claros no seu sistema. Analise as premissas:",
+          "stem": [
+            "vf(I. Na interpretação textual da FCC, relações de equivalência (\"tão nocivo quanto\") permitem que o candidato conclua que um lado é mais prejudicial que o outro.)",
+            "vf(II. Os pronomes oblíquos o/a/os/as servem como mecanismos de coesão, retomando substantivos para evitar sua repetição no texto.)",
+            "vf(III. A palavra \"senão\" escrita junta equivale a \"mas sim\", enquanto \"se não\" (separada) expressa condição aliada à negação.)",
+            "vf(IV. A metáfora difere da comparação porque exige o uso explícito de conectivos comparativos como \"igual a\" ou \"tal qual\".)",
+            "vf(V. A catacrese ocorre quando se emprega uma palavra fora do seu sentido original porque não existe outra mais apropriada, como em \"pé da mesa\".)"
+          ],
+          "options": [
+            "A) Apenas II, III e V são verdadeiras.",
+            "B) Todas são verdadeiras.",
+            "C) Apenas I e IV são verdadeiras.",
+            "D) I, II e III são verdadeiras.",
+            "E) Nenhuma é verdadeira."
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Interpretação:** \"Tão X quanto Y\" indica que possuem o mesmo peso. Qualquer inferência de superioridade é um erro de extrapolação.\n**2) Coesão:** Pronomes retomam nomes. É a base da conexão do texto.\n**3) Ortografia:** Senão (junto) = mas sim. Se não (separado) = caso não.\n**4) Metáfora:** A metáfora é uma comparação IMPLÍCITA. Ela NÃO usa o conectivo expresso.\n**5) Catacrese:** É a metáfora que se cristalizou na língua por falta de um termo específico.\n\n~Gabarito~\n**II, III e V** são as verdadeiras.\n\n~Gentalha~\n**I) ... relações de equivalência permitem que o candidato conclua que um lado é mais prejudicial...**\n**Falsa.** Equivalência é igualdade. Concluir que é mais prejudicial é extrapolação.\n\n**IV) A metáfora difere da comparação porque exige o uso explícito de conectivos...**\n**Falsa.** A metáfora é justamente o contrário: ela NÃO usa conectivos. A comparação sim, os exige.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é \"tão quanto\", **ENTÃO** são c(Equivalentes).\n**SE** é Metáfora, **ENTÃO** c(Não tem) conectivo explícito.\n**SE** é falta de vocábulo próprio, **ENTÃO** é c(Catacrese).\n\n!Break para Respirar!\n~Otávio~\n- Primeira etapa do balanço aprovada. Mas não relaxe. No próximo bloco, a sintaxe da FCC vai exigir mais rigor. Mantenha a guarda alta!"
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q05",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 005",
+          "timer_override": 180,
+          "front": "**Questão 05:**\n\nO vocábulo **\"Enquanto\"**, que inicia o segundo período do 1º parágrafo e o 4º parágrafo, introduz, respectivamente, orações que exprimem relação de:",
+          "options": [
+            "A) contraste e condição.",
+            "B) proporção e tempo.",
+            "C) contraste e tempo.",
+            "D) concessão e tempo.",
+            "E) contraste e causa."
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) contraste e tempo.**\nNo 1º parágrafo, \"Enquanto\" opõe dois grupos de secretarias (\"Enquanto algumas... outras...\"), com valor de contraste (= ao passo que).\nNo 4º parágrafo, marca o período/limite temporal (\"Enquanto essa dupla convicção... não se espalhar... continuará...\"), equivalendo a tempo.\n\n~Gentalha~\n**A) contraste e condição.**\nO segundo \"Enquanto\" não estabelece uma condição hipotética (\"Se\"), mas sim o tempo que durará a situação.\n\n**B) proporção e tempo.**\nO primeiro \"Enquanto\" não estabelece variação progressiva simultânea (\"à medida que\", característica da proporção), mas apenas opõe duas atitudes diferentes de secretarias.\n\n**D) concessão e tempo.**\nA concessão admite um fato que não impede outro (\"embora\"); no 1º parágrafo, as duas orações apenas se opõem diretamente, sem relação de causa falha (concessão).\n\n**E) contraste e causa.**\nO segundo \"Enquanto\" não apresenta o motivo da dependência de acordos, e sim o intervalo de tempo em que ela perdurará; o valor é temporal, não causal.\n\n~Teoria~\n**Conectivos Polissêmicos:** O \"enquanto\" costuma ser apenas temporal (\"Ele lia enquanto eu dormia\"). Porém, se ele opõe duas ideias ou grupos diretamente, ele funciona como **proporção adversativa/contraste** (equivalendo a \"ao passo que\").\n\n!Regra de Bolso!\n~Lógica~\n**SE** você pode trocar por \"Ao passo que\", **ENTÃO** indica c(Contraste).\n**SE** indica duração no relógio/calendário, **ENTÃO** indica c(Tempo).\n\n!Interpretando a Banca!\n~Gatilho~\nA FCC adora cobrar o valor de \"enquanto\" e \"como\" porque eles mudam de sentido conforme a frase. Nunca decore apenas o uso clássico. Leia e aplique a substituição.\n\n!Break para Respirar!\n~Otávio~\n- Conectivos são como taxas de juros. Dependendo de onde são aplicados, mudam todo o resultado da equação. Substitua o termo na frase antes de marcar a resposta."
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q06",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 006",
+          "timer_override": 240,
+          "front": "**Questão 06:**\n\nTranspondo-se para a voz passiva analítica o segmento **\"Bases cruzadas sem critério tendem a multiplicar inconsistências\"** (3º parágrafo), obtém-se, com correção:",
+          "options": [
+            "A) Inconsistências tendem a ser multiplicadas por bases cruzadas sem critério.",
+            "B) Inconsistências tendem a serem multiplicadas por bases cruzadas sem critério.",
+            "C) Inconsistências tendem a multiplicar-se por bases cruzadas sem critério.",
+            "D) Inconsistências são tendidas a ser multiplicadas por bases cruzadas sem critério.",
+            "E) Inconsistências tendem a ter sido multiplicadas por bases cruzadas sem critério."
+          ],
+          "answer": 0,
+          "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\n**A) Inconsistências tendem a ser multiplicadas por bases cruzadas sem critério.**\nNa locução verbal, o objeto direto (\"inconsistências\") vira o sujeito paciente. O verbo principal (\"multiplicar\") vira particípio (\"multiplicadas\"), acompanhado do verbo \"ser\". O sujeito antigo (\"bases cruzadas\") vira o agente da passiva.\n\n~Gentalha~\n**B) Inconsistências tendem a serem multiplicadas por bases cruzadas sem critério.**\nIncorreta. Na locução verbal com o verbo auxiliar flexionado (\"tendem\"), o verbo principal que está no infinitivo (\"ser\") não se flexiona. Falar \"tendem a serem\" é erro gramatical.\n\n**C) Inconsistências tendem a multiplicar-se por bases cruzadas sem critério.**\nIncorreta. \"Multiplicar-se\" constitui voz passiva sintética (pronominal), e não analítica, que exige o verbo \"ser\" seguido de particípio como pedido no enunciado.\n\n**D) Inconsistências são tendidas a ser multiplicadas por bases cruzadas...**\nIncorreta. O auxiliar modal \"tender\" não admite passiva: a apassivação incide apenas sobre o verbo principal de ação (\"multiplicar\").\n\n**E) Inconsistências tendem a ter sido multiplicadas por bases cruzadas...**\nIncorreta. \"Ter sido multiplicadas\" introduz um tempo composto que indica ação já concluída no passado, enquanto \"tendem a multiplicar\" é uma ação/tendência no presente/futuro. Erro de tempo verbal.\n\n~Teoria~\n**Voz Passiva Analítica com Locução Verbal:** O verbo auxiliar de modalidade/tempo (ex: podem, devem, tendem) se ajusta ao novo sujeito. O verbo de ação passa para o particípio, recebendo o verbo \"ser\" de acompanhante (ex: podem multiplicar -> podem SER multiplicadas).\n\n!Regra de Bolso!\n~Lógica~\n**SE** pediu voz passiva analítica, **ENTÃO** tem que ter o verbo c(SER) + c(PARTICÍPIO).\n**SE** já flexionou o primeiro verbo da locução (\"tendem\"), **ENTÃO** não flexione o infinitivo (\"serem\" = c(erro)).\n\n!Interpretando a Banca!\n~Ouro~\nA FCC ama tentar \"apassivar\" o verbo auxiliar (\"são tendidas\", \"é começado\"). Isso não existe! A passiva ocorre só no final da locução. E fique de olho no erro clássico de infinitivo flexionado (\"podem serem\").\n\n!Break para Respirar!\n~Otávio~\n- Passar a voz passiva não altera a essência contábil do fato, apenas inverte as colunas de débito e crédito na frase. Mantenha os tempos e evite criar passivos inexistentes."
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q07",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 007",
+          "timer_override": 180,
+          "front": "**Questão 07:**\n\nOs vocábulos **\"vistosos\"** (3º parágrafo) e **\"pontuais\"** (4º parágrafo) podem ser substituídos, sem prejuízo do sentido que têm no texto, respectivamente, por:",
+          "options": [
+            "A) vultosos e circunstanciais.",
+            "B) chamativos e precisos.",
+            "C) suntuosos e circunstanciais.",
+            "D) chamativos e circunstanciais.",
+            "E) chamativos e assíduos."
+          ],
+          "answer": 3,
+          "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) chamativos e circunstanciais.**\n- \"Painéis vistosos\" (que atraem a vista) são painéis \"chamativos\", que impressionam pela aparência.\n- \"Acordos pontuais\" no texto são acordos restritos a casos específicos, ou seja, acordos \"circunstanciais\", feitos de acordo com a situação.\n\n~Gentalha~\n**A) vultosos e circunstanciais.**\n\"Vultosos\" significa de grande volume, grande quantia (financeira, material). É parônimo que muda o sentido original.\n\n**B) chamativos e precisos.**\n\"Precisos\" é sinônimo de exato, que é outro significado de \"pontual\". Porém, no contexto, não faz sentido dizer \"acordos exatos\", e sim acordos feitos \"caso a caso\".\n\n**C) suntuosos e circunstanciais.**\n\"Suntuosos\" significa luxuosos. O texto critica a aparência dos painéis, mas não fala em riqueza/luxo financeiro sobre eles.\n\n**E) chamativos e assíduos.**\n\"Assíduos\" corresponde a outro sentido de \"pontual\" (alguém pontual = que cumpre horários / assíduo). Acordos não chegam no horário.\n\n~Teoria~\n**Polissemia em Contexto:** Algumas palavras possuem vários sentidos, e as bancas jogam os sinônimos de *outros* sentidos nas erradas. O \"pontual\" pode ser quem chega na hora, mas no texto era uma ação específica no tempo (circunstancial).\n\n!Regra de Bolso!\n~Lógica~\n**SE** atrai a vista, **ENTÃO** é c(Vistoso / Chamativo).\n**SE** é feito para um caso específico, **ENTÃO** é c(Pontual / Circunstancial).\n\n!Interpretando a Banca!\n~Fumaça~\nMisturar *Vultoso* (volume) com *Vistoso* (visão) é o clássico do clássico em questões de vocabulário da FCC. \n\n!Break para Respirar!\n~Otávio~\n- Vocabulário técnico é tudo. Emitir um parecer chamando o desvio de vultoso quando ele é só vistoso destrói seu embasamento."
+        },
+        {
+          "type": "normal",
+          "id": "sefaz_sc_01_pt_q08",
+          "subject": "Língua Portuguesa",
+          "source": "Simulado 01 SEFAZ/SC 2026 - Questão 008",
+          "timer_override": 300,
+          "front": "**Questão 08:**\n\nConsidere o período **\"Exige convencer gestores de que abrir seus dados a outras áreas não enfraquece sua autoridade sobre eles\"** (2º parágrafo) e as afirmações a seguir.",
+          "stem": [
+            "I. O segmento \"de que abrir seus dados a outras áreas não enfraquece sua autoridade sobre eles\" é oração subordinada substantiva objetiva indireta.",
+            "II. O segmento \"abrir seus dados a outras áreas\" é oração subordinada substantiva subjetiva reduzida de infinitivo.",
+            "III. O segmento \"sobre eles\" exerce a função de complemento nominal.",
+            "IV. O segmento \"convencer gestores\" integra oração subordinada substantiva objetiva direta reduzida de infinitivo."
+          ],
+          "options": [
+            "A) II e III, apenas.",
+            "B) I, II, III e IV.",
+            "C) I, III e IV, apenas.",
+            "D) I e III, apenas.",
+            "E) IV, apenas."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**B) I, II, III e IV.**\nTodas as afirmações estão corretas gramaticalmente.\n\n**I- Correta.** O verbo \"convencer\" é transitivo direto e indireto (convencer alguém DE alguma coisa). Assim, a oração iniciada pela preposição \"de que\" age como objeto indireto.\n\n**II- Correta.** Se pegarmos a frase \"abrir seus dados [...] não enfraquece sua autoridade\", percebemos que o sujeito do verbo \"enfraquece\" é toda a ação de \"abrir dados\". Oração que age como sujeito é a subordinada substantiva subjetiva. Está reduzida porque o verbo \"abrir\" está no infinitivo.\n\n**III- Correta.** O segmento \"sobre eles\" completa o sentido de um substantivo abstrato (\"autoridade\"). Quem tem autoridade, tem autoridade *sobre* algo. Se completa um nome, é Complemento Nominal.\n\n**IV- Correta.** O trecho principal é \"Exige\". O que ele exige? \"Convencer gestores\" (exige algo). Não tem preposição, logo age como objeto direto da oração principal, estando o verbo no infinitivo (reduzida).\n\n~Teoria~\n**Análise Sintática Profunda:**\n- A base é o verbo. Ache o verbo e pergunte: \"Quem?\" e \"O quê/A quem?\".\n- **Complemento Nominal:** Completa adjetivo, advérbio ou substantivo abstrato, sempre com preposição.\n- **Oração Reduzida:** É aquela oração sem conectivo (que/se) onde o verbo está no infinitivo, gerúndio ou particípio.\n\n!Regra de Bolso!\n~Lógica~\n**SE** completa o sentido de verbo sem preposição, **ENTÃO** é c(Objeto Direto).\n**SE** completa o sentido de um substantivo abstrato e tem preposição, **ENTÃO** é c(Complemento Nominal).\n**SE** o verbo da oração está no infinitivo, **ENTÃO** ela está c(Reduzida de Infinitivo).\n\n!Interpretando a Banca!\n~Gatilho~\nQuando a FCC te joga essas análises pesadas em itens romanos, analise as regências dos verbos na base. Exige ALGO (Objeto direto). Convencer ALGUÉM (Objeto direto) DE ALGO (Objeto indireto). Fica fácil matar se você conhecer os verbos!\n\n!Break para Respirar!\n~Otávio~\n- Sintaxe não é adivinhação, Auditor. É seguir a cadeia hierárquica da oração. Ache o chefe (verbo) e veja quem se reporta a ele diretamente e indiretamente."
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_inter_02",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS INTERMEDIÁRIO II - Revisão Fiscal (Português)",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n(confere as notas promissórias)\n- O meio do exercício contábil chegou. Teste a sua capacidade de reconhecer passivos e sintaxe avançada neste lote:",
+      "stem": [
+        "vf(I. Na locução verbal da voz passiva analítica, o verbo auxiliar não sofre flexão de particípio; quem vai para o particípio é o verbo principal, auxiliado pelo verbo \"ser\".)",
+        "vf(II. A conjunção \"enquanto\" sempre possui valor semântico de tempo, sendo gramaticalmente proibido seu uso para indicar contraste ou oposição de ideias.)",
+        "vf(III. A flexão no plural do infinitivo de um verbo que já faz parte de uma locução verbal flexionada (ex: \"tendem a serem\") é um erro de norma-padrão comum.)",
+        "vf(IV. Complemento nominal é a função sintática que acompanha verbos intransitivos, indicando a posse ou o destino de uma ação.)",
+        "vf(V. Um verbo transitivo direto e indireto, como \"convencer\" (convencer alguém de algo), pode ter uma oração inteira agindo como seu objeto indireto.)"
+      ],
+      "options": [
+        "A) II e IV são verdadeiras.",
+        "B) I, III e V são verdadeiras.",
+        "C) Todas são verdadeiras.",
+        "D) Apenas I e III são verdadeiras.",
+        "E) Apenas V é verdadeira."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Voz Passiva Analítica:** É composta por: Verbo Ser + Particípio do Verbo Principal. O verbo auxiliar de sentido (poder, dever, tender) fica intacto na sua função (ex: pode ser visto).\n**2) Conectivo Enquanto:** Pode indicar TEMPO (ação simultânea) ou CONTRASTE (ao passo que).\n**3) Flexão de Infinitivo:** Se o auxiliar já flexiona (\"devem\", \"podem\", \"tendem\"), o verbo de ação que o segue no infinitivo NÃO flexiona no plural (\"serem\" é erro).\n**4) Complemento Nominal:** Completa NOME (substantivo abstrato, adjetivo, advérbio), nunca completa verbo.\n**5) Sintaxe da Oração:** Uma oração subordinada pode exercer qualquer função sintática (sujeito, objeto).\n\n~Gabarito~\n**I, III e V** são verdadeiras.\n\n~Gentalha~\n**II) A conjunção \"enquanto\" sempre possui valor semântico de tempo...**\n**Falsa.** \"Enquanto\" é polissêmico e frequentemente introduz contraste/oposição na FCC (\"Enquanto um estuda, o outro joga\").\n\n**IV) Complemento nominal é a função sintática que acompanha verbos intransitivos...**\n**Falsa.** Complemento NOMINAL, por definição, não completa verbos. Completa nomes. \n\n!Regra de Bolso!\n~Lógica~\n**SE** o auxiliar está no plural, **ENTÃO** o infinitivo fica no singular (tendem a c(ser)).\n**SE** completa nome com preposição, **ENTÃO** é c(Complemento Nominal).\n\n!Break para Respirar!\n~Otávio~\n- Perfeito, Auditor. Um bom relatório exige precisão sintática. Errar a função de uma oração é como registrar um Ativo Circulante no Passivo Exigível."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q09",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 009",
+      "timer_override": 180,
+      "front": "**Questão 09:**\n\nEstá plenamente adequada a pontuação do seguinte período:",
+      "options": [
+        "A) Os órgãos que mais avançaram na integração dos dados, foram aqueles em que a abertura partiu dos próprios detentores das bases.",
+        "B) A equipe concluiu o cruzamento das bases; os indicadores, porém ainda dependem de conferência manual setor por setor.",
+        "C) Ao fim do exercício, a Secretaria encaminhou à Assembleia, o relatório consolidado de arrecadação e o parecer da auditoria.",
+        "D) Senhor Diretor solicito que os dados do último trimestre sejam encaminhados a esta coordenação até a próxima sexta-feira.",
+        "E) Os dados, que haviam sido cruzados sem critério, produziram indicadores inconsistentes; por isso, a diretoria determinou nova conferência."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Gabarito~\n**E) Os dados, que haviam sido cruzados sem critério, produziram indicadores inconsistentes; por isso, a diretoria determinou nova conferência.**\nA pontuação está impecável. \n1) A oração adjetiva explicativa (\"que haviam sido cruzados sem critério\") vem devidamente isolada por vírgulas.\n2) O ponto e vírgula (;) é usado corretamente para separar orações coordenadas extensas.\n3) A locução conclusiva \"por isso\", por estar anteposta ao resto da oração coordenada, vem corretamente seguida de vírgula.\n\n~Gentalha~\n**A) Os órgãos... na integração dos dados, foram aqueles...**\nIncorreta. A vírgula após \"dados\" separa o sujeito (\"Os órgãos que mais avançaram...\") do verbo (\"foram\"). A regra máxima proíbe separar sujeito do verbo com vírgula, não importa o quão extenso seja o sujeito.\n\n**B) ... os indicadores, porém ainda dependem de conferência...**\nIncorreta. A conjunção adversativa \"porém\", quando está deslocada para o meio da oração, deve obrigatoriamente vir isolada por DUAS vírgulas (\"os indicadores, porém, ainda dependem...\"). Faltou a segunda.\n\n**C) ... a Secretaria encaminhou à Assembleia, o relatório consolidado...**\nIncorreta. A vírgula após \"Assembleia\" separa o verbo \"encaminhou\" do seu objeto direto (\"o relatório consolidado\"). Outro crime sintático.\n\n**D) Senhor Diretor solicito que...**\nIncorreta. \"Senhor Diretor\" é um chamamento (vocativo). Todo vocativo deve obrigatoriamente ser separado por vírgula do resto da oração. Faltou a vírgula após \"Diretor\".\n\n~Teoria~\n**Regras Críticas de Vírgula da FCC:**\n1) **NUNCA** separe o Sujeito do Verbo.\n2) **NUNCA** separe o Verbo do Objeto Direto/Indireto.\n3) **SEMPRE** isole o Vocativo.\n4) **Conjunções Deslocadas** (porém, portanto, contudo) que aparecem \"no meio\" da oração devem vir entre duas vírgulas.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o \"porém\" está no meio da oração, **ENTÃO** isole-o com c(Duas Vírgulas).\n**SE** a vírgula corta o caminho entre o sujeito e o verbo, **ENTÃO** o item está c(Errado).\n\n!Interpretando a Banca!\n~Gatilho~\nNa FCC, quando você procurar a alternativa correta de pontuação, o primeiro passo é varrer todas as alternativas procurando a \"vírgula da morte\" (aquela entre sujeito e verbo). Você já elimina duas ou três opções só com esse filtro rápido.\n\n!Break para Respirar!\n~Otávio~\n- Auditor, uma vírgula errada muda o dono da dívida ativa. A sintaxe direta (Sujeito > Verbo > Complemento) é o fluxo de caixa perfeito. Qualquer coisa que quebre isso sem justificativa é fraude gramatical."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q10",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 010",
+      "timer_override": 180,
+      "front": "**Questão 10:**\n\nO sinal indicativo de crase está empregado de acordo com a norma-padrão em:",
+      "options": [
+        "A) Encerrados os trabalhos, o auditor voltou à casa para revisar o parecer, que seria entregue à chefia no dia seguinte.",
+        "B) As propostas foram comparadas às do exercício anterior, e a comissão chegou à conclusões divergentes sobre o custo.",
+        "C) A diretoria fez referência àquela norma e, logo em seguida, à que fora editada no exercício imediatamente anterior.",
+        "D) O relatório será encaminhado à Florianópolis, onde a equipe o submeterá à revisão final antes da publicação.",
+        "E) A equipe permaneceu à disposição dos contribuintes de segunda à sexta-feira, das 8h às 18h, durante todo o mês."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) A diretoria fez referência àquela norma e, logo em seguida, à que fora editada no exercício imediatamente anterior.**\nA palavra \"referência\" exige a preposição 'a'. \n1) Na primeira ocorrência, a preposição 'a' se funde com o 'a' inicial do pronome \"aquela\" -> àquela.\n2) Na segunda ocorrência, a preposição 'a' se funde com o pronome demonstrativo 'a' (que significa 'aquela') que introduz a oração \"a que fora editada\" -> à que.\n\n~Gentalha~\n**A) ...o auditor voltou à casa... entregue à chefia...**\nIncorreta. A palavra \"casa\", no sentido do próprio lar e sem nenhum especificador (como em \"casa dos pais\" ou \"casa amarela\"), não aceita o artigo feminino 'a'. Logo, não pode haver crase. O correto é \"voltou a casa\". O \"à chefia\" estaria correto.\n\n**B) ... chegou à conclusões divergentes...**\nIncorreta. \"Conclusões\" é uma palavra feminina no PLURAL, enquanto a preposição que a antecede está no SINGULAR. Onde há 'a' no singular seguido de plural, a crase é fatal (pois não há artigo feminino 'as' para fundir). O correto é \"chegou a conclusões\" ou \"chegou às conclusões\".\n\n**D) ... encaminhado à Florianópolis...**\nIncorreta. Antes de nomes de cidades, só há crase se o nome aceitar artigo feminino. Como regra: \"Vou A, Volto DA, crase há. Vou A, Volto DE, crase pra quê?\". Como dizemos \"Volto DE Florianópolis\", não há artigo, logo não há crase.\n\n**E) ... de segunda à sexta-feira, das 8h às 18h...**\nIncorreta. Nas expressões de dias da semana, a estrutura deve ser simétrica: \"DE segunda A sexta-feira\" (ambos sem artigo, apenas preposições) ou \"DA segunda À sexta-feira\" (ambos com artigo). A alternativa misturou \"de\" com \"à\". \n\n~Teoria~\n**Crase (Fusão da Preposição A + Artigo ou Pronome A):** \n1) Palavra \"Casa\" desacompanhada não leva crase.\n2) \"A\" (singular) + \"Palavra no plural\" = Crase proibida.\n3) Cidades só levam crase se exigirem artigo (A Bahia, A Europa).\n\n!Regra de Bolso!\n~Lógica~\n**SE** é \"A\" no singular + Palavra no plural, **ENTÃO** a crase é c(Proibida).\n**SE** é expressão \"DE\" + \"A\" (dias), **ENTÃO** c(Não) tem crase (simetria).\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC costuma misturar na mesma alternativa um caso correto e um errado (ex: letra A). Não pare a leitura na primeira crase que parecer correta!\n\n!Break para Respirar!\n~Otávio~\n- A crase é o imposto de renda da gramática. Se você não tem as duas notas fiscais (a preposição do termo regente e o artigo do termo regido), a retenção na fonte é ilegal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q11",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 011",
+      "timer_override": 240,
+      "front": "**Questão 11:**\n\nDurante uma reunião, a coordenadora disse aos analistas: **\"Revisem este relatório hoje e, se encontrarem divergências, avisem-me antes que eu o envie à diretoria.\"** Em relato feito por um dos analistas em outro dia, a transposição dessa fala para o discurso indireto, com correção e sem alteração de sentido, é:",
+      "options": [
+        "A) A coordenadora disse aos analistas que revisassem este relatório naquele dia e que, se encontrassem divergências, a avisassem antes que ela o enviasse à diretoria.",
+        "B) A coordenadora disse aos analistas que revisassem aquele relatório naquele dia e que, se encontrassem divergências, a avisassem antes que ela o enviasse à diretoria.",
+        "C) A coordenadora disse aos analistas que revisassem aquele relatório naquele dia e que, se encontrassem divergências, a avisassem antes que ela o enviaria à diretoria.",
+        "D) A coordenadora disse aos analistas que revisassem aquele relatório naquele dia e que, se encontrassem divergências, os avisassem antes que ela o enviasse à diretoria.",
+        "E) A coordenadora disse aos analistas que revisassem aquele relatório hoje e que, se encontrassem divergências, a avisassem antes que ela o enviasse à diretoria."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**B) A coordenadora disse aos analistas que revisassem aquele relatório naquele dia e que, se encontrassem divergências, a avisassem antes que ela o enviasse à diretoria.**\nA transposição direta > indireta foi perfeita:\n1) O modo imperativo \"Revisem\" virou pretérito imperfeito do subjuntivo \"revisassem\".\n2) O pronome \"este\" (proximidade de quem fala) vira \"aquele\" (para quem relata depois).\n3) O advérbio \"hoje\" vira \"naquele dia\" (pois o relato ocorre \"em outro dia\").\n4) O pronome de primeira pessoa \"me\" passa a terceira pessoa \"a\" (referente à coordenadora).\n5) O verbo \"envie\" (presente do subjuntivo) passa a \"enviasse\" (pretérito imperfeito do subjuntivo).\n\n~Gentalha~\n**A) ... que revisassem este relatório naquele dia...**\nIncorreta. Manter o pronome \"este\" indica que o relatório ainda está próximo ao falante, o que viola o relato distante. O correto é \"aquele\".\n\n**C) ... antes que ela o enviaria à diretoria.**\nIncorreta. A locução condicional/temporal \"antes que\" obriga o uso do subjuntivo, não permitindo o futuro do pretérito do indicativo (\"enviaria\"). O correto é \"enviasse\".\n\n**D) ... os avisassem antes que ela...**\nIncorreta. O pronome original era \"me\" (a coordenadora). Se passar para \"os\", está sugerindo que avisassem \"os analistas\", o que deturpa o sujeito de quem recebe o aviso.\n\n**E) ... revisassem aquele relatório hoje...**\nIncorreta. Como o relato foi feito \"em outro dia\", não se pode usar o advérbio \"hoje\", senão altera-se a marcação temporal original da fala. \n\n~Teoria~\n**Discurso Indireto:** É fofoca! Quando você passa o que alguém disse para uma fofoca no passado, TUDO muda:\n- **Tempos Verbais:** Imperativo vira Subjuntivo (Faça > fizesse).\n- **Pronomes e Lugar:** Perto vira longe (Este > Aquele / Aqui > Ali).\n- **Tempo:** Presente vira passado (Hoje > Naquele dia / Amanhã > no dia seguinte).\n\n!Regra de Bolso!\n~Lógica~\n**SE** relatou em outro dia, **ENTÃO** advérbio \"hoje\" vira c(Naquele dia).\n**SE** o pronome indicava o falante (\"me\"), **ENTÃO** o pronome indicará a terceira pessoa c(ela/a).\n\n!Interpretando a Banca!\n~Gatilho~\nA FCC cobra as três mudanças de uma vez: verbal, pronominal e adverbial. Varra as alternativas verificando se o \"hoje\" sumiu e se o \"este\" sumiu. Só isso já te dá a resposta certa em 90% dos casos.\n\n!Break para Respirar!\n~Otávio~\n- Passar para o discurso indireto é como consolidar um balanço de empresas coligadas. Você precisa converter as moedas de tempo e pessoa para a referência da Controladora (quem está relatando o fato)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q12",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 012",
+      "timer_override": 180,
+      "front": "**Questão 12:**\n\nFormam-se pelo mesmo processo que **\"desigualdade\"** as duas palavras de:",
+      "options": [
+        "A) deslealdade e infelicidade.",
+        "B) desonestidade e entardecer.",
+        "C) esclarecer e inutilidade.",
+        "D) infelizmente e enriquecer.",
+        "E) desonestidade e combate."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\n**A) deslealdade e infelicidade.**\nA palavra base \"desigualdade\" possui um prefixo (des-) e um sufixo (-dade) acrescidos ao radical \"igual\". Ela forma-se por derivação prefixal e sufixal (pois as palavras intermediárias existem: desigual, igualdade).\nO mesmo acontece com:\n- deslealdade: prefixo des- + leal + sufixo -dade (existem \"desleal\" e \"lealdade\").\n- infelicidade: prefixo in- + feliz + sufixo -dade (existem \"infeliz\" e \"felicidade\").\n\n~Gentalha~\n**B) desonestidade e entardecer.**\n\"Entardecer\" é parassintética. Os dois afixos (en- e -cer) precisam entrar ao mesmo tempo na raiz \"tarde\", pois as palavras \"entarde\" ou \"tardecer\" não existem.\n\n**C) esclarecer e inutilidade.**\n\"Esclarecer\" é parassintética (não existem \"esclaro\" nem \"clarecer\").\n\n**D) infelizmente e enriquecer.**\n\"Enriquecer\" é parassintética (não existem \"enrico\" nem \"riquecer\").\n\n**E) desonestidade e combate.**\n\"Combate\" forma-se por derivação regressiva (redução do verbo combater para substantivo abstrato), sem acréscimo de prefixos/sufixos.\n\n~Teoria~\n**Derivação Prefixal e Sufixal vs Parassintética:** \nTanto uma quanto a outra colocam prefixo e sufixo ao mesmo tempo. Mas na Parassintética, se você tirar um dos afixos, a palavra que sobra NÃO EXISTE na língua portuguesa. Na Prefixal/Sufixal comum (como *deslealdade*), se você tirar um dos pedaços, o resto tem sentido (existem as palavras *desleal* e *lealdade* isoladas).\n\n!Regra de Bolso!\n~Lógica~\n**SE** você tirar o prefixo e a palavra morrer (não fizer sentido na língua), **ENTÃO** é derivação c(Parassintética).\n**SE** as partes sobreviverem sozinhas (como in-feliz-mente), **ENTÃO** é c(Prefixal e Sufixal).\n\n!Interpretando a Banca!\n~Fumaça~\nSempre que a FCC pede \"mesmo processo de formação de X com 3 afixos\", ela vai tentar te fazer confundir Prefixal+Sufixal com a Parassíntese. Faça o teste de tentar pronunciar a palavra sem o prefixo na sua cabeça.\n\n!Break para Respirar!\n~Otávio~\n- Auditor, a derivação parassintética é como uma fusão de empresas: ou as duas entram juntas no acordo (prefixo e sufixo), ou não há negócio e a palavra quebra."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_inter_03",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS INTERMEDIÁRIO III - Revisão Fiscal (Português)",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO III) - Otávio:**\n(confere a folha de pagamento)\n- Estamos chegando ao fim do trimestre fiscal da prova. Revise a pontuação, a crase e os processos de reescrita. Avalie os lançamentos contábeis gramaticais:",
+      "stem": [
+        "vf(I. Na regra da crase, a expressão \"a casa\", no sentido do próprio lar e sem nenhum especificador (como \"casa paterna\"), não admite artigo e, portanto, não leva crase.)",
+        "vf(II. Em relação à pontuação, é plenamente aceitável separar o verbo do seu objeto direto com uma vírgula, caso o objeto direto seja composto por mais de dois itens.)",
+        "vf(III. A palavra \"entardecer\" exemplifica a derivação parassintética, pois a retirada do seu prefixo ou sufixo gera uma palavra inexistente na língua portuguesa.)",
+        "vf(IV. Ao converter um discurso direto para o indireto feito em momento futuro, um advérbio de tempo como \"hoje\" deve ser mantido intacto para preservar a precisão temporal da fala original.)",
+        "vf(V. Conjunções deslocadas para o interior das orações, como \"porém\" ou \"portanto\", devem obrigatoriamente vir isoladas por vírgulas.)"
+      ],
+      "options": [
+        "A) I, III e V são verdadeiras.",
+        "B) II, IV e V são verdadeiras.",
+        "C) Todas são verdadeiras.",
+        "D) Apenas I e III são verdadeiras.",
+        "E) Apenas V é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Crase com Casa/Terra:** Só aceitam crase se vierem especificadas (ex: à casa de Maria). Sozinhas, repelem o artigo.\n**2) Pontuação Básica:** A FCC é impiedosa. É proibido separar sujeito > verbo > objeto. A vírgula de intercalação só entra para termos explicativos, circunstanciais e apostos.\n**3) Formação de Palavras:** A Parassíntese exige que ambos os afixos grudem na palavra raiz simultaneamente (en + tarde + cer).\n**4) Discurso Indireto:** Todo referencial de lugar/tempo muda se quem relata está em outro lugar/tempo. O \"hoje\" da vítima é o \"naquele dia\" do perito/auditor.\n**5) Conjunções Deslocadas:** Quebraram a ordem natural da frase, ganham isolamento duplo por vírgulas (ex: \"A dívida, porém, não foi paga\").\n\n~Gabarito~\n**I, III e V** são verdadeiras.\n\n~Gentalha~\n**II) ... é plenamente aceitável separar o verbo do seu objeto direto com uma vírgula...**\n**Falsa.** O tamanho do objeto não muda a regra. É crime gramatical inafiançável separar verbo do seu complemento.\n\n**IV) ... um advérbio de tempo como \"hoje\" deve ser mantido intacto...**\n**Falsa.** Ele *deve* ser convertido (\"hoje\" -> \"naquele dia\") porque a referência temporal de quem relata mudou.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é casa sem especificar de quem, **ENTÃO** crase c(Jamais).\n**SE** é discurso indireto fofocado em outro momento, **ENTÃO** \"hoje\" vira c(naquele dia).\n\n!Break para Respirar!\n~Otávio~\n- Não deixe nenhuma crase ou pontuação sem conferência cruzar a sua mesa. O rigor nesses detalhes é o que separa os concursados dos candidatos."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q13",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 013",
+      "timer_override": 300,
+      "front": "**Questão 13:**\n\nConsiderando o Manual de Redação da Presidência da República (3ª edição), julgue as afirmativas a seguir, relativas às comunicações elaboradas no padrão ofício, em c(verdadeiras (V)) ou c(falsas (F)).",
+      "stem": [
+        "(   ) O fecho \"Respeitosamente\" destina-se às comunicações dirigidas a autoridades de hierarquia superior à do remetente, inclusive ao Presidente da República, e \"Atenciosamente\", às dirigidas a autoridades de mesma hierarquia, de hierarquia inferior e aos demais casos.",
+        "(   ) Os Ministros de Estado, embora tratados por \"Vossa Excelência\", recebem o vocativo \"Senhor\" ou \"Senhora\" seguido do cargo, reservando-se a expressão \"Excelentíssimo Senhor\" às comunicações dirigidas aos Chefes de Poder.",
+        "(   ) A numeração das páginas é obrigatória a partir da segunda página da comunicação e deve ser centralizada, no rodapé do documento ou acima da área de 2 cm da margem inferior.",
+        "(   ) Os parágrafos do texto são numerados quando o documento tiver três ou mais parágrafos, desde o primeiro parágrafo, sem que se numerem o vocativo e o fecho."
+      ],
+      "options": [
+        "A) V, F, V, F.",
+        "B) V, V, F, V.",
+        "C) F, F, F, F.",
+        "D) V, V, V, V.",
+        "E) F, F, F, V."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Gabarito~\n**D) V, V, V, V.**\nTodas as afirmações sobre o Manual de Redação estão perfeitamente corretas.\n\n- **Item 1 (V):** É a regra do item 5.1.7 do Manual, que reduziu os fechos a apenas dois: \"Respeitosamente\" para superiores (incluindo o Presidente) e \"Atenciosamente\" para mesma hierarquia, hierarquia inferior e demais casos (cidadãos em geral).\n- **Item 2 (V):** Pelo item 4.4, \"Excelentíssimo Senhor\" é um vocativo reservado EXCLUSIVAMENTE aos Chefes de Poder (Presidente da República, Presidente do STF, Presidente do Congresso/Senado/Câmara). Para os Ministros (que não são chefes de poder), usa-se \"Senhor Ministro\".\n- **Item 3 (V):** A numeração é obrigatória a partir da página 2 (nunca numerar a página 1). Fica centralizada no rodapé.\n- **Item 4 (V):** Se o documento for longo (3 ou mais parágrafos), numera-se tudo desde o primeiro, exceto o fecho e o vocativo que não levam número.\n\n~Teoria~\n**Manual de Redação da PR (MRPR 3ª ed):** O padrão ofício padronizou antigos documentos (como o Memorando e o Aviso). As bancas adoram cobrar os Fechos (que foram reduzidos a dois) e a regra dos Vocativos (Apenas os Chefes de Poder levam o \"Excelentíssimo\").\n\n!Regra de Bolso!\n~Lógica~\n**SE** é chefe de um dos três poderes, **ENTÃO** o vocativo é c(Excelentíssimo Senhor).\n**SE** a correspondência vai para o chefe/superior, **ENTÃO** usa-se c(Respeitosamente).\n\n!Interpretando a Banca!\n~Ouro~\nA FCC e o CESPE focam pesadamente nessa exclusividade do \"Excelentíssimo Senhor\". Eles tentarão aplicar esse vocativo para juízes de primeira instância ou senadores/deputados comuns. É falso. Só vai para os presidentes de cada poder.\n\n!Break para Respirar!\n~Otávio~\n- Redação Oficial é decoreba fria e calculista. É a legislação aplicável ao ofício estatal. Você não interpreta as regras de vocativo, você obedece cegamente ao Manual."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q14",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 014",
+      "timer_override": 180,
+      "front": "**Questão 14:**\n\nA correlação entre os tempos e modos verbais está de acordo com a norma-padrão em:",
+      "options": [
+        "A) Caso os setores tivessem compartilhado as bases a tempo, o painel apontará a divergência antes do fechamento do relatório.",
+        "B) Se a equipe conferir os registros antes do fechamento do relatório, teria evitado todo o retrabalho com a revisão final.",
+        "C) Ainda que os gestores houvessem aberto as bases, a integração dependeria de critérios que até então ninguém havia definido.",
+        "D) Quando os dados forem publicados no portal, a equipe já concluíra a revisão de todos os indicadores do trimestre.",
+        "E) Embora a diretoria receba o relatório na semana passada, ninguém o analisou até o encerramento do prazo regulamentar."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Gabarito~\n**C) Ainda que os gestores houvessem aberto as bases, a integração dependeria de critérios que até então ninguém havia definido.**\nAs relações temporais estão perfeitas: A oração concessiva no passado (\"houvessem aberto\" = pretérito mais-que-perfeito do subjuntivo) exige a consequência principal numa hipótese do passado (\"dependeria\" = futuro do pretérito). E o fato anterior a todos esses passados recebe o modo adequado (\"havia definido\" = mais-que-perfeito do indicativo).\n\n~Gentalha~\n**A) Caso os setores tivessem compartilhado as bases... o painel apontará...**\nIncorreta. \"Tivessem compartilhado\" (hipótese que não se concretizou no passado) não pode gerar uma ação no futuro certo do presente (\"apontará\"). O correto é \"apontaria\".\n\n**B) Se a equipe conferir os registros... teria evitado todo o retrabalho...**\nIncorreta. O futuro do subjuntivo \"conferir\" (possibilidade futura) não combina com um passado concluído \"teria evitado\". Se eles ainda vão conferir amanhã, como isso já evitou um retrabalho no passado?\n\n**D) Quando os dados forem publicados... a equipe já concluíra...**\nIncorreta. Se os dados ainda \"forem publicados\" (futuro), como a equipe \"concluíra\" (passado mais-que-perfeito distante) a revisão? Há uma quebra da linha do tempo.\n\n**E) Embora a diretoria receba o relatório na semana passada, ninguém o analisou...**\nIncorreta. A marcação de tempo diz \"na semana passada\". Portanto, a ação verbal deve estar no passado (\"recebesse\" ou \"tenha recebido\"), e não no presente \"receba\".\n\n~Teoria~\n**Correlação Verbal:** É garantir que a frase siga a linha do tempo e do espaço sem contradições lógicas. A principal dupla dinâmica da FCC que despenca em provas: Pretérito Imperfeito do Subjuntivo + Futuro do Pretérito do Indicativo (Se ele estudasse [SSE], passaria [RIA]).\n\n!Regra de Bolso!\n~Lógica~\n**SE** começa com o sufixo -SSE (estudasse/tivesse), **ENTÃO** exige na principal o sufixo c(-RIA) (passaria/apontaria).\n**SE** o advérbio indica \"na semana passada\", **ENTÃO** o verbo proíbe ser flexionado no c(Presente).\n\n!Interpretando a Banca!\n~Fumaça~\nQuando a FCC misturar \"Se eu fizer...\" com \"...eu iria\", marque a alternativa como errada. A linha do tempo é sagrada em questões de correlação verbal.\n\n!Break para Respirar!\n~Otávio~\n- Lançar um débito no passado exigindo que o crédito caia no futuro imperfeito vai reprovar as suas contas no tribunal. Linhas temporais verbais devem fechar no azul!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q15",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 015",
+      "timer_override": 180,
+      "front": "**Questão 15:**\n\nEstá correta a flexão de todas as formas verbais em:",
+      "options": [
+        "A) Se o contribuinte se precaver e reaver os documentos extraviados, o processo administrativo será retomado na fase em que parou.",
+        "B) Os auditores mantiveram a autuação, mas o contribuinte interviu no processo antes do julgamento da impugnação.",
+        "C) Se os servidores não se absterem de opinar, a corregedoria poderá rever a designação da comissão processante.",
+        "D) Quando a diretoria propor a revisão do cronograma, os setores a discutirão em reunião convocada para esse fim.",
+        "E) Se a fiscalização requerer novos documentos e o contribuinte os detiver, o prazo ficará suspenso até que ele os apresente."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Gabarito~\n**E) Se a fiscalização requerer novos documentos e o contribuinte os detiver, o prazo ficará suspenso até que ele os apresente.**\nA flexão de \"requerer\" está correta (é um falso derivado de \"querer\", tem vida própria). O subjuntivo futuro é \"quando ele requerer\". O verbo \"detiver\" segue corretamente a raiz de \"ter\" (\"quando ele tiver\" -> \"quando ele detiver\").\n\n~Gentalha~\n**A) ...se precaver e reaver os documentos...**\nIncorreta. \"Reaver\" deriva de \"haver\" (\"quando ele houver\" -> \"quando ele reouver\"). Não existe \"se ele reaver\".\n\n**B) ...mas o contribuinte interviu...**\nIncorreta. \"Intervir\" deriva de \"vir\" (pretérito perfeito: ele veio -> ele interveio). Falar \"interviu\" dói nos ouvidos fiscais.\n\n**C) Se os servidores não se absterem de opinar...**\nIncorreta. \"Abster\" deriva de \"ter\". Se no subjuntivo eu falo \"se eles tiverem\", logo o correto é \"se eles se abstiverem\". \n\n**D) Quando a diretoria propor...**\nIncorreta. \"Propor\" deriva do antigo verbo \"pôr\". O subjuntivo de \"pôr\" é \"puser\". Logo, o futuro do subjuntivo de propor é \"quando a diretoria propuser\".\n\n~Teoria~\n**Verbos Irregulares/Derivados Derivados:** São verbos grandes que puxam a mesma conjugação de uma raiz primitiva (vir, pôr, ver, ter, dar). \nAtenção apenas aos \"falsos derivados\" famosos, como \"requerer\" (que NÃO segue a conjugação maluca de \"querer\"), e \"prover\" (que tem conjugação mista).\n\n!Regra de Bolso!\n~Lógica~\n**SE** o verbo deriva de Ter, **ENTÃO** se conjuga igualzinho (teve -> deteve / tiverem -> abstiverem).\n**SE** for o verbo Requerer, **ENTÃO** é falso derivado (no perfeito, conjugamos \"ele c(requereu)\").\n\n!Interpretando a Banca!\n~Gatilho~\nOs queridinhos da FCC: reaver (reouveram, reouvemos), intervir (interveio), propor (propusesse/propuser) e deter (deteve). Se vir \"interviu\" ou \"propor\", risque na hora!\n\n!Break para Respirar!\n~Otávio~\n- Conjugação verbal é Matemática, Auditor. Você acha a variável 'X' (o verbo base) e joga a fórmula nos seus filhotes. X = Pôr, então Y = Propor. Não tem erro."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_q16",
+      "subject": "Língua Portuguesa",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 016",
+      "timer_override": 240,
+      "front": "**Questão 16:**\n\nOs períodos **\"O órgão abriu suas bases às demais secretarias.\"**, **\"A integração dos dados não avançou.\"** e **\"Faltavam critérios comuns de registro.\"** articulam-se em um único período, com correção e coerência, em:",
+      "options": [
+        "A) O órgão abriu suas bases às demais secretarias, de modo que a integração dos dados não avançou, visto que faltavam critérios comuns de registro.",
+        "B) Embora o órgão tivesse aberto suas bases às demais secretarias, a integração dos dados não avançou, porque faltavam critérios comuns de registro.",
+        "C) Conquanto o órgão abriu suas bases às demais secretarias, a integração dos dados não avançou, pois faltavam critérios comuns de registro.",
+        "D) O órgão abriu suas bases às demais secretarias; contudo, a integração dos dados não avançou, embora faltassem critérios comuns de registro.",
+        "E) Apesar de o órgão ter aberto suas bases às demais secretarias, a integração dos dados não avançou, de sorte que faltavam critérios comuns de registro."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Gabarito~\n**B) Embora o órgão tivesse aberto suas bases às demais secretarias, a integração dos dados não avançou, porque faltavam critérios comuns de registro.**\nA correlação lógica exigia duas coisas:\n1) Estabelecer que a \"abertura\" foi inútil para o resultado final (é uma ressalva/concessão introduzida pelo \"embora\").\n2) Indicar que o real culpado pelo \"não avanço\" foi a falta de critérios. Isso é a CAUSA (introduzida pelo \"porque\").\nTudo articulado e os tempos verbais do indicativo/subjuntivo combinando.\n\n~Gentalha~\n**A) ...de modo que a integração dos dados não avançou...**\nIncorreta. A expressão \"de modo que\" indica consequência da ação inicial. Mas a \"falta de avanço\" não é consequência da \"abertura de bases\". Elas estão em conflito de sentido.\n\n**C) Conquanto o órgão abriu suas bases...**\nIncorreta. \"Conquanto\" é um conectivo concessivo chique que exige uso de verbo no MODO SUBJUNTIVO (\"conquanto tivesse aberto\"). O uso do indicativo \"abriu\" está gramaticalmente errado.\n\n**D) ... a integração... não avançou, embora faltassem critérios...**\nIncorreta. \"Embora\" introduz concessão (coisa que deveria impedir o resultado, mas não impediu). Mas a \"falta de critérios\" foi justamente o que provocou/explicou o não avanço. É causa, não concessão.\n\n**E) ... a integração dos dados não avançou, de sorte que faltavam critérios comuns...**\nIncorreta. Novamente usa uma conjunção consecutiva (\"de sorte que\" = \"de modo que\") no lugar de uma conjunção causal (\"porque/já que\"), invertendo as bolas da causa com a consequência.\n\n~Teoria~\n**Articulação e Reescrita de Frases da FCC:** As três chaves dessa cobrança. \n1) O sentido lógico foi respeitado? (A causa continuou causa?). \n2) A conjunção está classificada certa? (Não botei embora no lugar de porque). \n3) A gramática acompanhou a conjunção? (\"Conquanto/Embora\" pedem Subjuntivo).\n\n!Regra de Bolso!\n~Lógica~\n**SE** \"A\" explica o motivo para \"B\" ocorrer, **ENTÃO** \"A\" é introduzido por conjunção c(Causal) (como porque, já que).\n**SE** você tem uma conjunção concessiva (embora/conquanto), **ENTÃO** você tem a obrigação legal de botar o verbo no c(Subjuntivo).\n\n!Interpretando a Banca!\n~Gatilho~\nNa FCC, errar o conectivo (trocando causa por consequência) ou \"esquecer\" de ajustar o verbo ao usar \"conquanto\" são os dois maiores pegas dessa matéria. Faça o teste do subjuntivo primeiro!\n\n!Break para Respirar!\n~Otávio~\n- Fechamento da DRE textual. Relacionar causa e efeito na sintaxe é o mesmo que relacionar despesa e receita na contabilidade. Um erro aqui e o resultado líquido do seu simulado vai pro vermelho!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_inter_04",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS INTERMEDIÁRIO IV - Revisão Fiscal (Português)",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO IV) - Otávio:**\n(guarda a caneta Montblanc)\n- Último trimestre deste lote de português concluído. Confirme a legalidade das transações verbais e de correlação que acabamos de auditar:",
+      "stem": [
+        "vf(I. Em redação oficial (padrão ofício), numerar os parágrafos é norma obrigatória em qualquer caso de documento com mais de um parágrafo de texto.)",
+        "vf(II. A conversão da fala do imperativo (\"Revisem este relatório hoje\") para o discurso indireto no passado exige a alteração tripla: verbal, do pronome e do advérbio de tempo.)",
+        "vf(III. A combinação de \"Se tivessem feito\" (subjuntivo no passado distante) demanda a conclusão de \"teriam evitado\" ou \"evitariam\" (futuro do pretérito).)",
+        "vf(IV. É correto o uso do subjuntivo \"requerer\" (do verbo requerer) quando o mesmo é condicionado (ex: quando ele requerer); não seguindo a raiz pura de \"querer\".)",
+        "vf(V. A conjunção \"conquanto\", sendo concessiva e opondo obstáculos ao resultado sem o impedir, demanda a flexão do verbo imediatamente atrelado no subjuntivo.)"
+      ],
+      "options": [
+        "A) Apenas I, II e IV são verdadeiras.",
+        "B) Apenas I, III e V são verdadeiras.",
+        "C) Todas são falsas.",
+        "D) Apenas III e V são verdadeiras.",
+        "E) Apenas II, III, IV e V são verdadeiras."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Redação Oficial:** Fechos e vocativos exigem decoreba. O Excelentíssimo Senhor é de posse privativa do STF (judiciário), do Congresso/Câmara/Senado (Legislativo) e da PR (Executivo).\n**2) Conectivos e Subjuntivo:** Conjunções Concessivas (Conquanto, Embora, Ainda que, Mesmo que) EXIGEM que a oração tenha o verbo no modo SUBJUNTIVO (e não no indicativo que dá o tom de certeza e fato consumado).\n**3) Conjugação de Irregulares:** Propor e Dispor não são \"propor e dispor\", são filhos legítimos de \"Pôr\" e herdam todas as suas mutações genéticas. \n**4) Correlação Verbal:** Subjuntivo pretérito imperfeito exige Indicativo do Futuro do Pretérito (tivesse -> ria).\n**5) Crase em Expressões Simétricas:** Na dúvida se tem ou não crase em locuções como \"de A a B\", mantenha a balança equilibrada: se há só preposição no DE, há só preposição no A.\n\n~Gabarito~\n**II, III, IV e V** são as corretas.\n\n~Gentalha~\n**I) Em redação oficial... numerar os parágrafos é norma obrigatória em qualquer caso de documento com mais de um parágrafo de texto.**\n**Falsa.** O manual exige a partir de três ou mais parágrafos. O ofício de dois parágrafos dispensa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o ofício tiver 3 ou mais parágrafos, **ENTÃO** ele deve ser c(Numerado).\n**SE** for o verbo requerer no futuro subjuntivo, **ENTÃO** é c(requerer).\n\n!Break para Respirar!\n~Otávio~\n- Preparado para a Defesa Final? Vamos condensar todas as súmulas gramaticais que você aprendeu nesses quatro blocos. Prepare a caneta e revise as evidências!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_final_p1",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS FINAL (PORTUGUÊS) - Parecer da Auditoria (Parte 1/4)",
+      "timer_override": 500,
+      "front": "**(BOSS FINAL) - Otávio:**\n(abre o relatório final sobre a mesa)\n- Chegou a hora do parecer, Futuro Auditor. Julgue os seguintes princípios normativos aplicados no lote 1:",
+      "stem": [
+        "vf(I. Na interpretação textual, a banca considera erro de extrapolação alegar que algo é superior quando o texto define uma equivalência.)",
+        "vf(II. A palavra \"senão\", escrita junta, substitui adequadamente a conjunção \"mas sim\" em correções de oposição negada.)",
+        "vf(III. A palavra \"ilhas\" no lugar de planilhas isoladas é considerada metonímia por transferir um sentido sem o uso de termos comparativos.)",
+        "vf(IV. A conjunção \"enquanto\", quando estabelece contraposição direta de dois fatos ou grupos, indica contraste ao invés de temporalidade.)",
+        "vf(V. Pronomes como \"eles\" e \"os\" possuem função de coesão, exigindo leitura do verbo para identificação do termo que substituem.)"
+      ],
+      "options": [
+        "A) I, II, IV e V são verdadeiras.",
+        "B) Todas são verdadeiras.",
+        "C) Apenas I, II e III são verdadeiras.",
+        "D) Apenas II, III e IV são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Interpretação:** Respeite a matemática do texto (=, < ou >).\n**2) Reescrita:** Senão (junto) = Mas sim.\n**3) Figuras de Linguagem:** Metáfora é a transposição sem conectivo. Metonímia é contiguidade lógica (autor por obra).\n**4) Conectivos:** O \"Enquanto\" polissêmico é uma arma clássica das bancas.\n**5) Coesão:** Pronomes substituem para evitar repetição (pergunte ao verbo quem ele afetou).\n\n~Gabarito~\n**I, II, IV e V** são as verdadeiras.\n\n~Gentalha~\n**III) A palavra \"ilhas\"... é considerada metonímia por transferir um sentido sem o uso de termos comparativos.**\n**Falsa.** A transposição por semelhança sem conectivo comparativo caracteriza a **metáfora**, e não a metonímia.\n\n!Regra de Bolso!\n~Lógica~\n**SE** transfere sentido sem conectivo, **ENTÃO** é c(Metáfora).\n**SE** o \"enquanto\" opõe dois grupos, **ENTÃO** é c(Contraste)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_final_p2",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS FINAL (PORTUGUÊS) - Parecer da Auditoria (Parte 2/4)",
+      "timer_override": 500,
+      "front": "**(BOSS FINAL) - Otávio:**\n(vira a página do balanço)\n- Prosseguimos. Vamos analisar se os ativos de sintaxe e passivos lexicais estão em ordem:",
+      "stem": [
+        "vf(I. Na transformação para a voz passiva analítica de uma locução verbal, não se deve flexionar o verbo de ação no infinitivo antes de passá-lo para o particípio.)",
+        "vf(II. Os adjetivos \"vistosos\" e \"vultosos\" são sinônimos perfeitos em contextos de descrição gráfica, referindo-se ambos a coisas chamativas e atraentes à visão.)",
+        "vf(III. A vírgula é severamente proibida caso separe um sujeito (ainda que extenso ou complexo) de seu respectivo verbo principal.)",
+        "vf(IV. Complemento nominal é aquele termo que, mediante preposição, complementa adjetivos, advérbios e substantivos abstratos, mas nunca verbos.)",
+        "vf(V. O objeto indireto jamais pode assumir a forma de uma oração completa (desenvolvida ou reduzida), devendo se resumir a um pronome ou substantivo preposicionado.)"
+      ],
+      "options": [
+        "A) I, III e IV são verdadeiras.",
+        "B) Todas são verdadeiras.",
+        "C) I, II e V são verdadeiras.",
+        "D) Apenas III e IV são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Passiva com Locução:** O verbo de auxílio preserva seu sentido original; o principal vai pro particípio após o auxiliar SER. (ex: tendem a multiplicar -> tendem a ser multiplicadas).\n**2) Vocabulário:** Vistoso = Atrai a vista (chamativo). Vultoso = Vulto, grande quantidade. Não são sinônimos.\n**3) Pontuação:** Separar sujeito do verbo é crime inafiançável.\n**4) Complemento Nominal:** A palavra diz tudo: completa NOME, e nome no mundo da gramática exclui verbos.\n**5) Sintaxe Avançada:** Qualquer função sintática na oração (sujeito, objeto, complemento) pode ser substituída por uma oração inteira, chamando-se então oração subordinada substantiva.\n\n~Gabarito~\n**I, III e IV** são verdadeiras.\n\n~Gentalha~\n**II) Os adjetivos \"vistosos\" e \"vultosos\" são sinônimos perfeitos...**\n**Falsa.** Eles são parônimos. Vultoso = financeiramente ou fisicamente volumoso.\n\n**V) O objeto indireto jamais pode assumir a forma de uma oração completa...**\n**Falsa.** Uma oração subordinada substantiva objetiva indireta é justamente o objeto indireto exercido por uma oração inteira.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é vistoso, **ENTÃO** c(atrai a visão).\n**SE** você separou o sujeito do verbo, **ENTÃO** c(erro fatal)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_final_p3",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS FINAL (PORTUGUÊS) - Parecer da Auditoria (Parte 3/4)",
+      "timer_override": 500,
+      "front": "**(BOSS FINAL) - Otávio:**\n(ajusta os óculos para ler as notas explicativas)\n- O rigor deve aumentar. Foco nas preposições, crases e formações que maqueiam as contas textuais:",
+      "stem": [
+        "vf(I. Na junção do verbo \"referir-se\" e o demonstrativo \"aquela\", o correto é realizar a contração e indicar o fenômeno com o acento grave (àquela).)",
+        "vf(II. A palavra \"casa\", desacompanhada de especificador adjetivo que detalhe a morada, recusa de maneira taxativa a presença de artigo antes de si, impedindo a crase.)",
+        "vf(III. \"Entardecer\" e \"esclarecer\" formam-se por derivação parassintética, o que significa que o prefixo e o sufixo precisam entrar obrigatoriamente juntos na palavra base.)",
+        "vf(IV. É recomendada a separação do vocativo por vírgula em redações dissertativas, porém não é uma regra estritamente obrigatória quando o vocativo é curto.)",
+        "vf(V. Conjunções adversativas deslocadas para o meio da frase, como o \"porém\", exigem a aplicação rigorosa de isolamento por vírgulas duplas.)"
+      ],
+      "options": [
+        "A) Apenas I, II, III e V são verdadeiras.",
+        "B) Todas são verdadeiras.",
+        "C) Apenas I, III e IV são verdadeiras.",
+        "D) Apenas II, III e V são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Crase com pronomes:** O A preposição exigida pelo termo regente se funde com o A (inicial do pronome) da palavra regida. (Aquilo, aquela, a qual).\n**2) Casa/Terra:** Memorize: Fui A Casa. Mas: Fui À casa DE MARIA.\n**3) Parassíntese:** Diferente da derivação prefixal e sufixal (in-feliz-mente) onde a remoção parcial sobrevive; na parassintética o vocábulo quebra.\n**4) Vocativo:** SEMPRE tem vírgula. Não tem exceção por tamanho.\n**5) Deslocamento:** O lugar de nascença da conjunção coordenada é no começo da oração. Se ela forçada para o interior da oração de destino, deve ser isolada na nova \"gaiola\" de vírgulas.\n\n~Gabarito~\n**I, II, III e V** são as corretas.\n\n~Gentalha~\n**IV) É recomendada a separação do vocativo... porém não é uma regra estritamente obrigatória quando o vocativo é curto.**\n**Falsa.** É OBRIGATÓRIA sempre. Ninguém negocia com vocativo. \n\n!Regra de Bolso!\n~Lógica~\n**SE** tem vocativo, **ENTÃO** tem c(Vírgula).\n**SE** a palavra parassintética perder um afixo, **ENTÃO** ela c(Quebra)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_pt_boss_final_p4",
+      "subject": "Língua Portuguesa",
+      "source": "BOSS FINAL (PORTUGUÊS) - Parecer da Auditoria (Parte 4/4)",
+      "timer_override": 500,
+      "front": "**(BOSS FINAL) - Otávio:**\n(assina a última via do documento)\n- O laudo gramatical está prestes a ser emitido. Valide os tempos, redações oficias e discursos para sua nomeação na SEFAZ:",
+      "stem": [
+        "vf(I. A regra de numeração de parágrafos do Manual de Redação da Presidência da República impõe que, em ofícios, apenas se enumerem os parágrafos quando houver um mínimo de três.)",
+        "vf(II. A transposição de um discurso no imperativo para o discurso indireto preserva o advérbio de tempo (como \"hoje\") caso o relato ocorra no dia seguinte, para não perder o sentido original da ordem.)",
+        "vf(III. A correlação verbal correta de uma condição irrealizada no passado (como \"Se tivessem feito\") requer o seu reflexo em uma consequência no modo condicional futuro do pretérito (ex: \"evitariam\").)",
+        "vf(IV. O verbo \"requerer\" exige que seu futuro do subjuntivo seja conjugado como \"requiser\", pois ele é um derivado direto do verbo \"querer\".)",
+        "vf(V. Conjunções que impõem ressalva e oposição, como \"conquanto\" e \"embora\", requerem, como regra gramatical da norma culta, a presença do verbo no modo subjuntivo.)"
+      ],
+      "options": [
+        "A) Apenas I, II e IV são verdadeiras.",
+        "B) Apenas I, III e V são verdadeiras.",
+        "C) Todas são verdadeiras.",
+        "D) Apenas II e IV são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Numeração do MRPR:** Só se numera a partir de TRÊS (ou mais) parágrafos. Ofícios de dois parágrafos não são numerados.\n**2) Discurso Indireto:** A fofoca no dia seguinte exige o tripé temporal, ou seja, o \"hoje\" precisa, obrigatoriamente, ser adaptado para a referência de quem fala (ex: \"naquele dia\").\n**3) Correlação:** A sintonia fina da FCC. Pretérito subjuntivo -> Futuro Pretérito Indicativo.\n**4) Falsos Derivados:** Requerer é falso derivado de querer. O subjuntivo futuro é requerer (não requiser).\n**5) Concessiva e Subjuntivo:** Regra de ouro: Embora, conquanto, malgrado, a despeito de que = SUBJUNTIVO.\n\n~Gabarito~\n**I, III e V** são as verdadeiras.\n\n~Gentalha~\n**II) ... preserva o advérbio de tempo (como \"hoje\") caso o relato ocorra no dia seguinte...**\n**Falsa.** O advérbio muda para refletir a nova realidade de quem relata.\n\n**IV) O verbo \"requerer\" exige que seu futuro do subjuntivo seja conjugado como \"requiser\"...**\n**Falsa.** Ele não deriva de querer na conjugação. O futuro é \"requerer\".\n\n!Regra de Bolso!\n~Lógica~\n**SE** o ofício tiver apenas dois parágrafos, **ENTÃO** ele c(não) é numerado.\n**SE** for o verbo requerer no futuro subjuntivo, **ENTÃO** é c(requerer).\n\n!Break para Respirar!\n~Otávio~\n- Fechou o caixa, Futuro Auditor. Suas respostas indicam um saldo credor de extremo valor no seu patrimônio de conhecimento gramatical da FCC. A posse é o próximo estágio!"
+    }
+  ]
+}
