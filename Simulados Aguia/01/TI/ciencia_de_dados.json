@@ -1,0 +1,393 @@
+{
+  "messages": {
+    "reprovado": "Inaceitável. Você cometeu erros amadores para um futuro Auditor de TI da SEFAZ/SC. A área de Ciência de Dados não perdoa equívocos básicos. Volte para os livros.",
+    "reserva": "Resultado perigoso. Ficar no cadastro de reserva em um concurso de alto nível da SEFAZ/SC é o mesmo que jogar roleta russa. Você precisa dominar esses conceitos com mais firmeza.",
+    "call4": "Aceitável, mas longe da segurança que um Auditor Fiscal de TI exige. Algumas pegadinhas de dados ainda estão passando pelo seu radar.",
+    "call3": "Bom trabalho. Você está se consolidando. A lógica por trás de Ciência e Análise de Dados já está clara, mas ainda há margem para lapidar a precisão.",
+    "call2": "Excelente. Uma pontuação digna de quem vai brigar pelas primeiras vagas na SEFAZ/SC. O domínio técnico demonstrado aqui é essencial.",
+    "call1": "Impecável. Sangue frio absoluto. Você esmagou a prova de Ciência de Dados com a precisão exigida pelo Fisco. A vaga já tem dono.",
+    "aprovado": "Você gabaritou. Não sobrou pedra sobre pedra. A SEFAZ/SC te aguarda de portas abertas. Parabéns, futuro Auditor de Ciências da Computação!"
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_boss_tutorial",
+      "subject": "Ciência e Análise de Dados - Mapa Teórico",
+      "source": "Banca Águia - Boss Tutorial",
+      "timer_override": 400,
+      "front": "**TUTORIAL DO CHEFE:**\n\nBem-vindo ao mapa teórico de Ciência de Dados. Antes de enfrentar as questões, absorva as regras fundamentais deste bloco:",
+      "stem": [
+        "vf(1. Classificação de Dados: A estrutura (estruturado, semi, não estruturado) e o schema (on-write vs on-read).)",
+        "vf(2. Modelagem Dimensional: O comportamento das Tabelas de Fatos, Dimensões e a Granularidade.)",
+        "vf(3. Web Scraping: A diferença entre extração de conteúdo estático e dinâmico (scripts).)",
+        "vf(4. Estatística - Boxplot: Como identificar valores atípicos (outliers) através da Amplitude Interquartílica.)",
+        "vf(5. Interoperabilidade: Os níveis de compatibilidade na troca de dados entre sistemas.)",
+        "vf(6. Métricas de Classificação: A diferença entre Precisão e Revocação na avaliação de modelos.)",
+        "vf(7. Large Language Models (LLMs): O impacto dos tokens, embeddings, fine-tuning e temperatura na geração de texto.)",
+        "vf(8. LGPD - Princípios: Necessidade, Qualidade dos Dados, Prevenção e Responsabilização.)",
+        "vf(9. LGPD - Hipóteses: Quando é permitido tratar dados pessoais (Consentimento, Crédito, Adm. Pública).)",
+        "vf(10. LGPD - Direitos do Titular: Revisão automatizada, portabilidade, eliminação e transparência.)",
+        "vf(11. LGPD - Agentes de Tratamento: As diferenças e responsabilidades do Controlador, Operador e Encarregado.)",
+        "vf(12. LGPD - Poder Público: Regras específicas para estatais e tratamento de dados pelo Estado.)"
+      ],
+      "options": [
+        "A) Li e compreendi as regras do mapa teórico."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Classificação de Dados:**\nComo aparece:\nA banca pede para classificar JSON ou Tabelas Relacionais.\nPegadinha:\nAchar que banco relacional usa schema-on-read.\nDecisão:\nJSON é c(semiestruturado). Relacional é c(schema-on-write).\n\n**2) Modelagem Dimensional:**\nComo aparece:\nPerguntando onde ficam as medidas numéricas ou o que é granularidade.\nPegadinha:\nInverter Fatos e Dimensões.\nDecisão:\nFatos guardam c(medidas numéricas) e devem ter granularidade c(declarada antes).\n\n**3) Web Scraping:**\nComo aparece:\nColeta em páginas dinâmicas ou limites do robots.txt.\nPegadinha:\nAchar que o robots.txt bloqueia tecnicamente.\nDecisão:\nConteúdo dinâmico exige c(navegador headless). Robots.txt é apenas c(convenção).\n\n**4) Estatística - Boxplot:**\nComo aparece:\nCálculo de outliers com base nos quartis.\nPegadinha:\nUsar o intervalo exato dos quartis em vez das cercas (1,5 * AIQ).\nDecisão:\nOutlier é o que passa de c(Q1 - 1,5 * AIQ) ou c(Q3 + 1,5 * AIQ).\n\n**5) Interoperabilidade:**\nComo aparece:\nSistemas trocam dados sem erro, mas o significado é diferente.\nPegadinha:\nConfundir interoperabilidade sintática com semântica.\nDecisão:\nSe o arquivo é lido sem erro, a sintática funciona; se o significado (rótulo) difere, falha a c(semântica).\n\n**6) Métricas de Classificação:**\nComo aparece:\nCálculo de Precisão e Revocação (Sensibilidade) através de uma Matriz de Confusão.\nPegadinha:\nConfundir o denominador: Precisão usa (VP+FP), Revocação usa (VP+FN).\nDecisão:\nPrecisão é dos que o modelo c(apontou), Revocação é dos que de fato c(eram).\n\n**7) Large Language Models (LLMs):**\nComo aparece:\nRegras sobre Fine-tuning, Embeddings e Temperatura.\nPegadinha:\nDizer que Fine-tuning mantém os parâmetros do modelo inalterados (isso é few-shot prompting).\nDecisão:\nFine-tuning c(modifica) os parâmetros. Temperatura alta = c(mais variação).\n\n**8) LGPD - Princípios:**\nComo aparece:\nDefinições trocadas entre os princípios do art. 6º.\nPegadinha:\nConfundir Qualidade dos Dados com Livre Acesso.\nDecisão:\nLivre acesso garante consulta à forma e duração; Qualidade garante c(exatidão e atualização).\n\n**9) LGPD - Hipóteses:**\nComo aparece:\nRegras de dispensa de consentimento.\nPegadinha:\nAchar que a dispensa de consentimento desobriga o agente de cumprir o resto da Lei.\nDecisão:\nDispensa de consentimento c(não desobriga) a observância de princípios e direitos.\n\n**10) LGPD - Direitos do Titular:**\nComo aparece:\nRevisão de decisões automatizadas.\nPegadinha:\nExigir revisão exclusivamente \"por pessoa natural\".\nDecisão:\nO direito vigente é de revisão, sem a exigência de ser c(exclusivamente) por pessoa natural.\n\n**11) LGPD - Agentes de Tratamento:**\nComo aparece:\nResponsabilidade entre Controlador e Operador.\nPegadinha:\nDizer que quem executa (Operador) é quem decide (Controlador).\nDecisão:\nOperador trata dados em nome do Controlador e só responde solidariamente se c(descumprir a lei ou ordens lícitas).\n\n**12) LGPD - Poder Público:**\nComo aparece:\nRegras para empresas públicas e sociedades de economia mista.\nPegadinha:\nDizer que elas sempre seguem as regras do Poder Público.\nDecisão:\nSe atuam em regime de concorrência, submetem-se ao regime de direito c(privado), salvo em políticas públicas.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é o início do estudo de uma nova matéria, **ENTÃO** domine o mapa teórico antes de prosseguir.\n\n!Break para Respirar!\n~Otávio~\n- Futuro Auditor, este é o seu norte. Estude este mapa com atenção, pois as próximas questões vão exigir reflexos rápidos baseados nessas regras. Boa caçada."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q57",
+      "subject": "Ciência e Análise de Dados - Classificação e Estrutura",
+      "source": "Banca Águia - Q57",
+      "timer_override": 180,
+      "front": "**Questão 057:**\n\nAcerca da classificação dos dados quanto à sua estrutura, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).",
+      "stem": [
+        "vf(I. Documento JSON cujos registros trazem pares chave-valor, podendo os campos variar de um registro para outro, é exemplo de dado semiestruturado, por conter marcadores que descrevem a sua própria organização.)",
+        "vf(II. Em tabela de banco de dados relacional, o esquema é aplicado no momento da leitura (schema-on-read), o que admite registros com quantidade e tipos de colunas distintos entre si.)",
+        "vf(III. Imagens digitalizadas de comprovantes de despesa constituem dados estruturados, por estarem armazenadas em formatos de arquivo padronizados, como JPEG ou PDF.)",
+        "vf(IV. Mensagens de correio eletrônico são dados integralmente não estruturados, pois nenhuma de suas partes se organiza em campos definidos, como remetente, data ou assunto.)"
+      ],
+      "options": [
+        "A) V, V, V, V.",
+        "B) F, F, F, V.",
+        "C) F, F, F, F.",
+        "D) V, F, F, F.",
+        "E) F, V, F, F."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Classificação de Dados:**\nExistem três tipos principais de dados quanto à estrutura: Estruturados, Semiestruturados e Não Estruturados.\n- **Estruturados:** Possuem esquema rígido definido antes da gravação (schema-on-write). Ex: Bancos de dados relacionais.\n- **Semiestruturados:** Não possuem esquema rígido prévio, mas contêm marcadores (tags) ou chaves que descrevem sua própria organização. Ex: XML, JSON, E-mails (pois o cabeçalho tem campos como remetente e assunto, mas o corpo é livre).\n- **Não Estruturados:** Sem estrutura interna definida, impossibilitando a extração imediata de campos sem processamento adicional. Ex: Imagens, áudios, textos livres puros.\n\n~Gabarito~\n**1ª afirmação (V).**\n**> CERTO <**\nO JSON é o exemplo clássico de dado semiestruturado: não exige esquema rígido prévio, mas cada registro carrega rótulos (chaves) que descrevem os seus próprios campos e a hierarquia entre eles.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nO banco relacional opera com esquema definido antes da gravação (schema-on-write): todas as linhas de uma tabela obedecem às mesmas colunas e tipos. O esquema aplicado na leitura caracteriza repositórios como o data lake.\n\n**3ª afirmação (F).**\n**> ERRADO <**\nO formato padronizado do arquivo não torna estruturado o seu conteúdo: a imagem de um comprovante é dado não estruturado, cujos valores só se tornam campos depois de extraídos, por exemplo, por reconhecimento óptico de caracteres.\n\n**4ª afirmação (F).**\n**> ERRADO <**\nO corpo da mensagem é texto livre, mas o cabeçalho traz campos definidos (remetente, destinatário, data, assunto); por isso o e-mail é frequentemente tratado como dado semiestruturado, e nunca como integralmente não estruturado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a estrutura é rígida e validada na gravação (on-write), **ENTÃO** o dado é c(Estruturado).\n**2) SE** o dado tem marcadores/rótulos internos sem esquema global, **ENTÃO** é c(Semiestruturado) (Ex: JSON).\n**3) SE** é imagem, som ou texto livre contínuo, **ENTÃO** é c(Não Estruturado).\n\n!Interpretando a Banca!\n~Gatilho~\nA pegadinha nuclear da banca é tentar associar o fato de um arquivo ter um formato conhecido (JPEG, PDF) à sua classificação estrutural. O formato não importa; o que importa é se o conteúdo interno está mapeado em campos fixos e pesquisáveis desde o princípio."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q58",
+      "subject": "Ciência e Análise de Dados - Modelagem Dimensional",
+      "source": "Banca Águia - Q58",
+      "timer_override": 180,
+      "front": "**Questão 058:**\n\nNa modelagem dimensional de um data warehouse destinado à análise da arrecadação estadual, é correto afirmar que:",
+      "options": [
+        "A) no esquema floco de neve, as dimensões são desnormalizadas em uma única tabela por dimensão, o que reduz o número de junções exigidas pelas consultas em relação ao esquema estrela.",
+        "B) a tabela de fatos armazena os atributos descritivos usados para filtrar e agrupar as consultas, como o município e a atividade econômica, e as medidas numéricas ficam nas tabelas de dimensão.",
+        "C) a granularidade da tabela de fatos corresponde ao nível de detalhe de cada registro, como uma linha por item de documento fiscal ou uma linha por total diário, e é declarada antes da definição de dimensões e medidas.",
+        "D) a operação roll-up desagrega os dados para um nível mais detalhado da hierarquia da dimensão, como na passagem do total anual para os totais mensais da arrecadação de um tributo.",
+        "E) a operação slice seleciona intervalos de valores em duas ou mais dimensões do cubo, produzindo um subcubo, ao passo que a operação dice fixa um único valor em uma só dimensão."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Modelagem Dimensional e Granularidade:**\nA modelagem dimensional divide os dados em Fatos e Dimensões. \n- **Tabela de Fatos:** Armazena as c(medidas numéricas) do negócio (ex: valor da venda, quantidade) e as chaves estrangeiras. A granularidade (nível de detalhe de cada linha) deve ser a primeira decisão do projeto, pois determina o que poderá ser analisado.\n- **Tabelas de Dimensão:** Armazenam atributos textuais e descritivos usados para filtrar e agrupar os dados (ex: Nome do Cliente, Município).\n\n**2) Operações OLAP e Esquemas:**\n- **Roll-up:** Agrega dados subindo a hierarquia (ex: dia para mês).\n- **Drill-down:** Desagrega os dados detalhando-os (ex: ano para mês).\n- **Slice:** Corta o cubo fixando c(uma única) dimensão.\n- **Dice:** Seleciona um c(subcubo) (duas ou mais dimensões).\n- **Estrela (Star):** Dimensões c(desnormalizadas) (1 tabela por dimensão, menos joins).\n- **Floco de Neve (Snowflake):** Dimensões c(normalizadas) (várias tabelas ligadas, mais joins).\n\n~Gabarito~\n**C) a granularidade da tabela de fatos corresponde ao nível de detalhe de cada registro, como uma linha por item de documento fiscal ou uma linha por total diário, e é declarada antes da definição de dimensões e medidas.**\n**CORRETA:** A granularidade define o que representa cada linha da tabela de fatos, e a metodologia dimensional manda declará-la antes de escolher dimensões e medidas, que devem ser coerentes com esse nível de detalhe.\n\n~Gentalha~\n**A) no esquema floco de neve, as dimensões são desnormalizadas...**\n**ERRADA:** A descrição corresponde ao esquema estrela: é nele que cada dimensão fica em uma única tabela desnormalizada. O floco de neve normaliza as dimensões em várias tabelas e, por isso, exige MAIS junções.\n\n**B) a tabela de fatos armazena os atributos descritivos...**\n**ERRADA:** Os papéis estão trocados: as medidas numéricas (valor arrecadado, quantidade de documentos) ficam na tabela de fatos, e os atributos descritivos usados para filtrar e agrupar ficam nas tabelas de dimensão.\n\n**D) a operação roll-up desagrega os dados...**\n**ERRADA:** O roll-up AGREGA os dados, subindo na hierarquia (dos meses para o ano); a passagem do total anual para os mensais é o drill-down.\n\n**E) a operação slice seleciona intervalos em duas ou mais dimensões...**\n**ERRADA:** As operações estão trocadas: o slice fixa um valor em uma dimensão (fatia), e o dice seleciona intervalos em duas ou mais dimensões, produzindo um subcubo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é para subir na hierarquia resumindo os dados, **ENTÃO** é c(Roll-up).\n**2) SE** é para detalhar e mergulhar nos dados, **ENTÃO** é c(Drill-down).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca inverte conceitos consolidados: troca Estrela por Floco de Neve, Fatos por Dimensões, Roll-up por Drill-down e Slice por Dice. Para Auditor Fiscal, saber exatamente a diferença entre essas operações é obrigatório para entender a estrutura dos bancos estaduais."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q59",
+      "subject": "Ciência e Análise de Dados - Web Scraping",
+      "source": "Banca Águia - Q59",
+      "timer_override": 180,
+      "front": "**Questão 059:**\n\nUma equipe desenvolveu rotina automatizada para coletar, diariamente, preços divulgados nas páginas de um portal que não oferece interface de programação. Parte das páginas tem o conteúdo inserido no navegador por scripts executados após o carregamento inicial. Sobre a técnica empregada e os cuidados que ela envolve, é correto afirmar que:",
+      "options": [
+        "A) a requisição do código HTML inicial basta para capturar o conteúdo inserido por scripts, porque o servidor envia, já na primeira resposta, todos os dados que serão exibidos na página.",
+        "B) o conteúdo gerado dinamicamente por scripts pode exigir a renderização da página por navegador automatizado, executado sem interface gráfica, antes da extração dos campos de interesse.",
+        "C) o arquivo robots.txt do sítio impede tecnicamente o acesso dos programas de coleta às páginas nele listadas, de modo que a sua observância independe da conduta de quem realiza a coleta.",
+        "D) a coleta por web scraping equivale ao consumo de uma interface de programação oficial, já que ambas recebem do provedor os dados estruturados e documentados para reúso.",
+        "E) a extração por seletores fixados na estrutura das páginas mantém-se estável diante de alterações de layout do portal, o que dispensa o monitoramento da rotina depois de implantada."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Web Scraping e Conteúdo Dinâmico:**\nO Web Scraping extrai dados diretamente do código HTML das páginas web. Contudo, muitos portais modernos (SPA - Single Page Applications) não enviam todos os dados no HTML inicial. Eles usam JavaScript para buscar e renderizar os dados dinamicamente após o carregamento da base da página. Nesses casos, ferramentas simples que apenas baixam o HTML falham, sendo necessário o uso de navegadores automatizados (Headless Browsers, como Selenium ou Puppeteer) que rodam em background para interpretar os scripts e só então extrair o DOM completo.\n\n**2) Arquivo robots.txt:**\nÉ um arquivo de texto usado como c(protocolo de cortesia) (Robots Exclusion Protocol). Ele indica quais partes do site os bots dos motores de busca e raspadores devem ou não acessar. No entanto, ele c(não bloqueia tecnicamente) o acesso; cabe ao desenvolvedor do bot programá-lo para respeitar o arquivo.\n\n~Gabarito~\n**B) o conteúdo gerado dinamicamente por scripts pode exigir a renderização da página por navegador automatizado, executado sem interface gráfica, antes da extração dos campos de interesse.**\n**CORRETA:** Quando o conteúdo depende da execução de scripts, a coleta costuma recorrer a um navegador automatizado sem interface gráfica (headless), que executa a página antes da extração; alternativamente, podem-se identificar as requisições que trazem os dados.\n\n~Gentalha~\n**A) a requisição do código HTML inicial basta...**\n**ERRADA:** Em páginas com conteúdo dinâmico, a primeira resposta do servidor traz o HTML de base e os scripts; os dados são buscados e inseridos depois, no navegador, e não constam do código inicial.\n\n**C) o arquivo robots.txt do sítio impede tecnicamente o acesso...**\n**ERRADA:** O robots.txt é convenção de cortesia: indica as áreas que o administrador não deseja ver rastreadas, mas não bloqueia tecnicamente o acesso. A sua observância depende justamente de quem coleta.\n\n**D) a coleta por web scraping equivale ao consumo de uma interface de programação oficial...**\n**ERRADA:** A interface de programação (API) entrega dados estruturados, documentados e estáveis; o web scraping extrai os dados da apresentação destinada ao usuário humano, sem esse compromisso do provedor.\n\n**E) a extração por seletores fixados na estrutura das páginas mantém-se estável...**\n**ERRADA:** Seletores atrelados à estrutura das páginas quebram quando o layout muda; a rotina exige monitoramento e manutenção contínuos.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a página é construída com JavaScript no cliente (dinâmica), **ENTÃO** ferramentas simples falham e você precisa de um navegador c(Headless) para renderizar.\n**2) SE** você utiliza Web Scraping baseado na estrutura da tela (tags/divs), **ENTÃO** qualquer mudança de Layout no site irá c(quebrar) sua rotina.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca explora o abismo tecnológico entre consumir uma API e realizar Scraping. APIs são contratos, Scraping é uma \"gambiarra\" instável. Auditor tem que saber quando e por que o scraping falha (mudanças de DOM e scripts client-side)."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q60",
+      "subject": "Ciência e Análise de Dados - Boxplot e Outliers",
+      "source": "Banca Águia - Q60",
+      "timer_override": 300,
+      "front": "**Questão 060:**\n\nEm uma base com as despesas mensais de 48 unidades administrativas, o primeiro e o terceiro quartis das despesas foram, respectivamente, R$ 9.000,00 e R$ 11.000,00. Pelo critério usual do diagrama de caixa (boxplot), entre os valores R$ 5.800,00, R$ 6.200,00, R$ 13.900,00, R$ 14.100,00 e R$ 950.000,00, constantes da base, são classificados como valores atípicos:",
+      "options": [
+        "A) R$ 950.000,00.",
+        "B) R$ 14.100,00 e R$ 950.000,00.",
+        "C) R$ 5.800,00, R$ 14.100,00 e R$ 950.000,00.",
+        "D) R$ 5.800,00, R$ 6.200,00, R$ 14.100,00 e R$ 950.000,00.",
+        "E) R$ 5.800,00, R$ 6.200,00, R$ 13.900,00, R$ 14.100,00 e R$ 950.000,00."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Boxplot e Amplitude Interquartílica (AIQ):**\nO Boxplot é uma ferramenta visual da estatística que resume a dispersão de um conjunto de dados e facilita a identificação de outliers (valores atípicos). O cálculo exige os Quartis.\n- **Q1:** Primeiro quartil (25%).\n- **Q3:** Terceiro quartil (75%).\n- **AIQ:** A Amplitude Interquartílica é a diferença entre Q3 e Q1 (AIQ = Q3 - Q1).\n\n**2) Limites das Cercas (Fences):**\nPara considerar um valor como atípico, aplicamos o critério de Tukey (as cercas).\n- **Cerca Inferior:** Tudo abaixo de c(Q1 - 1,5 * AIQ) é outlier.\n- **Cerca Superior:** Tudo acima de c(Q3 + 1,5 * AIQ) é outlier.\n\n~Gabarito~\n**C) R$ 5.800,00, R$ 14.100,00 e R$ 950.000,00.**\n**CORRETA:**\nPasso 1 — Encontrar a AIQ.\nAIQ = Q3 - Q1 = 11.000 - 9.000 = 2.000.\n\nPasso 2 — Calcular as Cercas do Boxplot.\ncerca inferior = 9.000 - 1,5 * 2.000 = 9.000 - 3.000 = 6.000.\ncerca superior = 11.000 + 1,5 * 2.000 = 11.000 + 3.000 = 14.000.\n\nPasso 3 — Classificação.\nQualquer valor fora do intervalo [6.000; 14.000] é atípico.\nO valor R$ 5.800,00 é menor que 6.000 (outlier).\nO valor R$ 14.100,00 é maior que 14.000 (outlier).\nO valor R$ 950.000,00 é absurdamente maior que 14.000 (outlier).\nOs demais (6.200 e 13.900) estão dentro da margem segura.\n\n~Gentalha~\nAs alternativas A e E tentam enganar o candidato alterando o fator multiplicativo das cercas (como usar 3 vezes a AIQ ou 1 vez a AIQ). O R$ 950.000,00 chama a atenção como um erro grotesco de digitação, mas na matemática do Boxplot, até mesmo o R$ 5.800,00 entra na mesma categoria de erro. O critério padrão exige usar a constante c(1,5).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pediu limites do Boxplot, **ENTÃO** você deve multiplicar a AIQ por c(1,5).\n**2) SE** o valor é menor que (Q1 - 1,5*AIQ) ou maior que (Q3 + 1,5*AIQ), **ENTÃO** ele é c(Atípico).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca jogou um número bizarro (950.000) e números muito colados às cercas (5.800, 6.200, 13.900, 14.100) para forçar você a realizar a matemática exata, sem chutar apenas pelo bom senso. Você tem que dominar a fórmula das cercas.\n\n!Break para Respirar!\n~Otávio~\n- Excelente! A estatística não perdoa quem vai no 'achismo'. Você calculou os limites, seguiu o algoritmo do Boxplot e garantiu esse ponto vital."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_boss_inter_1",
+      "subject": "Ciência e Análise de Dados - Boss Intermediário 1",
+      "source": "Banca Águia - Boss Intermediário 1",
+      "timer_override": 400,
+      "front": "**CHEFE INTERMEDIÁRIO 1:**\n\nNesta etapa, validamos seu conhecimento sobre Estrutura, Modelagem, Coleta e Estatística de Dados. Julgue as afirmativas.",
+      "stem": [
+        "vf(I. Na classificação estrutural, o modelo relacional obriga a definição de schema na escrita (schema-on-write), enquanto arquivos JSON utilizam marcadores para descrever a própria organização sem esquema rígido obrigatório prévio.)",
+        "vf(II. A tabela de fatos, em um modelo dimensional, guarda atributos textuais, deixando as métricas numéricas para as dimensões.)",
+        "vf(III. Embora o arquivo robots.txt indique restrições de rastreamento para robôs de web scraping, ele não impõe barreira técnica instransponível.)",
+        "vf(IV. Para que um valor seja atípico em um diagrama de caixa usual, ele precisa ser superior a Q3 ou inferior a Q1 em mais de 2 vezes o valor da amplitude interquartílica.)"
+      ],
+      "options": [
+        "A) Apenas I e III estão corretas.",
+        "B) Apenas II e IV estão corretas.",
+        "C) I, II, III e IV estão corretas.",
+        "D) Apenas I e II estão corretas.",
+        "E) Apenas III e IV estão corretas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Revisão Q57:** O esquema no banco relacional é on-write e o JSON é semiestruturado.\n**2) Revisão Q58:** As medidas numéricas ficam nos Fatos e os descritivos textuais nas Dimensões. A afirmação inverteu isso.\n**3) Revisão Q59:** O robots.txt é um protocolo de cortesia, não impõe bloqueio técnico real aos scripts de scraping.\n**4) Revisão Q60:** A cerca estatística do boxplot utiliza o multiplicador de c(1,5) da Amplitude Interquartílica, não 2.\n\n~Gabarito~\n**I. Na classificação estrutural, o modelo relacional obriga a definição de schema na escrita...**\n**> CERTO <**\nO conceito reflete perfeitamente a diferença entre on-write (relacional estruturado) e semiestruturado (JSON).\n\n**II. A tabela de fatos, em um modelo dimensional, guarda atributos textuais...**\n**> ERRADO <**\nFatos guardam dados numéricos; Dimensões guardam atributos textuais e descritivos.\n\n**III. Embora o arquivo robots.txt indique restrições de rastreamento...**\n**> CERTO <**\nO robots.txt depende de conduta, sem barreira mecânica ou tecnológica no servidor.\n\n**IV. Para que um valor seja atípico em um diagrama de caixa usual...**\n**> ERRADO <**\nA fórmula usual do boxplot exige que ultrapasse 1,5 vezes a AIQ.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é tabela de fatos, **ENTÃO** guarde a grana e as quantidades.\n**2) SE** é barreira do robots.txt, **ENTÃO** é cortesia.\n\n!Break para Respirar!\n~Otávio~\n- O primeiro chefe caiu. Suas fundações estão sólidas. Agora o ritmo vai aumentar."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q61",
+      "subject": "Ciência e Análise de Dados - Interoperabilidade",
+      "source": "Banca Águia - Q61",
+      "timer_override": 180,
+      "front": "**Questão 061:**\n\nDois sistemas estaduais passaram a trocar registros por meio de arquivos no mesmo formato, transmitidos por protocolo comum e lidos sem erro por ambos. Constatou-se, porém, que o campo rotulado \"data\" corresponde, em um deles, à data de emissão do documento e, no outro, à data do seu registro contábil, o que vem produzindo cruzamentos inconsistentes. A dimensão da interoperabilidade que permanece deficiente nesse cenário é a:",
+      "options": [
+        "A) técnica.",
+        "B) sintática.",
+        "C) organizacional.",
+        "D) legal.",
+        "E) semântica."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Níveis de Interoperabilidade em Governos:**\nA capacidade de sistemas e órgãos diferentes se comunicarem divide-se em camadas:\n- **Técnica:** Relaciona-se ao hardware, redes e protocolos de transmissão (ex: internet, VPN, HTTPS funcionando).\n- **Sintática:** Refere-se à formatação e estruturação da mensagem. Trata de como o arquivo é escrito para ser lido sem corromper (ex: envio do arquivo em padrão XML estruturado corretamente).\n- **Semântica:** Abarca o c(significado) dos dados trocados. Garante que a informação enviada por um lado tenha exatamente a mesma interpretação conceitual pelo outro (uso de dicionários de dados e vocabulários controlados).\n- **Organizacional:** Alinhamento de processos e metas entre as instituições para permitir a cooperação.\n- **Legal:** Compatibilidade das leis envolvidas (autorização legislativa para cruzamento de dados).\n\n~Gabarito~\n**E) semântica.**\n**CORRETA:** O problema é de significado: o mesmo rótulo (\"data\") designa conceitos diferentes nos dois sistemas. A solução passa por vocabulários controlados, dicionários de dados e padrões semânticos comuns.\n\n~Gentalha~\n**A) técnica.**\n**ERRADA:** A técnica diz respeito à infraestrutura e aos protocolos de comunicação, e o enunciado informa que a transmissão funciona.\n\n**B) sintática.**\n**ERRADA:** A sintática refere-se ao formato e à estrutura das mensagens, e os arquivos são lidos sem erro por ambos os sistemas.\n\n**C) organizacional.**\n**ERRADA:** Trata do alinhamento de processos, responsabilidades e objetivos entre as instituições, questão que o caso não apresenta.\n\n**D) legal.**\n**ERRADA:** Trata da compatibilidade das normas que regem a troca de dados, também não questionada no caso.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o cabo conectou e o pacote HTTP chegou, **ENTÃO** há interoperabilidade c(Técnica).\n**2) SE** o arquivo foi aberto sem \"erro de sintaxe\", **ENTÃO** há interoperabilidade c(Sintática).\n**3) SE** a variável significa a mesma coisa para ambos, **ENTÃO** há interoperabilidade c(Semântica).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca descreve o cenário clássico de \"falha de vocabulário\". Ela te conta que a transmissão funciona (Técnica OK) e a leitura ocorre sem erros estruturais (Sintática OK). A pegadinha é induzir você a marcar \"organizacional\" achando que é um erro humano, mas o conceito técnico exato para falha de significado entre dicionários de dados é Semântico."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q62",
+      "subject": "Ciência e Análise de Dados - Métricas de Machine Learning",
+      "source": "Banca Águia - Q62",
+      "timer_override": 400,
+      "front": "**Questão 062:**\n\nUm modelo de classificação foi aplicado a 1.000 contribuintes cuja situação fiscal já era conhecida, dos quais 100 efetivamente apresentavam irregularidade. O modelo apontou 120 contribuintes como irregulares, dos quais 80 de fato o eram. A precisão e a revocação (sensibilidade) do modelo em relação à classe \"irregular\" foram, respectivamente, de:",
+      "options": [
+        "A) 80,0% e 66,7%.",
+        "B) 66,7% e 94,0%.",
+        "C) 94,0% e 80,0%.",
+        "D) 80,0% e 95,6%.",
+        "E) 66,7% e 80,0%."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Matriz de Confusão para a classe \"irregular\":**\nO enunciado analisa as fraudes (Irregulares = Positivo da pesquisa).\n- **Verdadeiros Positivos (VP):** O modelo apontou irregular e era irregular = 80.\n- **Falsos Positivos (FP):** O modelo apontou irregular (120 no total), mas só 80 eram. Logo, 120 - 80 = 40 (eram regulares acusados injustamente).\n- **Falsos Negativos (FN):** Havia 100 irregulares no total. O modelo só pegou 80. Logo, 100 - 80 = 20 (escaparam do modelo).\n- **Verdadeiros Negativos (VN):** Eram 1.000 no total (100 irregulares e 900 regulares). Se 40 regulares foram acusados injustamente (FP), sobraram 900 - 40 = 860 que foram ditos regulares corretamente.\n\n**2) Fórmulas:**\n- **Precisão:** Dos apontados como irregulares pelo modelo, quantos de fato o eram? VP / (VP + FP).\n- **Revocação (Sensibilidade/Recall):** Dos irregulares existentes na realidade, quantos o modelo conseguiu achar? VP / (VP + FN).\n\n~Gabarito~\n**E) 66,7% e 80,0%.**\n**CORRETA:**\nPasso 1 — Precisão:\nPrecisão = 80 / 120 = 2/3 = ~66,7%.\nPasso 2 — Revocação:\nRevocação = 80 / 100 = 80,0%.\n\n~Gentalha~\nA acurácia geral do modelo seria (VP + VN) / Total = (80 + 860) / 1000 = 94,0%. A especificidade seria VN / (VN + FP) = 860 / 900 = ~95,6%. A banca espalhou esses valores nas alternativas para pegar o candidato que troca as fórmulas.\nCuidado: A acurácia alta é enganosa em classes desbalanceadas: um modelo que declarasse todos regulares acertaria 90% sem encontrar irregular algum. Por isso medimos a Precisão e Revocação.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** pede c(Precisão), **ENTÃO** divida os Acertos Positivos (VP) pelo total de c(Apontamentos do Modelo) (VP + FP).\n**2) SE** pede c(Revocação), **ENTÃO** divida os Acertos Positivos (VP) pelo total de Casos Reais Existentes (VP + FN).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca exige leitura cirúrgica do texto: \"O modelo apontou 120 (Denominador da Precisão)... dos quais 80 o eram (Numerador)\". \"...dos quais 100 efetivamente apresentavam irregularidade (Denominador da Revocação)\". Quem monta o esqueleto dos dados antes de fazer a conta não erra.\n\n!Break para Respirar!\n~Otávio~\n- Um auditor lida com matriz de confusão todos os dias para achar os sonegadores. Dominar esse cálculo é o básico do seu futuro ofício."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q63",
+      "subject": "Ciência e Análise de Dados - Large Language Models (LLMs)",
+      "source": "Banca Águia - Q63",
+      "timer_override": 180,
+      "front": "**Questão 063:**\n\nJulgue os itens a seguir, relativos ao funcionamento dos modelos de linguagem de grande porte (LLMs) e às técnicas a eles associadas.",
+      "stem": [
+        "vf(I. Os modelos processam o texto em unidades denominadas tokens, e a janela de contexto limita a quantidade de tokens que o modelo considera de uma só vez.)",
+        "vf(II. Representações vetoriais (embeddings) permitem medir a proximidade de sentido entre textos pela similaridade entre os vetores, recurso empregado em buscas que não dependem da coincidência literal de palavras.)",
+        "vf(III. O ajuste fino (fine-tuning) de um modelo pré-treinado consiste em incluir exemplos da tarefa no texto da própria consulta, mantendo inalterados os parâmetros do modelo.)",
+        "vf(IV. O aumento do parâmetro de temperatura na amostragem tende a tornar as respostas mais variadas e menos previsíveis, enquanto valores baixos tendem a respostas mais determinísticas.)"
+      ],
+      "options": [
+        "A) I, II e IV.",
+        "B) I, II, III e IV.",
+        "C) II, III e IV.",
+        "D) I.",
+        "E) I, III e IV."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Tokens e Janela de Contexto:**\nOs LLMs não enxergam palavras, mas pedaços (tokens). A janela de contexto (context window) é o espaço de memória de curto prazo do modelo: o limite máximo de tokens que ele consegue ler e considerar de uma só vez (no prompt e histórico) antes de gerar a resposta.\n\n**2) Embeddings:**\nTransformam palavras e frases em coordenadas numéricas (vetores) em um espaço multidimensional. Palavras de sentido parecido ficam próximas. Isso permite buscas semânticas (pelo sentido), sem precisar bater letras exatas.\n\n**3) Fine-tuning vs Prompting:**\n- **Few-Shot Prompting:** Quando você dá exemplos c(dentro do texto do chat) para o modelo aprender no contexto. Não altera a rede neural, não altera pesos, e consome janela de contexto.\n- **Fine-Tuning (Ajuste Fino):** É um retreinamento adicional com novos dados. c(Altera os parâmetros) e os pesos da rede neural do modelo, criando uma versão especialista.\n\n**4) Temperatura:**\nParâmetro matemático que dita a criatividade.\n- **Temperatura alta:** Mais aleatório e criativo, varia mais as respostas.\n- **Temperatura baixa (perto de 0):** Muito focado, rígido e determinístico (escolhe sempre o token de maior probabilidade).\n\n~Gabarito~\n**I. Os modelos processam o texto em unidades denominadas tokens...**\n**> CERTO <**\nO texto é segmentado em tokens, e a janela de contexto é o limite de tokens que o modelo considera de uma vez; o que exceder esse limite não é levado em conta na geração.\n\n**II. Representações vetoriais (embeddings) permitem medir a proximidade de sentido...**\n**> CERTO <**\nOs embeddings representam textos como vetores, de modo que textos de sentido próximo ficam próximos no espaço vetorial; é a base da busca semântica.\n\n**III. O ajuste fino (fine-tuning) de um modelo pré-treinado consiste em incluir exemplos da tarefa no texto da própria consulta...**\n**> ERRADO <**\nFornecer exemplos no texto da consulta é o aprendizado em contexto (few-shot prompting), que não altera o modelo; o ajuste fino é um treinamento adicional que c(MODIFICA) os parâmetros do modelo pré-treinado.\n\n**IV. O aumento do parâmetro de temperatura na amostragem tende a tornar as respostas mais variadas...**\n**> CERTO <**\nA temperatura controla a aleatoriedade da amostragem dos próximos tokens: valores altos aumentam a variedade, valores baixos concentram a escolha nos tokens mais prováveis.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** só manda exemplos no chat, **ENTÃO** é c(In-context / Prompting) (não muda a base do LLM).\n**2) SE** passa por treinamento mexendo nos pesos e parâmetros, **ENTÃO** é c(Fine-tuning).\n**3) SE** quer resposta certinha (matemática/leis), **ENTÃO** temperatura c(Baixa).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca fez a clássica mistura de conceitos: tentou dizer que Fine-tuning não muda os parâmetros do modelo. Para provas de TI modernas, separar o que é feito na janela de contexto daquilo que é feito nos pesos da rede é lei pétrea."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q64",
+      "subject": "Ciência e Análise de Dados - LGPD: Princípios",
+      "source": "Banca Águia - Q64",
+      "timer_override": 180,
+      "front": "**Questão 064:**\n\nAcerca dos princípios do tratamento de dados pessoais enumerados no art. 6º da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).",
+      "stem": [
+        "vf(I. O princípio da necessidade limita o tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos.)",
+        "vf(II. O princípio da qualidade dos dados garante aos titulares a consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.)",
+        "vf(III. O princípio da prevenção consiste na adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais.)",
+        "vf(IV. O princípio da responsabilização e prestação de contas exige do agente a demonstração da adoção de medidas eficazes e capazes de comprovar o cumprimento das normas de proteção de dados, inclusive da eficácia dessas medidas.)"
+      ],
+      "options": [
+        "A) F, F, V, F.",
+        "B) F, F, F, F.",
+        "C) V, V, F, V.",
+        "D) V, F, V, V.",
+        "E) V, V, V, F."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Princípios da LGPD (Art. 6º):**\n- **Necessidade:** Tratar apenas os dados necessários e proporcionais para a finalidade alegada (nada de \"pegar CPF pra vender pão\").\n- **Qualidade dos dados:** Garantir a exatidão, clareza, relevância e atualização.\n- **Livre Acesso:** Garantir aos titulares a consulta fácil e gratuita sobre a forma e a duração do tratamento.\n- **Prevenção:** Tomar medidas antecipadas para evitar danos cibernéticos ou vazamentos.\n- **Responsabilização e Prestação de Contas:** Provar que cumpre a lei e que as medidas de segurança adotadas são eficazes (accountability).\n\n~Gabarito~\n**1ª afirmação (V).**\n**> CERTO <**\nÉ a definição literal do princípio da necessidade (art. 6º, III, da Lei nº 13.709/2018).\n\n**2ª afirmação (F).**\n**> ERRADO <**\nA definição é a do princípio do c(LIVRE ACESSO) (art. 6º, IV); a qualidade dos dados garante exatidão, clareza, relevância e atualização dos dados (art. 6º, V).\n\n**3ª afirmação (V).**\n**> CERTO <**\nÉ a definição exata do princípio da prevenção (art. 6º, VIII).\n\n**4ª afirmação (V).**\n**> CERTO <**\nÉ a definição exata do princípio da responsabilização e prestação de contas (art. 6º, X).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** garante verificação, clareza e consulta gratuita, **ENTÃO** é c(Livre Acesso).\n**2) SE** garante a exatidão e atualização da informação, **ENTÃO** é c(Qualidade dos Dados).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca jogou a definição do princípio do \"Livre Acesso\" dentro do rótulo da \"Qualidade dos Dados\". Sempre que houver questão de princípios da LGPD, leia desconfiando de \"cross-matching\" (cruzamento) de conceitos."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_boss_inter_2",
+      "subject": "Ciência e Análise de Dados - Boss Intermediário 2",
+      "source": "Banca Águia - Boss Intermediário 2",
+      "timer_override": 400,
+      "front": "**CHEFE INTERMEDIÁRIO 2:**\n\nNesta etapa, validamos seu conhecimento sobre Interoperabilidade, LLMs, Matriz de Confusão e LGPD.",
+      "stem": [
+        "vf(I. Na interoperabilidade governamental, quando dois sistemas se conectam via rede e os arquivos não corrompem, mas o conteúdo dos campos possui significados diferentes em cada sistema, a falha está na camada semântica.)",
+        "vf(II. Em uma Matriz de Confusão, a Revocação (Sensibilidade) mede a proporção de Verdadeiros Positivos em relação a todos os casos apontados como positivos pelo modelo (Verdadeiros e Falsos Positivos).)",
+        "vf(III. A técnica de Fine-Tuning altera a própria arquitetura e os pesos (parâmetros) de um Modelo de Linguagem Grande (LLM), diferenciando-se de fornecer exemplos apenas na Janela de Contexto.)",
+        "vf(IV. O direito do titular a realizar consultas facilitadas e gratuitas sobre a forma de tratamento de seus dados está intrinsecamente ligado ao princípio do Livre Acesso, e não ao princípio da Qualidade dos Dados.)"
+      ],
+      "options": [
+        "A) Apenas I e II.",
+        "B) Apenas III e IV.",
+        "C) Apenas I, III e IV.",
+        "D) Apenas II e III.",
+        "E) I, II, III e IV."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Revisão Q61:** Falhas de vocabulário e de significado na troca de dados refletem déficit na interoperabilidade c(Semântica).\n**2) Revisão Q62:** A Revocação avalia quantos casos reais você achou. Logo, usa o denominador com VP+FN (todos os reais). A afirmação descreveu a Precisão.\n**3) Revisão Q63:** O Fine-Tuning de fato altera os parâmetros neurais, ao contrário do few-shot prompting.\n**4) Revisão Q64:** A consulta gratuita refere-se ao c(Livre Acesso).\n\n~Gabarito~\n**I. Na interoperabilidade governamental, quando dois sistemas se conectam via rede...**\n**> CERTO <**\nPerfeita descrição de falha na camada Semântica (onde rótulos divergem em significado).\n\n**II. Em uma Matriz de Confusão, a Revocação (Sensibilidade) mede a proporção...**\n**> ERRADO <**\nA afirmação descreveu a Precisão (VP / VP+FP). A Revocação usa o denominador VP+FN.\n\n**III. A técnica de Fine-Tuning altera a própria arquitetura e os pesos...**\n**> CERTO <**\nO ajuste fino recicla o pré-treinamento mexendo nos parâmetros em si.\n\n**IV. O direito do titular a realizar consultas facilitadas e gratuitas...**\n**> CERTO <**\nA definição é de Livre Acesso, não de Qualidade.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** mexeu no coração da IA (pesos), **ENTÃO** é Fine-Tuning.\n**2) SE** errou no sentido e dicionário, **ENTÃO** falhou na Semântica.\n\n!Break para Respirar!\n~Otávio~\n- Você despachou o segundo chefe com tranquilidade. Cuidado: os cálculos de IA costumam arrancar candidatos nos centésimos."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q65",
+      "subject": "Ciência e Análise de Dados - LGPD: Tratamento",
+      "source": "Banca Águia - Q65",
+      "timer_override": 180,
+      "front": "**Questão 065:**\n\nAcerca das hipóteses que autorizam o tratamento de dados pessoais, nos termos da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), é correto afirmar que:",
+      "options": [
+        "A) o consentimento do titular deve ser fornecido por escrito, sendo ineficaz a sua manifestação por outro meio, ainda que este demonstre de modo inequívoco a vontade do titular.",
+        "B) o legítimo interesse do controlador autoriza o tratamento de dados pessoais sensíveis, desde que o titular seja previamente informado da finalidade do tratamento.",
+        "C) o tratamento de dados pessoais para a proteção do crédito depende de consentimento específico e destacado do titular, colhido para essa finalidade determinada.",
+        "D) a dispensa do consentimento para dados tornados manifestamente públicos pelo titular desobriga o controlador de observar os princípios gerais e os direitos do titular previstos na lei.",
+        "E) a administração pública pode tratar e compartilhar dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Hipóteses de Tratamento de Dados (Art. 7º e Art. 11):**\nA LGPD possui várias bases legais (não apenas o consentimento) que autorizam o uso de dados. \n- **Legítimo Interesse:** Permite o tratamento de dados c(comuns) se houver finalidade legítima e houver balanceamento com os direitos do titular. c(Atenção:) O Legítimo Interesse NUNCA é base legal para dados Sensíveis (art. 11).\n- **Proteção do Crédito:** É uma base legal c(autônoma) no Brasil (Art. 7, X). Ela c(dispensa) o consentimento explícito do titular para ser usada (você não precisa de permissão do devedor para colocar o nome dele no Serasa).\n- **Administração Pública:** Pode tratar dados para executar políticas públicas, sem necessidade de consentimento.\n- **Dados Manifestamente Públicos:** Usá-los não isenta a empresa de cumprir o resto da Lei e seus princípios.\n\n~Gabarito~\n**E) a administração pública pode tratar e compartilhar dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres.**\n**CORRETA:** É a hipótese do art. 7º, III, observadas as disposições do capítulo sobre o tratamento de dados pelo Poder Público.\n\n~Gentalha~\n**A) o consentimento do titular deve ser fornecido por escrito...**\n**ERRADA:** O art. 8º admite o consentimento fornecido por escrito c(ou por outro meio) que demonstre a manifestação de vontade do titular.\n\n**B) o legítimo interesse do controlador autoriza o tratamento de dados pessoais sensíveis...**\n**ERRADA:** O legítimo interesse (art. 7º, IX) não figura entre as hipóteses que autorizam o tratamento de dados pessoais sensíveis, arroladas no art. 11.\n\n**C) o tratamento de dados pessoais para a proteção do crédito depende de consentimento...**\n**ERRADA:** A proteção do crédito é hipótese c(autônoma) de tratamento (art. 7º, X), que c(dispensa) o consentimento do titular.\n\n**D) a dispensa do consentimento para dados tornados manifestamente públicos pelo titular desobriga o controlador...**\n**ERRADA:** O art. 7º, § 6º, dispõe que a eventual dispensa do consentimento não desobriga os agentes das demais obrigações da lei.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é Legítimo Interesse, **ENTÃO** só serve para Dado c(Comum), nunca para o Sensível.\n**2) SE** é para Proteção ao Crédito (SPC/Serasa), **ENTÃO** c(Não) precisa de consentimento.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca sempre ataca a proteção ao crédito. Lembre-se: O Brasil inseriu essa base legal autônoma justamente porque exigir que um mau pagador \"consinta\" em ter seu nome negativado faria o sistema financeiro entrar em colapso."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q66",
+      "subject": "Ciência e Análise de Dados - LGPD: Direitos",
+      "source": "Banca Águia - Q66",
+      "timer_override": 180,
+      "front": "**Questão 066:**\n\nAcerca dos direitos do titular de dados pessoais previstos na Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), com a redação vigente, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).",
+      "stem": [
+        "vf(I. O titular tem direito a solicitar a revisão, por pessoa natural, de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem os seus interesses.)",
+        "vf(II. O titular tem direito à portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial.)",
+        "vf(III. O titular tem direito à eliminação dos dados pessoais tratados com o seu consentimento, inclusive daqueles cuja conservação seja necessária ao cumprimento de obrigação legal ou regulatória pelo controlador.)",
+        "vf(IV. A confirmação da existência de tratamento por meio de declaração clara e completa, que indique a origem dos dados e a finalidade do tratamento, será fornecida no prazo de até trinta dias, contado do requerimento do titular.)"
+      ],
+      "options": [
+        "A) V, V, V, V.",
+        "B) F, V, F, F.",
+        "C) V, V, F, V.",
+        "D) F, F, F, V.",
+        "E) F, F, F, F."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Direitos do Titular:**\n- **Revisão Automatizada:** A Lei foi alterada. O titular possui direito à revisão de decisões baseadas em automação. Porém, c(não há mais a exigência legal de que essa revisão seja feita por pessoa natural) (foi vetado/suprimido em 2019).\n- **Portabilidade:** É garantida (parecida com a da telefonia), mas não fere os segredos comerciais.\n- **Eliminação e Obrigação Legal:** Se o usuário pedir para apagar os dados, a empresa apaga. Mas se a lei obrigar a empresa a guardar o dado (ex: NF por 5 anos pro fisco), a obrigação c(vence) o pedido de eliminação.\n- **Prazos de Transparência:** Quando o titular pede acesso: Se for formato simplificado, a resposta é c(imediata). Se for declaração clara e completa, a resposta é em até c(15 dias) (não 30).\n\n~Gabarito~\n**1ª afirmação (F).**\n**> ERRADO <**\nA exigência de revisão \"por pessoa natural\" constava da redação original do art. 20 e foi suprimida pela Lei nº 13.853/2019; o direito vigente é à revisão das decisões automatizadas, sem essa qualificação.\n\n**2ª afirmação (V).**\n**> CERTO <**\nÉ a redação literal do art. 18, V, dada pela Lei nº 13.853/2019.\n\n**3ª afirmação (F).**\n**> ERRADO <**\nO art. 18, VI, ressalva as hipóteses do art. 16, entre elas a conservação para cumprimento de obrigação legal ou regulatória pelo controlador. Ou seja, a empresa c(não elimina) se a lei mandar guardar.\n\n**4ª afirmação (F).**\n**> ERRADO <**\nO art. 19, II, fixa o prazo de até c(quinze dias) para a declaração clara e completa; a confirmação em formato simplificado é imediata.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** pede eliminação, mas o fisco manda guardar, **ENTÃO** a empresa c(Guarda) (obrigação legal > eliminação).\n**2) SE** é pedido completo de dados, **ENTÃO** o prazo é de c(15 dias) (e não 30).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca cobrou o conhecimento histórico das mudanças da LGPD. Na versão original que foi pro congresso, havia a palavra \"pessoa natural\" para revisão automatizada, e isso foi retirado. Se você estudar por material desatualizado, cai como um patinho."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q67",
+      "subject": "Ciência e Análise de Dados - LGPD: Agentes",
+      "source": "Banca Águia - Q67",
+      "timer_override": 180,
+      "front": "**Questão 067:**\n\nA Secretaria de Estado da Fazenda contratou empresa de tecnologia para hospedar e processar os dados cadastrais de contribuintes, segundo instruções formalizadas pela Secretaria. Nos termos da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), é correto afirmar que:",
+      "options": [
+        "A) a empresa contratada é operadora e responde solidariamente pelos danos quando descumprir a legislação de proteção de dados ou não seguir as instruções lícitas da Secretaria.",
+        "B) a empresa contratada é controladora, por realizar materialmente as operações de tratamento, ainda que as decisões sobre os elementos essenciais do tratamento caibam à Secretaria.",
+        "C) o encarregado pelo tratamento de dados pessoais deve ser servidor do quadro da Secretaria, vedada a indicação de pessoa jurídica ou de profissional externo para essa função.",
+        "D) a empresa contratada responde pelos danos causados pelo tratamento ainda que tenha seguido as instruções lícitas da Secretaria e cumprido a legislação de proteção de dados.",
+        "E) a Secretaria e a empresa contratada ficam dispensadas de manter registro das operações de tratamento que realizarem quando estas se basearem no legítimo interesse."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Controladores, Operadores e Encarregados:**\n- **Controlador:** É o c(dono da bola). Toma as decisões sobre como e por que o tratamento ocorre.\n- **Operador:** É o c(terceirizado/executor). Trata os dados em nome e sob as instruções estritas do Controlador.\n- **Responsabilidade do Operador:** Ele NÃO tem responsabilidade solidária automática por tudo. Ele só responde solidariamente se c(violar a LGPD) ou se c(desobedecer as ordens lícitas) do Controlador.\n- **Encarregado (DPO):** O profissional (ou empresa) que faz a ponte entre Controlador, Titular e ANPD. Pode ser interno (funcionário) ou externo (PJ terceirizada), a lei não impede nenhum.\n\n~Gabarito~\n**A) a empresa contratada é operadora e responde solidariamente pelos danos quando descumprir a legislação de proteção de dados ou não seguir as instruções lícitas da Secretaria.**\n**CORRETA:** Quem trata dados em nome do controlador e segundo as suas instruções é o operador, que responde solidariamente nas hipóteses do art. 42, § 1º, I, equiparando-se ao controlador nesses casos.\n\n~Gentalha~\n**B) a empresa contratada é controladora...**\n**ERRADA:** Controlador é quem toma as decisões. A empresa executa as ordens, logo é Operadora.\n\n**C) o encarregado pelo tratamento de dados pessoais deve ser servidor do quadro...**\n**ERRADA:** O art. 5º define o encarregado sem exigir que seja servidor ou pessoa natural do quadro (pode ser consultoria externa).\n\n**D) a empresa contratada responde pelos danos causados... ainda que tenha seguido as instruções lícitas...**\n**ERRADA:** Se o operador segue as instruções lícitas do dono dos dados (Controlador) à risca, a responsabilidade é do Controlador.\n\n**E) ficam dispensadas de manter registro das operações... quando basearem no legítimo interesse.**\n**ERRADA:** O art. 37 impõe a ambos o registro das operações, \"especialmente quando baseado no legítimo interesse\".\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** dita as regras e decide o que fazer com os dados, **ENTÃO** é c(Controlador).\n**2) SE** hospeda e roda os servidores apenas seguindo ordens, **ENTÃO** é c(Operador).\n**3) SE** o Operador desobedece e vaza tudo, **ENTÃO** responde c(Solidariamente).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca tenta jogar toda a responsabilidade de possíveis vazamentos no colo da equipe de TI terceirizada. Lembre-se, o dono do dado é o culpado principal. A TI (Operador) só roda na responsabilidade solidária se \"inventar moda\" e desobedecer as regras de negócio lícitas recebidas."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_q68",
+      "subject": "Ciência e Análise de Dados - LGPD: Poder Público",
+      "source": "Banca Águia - Q68",
+      "timer_override": 180,
+      "front": "**Questão 068:**\n\nAcerca do tratamento de dados pessoais pelo Poder Público e da figura do encarregado, nos termos da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).",
+      "stem": [
+        "vf(I. As empresas públicas e as sociedades de economia mista que atuam em regime de concorrência recebem o mesmo tratamento dispensado aos órgãos e às entidades do Poder Público, em qualquer de suas atividades.)",
+        "vf(II. O tratamento de dados pessoais realizado para fins de segurança pública e de investigação e repressão de infrações penais submete-se integralmente às disposições da lei, dispensada a edição de legislação específica.)",
+        "vf(III. A identidade e as informações de contato do encarregado deverão ser mantidas sob reserva pelo controlador, que as informará à autoridade nacional quando esta as requisitar.)",
+        "vf(IV. Às pessoas jurídicas de direito público é facultada a indicação de encarregado quando realizarem operações de tratamento de dados pessoais, ao contrário do que ocorre com os controladores privados.)"
+      ],
+      "options": [
+        "A) V, F, F, F.",
+        "B) V, V, V, F.",
+        "C) V, V, V, V.",
+        "D) F, F, F, F.",
+        "E) F, V, F, V."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) LGPD no Poder Público:**\n- **Empresas Estatais:** Se a Empresa Pública atua no mercado em regime de concorrência (como o Banco do Brasil), ela segue a LGPD de forma c(idêntica ao mercado privado). Ela só é vista como \"Poder Público\" se estiver rodando políticas públicas exclusivas de Estado.\n- **Segurança Pública e Investigação:** A LGPD c(NÃO SE APLICA) a investigações penais e de segurança nacional (ex: inteligência da PF). Eles exigem lei própria.\n- **Encarregado (DPO):** O Encarregado é a vitrine. Sua identidade e contatos devem ser mantidos c(públicos) no site da instituição, não \"reservados\".\n- **Obrigatoriedade no Poder Público:** Indicar o encarregado é c(obrigatório) para o poder público, não é facultativo.\n\n~Gabarito~\n**1ª afirmação (F).**\n**> ERRADO <**\nO art. 24, caput, dá às estatais que atuam em regime de concorrência o tratamento das empresas privadas; só quando operacionalizam políticas públicas recebem o tratamento do Poder Público.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nO art. 4º, III, c(exclui) esse tratamento da aplicação da LGPD, e o § 1º determina que ele será regido por legislação específica.\n\n**3ª afirmação (F).**\n**> ERRADO <**\nO art. 41, § 1º, determina que a identidade e as informações de contato do encarregado sejam divulgadas c(publicamente), de forma clara e objetiva, preferencialmente no site do controlador.\n\n**4ª afirmação (F).**\n**> ERRADO <**\nO art. 23, III, condiciona o tratamento pelas pessoas jurídicas de direito público à indicação de encarregado; não se trata de faculdade.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é banco ou empresa do governo que compete no mercado, **ENTÃO** obedece a lei como c(Empresa Privada).\n**2) SE** os dados são da inteligência da polícia (investigação penal), **ENTÃO** a LGPD c(não se aplica).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca jogou todos os clichês de LGPD num card só: tentar forçar a LGPD onde ela não entra (segurança pública) e esconder os contatos do Encarregado. Para Auditor, lembre-se: A LGPD serve para proteger o titular, não para blindar criminosos em investigações penais."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_boss_inter_3",
+      "subject": "Ciência e Análise de Dados - Boss Intermediário 3",
+      "source": "Banca Águia - Boss Intermediário 3",
+      "timer_override": 400,
+      "front": "**CHEFE INTERMEDIÁRIO 3:**\n\nChegamos ao último bloco antes da revisão total. Demonstre seu domínio sobre bases legais, direitos do titular e agentes na LGPD. Julgue:",
+      "stem": [
+        "vf(I. Para cadastrar um usuário no SPC/Serasa (proteção do crédito), a empresa não necessita recolher consentimento expresso, sendo essa uma base legal autônoma.)",
+        "vf(II. Caso um contribuinte solicite a eliminação total de seus dados cadastrais, a Secretaria da Fazenda deve obrigatoriamente apagá-los de imediato, mesmo que exista lei estadual obrigando sua retenção por 5 anos.)",
+        "vf(III. A empresa de tecnologia contratada para tratar os dados da SEFAZ, seguindo estritamente as ordens lícitas desta última, assume o papel de Controladora da informação e responde solidariamente de forma automática por todo e qualquer incidente.)",
+        "vf(IV. As investigações de fraudes criminais (repressão penal) em andamento submetem-se integralmente à LGPD, não necessitando de legislações específicas.)"
+      ],
+      "options": [
+        "A) Apenas I, II e IV estão corretas.",
+        "B) Apenas III e IV estão corretas.",
+        "C) I, II, III e IV estão falsas.",
+        "D) Apenas II e III estão corretas.",
+        "E) Apenas a afirmativa I está correta."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Revisão Q65:** A proteção do crédito dispensa o consentimento.\n**2) Revisão Q66:** O cumprimento de obrigação legal sobrepõe-se ao pedido de eliminação do titular.\n**3) Revisão Q67:** A empresa contratada que executa tarefas é a Operadora, e só responde solidariamente se descumprir as ordens lícitas.\n**4) Revisão Q68:** A LGPD não se aplica à repressão e investigação penal (exige lei própria).\n\n~Gabarito~\n**I. Para cadastrar um usuário no SPC/Serasa (proteção do crédito)...**\n**> CERTO <**\nA proteção ao crédito é base autônoma e não requer consentimento.\n\n**II. Caso um contribuinte solicite a eliminação total de seus dados...**\n**> ERRADO <**\nA obrigação legal (reter por 5 anos) vence o pedido de eliminação.\n\n**III. A empresa de tecnologia contratada para tratar os dados da SEFAZ...**\n**> ERRADO <**\nEla atua como Operadora (pois cumpre ordens) e a responsabilidade solidária não é automática para quem cumpre normas lícitas.\n\n**IV. As investigações de fraudes criminais (repressão penal) em andamento...**\n**> ERRADO <**\nAs investigações penais estão fora da aplicação direta da LGPD.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é para Serasa/SPC, **ENTÃO** c(Não) precisa de consentimento.\n**2) SE** é pra investigar bandido criminal, **ENTÃO** a LGPD c(Não entra).\n\n!Break para Respirar!\n~Otávio~\n- Você dominou o arcabouço jurídico da LGPD. Suas respostas refletem o rigor que a SEFAZ espera do corpo técnico."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_boss_final_p1",
+      "subject": "Ciência e Análise de Dados - CHEFE FINAL - Parte 1",
+      "source": "Banca Águia - Chefe Final P1",
+      "timer_override": 600,
+      "front": "**CHEFE FINAL - PARTE 1 (Q57 a Q62):**\n\nA auditoria final começou. Reveja todos os seus passos e não deixe que os conceitos técnicos de dados e estatística escapem.",
+      "stem": [
+        "vf(I. Na classificação estrutural de dados, o e-mail não é considerado um formato integralmente não estruturado, pois seu cabeçalho contém campos definidos como remetente e destinatário.)",
+        "vf(II. Uma das primeiras decisões na modelagem dimensional é a definição da granularidade da tabela de fatos, pois isso dita o nível de detalhamento dos registros armazenados.)",
+        "vf(III. A operação 'roll-up' em um cubo OLAP é utilizada para agregar e resumir os dados, movendo-se para cima na hierarquia da dimensão.)",
+        "vf(IV. Aplicações de coleta de dados (web scraping) podem extrair informações de páginas modernas consumindo apenas o HTML inicial, sem a necessidade de instanciar navegadores sem interface gráfica (headless) para executar scripts.)",
+        "vf(V. No cálculo das cercas do Boxplot, para identificar valores atípicos, a constante multiplicadora utilizada junto à Amplitude Interquartílica (AIQ) é convencionalmente o fator de 1,5.)",
+        "vf(VI. A interoperabilidade técnica cuida dos protocolos de comunicação, enquanto a semântica garante que a informação tenha o mesmo significado exato na origem e no destino.)"
+      ],
+      "options": [
+        "A) Apenas I, II, III, V e VI estão corretas.",
+        "B) Apenas II, III e IV estão corretas.",
+        "C) Apenas I e IV estão corretas.",
+        "D) I, II, III, IV, V e VI estão corretas.",
+        "E) Apenas I, II e VI estão corretas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**I. E-mail (Q57):** O cabeçalho possui metadados, então é semiestruturado, não integralmente não estruturado. (Certo).\n**II. Granularidade (Q58):** A granularidade deve ser declarada logo no início, definindo a escala do fato. (Certo).\n**III. Roll-up (Q58):** Agrega (resume) os dados (Certo).\n**IV. Scraping Dinâmico (Q59):** É o contrário, páginas dinâmicas (SPA) EXIGEM navegadores headless para interpretar os scripts, baixar só o HTML falha. (Errado).\n**V. Boxplot (Q60):** A cerca usa c(1,5 * AIQ). (Certo).\n**VI. Interoperabilidade (Q61):** Técnica = fios e rede; Semântica = significado no dicionário de dados. (Certo).\n\n~Gabarito~\nAs afirmativas I, II, III, V e VI estão estritamente alinhadas aos gabaritos das questões anteriores. Apenas a afirmativa IV é falsa por dizer que o HTML inicial basta para dados renderizados por JS.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é página dinâmica, **ENTÃO** HTML cru não serve; use c(Headless Browser).\n\n!Break para Respirar!\n~Otávio~\n- Metade da prova foi subjugada. Mantenha os escudos levantados, a segunda parte do ataque final focará em LGPD e IA."
+    },
+    {
+      "type": "normal",
+      "id": "ti_sefazsc_boss_final_p2",
+      "subject": "Ciência e Análise de Dados - CHEFE FINAL - Parte 2",
+      "source": "Banca Águia - Chefe Final P2",
+      "timer_override": 600,
+      "front": "**CHEFE FINAL - PARTE 2 (Q63 a Q68):**\n\nÚltimo confronto. Prove seu conhecimento absoluto sobre a Inteligência Artificial, suas métricas e o rigor implacável da LGPD.",
+      "stem": [
+        "vf(I. Reduzir a 'temperatura' em um modelo LLM força o algoritmo a escolher tokens com maior probabilidade, gerando respostas mais matemáticas, focadas e determinísticas.)",
+        "vf(II. O princípio da 'Necessidade' na LGPD veta a coleta de dados excessivos que não tenham ligação proporcional e pertinente com a finalidade declarada pelo agente.)",
+        "vf(III. Embora seja possível tratar dados para a proteção do crédito no Brasil sem o consentimento do titular, o agente continua obrigado a observar os direitos do titular e os princípios da LGPD.)",
+        "vf(IV. Uma pessoa que solicita os dados na forma de declaração completa tem o direito de recebê-los imediatamente, conforme prazo estipulado pela Autoridade Nacional de Proteção de Dados.)",
+        "vf(V. O Controlador toma as decisões sobre o tratamento de dados, ao passo que o Operador apenas as executa em nome do Controlador, só respondendo solidariamente se violar as instruções lícitas deste.)",
+        "vf(VI. As atividades de investigação criminal (repressão penal) encontram-se integralmente abarcadas pelas regras rígidas da LGPD, o que impede a polícia de coletar dados sem indicar o encarregado.)"
+      ],
+      "options": [
+        "A) Apenas I, IV e VI estão corretas.",
+        "B) Apenas II, III e VI estão corretas.",
+        "C) Apenas I, II, III e V estão corretas.",
+        "D) Apenas II, IV, V e VI estão corretas.",
+        "E) I, II, III, IV, V e VI estão corretas."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**I. LLM Temperatura (Q63):** Menor temperatura = menos caos, mais determinístico. (Certo).\n**II. Princípio Necessidade (Q64):** Mínimo necessário, sem excessos. (Certo).\n**III. Base do Crédito e Direitos (Q65):** Não precisa de consentimento para sujar nome, mas a empresa do SPC continua tendo que respeitar os princípios da LGPD. (Certo).\n**IV. Prazos LGPD (Q66):** Declaração completa = c(15 dias). Só formato simplificado é imediato. (Errado).\n**V. Controladores e Operadores (Q67):** O Operador é o braço forte, Controlador é a mente. Operador não é solidário em padrão. (Certo).\n**VI. Segurança e LGPD (Q68):** Investigação penal está c(excluída) do escopo da LGPD, precisando de lei específica. (Errado).\n\n~Gabarito~\nAs afirmativas I, II, III e V refletem a essência técnica das normativas exigidas no edital. As afirmações IV e VI são falsas pelos prazos e pelas exceções de escopo de aplicação da Lei.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é pedido completo de dados, **ENTÃO** são c(15 dias).\n**2) SE** é persecução penal (polícia e inteligência), **ENTÃO** a LGPD não entra.\n\n!Break para Respirar!\n~Otávio~\n- VOCÊ VENCEU! O bloco inteiro de Ciência e Análise de Dados foi neutralizado. Seus algoritmos estão perfeitos, e você provou que tem domínio tanto da máquina quanto das leis civis que a cercam. A SEFAZ te aguarda."
+    }
+  ]
+}
