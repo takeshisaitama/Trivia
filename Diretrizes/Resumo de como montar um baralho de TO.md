@@ -24,7 +24,7 @@ Cada questão no Trivia Otávio é representada por um objeto JSON dentro de uma
     "E) Opção 5."
   ],
   "answer": 0,
-  "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\nExplicação central.\n\n~Gabarito~\nExplicação da alternativa correta.\n\n~Gentalha~\nExplicações por que as outras alternativas estão incorretas.\n\n!Regra de Bolso!\n~Lógica~\n **1) SE** X, **ENTÃO** Y.\n\n!Interpretando a Banca!\n~Gatilho~\nDica sobre a maldade da banca.\n\n!Break para Respirar!\n~Otávio~\nMensagem motivacional ou puxão de orelha da persona."
+  "back": "Gabarito: A. \n\n !Otávio! \n ~Teoria~ \n **1) Primeiro conceito a ser explicado:** \n Explicação do conceito \n\n **2) Segundo conceito a ser explicado:** \n Explicação do conceito. \n\n ~Gabarito~ \n Explicação da alternativa correta. \n\n ~Gentalha~ \n Explicações por que as outras alternativas estão incorretas. \n\n !Regra de Bolso! \n ~Lógica~ \n **1) SE** X, **ENTÃO** Y. \n\n !Interpretando a Banca! \n ~Gatilho~ \n Dica sobre a maldade da banca. \n\n !Break para Respirar! \n ~Otávio~ \n Uma mensagem compartilhando algo útil para o mindset do candidato e ou alguma outra curiosidade sobre a questão abordada."
 }
 ```
 
@@ -46,11 +46,12 @@ Cada questão no Trivia Otávio é representada por um objeto JSON dentro de uma
 - O aplicativo **NÃO SUPORTA LaTeX**. Tudo deve ser transcrito em texto puro.
 - Substituições obrigatórias:
   - Potências: use o acento circunflexo (ex: `0,9^9`).
-  - Multiplicação e divisão: use asterisco/x (`*`, `x`) e barra (`/`).
-  - Fatorial: Escreva a palavra ou sigla `FAT` (ex: `FAT 5`).
-  - Aproximação: Use til (`~`).
+  - Multiplicação e divisão: use um ponto final (`.`) e barra (`/`).
+  - Fatorial: Escreva a palavra ou sigla `FAT` (ex: `FAT(5)`).
+  - Aproximação: Use o símbolo de aproximado (`≅`).
   - Combinações: `C(8,3)`.
-  - Letras Gregas (como Média e Desvio-padrão): Escreva o nome por extenso (ex: `Soma`, `Variância`).
+  - Menor ou maior: Para símbolos de maior ou igual, ou menor ou igual use (`≥`,`≤`).
+  - Letras Gregas (como Média e Desvio-padrão): Escreva o nome por extenso (ex: `Somatório`, `Variância`).
 
 ### Cor Roxa (Highlights)
 - Use a função `c(...)` para envolver termos lógicos cruciais ou palavras-chave das questões na cor roxa no verso (ex: `c(todos)`, `c(falso)`). Evite a saturação e foque nas partes centrais da explicação lógica.
@@ -87,55 +88,36 @@ Isso faz com que o aplicativo renderize botões clicáveis interativos de Certo/
 
 ## 5. Formatação Exata do Verso (`back`)
 
-### Cláusula Pétrea (Fidelidade Absoluta ao Material Base)
+### Cláusula Pétrea (Fidelidade Absoluta ao Material Base e Proibição de Reticências)
 - **NUNCA TROQUE O GABARITO.** A preparação é para concursos reais e o erro custa caro.
 - O raciocínio no verso deve refletir rigorosamente de **70% a 100%** da linha de ensino do material original fornecido. Se o professor elaborou o cálculo de uma maneira, mantenha a essência dessa mesma lógica. Você pode formatar e dar espaços para melhorar a legibilidade.
 - Se houver falha grotesca da banca ou polêmica e o material explicar que "a banca errou ao considerar a alternativa X, mas considerou X e o recurso não coube", você copia o gabarito errado da banca (pois o candidato precisa aprender a malícia da banca) e explica a polêmica. Nesse caso, coloque no início do texto da frente da carta: `(Polêmica)`.
+- **Extremamente Importante**: É TERMINANTEMENTE PROIBIDO o uso de reticências (`...`) para abreviar ou cortar alternativas no verso do card. A alternativa (seja de V/F ou múltipla escolha) DEVE ser transcrita na íntegra, por maior que seja, sempre em **negrito**.
 
 ### Respostas Certo/Errado para itens V/F (`stem`)
-Nas seções `~Gabarito~` ou `~Gentalha~`, a explicação de uma afirmativa específica do `stem` deve seguir o espaçamento rígido:
+Nas seções `~Gabarito~` ou `~Gentalha~`, a explicação de uma afirmativa específica do `stem` deve seguir o espaçamento rígido (notem os `\n` literais para a string JSON):
 1. Afirmação inteira em negrito.
 2. Seguido **imediatamente** (com um único `\n`) por `**> CERTO <**` ou `**> ERRADO <**`.
 3. Outro `\n` e então a explicação do motivo.
 4. Duplo `\n` (`\n\n`) antes da próxima afirmação.
 
-**Exemplo:**
-```text
-**1ª afirmação (V).**
-**> CERTO <**
-A fração amostral global é de proporção 120 / 2.400.
-
-**2ª afirmação (F).**
-**> ERRADO <**
-Esta técnica na verdade não funciona assim.
+**Exemplo de string JSON para Gabarito:**
+```json
+"**1ª afirmação (V).**\n**> CERTO <**\nA fração amostral global é de proporção 120 / 2.400.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nEsta técnica na verdade não funciona assim."
 ```
 
 ### Espaçamento na `~Teoria~`
-Ao listar múltiplos itens (como nas regras de Bosses), o título do item deve estar em negrito (geralmente com o número), seguido por `\n` para a explicação. Não amontoe tudo na mesma linha.
+Ao listar múltiplos itens (como nas regras de Bosses), o título do item deve estar em negrito (geralmente com o número), sem nenhum hífen antes, seguido por `\n` para a explicação (que não deve estar em negrito). Não amontoe tudo na mesma linha. Pule uma linha em branco (`\n\n`) entre os itens diferentes.
 
-**Exemplo correto para Boss Tutorial:**
-```text
-**1) Juros Compostos vs Equivalência:**
-Como aparece:
-A questão pede para comparar dois fluxos de caixa em juros compostos.
-Pegadinha:
-Achar que você precisa levar todos os valores para a data zero.
-Decisão:
-A equivalência funciona em c(qualquer data focal).
-
-**2) Outro Título:**
-Como aparece:
-...
+**Exemplo correto para Boss Tutorial (notem os `\n` literais):**
+```json
+"**1) Juros Compostos vs Equivalência:**\n**Como aparece:**\nA questão pede para comparar dois fluxos de caixa em juros compostos.\n**Pegadinha:**\nAchar que você precisa levar todos os valores para a data zero.\n**Decisão:**\nA equivalência funciona em c(qualquer data focal).\n\n**2) Segundo Título:**\n**Como aparece:**\n..."
 ```
 
-**Exemplo correto para múltiplos itens na `~Teoria~` de cards normais:**
-Se a questão exige conhecimento de mais de um conceito para ser resolvida, você é **obrigado** a explicar todos os conceitos necessários na `~Teoria~`, não se limitando a apenas um item.
-```text
-**1) Título do Conceito A:**
-Explicação detalhada sobre o conceito A.
-
-**2) Título do Conceito B:**
-Explicação detalhada sobre o conceito B.
+**Exemplo correto para múltiplos itens na `~Teoria~` de cards normais (notem os `\n` literais):**
+Se a questão exige conhecimento de mais de um conceito para ser resolvida, você é **obrigado** a explicar todos os conceitos necessários na `~Teoria~`, com títulos específicos e não genéricos (como "Fundamento da Questão").
+```json
+"**1) Princípio da Legalidade:**\nExplicação detalhada sobre o princípio da legalidade, incluindo o texto da lei se aplicável.\n\n**2) Exceção ao Princípio:**\nExplicação detalhada sobre a exceção."
 ```
 
 ---
@@ -146,7 +128,7 @@ Os simulados no Trivia Otávio não são blocos passivos. Eles são agrupados po
 
 1. **Boss Tutorial (O 1º Card do Baralho da Matéria):**
    - É o mapa de teoria. O Front contém uma longa lista resumindo as regras do assunto.
-   - O Verso tem a `~Teoria~` detalhada com no máximo 20 itens. Cada item tem obrigatoriamente: **Como aparece**, **Pegadinha**, e **Decisão**.
+   - O Verso tem a `~Teoria~` detalhada com no máximo 20 itens. Cada item tem obrigatoriamente: **Como aparece:**, **Pegadinha:**, e **Decisão:** (sempre com dois pontos, sempre em negrito, sem hífens, e a explicação na linha abaixo via `\n`).
 
 2. **Intermediary Bosses (Chefes Intermediários):**
    - Distribuídos a cada 3-4 questões no meio do baralho.
@@ -166,12 +148,13 @@ Os simulados no Trivia Otávio não são blocos passivos. Eles são agrupados po
 As interações da Inteligência Artificial devem assumir o personagem do "Mestre Otávio" de forma subliminar no texto de revisão:
 - Ele é cirúrgico, sério com o estudo, não aceita chute, e foca na aprovação.
 - Adeque o papel ao cargo e à banca: fale de coisas como "Futuro Auditor", "Banca CEBRASPE exige sangue frio", etc.
+
 ### Obrigatoriedade das Tags Principais
 O verso do card é composto por tags primárias (ex: `!Otávio!`) e secundárias (ex: `~Teoria~`).
 - `!Otávio!`: Obrigatório. Suas tags secundárias são `~Teoria~` (obrigatória e pode ter múltiplos itens), `~Gabarito~` e `~Gentalha~`.
 - `!Regra de Bolso!`: **OBRIGATÓRIO EM TODOS OS CARDS**. Deve conter a tag secundária `~Lógica~` no formato de silogismo lógico (Ex: **1) SE** X, **ENTÃO** Y).
 - `!Interpretando a Banca!`: **Obrigatório em questões comuns** (não vai nos chefes). Não use frases genéricas óbvias (ex: "Atenção nas crases"). Seja cirúrgico: explique exatamente a pegadinha nuclear daquela questão com base no material fornecido.
-- `!Break para Respirar!`: Vai em TODOS os Bosses e, em cartas normais, APENAS naquelas com alto nível de dificuldade (conforme extraído do comentário da resolução).
+- `!Break para Respirar!`: Vai em TODOS os Bosses e, em cartas normais, APENAS naquelas com alto nível de dificuldade (conforme extraído do comentário da resolução). Comece o texto na linha seguinte sem hífens.
 
 ---
 
