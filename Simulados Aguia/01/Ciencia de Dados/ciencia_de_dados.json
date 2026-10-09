@@ -1,12 +1,12 @@
 {
+  "title": "Águia Simulados - SEFAZ/SC 2026: Ciência de Dados (conhecimentos gerais)",
   "messages": {
     "reprovado": "Inaceitável. Você cometeu erros amadores para um futuro Auditor de TI da SEFAZ/SC. A área de Ciência de Dados não perdoa equívocos básicos. Volte para os livros.",
     "reserva": "Resultado perigoso. Ficar no cadastro de reserva em um concurso de alto nível da SEFAZ/SC é o mesmo que jogar roleta russa. Você precisa dominar esses conceitos com mais firmeza.",
     "call4": "Aceitável, mas longe da segurança que um Auditor Fiscal de TI exige. Algumas pegadinhas de dados ainda estão passando pelo seu radar.",
     "call3": "Bom trabalho. Você está se consolidando. A lógica por trás de Ciência e Análise de Dados já está clara, mas ainda há margem para lapidar a precisão.",
     "call2": "Excelente. Uma pontuação digna de quem vai brigar pelas primeiras vagas na SEFAZ/SC. O domínio técnico demonstrado aqui é essencial.",
-    "call1": "Impecável. Sangue frio absoluto. Você esmagou a prova de Ciência de Dados com a precisão exigida pelo Fisco. A vaga já tem dono.",
-    "aprovado": "Você gabaritou. Não sobrou pedra sobre pedra. A SEFAZ/SC te aguarda de portas abertas. Parabéns, futuro Auditor de Ciências da Computação!"
+    "call1": "Impecável. Sangue frio absoluto. Você esmagou a prova de Ciência de Dados com a precisão exigida pelo Fisco. A vaga já tem dono."
   },
   "cards": [
     {
@@ -14,7 +14,7 @@
       "id": "ti_sefazsc_boss_tutorial",
       "subject": "Ciência e Análise de Dados - Mapa Teórico",
       "source": "Banca Águia - Boss Tutorial",
-      "timer_override": 400,
+      "timer_override": 600,
       "front": "**TUTORIAL DO CHEFE:**\n\nBem-vindo ao mapa teórico de Ciência de Dados. Antes de enfrentar as questões, absorva as regras fundamentais deste bloco:",
       "stem": [
         "**1) Classificação de Dados:**\nA estrutura (estruturado, semi, não estruturado) e o schema (on-write vs on-read).",
