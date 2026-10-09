@@ -1,0 +1,231 @@
+{
+  "title": "Simulados Aguia - SEFAZ/SC 2026 - Auditor - Ética",
+  "messages": {
+    "reprovado": "Otávio: ((Aponta para a Corregedoria)) - Inadmissível, Auditor. Sua condescendência com as infrações éticas e de licitação mancham a corporação. Refaça seu treinamento.",
+    "reserva": "Otávio: ((Carimba com ressalvas)) - Você detectou as fraudes básicas, mas tropeçou no Direito Penal do Assédio. Cadastro de reserva para você.",
+    "call4": "Otávio: ((Assina o documento)) - Aprovado com ressalvas. Você compreendeu a Lei Anticorrupção, mas faltou atenção nos limites das súmulas do STF.",
+    "call3": "Otávio: ((Sorri levemente)) - Muito bom. Sua aplicação da Lei 12.846 está afiada. Está qualificado para as varreduras internas da SEFAZ.",
+    "call2": "Otávio: ((Aperto de mão firme)) - Excelente. Você domina as esferas penal e administrativa e não se deixa levar por fumaças jurídicas.",
+    "call1": "Otávio: ((Entrega a chave do departamento)) - NÍVEL MÁXIMO DE INTEGRIDADE. Você gabaritou a matéria moral da banca. A SEFAZ está segura em suas mãos."
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_boss_tut",
+      "subject": "Ética e Integridade",
+      "source": "BOSS TUTORIAL - Ética",
+      "timer_override": 600,
+      "front": "**(BOSS TUTORIAL) - Otávio:**\n(Lê o Código de Conduta da SEFAZ)\n- Nova matéria no nosso radar, Auditor. A prevenção ao assédio e a Lei Anticorrupção (Lei 12.846) requerem um nível de compliance que não aceita meio termo. A FCC tem batido muito pesado na literalidade das sanções e nos conceitos de assédio do Código Penal. Analise todos estes 20 mandamentos de integridade:",
+      "stem": [
+        "**1) Responsabilidade da PJ (Lei Anticorrupção):**\nA responsabilização da PJ depende da responsabilização dos dirigentes?",
+        "**2) Responsabilidade dos Dirigentes:**\nEles respondem objetivamente junto com a empresa?",
+        "**3) Solidariedade de Coligadas:**\nElas pagam todas as sanções?",
+        "**4) Multa vs Reparação do Dano:**\nA multa exclui a reparação do dano ao erário?",
+        "**5) Cálculo da Multa Administrativa:**\nEla é baseada no faturamento bruto incluindo os tributos?",
+        "**6) Multa Subsidária (sem faturamento):**\nO limite máximo é de 60 milhões?",
+        "**7) Sanções Administrativas vs Judiciais:**\nA suspensão das atividades é aplicada por quem?",
+        "**8) Elementos da Aplicação da Sanção (Art. 7º):**\nA consumação, situação econômica e o valor dos contratos importam?",
+        "**9) Assédio Sexual - Consumação:**\nExige a obtenção da vantagem sexual?",
+        "**10) Assédio Sexual - Ação Penal:**\nA ação penal é condicionada ou incondicionada?",
+        "**11) Assédio Sexual - Hierarquia:**\nPode haver assédio sexual entre colegas do mesmo nível?",
+        "**12) Assédio Sexual - Pena:**\nA pena de Assédio Sexual é a mesma de Importunação Sexual?",
+        "**13) Assédio Moral - Hierarquia:**\nAssédio moral só ocorre de chefe para subordinado?",
+        "**14) Assédio Moral vs Poder Diretivo:**\nCobrar metas razoavelmente é assédio organizacional?",
+        "**15) Assédio Moral - Comprovação:**\nDepende obrigatoriamente de laudo pericial psiquiátrico?",
+        "**16) Nepotismo - Vedação Constitucional:**\nPrecisa de lei formal editada pelo ente federativo para vedar nepotismo?",
+        "**17) Súmula Vinculante 13 - Grau de Parentesco:**\nAté que grau de parentesco a súmula alcança?",
+        "**18) Nepotismo em Cargos Políticos:**\nA súmula 13 se aplica aos cargos de natureza política (Secretários)?",
+        "**19) Princípio da Moralidade Administrativa:**\nA moralidade só incide sobre atos discricionários?",
+        "**20) Moralidade e Invalidação de Ato:**\nPrecisa provar o dolo do agente para invalidar ato por ofensa à moralidade?"
+      ],
+      "options": [
+        "A) Li e compreendi os conceitos."
+      ],
+      "answer": 0,
+      "back": "!Otávio!\n~Teoria~\n**1) Responsabilidade da PJ (Lei Anticorrupção):**\n**Como aparece:** \n  A banca diz que a PJ só é punida se o dirigente for punido junto.\n**Pegadinha:** \n  Vincular a PJ à condenação criminal/civil da pessoa física.\n**Decisão:** \n  A responsabilidade da PJ é c(Independente) da pessoa natural (art. 3º, § 1º).\n\n**2) Responsabilidade dos Dirigentes:**\n**Como aparece:** \n  Dirigentes respondem objetivamente.\n**Pegadinha:** \n  Estender a responsabilidade objetiva da empresa para as pessoas.\n**Decisão:** \n  Dirigentes respondem na medida de sua c(Culpabilidade) (subjetiva).\n\n**3) Solidariedade de Coligadas:**\n**Como aparece:** \n  Sociedades controladas respondem por todas as sanções da controladora.\n**Pegadinha:** \n  Aplicar interdição ou perda de bens às controladas.\n**Decisão:** \n  A solidariedade é c(Restrita) à multa e reparação integral do dano.\n\n**4) Multa vs Reparação do Dano:**\n**Como aparece:** \n  A multa afasta a obrigação de reparar o dano.\n**Pegadinha:** \n  Dizer que a sanção pecuniária compensa o prejuízo.\n**Decisão:** \n  A sanção não exclui, em c(Nenhuma Hipótese), a reparação do dano.\n\n**5) Cálculo da Multa Administrativa:**\n**Como aparece:** \n  A multa é de 0,1% a 20% do faturamento bruto, incluídos os tributos.\n**Pegadinha:** \n  Incluir os tributos na base de cálculo.\n**Decisão:** \n  O cálculo é sobre o faturamento bruto c(Excluídos) os tributos.\n\n**6) Multa Subsidária (sem faturamento):**\n**Como aparece:** \n  De 6 mil a 60 milhões de reais.\n**Pegadinha:** \n  A banca adora colocar 60 milhões para assustar.\n**Decisão:** \n  O limite é de 6 mil a c(6 milhões) de reais.\n\n**7) Sanções Administrativas vs Judiciais:**\n**Como aparece:** \n  A suspensão de atividades é sanção aplicada pela autoridade do órgão lesado.\n**Pegadinha:** \n  Misturar sanção judicial com sanção administrativa.\n**Decisão:** \n  Suspensão/Interdição é sanção c(Judicial). Administrativa é só multa e publicação.\n\n**8) Elementos da Aplicação da Sanção (Art. 7º):**\n**Como aparece:** \n  A situação econômica ou cooperação da PJ não alteram a sanção.\n**Pegadinha:** \n  Tentar ocultar as atenuantes/agravantes.\n**Decisão:** \n  O art. 7º lista c(Tudo isso) (consumação, cooperação, situação econômica, valor do contrato).\n\n**9) Assédio Sexual - Consumação:**\n**Como aparece:** \n  Exige a efetiva obtenção da vantagem.\n**Pegadinha:** \n  Dizer que se a vítima recusar, não há crime.\n**Decisão:** \n  É crime formal. O simples constrangimento com o intuito já c(Consuma).\n\n**10) Assédio Sexual - Ação Penal:**\n**Como aparece:** \n  A ação penal é condicionada à representação.\n**Pegadinha:** \n  A banca usa regras antigas do Código Penal.\n**Decisão:** \n  Desde 2018, crimes contra liberdade sexual são c(Incondicionados).\n\n**11) Assédio Sexual - Hierarquia:**\n**Como aparece:** \n  Pode ser praticado entre colegas de mesmo nível.\n**Pegadinha:** \n  Confundir com Assédio Moral ou Importunação Sexual.\n**Decisão:** \n  Assédio sexual c(Exige) superioridade hierárquica ou ascendência.\n\n**12) Assédio Sexual - Pena:**\n**Como aparece:** \n  A pena é a mesma da importunação sexual (reclusão de 1 a 5 anos).\n**Pegadinha:** \n  Equiparar os dois crimes.\n**Decisão:** \n  Assédio é c(Detenção) de 1 a 2 anos (mais brando que importunação).\n\n**13) Assédio Moral - Hierarquia:**\n**Como aparece:** \n  Só ocorre de chefe para subordinado (descendente).\n**Pegadinha:** \n  Limitar o escopo do assédio moral ao chefe tirano.\n**Decisão:** \n  Pode ser descendente, c(Horizontal) (colegas) ou ascendente (subordinados para chefe).\n\n**14) Assédio Moral vs Poder Diretivo:**\n**Como aparece:** \n  Fixar metas e cobrar configura assédio organizacional.\n**Pegadinha:** \n  Criminalizar a gestão normal da empresa.\n**Decisão:** \n  Cobrar metas compatíveis e com respeito é c(Exercício Regular) do poder diretivo.\n\n**15) Assédio Moral - Comprovação:**\n**Como aparece:** \n  Depende de laudo pericial atestando dano psíquico.\n**Pegadinha:** \n  Criar barreiras de prova irreais.\n**Decisão:** \n  O laudo prova o dano, mas c(Não é Elemento) do conceito (basta a conduta reiterada e degradante).\n\n**16) Nepotismo - Vedação Constitucional:**\n**Como aparece:** \n  A vedação ao nepotismo precisa de lei formal do ente federativo.\n**Pegadinha:** \n  Justificar a contratação de parente por \"falta de lei municipal\".\n**Decisão:** \n  O STF diz que decorre c(Diretamente) da CF (Súmula Vinculante 13). Não precisa de lei.\n\n**17) Súmula Vinculante 13 - Grau de Parentesco:**\n**Como aparece:** \n  A súmula atinge parentes até o quarto grau.\n**Pegadinha:** \n  Jogar o grau lá para cima.\n**Decisão:** \n  O nepotismo é vedado até o c(Terceiro) grau.\n\n**18) Nepotismo em Cargos Políticos:**\n**Como aparece:** \n  Nepotismo sempre atinge o cargo de Secretário de Estado.\n**Pegadinha:** \n  Aplicar a SV 13 para tudo de forma cega.\n**Decisão:** \n  Cargos políticos (Ministros, Secretários) são c(Exceção) à regra, salvo fraude/falta de idoneidade.\n\n**19) Princípio da Moralidade Administrativa:**\n**Como aparece:** \n  A moralidade só incide nos atos discricionários.\n**Pegadinha:** \n  Achar que atos vinculados só obedecem à legalidade fria.\n**Decisão:** \n  Moralidade é de observância obrigatória em c(Toda) a atuação (discricionários e vinculados).\n\n**20) Moralidade e Invalidação de Ato:**\n**Como aparece:** \n  Para invalidar um ato por moralidade, tem que provar o dolo do agente.\n**Pegadinha:** \n  Proteger o ato imoral alegando \"falta de intenção\".\n**Decisão:** \n  A moralidade é aferida c(Objetivamente). Dispensa a prova do dolo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é responsabilização da PJ, **ENTÃO** é c(Independente) e Objetiva.\n\n**2) SE** é responsabilização do Dirigente, **ENTÃO** é c(Dependente) de Culpabilidade (Subjetiva).\n\n**3) SE** é empresa Coligada, **ENTÃO** a solidariedade é só na c(Multa/Reparação).\n\n**4) SE** pagou a multa, **ENTÃO** c(Ainda) tem que reparar o dano.\n\n**5) SE** vai calcular a multa no faturamento, **ENTÃO** os tributos estão c(Excluídos).\n\n**6) SE** não der para usar o faturamento, **ENTÃO** o limite é de c(6 milhões).\n\n**7) SE** é suspensão das atividades, **ENTÃO** é o c(Juiz) quem manda (não a Administração).\n\n**8) SE** a PJ cooperou com as investigações, **ENTÃO** isso afeta a sanção (Atenua).\n\n**9) SE** é Assédio Sexual, **ENTÃO** o crime é c(Formal) (não precisa obter a vantagem).\n\n**10) SE** é crime contra a liberdade sexual, **ENTÃO** a ação é sempre c(Incondicionada).\n\n**11) SE** não há hierarquia/ascendência, **ENTÃO** c(Não) é Assédio Sexual.\n\n**12) SE** a pena for Reclusão de 1 a 5 anos, **ENTÃO** é Importunação (e não Assédio Sexual).\n\n**13) SE** a conduta é de subordinados contra a chefia, **ENTÃO** é Assédio Moral c(Ascendente).\n\n**14) SE** a meta é compatível e a cobrança é respeitosa, **ENTÃO** c(Não) é assédio.\n\n**15) SE** exige laudo psiquiátrico para configurar assédio moral, **ENTÃO** a alternativa é c(Falsa).\n\n**16) SE** o ente não tem lei sobre nepotismo, **ENTÃO** a Súmula 13 se aplica c(Diretamente).\n\n**17) SE** o parente é de 4º grau, **ENTÃO** c(Não) é nepotismo pela Súmula 13.\n\n**18) SE** é cargo Político (Secretário de Estado), **ENTÃO** a Súmula 13 c(Não) se aplica em regra.\n\n**19) SE** o ato é vinculado, **ENTÃO** ele também tem que respeitar a c(Moralidade).\n\n**20) SE** a ofensa à moralidade ocorreu, **ENTÃO** a invalidação c(Dispensa) a prova de dolo.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca vai sempre tentar confundir as esferas Administrativa e Judicial nas sanções anticorrupção, e vai testar seu conhecimento sobre as exigências de hierarquia no Assédio Sexual versus Assédio Moral. Fique ligado na palavra 'exige'.\n\n!Break para Respirar!\n~Otávio~\n Memorize esses 20 pontos. Eles vão sustentar todas as investigações do seu setor correcional."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_q69",
+      "subject": "Ética e Integridade",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 069",
+      "timer_override": 180,
+      "front": "**Questão 69:**\n\nAcerca da responsabilização das pessoas jurídicas pelos atos lesivos à administração pública previstos na Lei nº 12.846/2013 (Lei Anticorrupção), é correto afirmar que:",
+      "options": [
+        "A) a responsabilização da pessoa jurídica depende da prévia responsabilização individual de seus dirigentes ou administradores, cuja culpabilidade deve ser demonstrada no mesmo processo.",
+        "B) os dirigentes e os administradores respondem objetivamente pelos atos lesivos praticados em benefício da pessoa jurídica, na mesma medida em que ela própria responde.",
+        "C) as sociedades controladoras, controladas e coligadas são solidariamente responsáveis pela prática dos atos lesivos, alcançando essa responsabilidade todas as sanções cominadas na lei.",
+        "D) a pessoa jurídica responde objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos praticados em seu interesse ou benefício, sem exclusão da responsabilidade individual de seus dirigentes.",
+        "E) a multa administrativa aplicada à pessoa jurídica, em razão de sua natureza sancionatória, afasta a obrigação de reparação integral do dano causado ao erário pelo ato lesivo."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Fundamento da Questão:**\nCombina o art.\n\n~Gabarito~\n**D) a pessoa jurídica responde objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos praticados em seu interesse ou benefício, sem exclusão da responsabilidade individual de seus dirigentes.**\n**> CERTO <**\nCombina o art. 2º (responsabilidade objetiva, nos âmbitos administrativo e civil, pelos atos praticados no interesse ou benefício da pessoa jurídica) com o art. 3º, caput (que mantém a responsabilidade individual dos dirigentes e demais pessoas naturais envolvidas).\n\n~Gentalha~\n**A) a responsabilização da pessoa jurídica depende da prévia responsabilização individual de seus dirigentes ou administradores, cuja culpabilidade deve ser demonstrada no mesmo processo.**\n**> ERRADO <**\nO art. 3º, § 1º, da Lei nº 12.846/2013 dispõe que a pessoa jurídica será responsabilizada independentemente da responsabilização individual das pessoas naturais.\n\n**B) os dirigentes e os administradores respondem objetivamente pelos atos lesivos praticados em benefício da pessoa jurídica, na mesma medida em que ela própria responde.**\n**> ERRADO <**\nO art. 3º, § 2º, dispõe que os dirigentes ou administradores serão responsabilizados na medida da sua culpabilidade; a responsabilidade objetiva é da pessoa jurídica.\n\n**C) as sociedades controladoras, controladas e coligadas são solidariamente responsáveis pela prática dos atos lesivos, alcançando essa responsabilidade todas as sanções cominadas na lei.**\n**> ERRADO <**\nO art. 4º, § 2º, prevê a solidariedade dessas sociedades, mas a restringe à obrigação de pagamento de multa e de reparação integral do dano.\n\n**E) a multa administrativa aplicada à pessoa jurídica, em razão de sua natureza sancionatória, afasta a obrigação de reparação integral do dano causado ao erário pelo ato lesivo.**\n**> ERRADO <**\nO art. 6º, § 3º, dispõe que a aplicação das sanções não exclui, em qualquer hipótese, a obrigação de reparação integral do dano.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca tentar confundir os conceitos da lei, **ENTÃO** relembre a regra principal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_q70",
+      "subject": "Ética e Integridade",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 070",
+      "timer_override": 180,
+      "front": "**Questão 70:**\n\nQuanto às sanções aplicáveis às pessoas jurídicas com fundamento na Lei nº 12.846/2013 (Lei Anticorrupção), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\n\n\n\n\nA sequência correta, de cima para baixo, é:",
+      "options": [
+        "A) V, F, F, F.",
+        "B) F, F, F, F.",
+        "C) F, F, V, F.",
+        "D) V, F, V, V.",
+        "E) V, V, V, V."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Fundamento da Questão:**\nO art. 6º, § 5º traz a regra de publicação da decisão condenatória.\n\n~Gabarito~\n**C) F, F, V, F.**\n\n**A publicação extraordinária da decisão condenatória ocorre na forma de extrato de sentença, às expensas da pessoa jurídica, inclusive mediante afixação de edital, pelo prazo mínimo de trinta dias, no próprio estabelecimento ou no local de exercício da atividade.**\n**> CERTO <**\nÉ o teor do art. 6º, § 5º: extrato de sentença, às expensas da pessoa jurídica, em meios de comunicação de grande circulação, por afixação de edital pelo prazo mínimo de trinta dias e no sítio eletrônico.\n\n~Gentalha~\n**Na esfera administrativa, a multa varia de um décimo por cento a vinte por cento do faturamento bruto do último exercício anterior ao da instauração do processo, incluídos os tributos, e não pode ser inferior à vantagem auferida, quando for possível a sua estimação.**\n**> ERRADO <**\nO art. 6º, I, da Lei nº 12.846/2013 calcula a multa sobre o faturamento bruto EXCLUÍDOS os tributos; os demais elementos da afirmativa conferem com o dispositivo.\n\n**Não sendo possível utilizar o critério do faturamento bruto da pessoa jurídica, a multa administrativa será fixada entre seis mil reais e seis milhões de reais.**\n**> ERRADO <**\nO art. 6º, § 4º, fixa a multa, nessa hipótese, entre seis mil e SESSENTA milhões de reais.\n\n**A suspensão ou interdição parcial das atividades da pessoa jurídica pode ser aplicada pela autoridade máxima do órgão lesado ao final do processo administrativo de responsabilização.**\n**> ERRADO <**\nA suspensão ou interdição parcial das atividades é sanção JUDICIAL (art. 19, II), aplicada em ação proposta pela Advocacia Pública ou pelo Ministério Público; na esfera administrativa, as sanções são a multa e a publicação extraordinária (art. 6º).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca tentar confundir os conceitos da lei, **ENTÃO** relembre a regra principal.",
+      "stem": [
+        "vf(Na esfera administrativa, a multa varia de um décimo por cento a vinte por cento do faturamento bruto do último exercício anterior ao da instauração do processo, incluídos os tributos, e não pode ser inferior à vantagem auferida, quando for possível a sua estimação.)",
+        "vf(Não sendo possível utilizar o critério do faturamento bruto da pessoa jurídica, a multa administrativa será fixada entre seis mil reais e seis milhões de reais.)",
+        "vf(A publicação extraordinária da decisão condenatória ocorre na forma de extrato de sentença, às expensas da pessoa jurídica, inclusive mediante afixação de edital, pelo prazo mínimo de trinta dias, no próprio estabelecimento ou no local de exercício da atividade.)",
+        "vf(A suspensão ou interdição parcial das atividades da pessoa jurídica pode ser aplicada pela autoridade máxima do órgão lesado ao final do processo administrativo de responsabilização.)"
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_q71",
+      "subject": "Ética e Integridade",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 071",
+      "timer_override": 180,
+      "front": "**Questão 71:**\n\nConsidere os seguintes elementos:\n\nNos termos do art. 7º da Lei nº 12.846/2013 (Lei Anticorrupção), são levados em consideração na aplicação das sanções os elementos:",
+      "options": [
+        "A) I.",
+        "B) I, II e IV.",
+        "C) I, III e IV.",
+        "D) IV.",
+        "E) I, II, III e IV."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Fundamento da Questão:**\nOs quatro elementos constam do rol do art. 7º, que inclui ainda a gravidade da infração, a vantagem auferida ou pretendida, o grau de lesão, o efeito negativo produzido e a existência de mecanismos internos de integridade.\n\n~Gabarito~\n**E) I, II, III e IV.**\n\n**I. A consumação ou não da infração.**\n**> CERTO <**\nArt. 7º, III, da Lei nº 12.846/2013.\n\n**II. A cooperação da pessoa jurídica para a apuração das infrações.**\n**> CERTO <**\nArt. 7º, VII.\n\n**III. A situação econômica do infrator.**\n**> CERTO <**\nArt. 7º, VI.\n\n**IV. O valor dos contratos mantidos pela pessoa jurídica com o órgão ou a entidade pública lesados.**\n**> CERTO <**\nArt. 7º, IX.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca tentar confundir os conceitos da lei, **ENTÃO** relembre a regra principal.",
+      "stem": [
+        "vf(I. A consumação ou não da infração.)",
+        "vf(II. A cooperação da pessoa jurídica para a apuração das infrações.)",
+        "vf(III. A situação econômica do infrator.)",
+        "vf(IV. O valor dos contratos mantidos pela pessoa jurídica com o órgão ou a entidade pública lesados.)"
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_boss_inter_01",
+      "subject": "Ética e Integridade",
+      "source": "BOSS INTERMEDIÁRIO I - Revisão Fiscal",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n- Avalie o primeiro bloco de integridade corporativa:",
+      "stem": [
+        "vf(I. A responsabilidade da pessoa jurídica por atos de corrupção é dependente e solidária à da pessoa física de seus dirigentes.)",
+        "vf(II. A multa administrativa da Lei Anticorrupção pode chegar a 60 milhões de reais caso não seja possível usar o faturamento bruto.)",
+        "vf(III. A situação econômica do infrator e o valor dos contratos com o órgão público são critérios levados em conta na aplicação das sanções da Lei Anticorrupção.)"
+      ],
+      "options": [
+        "A) Apenas II é verdadeira.",
+        "B) Apenas III é verdadeira.",
+        "C) I e II são verdadeiras.",
+        "D) Nenhuma é verdadeira.",
+        "E) Todas são verdadeiras."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Responsabilidade:**\nA da PJ é independente e objetiva. A da PF é dependente de culpabilidade (subjetiva).\n\n**2) Multa:**\nO teto quando não há faturamento é de 6 MILHÕES de reais, não 60.\n\n**3) Sanções:**\nSituação econômica e valor de contrato entram sim no cálculo do art. 7º.\n\n~Gabarito~\n**B) Apenas III é verdadeira.**\n\n**III. A situação econômica do infrator e o valor dos contratos com o órgão público são critérios levados em conta na aplicação das sanções da Lei Anticorrupção.**\n**> CERTO <**\nSão critérios previstos no art. 7º da Lei.\n\n~Gentalha~\n**I. A responsabilidade da pessoa jurídica por atos de corrupção é dependente e solidária à da pessoa física de seus dirigentes.**\n**> ERRADO <**\nA responsabilidade é independente, não atrelada à da pessoa física.\n\n**II. A multa administrativa da Lei Anticorrupção pode chegar a 60 milhões de reais caso não seja possível usar o faturamento bruto.**\n**> ERRADO <**\nO limite é 6 milhões (e não 60).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca falar 60 milhões, **ENTÃO** é c(Falso)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_q72",
+      "subject": "Ética e Integridade",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 072",
+      "timer_override": 180,
+      "front": "**Questão 72:**\n\nA respeito do crime de assédio sexual, tipificado no art. 216-A do Decreto-Lei nº 2.848/1940 (Código Penal), é correto afirmar que:",
+      "options": [
+        "A) a consumação do crime exige a efetiva obtenção da vantagem ou do favorecimento sexual pretendido pelo agente, não bastando o constrangimento da vítima.",
+        "B) a ação penal é pública condicionada à representação da vítima, salvo se esta for menor de dezoito anos, hipótese em que se torna incondicionada.",
+        "C) o crime pode ser praticado entre colegas de mesmo nível hierárquico, bastando que o constrangimento ocorra no ambiente de trabalho comum aos dois.",
+        "D) a pena é aumentada em até um terço se a vítima é menor de dezoito anos, por força de majorante prevista no próprio art. 216-A do Código Penal.",
+        "E) a pena cominada ao crime é de reclusão, de um a cinco anos, a mesma prevista no mesmo Código para o crime de importunação sexual."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Fundamento da Questão:**\nÉ a causa de aumento do art. 216-A, § 2º, incluída pela Lei nº 12.015/2009.\n\n~Gabarito~\n**D) a pena é aumentada em até um terço se a vítima é menor de dezoito anos, por força de majorante prevista no próprio art. 216-A do Código Penal.**\n**> CERTO <**\nÉ a causa de aumento do art. 216-A, § 2º, incluída pela Lei nº 12.015/2009.\n\n~Gentalha~\n**A) a consumação do crime exige a efetiva obtenção da vantagem ou do favorecimento sexual pretendido pelo agente, não bastando o constrangimento da vítima.**\n**> ERRADO <**\nO assédio sexual é crime formal: consuma-se com o constrangimento praticado com o intuito de obter a vantagem, ainda que esta não seja alcançada.\n\n**B) a ação penal é pública condicionada à representação da vítima, salvo se esta for menor de dezoito anos, hipótese em que se torna incondicionada.**\n**> ERRADO <**\nDesde a Lei nº 13.718/2018, o art. 225 do Código Penal determina ação penal pública INCONDICIONADA para todos os crimes contra a liberdade sexual, entre os quais o assédio sexual, independentemente da idade da vítima.\n\n**C) o crime pode ser praticado entre colegas de mesmo nível hierárquico, bastando que o constrangimento ocorra no ambiente de trabalho comum aos dois.**\n**> ERRADO <**\nO tipo exige que o agente se prevaleça da condição de superior hierárquico ou de ascendência inerente ao exercício de emprego, cargo ou função; entre colegas de mesmo nível não há esse elemento.\n\n**E) a pena cominada ao crime é de reclusão, de um a cinco anos, a mesma prevista no mesmo Código para o crime de importunação sexual.**\n**> ERRADO <**\nA pena do assédio sexual é de detenção, de um a dois anos (art. 216-A, caput); reclusão de um a cinco anos é a pena da importunação sexual (art. 215-A).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca tentar confundir os conceitos da lei, **ENTÃO** relembre a regra principal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_q73",
+      "subject": "Ética e Integridade",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 073",
+      "timer_override": 180,
+      "front": "**Questão 73:**\n\nEm uma unidade fazendária, um grupo de servidores passou a sabotar o trabalho de sua nova chefe, omitindo informações necessárias às decisões, desacreditando-a perante outras unidades e espalhando boatos sobre a sua vida pessoal, conduta mantida por vários meses. Em outra unidade, a chefia fixou metas compatíveis com a capacidade da equipe e passou a cobrá-las, de forma respeitosa, em reuniões periódicas. Sobre as duas situações, é correto afirmar que:",
+      "options": [
+        "A) a primeira não configura assédio moral, porque este pressupõe que o autor da conduta ocupe posição hierárquica superior à da vítima no órgão.",
+        "B) a segunda configura assédio moral organizacional, por envolver a fixação de metas de desempenho e a sua cobrança reiterada em reuniões da equipe.",
+        "C) a primeira depende, para configurar assédio moral, de laudo pericial que ateste o dano psíquico sofrido pela vítima em razão das condutas.",
+        "D) a primeira configura assédio sexual, nos termos do art. 216-A do Código Penal, por envolver a exposição da vida pessoal da vítima.",
+        "E) a primeira caracteriza assédio moral vertical ascendente, e a segunda corresponde ao exercício regular do poder de direção da chefia."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Fundamento da Questão:**\nAs condutas reiteradas dos subordinados contra a chefe configuram assédio moral vertical ascendente; a cobrança respeitosa de metas razoáveis é exercício regular do poder de direção.\n\n~Gabarito~\n**E) a primeira caracteriza assédio moral vertical ascendente, e a segunda corresponde ao exercício regular do poder de direção da chefia.**\n**> CERTO <**\nAs condutas reiteradas dos subordinados contra a chefe configuram assédio moral vertical ascendente; a cobrança respeitosa de metas razoáveis é exercício regular do poder de direção.\n\n~Gentalha~\n**A) a primeira não configura assédio moral, porque este pressupõe que o autor da conduta ocupe posição hierárquica superior à da vítima no órgão.**\n**> ERRADO <**\nO assédio moral não exige superioridade hierárquica do autor: pode ser descendente (da chefia contra o subordinado), horizontal (entre colegas) ou ascendente (de subordinados contra a chefia).\n\n**B) a segunda configura assédio moral organizacional, por envolver a fixação de metas de desempenho e a sua cobrança reiterada em reuniões da equipe.**\n**> ERRADO <**\nFixar metas compatíveis com a capacidade da equipe e cobrá-las com respeito é exercício regular do poder diretivo; o assédio organizacional supõe práticas abusivas e degradantes de gestão, como metas inatingíveis e humilhação pública.\n\n**C) a primeira depende, para configurar assédio moral, de laudo pericial que ateste o dano psíquico sofrido pela vítima em razão das condutas.**\n**> ERRADO <**\nA configuração do assédio moral decorre da conduta reiterada que degrada as condições de trabalho e atinge a dignidade da vítima; o laudo pode servir à prova do dano, mas não é elemento do conceito.\n\n**D) a primeira configura assédio sexual, nos termos do art. 216-A do Código Penal, por envolver a exposição da vida pessoal da vítima.**\n**> ERRADO <**\nO assédio sexual exige o intuito de obter vantagem ou favorecimento sexual e o prevalecimento de superioridade hierárquica ou ascendência; nenhum dos dois elementos está presente no caso.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca tentar confundir os conceitos da lei, **ENTÃO** relembre a regra principal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_q74",
+      "subject": "Ética e Integridade",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 074",
+      "timer_override": 180,
+      "front": "**Questão 74:**\n\nNo que se refere à ética no setor público, ao princípio da moralidade administrativa e à vedação ao nepotismo, é correto afirmar que:",
+      "options": [
+        "A) a vedação ao nepotismo decorre diretamente dos princípios constitucionais da moralidade e da impessoalidade, sendo desnecessária a edição de lei formal que a estabeleça em cada Poder ou ente federativo.",
+        "B) a Súmula Vinculante nº 13 alcança a nomeação de parente até o quarto grau da autoridade nomeante para cargo em comissão, compreendido o ajuste mediante designações recíprocas.",
+        "C) segundo a jurisprudência do STF, a nomeação de parente para cargo de natureza política, como o de Secretário de Estado, enquadra-se, por regra, na vedação da Súmula Vinculante nº 13.",
+        "D) o princípio da moralidade administrativa incide sobre os atos discricionários da Administração, ficando os atos vinculados submetidos ao controle estrito de legalidade.",
+        "E) a ofensa à moralidade administrativa, para fundamentar a invalidação de ato administrativo, depende da comprovação do dolo do agente que o praticou."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Fundamento da Questão:**\nNo julgamento da ADC nº 12 e do RE nº 579.951, o STF assentou que a vedação ao nepotismo decorre diretamente dos princípios do art. 37, caput, da Constituição, sem necessidade de lei formal.\n\n~Gabarito~\n**A) a vedação ao nepotismo decorre diretamente dos princípios constitucionais da moralidade e da impessoalidade, sendo desnecessária a edição de lei formal que a estabeleça em cada Poder ou ente federativo.**\n**> CERTO <**\nNo julgamento da ADC nº 12 e do RE nº 579.951, o STF assentou que a vedação ao nepotismo decorre diretamente dos princípios do art. 37, caput, da Constituição, sem necessidade de lei formal.\n\n~Gentalha~\n**B) a Súmula Vinculante nº 13 alcança a nomeação de parente até o quarto grau da autoridade nomeante para cargo em comissão, compreendido o ajuste mediante designações recíprocas.**\n**> ERRADO <**\nA Súmula Vinculante nº 13 alcança o parentesco até o TERCEIRO grau, inclusive.\n\n**C) segundo a jurisprudência do STF, a nomeação de parente para cargo de natureza política, como o de Secretário de Estado, enquadra-se, por regra, na vedação da Súmula Vinculante nº 13.**\n**> ERRADO <**\nO STF entende que, em regra, a súmula não se aplica às nomeações para cargos de natureza política, ressalvadas as hipóteses de fraude ou de manifesta falta de qualificação técnica ou de idoneidade moral do nomeado.\n\n**D) o princípio da moralidade administrativa incide sobre os atos discricionários da Administração, ficando os atos vinculados submetidos ao controle estrito de legalidade.**\n**> ERRADO <**\nA moralidade é princípio de observância obrigatória em toda a atuação administrativa, sem distinção entre atos discricionários e vinculados.\n\n**E) a ofensa à moralidade administrativa, para fundamentar a invalidação de ato administrativo, depende da comprovação do dolo do agente que o praticou.**\n**> ERRADO <**\nA moralidade administrativa é aferida objetivamente, pela compatibilidade do ato com os padrões de probidade e boa-fé; a sua violação dispensa a prova do dolo para a invalidação do ato.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca tentar confundir os conceitos da lei, **ENTÃO** relembre a regra principal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_boss_inter_02",
+      "subject": "Ética e Integridade",
+      "source": "BOSS INTERMEDIÁRIO II - Revisão Fiscal",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n- Prossiga com o segundo bloco. Avalie as tipificações penais:",
+      "stem": [
+        "vf(I. O assédio sexual exige superioridade hierárquica, enquanto o assédio moral pode ser horizontal.)",
+        "vf(II. Assédio moral configura-se unicamente quando um superior humilha um subordinado mediante a exigência de metas inatingíveis.)",
+        "vf(III. A Súmula Vinculante nº 13 veda a nomeação de parentes até o quarto grau para cargos em comissão no setor público.)"
+      ],
+      "options": [
+        "A) Todas são verdadeiras.",
+        "B) I e II são verdadeiras.",
+        "C) Apenas I é verdadeira.",
+        "D) Nenhuma é verdadeira.",
+        "E) Apenas II é verdadeira."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Assédios:**\nSexual EXIGE hierarquia. Moral aceita hierarquia (vertical) e colegas (horizontal).\n\n**2) Assédio Moral:**\nPode ser horizontal, ascendente ou descendente. E metas abusivas são apenas uma das formas.\n\n**3) Súmula 13:**\nO limite do nepotismo é o 3º grau, não o 4º.\n\n~Gabarito~\n**C) Apenas I é verdadeira.**\n\n**I. O assédio sexual exige superioridade hierárquica, enquanto o assédio moral pode ser horizontal.**\n**> CERTO <**\nPerfeitamente. Sem hierarquia, a conduta sexual recai em importunação ou outro tipo.\n\n~Gentalha~\n**II. Assédio moral configura-se unicamente quando um superior humilha um subordinado mediante a exigência de metas inatingíveis.**\n**> ERRADO <**\nA palavra \"unicamente\" anula o item. Assédio moral pode ser de subordinado para chefe (ascendente) ou colegas.\n\n**III. A Súmula Vinculante nº 13 veda a nomeação de parentes até o quarto grau para cargos em comissão no setor público.**\n**> ERRADO <**\nO nepotismo vai até o TERCEIRO grau civil.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for parente de 4º grau, **ENTÃO** c(Não) é nepotismo."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_etica_boss_final",
+      "subject": "Ética e Integridade",
+      "source": "BOSS FINAL - Ética",
+      "timer_override": 600,
+      "front": "**(BOSS FINAL) - Otávio:**\n- Acerto de contas de todo o bloco. Analise estas seis premissas vitais:",
+      "stem": [
+        "vf(I. O cálculo da multa administrativa para a PJ exclui os tributos incidentes sobre o faturamento bruto.)",
+        "vf(II. A penalidade de interdição parcial de atividades é de competência administrativa do órgão lesado.)",
+        "vf(III. Ação penal para assédio sexual é incondicionada se a vítima for menor de idade, mas condicionada à representação se for maior.)",
+        "vf(IV. A moralidade administrativa é elemento intrínseco aos atos discricionários e vinculados, podendo invalidá-los sem prova de dolo.)",
+        "vf(V. O crime de assédio sexual é crime formal e independe de resultado ou concessão efetiva da vantagem almejada.)",
+        "vf(VI. Nomear parente para cargo de Secretário Estadual (natureza política) não é, em regra, abarcado pela vedação da Súmula Vinculante 13.)"
+      ],
+      "options": [
+        "A) II, IV e V são verdadeiras.",
+        "B) Todas são verdadeiras.",
+        "C) II, III e IV são verdadeiras.",
+        "D) I, II e VI são verdadeiras.",
+        "E) I, IV, V e VI são verdadeiras."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Gabarito~\n**E) I, IV, V e VI são verdadeiras.**\n\n**I. O cálculo da multa administrativa para a PJ exclui os tributos incidentes sobre o faturamento bruto.**\n**> CERTO <**\nO cálculo exclui os tributos do faturamento.\n\n**IV. A moralidade administrativa é elemento intrínseco aos atos discricionários e vinculados, podendo invalidá-los sem prova de dolo.**\n**> CERTO <**\nAtinge todos os atos e é aferida objetivamente (sem exigir prova de dolo).\n\n**V. O crime de assédio sexual é crime formal e independe de resultado ou concessão efetiva da vantagem almejada.**\n**> CERTO <**\nConsuma-se com a coação, não requer que o ato sexual ocorra.\n\n**VI. Nomear parente para cargo de Secretário Estadual (natureza política) não é, em regra, abarcado pela vedação da Súmula Vinculante 13.**\n**> CERTO <**\nCargos políticos são exceção à regra geral do nepotismo, segundo o STF.\n\n~Gentalha~\n**II. A penalidade de interdição parcial de atividades é de competência administrativa do órgão lesado.**\n**> ERRADO <**\nInterdição e suspensão são sanções exclusivas da esfera JUDICIAL.\n\n**III. Ação penal para assédio sexual é incondicionada se a vítima for menor de idade, mas condicionada à representação se for maior.**\n**> ERRADO <**\nDesde 2018 (Lei 13.718), TODOS os crimes contra a liberdade sexual são de Ação Penal Pública INCONDICIONADA.\n\n!Break para Respirar!\n~Otávio~\n Trabalho impecável, Auditor. A SEFAZ não admite condutas desviantes, e você demonstrou ter o compasso moral afiado."
+    }
+  ]
+}
