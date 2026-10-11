@@ -1,0 +1,525 @@
+{
+  "messages": {
+    "aprovado": "Parabéns, você dominou os conceitos!"
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_boss_tutorial",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026",
+      "timer_override": 600,
+      "front": "**[Boss Tutorial] - Finanças Públicas**\n\nNeste bloco, você revisará temas cruciais da Lei 4.320/64 e LRF. Avalie as seguintes áreas de conhecimento essenciais:\n\n",
+      "stem": [
+        "vf(1. O cálculo de saldo para créditos suplementares deve deduzir os créditos já comprometidos e os extraordinários já abertos no período.)",
+        "vf(2. A lei de diretrizes orçamentárias (LDO) é responsável por fixar regras de limitação de empenho e riscos fiscais.)",
+        "vf(3. A retenção de imposto de renda pelo ente na fonte é receita orçamentária do próprio ente que reteve.)",
+        "vf(4. É proibida a contratação de despesas e empréstimos nos últimos 2 quadrimestres do mandato que não possam ser pagos no próprio exercício, sem que haja caixa.)",
+        "vf(5. A disponibilidade de caixa vinculada a fundos específicos não pode ser usada para cobrir déficit livre ou de outro fundo.)",
+        "vf(6. O balanço patrimonial apura o superávit financeiro pelo Ativo Financeiro menos o Passivo Financeiro.)",
+        "vf(7. A estimativa de impacto financeiro é exigência prévia ao empenho e licitação (e não ao pagamento).)"
+      ],
+      "options": [
+        "A) Estou pronto para a revisão. Pode soltar os chefes!"
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Cálculo para Créditos Suplementares:**\nComo aparece:\nQuestão apresenta vários valores de balanço anterior e excessos mensais de arrecadação.\nPegadinha:\nAchar que excesso de arrecadação é só somar os meses que deram positivo.\nDecisão:\nAcumule TODOS os meses (saldos positivos e frustrações). Desse net (saldo), deduza os créditos c(extraordinários) já abertos no período. E do superávit anterior, deduza créditos suplementares já c(comprometidos).\n\n**2) Regras da LDO vs LOA:**\nComo aparece:\nA banca pergunta onde ficam definidos os Anexos de Metas e Riscos Fiscais, e critérios para limitar empenho.\nPegadinha:\nDizer que a LOA (lei orçamentária) possui o Anexo de Riscos Fiscais.\nDecisão:\nA LDO traz os anexos (Metas Fiscais, Riscos Fiscais) e define como será feita a c(limitação de empenho) em caso de frustração de receitas. A LOA apenas aplica o orçamento em si.\n\n**3) Imposto de Renda Retido na Fonte (IRRF):**\nComo aparece:\nO Estado retém IR de seus servidores, a questão pergunta onde a grana vai.\nPegadinha:\nConsiderar a retenção como ingresso extraorçamentário ou repasse para a União.\nDecisão:\nPela Constituição, o IRRF de pagamentos feitos pelo Estado e suas autarquias constitui c(receita orçamentária própria) do Estado.\n\n**4) Fim de Mandato (Art. 42 da LRF):**\nComo aparece:\nGovernador no final de mandato firma contrato para o próximo ano.\nPegadinha:\nDeixar de deduzir os Restos a Pagar e retenções do saldo de caixa projetado.\nDecisão:\nO saldo de caixa deve ser suficiente para cobrir TODAS as parcelas do novo contrato vencíveis no ano seguinte. O saldo a ser considerado deve obrigatoriamente deduzir restos a pagar já assumidos e dinheiro de terceiros c(comprometido).\n\n**5) Vinculação de Fontes de Caixa:**\nComo aparece:\nO Estado tem saldo num fundo de saúde e déficit num fundo de convênios, e quer misturar o dinheiro.\nPegadinha:\nAchar que porque ambos têm \"fundo social\", podem ser compensados.\nDecisão:\nRecursos vinculados continuam carimbados mesmo após a virada do ano. Eles SÓ podem financiar despesas c(daquele mesmo objeto da vinculação).\n\n**6) Superávit Financeiro:**\nComo aparece:\nA banca mistura ativo real com financeiro.\nPegadinha:\nColocar ativos permanentes no cálculo.\nDecisão:\nSuperávit Financeiro = c(Ativo Financeiro - Passivo Financeiro). É dinheiro líquido e obrigações, e não patrimônio imobilizado.\n\n**7) Impacto Orçamentário e Financeiro:**\nComo aparece:\nExigência da LRF para criar despesa.\nPegadinha:\nAfirmar que a declaração é prévia para o \"pagamento\".\nDecisão:\nA exigência de adequação orçamentária é prévia ao c(empenho) e à c(licitação). O pagamento já é a consumação final.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é fim de mandato (últimos 8 meses), **ENTÃO** você não pode criar obrigação para o próximo mandato c(sem lastro de caixa límpido).\n**2) SE** é regra de avaliação, metas e riscos de longo prazo, **ENTÃO** está na competência primária da LDO.\n\n!Break para Respirar!\n~Otávio~\nFinanças Públicas e LRF são o motor que rege os números. Preste atenção cirúrgica em prazos, palavras-chave (\"empenho\", \"licitação\", \"LDO\") e conceitos de caixa cruzado."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q81",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 81",
+      "timer_override": 420,
+      "front": "**Questão 81:**\n\nEm setembro, o Poder Executivo de um Estado precisa abrir crédito suplementar autorizado na lei orçamentária. O balanço patrimonial do exercício anterior registrou ativo financeiro de R$ 840 milhões e passivo financeiro de R$ 610 milhões, sem créditos adicionais reabertos. Em abril, abriu-se crédito suplementar de R$ 90 milhões à conta do superávit financeiro e, em junho, crédito extraordinário de R$ 25 milhões. A arrecadação do exercício, em milhões de reais, foi a seguinte:\n\n{{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q81.png|100%|Tabela de Arrecadação}}\n\nA área técnica informou que a tendência do exercício confirma o comportamento observado até agosto. O decreto indicará também, como recurso, a anulação parcial de dotações no valor de R$ 35 milhões. Nos termos do art. 43 da Lei nº 4.320/1964, o valor máximo do crédito suplementar que poderá ser aberto é de:",
+      "stem": [],
+      "options": [
+        "A) R$ 190 milhões.",
+        "B) R$ 215 milhões.",
+        "C) R$ 155 milhões.",
+        "D) R$ 280 milhões.",
+        "E) R$ 220 milhões."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Cálculo do Limite de Crédito Suplementar:**\nO valor disponível para novos créditos suplementares é calculado com base nos recursos já livres e previstos.\n\n~Gabarito~\n**A) R$ 190 milhões.**\n\n- **Passo 1 — Superávit financeiro do exercício anterior.** O art. 43, § 2º, define o superávit financeiro como a diferença positiva entre o ativo financeiro e o passivo financeiro: 840 - 610 = 230 milhões. Não havia créditos adicionais reabertos a conjugar.\n\n- **Passo 2 — Parcela ainda não comprometida.** O § 1º admite esses recursos \"desde que não comprometidos\". Os R$ 90 milhões usados em abril já lastrearam outro crédito, de modo que restam 230 - 90 = 140 milhões.\n\n- **Passo 3 — Excesso de arrecadação.** O § 3º manda acumular, mês a mês, as diferenças entre a arrecadação realizada e a prevista:\nJaneiro: 422-410 = +12\nFev: 390-395 = -5\nMarço: 440-420 = +20\nAbril: 412-430 = -18\nMaio: 424-415 = +9\nJunho: 420-405 = +15\nJulho: 418-425 = -7\nAgosto: 444-430 = +14\nSomando tudo: 12 - 5 + 20 - 18 + 9 + 15 - 7 + 14 = +40\nComo a tendência do exercício confirma esse comportamento, o saldo positivo é de R$ 40 milhões.\n\n- **Passo 4 — Dedução dos créditos extraordinários.** O § 4º manda deduzir, do excesso de arrecadação, a importância dos créditos extraordinários abertos no exercício: 40 - 25 = 15 milhões.\n\n- **Passo 5 — Total.** Somando a anulação parcial de dotações, recurso previsto no § 1º, III:\n140 + 15 + 35 = 190 milhões.\n\n~Gentalha~\n**D) R$ 280 milhões.**\n**> ERRADO <**\nIgnora o comprometimento de abril.\n\n**E) R$ 220 milhões.**\n**> ERRADO <**\nSoma os meses de excesso (+70) e esquece que as frustrações de fevereiro, abril e julho também entram no acumulado.\n\n**B) R$ 215 milhões.**\n**> ERRADO <**\nDeixa de deduzir o crédito extraordinário.\n\n**C) R$ 155 milhões.**\n**> ERRADO <**\nOmite a anulação de dotações.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a arrecadação realizada superar a prevista (no cômputo global descontadas as frustrações), **ENTÃO** esse excesso pode servir para crédito adicional desde que você deduza os créditos c(extraordinários) já abertos no exercício.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca fornece a tabela com lucros e prejuízos (frustrações) para te tentar a somar apenas os excessos mensais positivos isoladamente. O cômputo do excesso de arrecadação deve ser sobre todo o c(saldo acumulado net).\n\n!Break para Respirar!\n~Otávio~\nUma questão com cálculo em cascata assim é pura atenção! Revise cada dedução pacientemente. Não perca essa questão de graça por pressa!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q82",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 82",
+      "timer_override": 180,
+      "front": "**Questão 82:**\n\nAcerca da execução orçamentária e do cumprimento das metas fiscais disciplinados na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [
+        "vf(Até trinta dias após a publicação dos orçamentos, nos termos em que dispuser a lei de diretrizes orçamentárias, o Poder Executivo estabelecerá a programação financeira e o cronograma de execução mensal de desembolso.)",
+        "vf(Verificado, ao final de um bimestre, que a realização da receita poderá ser insuficiente para o cumprimento das metas de resultado primário ou nominal, os Poderes e o Ministério Público promoverão, por ato próprio e nos montantes necessários, nos trinta dias subsequentes, limitação de empenho e movimentação financeira, segundo os critérios fixados pela lei orçamentária anual.)",
+        "vf(Restabelecida a receita prevista, ainda que parcialmente, a recomposição das dotações cujos empenhos foram limitados dar-se-á de forma proporcional às reduções efetivadas.)",
+        "vf(Até o final dos meses de maio, setembro e fevereiro, o Secretário de Estado da Fazenda demonstrará e avaliará, em audiência pública na comissão competente da Assembleia Legislativa, o cumprimento das metas fiscais de cada quadrimestre e a trajetória da dívida.)"
+      ],
+      "options": [
+        "A) V, V, V, V.",
+        "B) F, V, V, V.",
+        "C) V, V, F, V.",
+        "D) V, F, V, F.",
+        "E) V, F, V, V."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Programação Financeira e Limitação de Empenho:**\nA Lei de Responsabilidade Fiscal traz prazos rígidos e peças orçamentárias delimitadas. O Executivo deve agir em 30 dias após a aprovação para programar o fluxo de caixa, mas quem define como \"segurar os gastos\" (limitação de empenho) é a Lei de Diretrizes Orçamentárias.\n\n~Gabarito~\n**E) V, F, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nReproduz o art. 8º, caput: a programação financeira e o cronograma mensal de desembolso são estabelecidos em até trinta dias após a publicação dos orçamentos, nos termos da lei de diretrizes orçamentárias.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nO art. 9º manda observar os critérios fixados pela lei de c(DIRETRIZES) orçamentárias, e não pela lei orçamentária anual; é a LDO que dispõe sobre os critérios e a forma de limitação de empenho (art. 4º, I, \"b\").\n\n**3ª afirmação (V).**\n**> CERTO <**\nÉ o § 1º do art. 9º: havendo restabelecimento da receita, ainda que parcial, a recomposição das dotações limitadas é c(proporcional) às reduções efetivadas.\n\n**4ª afirmação (V).**\n**> CERTO <**\nNa redação dada pela Lei Complementar nº 200/2023, o § 4º do art. 9º atribui ao Ministro ou ao Secretário de Estado da Fazenda a demonstração e a avaliação das metas de cada quadrimestre e da trajetória da dívida, em audiência pública na comissão do Legislativo, até o final de maio, setembro e fevereiro.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a pauta é ditar regras sistêmicas de corte e limitação de empenho, **ENTÃO** a competência é originária da c(LDO), e não da LOA.\n\n!Interpretando a Banca!\n~Gatilho~\nTrocar LDO por LOA (e vice-versa) nas atribuições de regramento. A LDO dá a \"diretriz\" (regras gerais, limites, anexos) e a LOA apenas executa as planilhas."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q83",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 83",
+      "timer_override": 180,
+      "front": "**Questão 83:**\n\nDurante o exercício, a Secretaria da Fazenda de um Estado registrou diversos ingressos de recursos no caixa do Tesouro. À luz da Lei nº 4.320/1964 e da Constituição Federal, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) o produto de operação de crédito de longo prazo, autorizada em lei e ingressada no exercício sem previsão na lei orçamentária, deve ser registrado como ingresso extraorçamentário até que crédito adicional o incorpore ao orçamento.",
+        "B) os recursos de operação de crédito por antecipação de receita orçamentária integram a receita de capital do exercício em que a operação for contratada, por se tratar de operação de crédito autorizada em lei.",
+        "C) as cauções recebidas de fornecedores em garantia da execução de contratos constituem receita patrimonial do exercício em que forem recolhidas, por decorrerem da exploração de bens e direitos do ente.",
+        "D) as consignações descontadas da folha de pagamento dos servidores e devidas a terceiros integram a receita corrente do Estado no momento do desconto, por representarem ingresso de recursos no caixa do Tesouro.",
+        "E) o imposto sobre a renda retido na fonte sobre os rendimentos pagos pelo Estado e por suas autarquias constitui receita orçamentária estadual, pois o produto dessa arrecadação pertence ao Estado por força da Constituição."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Receitas e Ingressos (Lei 4.320/64):**\nNem tudo que entra no caixa do Estado compõe a receita orçamentária efetiva, alguns valores são apenas um \"dinheiro de passagem\", como valores transitórios de terceiros.\n\n~Gabarito~\n**E) o imposto sobre a renda retido na fonte sobre os rendimentos pagos pelo Estado e por suas autarquias constitui receita orçamentária estadual, pois o produto dessa arrecadação pertence ao Estado por força da Constituição.**\n\nO art. 157, I, da Constituição atribui aos Estados o produto do imposto de renda incidente na fonte sobre rendimentos pagos por eles, suas autarquias e fundações: a retenção é arrecadação própria do Estado e se registra como receita orçamentária.\n\n~Gentalha~\n**A) operação de crédito sem previsão registrada como extraorçamentária.**\n**> ERRADO <**\nO art. 57 da Lei nº 4.320/1964 classifica como receita orçamentária todas as receitas arrecadadas, inclusive as provenientes de operações de crédito, \"ainda que não previstas no Orçamento\". A falta de previsão não converte o ingresso em extraorçamentário.\n\n**B) ARO como receita de capital.**\n**> ERRADO <**\nO parágrafo único do art. 3º retira da receita orçamentária as operações de crédito por antecipação da receita (ARO): são ingressos extraorçamentários, compensados por obrigação de curto prazo no passivo financeiro.\n\n**C) cauções como receita patrimonial.**\n**> ERRADO <**\nA caução é recurso de c(terceiro) que será restituído: entrada compensatória no ativo e no passivo financeiros, registrada como ingresso extraorçamentário, e não como receita patrimonial.\n\n**D) consignações de terceiros como receita corrente.**\n**> ERRADO <**\nAs consignações são valores de terceiros em trânsito pelo caixa, com obrigação correspondente de repasse ao credor; constituem ingresso c(extraorçamentário), e não receita corrente.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o recurso apenas está de \"passagem\" na conta do Estado (cauções, consignações, ARO), **ENTÃO** trata-se de mero ingresso c(extraorçamentário).\n\n!Interpretando a Banca!\n~Gatilho~\nCuidado com as classificações falsas. ARO (Antecipação) e Operações de longo prazo têm naturezas de registro diametralmente opostas (extraorçamentária vs orçamentária)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q84",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 84",
+      "timer_override": 180,
+      "front": "**Questão 84:**\n\nAcerca do conteúdo da lei de diretrizes orçamentárias e da lei orçamentária anual na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), é INCORRETO afirmar que:",
+      "stem": [],
+      "options": [
+        "A) a lei de diretrizes orçamentárias disporá, entre outros temas, sobre o equilíbrio entre receitas e despesas, sobre os critérios e a forma de limitação de empenho e sobre normas relativas ao controle de custos e à avaliação dos resultados dos programas.",
+        "B) a lei de diretrizes orçamentárias conterá Anexo de Riscos Fiscais, em que serão avaliados os passivos contingentes e outros riscos capazes de afetar as contas públicas, com as providências a serem tomadas caso se concretizem.",
+        "C) o Anexo de Metas Fiscais estabelecerá metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultados nominal e primário e montante da dívida pública, para o exercício a que se referirem e para os dois seguintes.",
+        "D) o projeto de lei orçamentária anual conterá reserva de contingência, cuja forma de utilização e cujo montante, definido com base na receita corrente líquida, serão estabelecidos na própria lei orçamentária anual.",
+        "E) a atualização monetária do principal da dívida mobiliária refinanciada não poderá superar a variação do índice de preços previsto na lei de diretrizes orçamentárias ou em legislação específica."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Reserva de Contingência (Quem define o que):**\nEmbora o montante da reserva de fato fique alojado dentro do cofre físico final (a LOA), as rédeas operacionais sobre as regras que a calculam e balizam ficam acima dela, ditadas na LDO.\n\n~Gabarito~\n**D) o projeto de lei orçamentária anual conterá reserva de contingência, cuja forma de utilização e cujo montante, definido com base na receita corrente líquida, serão estabelecidos na própria lei orçamentária anual.**\n**> ERRADO (É a Incorreta) <**\n\nPelo art. 5º, III, a forma de utilização e o montante da reserva de contingência são estabelecidos na lei de c(DIRETRIZES orçamentárias), e não na lei orçamentária; a LOA apenas \"guarda\" o valor.\n\n~Gentalha~\n**A) LDO sobre equilíbrio e limitação.**\n**> CERTO <**\nO art. 4º, I, inclui esses temas no conteúdo da lei de diretrizes orçamentárias.\n\n**B) LDO contém Anexo de Riscos Fiscais.**\n**> CERTO <**\nÉ a redação do § 3º do art. 4º, que institui o Anexo de Riscos Fiscais na lei de diretrizes orçamentárias.\n\n**C) Anexo de Metas Fiscais.**\n**> CERTO <**\nO § 1º do art. 4º fixa o horizonte do Anexo: o exercício de referência e os c(dois seguintes), em valores correntes e constantes.\n\n**E) Atualização monetária limitada pela LDO.**\n**> CERTO <**\nÉ a redação do § 3º do art. 5º: a variação do índice de preços previsto na lei de diretrizes orçamentárias é o teto.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que a LOA delimita as regras, critérios e formas de utilização da Reserva de Contingência, **ENTÃO** a assertiva é falsa, pois quem delimita essas condições operacionais matrizes é a LDO.\n\n!Interpretando a Banca!\n~Gatilho~\nOs papéis orçamentários: a LDO é a mente que dita a lei e a regra, enquanto a LOA é o braço físico que apenas abriga as caixas daquele dinheiro."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_boss_int_1",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Boss Intermediário",
+      "timer_override": 300,
+      "front": "**[Chefe Intermediário] - Revisão Rápida 01**\n\nCom base nos conceitos de orçamentos e leis orçamentárias apresentados, julgue os itens a seguir como Verdadeiro (V) ou Falso (F).\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [
+        "vf(O Anexo de Metas Fiscais integra a LDO e prevê projeções para o ano vigente e os dois subsequentes.)",
+        "vf(O cálculo de créditos extraordinários que podem ser reabertos independe do acúmulo de frustrações de arrecadação passadas, pois afeta diretamente a LOA.)",
+        "vf(Receitas transitórias da folha de pagamento de servidores não compõem a receita orçamentária do estado.)",
+        "vf(A limitação de empenho ocorre sob as regras balizadoras descritas na LDO.)"
+      ],
+      "options": [
+        "D) V, V, F, F.",
+        "B) V, F, V, V.",
+        "C) F, F, V, V.",
+        "E) F, V, F, V.",
+        "A) V, V, V, F."
+      ],
+      "answer": 1,
+      "back": "Gabarito: Letra correspondente à sequência V, F, V, V.\n\n!Otávio!\n~Teoria~\n**Revisão Intermediária:**\nConsolidação rápida dos papéis da LDO x LOA e da natureza dos Ingressos.\n\n~Gabarito~\n**B) V, F, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nO Anexo de Metas Fiscais dita as diretrizes em valores correntes e constantes para 3 exercícios no total.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nOs excessos e frustrações acumulados formam um net que afeta o cálculo do limite remanescente de caixa global, e os extraordinários já desferidos diminuem o bolo total a ser liberado como suplementar.\n\n**3ª afirmação (V).**\n**> CERTO <**\nElas atuam como consigações (retenção transicional de terceiros), sendo classificadas no sistema como entradas/ingressos Extraorçamentários puros.\n\n**4ª afirmação (V).**\n**> CERTO <**\nA limitação segue estritamente os ditames definidos na Lei de Diretrizes Orçamentárias.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é Anexo Fiscal (Riscos ou Metas), **ENTÃO** a competência recai sobre os ombros da LDO.\n\n!Break para Respirar!\n~Otávio~\nAs bancas adoram reescrever o mesmo conceito. Guarde a natureza das caixas!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q85",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 85",
+      "timer_override": 180,
+      "front": "**Questão 85:**\n\nJulgue os itens a seguir, relativos à geração de despesa pública na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal).\n\nEstão corretos os itens:",
+      "stem": [
+        "vf(I. A criação, a expansão ou o aperfeiçoamento de ação governamental que acarrete aumento da despesa será acompanhado de estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois subsequentes, com as premissas e a metodologia de cálculo utilizadas.)",
+        "vf(II. Considera-se adequada com a lei orçamentária anual a despesa objeto de dotação específica e suficiente, ou que esteja abrangida por crédito genérico, de forma que, somadas todas as despesas da mesma espécie, realizadas e a realizar, previstas no programa de trabalho, não sejam ultrapassados os limites estabelecidos para o exercício.)",
+        "vf(III. As exigências de estimativa de impacto e de declaração de adequação constituem condição prévia para a desapropriação de imóveis urbanos e para o pagamento de serviços, fornecimento de bens ou execução de obras.)",
+        "vf(IV. A declaração de que o aumento da despesa tem adequação orçamentária e financeira com a lei orçamentária anual e compatibilidade com o plano plurianual e com a lei de diretrizes orçamentárias será firmada pelo titular do órgão central de planejamento do ente.)"
+      ],
+      "options": [
+        "A) I, II e III.",
+        "B) I, II, III e IV.",
+        "C) I e II.",
+        "D) I e III.",
+        "E) II."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Geração de Despesa na LRF:**\nA formalidade recai firmemente sobre o ato discricionário que vincula o Estado à despesa (o empenho/licitação) e quem assume essa bronca perante o tribunal de contas.\n\n~Gabarito~\n**C) I e II.**\n\n**I. (V)**\n**> CERTO <**\nArt. 16, I e § 2º: a estimativa abrange o exercício de entrada em vigor e os dois subsequentes e vem acompanhada das premissas e da metodologia de cálculo.\n\n**II. (V)**\n**> CERTO <**\nÉ a exata definição cravada no art. 16, § 1º, I, de despesa adequada com a lei orçamentária anual.\n\n~Gentalha~\n**III. (F)**\n**> ERRADO <**\nO § 4º do art. 16 faz dessas exigências condição prévia para o c(EMPENHO e a LICITAÇÃO) de serviços, fornecimento de bens ou execução de obras (além da desapropriação), e NÃO para o pagamento, que é o último estágio da despesa.\n\n**IV. (F)**\n**> ERRADO <**\nA declaração de adequação orçamentária e financeira é assinada obrigatoriamente pelo c(ORDENADOR DA DESPESA) (art. 16, II), e não pelo titular do órgão de planejamento abstrato.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca disser que a estimativa é prévia para o \"pagamento\", **ENTÃO** a questão é falsa, a burocracia é validada no front-end do projeto (na porta de entrada da licitação/empenho).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca mistura papéis: quem dita o orçamento pode ser o planejamento, mas quem firma o papel de responsabilidade e vai preso por desastre orçamentário no dia-a-dia da pasta é o Ordenador da Despesa."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q86",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 86",
+      "timer_override": 180,
+      "front": "**Questão 86:**\n\nAo encerrar o exercício de 2025, um Estado apurou, no balanço patrimonial, superávit financeiro de R$ 300 milhões, assim distribuído por fonte ou destinação de recursos: superávit de R$ 210 milhões na fonte de recursos não vinculados, superávit de R$ 130 milhões na fonte vinculada às ações e serviços públicos de saúde e déficit de R$ 40 milhões na fonte vinculada a convênios celebrados com a União. Em janeiro de 2026, a Secretaria da Fazenda estuda abrir créditos adicionais com base nesse resultado. À luz da Lei nº 4.320/1964 e da Lei Complementar nº 101/2000, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) o superávit de R$ 300 milhões pode lastrear créditos adicionais destinados a despesas de livre programação, porque o resultado do balanço patrimonial é apurado de forma global e a segregação por fonte serve ao planejamento financeiro, não à aplicação desse resultado.",
+        "B) o saldo de R$ 130 milhões vinculado à saúde, por ter ingressado em exercício já encerrado, converte-se em recurso não vinculado e pode financiar crédito suplementar destinado a despesas de custeio administrativo da Secretaria da Fazenda.",
+        "C) o saldo de R$ 130 milhões vinculado à saúde pode lastrear créditos adicionais em 2026 para despesas compatíveis com o objeto da vinculação, uma vez que os recursos vinculados atendem a esse objeto ainda que em exercício diverso daquele do ingresso.",
+        "D) o déficit de R$ 40 milhões na fonte de convênios deve ser coberto pelo superávit da fonte vinculada à saúde, porque ambas as fontes reúnem recursos vinculados a finalidades de natureza social e podem ser compensadas entre si.",
+        "E) a disponibilidade de caixa deve ser escriturada de forma consolidada, sem individualização por órgão, fundo ou despesa obrigatória, cabendo a identificação dos recursos vinculados aos controles gerenciais de cada unidade gestora."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Vinculação de Fontes e Superávit:**\nUma vez carimbado, o dinheiro obedece ao carimbo para a eternidade. Superávit carimbado da saúde continua carimbado na saúde.\n\n~Gabarito~\n**C) o saldo de R$ 130 milhões vinculado à saúde pode lastrear créditos adicionais em 2026 para despesas compatíveis com o objeto da vinculação, uma vez que os recursos vinculados atendem a esse objeto ainda que em exercício diverso daquele do ingresso.**\n\nO superávit financeiro apurado no balanço do exercício anterior é recurso hábil à abertura de créditos adicionais, e a parcela vinculada à saúde deve financiar despesas c(desse mesmo objeto) rigorosamente (art. 8º, parágrafo único, da LRF).\n\n~Gentalha~\n**A) Superávit global para livre programação.**\n**> ERRADO <**\nA segregação por fonte preserva a vinculação legal. O resultado global mascarado não pode ser aplicado como se fosse de livre demanda.\n\n**B) Mudança de ano limpa vinculação.**\n**> ERRADO <**\nO encerramento do exercício não desfaz a vinculação: o art. 8º a mantém carimbada \"ainda que em exercício diverso daquele em que ocorrer o ingresso\".\n\n**D) Fonte cobre déficit da outra (natureza social).**\n**> ERRADO <**\nRecurso vinculado a uma finalidade não cobre déficit de outra finalidade distinta, mesmo que ambas pareçam ter inclinação \"social\". É proibida a compensação cruzada direta entre caixas rígidos.\n\n**E) Escriturada de forma apenas global não individualizada.**\n**> ERRADO <**\nO art. 50, I, da LRF determina o contrário: a disponibilidade de caixa consta de registro próprio individualizado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a grana entrou carimbada (fundo de saúde), **ENTÃO** a virada do calendário de fim de ano jamais apagará esse carimbo de vinculação.\n\n!Interpretando a Banca!\n~Gatilho~\nBancas criam teses como \"a mudança do ano zera o carimbo\" ou \"por serem ambas sociais podem se emprestar\" apenas para apelar para o seu bom senso moral e te derrubar na dura letra da lei fiscal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q87",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 87",
+      "timer_override": 300,
+      "front": "**Questão 87:**\n\nO mandato do Governador de um Estado termina em 31 de dezembro de 2026. Em 10 de setembro desse ano, o Poder Executivo pretende contratar serviços de sustentação de sistemas por R$ 24 milhões, pagos em doze parcelas mensais iguais, de setembro de 2026 a agosto de 2027. Na fonte de recursos que custeará o contrato, a projeção para 31 de dezembro de 2026 é a seguinte: saldo de caixa de R$ 64 milhões, já deduzidos todos os pagamentos previstos para 2026, inclusive as parcelas do novo contrato vencíveis nesse ano; restos a pagar de outras despesas, a serem pagos em 2027, de R$ 38 milhões; e valores de terceiros sob guarda do Tesouro, como cauções e consignações a restituir, de R$ 13 milhões. Nos termos do art. 42 da Lei Complementar nº 101/2000, para que a contratação seja regular, o valor das parcelas do contrato a serem pagas em 2027 não pode ultrapassar:",
+      "stem": [],
+      "options": [
+        "A) R$ 26 milhões.",
+        "B) R$ 64 milhões.",
+        "C) R$ 5 milhões.",
+        "D) R$ 51 milhões.",
+        "E) R$ 13 milhões."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Art. 42 da LRF (Fim de Mandato):**\nVocê não pode empurrar para o próximo gestor as contas que você não deixou dinheiro carimbado real para pagar. O caixa considerado tem que ser totalmente líquido, subtraído das obrigações pretéritas.\n\n~Gabarito~\n**E) R$ 13 milhões.**\n\n- **Passo 1 — Incidência da vedação.** Os dois últimos quadrimestres (maio a dezembro). O contrato de setembro joga parcelas para o ano seguinte. \n\n- **Passo 2 — Disponibilidade de Caixa c(Líquida).** Os R$ 64 milhões projetados no cofre físico NÃO estão integralmente livres. Desse valor bruto projetado, devem ser abatidos obrigatoriamente (pelo parágrafo único do art. 42) os restos a pagar já prometidos e os valores intocáveis de terceiros:\n64 - 38 (Restos) - 13 (Valores de Terceiros) = c(13 milhões).\n\n- **Passo 3 — Cobertura Exigida.** O teto máximo que pode transbordar para o mandato de 2027, garantido pelo caixa limpo sobrante, é exatamente de R$ 13 milhões.\n\n*(Nota: Como o contrato propõe 8 parcelas de 2 milhões totalizando 16 milhões remanescentes, a assinatura proposta seria ilegal na prática).*\n\n~Gentalha~\n**A) R$ 26 milhões.**\n**> ERRADO <**\nTrata como livres os valores de terceiros (as cauções).\n\n**B) R$ 64 milhões.**\n**> ERRADO <**\nIgnora o parágrafo único e trata o caixa sujo total como cobertura disponível livre.\n\n**D) R$ 51 milhões.**\n**> ERRADO <**\nDeixa de deduzir os pesados restos a pagar.\n\n**C) R$ 5 milhões.**\n**> ERRADO <**\nDesconta pela segunda vez as 4 parcelas do novo contrato vencíveis em 2026, ignorando que o enunciado cravou que essas já estavam deduzidas do saldo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar a barreira dos 8 meses finais de mandato, **ENTÃO** toda despesa empurrada pro futuro exigirá colchão financeiro puro (caixa total - dívidas de terceiros - restos a pagar).\n\n!Interpretando a Banca!\n~Gatilho~\nEles listam vários saldos deduzidos e não deduzidos para causar fadiga no seu cálculo. Cuidado absoluto com as duplas deduções, leia o enunciado de forma contábil seca."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_q88",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 88",
+      "timer_override": 180,
+      "front": "**Questão 88:**\n\nAcerca da previsão e da arrecadação da receita pública na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [
+        "vf(A reestimativa de receita por parte do Poder Legislativo será admitida quando comprovado erro ou omissão de ordem técnica ou legal, ou quando sobrevier alteração das projeções de crescimento econômico adotadas pelo Poder Executivo.)",
+        "vf(O montante previsto para as receitas de operações de crédito não poderá ser superior ao das despesas correntes constantes do projeto de lei orçamentária.)",
+        "vf(No prazo de trinta dias após a publicação dos orçamentos, as receitas previstas serão desdobradas pelo Poder Executivo em metas bimestrais de arrecadação, com a especificação, em separado, quando cabível, da quantidade e dos valores de ações ajuizadas para cobrança da dívida ativa.)",
+        "vf(O Poder Executivo colocará à disposição dos demais Poderes e do Ministério Público, no mínimo sessenta dias antes do prazo final para encaminhamento de suas propostas orçamentárias, os estudos e as estimativas das receitas para o exercício subsequente, inclusive da corrente líquida.)"
+      ],
+      "options": [
+        "A) V, F, V, F.",
+        "B) F, F, V, F.",
+        "C) V, V, V, F.",
+        "D) F, F, F, F.",
+        "E) V, F, V, V."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Regra de Ouro Fiscal:**\nVocê não pode contrair empréstimo abusivo para bancar despesa de cafezinho (corrente).\n\n~Gabarito~\n**B) F, F, V, F.**\n\n**1ª afirmação (F).**\n**> ERRADO <**\nO art. 12, § 1º, admite a reestimativa pelo Legislativo APENAS quando comprovado erro ou omissão de ordem técnica ou legal; a revisão abstrata das projeções econômicas do Executivo c(não) figura entre as hipóteses.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nO limite do art. 12, § 2º, (a Regra de Ouro) toma por referência o teto rígido das despesas de c(CAPITAL) do projeto de lei orçamentária, e não as correntes. \n\n**3ª afirmação (V).**\n**> CERTO <**\nO art. 13 manda desdobrar a receita em metas c(bimestrais) no prazo de 30 dias da publicação, especificando, em separado, as ações ajuizadas para dívida ativa.\n\n**4ª afirmação (F).**\n**> ERRADO <**\nO prazo do art. 12, § 3º, para apresentar os estudos de receita aos outros poderes é de no mínimo c(TRINTA) dias antes (e não sessenta) do prazo final de encaminhamento das suas propostas.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** tratar da famigerada \"Regra de Ouro\" orçamentária, **ENTÃO** as receitas de empréstimos (crédito) jamais poderão furar o teto das despesas de c(Capital) (investimentos estruturais).\n\n!Interpretando a Banca!\n~Gatilho~\nOs prazos numéricos (30, 60 dias) e tipologia das despesas (corrente vs capital) formam o eixo das artimanhas desse tipo de questão de fixação textual."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_boss_int_2",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Boss Intermediário 02",
+      "timer_override": 300,
+      "front": "**[Chefe Intermediário] - Revisão Rápida 02**\n\nAnalise as proposições sobre as restrições finais e vinculações da LRF abordadas nas questões, marcando Verdadeiro (V) ou Falso (F).\n\nA sequência correta é:",
+      "stem": [
+        "vf(O dinheiro recebido carimbado com vinculação de saúde mantém essa vinculação no exercício seguinte e não pode cobrir o rombo de outras contas do governo.)",
+        "vf(Nos dois últimos quadrimestres de mandato, o governante é liberado da obrigação de provar caixa líquido futuro caso as parcelas prometidas sejam para serviços essenciais contínuos.)",
+        "vf(Apenas erros técnicos e omissões flagrantes justificam que a Assembleia reestime brutalmente a receita enviada pelo Executivo.)",
+        "vf(Operações de crédito não podem ser usadas de forma genérica para estourar o teto das despesas de Capital.)"
+      ],
+      "options": [
+        "B) F, V, F, V.",
+        "A) V, V, V, V.",
+        "C) V, F, V, V.",
+        "E) F, F, V, V.",
+        "D) V, V, F, F."
+      ],
+      "answer": 2,
+      "back": "Gabarito: Letra correspondente à sequência V, F, V, V.\n\n!Otávio!\n~Teoria~\n**Retenção e Amarração Final:**\nEntender as blindagens fiscais do Estado impede você de errar na prova da Sefaz.\n\n~Gabarito~\n**C) V, F, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nO carimbo é eterno, a fronteira do ano contábil não apaga essa tinta de vinculação imposta pela LRF (art. 8º).\n\n**2ª afirmação (F).**\n**> ERRADO <**\nNão existe alforria para a regra cruel do Art. 42 da LRF; se não há caixa livre após abater as dívidas pretéritas e restos a pagar, a transação para o gestor futuro é vetada.\n\n**3ª afirmação (V).**\n**> CERTO <**\nAlterações de otimismo no mercado ou mero \"crescimento econômico projetado\" não autorizam a Assembleia a inflar grosseiramente as expectativas orçamentárias (art. 12).\n\n**4ª afirmação (V).**\n**> CERTO <**\nA Regra de Ouro blinda o Estado de pedir dinheiro emprestado no mercado (que gera juros mortais) além da sua capacidade real de formar patrimônio investindo na infraestrutura de base (Despesas de Capital).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é regra final de mandato LRF, **ENTÃO** você subtrai tudo que já está comprometido para ter certeza se sobrou dinheiro real no horizonte.\n\n!Break para Respirar!\n~Otávio~\nEssas amarras duras protegem o caixa do tesouro na vida real, visualize as regras como ferramentas do seu dia a dia."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_boss_final_p1",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026",
+      "timer_override": 400,
+      "front": "**[Chefe Final] - Finanças Públicas (Parte 1)**\n\nChegou a hora de validar sua aprovação no bloco. Analise as declarações consolidadas:\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [
+        "vf(Ao apurar a margem de créditos suplementares via excesso de arrecadação, todas as frustrações devem ser subtraídas do cômputo anual global.)",
+        "vf(A Lei de Diretrizes Orçamentárias rege as regras de contenção e limitação e sedia os anexos que guiam metas passadas e futuras.)",
+        "vf(As antecipações de receita orçamentária (ARO) trafegam como ingressos transientes, e não engrossam artificialmente a Receita Corrente em si.)",
+        "vf(Os montantes empenhados limitados pelo Executivo retornam, se a receita milagrosamente se restabelecer, em frações sempre proporcionais às perdas impostas antes.)"
+      ],
+      "options": [
+        "D) F, V, F, V.",
+        "A) V, V, V, V.",
+        "E) V, V, F, F.",
+        "C) V, F, V, V.",
+        "B) F, F, V, V."
+      ],
+      "answer": 1,
+      "back": "Gabarito: Letra correspondente à sequência V, V, V, V.\n\n!Otávio!\n~Teoria~\n**Checagem de Sobrevivência 1:**\nO raciocínio linear protege você das falácias.\n\n~Gabarito~\n**A) V, V, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nO excesso de arrecadação só existe no bolo acumulado líquido; lucros pontuais mensais não encobrem buracos (frustrações) dos meses sombrios.\n\n**2ª afirmação (V).**\n**> CERTO <**\nÉ a LDO que determina como agir na crise de repasses (limitação de empenho) e apresenta as métricas nos anexos Fiscais.\n\n**3ª afirmação (V).**\n**> CERTO <**\nO ARO e os dinheiros de terceiros formam meras operações intra-caixa no fluxo extraorçamentário; não podem inflar os balancetes das receitas reais do Estado (Senão o indicador da RCL explodiria).\n\n**4ª afirmação (V).**\n**> CERTO <**\nHavendo alívio no estresse hídrico dos repasses, a recomposição do empenho congelado é equitativa e proporcional à navalha aplicada.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é Anexo Fiscal (Riscos ou Metas), **ENTÃO** a competência recai sobre a c(LDO).\n\n!Break para Respirar!\n~Otávio~\nOs limites da lei travam o superdimensionamento do orçamento e protegem o ente público no longo prazo."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_fin_boss_final_p2",
+      "subject": "Finanças Públicas",
+      "source": "Simulado 01 SEFAZ/SC 2026",
+      "timer_override": 400,
+      "front": "**[Chefe Final] - Finanças Públicas (Parte 2)**\n\nEncerramento. Julgue os últimos preceitos:\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [
+        "vf(Estimativas de impacto orçamentário não são despachadas na assinatura de contratos no final do ciclo, mas operam ex-ante antes da licitação desfraldar ou o empenho travar.)",
+        "vf(Reservas carimbadas em caixas de saúde não podem tampar os furos no chão contábil dos recursos de convênios gerais por absoluta impossibilidade hermética entre fundos.)",
+        "vf(O administrador no outono do seu mandato deduz até depósitos consignados e cauções para extrair a prova robusta de que seu caixa transbordará com saúde perante obrigações jogadas ao seu herdeiro.)",
+        "vf(O IRRF de remunerações providas por autarquias nativas do Estado, compõem legitimamente as engrenagens de receita orçamentária própria desse ente subnacional perante a Constituição Federal.)"
+      ],
+      "options": [
+        "A) F, F, V, V.",
+        "C) F, F, F, F.",
+        "E) V, F, V, V.",
+        "D) V, V, V, V.",
+        "B) V, V, F, V."
+      ],
+      "answer": 3,
+      "back": "Gabarito: Letra correspondente à sequência V, V, V, V.\n\n!Otávio!\n~Teoria~\n**Checagem de Sobrevivência 2:**\nEsses pontos garantem a sua nota fiscal e validam o balanço contábil para o TCE.\n\n~Gabarito~\n**D) V, V, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nO ordenador firma e comprova o limite previamente (empurrando a trava no Empenho e Licitação).\n\n**2ª afirmação (V).**\n**> CERTO <**\nFundo A jamais compensará Fundo B. Vincular significa aprisionar para o propósito legal.\n\n**3ª afirmação (V).**\n**> CERTO <**\nO caput e os parágrafos protetores do Artigo 42 forçam o desconto amargo de todas obrigações financeiras pretéritas garantidas (como o dinheiro da caução de terceiros) para só depois aferir se sobra saldo líquido aos projetos de final de gestão em dezembro.\n\n**4ª afirmação (V).**\n**> CERTO <**\nNão é receita da União ou transicional. Pela força impositiva do próprio núcleo constitucional brasileiro (CF, 157), todo IRRF sacado na veia de subsídios das engrenagens do aparelho estatal pertence, ab initio, ao cofre Orçamentário daquele próprio governo do Estado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a grana entrou carimbada num fundo, **ENTÃO** a virada do calendário jamais apagará esse carimbo de vinculação.\n\n!Break para Respirar!\n~Otávio~\nFechou o núcleo pesado fiscal do Estado! Mantenha a vigilância."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_boss_tutorial",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026",
+      "timer_override": 600,
+      "front": "**[Boss Tutorial] - Governança, Gestão de TI e Projetos**\n\nNeste bloco revisaremos COBIT, Gestão de Projetos (Preditivo/Ágil), Contratos TIC (Lei 14.133) e Kanban. Analise as bases cruciais:\n\n",
+      "stem": [
+        "vf(1. A cascata de metas do COBIT parte das necessidades das partes interessadas para as metas corporativas, destas para alinhamento e então para os objetivos.)",
+        "vf(2. Projetos com escopo estável beneficiam-se da abordagem preditiva, enquanto escopos mutáveis e iterativos pedem a adaptativa (ágil).)",
+        "vf(3. Em TIC (Lei 14.133), o julgamento por técnica e preço exige ponderação apenas quando um estudo preliminar a justificar.)",
+        "vf(4. Remuneração variável por desempenho, na Lei 14.133, aplica-se a serviços e a obras, mas estende-se também a fornecimento de bens.)",
+        "vf(5. No cálculo de Valor Monetário Esperado (VME) de riscos, soma-se o valor das ameaças e subtrai-se o valor das oportunidades, sempre multiplicados pela probabilidade.)",
+        "vf(6. Indicadores \"efeito melancia\" ocorrem quando o nível técnico é atendido, mas a percepção do usuário falha, exigindo métricas voltadas a resultado de negócio.)",
+        "vf(7. No Kanban, \"Idade do item\" mede itens em andamento, e \"Tempo de Ciclo\" mede do início à entrega configurada.)"
+      ],
+      "options": [
+        "A) Estou pronto para a revisão. Pode soltar os chefes!"
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Cascata de Metas (COBIT 2019):**\nComo aparece:\nO enunciado inverte a ordem da cascata, dizendo que metas de alinhamento derivam de objetivos.\nPegadinha:\nAchar que metas de alinhamento estão no topo.\nDecisão:\nMemorize a ordem descendente: Necessidades das Partes Interessadas -> Metas Corporativas -> Metas de c(Alinhamento) -> Objetivos de Governança/Gestão.\n\n**2) Preditivo vs Adaptativo (Gestão de Projetos):**\nComo aparece:\nPortfólio com dois projetos: um de infraestrutura fechada e outro de BI volátil.\nPegadinha:\nDizer que um portfólio não comporta ciclos mistos (híbridos).\nDecisão:\nA abordagem preditiva salva vidas quando o escopo é fechado por lei/contrato rígido. A adaptativa brilha onde há muita c(incerteza). Podem conviver no mesmo portfólio.\n\n**3) Lei 14.133 - Bens/Serviços TIC e Remuneração Variável:**\nComo aparece:\nBanca diz que remuneração variável só cabe em serviço. E que Técnica e Preço é obrigatório.\nPegadinha:\nNão ler as minúcias da nova lei sobre \"fornecimento\" e o \"Estudo Técnico Preliminar\".\nDecisão:\nA remuneração variável (por metas) alcança c(serviços) e c(fornecimentos) contínuos. A ponderação técnica em TIC precisa ser provada relevante via ETP.\n\n**4) Antecipação de Pagamento:**\nComo aparece:\nPagamento antecipado com dispensa de garantias.\nPegadinha:\nAchar que a lei proíbe cobrar garantia.\nDecisão:\nA lei c(admite) pagamento antecipado em economia de escala, e expressamente c(autoriza) o administrador a exigir garantia adicional para se resguardar.\n\n**5) Riscos e Valor Monetário Esperado (VME):**\nComo aparece:\nTabela com 3 problemas graves e 1 benefício (desconto/oportunidade) com probabilidades.\nPegadinha:\nSomar impacto absoluto ou somar as oportunidades como custo.\nDecisão:\nVME = c(Probabilidade * Impacto). Some o custo das ameaças e c(subtraia) as oportunidades. Esse net dita a reserva de contingência (dinheiro guardado no cofre).\n\n**6) Efeito Melancia (Contratos de SLA):**\nComo aparece:\nContratada atende o tempo de suporte de software (1h), mas o software vive travando na mão do servidor final (insatisfação).\nPegadinha:\nAfirmar que a insatisfação é \"subjetiva\" e deve sumir do contrato.\nDecisão:\nMétricas puras de \"esforço\" geram efeito melancia (verde no relatório, vermelho no cliente). A revisão exige alocar métricas de c(resultado/experiência) do negócio no contrato.\n\n**7) Métricas de Fluxo (Kanban):**\nComo aparece:\nTroca os nomes: Idade do Item, Tempo de Ciclo, Vazão.\nPegadinha:\nDizer que idade do item avalia peças concluídas.\nDecisão:\nc(Idade) = item ainda em movimento sangrando na fila. c(Ciclo) = cronômetro travado do início ao fim projetado. c(Vazão) = itens por semana.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca listar \"Ameaças\" e \"Oportunidades\", **ENTÃO** você multiplica a probabilidade pelo valor financeiro respectivo (e subtrai as chances positivas do custo final do projeto).\n\n!Break para Respirar!\n~Otávio~\nEssas matérias são decoreba de frameworks (COBIT, Kanban) misturadas com lei fria. Foque em não inverter a polaridade das palavras!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q89",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 89",
+      "timer_override": 180,
+      "front": "**Questão 89:**\n\nNo COBIT 2019, a cascata de metas traduz as necessidades das partes interessadas em prioridades para o sistema de governança da informação e da tecnologia. A respeito desse mecanismo, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) a cascata parte dos objetivos de governança e gestão, dos quais derivam as metas de alinhamento e, em seguida, as metas corporativas, que expressam ao final as necessidades das partes interessadas.",
+        "B) as necessidades das partes interessadas desdobram-se em metas corporativas, estas em metas de alinhamento, ligadas à informação e à tecnologia, e estas nos objetivos de governança e gestão.",
+        "C) as metas de alinhamento correspondem aos quarenta objetivos de governança e gestão do modelo, distinguindo-se destes pelo grau de detalhamento das práticas e atividades a eles associadas.",
+        "D) a estratégia da organização e o seu perfil de risco, considerados no desenho do sistema de governança, integram a cascata na condição de metas corporativas a serem desdobradas nos níveis seguintes.",
+        "E) as metas de alinhamento expressam resultados da organização como um todo, como o crescimento da receita e a satisfação dos clientes, cabendo às metas corporativas os resultados da área de tecnologia."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Cascata de Metas (Top-Down):**\nO framework traduz o que a diretoria e os stakeholders precisam (do genérico pro específico de TI).\n\n~Gabarito~\n**B) as necessidades das partes interessadas desdobram-se em metas corporativas, estas em metas de alinhamento, ligadas à informação e à tecnologia, e estas nos objetivos de governança e gestão.**\n\nÉ a sequência exata e cirúrgica da cascata de metas do COBIT 2019: necessidades das partes interessadas -> metas corporativas -> metas de alinhamento (TI) -> objetivos de governança e gestão a priorizar.\n\n~Gentalha~\n**A) Ordem Inversa.**\n**> ERRADO <**\nO sentido está totalmente invertido: a cascata c(desce) das necessidades para a diretoria, e não sobe dos objetivos pra cima.\n\n**C) Metas de alinhamento iguais a objetivos de gestão.**\n**> ERRADO <**\nAs metas de alinhamento formam um nível próprio isolado da cascata, com c(treze metas) no modelo, totalmente distinto dos c(quarenta objetivos) de governança e gestão que vão decorrer delas no degrau de baixo.\n\n**D) Fatores de Desenho na Cascata.**\n**> ERRADO <**\nEstratégia corporativa e perfil de risco são c(Fatores de Desenho), mecanismo totalmente distinto da cascata, usado para formatar sob medida o sistema. Não figuram como degraus da cascata.\n\n**E) Inversão Corporativa x TI.**\n**> ERRADO <**\nOs papéis estão trocados: as metas c(corporativas) expressam os resultados macro da organização (receita e clientes), e as metas de c(alinhamento) traduzem os resultados puramente de TI.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** tratar da hierarquia do framework COBIT 2019, **ENTÃO** a cascata sempre afunila da dor abstrata do investidor/acionista (stakeholder) para as engrenagens de código de TI (Gestão).\n\n!Interpretando a Banca!\n~Gatilho~\nAs bancas adoram trocar as palavras \"Corporativas\" e \"Alinhamento\". Lembre-se: Corporação = CNPJ inteiro. Alinhamento = A TI buscando entrar no rumo do CNPJ."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q90",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 90",
+      "timer_override": 180,
+      "front": "**Questão 90:**\n\nA Secretaria da Fazenda conduzirá dois trabalhos no próximo ano. O primeiro é a migração do centro de dados para a nuvem, com escopo fixado em contrato, dependências técnicas conhecidas, exigências regulatórias rígidas e janelas de manutenção definidas com meses de antecedência. O segundo é um painel analítico de combate à sonegação, cujos requisitos dependem das hipóteses de fraude que os auditores ainda vão testar e que serão revistas a cada rodada de resultados. A diretoria pretende acompanhar os dois trabalhos no mesmo portfólio. Considerando as abordagens preditiva, adaptativa e híbrida de gerenciamento de projetos, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) o painel analítico deve ser conduzido de forma preditiva, com o escopo detalhado e aprovado no planejamento, porque requisitos instáveis aumentam o risco de retrabalho e pedem controle rigoroso de mudanças.",
+        "B) a migração deve seguir abordagem adaptativa, com o escopo redefinido a cada iteração, porque o planejamento detalhado feito com antecedência é incompatível com escopo fixado em cláusulas contratuais.",
+        "C) a convivência das duas abordagens no mesmo portfólio é inviável, porque a governança do portfólio exige que todos os projetos adotem o mesmo ciclo de vida e os mesmos marcos de controle.",
+        "D) no painel analítico, a abordagem adaptativa reduz a participação dos auditores, porque o escopo de cada iteração passa a ser definido pela equipe técnica a partir das hipóteses iniciais.",
+        "E) a migração tende a se beneficiar da abordagem preditiva, pelo escopo estável e pelas restrições conhecidas, e o painel, da adaptativa, com ciclos curtos de entrega e revisão das prioridades."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Ciclo Preditivo:**\nEngessado, longo prazo e certezas. Escopo não muda (WaterFall puro).\n**2) Ciclo Adaptativo (Ágil):**\nNavega no caos. Escopo muda toda hora, o cliente e os testadores pilotam o feedback a cada rodada rápida (iteração).\n\n~Gabarito~\n**E) a migração tende a se beneficiar da abordagem preditiva, pelo escopo estável e pelas restrições conhecidas, e o painel, da adaptativa, com ciclos curtos de entrega e revisão das prioridades.**\n\nA escolha da abordagem sempre segue o grau de incerteza da obra de TI: estabilidade estática de escopo favorece a preditiva (migração de hardware), e requisitos emergentes e vivos favorecem a adaptativa (painel antifraude dos auditores).\n\n~Gentalha~\n**A) Painel preditivo por medo do caos.**\n**> ERRADO <**\nRequisitos que dependem de hipóteses vivas a testar são c(justamente) o cenário ideal obrigatório da abordagem adaptativa. Congelar escopo nesse caso produz software velho e imprestável que os auditores rejeitariam.\n\n**B) Migração adaptativa.**\n**> ERRADO <**\nEscopo em pedra, dependências conhecidas e marcos regulatórios punitivos favorecem absurdamente o planejamento detalhado c(antecipado e congelado) (preditivo).\n\n**C) Inviabilidade do Portfólio Híbrido.**\n**> ERRADO <**\nUm portfólio gigante executivo c(PODE E DEVE) reunir projetos com ciclos de vida híbridos e diferentes; a governança de topo acompanha valor, dinheiro e suor (recursos), sem impor que todos sejam ágeis ou todos engessados.\n\n**D) Ágil reduz a participação.**\n**> ERRADO <**\nMuito pelo contrário: a abordagem adaptativa (ágil) exige a participação c(FREQUENTE e INTENSA) de quem representa a dor de negócio (os auditores validando as hipóteses de sonegação iterativamente a cada semana).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** os requisitos são baseados em hipóteses que mudam a toda hora e o cliente testa a cada semana, **ENTÃO** aplique metodologias Ágeis/Adaptativas.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca inverte a lógica do ágil, sugerindo que por ser um projeto caótico ele deveria ser forçado e \"ingessado num contrato de 20 anos\" para proteger o tesouro, o que em TI gera produtos abandonados (falha clássica)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q91",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 91",
+      "timer_override": 180,
+      "front": "**Questão 91:**\n\nJulgue os itens a seguir, relativos à contratação de bens e serviços de tecnologia da informação e comunicação à luz da Lei nº 14.133/2021.\n\nEstão corretos os itens:",
+      "stem": [
+        "vf(I. O julgamento por técnica e preço pode ser escolhido na contratação de bens e serviços especiais de tecnologia da informação e de comunicação, quando estudo técnico preliminar demonstrar que a ponderação da qualidade técnica das propostas que superarem os requisitos mínimos do edital é relevante aos fins pretendidos.)",
+        "vf(II. A celebração de contrato com prazo de até cinco anos, prevista para serviços e fornecimentos contínuos, não alcança a utilização de programas de informática, cujos contratos têm vigência anual, vinculada ao crédito orçamentário do exercício.)",
+        "vf(III. A remuneração variável vinculada ao desempenho do contratado, com base em metas, padrões de qualidade e prazos de entrega, é admitida nos contratos de prestação de serviços, mas não nos de fornecimento de bens.)",
+        "vf(IV. A antecipação de pagamento é admitida quando propiciar sensível economia de recursos ou representar condição indispensável para a obtenção do bem ou do serviço, vedada à Administração a exigência de garantia adicional como condição para o pagamento antecipado.)"
+      ],
+      "options": [
+        "A) I, II e IV.",
+        "B) I.",
+        "C) II.",
+        "D) I e III.",
+        "E) I e II."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Contratos de TI na Nova Lei de Licitações (14.133):**\nA lei se modernizou com as assinaturas de SaaS (Software em Nuvem). Agora o governo pode assinar a licença de uso plurianual, atrelando os pagamentos aos SLA's cruéis de qualidade e entrega sob vigia rigorosa do fiscal de TI.\n\n~Gabarito~\n**B) I.**\n\n**I. (V)**\n**> CERTO <**\nO art. 36, § 1º, III, amarra expressamente a faculdade de julgamento por técnica e preço para bens especiais de TIC, mas exige a trava-mestra do Estudo Técnico Preliminar (ETP) demonstrando que essa firula burocrática é de fato relevante para separar o bom do ruim na prática de mercado.\n\n~Gentalha~\n**II. (F)**\n**> ERRADO <**\nO § 2º do art. 106 estende frontalmente e categoricamente a contratação plurianual contínua flexível (de até cinco anos) ao c(aluguel de equipamentos) e expressamente à c(utilização de programas de informática) em escala de software (encerrando a falácia da barreira orçamentária anual).\n\n**III. (F)**\n**> ERRADO <**\nO art. 144 inovou na veia corporativa e admite remuneração variável implacável vinculada ao desempenho na contratação de obras, c(FORNECIMENTOS) de bens massificados, e serviços (inclusive da área de engenharia bruta).\n\n**IV. (F)**\n**> ERRADO <**\nO § 2º do artigo 145 c(PERMITE E AUTORIZA expressamente) à Administração o poder impositivo de exigir garantia bancária ou pecuniária adicional brutal como trava limitadora condicionante caso tope liberar o dinheiro do tesouro estatal de forma antecipada.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que pagamento atrelado a meta/desempenho alcança fornecimento de bens na nova lei de licitações, **ENTÃO** marque como verdadeiro.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca ama criar restrições que vigoravam no passado remoto (Lei 8666) ou na doutrina antiga sobre vinculação do software à \"bengala orçamentária de final de ano\". A LLL pulverizou essa trava plurianual em TI."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q92",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 92",
+      "timer_override": 420,
+      "front": "**Questão 92:**\n\nNa análise quantitativa dos riscos de um projeto de modernização do sistema de arrecadação, a equipe levantou os eventos a seguir, com as respectivas probabilidades e impactos financeiros:\n\n{{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q92.png|100%|Tabela de Riscos}}\n\nOs três primeiros eventos aumentam o custo do projeto; o último, se ocorrer, reduz o custo. Pelo critério do valor monetário esperado, a reserva para contingências do projeto deve ser de:",
+      "stem": [],
+      "options": [
+        "A) R$ 170 mil.",
+        "B) R$ 230 mil.",
+        "C) R$ 290 mil.",
+        "D) R$ 90 mil.",
+        "E) R$ 1.300 mil."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Cálculo do VME (Reserva de Contingências):**\nValor Monetário Esperado é a balança matemática que dita quanto você vai trancar de dinheiro na \"poupança de medos\" do projeto. Ameaças drenam caixa (+ custo), e Oportunidades injetam folga (- custo).\n\n~Gabarito~\n**A) R$ 170 mil.**\n\n- **Passo 1 — Valor monetário esperado de cada evento.** Multiplica-se a probabilidade nua pelo impacto seco na veia:\nAtraso: 0,30 * 200 = 60 mil (ameaça: onera custo).\nMudança: 0,20 * 450 = 90 mil (ameaça: onera custo).\nFalha: 0,10 * 800 = 80 mil (ameaça: onera custo).\nDesconto: 0,40 * 150 = 60 mil (oportunidade/benefício: desonera custo).\n\n- **Passo 2 — Reserva de Balanço.** As ameaças somam valores de sangria previstos no caixa; já o desconto (oportunidade) entra diluindo essa carga como estorno de redução esperada de gastos futuros na mesma balança do portfólio (sinal trocado):\n(60 + 90 + 80) - 60 (da oportunidade descontada) = c(170 mil).\n\n~Gentalha~\n**B) R$ 230 mil.**\n**> ERRADO <**\nSoma somente as ameaças e ignora a folga matemática trazida pela oportunidade do desconto (230 - 0 = 230).\n\n**C) R$ 290 mil.**\n**> ERRADO <**\nSoma a oportunidade erradamente como se fosse mais uma ameaça catastrófica encarecendo a obra no caixa (230 + 60).\n\n**D) R$ 90 mil.**\n**> ERRADO <**\nDescarta a falha de migração por \"achar a probabilidade baixa (10%)\", embora seu VME matemático pesado (80k) seja inegavelmente relevante ao orçamento de risco (170 - 80).\n\n**E) R$ 1.300 mil.**\n**> ERRADO <**\nSoma puramente e tolamente os impactos cheios nominais (200+450+800-150), ignorando que esses eventos não são certezas cósmicas (fuga absurda do preceito de \"Probabilidade\").\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir Reserva baseada em Valor Monetário (VME), **ENTÃO** você multiplica tudo pela probabilidade e, no fim, subtrai no total as rubricas benéficas (oportunidades).\n\n!Interpretando a Banca!\n~Gatilho~\nOs avaliadores brincam com as palavras \"aumentam o custo\" (sinal positivo na pilha de contas a pagar) e \"reduz o custo\" (desconto na fatura, sinal negativo na conta a pagar).\n\n!Break para Respirar!\n~Otávio~\nMatemática em gerência de projeto é implacável, use o rascunho com frieza, listando + e - do lado de cada linha, sem pânico cego de prova."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_boss_int_3",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Boss Intermediário 03",
+      "timer_override": 300,
+      "front": "**[Chefe Intermediário] - Revisão Rápida 03**\n\nJulgue a validade dos pilares orçamentários, leis de TIC e métodos de gestão aplicados aos cenários estatais:\n\nA sequência correta é:",
+      "stem": [
+        "vf(O modelo preditivo se amarra em marcos contratuais travados de longo prazo, avesso a flutuações e descobrimentos de escopo tardios.)",
+        "vf(A Lei 14.133 pulverizou a trava da exclusividade de garantias em adiantamentos, dotando o gestor com a faca da imposição e coerção na blindagem das estatais perante empresas de risco.)",
+        "vf(O VME ignora as oportunidades que não possuem 100% de probabilidade por cautela extrema financeira governamental na reserva de caixa.)",
+        "vf(As metas de alinhamento em COBIT derivam de anseios primários macro corporativos e da dor real e genérica manifesta das partes que investem/bancam as obras na base material da cadeia de poder.)"
+      ],
+      "options": [
+        "E) V, V, V, V.",
+        "A) V, V, F, V.",
+        "D) V, V, F, F.",
+        "B) F, V, V, V.",
+        "C) V, F, V, V."
+      ],
+      "answer": 1,
+      "back": "Gabarito: Letra correspondente à sequência V, V, F, V.\n\n!Otávio!\n~Teoria~\n**Retenção e Amarração Final:**\nEsses gatilhos respondem por metade das questões híbridas de Governança nas grandes carreiras de auditoria.\n\n~Gabarito~\n**A) V, V, F, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nProjetos preditivos não lidam bem com a fúria das mudanças orgânicas iterativas; sua alma nasce congelada em planilhas longas, pesadas, contratuais e estáveis.\n\n**2ª afirmação (V).**\n**> CERTO <**\nExatamente, o art. 145 cravou o direito agressivo e protetor da Administração em exigir fiança pesada e calção na testa de firmas que peçam dinheiro \"fresco\" antes da entrega completa do código ou serviço.\n\n**3ª afirmação (F).**\n**> ERRADO <**\nO VME calcula oportunidades matemáticas de benefício com pesos de probabilidade proporcionais perfeitamente normais; o caixa desconta essas esperanças estocásticas de desconto na formulação analítica total da gordura retida da empresa estatal.\n\n**4ª afirmação (V).**\n**> CERTO <**\nOs pilares do COBIT nascem da poeira seca corporativa (Stakeholders) descendo degraus macro até penetrar a pele técnica das metas isoladas e afins dos objetivos operacionais das máquinas de governança na TI.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é projeto fechado, longo, cheio de carimbos estatais de lei impeditivos para alteração orgânica constante, **ENTÃO** é gestão Preditiva brutal.\n\n!Break para Respirar!\n~Otávio~\nMemorize essa estrutura. Eles sempre vão testar a agilidade com o travamento burocrático, saiba quando aplicar cada um."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q93",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 93",
+      "timer_override": 180,
+      "front": "**Questão 93:**\n\nUm contrato de suporte técnico mede, mensalmente, o tempo de resposta aos chamados e a disponibilidade dos sistemas, e todos os indicadores pactuados vêm sendo cumpridos. Ainda assim, pesquisas com os servidores apontam insatisfação crescente com o serviço prestado. Acerca desse cenário e da definição de indicadores e níveis de serviço, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) o cumprimento dos níveis mínimos de serviço demonstra a adequação do serviço prestado, e a insatisfação dos usuários deve ser tratada como questão de comunicação interna, alheia à gestão do contrato.",
+        "B) indicadores de esforço, como as horas trabalhadas pela contratada, são preferíveis a indicadores de resultado na aferição do desempenho, por serem verificados com maior facilidade pela fiscalização.",
+        "C) o quadro descreve o efeito melancia, em que indicadores verdes convivem com a percepção negativa dos usuários, e recomenda revisar os indicadores para medir resultados percebidos pelo negócio.",
+        "D) a satisfação dos usuários deve ficar fora dos indicadores contratuais, porque depende de percepção subjetiva, o que inviabiliza a fixação de meta objetiva e mensurável no instrumento contratual.",
+        "E) a resposta adequada é elevar as metas dos indicadores existentes, porque o problema está na exigência baixa dos níveis contratados, e não na escolha do que se está medindo."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Efeito Melancia (Contratos de SLA de TI):**\nIndicadores falsamente \"ótimos\" mascarando a insatisfação brutal sentida na ponta do teclado do servidor ou cidadão.\n\n~Gabarito~\n**C) o quadro descreve o efeito melancia, em que indicadores verdes convivem com a percepção negativa dos usuários, e recomenda revisar os indicadores para medir resultados percebidos pelo negócio.**\n\nO “efeito melancia” (verde no relatório da contratada para ganhar a nota 10 e bater a meta de dinheiro, mas vermelho de ódio e imprestável por dentro, no negócio) descreve exatamente esse descolamento clássico em Governança (ITIL); a resposta orgânica da Gestão de Contratos é rever o eixo analítico que se mede, incluindo medições reais da qualidade prática atreladas ao que chamam de c(Acordos de Nível de Experiência - XLA).\n\n~Gentalha~\n**A) A falha é só de comunicação isolada.**\n**> ERRADO <**\nIndicadores super cumpridos batendo de frente com usuários irados sinalizam cruamente que o papelório do contrato mede a coisa inteiramente errada. A percepção do negócio é a alma final insubstituível e intrínseca do serviço, e jamais \"matéria estranha fora da gestão\".\n\n**B) Medir Esforço no lugar de Resultado.**\n**> ERRADO <**\nIsso pune a inovação. Medir esforço nu remunera insumo \"burro\" (tempo sentado na cadeira), e não o brilho da c(entrega) de fato; a boa prática privilegia cirurgicamente os indicadores voltados para o de c(resultado/valor), atrelados ao que a empresa retém.\n\n**D) A satisfação jamais entra no contrato por ser subjetiva demais.**\n**> ERRADO <**\nA métrica de satisfação latente nas veias da ponta pode (e deve ser) traduzida, mapeada, pesada em escalas absolutas amarradas e consolidadas matematicamente na frieza do contrato, como nota estatística c(mínima vinculante). Não \"foge\" à viabilidade burocrática moderna.\n\n**E) Apertar os mesmos indicadores tortos.**\n**> ERRADO <**\nApertar, blindar ou esfolar contratada na cobrança cega de metas numéricas fúteis que nem tangenciam o coração do problema só tornaria astronomicamente mais oneroso um resultado corrompido; a rachadura fundacional estrutural reside fatalmente na c(escolha original distorcida do objeto analítico aferido).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** os indicadores estão verdes, mas o cliente está gritando de dor/insatisfação, **ENTÃO** você diagnosticou a doença corporativa sistêmica fatal batizada historicamente de \"Efeito Melancia\".\n\n!Interpretando a Banca!\n~Gatilho~\nOs distratores da banca vão sempre culpar o usuário, tentando convencer você que a \"opinião da dona maria\" atrapalha o brilhantismo dos técnicos. Governança trata TI a serviço do negócio, e não o oposto."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q94",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 94",
+      "timer_override": 180,
+      "front": "**Questão 94:**\n\nConsiderando o Guia do Scrum (2020), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [
+        "vf(A Meta do Produto é o compromisso do Product Backlog e descreve um estado futuro do produto; o Time Scrum deve cumprir ou abandonar um objetivo antes de assumir o seguinte.)",
+        "vf(A Retrospectiva da Sprint conclui a Sprint e, em Sprints de um mês, tem duração máxima de três horas.)",
+        "vf(Um Incremento pode ser entregue às partes interessadas antes do fim da Sprint, e a Revisão da Sprint não deve ser tratada como ponto de controle para a liberação de valor.)",
+        "vf(Na Daily Scrum, se o Product Owner ou o Scrum Master estiverem trabalhando ativamente em itens do Sprint Backlog, eles participam como Developers.)"
+      ],
+      "options": [
+        "A) V, V, V, V.",
+        "B) V, V, F, V.",
+        "C) V, F, F, V.",
+        "D) V, V, F, F.",
+        "E) F, V, V, V."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Scrum Guide 2020 (Eventos e Funções):**\nAs definições mudaram no guia 2020. Agora existe \"O compromisso\" e \"A meta\" atrelados aos artefatos, e entrega antes da sprint findar virou norma abraçada.\n\n~Gabarito~\n**A) V, V, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nO Guia de 2020 cravou a faca cirúrgica que introduziu o artefato da Meta do Produto blindando-a diretamente como o compromisso do artefato c(Product Backlog): um farol de longo curso a ser cumprido ou executado/abandonado antes do Time Scrum focar em outros ventos.\n\n**2ª afirmação (V).**\n**> CERTO <**\nO evento final de Retrospectiva crava o túmulo de fechamento absoluto do sprint e possui limite máximo restritivo inegociável de tempo-caixa fixado no teto absoluto de c(três horas) cronometradas na linha matriz para Sprints densos completos (quatro semanas).\n\n**3ª afirmação (V).**\n**> CERTO <**\nA bíblia Ágil admite sem barreiras as frentes soltas de entregas precoces de múltiplos tijolos vitais de peças funcionais orgânicas de Incrementos espetados c(mesmo sem esperar) o guilhotinar frio burocrático de fechamento, garantindo que o crivo do evento solene da \"Sprint Review\" caia por terra como muralha (não é um portão burocrata para liberação).\n\n**4ª afirmação (V).**\n**> CERTO <**\nAs hierarquias secas derretem no suor: o Scrum Master pontual ou até mesmo o Product Owner (que atue esporadicamente escovando pedaços pontuais cruéis nas tarefas operacionais empurradas na fila do artefato local do quadro \"Sprint Backlog\"), assumem o chapéu do chão sujo de fábrica sem frescura orgânica burocratizada, participando ali do fórum diário das dores rotineiras (Daily) travestidos e computados no núcleo do rol restrito puramente contidos na essência plena de atuação braçal batizada de c(Developers).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que a Daily Scrum é proibida pro PO atuar braçalmente, **ENTÃO** está furado, porque o Scrum permite que os mestres de cerimônia operem na graxa também vestindo a \"armadura\" de Developers na reunião de 15 minutos.\n\n!Interpretando a Banca!\n~Gatilho~\nQuestões decorebas de Scrum atacam tempo de box (3h para Retrospectiva mensal, 15 min de Daily, etc). Memorize os painéis do Guia de 2020 cravados."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q95",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 95",
+      "timer_override": 420,
+      "front": "**Questão 95:**\n\nEm licitação para serviços especiais de tecnologia da informação julgada por técnica e preço, o edital atribuiu peso de 70% à nota técnica e de 30% à nota de preço. A nota de preço de cada licitante é a razão entre o menor preço ofertado e o preço do licitante, multiplicada por 100; a nota técnica já está em escala de 0 a 100. As propostas foram as seguintes:\n\n{{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q95.png|100%|Tabela de Concorrentes}}\n\nA licitante vencedora e a sua nota final são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) Gama, com 91,0 pontos.",
+        "B) Beta, com 80,0 pontos.",
+        "C) Gama, com 85,0 pontos.",
+        "D) Alfa, com 82,2 pontos.",
+        "E) Alfa, com 77,0 pontos."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Julgamento Técnica e Preço (Lei 14.133):**\nO cálculo matemático pondera o peso estipulado pelo estado (70 e 30) contra o esforço relativo da licitante na disputa do menor preço.\n\n~Gabarito~\n**D) Alfa, com 82,2 pontos.**\n\n- **Passo 1 — Notas de preço relativas.** O menor preço da mesa oferecido foi de absurdos e predatórios c(R$ 640 mil (da Gama)).\nA matemática fixada estipula: (Menor Preço da mesa / Preço da Firma analisada) * 100\nNota de Preço da Firma Alfa: (640 / 1.000) * 100 = c(64).\nNota de Preço da Firma Beta: (640 / 800) * 100 = c(80).\nNota de Preço da Firma Gama: (640 / 640) * 100 = c(100) (Ela é a dona do menor preço).\n\n- **Passo 2 — Ponderação (70/30) Final.**\nNota Final Alfa: (0,7 * NotaTécnica 90) + (0,3 * NotaPreço 64) = 63 + 19,2 = c(82,2) pontos na cabeça.\nNota Final Beta: (0,7 * 80) + (0,3 * 80) = 56 + 24 = c(80,0) pontos.\nNota Final Gama: (0,7 * 70) + (0,3 * 100) = 49 + 30 = c(79,0) pontos amargurados.\n\nVence Alfa c(soberana), com 82,2 pontos no quadro corporativo final amarrado pelo limite de peso de 70% fixado no art. 36, § 2º, da Lei nº 14.133.\n\n~Gentalha~\n**A) Gama, com 91,0 pontos.**\n**> ERRADO <**\nOcorre de erro catastrófico pelo aluno inverter invertendo os pesos absurdamente jogando 30% pra técnica e 70% pra grana.\n\n**C) Gama, com 85,0 pontos / E) Alfa, com 77,0 pontos.**\n**> ERRADO <**\nResultado distorcido e fictício da conta de um aluno que aniquilou os pesos do edital julgando na \"loteria democrática irreal\" (meio a meio 50% / 50% ingênuo na folha de papel machê).\n\n**B) Beta, com 80,0 pontos.**\n**> ERRADO <**\nDe fato o Beta teve c(80 pontos exatos), mas não encabeçou o ranking (foi atropelada na nota técnica da Alfa).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cravar um teto máximo de \"peso\" na lei de licitações, **ENTÃO** atente que o teto legal aceito pra TIC é bater até c(70%) o valor atribuído ao conhecimento/qualidade (Técnica) esmagando a força do fator monetário.\n\n!Interpretando a Banca!\n~Gatilho~\nNunca invente conta de média aritmética. Se a regra diz \"70 e 30\", aplique o peso percentual na nota bruta seca e some (0,7 e 0,3).\n\n!Break para Respirar!\n~Otávio~\nAs questões de matemática das licitações não testam sua habilidade de ser Einstein; elas destroem os apressados. Calcule um por um!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_q96",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Questão 96",
+      "timer_override": 180,
+      "front": "**Questão 96:**\n\nO Guia Kanban apresenta o Kanban como estratégia para otimizar o fluxo de valor por meio de um sistema visual e puxado, acompanhado por medidas de fluxo. Acerca dessas medidas e das práticas do método, é INCORRETO afirmar que:",
+      "stem": [],
+      "options": [
+        "A) a idade do item de trabalho é o tempo decorrido entre o início do item e o momento atual, medida aplicável aos itens que ainda estão em andamento no fluxo.",
+        "B) o tempo de ciclo é o tempo decorrido entre o início e o término de um item de trabalho, conforme os pontos de início e de fim definidos para o fluxo.",
+        "C) a vazão corresponde ao número de itens de trabalho concluídos por unidade de tempo, como itens finalizados por semana em determinado fluxo de trabalho.",
+        "D) a expectativa de nível de serviço é a previsão de quanto tempo um item de trabalho deve levar para fluir do início ao término dentro do fluxo definido.",
+        "E) o limite de trabalho em andamento é fixado na concepção do quadro e mantido inalterado, para preservar a comparação das medidas de fluxo."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Limites WIP (Work in Progress) do Kanban:**\nAs regras e travas no Ágil servem à otimização orgânica, nunca como cimento eterno na operação do galpão corporativo.\n\n~Gabarito~\n**E) o limite de trabalho em andamento é fixado na concepção do quadro e mantido inalterado, para preservar a comparação das medidas de fluxo.**\n**> ERRADO (É a Incorreta) <**\n\nUma das pedras de toque vitais das práticas fundadoras irrefutáveis da filosofia Ágil (Kanban e afins) no coração da equipe é c(melhorar perenemente o fluxo) da esteira adaptável constante. O estrangulador controle orgânico dos limites absolutos do c(trabalho represado em andamento) (WIP limits), é sim alterado, revisado, e puxado com força em reuniões estratégicas vitais conforme o que as medidas frias revelam (gargalos novos no time no pátio interno). Nada no Ágil é perfeitamente \"inalterado no nascimento de forma cristalizada\", essa premissa faliu.\n\n~Gentalha~\n**A) Idade do item em andamento.**\n**> CERTO <**\nEssa nomenclatura c(Idade do item de trabalho (work item age)) reflete exatamente o termômetro de tempo dos feridos em operação sem liberação pra rua que sofrem com o sangramento dos custos na linha matriz.\n\n**B) Tempo de ciclo (cycle time).**\n**> CERTO <**\nÉ a cravada definição global na régua de contagem do cronômetro travado cruamente do momento pactuado do tiro de largada de entrada de base do cano do fluxo ao suspiro derradeiro da boca finalizada liberada em esteira.\n\n**C) Vazão (throughput).**\n**> CERTO <**\nExpressa cirurgicamente na veia as entregas computadas no ralo estatístico do duto de produção da firma por cortes frios englobados unicamente de fatia de \"tempo\".\n\n**D) Expectativa de SLA da equipe.**\n**> CERTO <**\nGarante o referencial seguro estipulado na régua abstrata dos marcos dos níveis cruciais contratuais (service level expectation) para que a peça escorregue macia do topo do duto ao fim da descida no crivo delineado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca disser que a filosofia Ágil/Kanban não revisita, não altera ou não readapta seu quadro de trabalho pra não estragar uma planilha, **ENTÃO** decrete falsidade: o método nasceu da fogueira contínua de melhoria para adaptar ao caos de fato (não para gerar planilhas estáticas).\n\n!Interpretando a Banca!\n~Gatilho~\nEles misturam termos matemáticos de processo (como Manter a comparação estatística perfeita limpa intocada) para criar falácias intelectuais belas, porém que agridem e violentam a filosofia-base empírica suja e viva do framework Kanban no chão cru do escritório."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_boss_final_p1",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Chefe Final P1",
+      "timer_override": 400,
+      "front": "**[Chefe Final] - Governança (Parte 1)**\n\nConsolide seus conhecimentos das leis 14.133, métodos de gestão e métricas.\n\nA sequência correta é:",
+      "stem": [
+        "vf(O ciclo adaptativo abraça no coração da esteira iterativa as dores que as equipes e negócios vão descobrir amanhã de manhã no painel de hipóteses caóticas a serem validadas.)",
+        "vf(VME lida isoladamente e puramente com matemática cruzada de ameaça versus oportunidades geradas em caixa nas tabelas duras do controle corporativo real de riscos em obras complexas.)",
+        "vf(A Retrospectiva detém limite teto imposto taxativo legal no Scrum, ditando o fim de operação estressante perante as frentes burocráticas.)",
+        "vf(No Kanban real, a idade do item e o ciclo final são pilares para a fluidez do time; o WIP nunca congela a ponto de bloquear a inspeção de acerto na fábrica.)"
+      ],
+      "options": [
+        "B) F, V, V, V.",
+        "E) V, F, V, F.",
+        "A) V, V, F, V.",
+        "C) V, V, V, V.",
+        "D) F, F, F, F."
+      ],
+      "answer": 3,
+      "back": "Gabarito: Letra correspondente à sequência V, V, V, V.\n\n!Otávio!\n~Teoria~\n**Validação Governança (Parte 1):**\nÉ aqui que cai o concurseiro amador.\n\n~Gabarito~\n**C) V, V, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nSe a hipótese de TI ainda é teste ou fumaça imprecisa, a navalha de cortes ágeis e iterações constantes se prova como ouro.\n\n**2ª afirmação (V).**\n**> CERTO <**\nVME (Valor Monetário Esperado) pondera exatamente as tabelas de impacto contra a roleta de probabilidades percentuais frias nas frentes da firma executora.\n\n**3ª afirmação (V).**\n**> CERTO <**\nO marco exato no calendário temporal fecha a cortina do sprint, estancando feridas com freios (timeboxing rígido teto 3 horas de reunião para Sprint brutal totalitária mensal).\n\n**4ª afirmação (V).**\n**> CERTO <**\nWIP altera sim se a equipe sangrar numa bolha ou gargalo inesperado. A melhoria contínua é rei em cima da régua original (adaptabilidade no limite).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é Agile ou Kanban, **ENTÃO** há maleabilidade nas travas do Work in Progress visando otimizar a máquina.\n\n!Break para Respirar!\n~Otávio~\nEssa estrutura final limpa as dúvidas da decoreba e consolida seu instinto de aprovação."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_gov_boss_final_p2",
+      "subject": "Governança e Gestão de TI",
+      "source": "Simulado 01 SEFAZ/SC 2026 - Chefe Final P2",
+      "timer_override": 400,
+      "front": "**[Chefe Final] - Governança (Parte 2)**\n\nFinalize e liquide essa seção julgando com frieza os conceitos-chave de leis e processos.\n\nA sequência correta é:",
+      "stem": [
+        "vf(O COBIT desce em cascatas da mente das partes vitais para os pátios práticos; as frentes de Governança abraçam os desejos gerais na estratégia superior e destrincham na base da TI.)",
+        "vf(A Lei de Licitações afrouxou grilhões de fornecimentos com SLAs cravadas e permitiu premiações pecuniárias nos limites do resultado palpável aferido em serviço em escala de cinco anos contínuos e software na rede.)",
+        "vf(Ponderação (técnica/grana) não é obrigatória nos ritos de compras estatais no setor TI sem a chancela robusta da viabilidade técnica nos estudos firmes embrionários de licitação preparatória cruzada.)",
+        "vf(Liderança isolada despótica PO pode agir na base sem frescura braçal vestida como operário nas esferas de desenvolvimento se assim demandar a urgência da Daily cruzada.)"
+      ],
+      "options": [
+        "E) V, V, F, V.",
+        "A) F, F, V, V.",
+        "C) F, F, F, F.",
+        "B) V, V, V, V.",
+        "D) V, F, V, V."
+      ],
+      "answer": 3,
+      "back": "Gabarito: Letra correspondente à sequência V, V, V, V.\n\n!Otávio!\n~Teoria~\n**Validação Governança (Parte 2):**\nÚltimos suspiros das artimanhas teóricas de processos de suporte e direção.\n\n~Gabarito~\n**B) V, V, V, V.**\n\n**1ª afirmação (V).**\n**> CERTO <**\nA Cascata se derrama exata e metodicamente com nascente vital nas dores, anseios e apostas de capital originário das partes de fronteira abstrata ligadas organicamente ao CNPJ em si (Stakeholders) escoando rumo aos fios brutos mecânicos engessados no pátio dos servidores físicos práticos (Governança técnica da firma operando local).\n\n**2ª afirmação (V).**\n**> CERTO <**\nA nova lei cravou e pavimentou a autorização implacável e expressa à remuneração variável meritocrática com tetos de 5 anos plurianuais em contratos virtuais.\n\n**3ª afirmação (V).**\n**> CERTO <**\nTécnica e Preço não surge \"do nada\", exige lastro contábil ou intelectual no papel assinado que ateste as razões pela escolha complexa de barreira (ETP imperioso atestando tal necessidade bizarra nos autos formais locais).\n\n**4ª afirmação (V).**\n**> CERTO <**\nEm Scrum os chapéus derretem se as mãos precisam suar nos quadros e teclados. O Product Owner integra a classe humilde de Developers na trincheira se atua esporadicamente nas catracas físicas na base do sistema.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é ETP em TI validando métricas, **ENTÃO** a lei abraça o detalhamento de técnica.\n\n!Break para Respirar!\n~Otávio~\nFechou Governança e Projetos! Descanse. O raciocínio das bancas para TI foca na utilidade para o negócio estatal. Sempre tenha isso em mente."
+    }
+  ]
+}
