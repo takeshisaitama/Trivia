@@ -1,0 +1,217 @@
+{
+  "title": "Conhecimentos Regionais de Santa Catarina",
+  "messages": {
+    "aprovado": "Excelente desempenho! O domínio das raízes de SC está evidente.",
+    "call1": "Ótimo resultado. Pequenos ajustes em datas o deixarão perfeito.",
+    "call2": "Bom desempenho, mas a história política requer mais atenção.",
+    "call3": "Atenção: A geografia regional está te puxando para baixo.",
+    "call4": "Resultado perigoso. Volte para os mapas e tabelas de colonização.",
+    "reserva": "Ficou muito aquém do aceitável.",
+    "reprovado": "Você seria incapaz de encontrar Lages no mapa do Estado."
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_boss_tut",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Chefe Tutorial: Conhecimentos Regionais de Santa Catarina**\n\nLeia atentamente os conceitos abaixo antes de iniciar as questões:",
+      "stem": [
+        "**1) Colônia Dona Francisca:**\nOrigem de Joinville, fundada no século XIX em terras de dote imperial, com participação da colonizadora de Hamburgo.",
+        "**2) Colônia de Blumenau:**\nFundada por Hermann Blumenau no Vale do Itajaí. Primeiros colonos eram alemães.",
+        "**3) Imigração Italiana vs Alemã:**\nItaliana foi posterior à alemã (década de 1870).",
+        "**4) Colonização do Oeste Catarinense:**\nOcupação predominante no século XX por gaúchos descendentes de italianos e alemães.",
+        "**5) Açorianos no Litoral:**\nAçorianos e madeirenses no séc XVIII dedicaram-se à agricultura e pesca.",
+        "**6) Produção de Moluscos:**\nSC é o maior produtor nacional, concentrado na Grande Florianópolis.",
+        "**7) Fumicultura:**\nO Estado está entre os maiores produtores de tabaco do País.",
+        "**8) Produção de Maçã:**\nConcentra-se nas áreas de clima temperado e altitude (planalto serrano e meio-oeste).",
+        "**9) Indústria Metalmecânica:**\nJaraguá do Sul abriga importante polo metalmecânico e de motores elétricos.",
+        "**10) História de Lages:**\nSurgiu no século XVIII para assegurar o caminho das tropas, a serviço de São Paulo.",
+        "**11) Serra do Rio do Rastro:**\nFica na escarpa da Serra Geral, no sul do Estado.",
+        "**12) Economia Serrana Histórica:**\nAssentada na pecuária extensiva, tropeirismo e exploração madeireira.",
+        "**13) Clima no Planalto Serrano:**\nMenores temperaturas do Estado devido à altitude.",
+        "**14) Nome de Florianópolis:**\nMudança ocorreu na República, em homenagem a Floriano Peixoto.",
+        "**15) Pontes da Capital:**\nPonte Hercílio Luz foi inaugurada em 1926.",
+        "**16) Lagoa da Conceição:**\nFica na Ilha de SC, não no continente.",
+        "**17) Tradições e Festividades:**\nSchützenfest (alemã) e Nova Trento (italiana).",
+        "**18) PEC Estadual - Quórum:**\nAprovação exige 3/5 dos votos da Assembleia em dois turnos.",
+        "**19) Promulgação de PEC Estadual:**\nFeita pela Mesa da Assembleia, não pelo Governador.",
+        "**20) Iniciativa Popular Estadual:**\nSubscrição de no mínimo 1% dos eleitores (projetos de lei) ou 2,5% (PEC)."
+      ],
+      "options": [
+        "A) Li e entendi as regras da banca."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Colônia Dona Francisca:**\n**Como aparece:**\nA banca diz que a colônia não teve participação estrangeira.\n**Pegadinha:**\nOcultar o envolvimento da Sociedade Colonizadora de Hamburgo.\n**Decisão:**\nLembre que Joinville tem raízes no dote e em Hamburgo.\n\n**2) Colônia de Blumenau:**\n**Como aparece:**\nA banca diz que os italianos fundaram Blumenau.\n**Pegadinha:**\nConfundir a colonização do Vale do Itajaí com a do Sul do Estado.\n**Decisão:**\nBlumenau = Alemães.\n\n**3) Imigração Italiana vs Alemã:**\n**Como aparece:**\nA banca afirma que a italiana antecedeu a alemã.\n**Pegadinha:**\nInverter a ordem temporal das imigrações no século XIX.\n**Decisão:**\nAlemã foi antes (meados sec XIX), italiana depois (década de 1870).\n\n**4) Colonização do Oeste Catarinense:**\n**Como aparece:**\nA banca diz que o governo provincial trouxe poloneses diretamente.\n**Pegadinha:**\nAchar que a expansão do Oeste foi projeto provincial direto no séc XIX.\n**Decisão:**\nOeste foi povoado no século XX pelos gaúchos.\n\n**5) Açorianos no Litoral:**\n**Como aparece:**\nA banca afirma que eles foram minerar ouro na serra.\n**Pegadinha:**\nAtribuir a febre do ouro aos açorianos.\n**Decisão:**\nAçorianos ficaram no litoral (pesca, agricultura).\n\n**6) Produção de Moluscos:**\n**Como aparece:**\nA banca cita o sucesso na maricultura da Grande Florianópolis.\n**Pegadinha:**\nDizer que outra região lidera essa produção.\n**Decisão:**\nSC é líder absoluto, e o polo é na Grande Florianópolis.\n\n**7) Fumicultura:**\n**Como aparece:**\nA banca chama a fumicultura de inexpressiva.\n**Pegadinha:**\nDesmerecer o fumo pela atual política de saúde.\n**Decisão:**\nSC é o 2º maior produtor nacional (atrás apenas do RS).\n\n**8) Produção de Maçã:**\n**Como aparece:**\nA banca localiza a maçã no litoral sul.\n**Pegadinha:**\nColocar cultivo de clima temperado em região litorânea.\n**Decisão:**\nMaçã exige frio e altitude (Planalto Serrano e Meio-Oeste).\n\n**9) Indústria Metalmecânica:**\n**Como aparece:**\nCita Jaraguá do Sul e seus motores elétricos.\n**Pegadinha:**\nAchar que Jaraguá é só têxtil.\n**Decisão:**\nLembre da WEG e do polo metalmecânico local.\n\n**10) História de Lages:**\n**Como aparece:**\nA banca vincula Lages à expansão alemã do Vale do Itajaí.\n**Pegadinha:**\nDesconhecer a origem paulista/tropeira da cidade.\n**Decisão:**\nLages = Tropeirismo, século XVIII.\n\n**11) Serra do Rio do Rastro:**\n**Como aparece:**\nA banca coloca a serra no nordeste (perto de Joinville).\n**Pegadinha:**\nConfundir Serra do Mar (norte) com Serra Geral (sul).\n**Decisão:**\nRio do Rastro fica no Sul, na Serra Geral.\n\n**12) Economia Serrana Histórica:**\n**Como aparece:**\nA banca diz que o ouro atraiu o povoamento da serra.\n**Pegadinha:**\nInventar ciclo do ouro forte em SC.\n**Decisão:**\nA base foi a pecuária extensiva e as madeireiras.\n\n**13) Clima no Planalto Serrano:**\n**Como aparece:**\nA banca diz que as menores temperaturas são pela latitude.\n**Pegadinha:**\nConfundir latitude com altitude.\n**Decisão:**\nO frio da Serra catarinense vem da c(Altitude).\n\n**14) Nome de Florianópolis:**\n**Como aparece:**\nA banca diz que o nome mudou no império pacificamente.\n**Pegadinha:**\nOcultar o contexto violento da Revolução Federalista.\n**Decisão:**\nA mudança foi punitiva na República (homenagem a Floriano Peixoto).\n\n**15) Pontes da Capital:**\n**Como aparece:**\nA banca diz que a Ponte Hercílio Luz é da década de 1970.\n**Pegadinha:**\nConfundir as datas das três pontes.\n**Decisão:**\nHercílio Luz é de 1926 (a mais antiga).\n\n**16) Lagoa da Conceição:**\n**Como aparece:**\nA banca joga a Lagoa para a parte continental.\n**Pegadinha:**\nTestar conhecimentos básicos da geografia da capital.\n**Decisão:**\nLagoa da Conceição é Leste da Ilha.\n\n**17) Tradições e Festividades:**\n**Como aparece:**\nA banca troca a etnia das festas e cidades.\n**Pegadinha:**\nDizer que Schützenfest é italiana e Pomerode é ucraniana.\n**Decisão:**\nSchützenfest/Pomerode = Alemães. Nova Trento = Italianos.\n\n**18) PEC Estadual - Quórum:**\n**Como aparece:**\nA banca exige 2/3 dos votos da Assembleia.\n**Pegadinha:**\nConfundir com leis e regras federais.\n**Decisão:**\nO quórum é c(3/5) em SC.\n\n**19) Promulgação de PEC Estadual:**\n**Como aparece:**\nA banca diz que o Governador promulga.\n**Pegadinha:**\nUsar a regra comum de sanção de lei ordinária.\n**Decisão:**\nPEC é promulgada pela c(Mesa da Assembleia).\n\n**20) Iniciativa Popular Estadual:**\n**Como aparece:**\nA banca exige 5% dos eleitores para projeto de lei.\n**Pegadinha:**\nExagerar a porcentagem.\n**Decisão:**\nLei = 1%. Emenda à CE = 2,5%.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é Colônia Dona Francisca, **ENTÃO** é a origem de c(Joinville).\n\n**2) SE** é Blumenau, **ENTÃO** os pioneiros foram c(Alemães).\n\n**3) SE** é imigração europeia inicial, **ENTÃO** a alemã veio c(Antes) da italiana.\n\n**4) SE** é o Oeste catarinense, **ENTÃO** a colonização é século c(XX) (pelos gaúchos).\n\n**5) SE** são os açorianos do litoral, **ENTÃO** a base é a c(Pesca e Agricultura).\n\n**6) SE** é cultivo de moluscos, **ENTÃO** o polo é a Grande c(Florianópolis).\n\n**7) SE** é produção de fumo, **ENTÃO** Santa Catarina é um gigante do setor (não inexpressivo).\n\n**8) SE** é produção de maçã, **ENTÃO** o clima exige c(Altitude).\n\n**9) SE** é Jaraguá do Sul, **ENTÃO** destaque para motores elétricos (WEG).\n\n**10) SE** é Lages, **ENTÃO** a origem é o Caminho das c(Tropas) (SP).\n\n**11) SE** é Serra do Rio do Rastro, **ENTÃO** fica no c(Sul) do Estado.\n\n**12) SE** é a economia histórica serrana, **ENTÃO** não há ouro, mas c(Pecuária) e Madeira.\n\n**13) SE** o clima é mais frio na serra, **ENTÃO** o fator principal é a c(Altitude).\n\n**14) SE** a cidade mudou de Desterro para Florianópolis, **ENTÃO** foi na c(República).\n\n**15) SE** é a primeira ponte, **ENTÃO** é a c(Hercílio Luz) de 1926.\n\n**16) SE** é Lagoa da Conceição, **ENTÃO** fica na c(Ilha).\n\n**17) SE** é Schützenfest, **ENTÃO** a tradição é c(Germânica).\n\n**18) SE** é emenda à Constituição de SC, **ENTÃO** aprova-se por c(3/5).\n\n**19) SE** é PEC aprovada, **ENTÃO** quem promulga é a c(Mesa da Assembleia).\n\n**20) SE** é iniciativa popular de lei, **ENTÃO** basta c(1%) do eleitorado.\n\n!Break para Respirar!\n~Otávio~\nMuito cuidado, candidato! As bancas sabem que muitos estudam apenas leis secas e ignoram Geografia e História Regionais. Leia isso 3 vezes antes de prosseguir."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_q75",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Questão 075:**\n\nSobre a imigração e a colonização europeia no território catarinense, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) a colônia Dona Francisca, origem de Joinville, foi fundada em meados do século XIX em terras do dote de uma princesa da família imperial brasileira, com participação de sociedade colonizadora de Hamburgo.",
+        "B) a colônia fundada por Hermann Blumenau em 1850, no Vale do Itajaí, recebeu como primeiros colonos imigrantes italianos vindos do Vêneto, atraídos pela promessa de lotes rurais na região.",
+        "C) a imigração italiana antecedeu a alemã no território catarinense, tendo sido iniciada nas primeiras décadas do século XIX com a fundação dos núcleos de Urussanga e de Nova Veneza.",
+        "D) o Oeste catarinense foi colonizado no século XIX por imigrantes poloneses e ucranianos trazidos diretamente da Europa por iniciativa do governo provincial de Santa Catarina.",
+        "E) os casais açorianos e madeirenses fixados no litoral em meados do século XVIII dedicaram-se principalmente à mineração de ouro nas encostas e no planalto do território catarinense."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Colônia Dona Francisca (Joinville):**\nA colônia Dona Francisca foi fundada em 1851 nas terras recebidas como dote pela princesa Francisca de Bragança, casada com o príncipe de Joinville. A colonização ficou a cargo da Sociedade Colonizadora de Hamburgo.\n\n**2) Colonização de Blumenau:**\nOs primeiros colonos trazidos por Hermann Blumenau em 1850 eram imigrantes alemães.\n\n**3) Temporalidade Imigratória:**\nA imigração alemã é anterior à italiana. Os italianos começaram a chegar com força na década de 1870.\n\n**4) Ocupação do Oeste:**\nO Oeste foi ocupado majoritariamente no século XX por gaúchos (descendentes de italianos e alemães).\n\n**5) Açorianos no Litoral:**\nOs açorianos fixados no litoral a partir de 1748 dedicaram-se à agricultura, à pesca e ao artesanato (renda de bilro e fabricação de farinha).\n\n~Gabarito~\n**A) a colônia Dona Francisca, origem de Joinville, foi fundada em meados do século XIX em terras do dote de uma princesa da família imperial brasileira, com participação de sociedade colonizadora de Hamburgo.**\n**> CERTO <**\nA colônia Dona Francisca foi fundada em 1851 nas terras recebidas como dote pela princesa Francisca de Bragança, irmã de D. Pedro II, casada com o príncipe de Joinville; a colonização ficou a cargo da Sociedade Colonizadora de Hamburgo.\n\n~Gentalha~\n**B) a colônia fundada por Hermann Blumenau em 1850, no Vale do Itajaí, recebeu como primeiros colonos imigrantes italianos vindos do Vêneto, atraídos pela promessa de lotes rurais na região.**\n**> ERRADO <**\nOs primeiros colonos trazidos por Hermann Blumenau, em 1850, eram imigrantes alemães; a imigração italiana para o Vale do Itajaí começou na década de 1870.\n\n**C) a imigração italiana antecedeu a alemã no território catarinense, tendo sido iniciada nas primeiras décadas do século XIX com a fundação dos núcleos de Urussanga e de Nova Veneza.**\n**> ERRADO <**\nA imigração italiana é posterior à alemã: começou na década de 1870, e Urussanga data de 1878 e Nova Veneza, de 1891.\n\n**D) o Oeste catarinense foi colonizado no século XIX por imigrantes poloneses e ucranianos trazidos diretamente da Europa por iniciativa do governo provincial de Santa Catarina.**\n**> ERRADO <**\nO Oeste foi ocupado sobretudo no século XX, por migrantes vindos do Rio Grande do Sul, descendentes de italianos e alemães, com atuação de companhias colonizadoras.\n\n**E) os casais açorianos e madeirenses fixados no litoral em meados do século XVIII dedicaram-se principalmente à mineração de ouro nas encostas e no planalto do território catarinense.**\n**> ERRADO <**\nOs açorianos e madeirenses fixados no litoral a partir de 1748 dedicaram-se à agricultura, à pesca e a atividades artesanais.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que Joinville nasceu do dote imperial, **ENTÃO** a assertiva está c(Correta).\n\n!Interpretando a Banca!\n~Gatilho~\nA banca costuma inverter as etnias fundadoras das grandes cidades. Guarde o trinômio: Litoral = Açorianos; Vale do Itajaí e Norte = Alemães; Sul = Italianos."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_q76",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Questão 076:**\n\nJulgue os itens a seguir, relativos à economia de Santa Catarina.",
+      "stem": [
+        "vf(I. O Estado responde pela maior parte da produção nacional de moluscos cultivados, como ostras e mexilhões, concentrada no litoral da Grande Florianópolis.)",
+        "vf(II. A fumicultura é atividade inexpressiva no Estado, cuja produção de tabaco é superada pela maioria das unidades da Federação.)",
+        "vf(III. A produção de maçã, em que o Estado figura entre os maiores produtores do País, concentra-se no litoral sul, em municípios como Laguna e Imbituba.)",
+        "vf(IV. A região de Jaraguá do Sul destaca-se pela indústria metalmecânica e pela fabricação de motores elétricos, com empresas de projeção internacional.)"
+      ],
+      "options": [
+        "A) I, III e IV.",
+        "B) II e IV.",
+        "C) I, II, III e IV.",
+        "D) I e IV.",
+        "E) I, II e IV."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Maricultura:**\nSanta Catarina é o maior produtor nacional de moluscos cultivados, com produção concentrada na Grande Florianópolis (Palhoça, Biguaçu e Governador Celso Ramos).\n\n**2) Produção de Fumo:**\nA fumicultura é fortíssima na Região Sul de SC, sendo o Estado um dos maiores do Brasil, perdendo apenas para o Rio Grande do Sul.\n\n**3) Agricultura de Altitude:**\nA maçã é cultivada em áreas de clima temperado e altitude, sobretudo no planalto serrano (São Joaquim) e no meio-oeste (Fraiburgo), e nunca no litoral.\n\n**4) Indústria Tecnológica e Metalmecânica:**\nJaraguá do Sul abriga um dos mais importantes polos metalmecânicos e de motores elétricos do País (berço da gigante WEG).\n\n~Gabarito~\n**D) I e IV.**\n\n**I. O Estado responde pela maior parte da produção nacional de moluscos cultivados, como ostras e mexilhões, concentrada no litoral da Grande Florianópolis.**\n**> CERTO <**\nSanta Catarina é o maior produtor nacional de moluscos cultivados, com produção concentrada em Florianópolis, Palhoça, Governador Celso Ramos e Biguaçu.\n\n**IV. A região de Jaraguá do Sul destaca-se pela indústria metalmecânica e pela fabricação de motores elétricos, com empresas de projeção internacional.**\n**> CERTO <**\nJaraguá do Sul abriga um dos mais importantes polos metalmecânicos e de motores elétricos do País, ao lado da indústria têxtil e de vestuário.\n\n~Gentalha~\n**II. A fumicultura é atividade inexpressiva no Estado, cuja produção de tabaco é superada pela maioria das unidades da Federação.**\n**> ERRADO <**\nO Estado está entre os maiores produtores de tabaco do País, atrás do Rio Grande do Sul, com a produção concentrada na Região Sul.\n\n**III. A produção de maçã, em que o Estado figura entre os maiores produtores do País, concentra-se no litoral sul, em municípios como Laguna e Imbituba.**\n**> ERRADO <**\nA maçã é cultivada em áreas de clima temperado e altitude, sobretudo no planalto serrano (São Joaquim) e no meio-oeste (Fraiburgo), e não no litoral sul.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca falar em ostras, **ENTÃO** procure a c(Grande Florianópolis).\n\n!Interpretando a Banca!\n~Gatilho~\nCuidado com adjetivos pejorativos como 'inexpressiva' para atividades agrícolas consolidadas no Sul do Brasil (como o fumo)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_q77",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Questão 077:**\n\nA respeito da formação histórica e das características do planalto serrano catarinense, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) Lages surgiu no século XIX como núcleo de colonização alemã, vinculado à expansão das colônias do Vale do Itajaí em direção ao interior do território catarinense.",
+        "B) Lages foi fundada no século XVIII, à beira do caminho das tropas que ligava os campos do sul a Sorocaba, por expedição a serviço do governo da capitania de São Paulo.",
+        "C) a Serra do Rio do Rastro, trecho de rodovia que liga o planalto ao litoral, situa-se na escarpa da Serra do Mar, nas proximidades de Joinville, no nordeste do Estado.",
+        "D) a economia do planalto serrano assentou-se historicamente na mineração de ouro, atividade que atraiu os primeiros povoadores da região ainda no século XVII.",
+        "E) o planalto serrano registra as maiores médias anuais de temperatura do Estado, em razão da maior proximidade em relação ao Trópico de Capricórnio."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Tropeirismo em Lages:**\nLages foi fundada em 1766 (século XVIII) pelo tropeirismo paulista (Antônio Correia Pinto) para assegurar o caminho das tropas entre o Rio Grande do Sul e a feira de Sorocaba-SP.\n\n**2) Geografia das Serras:**\nA famosa Serra do Rio do Rastro fica na Serra Geral (no sul de Santa Catarina), não na Serra do Mar no Norte.\n\n**3) Economia Serrana:**\nA serra catarinense não enriqueceu com ouro, mas sim com a Pecuária extensiva e, posteriormente, extração da madeira de Araucária.\n\n**4) Clima da Serra:**\nA serra é a região mais fria do Brasil. O frio não ocorre pela proximidade latitudinal, mas pela elevada Altitude.\n\n~Gabarito~\n**B) Lages foi fundada no século XVIII, à beira do caminho das tropas que ligava os campos do sul a Sorocaba, por expedição a serviço do governo da capitania de São Paulo.**\n**> CERTO <**\nLages foi fundada em 1766 por Antônio Correia Pinto, a serviço do governo da capitania de São Paulo, para assegurar o caminho das tropas entre o Sul e Sorocaba; a região só passou a Santa Catarina em 1820.\n\n~Gentalha~\n**A) Lages surgiu no século XIX como núcleo de colonização alemã, vinculado à expansão das colônias do Vale do Itajaí em direção ao interior do território catarinense.**\n**> ERRADO <**\nLages surgiu no século XVIII, ligada ao tropeirismo e à pecuária dos campos de altitude, e não à colonização alemã do Vale do Itajaí.\n\n**C) a Serra do Rio do Rastro, trecho de rodovia que liga o planalto ao litoral, situa-se na escarpa da Serra do Mar, nas proximidades de Joinville, no nordeste do Estado.**\n**> ERRADO <**\nA Serra do Rio do Rastro está na escarpa da Serra Geral, no sul do Estado, na ligação entre Lauro Müller e Bom Jardim da Serra.\n\n**D) a economia do planalto serrano assentou-se historicamente na mineração de ouro, atividade que atraiu os primeiros povoadores da região ainda no século XVII.**\n**> ERRADO <**\nA economia serrana assentou-se historicamente na pecuária extensiva, no tropeirismo e, mais tarde, na exploração madeireira da araucária, e não na mineração de ouro.\n\n**E) o planalto serrano registra as maiores médias anuais de temperatura do Estado, em razão da maior proximidade em relação ao Trópico de Capricórnio.**\n**> ERRADO <**\nO planalto serrano registra as menores temperaturas do Estado, em razão da altitude elevada; o fator determinante é a altitude, e não a latitude.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca relacionar Lages ao Caminho das Tropas, **ENTÃO** a assertiva é c(Verdadeira).\n\n!Interpretando a Banca!\n~Gatilho~\nAs bancas adoram usar palavras atrativas falsas como 'mineração de ouro' para regiões cujo verdadeiro motor de desenvolvimento foi o gado ou a agricultura de subsistência."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_boss_inter_01",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 400,
+      "front": "**Chefe Intermediário: Geografia e História de SC (Q75 a Q77)**\n\nAvalie a veracidade das afirmações abaixo:",
+      "stem": [
+        "vf(I. A cidade de Blumenau teve como origem a colonização alemã em 1850, desmistificando a ideia de que o Vale do Itajaí tenha sido primordialmente fundado por italianos no século XVIII.)",
+        "vf(II. A forte produção de moluscos e maçãs na Região Metropolitana de Florianópolis garante a Santa Catarina o primeiro lugar em produtividade nacional em ambos os setores.)",
+        "vf(III. A fundação de Lages ocorreu a serviço de São Paulo para assegurar o famoso caminho de tropas em direção a Sorocaba.)"
+      ],
+      "options": [
+        "A) V, V, F.",
+        "B) F, V, V.",
+        "C) V, F, V.",
+        "D) F, F, V.",
+        "E) V, F, F."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Origens Étnicas:**\nO Vale do Itajaí tem essência alemã inicial (Hermann Blumenau). A imigração italiana chegou apenas décadas depois.\n\n**2) Geografia das Culturas:**\nFlorianópolis é o rei dos moluscos, mas maçã exige frio. Maçã fica na Serra (São Joaquim) e Meio-Oeste (Fraiburgo).\n\n**3) Tropeirismo Paulista:**\nLages nasceu para proteger o fluxo de animais do RS para São Paulo.\n\n~Gabarito~\n**C) V, F, V.**\n\n**I. A cidade de Blumenau teve como origem a colonização alemã em 1850, desmistificando a ideia de que o Vale do Itajaí tenha sido primordialmente fundado por italianos no século XVIII.**\n**> CERTO <**\nA colônia foi fundada por Hermann Blumenau no século XIX, trazendo pioneiramente imigrantes alemães.\n\n**III. A fundação de Lages ocorreu a serviço de São Paulo para assegurar o famoso caminho de tropas em direção a Sorocaba.**\n**> CERTO <**\nAntônio Correia Pinto fundou o núcleo por conta do tropeirismo que alimentava o Sudeste.\n\n~Gentalha~\n**II. A forte produção de moluscos e maçãs na Região Metropolitana de Florianópolis garante a Santa Catarina o primeiro lugar em produtividade nacional em ambos os setores.**\n**> ERRADO <**\nA Grande Florianópolis é líder em moluscos, mas a maçã precisa do clima temperado da serra catarinense.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** maçã está no litoral, **ENTÃO** a assertiva é c(Falsa).\n\n!Break para Respirar!\n~Otávio~\nMuito cuidado, não se deixe enganar misturando as culturas de diferentes regiões climáticas!"
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_q78",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Questão 078:**\n\nSobre a história de Florianópolis, capital do Estado de Santa Catarina, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) a denominação Florianópolis foi adotada ainda no período imperial, por ato do governo da província, em substituição ao antigo nome de Nossa Senhora do Desterro.",
+        "B) a Ponte Hercílio Luz, primeira ligação rodoviária entre a ilha e o continente, foi inaugurada na década de 1970, substituindo a travessia por embarcações.",
+        "C) a Lagoa da Conceição situa-se na porção continental do município, junto ao bairro do Estreito, e não na Ilha de Santa Catarina, onde fica o centro da capital.",
+        "D) a antiga Nossa Senhora do Desterro passou a denominar-se Florianópolis no final do século XIX, em homenagem ao presidente Floriano Peixoto, após a derrota dos revoltosos federalistas na cidade.",
+        "E) a sede do governo da capitania de Santa Catarina foi instalada em Laguna, de onde se transferiu para Desterro depois da independência do Brasil, já no período imperial."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Troca de Nome da Capital:**\nA cidade chamava-se Nossa Senhora do Desterro. O nome Florianópolis foi uma imposição política após a vitória contra a Revolução Federalista (já na República, em 1894), em homenagem/bajulação a Floriano Peixoto (que mandou fuzilar revoltosos na Ilha de Anhatomirim).\n\n**2) Pontes:**\nA Ponte Hercílio Luz é antiga, de 1926. Ela é pênsil e icônica. As pontes da década de 70 e 90 são as Colombo Salles e Pedro Ivo.\n\n**3) Leste da Ilha:**\nA Lagoa da Conceição fica na Ilha de Santa Catarina, na sua banda leste.\n\n**4) Origem da Capitania:**\nA sede da capitania de SC sempre esteve em Desterro (Florianópolis), desde sua criação em 1738. Laguna nunca foi a capital oficial da capitania.\n\n~Gabarito~\n**D) a antiga Nossa Senhora do Desterro passou a denominar-se Florianópolis no final do século XIX, em homenagem ao presidente Floriano Peixoto, após a derrota dos revoltosos federalistas na cidade.**\n**> CERTO <**\nApós a Revolução Federalista e a Revolta da Armada, que fizeram de Desterro a sede de um governo rebelde, a cidade recebeu, em 1894, o nome de Florianópolis, em homenagem ao presidente Floriano Peixoto.\n\n~Gentalha~\n**A) a denominação Florianópolis foi adotada ainda no período imperial, por ato do governo da província, em substituição ao antigo nome de Nossa Senhora do Desterro.**\n**> ERRADO <**\nA mudança de nome ocorreu em 1894, já na República, por lei estadual sancionada pelo governador Hercílio Luz.\n\n**B) a Ponte Hercílio Luz, primeira ligação rodoviária entre a ilha e o continente, foi inaugurada na década de 1970, substituindo a travessia por embarcações.**\n**> ERRADO <**\nA Ponte Hercílio Luz foi inaugurada em 1926; as pontes Colombo Salles e Pedro Ivo Campos são de 1975 e de 1991.\n\n**C) a Lagoa da Conceição situa-se na porção continental do município, junto ao bairro do Estreito, e não na Ilha de Santa Catarina, onde fica o centro da capital.**\n**> ERRADO <**\nA Lagoa da Conceição está na Ilha de Santa Catarina, na porção leste da ilha; o Estreito é bairro da porção continental.\n\n**E) a sede do governo da capitania de Santa Catarina foi instalada em Laguna, de onde se transferiu para Desterro depois da independência do Brasil, já no período imperial.**\n**> ERRADO <**\nDesterro foi a sede do governo desde a criação da capitania de Santa Catarina, em 1738; Laguna nunca foi a sua capital.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que Floriano Peixoto foi homenageado pacificamente no Império, **ENTÃO** marque como falso.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca adora criar falsas raízes em cidades como Laguna ou tratar a mudança do nome de Florianópolis como um ato puramente burocrático e passivo."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_q79",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Questão 079:**\n\nAcerca das manifestações culturais catarinenses e das matrizes de imigração a que se associam, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).",
+      "stem": [
+        "vf(I. A Schützenfest, realizada em Jaraguá do Sul, celebra a tradição dos clubes de atiradores trazida por imigrantes italianos vindos do Vêneto.)",
+        "vf(II. O Santuário de Santa Paulina, primeira santa canonizada do Brasil, situa-se em Nova Trento, município de colonização predominantemente alemã.)",
+        "vf(III. A Fenaostra, realizada em Florianópolis, celebra a tradição pecuarista do planalto serrano, com pratos à base de carne bovina.)",
+        "vf(IV. Pomerode, conhecida pela preservação de tradições germânicas, foi colonizada por imigrantes ucranianos vindos da Pomerânia.)"
+      ],
+      "options": [
+        "A) F, F, F, F.",
+        "B) V, F, F, V.",
+        "C) F, F, V, V.",
+        "D) V, V, V, V.",
+        "E) F, F, V, F."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Schützenfest:**\nA Festa dos Atiradores de Jaraguá do Sul tem raízes profundas germânicas, e não italianas.\n\n**2) Nova Trento:**\nComo o próprio nome sugere, Nova Trento tem colonização maciça italiana (vindo do Trentino). É o berço do turismo religioso de Santa Paulina.\n\n**3) Fenaostra:**\nA festa de Florianópolis celebra o mar, a cultura açoriana e a maricultura (ostras), sem nenhuma relação com a pecuária serrana.\n\n**4) Pomerode:**\nOs pomeranos eram prussianos (germânicos) do Báltico. Pomerode orgulha-se de ser a 'cidade mais alemã do Brasil', nada de ucranianos.\n\n~Gabarito~\n**A) F, F, F, F.**\n\n~Gentalha~\n**I. A Schützenfest, realizada em Jaraguá do Sul, celebra a tradição dos clubes de atiradores trazida por imigrantes italianos vindos do Vêneto.**\n**> ERRADO <**\nA Schützenfest, festa dos atiradores, é de tradição alemã, ligada às sociedades de tiro dos imigrantes germânicos.\n\n**II. O Santuário de Santa Paulina, primeira santa canonizada do Brasil, situa-se em Nova Trento, município de colonização predominantemente alemã.**\n**> ERRADO <**\nNova Trento é núcleo de colonização italiana, de imigrantes vindos sobretudo do Trentino, como indica o próprio nome do município.\n\n**III. A Fenaostra, realizada em Florianópolis, celebra a tradição pecuarista do planalto serrano, com pratos à base de carne bovina.**\n**> ERRADO <**\nA Fenaostra celebra a maricultura e a cultura açoriana do litoral, com pratos à base de ostras e de frutos do mar.\n\n**IV. Pomerode, conhecida pela preservação de tradições germânicas, foi colonizada por imigrantes ucranianos vindos da Pomerânia.**\n**> ERRADO <**\nOs pomeranos que colonizaram Pomerode eram imigrantes germânicos vindos da Pomerânia, região então pertencente à Prússia, e não ucranianos.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a festa possui base na maricultura, **ENTÃO** não há boi ou pecuária envolvida.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca construiu o erro trocando as etnias nas 4 opções propositalmente para verificar se o candidato possuía clareza dos redutos folclóricos. Se o nome da cidade é germânico (Pomerode, Blumenau) as etnias não são ucranianas ou italianas."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_q80",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 180,
+      "front": "**Questão 080:**\n\nAcerca do processo de reforma da Constituição do Estado de Santa Catarina, de 1989, e da iniciativa popular das leis estaduais, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).",
+      "stem": [
+        "vf(I. A proposta de emenda à Constituição do Estado será discutida e votada pela Assembleia Legislativa em dois turnos, considerando-se aprovada se obtiver, em ambos, dois terços dos votos de seus membros.)",
+        "vf(II. A emenda à Constituição do Estado será promulgada pelo Governador do Estado, no prazo de quinze dias, contado da aprovação da proposta em segundo turno.)",
+        "vf(III. A iniciativa popular de leis será exercida junto à Assembleia Legislativa pela apresentação de projeto subscrito por, no mínimo, cinco por cento dos eleitores do Estado, distribuídos por pelo menos vinte Municípios.)",
+        "vf(IV. A Constituição do Estado poderá ser emendada mediante proposta de pelo menos dois e meio por cento do eleitorado estadual, distribuído por no mínimo quarenta Municípios, com não menos de um por cento dos eleitores de cada um deles.)"
+      ],
+      "options": [
+        "A) F, V, V, V.",
+        "B) F, F, F, F.",
+        "C) V, V, F, F.",
+        "D) F, V, F, F.",
+        "E) F, F, F, V."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**1) Quórum de Aprovação da PEC Estadual:**\nEm SC, a Constituição Estadual exige 3/5 dos votos da ALESC em 2 turnos. A banca inseriu '2/3' (quórum raríssimo aplicável no PR, por exemplo).\n\n**2) Promulgação:**\nA promulgação de emendas à Constituição NUNCA passa pelas mãos do Chefe do Executivo para sanção/veto. A própria Mesa Diretora do Legislativo a promulga.\n\n**3) Iniciativa Popular de Leis e PEC:**\nEm Santa Catarina, para propor Lei: exige-se no mínimo 1% do eleitorado, dividido em pelo menos 20 municípios. Para propor Emenda à Constituição: exige-se no mínimo 2,5% do eleitorado, dividido em pelo menos 40 municípios.\n\n~Gabarito~\n**E) F, F, F, V.**\n\n**IV. A Constituição do Estado poderá ser emendada mediante proposta de pelo menos dois e meio por cento do eleitorado estadual, distribuído por no mínimo quarenta Municípios, com não menos de um por cento dos eleitores de cada um deles.**\n**> CERTO <**\nÉ a hipótese do art. 49, IV, da Constituição do Estado.\n\n~Gentalha~\n**I. A proposta de emenda à Constituição do Estado será discutida e votada pela Assembleia Legislativa em dois turnos, considerando-se aprovada se obtiver, em ambos, dois terços dos votos de seus membros.**\n**> ERRADO <**\nO art. 49, § 2º, da Constituição do Estado exige três quintos dos votos dos membros da Assembleia, em dois turnos, e não dois terços.\n\n**II. A emenda à Constituição do Estado será promulgada pelo Governador do Estado, no prazo de quinze dias, contado da aprovação da proposta em segundo turno.**\n**> ERRADO <**\nO art. 49, § 3º, atribui a promulgação da emenda à Mesa da Assembleia Legislativa; não há sanção nem promulgação pelo Governador.\n\n**III. A iniciativa popular de leis será exercida junto à Assembleia Legislativa pela apresentação de projeto subscrito por, no mínimo, cinco por cento dos eleitores do Estado, distribuídos por pelo menos vinte Municípios.**\n**> ERRADO <**\nO art. 50, § 1º, exige a subscrição por, no mínimo, um por cento dos eleitores do Estado, distribuídos por pelo menos vinte Municípios, com não menos de um por cento dos eleitores de cada um deles.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é para propor projeto de lei, **ENTÃO** SC pede c(1%) do eleitorado.\n\n!Interpretando a Banca!\n~Gatilho~\nA banca jogou o percentual federal/geral de iniciativa popular e misturou com PEC estadual. O aluno tem que dominar a constituição catarinense a fundo para não escorregar."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_01_reg_boss_final",
+      "subject": "Conhecimentos Regionais de Santa Catarina",
+      "source": "Simulados Águia",
+      "timer_override": 500,
+      "front": "**Chefe Final: História e Cultura SC (Q78 a Q80)**\n\nNesta fase final, todos os conceitos abordados entrarão em choque. Avalie as afirmativas.",
+      "stem": [
+        "vf(I. A capital de Santa Catarina recebeu o nome Florianópolis em homenagem ao Marechal Floriano Peixoto após esmagar focos de revolta que eclodiram em Desterro.)",
+        "vf(II. A ponte Colombo Salles foi a primeira obra viária que conectou a Ilha de Santa Catarina ao continente catarinense.)",
+        "vf(III. A Schützenfest em Jaraguá do Sul e a colonização de Pomerode demonstram o fortíssimo enraizamento da cultura italiana trazida pelo Império.)",
+        "vf(IV. Uma Proposta de Emenda à Constituição Estadual (PEC) não depende da chancela e assinatura final do Governador do Estado.)"
+      ],
+      "options": [
+        "A) F, F, V, V.",
+        "B) V, F, F, V.",
+        "C) V, V, F, F.",
+        "D) F, V, V, F.",
+        "E) V, F, V, V."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Mudança de Nome:**\nA vitória na Revolução Federalista mudou forçosamente o nome da cidade para bajular Floriano Peixoto.\n\n**2) Pontes:**\nA primeira ponte construída foi a Hercílio Luz, na década de 1920.\n\n**3) Culturas:**\nJaraguá do Sul e Pomerode são essencialmente germânicas (alemãs/prussianas), não italianas.\n\n**4) Processo Legislativo:**\nQualquer Emenda Constitucional, seja no âmbito federal ou estadual, é promulgada unicamente pelas Mesas Diretoras do legislativo, excluindo o veto do Executivo.\n\n~Gabarito~\n**B) V, F, F, V.**\n\n**I. A capital de Santa Catarina recebeu o nome Florianópolis em homenagem ao Marechal Floriano Peixoto após esmagar focos de revolta que eclodiram em Desterro.**\n**> CERTO <**\nFloriano sufocou a Revolta da Armada e a Revolução Federalista que tinham sede na antiga Desterro.\n\n**IV. Uma Proposta de Emenda à Constituição Estadual (PEC) não depende da chancela e assinatura final do Governador do Estado.**\n**> CERTO <**\nPEC não sofre sanção ou veto. É promulgada pela própria ALESC.\n\n~Gentalha~\n**II. A ponte Colombo Salles foi a primeira obra viária que conectou a Ilha de Santa Catarina ao continente catarinense.**\n**> ERRADO <**\nA primeira e icônica conexão foi feita pela Ponte Hercílio Luz em 1926.\n\n**III. A Schützenfest em Jaraguá do Sul e a colonização de Pomerode demonstram o fortíssimo enraizamento da cultura italiana trazida pelo Império.**\n**> ERRADO <**\nAmbas manifestações citadas são de forte matriz alemã.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** é projeto de Emenda Constitucional, **ENTÃO** o Governador c(Não) tem palavra final.\n\n!Break para Respirar!\n~Otávio~\n- Trabalho impecável. Conhecer o Estado que você fiscalizará é o mínimo para exercer suas atribuições de Auditor."
+    }
+  ]
+}

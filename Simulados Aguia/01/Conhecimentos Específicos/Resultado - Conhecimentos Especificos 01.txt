@@ -1,0 +1,176 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 25
+Acertos: 7
+Erros: 14
+Pulos: 2
+Time Out: 0
+Pontuação Líquida: -7
+Desempenho: -28%
+Resultado: Reprovado
+
+--- CARD 1 ---
+Questão: **[Boss Tutorial] - Finanças Públicas**  Neste bloco, você revisará temas cruciais da Lei 4.320/64 e LRF. Avalie as seguintes áreas de conhecimento essenciais:  
+Status: ✅ Acertou | Tempo: 345s | Avaliação: Não Avaliada
+Assinalou: A) Estou pronto para a revisão. Pode soltar os chefes!
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Questão 81:**  Em setembro, o Poder Executivo de um Estado precisa abrir crédito suplementar autorizado na lei orçamentária. O balanço patrimonial do exercício anterior registrou ativo financeiro de R$ 840 milhões e passivo financeiro de R$ 610 milhões, sem créditos adicionais reabertos. Em abril, abriu-se crédito suplementar de R$ 90 milhões à conta do superávit financeiro e, em junho, crédito extraordinário de R$ 25 milhões. A arrecadação do exercício, em milhões de reais, foi a seguinte:  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q81.png|100%|Tabela de Arrecadação}}  A área técnica informou que a tendência do exercício confirma o comportamento observado até agosto. O decreto indicará também, como recurso, a anulação parcial de dotações no valor de R$ 35 milhões. Nos termos do art. 43 da Lei nº 4.320/1964, o valor máximo do crédito suplementar que poderá ser aberto é de:
+Status: ❌ Errou | Tempo: 147s | Avaliação: Não Avaliada
+Assinalou: E) R$ 220 milhões.
+Gabarito: A
+
+--- CARD 3 ---
+Questão: **Questão 82:**  Acerca da execução orçamentária e do cumprimento das metas fiscais disciplinados na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).  A sequência correta, de cima para baixo, é:
+Status: ❌ Errou | Tempo: 117s | Avaliação: Não Avaliada
+Assinalou: A) V, V, V, V.
+Gabarito: E
+> Ferramentas: D: ✂️ Cortada
+
+--- CARD 4 ---
+Questão: **Questão 83:**  Durante o exercício, a Secretaria da Fazenda de um Estado registrou diversos ingressos de recursos no caixa do Tesouro. À luz da Lei nº 4.320/1964 e da Constituição Federal, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 130s | Avaliação: Não Avaliada
+Assinalou: E) o imposto sobre a renda retido na fonte sobre os rendimentos pagos pelo Estado e por suas autarquias constitui receita orçamentária estadual, pois o produto dessa arrecadação pertence ao Estado por força da Constituição.
+Gabarito: E
+
+--- CARD 5 ---
+Questão: **Questão 84:**  Acerca do conteúdo da lei de diretrizes orçamentárias e da lei orçamentária anual na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), é INCORRETO afirmar que:
+Status: ✅ Acertou | Tempo: 117s | Avaliação: Não Avaliada
+Assinalou: D) o projeto de lei orçamentária anual conterá reserva de contingência, cuja forma de utilização e cujo montante, definido com base na receita corrente líquida, serão estabelecidos na própria lei orçamentária anual.
+Gabarito: D
+> Ferramentas: D: ✂️ Cortada
+
+--- CARD 6 ---
+Questão: **[Chefe Intermediário] - Revisão Rápida 01**  Com base nos conceitos de orçamentos e leis orçamentárias apresentados, julgue os itens a seguir como Verdadeiro (V) ou Falso (F).  A sequência correta, de cima para baixo, é:
+Status: ✅ Acertou | Tempo: 70s | Avaliação: Não Avaliada
+Assinalou: B) V, F, V, V.
+Gabarito: B
+> Rascunho V/F (Apenas Rascunho): I1(V), I2(F), I3(V), I4(V)
+
+--- CARD 7 ---
+Questão: **Questão 85:**  Julgue os itens a seguir, relativos à geração de despesa pública na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal).  Estão corretos os itens:
+Status: ❌ Errou | Tempo: 159s | Avaliação: Não Avaliada
+Assinalou: B) I, II, III e IV.
+Gabarito: C
+> Rascunho V/F (Apenas Rascunho): I1(V), I3(F)
+> Ferramentas: E: ✂️ Cortada
+
+--- CARD 8 ---
+Questão: **Questão 86:**  Ao encerrar o exercício de 2025, um Estado apurou, no balanço patrimonial, superávit financeiro de R$ 300 milhões, assim distribuído por fonte ou destinação de recursos: superávit de R$ 210 milhões na fonte de recursos não vinculados, superávit de R$ 130 milhões na fonte vinculada às ações e serviços públicos de saúde e déficit de R$ 40 milhões na fonte vinculada a convênios celebrados com a União. Em janeiro de 2026, a Secretaria da Fazenda estuda abrir créditos adicionais com base nesse resultado. À luz da Lei nº 4.320/1964 e da Lei Complementar nº 101/2000, é correto afirmar que:
+Status: ❌ Errou | Tempo: 172s | Avaliação: Não Avaliada
+Assinalou: D) o déficit de R$ 40 milhões na fonte de convênios deve ser coberto pelo superávit da fonte vinculada à saúde, porque ambas as fontes reúnem recursos vinculados a finalidades de natureza social e podem ser compensadas entre si.
+Gabarito: C
+
+--- CARD 9 ---
+Questão: **Questão 87:**  O mandato do Governador de um Estado termina em 31 de dezembro de 2026. Em 10 de setembro desse ano, o Poder Executivo pretende contratar serviços de sustentação de sistemas por R$ 24 milhões, pagos em doze parcelas mensais iguais, de setembro de 2026 a agosto de 2027. Na fonte de recursos que custeará o contrato, a projeção para 31 de dezembro de 2026 é a seguinte: saldo de caixa de R$ 64 milhões, já deduzidos todos os pagamentos previstos para 2026, inclusive as parcelas do novo contrato vencíveis nesse ano; restos a pagar de outras despesas, a serem pagos em 2027, de R$ 38 milhões; e valores de terceiros sob guarda do Tesouro, como cauções e consignações a restituir, de R$ 13 milhões. Nos termos do art. 42 da Lei Complementar nº 101/2000, para que a contratação seja regular, o valor das parcelas do contrato a serem pagas em 2027 não pode ultrapassar:
+Status: ❌ Errou | Tempo: 285s | Avaliação: Não Avaliada
+Assinalou: C) R$ 5 milhões.
+Gabarito: E
+
+--- CARD 10 ---
+Questão: **Questão 88:**  Acerca da previsão e da arrecadação da receita pública na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).  A sequência correta, de cima para baixo, é:
+Status: ❌ Errou | Tempo: 125s | Avaliação: Não Avaliada
+Assinalou: C) V, V, V, F.
+Gabarito: B
+
+--- CARD 11 ---
+Questão: **[Chefe Intermediário] - Revisão Rápida 02**  Analise as proposições sobre as restrições finais e vinculações da LRF abordadas nas questões, marcando Verdadeiro (V) ou Falso (F).  A sequência correta é:
+Status: ❌ Errou | Tempo: 85s | Avaliação: Nota 10.0
+Assinalou: A) F, V, F, V.
+Gabarito: C
+> Rascunho V/F (Apenas Rascunho): I1(F), I2(F), I3(F), I4(V)
+
+--- CARD 12 ---
+Questão: **[Chefe Final] - Finanças Públicas (Parte 1)**  Chegou a hora de validar sua aprovação no bloco. Analise as declarações consolidadas:  A sequência correta, de cima para baixo, é:
+Status: ❌ Errou | Tempo: 65s | Avaliação: Não Avaliada
+Assinalou: C) V, V, F, F.
+Gabarito: B
+> Rascunho V/F (Apenas Rascunho): I1(V), I2(V)
+> Ferramentas: A: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 13 ---
+Questão: **[Chefe Final] - Finanças Públicas (Parte 2)**  Encerramento. Julgue os últimos preceitos:  A sequência correta, de cima para baixo, é:
+Status: ❌ Errou | Tempo: 169s | Avaliação: Não Avaliada
+Assinalou: E) V, V, F, V.
+Gabarito: D
+> Rascunho V/F (Apenas Rascunho): I2(F), I3(F), I4(V)
+> Ferramentas: B: ✂️ Cortada
+
+--- CARD 14 ---
+Questão: **[Boss Tutorial] - Governança, Gestão de TI e Projetos**  Neste bloco revisaremos COBIT, Gestão de Projetos (Preditivo/Ágil), Contratos TIC (Lei 14.133) e Kanban. Analise as bases cruciais:  
+Status: ✅ Acertou | Tempo: 585s | Avaliação: Não Avaliada
+Assinalou: A) Estou pronto para a revisão. Pode soltar os chefes!
+Gabarito: A
+
+--- CARD 15 ---
+Questão: **Questão 89:**  No COBIT 2019, a cascata de metas traduz as necessidades das partes interessadas em prioridades para o sistema de governança da informação e da tecnologia. A respeito desse mecanismo, é correto afirmar que:
+Status: 💩 Não sabia | Tempo: 165s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: B
+
+--- CARD 16 ---
+Questão: **Questão 90:**  A Secretaria da Fazenda conduzirá dois trabalhos no próximo ano. O primeiro é a migração do centro de dados para a nuvem, com escopo fixado em contrato, dependências técnicas conhecidas, exigências regulatórias rígidas e janelas de manutenção definidas com meses de antecedência. O segundo é um painel analítico de combate à sonegação, cujos requisitos dependem das hipóteses de fraude que os auditores ainda vão testar e que serão revistas a cada rodada de resultados. A diretoria pretende acompanhar os dois trabalhos no mesmo portfólio. Considerando as abordagens preditiva, adaptativa e híbrida de gerenciamento de projetos, é correto afirmar que:
+Status: ❌ Errou | Tempo: 121s | Avaliação: Não Avaliada
+Assinalou: A) o painel analítico deve ser conduzido de forma preditiva, com o escopo detalhado e aprovado no planejamento, porque requisitos instáveis aumentam o risco de retrabalho e pedem controle rigoroso de mudanças.
+Gabarito: E
+> Ferramentas: A: 📌 Fixada
+
+--- CARD 17 ---
+Questão: **Questão 91:**  Julgue os itens a seguir, relativos à contratação de bens e serviços de tecnologia da informação e comunicação à luz da Lei nº 14.133/2021.  Estão corretos os itens:
+Status: ❌ Errou | Tempo: 96s | Avaliação: Não Avaliada
+Assinalou: D) I e III.
+Gabarito: B
+> Ferramentas: A: ✂️ Cortada | C: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 18 ---
+Questão: **Questão 92:**  Na análise quantitativa dos riscos de um projeto de modernização do sistema de arrecadação, a equipe levantou os eventos a seguir, com as respectivas probabilidades e impactos financeiros:  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q92.png|100%|Tabela de Riscos}}  Os três primeiros eventos aumentam o custo do projeto; o último, se ocorrer, reduz o custo. Pelo critério do valor monetário esperado, a reserva para contingências do projeto deve ser de:
+Status: ❌ Errou | Tempo: 139s | Avaliação: Não Avaliada
+Assinalou: E) R$ 1.300 mil.
+Gabarito: A
+
+--- CARD 19 ---
+Questão: **[Chefe Intermediário] - Revisão Rápida 03**  Julgue a validade dos pilares orçamentários, leis de TIC e métodos de gestão aplicados aos cenários estatais:  A sequência correta é:
+Status: ✅ Acertou | Tempo: 104s | Avaliação: Não Avaliada
+Assinalou: B) V, V, F, V.
+Gabarito: B
+
+--- CARD 20 ---
+Questão: **Questão 93:**  Um contrato de suporte técnico mede, mensalmente, o tempo de resposta aos chamados e a disponibilidade dos sistemas, e todos os indicadores pactuados vêm sendo cumpridos. Ainda assim, pesquisas com os servidores apontam insatisfação crescente com o serviço prestado. Acerca desse cenário e da definição de indicadores e níveis de serviço, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 101s | Avaliação: Não Avaliada
+Assinalou: C) o quadro descreve o efeito melancia, em que indicadores verdes convivem com a percepção negativa dos usuários, e recomenda revisar os indicadores para medir resultados percebidos pelo negócio.
+Gabarito: C
+> Ferramentas: C: 📌 Fixada
+
+--- CARD 21 ---
+Questão: **Questão 94:**  Considerando o Guia do Scrum (2020), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).  A sequência correta, de cima para baixo, é:
+Status: 💩 Não sabia | Tempo: 59s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: A
+
+--- CARD 22 ---
+Questão: **Questão 95:**  Em licitação para serviços especiais de tecnologia da informação julgada por técnica e preço, o edital atribuiu peso de 70% à nota técnica e de 30% à nota de preço. A nota de preço de cada licitante é a razão entre o menor preço ofertado e o preço do licitante, multiplicada por 100; a nota técnica já está em escala de 0 a 100. As propostas foram as seguintes:  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q95.png|100%|Tabela de Concorrentes}}  A licitante vencedora e a sua nota final são, respectivamente:
+Status: ✅ Acertou | Tempo: 378s | Avaliação: Não Avaliada
+Assinalou: D) Alfa, com 82,2 pontos.
+Gabarito: D
+
+--- CARD 23 ---
+Questão: **Questão 96:**  O Guia Kanban apresenta o Kanban como estratégia para otimizar o fluxo de valor por meio de um sistema visual e puxado, acompanhado por medidas de fluxo. Acerca dessas medidas e das práticas do método, é INCORRETO afirmar que:
+Status: ✅ Acertou | Tempo: 104s | Avaliação: Nota 9.4
+Assinalou: E) o limite de trabalho em andamento é fixado na concepção do quadro e mantido inalterado, para preservar a comparação das medidas de fluxo.
+Gabarito: E
+> Ferramentas: A: 📌 Fixada | B: 📌 Fixada | C: 📌 Fixada
+
+--- CARD 24 ---
+Questão: **[Chefe Final] - Governança (Parte 1)**  Consolide seus conhecimentos das leis 14.133, métodos de gestão e métricas.  A sequência correta é:
+Status: ❌ Errou | Tempo: 154s | Avaliação: Nota 10.0
+Assinalou: A) F, V, V, V.
+Gabarito: D
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 25 ---
+Questão: **[Chefe Final] - Governança (Parte 2)**  Finalize e liquide essa seção julgando com frieza os conceitos-chave de leis e processos.  A sequência correta é:
+Status: ❌ Errou | Tempo: 91s | Avaliação: Não Avaliada
+Assinalou: E) V, F, V, V.
+Gabarito: D
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada
+

@@ -1,0 +1,160 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 25
+Acertos: 22
+Erros: 2
+Pulos: 1
+Time Out: 0
+Pontuação Líquida: 20
+Desempenho: 80%
+Resultado: Aprovado
+
+--- CARD 1 ---
+Questão: **Otávio:** Antes de calcular, entenda as peças. O Excesso de Arrecadação é apenas o lucro do governo? (A) Sim, basta somar os meses que a arrecadação foi maior que a previsão. (B) Não, é o saldo acumulado (lucros menos os prejuízos de todos os meses).
+Status: ✅ Acertou | Tempo: 47s | Avaliação: Não Avaliada
+Assinalou: B) Não.
+Gabarito: B
+
+--- CARD 2 ---
+Questão: **Otávio:** Vamos montar o esqueleto da fórmula.  Para achar o Valor Máximo do Crédito Suplementar, você usa o Superávit Financeiro do ano anterior. Mas você deve deduzir (subtrair) qual peça desse superávit antes de usá-lo? (A) Deduzir os créditos já comprometidos/usados. (B) Deduzir a inflação do período.
+Status: ✅ Acertou | Tempo: 28s | Avaliação: Não Avaliada
+Assinalou: A) Deduzir os créditos já comprometidos/usados.
+Gabarito: A
+
+--- CARD 3 ---
+Questão: **Otávio:** Calcule com segurança.  Dados: • Superávit Financeiro anterior: 230. • Créditos já abertos usando o superávit: 90.  Qual é o valor real que sobrou do superávit para novos créditos? (A) 230. (B) 140.
+Status: ✅ Acertou | Tempo: 14s | Avaliação: Não Avaliada
+Assinalou: B) 140.
+Gabarito: B
+
+--- CARD 4 ---
+Questão: **Otávio:** Atenção para não misturar as fatias de dinheiro.  Quando você descobre o valor do Excesso de Arrecadação, você deve deduzir o quê? (A) A anulação de dotações. (B) Os créditos extraordinários abertos no exercício.
+Status: ✅ Acertou | Tempo: 16s | Avaliação: Não Avaliada
+Assinalou: B) Os créditos extraordinários abertos no exercício.
+Gabarito: B
+
+--- CARD 5 ---
+Questão: **Otávio:** Não decore, entenda a função de cada lei. Qual lei determina as regras e os critérios de como fazer cortes (limitação de empenho) no governo? (A) LDO (Lei de Diretrizes Orçamentárias). (B) LOA (Lei Orçamentária Anual).
+Status: ✅ Acertou | Tempo: 11s | Avaliação: Não Avaliada
+Assinalou: A) LDO.
+Gabarito: A
+
+--- CARD 6 ---
+Questão: **Otávio:** Onde fica a reserva de emergência e quem manda nela?  A LOA contém a Reserva de Contingência. Mas quem estabelece a forma de utilização e o montante dessa reserva? (A) A LDO. (B) A própria LOA.
+Status: ✅ Acertou | Tempo: 21s | Avaliação: Não Avaliada
+Assinalou: A) A LDO.
+Gabarito: A
+
+--- CARD 7 ---
+Questão: **Otávio:** Entenda a diferença fatal de caixa. • **Orçamentário:** Dinheiro que pertence ao Estado em definitivo. • **Extraorçamentário:** Dinheiro que está apenas de passagem (é de outra pessoa e o Estado vai devolver).  As cauções recebidas de empresas são classificadas como: (A) Receita Orçamentária. (B) Ingresso Extraorçamentário.
+Status: ✅ Acertou | Tempo: 35s | Avaliação: Não Avaliada
+Assinalou: B) Ingresso Extraorçamentário.
+Gabarito: B
+
+--- CARD 8 ---
+Questão: **Otávio:** Atenção à origem do dinheiro. O Estado paga o salário do seu próprio servidor e retém o Imposto de Renda na Fonte (IRRF). De quem é esse dinheiro retido pela Constituição? (A) Da União (Governo Federal), portanto é extraorçamentário para o Estado. (B) Do próprio Estado, portanto é receita orçamentária própria estadual.
+Status: ❌ Errou | Tempo: 53s | Avaliação: Não Avaliada
+Assinalou: A) Da União (extraorçamentário).
+Gabarito: B
+
+--- CARD 9 ---
+Questão: **Otávio:** Entenda o "carimbo" do dinheiro. Se o dinheiro entra vinculado à Saúde no ano de 2025 e sobra um saldo para 2026. Em 2026, esse dinheiro perde o carimbo da Saúde e vira livre? (A) Não. A vinculação se mantém mesmo após o ano virar. (B) Sim. No novo ano tudo vira recurso ordinário livre.
+Status: ✅ Acertou | Tempo: 48s | Avaliação: Não Avaliada
+Assinalou: A) Não. A vinculação se mantém.
+Gabarito: A
+
+--- CARD 10 ---
+Questão: **Otávio:** Aplique a regra do carimbo. O Estado tem déficit (buraco) na conta de Convênios, e sobra de dinheiro na conta da Saúde. Ele pode usar a sobra da Saúde para tampar o buraco do Convênio? (A) Não, porque as fontes não podem ser compensadas entre si. (B) Sim, porque ambas são áreas sociais.
+Status: 💩 Não sabia | Tempo: 44s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: A
+
+--- CARD 11 ---
+Questão: **Otávio:** Não calcule ainda. Apenas identifique a regra. No fim do mandato (últimos 8 meses), o governo pode contrair obrigação (dívida) que passe para o próximo ano? (A) Apenas se houver suficiente disponibilidade de caixa LÍQUIDA. (B) De jeito nenhum, é vedado assumir contratos no último ano.
+Status: ✅ Acertou | Tempo: 55s | Avaliação: Não Avaliada
+Assinalou: A) Apenas se houver suficiente disponibilidade de caixa LÍQUIDA.
+Gabarito: A
+
+--- CARD 12 ---
+Questão: **Otávio:** Hora da prova.   • Saldo Bruto: 64 milhões. • Restos a pagar de outras contas: 38 milhões. • Valores retidos de fornecedores (cauções): 13 milhões.  Qual é a margem real de caixa (Caixa Líquido) que o prefeito dispõe para bancar um contrato novo no ano que vem? (A) 64 milhões. (B) 13 milhões.
+Status: ✅ Acertou | Tempo: 42s | Avaliação: Não Avaliada
+Assinalou: B) 13 milhões.
+Gabarito: B
+
+--- CARD 13 ---
+Questão: **Otávio:** Entenda o fluxo. A cascata do COBIT traduz ordens de cima para baixo. Qual é o topo da pirâmide (quem manda e inicia o processo)? (A) Objetivos de Governança e Gestão. (B) Necessidades das Partes Interessadas (Stakeholders).
+Status: ✅ Acertou | Tempo: 22s | Avaliação: Não Avaliada
+Assinalou: B) Necessidades das Partes Interessadas.
+Gabarito: B
+
+--- CARD 14 ---
+Questão: **Otávio:** Conecte os passos. Abaixo das 'Necessidades das Partes Interessadas', o COBIT traduz isso para a empresa inteira, e depois especificamente para a área de TI.  A ordem correta é: (A) Metas Corporativas -> Metas de Alinhamento (TI). (B) Metas de Alinhamento (TI) -> Metas Corporativas.
+Status: ❌ Errou | Tempo: 30s | Avaliação: Não Avaliada
+Assinalou: B) Metas de Alinhamento (TI) -> Metas Corporativas.
+Gabarito: A
+
+--- CARD 15 ---
+Questão: **Otávio:** Leia o ambiente antes de aplicar a ferramenta. Se um projeto tem um 'escopo fixado rígido em contrato' e 'marcos de manutenção congelados há meses', ele combina com qual abordagem? (A) Abordagem Adaptativa (Ágil). (B) Abordagem Preditiva (Tradicional/Cascata).
+Status: ✅ Acertou | Tempo: 36s | Avaliação: Não Avaliada
+Assinalou: B) Preditiva (Tradicional).
+Gabarito: B
+
+--- CARD 16 ---
+Questão: **Otávio:** Um diretor possui dois projetos na mesa: Um Preditivo e um Adaptativo. Ele pode monitorar ambos os projetos dentro do MESMO portfólio executivo da empresa? (A) Não. Um portfólio exige uma única metodologia padrão imposta. (B) Sim. A governança do portfólio rastreia valor e recursos, acomodando ciclos diferentes (híbrido).
+Status: ✅ Acertou | Tempo: 50s | Avaliação: Não Avaliada
+Assinalou: B) Sim.
+Gabarito: B
+
+--- CARD 17 ---
+Questão: **Otávio:** A Nova Lei de Licitações (14.133) inovou no pagamento de fornecedores. Ela permite que o Estado pague uma 'Remuneração Variável' baseada nas metas e desempenho do contrato para quais tipos de contratação? (A) Apenas para contratos de Serviços de Engenharia. (B) Para Obras, Serviços e também Fornecimento de Bens contínuos.
+Status: ✅ Acertou | Tempo: 106s | Avaliação: Não Avaliada
+Assinalou: B) Obras, Serviços e Fornecimento de Bens.
+Gabarito: B
+
+--- CARD 18 ---
+Questão: **Otávio:** Risco vira dinheiro na planilha.  O Valor Monetário Esperado (VME) pondera as ameaças e as oportunidades multiplicando pela probabilidade. Como você trata a matemática de uma OPORTUNIDADE (ex: Desconto)? (A) Soma junto com as ameaças para inflar a reserva financeira de cautela. (B) Subtrai do custo esperado das ameaças, pois alivia o bolso.
+Status: ✅ Acertou | Tempo: 67s | Avaliação: Não Avaliada
+Assinalou: B) Subtrai das ameaças.
+Gabarito: B
+
+--- CARD 19 ---
+Questão: **Otávio:** Não calcule ainda. Primeiro multiplique linha a linha.  • Risco A (Ameaça): 30% x R$ 200 mil • Risco B (Oportunidade de Desconto): 40% x R$ 150 mil  Qual é o Valor Monetário Esperado (Reserva) final desse pacote simples? (A) R$ 120 mil. (B) Zero (0).
+Status: ✅ Acertou | Tempo: 32s | Avaliação: Não Avaliada
+Assinalou: B) Zero (0).
+Gabarito: B
+
+--- CARD 20 ---
+Questão: **Otávio:** Os relatórios estão verdes, mas o cliente está gritando de ódio. O que há de errado na gestão do contrato de TI? (A) Nada. A insatisfação é subjetiva e alheia à gestão se o relatório técnico aponta sucesso verde. (B) A métrica escolhida mede esforço técnico em vez de medir a percepção e experiência do usuário (Efeito Melancia).
+Status: ✅ Acertou | Tempo: 18s | Avaliação: Não Avaliada
+Assinalou: B) A métrica mede esforço no lugar de experiência.
+Gabarito: B
+
+--- CARD 21 ---
+Questão: **Otávio:** Scrum sofreu mudanças drásticas em 2020. Atualize seus mapas. A Meta do Produto (Product Goal) foi introduzida como o 'Compromisso' atrelado a qual artefato? (A) Sprint Backlog. (B) Product Backlog.
+Status: ✅ Acertou | Tempo: 32s | Avaliação: Não Avaliada
+Assinalou: B) Product Backlog.
+Gabarito: B
+
+--- CARD 22 ---
+Questão: **Otávio:** A FCC exige decorar tempo. Não falhe aqui. A **Retrospectiva da Sprint** é a última reunião do ciclo. Em uma Sprint máxima de um mês (4 semanas), qual é a duração MÁXIMA imposta pelo Guia? (A) 3 horas. (B) 4 horas.
+Status: ✅ Acertou | Tempo: 37s | Avaliação: Não Avaliada
+Assinalou: A) 3 horas.
+Gabarito: A
+
+--- CARD 23 ---
+Questão: **Otávio:** O edital diz: Peso 70% Técnica e 30% Preço. A licitante Gamma ofertou o menor preço (R$ 640 mil). A nota técnica dela é 70/100. Não calcule ainda. Primeiro, qual a nota pura de PREÇO da Gamma? (A) 100. (B) 64.
+Status: ✅ Acertou | Tempo: 111s | Avaliação: Não Avaliada
+Assinalou: A) 100.
+Gabarito: A
+
+--- CARD 24 ---
+Questão: **Otávio:** No Kanban, medimos o fluxo do trabalho.  O que mede exatamente o **Tempo de Ciclo (Cycle Time)**? (A) O tempo desde que o cliente pediu (entrou na fila suja de backlog) até a entrega final. (B) O tempo decorrido do instante de *início da ação* até o *término* do item no fluxo de produção.
+Status: ✅ Acertou | Tempo: 19s | Avaliação: Não Avaliada
+Assinalou: B) O tempo decorrido do início da produção ao término.
+Gabarito: B
+
+--- CARD 25 ---
+Questão: **Otávio:** Cuidado com as prisões de metodologia. O Limite de Trabalho em Andamento (WIP Limit) é engessado e inalterado desde a concepção do quadro para preservar a matemática limpa? (A) Sim. Se alterar, quebra a comparação estatística das medidas. (B) Não. O Kanban evolui com a dor e ajusta limites para matar novos gargalos de esteira continuamente.
+Status: ✅ Acertou | Tempo: 40s | Avaliação: Não Avaliada
+Assinalou: B) Não, é adaptado e alterado sempre que o fluxo revelar gargalos.
+Gabarito: B
+
