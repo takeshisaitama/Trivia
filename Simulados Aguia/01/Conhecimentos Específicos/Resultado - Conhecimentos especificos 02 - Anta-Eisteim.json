@@ -1,0 +1,178 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 28
+Acertos: 19
+Erros: 8
+Pulos: 1
+Time Out: 0
+Pontuação Líquida: 11
+Desempenho: 39%
+Resultado: Reprovado
+
+--- CARD 1 ---
+Questão: **Otávio:** Vamos entender como a fábrica de software cobra pelo suor. Existem dois tamanhos diferentes: o Tamanho do PROJETO (o trabalho feito hoje) e o Tamanho da APLICAÇÃO (o tamanho final do prédio inteiro).  Quando um programador recebe a ordem para c(excluir) um arquivo inteiro do sistema antigo, essa exclusão conta como "trabalho pago" no tamanho do PROJETO? (A) Sim, porque remover código com segurança demanda análise, logo, a exclusão é somada no esforço do projeto. (B) Não, se o código está sendo removido, ele subtrai o valor do pagamento do projeto.
+Status: ✅ Acertou | Tempo: 52s | Avaliação: Não Avaliada
+Assinalou: A) Sim. A exclusão é somada no projeto.
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Otávio:** Agora vamos medir o Prédio Final (Aplicação). Se a aplicação tinha 420 pontos de área construída. O projeto adicionou 23 pontos novos e excluiu 10 pontos velhos.  Na hora de calcular o tamanho final da APLICAÇÃO, o que você faz com os 10 pontos excluídos? (A) Você os subtrai da (420 - 10), porque eles saíram fisicamente do prédio. (B) Você os soma (420 + 10), porque deram trabalho para o programador.
+Status: ❌ Errou | Tempo: 22s | Avaliação: Não Avaliada
+Assinalou: B) Você os soma.
+Gabarito: A
+
+--- CARD 3 ---
+Questão: **Otávio:** O Git tem áreas distintas: o seu HD (Diretório de Trabalho) e o "carrinho de compras" (Área de Preparação / Staging Area).  Quando você usa o comando `git restore --staged arquivo.txt`, o que acontece fisicamente com as linhas de código que você acabou de digitar no seu HD local? (A) Elas são apagadas e o seu HD volta ao estado do último commit. (B) Elas continuam salvas no seu HD, apenas o arquivo é removido do "carrinho de compras" (Staging).
+Status: ✅ Acertou | Tempo: 66s | Avaliação: Não Avaliada
+Assinalou: B) O código continua no HD.
+Gabarito: B
+
+--- CARD 4 ---
+Questão: **Otávio:** Stash é uma gaveta temporária onde você joga seu código bagunçado quando precisa mudar de ramo (branch) correndo.  Qual é a diferençal entre `git stash pop` e `git stash apply` ao recuperar o código da gaveta? (A) O 'pop' recupera o código e esvazia (deleta) a gaveta. O 'apply' recupera o código mas mantém uma cópia de segurança na gaveta. (B) O 'apply' recupera o código e deleta a gaveta. O 'pop' mantém a cópia.
+Status: ✅ Acertou | Tempo: 95s | Avaliação: Não Avaliada
+Assinalou: A) Pop deleta a gaveta; Apply mantém a gaveta.
+Gabarito: A
+
+--- CARD 5 ---
+Questão: **Otávio:** Não confunda rótulos. O Git tem dois tipos de Tags (etiquetas de versão). - **Tag Leve (Lightweight):** É apenas um post-it, um ponteiro simples grudadom commit. - **Tag Anotada (Annotated):** É um objeto robusto, criptografado, que guarda nome de quem fez, mensagem de versão e data.  Se o auditor precisa de assinatura digital e rastreabilidade jurídica da versão, ele deve usar qual tag? (A) A Tag Anotada. (B) A Tag Leve.
+Status: ✅ Acertou | Tempo: 48s | Avaliação: Não Avaliada
+Assinalou: A) A Tag Anotada.
+Gabarito: A
+
+--- CARD 6 ---
+Questão: **Otávio:** Quando o governo pede um software, ele não escreve código SQL, ele escreve uma História de Usuário focada no negócio. Se a equipe de TI redigir um Critério de Aceitação no formato BDD: `"DADO que sou fiscal, QUANDO eu clico em Filtrar, ENTÃO vejo apenas notas do mês"`.  Esse texto narra a solução técnica de como o banco de dados vai fazer isso? (A) Sim, histórias completas ditam os índices e tabelas do banco de dados. (B) Não, o critério narra apenas o comportamento e o resultado esperado, delimitando testes, sem ditar a arquitetura.
+Status: ✅ Acertou | Tempo: 71s | Avaliação: Não Avaliada
+Assinalou: B) Não, narra o comportamento humano esperado.
+Gabarito: B
+
+--- CARD 7 ---
+Questão: **Otávio:** O navegador processa o JavaScriptma fila de classes sociais bem definidas.  A Ordem de Execução é: 1º) **Código Síncrono:** Manda e obedece na hora. 2º) **Microtarefas (VIP):** Onde habitam os `Promises` e `then`. 3º) **Macrotarefas (Lentas):** Onde moram os temporizadores como o `setTimeout`.  Se você agendar um `setTimeout` para ZERO milissegundos, ele vai furar a fila das Microtarefas (Promises)? (A) Não, ele sempre ficará para o final, nas Macrotarefas. (B) Sim, o tempo zero transforma a macrotarefa em código síncrono imediato.
+Status: ✅ Acertou | Tempo: 155s | Avaliação: Não Avaliada
+Assinalou: A) Não. O setTimeout sempre cai para as Macrotarefas.
+Gabarito: A
+
+--- CARD 8 ---
+Questão: **Otávio:** A palavra `await` é uma parede invisível dentro de uma função. Tudo que vem ANTES do primeiro `await` na função executa de que forma? (A) Executa como código síncrono normal (imediato). (B) É jogado inteiro para a fila de Microtarefas (VIP), rodando com atraso.
+Status: ❌ Errou | Tempo: 37s | Avaliação: Não Avaliada
+Assinalou: B) Para a fila de Microtarefas.
+Gabarito: A
+
+--- CARD 9 ---
+Questão: **Otávio:** Entenda o cenário de guerra davem.   • **Rolling Deployment (Lotes):** Você atualiza servidor por servidor aos pouquinhos dentro da sua física, matando e subindo um por um. • **Implantação Azul-Verde:** Você mantém DOIS ambientes gigantes es de produção em paralelo. O tráfego inteiro vira no roteador.  Se o Estado precisa de uma estratégia onde a reversão (rollback) é instantânea através do redirecionamento absoluto do tráfego sem mexer na infra, ele deve usar: (A) Implantação Azul-Verde. (B) Rolling Deployment.
+Status: ❌ Errou | Tempo: 49s | Avaliação: Não Avaliada
+Assinalou: B) Rolling Deployment.
+Gabarito: A
+
+--- CARD 10 ---
+Questão: **Otávio:** Pense no nome: Canário na mina de carvão. Na liberação canário, o governo transfere 100% do tráfego dos servidores estaduais de uma só vez para a versão nova para ver se cai? (A) Não. A versão nova é exposta apenas a uma pequena parcela do tráfego (cobaia), que cresce aos poucos dependendo da telemetria de erro. (B) Sim, todo o tráfego transfere de uma vez e a reversão exige desinstalar tudo.
+Status: ✅ Acertou | Tempo: 48s | Avaliação: Não Avaliada
+Assinalou: A) Não. Expõe parcela pequena.
+Gabarito: A
+
+--- CARD 11 ---
+Questão: **Otávio:** As duas métricas provam se a fábrica de software trabalha direito. - A **Eficiência** mede o seu escudo: a fração dos defeitoss em laboratório ANTES de lançar. - A **Densidade** mede sua falha: o total de furos que vazo pra produção, dividido pelo tamanho (pontos de função).  Para calcular a Eficiência (o que você filtrou), você usa como Total apenas os defeitos achados no laboratório? (A) Não, você divide os que achou no laboratório pela soma ABSOLUTA de todos os defeitos do universo (laboratório + os que escaparam). (B) Sim, você apenas soma as falhas internas.
+Status: ❌ Errou | Tempo: 127s | Avaliação: Não Avaliada
+Assinalou: B) Sim, a base é apenas a falha interna.
+Gabarito: A
+
+--- CARD 12 ---
+Questão: **Otávio:** Agora é a vez da métrica de 'Punição'. A **Densidade de Defeitos Entregues** quer descobrir quão infestado o código chegou na mão do cliente final. Quais números você divide para chegar nessa taxa? (A) Total de defeitos encontrados internamente ANTES da entrega DIVIDIDO pelo total do software entregue (PF). (B) Apenas os defeitos reais que CHEGARAM na produção (após entrega) DIVIDIDO pelo tamanho do software (Pontos de Função).
+Status: ✅ Acertou | Tempo: 61s | Avaliação: Não Avaliada
+Assinalou: B) Defeitos que escaparam para produção / PF.
+Gabarito: B
+
+--- CARD 13 ---
+Questão: **Otávio:** Como atualizar um sistema legado (jurássico) sem matá-lo do nada e travar o Estado? Usamos o **Padrão de Estrangulamento (Strangler Fig)**.  Qual é a mecânica cravada biológica e do Padrão de Estrangulamento na fábrica do legado? (A) Ele mata o sistema antigom fim de semana (big bang) e instala as novas frentes de código de um único salto no galpão vazio. (B) Ele cria uma fachada por fora e substitui as funcionalidades do legado de forma gradual e lenta aos poucos, migrando o tráfego via roteamento.
+Status: ✅ Acertou | Tempo: 35s | Avaliação: Não Avaliada
+Assinalou: B) Fachada gradual paralela (Migração em fatias).
+Gabarito: B
+
+--- CARD 14 ---
+Questão: **Otávio:** CQRS significa 'Segregação de Responsabilidade de Comando e Consulta'. Isso quer dizer que, no coração da arquitetura, o time cria O MESMO banco de dados cru para quem insere dados (Comando/Escrita pesada) e quem tira relatórios fáceis (Consulta/Leitura)? (A) Sim, para evitar complexidade, usa-se a mesma máquina. (B) Não, ele separa e isola o modelo/banco que sofre o suor da escrita do modelo que atende as milhares de cópias de leitura.
+Status: ✅ Acertou | Tempo: 52s | Avaliação: Não Avaliada
+Assinalou: B) Não, ele separa o modelo de escrita do de leitura.
+Gabarito: B
+
+--- CARD 15 ---
+Questão: **Otávio:** O API Gateway é a porta do castelo dos microsserviços do governo. Ele faz papelmente tático transversal (ex: rotear a porta, conferir autenticação e barrar ataque DDOS/Rate Limiting).  Mas ele deve acumular dentro de si as **Regras de Negócio** cruciais fluídass (ex: cálculo complexo de ICMS da Receita no código interno dele)? (A) Não. Regras de negócio continuam exclusivamente com os serviços atrás da porta. O gateway atua como porteiro de utilidadess de infraestrutura. (B) Sim, ele concentra as lógicas para virar o cérebro do estado e poupar os serviços.
+Status: ✅ Acertou | Tempo: 49s | Avaliação: Não Avaliada
+Assinalou: A) Não. Regras de negócio não vão no Gateway.
+Gabarito: A
+
+--- CARD 16 ---
+Questão: **Otávio:** Pare de pensar em tabelas tradicionais (que só salvam o saldo atual da conta e perdem o passado). No **Event Sourcing**, qual é a fonte verdadeira que a máquina consulta para calcular e dizer qual é o estado atual de um pedido no portal contábil do governo? (A) A sequência de eventos (log das pedradas do histórico de adições e deleçõess), que é reproduzida desde o dia zero para apurar a atual. (B) Uma tabela que gravamente emente apenas o saldomérico final e perde para a lixeira o rastro da auditoria anterior estática.
+Status: ✅ Acertou | Tempo: 79s | Avaliação: Não Avaliada
+Assinalou: A) A sequência histórica inalterada de todos os eventos cruzados.
+Gabarito: A
+
+--- CARD 17 ---
+Questão: **Otávio:** O navegador do usuário armazena páginas pesadas para não esgotar a rede. Qual diretiva HTTP proíbe terminantemente e a máquina local de salvar qualquer fragmento de dado do arquivo sigiloso do servidor na memória em disco do HD cliente? (A) Cache-Control: no-cache. (B) Cache-Control: no-store.
+Status: ✅ Acertou | Tempo: 20s | Avaliação: Não Avaliada
+Assinalou: B) no-store.
+Gabarito: B
+
+--- CARD 18 ---
+Questão: **Otávio:** Entenda o ping pong do HTTP condicional atrelado de motor da rede. O cliente já salvou o arquivo em cache e quer saber se ele ainda vale. Ele envia o carimbo de versão (**If-None-Match**). Se o servidor ver que o arquivo não mudou navem, ele deve enviar uma resposta para evitar transferir tudo de novo no cano.  Qual é a resposta magra e vazia da web que significa: "A sua cópia armazenada aí localmente continua válida e fresca. Sem alterações. Não vou mandar o corpo do Payload da fita pra você, gaste apenas o que tem na mão"? (A) 200 OK (com o arquivo).  (B) 304 Not Modified (sem corpo de payload).
+Status: ❌ Errou | Tempo: 52s | Avaliação: Não Avaliada
+Assinalou: A) 200 OK (com o arquivo inteiro).
+Gabarito: B
+
+--- CARD 19 ---
+Questão: **Otávio:** Sistemas jurássicos (Mainframes) processam arquivos à noite em lotes gigantes. Para garantir que o arquivo não perdeu linhas ou sofreu fraude, existem três marcadores no cabeçalho: 1. **Contagem de Registros:** Avisa quantas linhas o arquivo tem. 2. **Soma Financeira:** Soma todo o dinheiro da coluna de R$. 3. **Total de Verificação (Hash de ID):** Soma os *números de matrícula/contrato* (que não são dinheiro).  Se um hacker entrar no arquivo e inverter os centavos do salário de alguém de R$ 15.400 para R$ 14.500, mantendo a mesma pessoa e a mesma quantidade de linhas. Qual dos três marcadores vai apitar o erro? (A) A Soma Financeira. (B) O Total de Verificação.
+Status: ✅ Acertou | Tempo: 43s | Avaliação: Não Avaliada
+Assinalou: A) A Soma Financeira.
+Gabarito: A
+
+--- CARD 20 ---
+Questão: **Otávio:** Agora a fraude mudou. O arquivo tem 100 linhas. O hacker apagou a linha do contrato do 'João' e inseriu outra linha do contrato do 'Pedro', duplicando Pedro, ambos com exatamente o mesmo valor financeiro (R$ 5.000).  A contagem de registros continua 100. A soma do dinheiro bate perfeitamente. Qual o único marcador primitivo que vai estourar na tela e denunciar o hacker? (A) A Soma de Valores Financeiros. (B) O Total de Verificação (Soma dos Contratos).
+Status: ✅ Acertou | Tempo: 45s | Avaliação: Não Avaliada
+Assinalou: B) Total de Verificação.
+Gabarito: B
+
+--- CARD 21 ---
+Questão: **Otávio:** Integrações de sistemas governam o Estado. No padrão de Polling, o consumidor precisa ligar de 5 em 5 minutos para o provedor e perguntar: "Tem novidade?". Isso esgota a rede.  Qual é o padrão onde o consumidor relaxa, e o provedor empurra ativamente a notificação (Push) dizendo: "Aconteceu um evento!"? (A) Polling Ativo. (B) Webhooks.
+Status: ❌ Errou | Tempo: 24s | Avaliação: Não Avaliada
+Assinalou: A) Polling Ativo.
+Gabarito: B
+
+--- CARD 22 ---
+Questão: **Otávio:** Quando você clica em "Comprar", o sistema tem que gravar na tabela de Vendas e também mandar um e-mail. Se a tabela gravar, mas a rede cair e o e-mail não for enviado, o banco fica inconsistente.  O que o Padrão Outbox (Caixa de Saída) faz para resolver isso de forma? (A) Ele confia no protocolo da fila e manda o evento pela rede antes de salvar no banco. (B) Ele grava o Evento do e-mail em uma Tabela Auxiliar DENTRO da própria transação do banco principal, e outro processo envia o evento depois.
+Status: ✅ Acertou | Tempo: 60s | Avaliação: Não Avaliada
+Assinalou: B) Grava o evento na mesma transação de banco de dados.
+Gabarito: B
+
+--- CARD 23 ---
+Questão: **Otávio:** O que acontece se uma mensagem corrompida entrar no Kafka ou RabbitMQ? Ela vai dar erro, o sistema tentará enviar de novo, dará erro, tentando em looping infinito e bloqueando toda a fila do Estado.  Qual é a solução arquitetural de ponta para ejetar essa mensagem defeituosa e desentupir o fluxo? (A) Dead Letter Queue (Fila de Mensagenss). (B) Apagar a mensagem do broker e não alertar ninguém.
+Status: ✅ Acertou | Tempo: 57s | Avaliação: Não Avaliada
+Assinalou: A) Dead Letter Queue (Fila Morta).
+Gabarito: A
+
+--- CARD 24 ---
+Questão: **Otávio:** A FCC cobra isso em toda prova. - **DML (Manipulação):** O pedreiro que varre, e adiciona cadeiras (Insert, Update, Delete, Merge). - **DDL (Definição/Estrutura):** O engenheiro que explode e reconstrói o prédio de cimento (Create, Alter, Drop, Truncate).  O comando TRUNCATE apaga os dados, logo as pessoas confundem com o DELETE. Mas o Truncate aceita a cláusula WHERE para escolher apagar apenas a linha de "SC"? (A) Sim, ele é como um Delete muito mais forte. (B) Não, ele aniquila a tabela inteira instantaneamente, sem filtrar (não aceita WHERE).
+Status: ❌ Errou | Tempo: 54s | Avaliação: Não Avaliada
+Assinalou: A) Sim, aceita WHERE.
+Gabarito: B
+
+--- CARD 25 ---
+Questão: **Otávio:** E o grupo TCL (Controle de Transações)? Eles governam a segurança do pacote. Se algo der errado, você dá um `ROLLBACK` (desfaz). Se der certo, você dá um `COMMIT` (salva pra sempre).  O comando `SAVEPOINT` serve para quê? (A) Para encerrar a transação corrente e gravar de forma definitiva (salvar pra sempre). (B) Para criar um checkpoint (uma bandeira) DENTRO da mesma transação, permitindo desfazer o erro até ali sem matar a transação inteira.
+Status: ✅ Acertou | Tempo: 105s | Avaliação: Não Avaliada
+Assinalou: B) Cria um checkpoint interno.
+Gabarito: B
+
+--- CARD 26 ---
+Questão: **Otávio:** Um servidor (Principal) copia os dados para outro (Réplica) para não perder informações de receita.  • **Síncrono:** O servidor Principal manda gravar na Réplica e ESPERA a réplica dizer "Gravei", e só então ele dá "Sucesso" na tela do usuário. • **Assíncrono:** O Principal manda gravar no próprio disco, diz "Sucesso" pro usuário na hora, e só depois (com atraso) manda a cópia pra Réplica.  Na replicação c(assíncrona), existe risco de perder dados confirmados se houver um apagão? (A) Sim, porque o servidor confirmou na tela antes da réplica receber a cópia. (B) Não, na assíncrona o banco não confirma nada antes de garantir nas duas máquinas.
+Status: ✅ Acertou | Tempo: 61s | Avaliação: Não Avaliada
+Assinalou: A) Sim. Há risco de perda no gap do atraso.
+Gabarito: A
+
+--- CARD 27 ---
+Questão: **Otávio:** Um estagiário cometeu um erro desastroso e deletou a tabela inteira do Diário Oficial no servidor Principal (DROP TABLE).  A Réplica do banco de dados (feita em tempo real) vai salvar a pele do estagiário e recuperar os dados deletados? (A) Sim, as réplicas cumprem sempre o papel exato de cópias de segurança (Backup), preservando dados apagados no Principal. (B) Não, a exclusão acidental será imediatamente replicada para a Réplica, deletando os dados nos dois lugares.
+Status: ❌ Errou | Tempo: 47s | Avaliação: Não Avaliada
+Assinalou: A) Sim, as réplicas agem como backup protetor frio.
+Gabarito: B
+
+--- CARD 28 ---
+Questão: **Otávio:** O Boss da Aprovação. Analise e liquide as premissas de Arquitetura, JS e Banco.  A sequência correta é:
+Status: 💩 Não sabia | Tempo: 8s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: D
+
