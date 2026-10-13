@@ -1,0 +1,435 @@
+{
+  "messages": {
+    "aprovado": "Você foi curado da confusão de conceitos e destravou a lógica da banca!"
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_001",
+      "subject": "Engenharia de Software",
+      "source": "ALFABETIZAÇÃO - IFPUG Básico",
+      "timer_override": 180,
+      "front": "**Otávio:** Vamos entender como a fábrica de software cobra pelo suor.\nExistem dois tamanhos diferentes: o Tamanho do PROJETO (o trabalho feito hoje) e o Tamanho da APLICAÇÃO (o tamanho final do prédio inteiro).\n\nQuando um programador recebe a ordem para c(excluir) um arquivo inteiro do sistema antigo, essa exclusão conta como \"trabalho pago\" no tamanho do PROJETO?\n(A) Sim, porque remover código com segurança demanda análise, logo, a exclusão é somada no esforço do projeto.\n(B) Não, se o código está sendo removido, ele subtrai o valor do pagamento do projeto.",
+      "stem": [],
+      "options": [
+        "A) Sim. A exclusão é somada no projeto.",
+        "B) Não. A exclusão subtrai."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Front-Loading do Tutorial~\nA diferença central é que PROJETO = Suor da equipe. APLICAÇÃO = Imóvel final.\n\n~Aprofundamento Gold~\n**1) Tamanho do Projeto de Melhoria:**\n- **Definição:** É a fatura do trabalho.\n- **Mecanismo:** Você soma todas as horas suadas: Inclusões (ADD) + Alterações (CHG) + Exclusões (DEL). Excluir código sem quebrar o sistema dá trabalho. Logo, a exclusão c(SOMA) pontos no projeto.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir o tamanho do Projeto de Melhoria em pontos de função, **ENTÃO** as funções excluídas (DEL) devem ser c(SOMADAS) à conta."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_002",
+      "subject": "Engenharia de Software",
+      "source": "MONTAGEM - IFPUG Aplicação",
+      "timer_override": 180,
+      "front": "**Otávio:** Agora vamos medir o Prédio Final (Aplicação).\nSe a aplicação tinha 420 pontos de área construída. O projeto adicionou 23 pontos novos e excluiu 10 pontos velhos.\n\nNa hora de calcular o tamanho final da APLICAÇÃO, o que você faz com os 10 pontos excluídos?\n(A) Você os subtrai da (420 - 10), porque eles saíram fisicamente do prédio.\n(B) Você os soma (420 + 10), porque deram trabalho para o programador.",
+      "stem": [],
+      "options": [
+        "A) Você os subtrai da base.",
+        "B) Você os soma."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A Aplicação é o inventário patrimonial.\n**2)** Se você construiu um puxadinho, você soma (ADD = +23).\n**3)** Se você demoliu a varanda velha, a área construída cai (DEL = -10).\n**4)** Resultado da sem alterações: 420 + 23 - 10 = 433.\n\n**Erro típico:** Tratar o cálculo da Aplicação igual ao do Projeto.\n**Correção:** No projeto (suor), a exclusão c(soma). Na aplicação (patrimônio), a exclusão c(subtrai).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir o tamanho da Aplicação após o projeto, **ENTÃO** a exclusão atua como subtração patrimonial."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_003",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - Git Restore",
+      "timer_override": 180,
+      "front": "**Otávio:** O Git tem áreas distintas: o seu HD (Diretório de Trabalho) e o \"carrinho de compras\" (Área de Preparação / Staging Area).\n\nQuando você usa o comando `git restore --staged arquivo.txt`, o que acontece fisicamente com as linhas de código que você acabou de digitar no seu HD local?\n(A) Elas são apagadas e o seu HD volta ao estado do último commit.\n(B) Elas continuam salvas no seu HD, apenas o arquivo é removido do \"carrinho de compras\" (Staging).",
+      "stem": [],
+      "options": [
+        "A) O código é apagado do HD.",
+        "B) O código continua no HD."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** A palavra `--staged` aponta exclusivamente para a Área de Preparação (o Index).\n**2)** O comando arranca o arquivo do próximo commit (tira do carrinho).\n**3)** Mas o seu suor físico (o arquivo no diretório de trabalho do seu HD) c(fica intocado e a salvo).\n\n**Erro típico:** Achar que 'restore' sempre deleta o arquivo físico de volta no tempo.\n**Correção:** O restore c(com) a tag `--staged` protege o disco local e ataca apenas a fila do commit.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o comando possuir a palavra `--staged`, **ENTÃO** os dados físicos no seu monitor de tela estão seguros e não serão apagados."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_004",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - Git Stash",
+      "timer_override": 180,
+      "front": "**Otávio:** Stash é uma gaveta temporária onde você joga seu código bagunçado quando precisa mudar de ramo (branch) correndo.\n\nQual é a diferençal entre `git stash pop` e `git stash apply` ao recuperar o código da gaveta?\n(A) O 'pop' recupera o código e esvazia (deleta) a gaveta. O 'apply' recupera o código mas mantém uma cópia de segurança na gaveta.\n(B) O 'apply' recupera o código e deleta a gaveta. O 'pop' mantém a cópia.",
+      "stem": [],
+      "options": [
+        "A) Pop deleta a gaveta; Apply mantém a gaveta.",
+        "B) Apply deleta a gaveta; Pop mantém a gaveta."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** c(Pop) significa \"estourar\" e ejetar a pilha. Você puxa a alteração de volta pra tela e a entrada na pilha do Git é c(destruída).\n**2)** c(Apply) significa apenas aplicar a pintura. Você puxa a alteração pra tela, mas a cópia de backup c(continua e armazenada) silenciosamente na gaveta do Stash.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você usar o comando Pop, **ENTÃO** a sua rede de segurança (backup no stash) é eliminada após o resgate."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_005",
+      "subject": "Engenharia de Software",
+      "source": "PONTE - Git Tags",
+      "timer_override": 180,
+      "front": "**Otávio:** Não confunda rótulos. O Git tem dois tipos de Tags (etiquetas de versão).\n- **Tag Leve (Lightweight):** É apenas um post-it, um ponteiro simples grudadom commit.\n- **Tag Anotada (Annotated):** É um objeto robusto, criptografado, que guarda nome de quem fez, mensagem de versão e data.\n\nSe o auditor precisa de assinatura digital e rastreabilidade jurídica da versão, ele deve usar qual tag?\n(A) A Tag Anotada.\n(B) A Tag Leve.",
+      "stem": [],
+      "options": [
+        "A) A Tag Anotada.",
+        "B) A Tag Leve."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A Tag Leve é burra, não guarda nada do autor.\n**2)** A Tag Anotada c(armazena o nome de quem a criou, a data e a mensagem) formal da versão.\n**3)** Somente ela possui corpo técnico para receber assinatura GPG.\n\n**Erro típico:** Inverter os conceitos e achar que a Tag Leve é o registro completo.\n**Correção:** Leve é leve (só ponteiro). Anotada é gorda (metadados).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca listar \"autor, data e mensagem digital\", **ENTÃO** ela descreve inegavelmente a estrutura de uma Tag c(Anotada)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_006",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - Histórias e BDD",
+      "timer_override": 180,
+      "front": "**Otávio:** Quando o governo pede um software, ele não escreve código SQL, ele escreve uma História de Usuário focada no negócio.\nSe a equipe de TI redigir um Critério de Aceitação no formato BDD: `\"DADO que sou fiscal, QUANDO eu clico em Filtrar, ENTÃO vejo apenas notas do mês\"`.\n\nEsse texto narra a solução técnica de como o banco de dados vai fazer isso?\n(A) Sim, histórias completas ditam os índices e tabelas do banco de dados.\n(B) Não, o critério narra apenas o comportamento e o resultado esperado, delimitando testes, sem ditar a arquitetura.",
+      "stem": [],
+      "options": [
+        "A) Sim, dita a arquitetura.",
+        "B) Não, narra o comportamento humano esperado."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O Manifesto Ágil prioriza a comunicação humana.\n**2)** O formato BDD (Dado-Quando-Então) é usadomente para c(delimitar o comportamento e gerar testes automatizados de front-end).\n**3)** EleNCA cita tecnologia estrutural interna (ex: \"A consulta fará um INNER JOIN usando o Índice B-Tree\").\n\n**Erro típico:** Achar que história de usuário incompleta é aquela que não diz \"como programar\".\n**Correção:** História de usuário que diz como programar é que está errada. O \"como\" quem decide é a equipe técnica de desenvolvimento na sala deles.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que a História de Usuário deve especificar a solução técnica de software, **ENTÃO** decrete falsidade."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_007",
+      "subject": "Engenharia de Software",
+      "source": "ALFABETIZAÇÃO - Event Loop Javascript",
+      "timer_override": 180,
+      "front": "**Otávio:** O navegador processa o JavaScriptma fila de classes sociais bem definidas. \nA Ordem de Execução é:\n1º) **Código Síncrono:** Manda e obedece na hora.\n2º) **Microtarefas (VIP):** Onde habitam os `Promises` e `then`.\n3º) **Macrotarefas (Lentas):** Onde moram os temporizadores como o `setTimeout`.\n\nSe você agendar um `setTimeout` para ZERO milissegundos, ele vai furar a fila das Microtarefas (Promises)?\n(A) Não, ele sempre ficará para o final, nas Macrotarefas.\n(B) Sim, o tempo zero transforma a macrotarefa em código síncrono imediato.",
+      "stem": [],
+      "options": [
+        "A) Não. O setTimeout sempre cai para as Macrotarefas.",
+        "B) Sim. O tempo zero fura a fila."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O `setTimeout` é, por DNA de linguagem, um gatilho de c(Macrotarefa).\n**2)** Colocar tempo `0` apenas significa que o navegador não vai segurar de propósito, mas ele vai obedecer a hierarquia natural do motor.\n**3)** A fila VIP das Microtarefas c(SEMPRE) é esvaziada antes que a porta das Macrotarefas seja aberta.\n\n**Erro típico:** Confiarmente no número \"0\" achando que é execução instantânea linear.\n**Correção:** O zero apenas diz \"coloque na fila imediatamente\", mas a fila que ele entra é a última a ser processada.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar um Promise misturado com SetTimeout(0), **ENTÃO** aposte sua vida que a impressão do Promise chegará na tela muito antes do Timeout."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_008",
+      "subject": "Engenharia de Software",
+      "source": "MONTAGEM - Função Async e Await",
+      "timer_override": 180,
+      "front": "**Otávio:** A palavra `await` é uma parede invisível dentro de uma função.\nTudo que vem ANTES do primeiro `await` na função executa de que forma?\n(A) Executa como código síncrono normal (imediato).\n(B) É jogado inteiro para a fila de Microtarefas (VIP), rodando com atraso.",
+      "stem": [],
+      "options": [
+        "A) Como código síncrono.",
+        "B) Para a fila de Microtarefas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O corpo inicial de uma função `async` roda em linha reta, c(SÍNCRONO).\n**2)** Quando a linha de leitura bate na palavra c(await), o interpretador sofre um 'engasgo'. \n**3)** O `await` paralisa o que vem abaixo dele. Tudo o que restou para baixo (depois do await) é empacotado e chutado para a fila de c(Microtarefas).\n\n**Erro típico:** Achar que toda a função async roda no fundo em segundo plano invisível atrasada.\n**Correção:** O topo da função async roda em prioridade máxima. Só a cauda dela vai pro fundo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você vir um `console.log()` antes de um `await`, **ENTÃO** ele sairá na tela imediatamente junto com os outros códigos síncronos normais."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_009",
+      "subject": "Engenharia de Software",
+      "source": "ALFABETIZAÇÃO - Implantação e Deploys",
+      "timer_override": 180,
+      "front": "**Otávio:** Entenda o cenário de guerra davem. \n\n• **Rolling Deployment (Lotes):** Você atualiza servidor por servidor aos pouquinhos dentro da sua física, matando e subindo um por um.\n• **Implantação Azul-Verde:** Você mantém DOIS ambientes gigantes es de produção em paralelo. O tráfego inteiro vira no roteador.\n\nSe o Estado precisa de uma estratégia onde a reversão (rollback) é instantânea através do redirecionamento absoluto do tráfego sem mexer na infra, ele deve usar:\n(A) Implantação Azul-Verde.\n(B) Rolling Deployment.",
+      "stem": [],
+      "options": [
+        "A) Implantação Azul-Verde.",
+        "B) Rolling Deployment."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Se eu rodo c(dois ambientes inteiros) de produçãos, o Roteador (Load Balancer) aponta para o Azul.\n**2)** Subo a versão nova no Verde silenciosamente.\n**3)** Viro a chave pro Verde. Se tudo quebrar, viro a chave de volta pro Azul na hora (rollback instantâneo em lote total).\n\n**Erro típico:** Achar que Azul-Verde ocorre em lotes sucessivos de máquinas graduais no mesmo pátio.\n**Correção:** Atualização de máquinas em lote no mesmo ambiente é o Rolling.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cita \"dois ambientes de produção equivalentes e redirecionar tráfego para reverter\", **ENTÃO** marque sem piedade Azul-Verde."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_010",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - Deploy Canário",
+      "timer_override": 180,
+      "front": "**Otávio:** Pense no nome: Canário na mina de carvão.\nNa liberação canário, o governo transfere 100% do tráfego dos servidores estaduais de uma só vez para a versão nova para ver se cai?\n(A) Não. A versão nova é exposta apenas a uma pequena parcela do tráfego (cobaia), que cresce aos poucos dependendo da telemetria de erro.\n(B) Sim, todo o tráfego transfere de uma vez e a reversão exige desinstalar tudo.",
+      "stem": [],
+      "options": [
+        "A) Não. Expõe parcela pequena.",
+        "B) Sim. Transfere tudo."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O canário testa o ar tóxico. Você joga c(1% dos usuários reais) para a versão V2.\n**2)** Os 99% continuam na versão velha e segura (V1).\n**3)** A equipe vigia os logs da V2. Não quebrou? Joga 10%... e vai crescendo c(gradativamente).\n\n**Erro típico:** Associar o Canário à troca de 100% do tráfego em ponteira paralela.\n**Correção:** Canário é fração miúda subindo. Troca de 100% é Azul-Verde.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado falar em transferir o tráfego aos poucos para um nicho testador cobaiass, **ENTÃO** você tem a Liberação Canário (Canary Release)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_011",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - Eficiência na Remoção de Defeitos",
+      "timer_override": 180,
+      "front": "**Otávio:** As duas métricas provam se a fábrica de software trabalha direito.\n- A **Eficiência** mede o seu escudo: a fração dos defeitoss em laboratório ANTES de lançar.\n- A **Densidade** mede sua falha: o total de furos que vazo pra produção, dividido pelo tamanho (pontos de função).\n\nPara calcular a Eficiência (o que você filtrou), você usa como Total apenas os defeitos achados no laboratório?\n(A) Não, você divide os que achou no laboratório pela soma ABSOLUTA de todos os defeitos do universo (laboratório + os que escaparam).\n(B) Sim, você apenas soma as falhas internas.",
+      "stem": [],
+      "options": [
+        "A) Não, você divide pelo Universo Total (Achados + Escapados).",
+        "B) Sim, a base é apenas a falha interna."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A conta c(Eficiência de Remoção) revela quão grossa é a sua peneira.\n**2)** Se a peneira segurou 180 pedras, mas 20 pedras caíram no prato do cliente (produção), quantas pedras existiam no Total Absoluto do Universo original? 200 pedras.\n**3)** Conta: Os retidos (180) / Total do Universo (200) = 0.90 (90% de Eficiência).\n\n**Erro típico:** Dividir 180 por 180 (matemática impossível) ou dividir o que escapou pelo tamanho da tabela sem contexto de universo global.\n**Correção:** O denominador da Eficiência é SEMPRE a soma dos defeitos descobertos dentro + fora da fábrica.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir Eficiência de Remoção de Defeitos, **ENTÃO** ache o total global somando os erros encontrados antes da entrega com os encontrados depois na rua."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_012",
+      "subject": "Engenharia de Software",
+      "source": "MONTAGEM - Densidade de Defeitos",
+      "timer_override": 180,
+      "front": "**Otávio:** Agora é a vez da métrica de 'Punição'.\nA **Densidade de Defeitos Entregues** quer descobrir quão infestado o código chegou na mão do cliente final.\nQuais números você divide para chegar nessa taxa?\n(A) Total de defeitos encontrados internamente ANTES da entrega DIVIDIDO pelo total do software entregue (PF).\n(B) Apenas os defeitos reais que CHEGARAM na produção (após entrega) DIVIDIDO pelo tamanho do software (Pontos de Função).",
+      "stem": [],
+      "options": [
+        "A) Defeitos internos / PF.",
+        "B) Defeitos que escaparam para produção / PF."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Densidade foca na DOR.\n**2)** A dor só é sentida c(após a implantação na rua) (em produção).\n**3)** Você pega apenas os fujões (ex: os 20 defeitos que escaparam após entregar).\n**4)** E fatia pelo tamanho contábil do chassi do prédio na esteira: 20 defeitos / 250 PF = Densidade c(0,08).\n\n**Erro típico:** Somar os erros achados em casa (180) na conta da Densidade Entregue.\n**Correção:** O erro achado e em casa (antes do deploy) é seu escudo natural invisível da rua final. Ele c(NÃO PODE) contar na Densidade. O cliente não o sentiu.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir Densidade de Defeitos Entregues, **ENTÃO** isole cruelmente apenas as falhas reportadas APÓS a entrega no mundo real."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_013",
+      "subject": "Engenharia de Software",
+      "source": "ALFABETIZAÇÃO - Padrão de Estrangulamento",
+      "timer_override": 180,
+      "front": "**Otávio:** Como atualizar um sistema legado (jurássico) sem matá-lo do nada e travar o Estado?\nUsamos o **Padrão de Estrangulamento (Strangler Fig)**.\n\nQual é a mecânica cravada biológica e do Padrão de Estrangulamento na fábrica do legado?\n(A) Ele mata o sistema antigom fim de semana (big bang) e instala as novas frentes de código de um único salto no galpão vazio.\n(B) Ele cria uma fachada por fora e substitui as funcionalidades do legado de forma gradual e lenta aos poucos, migrando o tráfego via roteamento.",
+      "stem": [],
+      "options": [
+        "A) Big Bang no fim de semana.",
+        "B) Fachada gradual paralela (Migração em fatias)."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Você cria um Gateway (porteiro) na frente do sistema jurássico.\n**2)** O porteiro envia 99% dos pedidos pro legado e 1% para a sua API Nova.\n**3)** Mês a mês, você refaz a API Nova cortando as artérias e sufocando em asfixia os dutos velhos inalterados do legado cru, até que o sistema antigo morra sozinho por abandono e inanição.\n\n**Erro típico:** Achar que estrangulamento apaga e encerra o sistema velho no marco do primeiro deploy.\n**Correção:** É c(Gradual).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca falar em substituir sistema legado 'gradualmente redirecionando chamadas', **ENTÃO** você tem o Strangler Fig."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_014",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - CQRS",
+      "timer_override": 180,
+      "front": "**Otávio:** CQRS significa 'Segregação de Responsabilidade de Comando e Consulta'.\nIsso quer dizer que, no coração da arquitetura, o time cria O MESMO banco de dados cru para quem insere dados (Comando/Escrita pesada) e quem tira relatórios fáceis (Consulta/Leitura)?\n(A) Sim, para evitar complexidade, usa-se a mesma máquina.\n(B) Não, ele separa e isola o modelo/banco que sofre o suor da escrita do modelo que atende as milhares de cópias de leitura.",
+      "stem": [],
+      "options": [
+        "A) Sim, mesma máquina e mesmo modelo.",
+        "B) Não, ele separa o modelo de escrita do de leitura."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)**m site governamental como o Sefaz, há 10.000 pessoas c(lendo) o Diário Oficial, e 1 pessoa c(escrevendo) a publicação nova de fato.\n**2)** Para o sistema não travar, você SEPARA (Segrega) as máquinas (ou os Modelos de Serviço).\n**3)** A escrita é um cano grosso lento de. A consulta são réplicas ágeis levess. Isso é c(CQRS).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você ouvir separar escrita de consulta para escalar com performance fina de via, **ENTÃO** é CQRS."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_015",
+      "subject": "Engenharia de Software",
+      "source": "RECONHECIMENTO - API Gateway",
+      "timer_override": 180,
+      "front": "**Otávio:** O API Gateway é a porta do castelo dos microsserviços do governo.\nEle faz papelmente tático transversal (ex: rotear a porta, conferir autenticação e barrar ataque DDOS/Rate Limiting).\n\nMas ele deve acumular dentro de si as **Regras de Negócio** cruciais fluídass (ex: cálculo complexo de ICMS da Receita no código interno dele)?\n(A) Não. Regras de negócio continuam exclusivamente com os serviços atrás da porta. O gateway atua como porteiro de utilidadess de infraestrutura.\n(B) Sim, ele concentra as lógicas para virar o cérebro do estado e poupar os serviços.",
+      "stem": [],
+      "options": [
+        "A) Não. Regras de negócio não vão no Gateway.",
+        "B) Sim. O Gateway deve ser o cérebro das regras."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Gateway = Ponto central transversal atrelado de utilidade de de infraestrutura em porta (Segurança, Cota de Uso, Tradução, Roteamento mudo).\n**2)** Se você enfiar lógicas corporativas de ICMSs e sujass orgânicass ricas de negócio no código do roteador da portaria, você o converte amaldiçoadom Monolito e asfixia a arquitetura.\n\n**Erro típico:** Achar que o Gateway absorve lógica dos microsserviços.\n**Correção:** Gateway c(NÃO PODE) ter regra de negócio dentro da sua barriga.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado cravar que o API Gateway concentra regras de negócio ricas do governo, **ENTÃO** está furado, ele é mera utilidade transversal de infra."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_016",
+      "subject": "Engenharia de Software",
+      "source": "PONTE - Event Sourcing",
+      "timer_override": 180,
+      "front": "**Otávio:** Pare de pensar em tabelas tradicionais (que só salvam o saldo atual da conta e perdem o passado).\nNo **Event Sourcing**, qual é a fonte verdadeira que a máquina consulta para calcular e dizer qual é o estado atual de um pedido no portal contábil do governo?\n(A) A sequência de eventos (log das pedradas do histórico de adições e deleçõess), que é reproduzida desde o dia zero para apurar a atual.\n(B) Uma tabela que gravamente emente apenas o saldomérico final e perde para a lixeira o rastro da auditoria anterior estática.",
+      "stem": [],
+      "options": [
+        "A) A sequência histórica inalterada de todos os eventos cruzados.",
+        "B) Uma tabela que salva apenas o saldo abstrato pontual inerte."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Event Sourcing não sobrescreve dado. \n**2)** Ele salvam baú estático: \"João depositou +10\", \"João depositou +5\", \"João sacou -2\".\n**3)** A fonte verdadeira absoluta e da fita é a fita das transações em si.\n**4)** Se precisar do saldo agora? Ele roda o filme de volta inteiro e c(reconstitui o estado final) (+10+5-2 = 13).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca listar \"estado reconstituído a partir de sequência e histórico de eventos estáticos inalteráveis\", **ENTÃO** você cravou a estaca no coração do Event Sourcing."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_017",
+      "subject": "Engenharia de Software",
+      "source": "ALFABETIZAÇÃO - Cache HTTP",
+      "timer_override": 180,
+      "front": "**Otávio:** O navegador do usuário armazena páginas pesadas para não esgotar a rede.\nQual diretiva HTTP proíbe terminantemente e a máquina local de salvar qualquer fragmento de dado do arquivo sigiloso do servidor na memória em disco do HD cliente?\n(A) Cache-Control: no-cache.\n(B) Cache-Control: no-store.",
+      "stem": [],
+      "options": [
+        "A) no-cache.",
+        "B) no-store."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nBancas cobram os pormenores dos nomes em inglês que confundem. `no-cache` soa agressivo, mas ele é manso e permissivo comparado ao seu irmão destruidor, o `no-store`.\n\n~Aprofundamento Gold~\n**1) no-store vs no-cache:**\n- **no-store:** É a ordem de incineração. c(Impede cruelmente o armazenamento de) pelas gavetassssss do disco. O dado jamais pode pousar físico na sua máquina crua.\n- **no-cache:** Ele c(permite) salvar no seu computador! Mas ele coloca um cadeado: exige obrigatório revalidação no servidor via sinal da rede e ANTES do seu browser poder de fato usar e abrir em tela o que ele guardou da fita local de cache.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o objetivo for erradicar e abortar a cópia local crua em disco, **ENTÃO** a navalha que dita a lei mortífera é o c(no-store)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_018",
+      "subject": "Engenharia de Software",
+      "source": "MONTAGEM - Requisições Condicionais",
+      "timer_override": 180,
+      "front": "**Otávio:** Entenda o ping pong do HTTP condicional atrelado de motor da rede.\nO cliente já salvou o arquivo em cache e quer saber se ele ainda vale.\nEle envia o carimbo de versão (**If-None-Match**). Se o servidor ver que o arquivo não mudou navem, ele deve enviar uma resposta para evitar transferir tudo de novo no cano.\n\nQual é a resposta magra e vazia da web que significa: \"A sua cópia armazenada aí localmente continua válida e fresca. Sem alterações. Não vou mandar o corpo do Payload da fita pra você, gaste apenas o que tem na mão\"?\n(A) 200 OK (com o arquivo). \n(B) 304 Not Modified (sem corpo de payload).",
+      "stem": [],
+      "options": [
+        "A) 200 OK (com o arquivo inteiro).",
+        "B) 304 Not Modified (sem corpo do payload)."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Você pergunta à Receita via sinal atrelado: `If-None-Match: \"ID_X123\"`.\n**2)** O servidor cruza as chaves e bate nato com o dele.\n**3)** Versõesss idênticass? O servidor c(poupa bandal). Responde c(304 Not Modified).\n**4)** E a regra magna: a resposta c(304 é fantasma). Ela viaja e vazia, não transporta o corpo encorpado do pacote, gerando a glória da velocidade na rede.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a resposta do HTTP é 304 Not Modified e da rua de código, **ENTÃO** ela c(NÃO DEVE JAMAIS) conter as carnesssss da fita crua do Corpo de Resposta (Payload), sendo apenas o carimbo para validar a via."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_019",
+      "subject": "Bancos de Dados",
+      "source": "ALFABETIZAÇÃO - Controles de Lote",
+      "timer_override": 180,
+      "front": "**Otávio:** Sistemas jurássicos (Mainframes) processam arquivos à noite em lotes gigantes.\nPara garantir que o arquivo não perdeu linhas ou sofreu fraude, existem três marcadores no cabeçalho:\n1. **Contagem de Registros:** Avisa quantas linhas o arquivo tem.\n2. **Soma Financeira:** Soma todo o dinheiro da coluna de R$.\n3. **Total de Verificação (Hash de ID):** Soma os *números de matrícula/contrato* (que não são dinheiro).\n\nSe um hacker entrar no arquivo e inverter os centavos do salário de alguém de R$ 15.400 para R$ 14.500, mantendo a mesma pessoa e a mesma quantidade de linhas. Qual dos três marcadores vai apitar o erro?\n(A) A Soma Financeira.\n(B) O Total de Verificação.",
+      "stem": [],
+      "options": [
+        "A) A Soma Financeira.",
+        "B) O Total de Verificação."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O hacker não apagou a linha inteira. Logo, a **Contagem de Registros** não muda.\n**2)** O hacker não trocou o funcionário (o número da matrícula é o mesmo). Logo, a soma das matrículas (**Total de Verificação**) não muda.\n**3)** O hacker mudou apenas o valor do dinheiro. Portanto, apenas a **Soma de Valores Financeiros** ficará menor do que o cabeçalho previa.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que a alteração foi exclusivamente financeira/monetária no lote, **ENTÃO** apenas o total financeiro e de valores acusa a discrepância."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_020",
+      "subject": "Bancos de Dados",
+      "source": "MONTAGEM - Total de Verificação",
+      "timer_override": 180,
+      "front": "**Otávio:** Agora a fraude mudou. O arquivo tem 100 linhas. O hacker apagou a linha do contrato do 'João' e inseriu outra linha do contrato do 'Pedro', duplicando Pedro, ambos com exatamente o mesmo valor financeiro (R$ 5.000).\n\nA contagem de registros continua 100. A soma do dinheiro bate perfeitamente. Qual o único marcador primitivo que vai estourar na tela e denunciar o hacker?\n(A) A Soma de Valores Financeiros.\n(B) O Total de Verificação (Soma dos Contratos).",
+      "stem": [],
+      "options": [
+        "A) Soma de Valores.",
+        "B) Total de Verificação."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Quantidade está igual (saiu 1, entrou 1).\n**2)** Dinheiro está igual (saiu 5k, entrou 5k).\n**3)** Mas a soma dos NÚMEROS DO CONTRATO mudou, porque o contrato do João (Ex: 004) sumiu, e o do Pedro (Ex: 008) foi somado duas vezes.\n**4)** Esse cálculo matemático que soma chaves de identidade (RG, ID, Número do Contrato) chama-se **Total de Verificação**.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cobrar o mecanismo para detectar exclusões e substituições indevidas mantendo o mesmo dinheiro, **ENTÃO** é o Total de Verificação (Hash de Chaves)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_021",
+      "subject": "Bancos de Dados",
+      "source": "RECONHECIMENTO - Webhook",
+      "timer_override": 180,
+      "front": "**Otávio:** Integrações de sistemas governam o Estado.\nNo padrão de Polling, o consumidor precisa ligar de 5 em 5 minutos para o provedor e perguntar: \"Tem novidade?\". Isso esgota a rede.\n\nQual é o padrão onde o consumidor relaxa, e o provedor empurra ativamente a notificação (Push) dizendo: \"Aconteceu um evento!\"?\n(A) Polling Ativo.\n(B) Webhooks.",
+      "stem": [],
+      "options": [
+        "A) Polling Ativo.",
+        "B) Webhooks."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Webhook é a campainha do seu celular.\n**2)** Em vez de abrir o aplicativo de e-mail a cada minuto (Polling), o servidor envia uma notificação push pra sua tela.\n**3)** Isso inverte o fluxo de controle e economiza infraestrutura de banco.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado diz \"o provedor notifica ativamente o consumidor quando ocorre o evento, poupando consultas periódicas\", **ENTÃO** você cravou o Webhook."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_022",
+      "subject": "Bancos de Dados",
+      "source": "ALFABETIZAÇÃO - Outbox Pattern",
+      "timer_override": 180,
+      "front": "**Otávio:** Quando você clica em \"Comprar\", o sistema tem que gravar na tabela de Vendas e também mandar um e-mail. Se a tabela gravar, mas a rede cair e o e-mail não for enviado, o banco fica inconsistente.\n\nO que o Padrão Outbox (Caixa de Saída) faz para resolver isso de forma?\n(A) Ele confia no protocolo da fila e manda o evento pela rede antes de salvar no banco.\n(B) Ele grava o Evento do e-mail em uma Tabela Auxiliar DENTRO da própria transação do banco principal, e outro processo envia o evento depois.",
+      "stem": [],
+      "options": [
+        "A) Confia na fila externa.",
+        "B) Grava o evento na mesma transação de banco de dados."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O Outbox atua como um pacote único.\n**2)** O desenvolvedor não manda nada pra rede ainda. Ele apenas insere os dados do negócio e insere o \"comando de e-mail\"ma tabela chamada \"Outbox\" no c(MESMO COMMIT) do banco local.\n**3)** Se o banco cair, cai tudo junto. Se salvar, salva tudo junto (atomicidade garantida).\n**4)** Um mensageiro em segundo plano lê essa tabela e empurra pra fila com segurança.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca listar \"evita gravar em banco local e falhar no envio para o Message Broker\", **ENTÃO** você marca a Caixa de Saída Transacional (Outbox Pattern)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_023",
+      "subject": "Bancos de Dados",
+      "source": "RECONHECIMENTO - Fila Morta (DLQ)",
+      "timer_override": 180,
+      "front": "**Otávio:** O que acontece se uma mensagem corrompida entrar no Kafka ou RabbitMQ? Ela vai dar erro, o sistema tentará enviar de novo, dará erro, tentando em looping infinito e bloqueando toda a fila do Estado.\n\nQual é a solução arquitetural de ponta para ejetar essa mensagem defeituosa e desentupir o fluxo?\n(A) Dead Letter Queue (Fila de Mensagenss).\n(B) Apagar a mensagem do broker e não alertar ninguém.",
+      "stem": [],
+      "options": [
+        "A) Dead Letter Queue (Fila Morta).",
+        "B) Esvaziar a fila e reiniciar."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O Broker tem um limite de retentativas (Ex: 5 vezes).\n**2)** Bateu no teto? Ele joga a carcaça na lixeira técnica (Dead Letter Queue - DLQ).\n**3)** A engenharia analisa depois na DLQ, e a rodovia principal de dados fica livre para as próximas mensagens andarem.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a questão descrever isolamento de mensagens falhas que esgotaram tentativas, **ENTÃO** é Fila (DLQ)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_024",
+      "subject": "Bancos de Dados",
+      "source": "ALFABETIZAÇÃO - DDL vs DML",
+      "timer_override": 180,
+      "front": "**Otávio:** A FCC cobra isso em toda prova.\n- **DML (Manipulação):** O pedreiro que varre, e adiciona cadeiras (Insert, Update, Delete, Merge).\n- **DDL (Definição/Estrutura):** O engenheiro que explode e reconstrói o prédio de cimento (Create, Alter, Drop, Truncate).\n\nO comando TRUNCATE apaga os dados, logo as pessoas confundem com o DELETE. Mas o Truncate aceita a cláusula WHERE para escolher apagar apenas a linha de \"SC\"?\n(A) Sim, ele é como um Delete muito mais forte.\n(B) Não, ele aniquila a tabela inteira instantaneamente, sem filtrar (não aceita WHERE).",
+      "stem": [],
+      "options": [
+        "A) Sim, aceita WHERE.",
+        "B) Não, ele aniquila a tabela inteira sem WHERE."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O `DELETE` (DML) vai de quarto em quarto (linha a linha) olhando o filtro WHERE e apagando aos poucos. É lento e dócil.\n**2)** O `TRUNCATE` (DDL) dinamita o prédio inteirom piscar de olhos e reconstrói ele oco e vazio. \n**3)** Logo, ele JAMAIS aceita a instrução `WHERE`.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o comando for TRUNCATE, **ENTÃO** ele remove todos os dados ignorando completamente o `WHERE`."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_025",
+      "subject": "Bancos de Dados",
+      "source": "RECONHECIMENTO - Comandos TCL",
+      "timer_override": 180,
+      "front": "**Otávio:** E o grupo TCL (Controle de Transações)?\nEles governam a segurança do pacote. Se algo der errado, você dá um `ROLLBACK` (desfaz). Se der certo, você dá um `COMMIT` (salva pra sempre).\n\nO comando `SAVEPOINT` serve para quê?\n(A) Para encerrar a transação corrente e gravar de forma definitiva (salvar pra sempre).\n(B) Para criar um checkpoint (uma bandeira) DENTRO da mesma transação, permitindo desfazer o erro até ali sem matar a transação inteira.",
+      "stem": [
+        "vf(O comando purista de banco TRUNCATE, por ter natureza híbrida, opera cirurgicamente e aceita a diretiva condicional WHERE para isolar fatias do dado de exclusão sem quebrar a raiz da tabela.)",
+        "vf(O espelhamento assíncrono em garante que réplicas funcionem taticamente como cofres de segurança passivos para restaurar falhas e comandos DROP acidentais humanos rodados na matriz executiva do estado.)",
+        "vf(A arquitetura Git de controle versionadoia-se na Tag Leve como guardiã primária contábil do metadado de autoria, tempo cronológico da submissão e das rubricas assinadas do autor no repositório da máquina.)",
+        "vf(O design Pattern Outbox empurramente a mensagem crua fluida em fila de rede na paralela, pulando e esquivando da engrenagem transacional cravada e de SQL local para evitar o colapso e bloqueio do motor.)"
+      ],
+      "options": [
+        "A) Grava de forma definitiva.",
+        "B) Cria um checkpoint interno."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** `SAVEPOINT` é o Checkpoint do seu videogame.\n**2)** Você fez a fase 1, deu Savepoint. Foi pra fase 2, morreu. Você não precisa começar o jogo do zero (rollback total), você dá um `ROLLBACK TO SAVEPOINT` e volta para o final da fase 1.\n**3)** Ele c(não confirma) o banco nem encerra a transação. O salvamento definitivo só ocorre quando bater o `COMMIT`.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca disser que `SAVEPOINT` encerra transação e grava definitivamente, **ENTÃO** decrete falsidade. Ele é apenas um marco temporário."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_026",
+      "subject": "Bancos de Dados",
+      "source": "ALFABETIZAÇÃO - Replicação Síncrona vs Assíncrona",
+      "timer_override": 180,
+      "front": "**Otávio:** Um servidor (Principal) copia os dados para outro (Réplica) para não perder informações de receita. \n• **Síncrono:** O servidor Principal manda gravar na Réplica e ESPERA a réplica dizer \"Gravei\", e só então ele dá \"Sucesso\" na tela do usuário.\n• **Assíncrono:** O Principal manda gravar no próprio disco, diz \"Sucesso\" pro usuário na hora, e só depois (com atraso) manda a cópia pra Réplica.\n\nNa replicação c(assíncrona), existe risco de perder dados confirmados se houver um apagão?\n(A) Sim, porque o servidor confirmou na tela antes da réplica receber a cópia.\n(B) Não, na assíncrona o banco não confirma nada antes de garantir nas duas máquinas.",
+      "stem": [],
+      "options": [
+        "A) Sim. Há risco de perda no gap do atraso.",
+        "B) Não. O assíncrono é perfeitamente seguro e imune a quedas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Assíncrono prioriza c(Performance/Velocidade). A tela do usuário não trava, porque o master não aguarda o ping da rede da réplica.\n**2)** Mas esse benefício custa o c(Risco de Perda de Dado). \n**3)** Se o Master confirma o sucesso do Pix para o cliente, e o servidor físico do Master explode 1 segundo antes de enviar a cópia pra Réplica, o dinheiro evapora e a réplica fica sem o dado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for Replicação Assíncrona, **ENTÃO** aceite o gap de atraso temporal e o risco real de perda de transações recém-confirmadas."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_027",
+      "subject": "Bancos de Dados",
+      "source": "INTERPRETAÇÃO - Replicação vs Cópia de Segurança",
+      "timer_override": 180,
+      "front": "**Otávio:** Um estagiário cometeu um erro desastroso e deletou a tabela inteira do Diário Oficial no servidor Principal (DROP TABLE).\n\nA Réplica do banco de dados (feita em tempo real) vai salvar a pele do estagiário e recuperar os dados deletados?\n(A) Sim, as réplicas cumprem sempre o papel exato de cópias de segurança (Backup), preservando dados apagados no Principal.\n(B) Não, a exclusão acidental será imediatamente replicada para a Réplica, deletando os dados nos dois lugares.",
+      "stem": [],
+      "options": [
+        "A) Sim, as réplicas agem como backup protetor frio.",
+        "B) Não, a exclusão será replicada cega."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Réplica é o c(Espelho). Ela fazmente o que o Mestre faz.\n**2)** O Mestre apagou tudo? A Réplica obediente recebe o comando e apaga tudo dela também em tempo real.\n**3)** Réplica garante c(Alta Disponibilidade) (se o cabo de força do Master arrebentar, a réplica assume). Mas Réplica não substitui Backup de fita (que recupera exclusões por erro humano).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que a Réplica de banco recupera exclusões acidentais de comandos e substitui cópias de segurança de log, **ENTÃO** você tem a falsidade letal da prova em mãos."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_02_028",
+      "subject": "Conhecimentos Específicos",
+      "source": "BOSS FINAL",
+      "timer_override": 180,
+      "front": "**Otávio:** O Boss da Aprovação. Analise e liquide as premissas de Arquitetura, JS e Banco.\n\nA sequência correta é:",
+      "stem": [],
+      "options": [
+        "A) F, F, V, V.",
+        "B) V, V, F, V.",
+        "C) V, F, F, F.",
+        "D) F, F, F, F.",
+        "E) V, V, V, V."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Replicação vs Backup:**\nA réplica queima o dado simultaneamente. Para erro humano, somente as fitass da cópia de segurança (dump/logss) salvam a pátria.\n\n**2) Git Squash e Tag:**\nTags Leves sãos e mudas; Tags Anotadas são encorpadas com assinatura.\n\n**3) DML e DDL (TCL):**\nTRUNCATE é marreta sem filtro (DDL). SAVEPOINT é checkpoint interno sem carimbo definitivo (TCL).\n\n~Gabarito~\n**D) F, F, F, F.**\n\n**1ª afirmação (F).**\n**> ERRADO <**\n(O TRUNCATE aceita WHERE) Ele c(não aceita) WHERE e destrói o tapete estrutural estático inteiroma marretada de banco.\n\n**2ª afirmação (F).**\n**> ERRADO <**\n(A réplica recupera o DROP) A exclusão de asno acidental feita no Master principal c(é espelhada imediatamente) destruindo os dados na réplica.\n\n**3ª afirmação (F).**\n**> ERRADO <**\n(Tag Leve tem nome e data) Ela é e; a tag que retém metadados pesados de autoria e assinatura criptografada é a Tag c(Anotada).\n\n**4ª afirmação (F).**\n**> ERRADO <**\n(Outbox manda pra rede e pula banco) O Padrão Outbox grava no c(mesmo) commit transacional do banco. Ele não pula o banco para enviar, garantindo consistência.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar com a palavra 'Truncate com WHERE' e 'Réplica para Erro Humano', **ENTÃO** fuzile ambas as questões com Falso.\n\n!Break para Respirar!\n~Otávio~\nSobrevivemos! O Anta-Einstein reconstrói os cabos quebrados da mente traduzindo o 'fácil do professor' para o 'visceral pragmático'. Revise essas 26 cartas e seu desempenho baterá no teto nas provas da banca!"
+    }
+  ]
+}
