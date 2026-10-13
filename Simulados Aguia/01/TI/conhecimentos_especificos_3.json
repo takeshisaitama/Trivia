@@ -246,7 +246,7 @@
       "subject": "Governança de Dados - Data Lineage",
       "source": "Banca Águia - Q126",
       "timer_override": 300,
-      "front": "**Questão 126:**\n\nO catálogo de dados da Secretaria registra a linhagem a seguir, em que cada linha indica que o ativo de origem alimenta o ativo de destino.\n\n**Origem -> Destino**\n`stg_notas -> dw_fato_notas`\n`stg_contrib -> dw_dim_contrib`\n`dw_dim_contrib -> mart_arrecadacao`\n`dw_dim_contrib -> mart_fiscalizacao`\n`mart_arrecadacao -> painel_arrecadacao`\n`mart_arrecadacao -> modelo_risco`\n`mart_fiscalizacao -> painel_risco`\n`modelo_risco -> painel_risco`\n\nA coluna de regime tributário de `stg_contrib` terá o significado alterado. Na análise de impacto, a quantidade de ativos a jusante de `stg_contrib`, afetados direta ou indiretamente, e a quantidade de painéis entre eles são, respectivamente:",
+      "front": "**Questão 126:**\n\nO catálogo de dados da Secretaria registra a linhagem a seguir, em que cada linha indica que o ativo de origem alimenta o ativo de destino.\n\n{{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q126.png|100%|Tabela de Linhagem}}\n\nA coluna de regime tributário de `stg_contrib` terá o significado alterado. Na análise de impacto, a quantidade de ativos a jusante de `stg_contrib`, afetados direta ou indiretamente, e a quantidade de painéis entre eles são, respectivamente:",
       "stem": [],
       "options": [
         "A) 6 e 2.",
@@ -310,7 +310,7 @@
       "subject": "Business Intelligence - DAX (Power BI)",
       "source": "Banca Águia - Q128",
       "timer_override": 300,
-      "front": "**Questão 128:**\n\nNo Power BI, a tabela Vendas contém as linhas a seguir.\n`uf  qtd preco`\n`SC  1   18`\n`SC  6   12`\n`PR  2   25`\n`PR  3   10`\n\nNo modelo, foram criadas as medidas a seguir.\n`Receita = SUMX(Vendas, Vendas[qtd] * Vendas[preco])`\n`Errada = SUM(Vendas[qtd]) * SUM(Vendas[preco])`\n\nEm um visual de tabela com a coluna `uf` nas linhas e as duas medidas, os valores exibidos para `Receita` em SC, para `Errada` em SC e para o total global agregado de `Errada` são, respectivamente:",
+      "front": "**Questão 128:**\n\nNo Power BI, a tabela Vendas contém as linhas a seguir.\n{{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q128.png|100%|Tabela Vendas}}\n\nNo modelo, foram criadas as medidas a seguir.\n`Receita = SUMX(Vendas, Vendas[qtd] * Vendas[preco])`\n`Errada = SUM(Vendas[qtd]) * SUM(Vendas[preco])`\n\nEm um visual de tabela com a coluna `uf` nas linhas e as duas medidas, os valores exibidos para `Receita` em SC, para `Errada` em SC e para o total global agregado de `Errada` são, respectivamente:",
       "stem": [],
       "options": [
         "A) 90, 90 e 170.",
@@ -410,7 +410,7 @@
       "subject": "Business Intelligence - Curva ABC",
       "source": "Banca Águia - Q132",
       "timer_override": 300,
-      "front": "**Questão 132:**\n\nNa análise ABC dos pagamentos a fornecedores, a classe A reúne o menor grupo de fornecedores, tomados em ordem decrescente de valor, cuja participação acumulada atinge pelo menos 80% do total pago. Os valores pagos no exercício, em milhares de reais, foram os seguintes.\n\n`F1: 120 | F2: 700 | F3: 40 | F4: 300 | F5: 15 | F6: 160 | F7: 500 | F8: 60 | F9: 25 | F10: 80`\n\nA quantidade de fornecedores da classe A e a participação acumulada desse grupo no total pago são, respectivamente:",
+      "front": "**Questão 132:**\n\nNa análise ABC dos pagamentos a fornecedores, a classe A reúne o menor grupo de fornecedores, tomados em ordem decrescente de valor, cuja participação acumulada atinge pelo menos 80% do total pago. Os valores pagos no exercício, em milhares de reais, foram os seguintes.\n\n{{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q132.png|100%|Tabela Fornecedores}}\n\nA quantidade de fornecedores da classe A e a participação acumulada desse grupo no total pago são, respectivamente:",
       "stem": [],
       "options": [
         "A) 2 e 60%.",
