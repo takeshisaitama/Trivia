@@ -1,0 +1,352 @@
+{
+  "messages": {
+    "aprovado": "Você foi curado da confusão de conceitos!"
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_001",
+      "subject": "Engenharia de Dados",
+      "source": "ALFABETIZAÇÃO - Inner Join com Repetição",
+      "timer_override": 180,
+      "front": "**Otávio:** O Join junta tabelas cruzando colunas (chaves). O que acontece se a chave 'A' aparecer 2 vezes na Tabela 1 e 2 vezes na Tabela 2?\n\n(A) O banco agrupa e devolve apenas 2 linhas resultantes da junção.\n(B) Ocorrerá o efeito 'Produto Cartesiano' local: ele multiplica as linhas. 2 vezes na Tabela 1 multiplicadas por 2 vezes na Tabela 2 = 4 linhas devolvidas.",
+      "stem": [],
+      "options": [
+        "A) Ele agrupa e devolve 2 linhas.",
+        "B) Ele multiplica e devolve 4 linhas."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nA junção (Join) de banco de dados e Spark não é inteligente como um ser humano. Se ele encontra chaves duplicadas nos dois lados, ele cruza todas as possibilidades entre elas.\n\n~Aprofundamento Gold~\n**1) A Matemática do Join Duplicado:**\n- **Mecanismo:** Se a chave \"A\" tem 2 notas fiscais e existem 2 endereços para a chave \"A\" no cadastro, o sistema vai cruzar a Nota 1 com o Endereço 1, Nota 1 com Endereço 2, Nota 2 com Endereço 1 e Nota 2 com Endereço 2. Total: c(4 linhas). \n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca colocar chaves repetidas em uma junção de tabelas, **ENTÃO** você multiplica a quantidade de vezes que a chave aparece na tabela da esquerda pela quantidade da tabela da direita."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_002",
+      "subject": "Engenharia de Dados",
+      "source": "MONTAGEM - Cálculo do Inner Join",
+      "timer_override": 180,
+      "front": "**Otávio:** Aplique a regra da multiplicação agora. \nTabela Notas tem as chaves: A, A, B, C.\nTabela Cadastro tem as chaves: A, A, B, B, B, D.\n\nQuantas linhas o c(INNER JOIN) vai gerar? Lembrando que o Inner Join s&oacute; traz quem tem parceiro nos dois lados.\n\n(A) 7 linhas.\n(B) 4 linhas.",
+      "stem": [],
+      "options": [
+        "A) 7 linhas.",
+        "B) 4 linhas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Isole a chave c(A): Em Notas tem 2. Em Cadastro tem 2. Multiplicação: 2 * 2 = **4 linhas**.\n**2)** Isole a chave c(B): Em Notas tem 1. Em Cadastro tem 3. Multiplicação: 1 * 3 = **3 linhas**.\n**3)** Isole as chaves c(C) e c(D): O 'C' só existe em notas, e o 'D' só em cadastro. Como é INNER JOIN (só casa casada), elas morrem e somem do resultado final.\n**4)** Soma final: 4 + 3 = c(7 linhas).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a operação for INNER JOIN, **ENTÃO** as chaves órfãs que aparecem apenas em uma das tabelas são aniquiladas do cálculo final."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_003",
+      "subject": "Engenharia de Dados",
+      "source": "PONTE - Cálculo do Left Join",
+      "timer_override": 180,
+      "front": "**Otávio:** Agora trocamos o comando para c(LEFT JOIN). O Left Join traz TUDO da tabela da esquerda (Notas), mesmo quem não casou.\n\nTabela da Esquerda (Notas): A, A, B, C.\nTabela da Direita (Cadastro): A, A, B, B, B, D.\n\nSe o Inner deu 7 linhas. O Left Join dará quantas?\n\n(A) 8 linhas, porque a nota 'C' que era órfã entra na conta recebendo vazio no lado direito.\n(B) 9 linhas, porque o cadastro 'D' também entra na conta.",
+      "stem": [],
+      "options": [
+        "A) 8 linhas (A nota 'C' entra).",
+        "B) 9 linhas ('C' e 'D' entram)."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Você já tem as c(7 linhas) que casaram (do cruzamento do A e B).\n**2)** O LEFT Join significa \"salve as sobras da Esquerda\". \n**3)** A chave c(C) está na esquerda (Notas) sem parceiro. Ela sobrevive e adiciona 1 linha, preenchendo as colunas da direita comLO.\n**4)** A chave c(D) está na direita (Cadastro) sem parceiro. A regra é LEFT (esquerda), então a 'D' continua.\n**5)** Total: 7 casados + 1 órfão da esquerda = c(8 linhas).\n\n!Interpretando a Banca!\n~Ouro~\nO distrator 9 linhas tenta pegar o candidato que acha que todo Join com sobra traz as duas perdedoras juntas. Trazer os dois lados (C e D) é papel do FULL OUTER JOIN.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a operação for LEFT JOIN, **ENTÃO** você pega o resultado das que cruzaram normalmente, e apenas soma as linhas que sobraram perdidas sem par na tabela da esquerda."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_004",
+      "subject": "Engenharia de Dados",
+      "source": "ALFABETIZAÇÃO - Broadcast Join",
+      "timer_override": 180,
+      "front": "**Otávio:** Quando você cruza uma Tabela Fato gigante (1 bilhão de linhas) com uma Dimensão pequena (ex: 27 Estados do Brasil), o sistema sofre para empurrar 1 bilhão de linhas pelos cabos da rede (embaralhamento/shuffle).\n\nPara evitar esse estrangulamento na rede, qual é o truque da Difusão (Broadcast Join)?\n(A) Ele pega a tabela pequena (27 estados) e envia uma cópia inteira dela para dentro da memória RAM de CADA computador trabalhador da fazenda de dados.\n(B) Ele quebra a tabela gigante em pedaços e envia cada pedaço para um computador.",
+      "stem": [],
+      "options": [
+        "A) Copia a pequena para todos os computadores.",
+        "B) Quebra a grande em pedaços."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Front-Loading do Tutorial~\nRede (cabo) é o maior gargalo do Big Data. Mexer dados pela rede destrói a performance.\n\n~Aprofundamento Gold~\n**1) Broadcast Join:**\n- **Definição:** É a tática de não mover a montanha. \n- **Mecanismo:** Em vez de trafegar a tabela gigante, o Spark pega a tabela nanica (Dimensão), clona ela, e despacha a cópia da nanica para cada Nó (Computador Escravo) do cluster. Assim, cada máquina consegue cruzar os dados locamente, sem pedir nada pela rede.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca descrever junção de tabela Fato gigante com tabela Dimensão minúscula, **ENTÃO** o mecanismo de aceleração é o Broadcast (Difusão)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_005",
+      "subject": "Engenharia de Dados",
+      "source": "RECONHECIMENTO - Coalesce vs Repartition",
+      "timer_override": 180,
+      "front": "**Otávio:** No Apache Spark, você tem 100 gavetas de dados (partições) e percebe que tem pouco dado. Você quer reduzir para 10 gavetas para otimizar.\n\nExistem dois comandos:\n• **Repartition:** Joga tudo no ar e embaralha os dados em 10 novas gavetas.\n• **Coalesce:** Apenas pega as gavetas que já existem e amassa umas contras as outras virando 10, sem jogar no ar.\n\nSe você quiser c(aumentar) o número de partições de 10 para 100, o 'coalesce' funciona?\n(A) Não, o coalesce não sabe cortar. Ele apenas junta partições para reduzir o número sem embaralhar.\n(B) Sim, o coalesce é a ferramenta recomendada tanto para diminuir quanto para aumentar as gavetas.",
+      "stem": [],
+      "options": [
+        "A) Não, coalesce serve apenas para reduzir partições.",
+        "B) Sim, coalesce aumenta e reduz partições."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O c(Coalesce) é uma contração passiva. Ele une partições já existentes sem trafegar pela rede. Logo, ele SÓ PODE c(diminuir) o número de partições.\n**2)** Se você quer c(aumentar) as partições para dividir o trabalho com mais computadores, você tem que reembaralhar o baralho inteiro.\n**3)** A única ferramenta que faz o aumento e reembaralha a fita é o c(Repartition).\n\n**Erro típico:** A banca afirma que coalesce aumenta partições porque evita o embaralhamento.\n**Correção:** É justamente por não embaralhar que o coalesce é incapaz de criar partições novas.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o seu objetivo no Spark for criar MAIS partições do que você já tem, **ENTÃO** o comando coalesce é inútil e você precisará usar o repartition."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_006",
+      "subject": "Engenharia de Dados",
+      "source": "PONTE - Execução Adaptativa (AQE) e Cache",
+      "timer_override": 180,
+      "front": "**Otávio:** Duas mecânicas vitais do Spark:\n1) O **Cache** é 'preguiçoso'. Quando você manda colocar no cache, ele não faz nada na hora. Ele só sobe pra memória quando a primeira AÇÃO final roda na tela.\n2) A **Execução Adaptativa (AQE)** espiona o trabalho rodando. Se ela achar que pode ir mais rápido, ela muda a estratégia de Join no meio do voo.\n\nCom nisso, o AQE pode trocar uma estratégia de Join pesada por um Broadcast Join no meio da execução se descobrir que a tabela ficou pequena após os filtros?\n(A) Sim, o plano pode ser reotimizado de forma adaptativa no voo.\n(B) Não, o plano de execução é congelado na largada.",
+      "stem": [],
+      "options": [
+        "A) Sim, pode reotimizar no meio da execução.",
+        "B) Não, o plano é congelado."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Em versões antigas, se o Spark prometeu cruzar pesado, ele cruzava pesado até o fim, mesmo se sobrou só 1 linha.\n**2)** Nas versões novas, o c(Adaptive Query Execution (AQE)) muda as regras com o avião voando. Se ele aplicou um filtro e a tabela gigante ficou minúscula, o AQE c(muda a marcha), troca a estratégia para Broadcast e acelera o resto da viagem sozinho.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cobrar o conceito de Execução Adaptativa (AQE) do Spark, **ENTÃO** é verdadeiro que ele pode combinar partições pequenas ou alterar o estilo do JOIN no meio do processo."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_007",
+      "subject": "Engenharia de Dados",
+      "source": "ALFABETIZAÇÃO - Dimensão com Papéis e Dimensão Degenerada",
+      "timer_override": 180,
+      "front": "**Otávio:** Tabela Fato é onde fica o evento com os números financeiros. Dimensão é a fofoca (Quem, Quando, Onde).\nA Nota Fiscal tem 3 datas (Emissão, Vencimento, Pagamento) e o Número da Nota.\nVocê precisa criar três tabelas enormes diferentes de Calendário no banco de dados, uma pra cada tipo de data?\n(A) Não. Você cria UMA única tabela de 'Data' e faz 3 ligações para ela na Tabela Fato, dando nomes diferentes (papéis).\n(B) Sim. Cada coluna de data na Fato exige fisicamente sua própria tabela exclusiva de calendário.",
+      "stem": [],
+      "options": [
+        "A) Não. Cria UMA dimensão e dá 3 papéis para ela.",
+        "B) Sim. Cria 3 tabelas fisicamente distintas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Front-Loading do Tutorial~\nA modelagem de Kimball proíbe desperdício de espaço no banco.\n\n~Aprofundamento Gold~\n**1) Dimensão com Papéis (Role-Playing Dimension):**\n- **Definição:** A mesma tabela genérica (Dimensão Tempo) servindo para várias perguntas na Tabela Fato simultaneamente. A fato tem 3 chaves estrangeiras que apontam para a MESMA tabela física de Dimensão. \n\n**2) Dimensão Degenerada:**\n- **Definição:** O Número da Nota Fiscal não possui nenhum detalhe extra atrelado (nome do papel, cor, cheiro). Como não há fofoca, você NÃO cria uma tabela de Dimensão inútil só pra guardar a chave. O Número fica abandonado c(DENTRO da própria Tabela Fato).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você tem um \"Número de Nota\" solitário sem detalhes, **ENTÃO** você deixa ele atirado direto na Tabela Fato (Dimensão Degenerada)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_008",
+      "subject": "Engenharia de Dados",
+      "source": "RECONHECIMENTO - Kimball vs Inmon",
+      "timer_override": 180,
+      "front": "**Otávio:** Duas lendas da arquitetura de Data Warehouse:\n• **Inmon:** Constrói o Data Warehouse Corporativo gigante primeiro e depois dele puxa os Data Marts (fatias pequenas para as equipes locais).\n• **Kimball:** Constrói os Data Marts primeiros (aos poucos), interligados por 'Dimensões Conformadas', até que a união deles forme o armazém global.\n\nSe o Governo quer montar tudo de forma c(incremental) (um setor por vez) garantindo que os painéis de dois setores cruzem as informações depois, ele segue a linha de Kimballada em que tipo de pilar?\n(A) Dimensõess independentes para garantir a autonomia dos setores, sem matriz de barramento.\n(B) Dimensões Conformadas (o conceito de Município é escrito da mesma forma no banco para os dois setores), guiadas por uma Matriz de Barramento.",
+      "stem": [],
+      "options": [
+        "A) Dimensões soltas para manter autonomia local.",
+        "B) Dimensões Conformadas guiadas por Matriz."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O erro de construir Data Marts fatiados e incrementais é o caos. O setor A escreve \"SC\", o setor B escreve \"Sta Catarina\". Quando vão cruzar as planilhas, nada bate.\n**2)** Para permitir o cruzamento, Kimball criou o conceito de c(Dimensões Conformadas). \n**3)** A Dimensão Conformada é o pilar que dita que \"Município\" ou \"Contribuinte\" será o c(MESMO identificador padrão e oficial) em todas as áreas do governo.\n**4)** O mapa que amarra e planeja isso na parede antes de começar a obrar é a c(Matriz de Barramento).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca listar \"Data Marts integrados por dimensões idênticas em toda a organização\", **ENTÃO** a chave mestre Kimball para isso chama-se Dimensões Conformadas."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_009",
+      "subject": "Engenharia de Dados",
+      "source": "ALFABETIZAÇÃO - Carga Incremental",
+      "timer_override": 180,
+      "front": "**Otávio:** O robô extrator acorda 02:00 da manhã. Ele tem uma fita colada no chão (Marca d'água) com a data `01:58:00` da execução passada.\nEle deve copiar da c(apenas) as linhas que foram atualizadasm horário c(MAIOR) que a fita adesiva, e que já estejam carimbadas como Confirmadas (COMMIT).\n\nSe a Linha L2 foi iniciada `01:58:00` (exatamente igual à marca) e só terminou às `02:00:40`.\nO robô, ao rodar a extração do Dia 2, vai conseguir capturar essa Linha L2?\n(A) Sim, porque ela terminou depois do relógio e já está lá.\n(B) Não, a linha possui horário `01:58` de início. A regra do robô pega apenas o que é c(ESTRITAMENTE MAIOR) que `01:58`. A linha L2 será ignorada.",
+      "stem": [],
+      "options": [
+        "A) Sim, ela terminou depois e será coletada.",
+        "B) Não, por ser matematicamente IGUAL à marca d'água, o filtro (>) a rejeita."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nNa extração por log ou carimbo de tempo, o filtro matemático é burro e. Se ele buscar \"Maior que 10\", o número 10 não entra, mesmo que esteja escrito lá dentro do banco.\n\n~Aprofundamento Gold~\n**1) A Armadilha da Marca D'água:**\n- **Mecanismo:** A variável `atualizado_em` é preenchida com a hora em que a transação c(começa). \n- A carga puxa tudo `> 01:58:00`.\n- Se a linha começou cravada em `01:58:00` (Igual), a matemática diz que ela não é maior. A linha fica perdida na e o robô vai embora sem levá-la.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a regra de banco for `> X` (maior que X), **ENTÃO** o valor de empata e jamais será resgatado pela query."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_010",
+      "subject": "Engenharia de Dados",
+      "source": "MONTAGEM - Linhas Perdidas",
+      "timer_override": 180,
+      "front": "**Otávio:** Agora avalie uma anomalia temporal severa de banco de dados.\nO Robô do Dia 1 acordou `02:00`. Ele pegou as linhas confirmadas até ali.\nA Linha L4 começou a ser digitada no sistema de faturamento à `01:57` (antes do robô ligar), mas a moça do faturamento só apertou 'Confirmar/Commit' lá pelas `02:03` (o robô do Dia 1 já tinha ido embora pro alojamento).\n\nQuando o robô do Dia 2 vier com a fita marca d'água cravada em `> 01:58`, o que vai acontecer com a Linha L4?\n(A) O robô não pegará. O robô só pega marca maior que 1:58. A marca de início da linha é 1:57. A linha apodrecerá na.\n(B) O robô pegará, pois o campo de Confirmação diz que ela ocorreu após 02:00.",
+      "stem": [],
+      "options": [
+        "A) Não pegará. A linha fica morta e apodrecida para sempre.",
+        "B) Pegará, usando a inteligência do Commit."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Este é um erro gravíssimo real da Engenharia de Dados. Transações lentas (Long-Running Transactions) que começam antes da quebra da marca d'água, mas finalizam depois.\n**2)** O Robô do Dia 1 não a levou (porque ela não estava c(confirmada) ainda).\n**3)** O Robô do Dia 2 chega. Ele só varre o chão para registros cujo carimbo de início de criação seja `Maior que 1:58`.\n**4)** Como a Linha 4 foi iniciada `1:57` no carimbo, a matemática do SQL esconde ela. A linha escapou eternamente de ser jogada no Data Warehouse.\n\n!Interpretando a Banca!\n~Ouro~\nA banca te deu os horários de início e confirmação para atestar que você sabe que as queries incrementais com `>` (Maior que) em campos de início de transação geram perda fatal de fatias de dados (Gaps de Carga).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a transação de um cliente iniciar antes do marco de corte mas confirmar o pedido longo após o extrator passar, **ENTÃO** ela vira uma linha fantasma perdida no processo extrativo incremental simples."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_011",
+      "subject": "Engenharia de Dados",
+      "source": "ALFABETIZAÇÃO - Lambda vs Kappa",
+      "timer_override": 180,
+      "front": "**Otávio:** Processamento de Grandes Dados.\n• **Lambda:** A velha senhora segura que anda com duas muletas paralelas. Tem um braço lento e massivo (Camada de Lote/Batch) para recalcular e checar os velhos dados da, e um braço rápido (Camada Speed) apitando as notificações em tempo real. Depois, ela junta tudo pra você ler.\n• **Kappa:** O guerreiro jovem. Acha que o lote é inútil. Mantém TUDOm cano único em fluxo fluído (Streaming). Tudo é streaming.\n\nNa Kappa, se for preciso recalcular o passado por um bug, você roda o batch gigantesco do arquivo log?\n(A) Sim, ele aciona o braço de batch de lote interno.\n(B) Não, a Kappa só tem a via do fluxo. Para reparar o passado, ela faz a 'Releitura' (Replay) do registro infinito de eventos que ficou guardado lá no tubo de mensageria (Kafka).",
+      "stem": [],
+      "options": [
+        "A) Sim, aciona o braço batch.",
+        "B) Não, faz releitura no streaming de mensagens."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nLambda tem medo de erro, por isso tem um braço de lote como backup. Kappa é minimalista: ele enxerga lote apenas como um Streaming rodando um pouco atrasado.\n\n~Aprofundamento Gold~\n**1) Arquitetura Kappa e o Reprocessamento:**\n- **Mecanismo:** Você apaga o código falho antigo, carrega a versão nova do seu script e fala pro Kafka (Sistema de Mensageria): \"Kafka, toca essa fita de novo desde o primeiro segundo e roda ela toda pelo meu tubo de Streaming\". \n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a arquitetura abolir as duas camadas paralelasando todo o motormente em Streams que releem o histórico do túnel Kafka, **ENTÃO** você tem a corajosa Arquitetura c(Kappa)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_012",
+      "subject": "Engenharia de Dados",
+      "source": "RECONHECIMENTO - Kafka Partições",
+      "timer_override": 180,
+      "front": "**Otávio:** Como funciona a rodovia do Apache Kafka.\nO Kafka tem várias faixas (Partições) para as mensagens de carro não engarrafarem a rua principal.\nNo entanto, a fila garante que um carro não corte a frente do outro, preservando a ORDEM das mensagens...\n(A) Apenas se eles trafegarem rigorosamente presos dentro da c(MESMA) faixa de partição.\n(B) Em todo o universo do Kafka, independente de qual faixa da rodovia eles caírem.",
+      "stem": [],
+      "options": [
+        "A) A ordem se preserva apenas dentro da mesma partição.",
+        "B) A ordem se preserva em todo o sistema global."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O Kafka distribui as mensagens (pedidos, logs de cliente) por várias partições em paralelo.\n**2)** Ele c(NÃO garante) a ordem se você pegar uma mensagem do caminhão da faixa 1 e comparar com a mensagem da faixa 2, pois eles rodam em processadores físicos diferentes e sofrem ping aleatório.\n**3)** A única garantia absoluta de ORDEM no balcão é você assinar os documentos no mesmo bloco de papel de uma c(mesma Partição).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca afirmar que a ordem das mensagens do Apache Kafka é preservada globalmente de forma entre partições, **ENTÃO** marque como falso (A ordem impera somente intramuros de cada partição)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_013",
+      "subject": "Qualidade de Dados",
+      "source": "CÁLCULO - Distância de Levenshtein",
+      "timer_override": 180,
+      "front": "**Otávio:** Distância de Levenshtein (Damerau) é um nome russo assustador, mas significa uma conta simples de padaria: \"Quantas letras eu preciso inserir, deletar ou trocar pra palavra X virar a palavra Y?\"\n\nExemplo 1: SOUZA e SOUSA. Tira a letra Z, bota a letra S. Gastei 1 operação (distância = 1).\nExemplo 2: BATISTA e BAPTISTA. Eu apenas insiro um 'P' no meio. Gastei 1 operação de Inserção (distância = 1).\n\nE no caso do par c(SILVA) e c(SILVEIRA). Quantas operações cravadas eu gasto pra palavra virar a outra?\n(A) Duas operações.\n(B) Três operações.",
+      "stem": [],
+      "options": [
+        "A) Duas operações.",
+        "B) Três operações."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Alinhe as strings: SILVA e SILVEIRA.\n**2)** intacta idêntica: S-I-L-V-A e S-I-L-V-E-I-R-A. A SILV e a terminação A final de alguma forma cruzam.\n**3)** Vamos de S-I-L-V-A para S-I-L-V-E-I-R-A: \nAs quatro primeiras ficam. No final do 'V', temos que colocar as letras intrusas para depois empurrar o A.\nInsiro um **E**, Insiro um **I**, Insiro um **R**. Empurrei o A para o final.\nGastei 3 Inserções. c(Distância = 3).\n\n!Interpretando a Banca!\n~Ouro~\nA banca ataca seu medo de matemática para algoritmos. Cada tecla do teclado que você teria que puxar no backspace, apertar nova, ou inserir para ajeitar é 1 ponto na métrica.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar a régua de Levenshtein, **ENTÃO** você faz o teste mecânico de contar quantos Backspaces, Deletes e Digitaçõess de teclado fariam a transformação do esqueleto."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_014",
+      "subject": "Qualidade de Dados",
+      "source": "RECONHECIMENTO - Tipos de Falha",
+      "timer_override": 180,
+      "front": "**Otávio:** Os pilares de Qualidade na auditoria estadual:\n- **Atualidade:** A data em que o dado chegou, ele já era obsoleto para meu serviço diário?\n- **Integridade (Referencial):** Eu digitei uma nota para um CPF falso e sumido que nem consta na Receita Federal.\n- **Precisão:** O documento diz que a padaria é na Rua XV, mas o fiscal foi lá e viu que a Rua XV é um terreno baldio baldado, a padaria era na Rua X.\n\nAnotou? Agora avalie: A Sefaz precisa do relatório das multas sempre com fechamento de ontem. Mas o robô só cospe os relatórios na pasta de rede com 2 dias inteiros de atraso fatal.\nQue pilar está ferido dolorosamente na espinha dessa máquina?\n(A) Precisão.\n(B) Atualidade.",
+      "stem": [],
+      "options": [
+        "A) Precisão.",
+        "B) Atualidade."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O arquivo pode conter multas matematicamente perfeitas (Precisão = 100%). E sem furos de chaves (Integridade OK). E todos os campos preenchidos e válidos (Completude e Validade OK).\n**2)** Se ele chega na mão do auditor depois do prazo fatal diário da necessidade do balcão final do negócio, a c(Atualidade) despencou. O dado é velho.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a denúncia no quadro fala de tempo gasto, delay de entrega ou defasagem do carregamento, **ENTÃO** trata-se sempre do pilar da c(Atualidade)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_015",
+      "subject": "Conhecimentos Específicos",
+      "source": "BOSS INTERMEDIÁRIO - Engenharia Base",
+      "timer_override": 180,
+      "front": "**Otávio:** Checkpoint Anta-Einstein. Vamos testar a fixação das peças de técnica e LRF da Sefaz.\n\nA sequência correta é:",
+      "stem": [
+        "vf(Na esteira do banco, o comando INNER JOIN abraça com clemência e retém na matriz os registros órfãos que caíramss de um dos lados do quadro de rede da fita preenchendo o vazio da ponta comvens de ponteirosllss da tela.)",
+        "vf(A diretiva cirúrgica COALESCE no motor de Big Data do PySpark age de rede e comprime dezenas de gavetas atreladas passivamente em fatiass reduzidas sem atirar as fatiasis ao vento da rede de cabo estático do cluster.)",
+        "vf(O modelo impositivo arrojado jovem guerreiro de arquitetura Kappa centraliza o recalculo de defeitos do HD diretamente no motor e atrelado de Streaming via replay de tubo, extinguindomente a dupla muleta mortífera e lenta da via de velha atrelada de batch de rede de rua.)"
+      ],
+      "options": [
+        "A) F, F, V.",
+        "B) F, V, V.",
+        "C) V, V, V.",
+        "D) V, F, V.",
+        "E) F, V, F."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Join Repetido em Banco:**\nO Spark cruza toda a matriz, gerando duplicações em Produto Cartesiano de chaves emparelhadas de banco.\n\n**2) Coalesce PySpark:**\nAo contrário de repartition, ele foge do embaralhamento nas redess de cabos.\n\n**3) Kappa Architecture:**\nA rejeição sumária das fitas pesadas batch de Lote.\n\n~Gabarito~\n**B) F, V, V.**\n\n**1ª afirmação (F).**\n**> ERRADO <**\n(O Inner Join engole o registro órfão na esteira?) Falso. O Inner cruza exclusividadesiss de. O órfão é amputado de via. É o LEFT join quem preserva orfãos e jogall.\n\n**2ª afirmação (V).**\n**> CERTO <**\n(O Coalesce só junta a gaveta sem atirar a partição ao vento da rede) Sim, ele amassa passivamente os slots porque não ativa a fita pesada de rede do reembaralhamento total de fatias.\n\n**3ª afirmação (V).**\n**> CERTO <**\n(A arquitetura Kappa usa relida no broker de Stream) Perfeito, Kappa ignora a dupla via (Lambda) e centraliza a cura de defeitos no tubo imutável log de eventos do broker.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o seu comando exige aumento imperativo em blocos divisórios (escalar partições de 10 pra 100), **ENTÃO** você saca da maleta o c(Repartition) e jamais o c(Coalesce) frouxo de contenção.\n\n!Break para Respirar!\n~Otávio~\nAté aqui, a linguagem de Big Data parece grego, mas são operações contábeis simples feitas em milissegundos por robôsm cabo físico de rede. Domine os pilares lógicos sem pânico e verá o resultado brotar na folha de resposta."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_016",
+      "subject": "Business Intelligence (Power BI)",
+      "source": "ALFABETIZAÇÃO - Contexto de Filtro vs Contexto de Linha",
+      "timer_override": 180,
+      "front": "**Otávio:** Power BI (DAX) pune quem não entende 'Contexto'.\n• **SUM:** Contexto de FILTRO. Ele olha para a coluna inteira do relatório de cima para baixo como se fosse um pacote de Excel só e soma o pacotema pancada total de.\n• **SUMX:** Contexto de LINHA. O 'X' significa Execução Fina. Ele varre a tabela c(linha por linha), fazendo a conta específica no degrau dela, e só depois junta os pacotes miúdos todos no final.\n\nSe você quiser que o Power BI vá na Nota 1, multiplique [Qtd x Preço]. Vá na Nota 2, multiplique [Qtd x Preço], e depois some esse montante das compras detalhadas, você usa:\n(A) SUM.\n(B) SUMX.",
+      "stem": [],
+      "options": [
+        "A) SUM.",
+        "B) SUMX."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nO X na fórmula exige o trabalho formiga (o passo a passo do Contexto de Linha). Sem o X, o Power BI atira com a bazuca da conta (Contexto de Filtro).\n\n~Aprofundamento Gold~\n**1) A Falácia da Multiplicação em SUM:**\n- **Mecanismo:** A medida `SUM(Qtd) * SUM(Preço)` é amadora porque ela soma a tabela inteira do estoque (ex: vendeu 10 balinhas e 1 TV: 11 itens), e soma todos os preços de etiquetas da prateleira (ex: R$1 da bala + R$2000 da TV = 2001), e faz a conta estúpida 11 * 2001. A conta certa (Faturamento por fita de nota fiscal de balcão) c(EXIGE imperativamente) o contexto de linha granular do `SUMX(Tabela, Qtd * Preço)`.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você precisar fazer uma conta de multiplicação entre colunas atrelada ao que de fato ocorreu registro a registro antes de somar no Power BI, **ENTÃO** você está diante do iterador c(SUMX)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_017",
+      "subject": "Business Intelligence (Power BI)",
+      "source": "CÁLCULO - Métrica no Power BI",
+      "timer_override": 180,
+      "front": "**Otávio:** Agora calcule como a máquina faria na tabela:\n\n`uf | qtd | preco`\nSC | 1 | 18\nSC | 6 | 12\n\nMedida Certa: `Receita = SUMX(Tabela, qtd * preco)`\nMedida Errada: `Errada = SUM(qtd) * SUM(preco)`\n\nCalcule o valor do quadro 'SC' usando a medida **Errada**.\n(A) 210.\n(B) 90.",
+      "stem": [],
+      "options": [
+        "A) 210.",
+        "B) 90."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O `SUM` olha a uf (SC) e junta as quantidades primeiro: (1 + 6) = 7.\n**2)** O `SUM` junta os preços do cardápio: (18 + 12) = 30.\n**3)** A matemática errada multiplica os baldes: 7 * 30 = c(210).\n\n**E a Certa (SUMX)?**\n**1)** Linha 1 de SC: 1 * 18 = 18.\n**2)** Linha 2 de SC: 6 * 12 = 72.\n**3)** Junta as fatias: 18 + 72 = c(90) (Faturamento Real exato da).\n\n!Interpretando a Banca!\n~Ouro~\nBancas criam esses visuais na prova justamente testando a diferença das grandezas geradas pela falta do X. Na soma final geral (Total do País), a conta bizarra englobará todos os estados de forma errada (a conta final da fita salta de 385 reais reais para colossais 780 irreais).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for SUMX, **ENTÃO** você caminha na tabela igual uma impressora (linha a linha), calcula o cruzamento e só no final você aciona o operador global da adição da receita apurada."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_018",
+      "subject": "Business Intelligence (Power BI)",
+      "source": "ALFABETIZAÇÃO - Linguagem M",
+      "timer_override": 180,
+      "front": "**Otávio:** A linguagem M (usada no Power Query) serve para tratar os dados da lama (ETL).\nA função `List.Accumulate` é uma varredora. Ela começa do número zero que você der na semente (`0`) e passa por cada item da lista. Se você falar pra ela somar, ela vai empilhando a soma.\n\n`Lista = {4, 7, 2, 9, 5}`\n`Função: SE item > 4 ENTÃO acumula (soma), SENÃO deduz 1 (subtrai).`\n\nNo primeiro item da lista (4), a conta fica: `4 é MAIOR (> não é igual) a 4`. Falso. Logo o programa tira 1 do seu pote inicial que era zero.\nO resultado provisório vira `-1` e você avança pro segundo item da lista (7).\n\nNo item (7), `7 > 4`. Verdadeiro. Logo, você soma o 7 ao pote que estava com `-1`.\nO pote vira `6`. E assim a varredura prossegue. Qual será o valor final guardado no seu cofre no término dos 5 itens da fita?\n(A) 19.\n(B) 27.",
+      "stem": [],
+      "options": [
+        "A) 19.",
+        "B) 27."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Número de partida do cofre (semente): c(0).\n**2)** Chega a carga c(4): É maior que 4? Não. Regra SENÃO (deduz 1). Cofre vira c(-1).\n**3)** Chega a carga c(7): É maior que 4? Sim. Regra ENTÃO (soma 7). Cofre vira c(6) (-1 + 7).\n**4)** Chega a carga c(2): É maior que 4? Não. Regra SENÃO (deduz 1). Cofre vira c(5).\n**5)** Chega a carga c(9): É maior que 4? Sim. Regra ENTÃO (soma 9). Cofre vira c(14) (5 + 9).\n**6)** Chega a carga c(5): É maior que 4? Sim. Regra ENTÃO (soma 5). Cofre vira c(19) (14 + 5).\n\n!Interpretando a Banca!\n~Ouro~\nEssa questão é de algoritmos lógicos e repetição na via da função fold de linguagem pesada. Se você ler a regra sem testar a matemática no papel de rascunho com caneta (calculando de cabeça frouxa), você inevitavelmente se perderá no passo (3).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca listar \"List.Accumulate\", **ENTÃO** você tem o equivalente ao `Reduce` da programação: puxe o pote vazio da semente primária de zero e aplique a operação passo a passo de acordo com o IF da via de registro a registro de array."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_019",
+      "subject": "Business Intelligence (Power BI)",
+      "source": "ALFABETIZAÇÃO - Modos de Armazenamento",
+      "timer_override": 180,
+      "front": "**Otávio:** Tipos de Conexão no Power BI:\n• **Importar (Import):** O arquivo Excel do PBI devora e mastiga sugando todos os dados do banco para dentro do disco da própria ferramenta (Comprimindo na memória em vertipaq).\n• **DirectQuery (Consultas Diretas):** O PBI é um binóculo. Ele não guarda dado nenhum na barriga dele. Quando você clicam gráfico na tela, ele joga um cabo e interroga na hora e faz a pergunta pesada pro SQL original do servidor no HD da fazenda do estado.\n• **Duplo (Dual):** A tabela híbrida genial age como os dois. Se a consulta for boba e cruzar com os dados importados que já estão chupados no cash do PBI, ele joga na tela em milissegundos a cópia gorda rápida; Se a consulta cobrar chaves de uma tabela gigante gorda de via mortífera em DirectQuery lá da fronteira longe da rede de estado, a tabela Dupla muda o chapéu e finge ser DirectQuery se comunicando livre com o cabo puxando na hora para não dar erro relacional mortífera de cardinalidade na.\n\nQual modo suga a pro computador da sua máquina, desvinculandomente o processamento da sobrecarga direta e estressada de rede no SQL da Sefaz?\n(A) Modo DirectQuery.\n(B) Modo de Importação (Import).",
+      "stem": [],
+      "options": [
+        "A) Modo DirectQuery.",
+        "B) Modo de Importação (Import)."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Importar copia o banco (demorado pra carregar inicialmente o PBIX no seu HD, mas veloz para clicar na tela da reunião de diretoria, porque tudo já está no seu hardware da apresentação estática de mesa local e de rua).\n**2)** DirectQuery deixa a máquina do PBI magrinha, mas dependente do delay do link com o Servidor (usado quando a Receita não deixa ninguém carregar 4 Terabytes de dados tributários sigilosos na fita pra dentro do Power BI de um laptop civil).\n**3)** A Tabela c(DUAL (Dupla)) foi a revolução recente e. Ela atende de duas formas na pra não travar painéis híbridos cravados (Os ditos 'Modelos Compostos' cravadosss atrelados e mistosss na via de Power BI de motor pesado).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você ouvir a expressão \"Modelos Compostos\" com fluidez relacional de via no PBI de de relatório, **ENTÃO** ligue o alerta para o modo c(DUPLO) da fita, que baila nos dois palcos (cópia rápida importada e link direto lento)."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_020",
+      "subject": "Business Intelligence (Visualização)",
+      "source": "RECONHECIMENTO - Gráficos",
+      "timer_override": 180,
+      "front": "**Otávio:** Se você precisa comparar de maneira ágil fatias muito parecidas financeiras na fita do balanço contábil (ex: doze secretarias, e todas gastaram por volta de 1 milhão e atrelado).\nQual modelo estático deve ser ABANDONADO e obliterado do dashboard corporativo por dificultar que o olho humano de ponta da diretoria decodifique fatias milimétricas semelhantesss na geometria da tela de visual de rua da engessada?\n(A) O Gráfico de Barras Ordenadas horizontais de motor.\n(B) O famigerado Gráfico de Pizza redondo fatiado em dezenas de fatiassssss de graussss.",
+      "stem": [],
+      "options": [
+        "A) Gráfico de Barras.",
+        "B) Gráfico de Pizza."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O gráfico de pizza c(só funciona com 2 ou 3 componentes macro pesados). Se você tentar enfiar 12 Secretariasm disco de pizza na estática, os ângulos de (as pontas da fatia) ficarão idênticos de tão pequenos na fita de geometria de tela visual, e a diretoria vai bater de frente na miopia, impedindo a distinção visual.\n**2)** O gráfico de barras usa a lógica simples do c(Comprimento físico visual). O olho escaneia na hora da esquerda pra direita a diferença.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar o número mágico de \"3 categorias\" na modelagem fluída ou possuir valores extremamente parecidos de via engessada, **ENTÃO** você oblitera a ideia e mata a sugestão tola de gráfico em pizza."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_021",
+      "subject": "Business Intelligence (Visualização)",
+      "source": "CÁLCULO - Curva ABC (Pareto)",
+      "timer_override": 180,
+      "front": "**Otávio:** O pilar da Auditoria (Pareto ou 80/20).\nVocê elenca dezenas de gastos de fornecedores. A **Classe A** abraça o SELETO CLUBE dos primeiros ricaços da lista no ranking. Quando você soma a porcentagem na caixinha da lista deles, o montante deles juntos na fita atinge ou ultrapassa a blindagem cravada impositiva de c(80% do dinheiro total da prefeitura) (a parte do leão).\n\nA matemática:\nO Dinheiro total do tesouro distribuído no pacote é: 2.000 (100%).\nQuanto em dinheiro real na mesa (o valor nominal em milhões estáticoss de capital) os fornecedores ricos da Classe A devem obrigatoriamente abocanhar somados cravadoss no teto para quebrar a linha sagrada e serem fechadoss na gaveta atrelada da Classe A?\n(A) Somar no mínimo 1.600 no bolo acumulado.\n(B) Somar 800 na balança de cruzamento.",
+      "stem": [],
+      "options": [
+        "A) Somar no mínimo 1.600.",
+        "B) Somar 800."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A conta do Limiar da Classe A: c(Total * 80%).\n**2)** 2.000 * 0,8 = c(1.600).\n**3)** Quando o auditor for descer a lista de fornecedores do maior para o menor, ele empilhará no cesto o dinheiro do primeiro fornecedor na soma (ex: F2=700). Mais o dinheiro de fita estática mortífera de via do segundo fornecedor na mesa (ex: F7=500 -> Acumulado vira 1200). Ele repete o ato suado até o acumulado da soma explodir atrelado e bater no limite de 1.600 cravado e. Ali ele corta a caneta, e esse pequeno grupo é a dita Classe A.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for Análise ABC (Pareto), **ENTÃO** faça o teto do dinheiro global virar 80% logo na primeira folha de rascunho de cálculo para depois iniciar o amontoamento descrescente."
+    },
+    {
+      "type": "normal",
+      "id": "anta_einstein_03_022",
+      "subject": "Conhecimentos Específicos",
+      "source": "BOSS INTERMEDIÁRIO - Validação Padrões",
+      "timer_override": 300,
+      "front": "**Otávio:** Checkpoint Anta-Einstein. Vamos validar se as pedras estão fixadas:\n\nA sequência correta é:",
+      "stem": [
+        "vf(O modelo Lambda é caracterizado pelo tráfego veloz exclusivo de mensageria, onde erros passados são reparados relendo o fluxo de eventos Kafka desde a largada inicial, aposentando as janelas massivas do processamento noturno.)",
+        "vf(Em Power BI, o modelo importado protege o HD do desenvolvedor porque consulta diretamente o banco original online em tempo real a cada clique do mouse do gestor nos gráficos de dashboard.)",
+        "vf(Em junções de dados (Inner e Left), chaves repetidas em tabelas geram o efeito de produto cartesiano, multiplicando a quantidade de linhas resultantes da operação para as chaves afinss.)",
+        "vf(A medida iterativa SUMX em linguagem DAX obriga o banco a ler o faturamento operando o cálculo com contexto de linha, cravando precisão onde o SUM genérico unificado cometeria erro de multiplicação global de montantes de etiquetas.)"
+      ],
+      "options": [
+        "E) V, F, F, F.",
+        "A) V, V, V, F.",
+        "D) F, V, F, V.",
+        "C) V, F, V, V.",
+        "B) F, F, V, V."
+      ],
+      "answer": 4,
+      "back": "Gabarito: Letra correspondente à sequência F, F, V, V.\n\n!Otávio!\n~Teoria~\n**1) Lambda vs Kappa:**\nLambda tem duas pernas (Lote e Velocidade). O que não usa o processamento massivo de janela noturna é o moderno Kappa.\n\n**2) Conexão Power BI:**\nImport é sugar toda a fazenda pro pendrive e explodir a memória RAM da máquina. DirectQuery é apenas enviar perguntas pela rede sem salvar o arquivo original localmente.\n\n**3) Contexto M:**\nA precisão de negócio exige SUMX, o qual percorre a tabela descendo o degrau linha a linha antes de consolidar o montante global de faturamento na máquina.\n\n~Gabarito~\n**B) F, F, V, V.**\n\n**1ª afirmação (F).**\n**> ERRADO <**\nO modelo que aposta todas as fichas no fluxo para ejetar o sistema de lote noturno (reparando erros via Kafka) atende inegavelmente pela arquitetura c(Kappa). A Lambda usa os dois braços da ponte juntos e paralelos.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nConsulta c(direta) ao banco sem estocar na memória do laptop o dado tributário tem o nome técnico direto c(DirectQuery). Modelo importado arranca o dado pro HD do desenvolvedor e sobrecarrega a máquina dele.\n\n**3ª afirmação (V).**\n**> CERTO <**\nSim, Join no PySpark ou SQL não filtra mágica. Três notas do mesmo cliente versus 3 endereços cruzam 9 combinações pesadas no cluster.\n\n**4ª afirmação (V).**\n**> CERTO <**\nO `SUM(Qtd) * SUM(Preço)` soma maçãs com o preço de aviões e bate uma conta estúpida na via global de milhões de erro de faturamento. SUMX aplica a navalha linha a linha do relatório salvaguardando a proporção de cada vendamente.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você ouvir o cruzamento do termo \"SUMX\" no Power BI em faturamento, **ENTÃO** amarre a sua resposta na tese inquebrável de Contexto de Linha (avaliado item a item primeiro).\n\n!Break para Respirar!\n~Otávio~\nSobrevivemos a mais um round neurodidático. Respire, analise seus acertos, e avance para dominar a máquina da prova!"
+    }
+  ]
+}
