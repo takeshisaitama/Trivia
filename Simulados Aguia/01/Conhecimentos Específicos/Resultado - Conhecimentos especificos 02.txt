@@ -1,0 +1,181 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 26
+Acertos: 14
+Erros: 11
+Pulos: 1
+Time Out: 0
+Pontuação Líquida: 3
+Desempenho: 12%
+Resultado: Reprovado
+
+--- CARD 1 ---
+Questão: **Chefe Tutorial: Engenharia, Integração e Banco de Dados**  Leia atentamente os conceitos abaixo antes de iniciar as questões:
+Status: ✅ Acertou | Tempo: 69s | Avaliação: Não Avaliada
+Assinalou: A) Li e compreendi a fundação técnica do bloco.
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Questão 097:**  Uma aplicação, com tamanho funcional de 420 pontos de função não ajustados, passará por um projeto de melhoria. A contagem do projeto, segundo as regras do IFPUG, identificou: inclusão de um arquivo lógico interno de complexidade média, de duas entradas externas de complexidade baixa e de uma saída externa de complexidade alta; alteração de um arquivo lógico interno, cuja complexidade passa de baixa para média em razão da mudança, e de duas consultas externas de complexidade média, que permanecem médias; e exclusão de um arquivo de interface externa de complexidade baixa e de uma saída externa de complexidade média. Na contagem não ajustada, o tamanho funcional do projeto de melhoria e o tamanho da aplicação após a sua conclusão são, respectivamente:
+Status: 💩 Não sabia | Tempo: 235s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: E
+
+--- CARD 3 ---
+Questão: **Questão 098:**  Acerca de comandos do Git 2.x, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ✅ Acertou | Tempo: 179s | Avaliação: Não Avaliada
+Assinalou: C) F, F, F, F.
+Gabarito: C
+
+--- CARD 4 ---
+Questão: **Questão 099:**  Uma equipe registrou a seguinte história de usuário: “Como auditor fiscal, quero filtrar as notas fiscais por faixa de valor, para priorizar a análise das operações mais relevantes”. Como critério de aceitação, escreveu: “Dado que existem notas fiscais emitidas no período, quando o auditor informar a faixa de R$ 10.000,00 a R$ 50.000,00, então o sistema exibirá as notas com valor nessa faixa, inclusive nos extremos”. A respeito dessa especificação, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 163s | Avaliação: Não Avaliada
+Assinalou: B) o critério, no formato Dado–Quando–Então, delimita o comportamento esperado e pode ser convertido em teste automatizado, que verifica também os valores nos limites da faixa.
+Gabarito: B
+
+--- CARD 5 ---
+Questão: **Questão 100:**  Considere o trecho de código em JavaScript a seguir, executado em ambiente com o laço de eventos padrão.  ```javascript const log = (x) => console.log(x); log('A'); setTimeout(() => log('B'), 0); Promise.resolve() .then(() => log('C')); (async () => {  log('D');  await null;  log('E'); })(); log('F'); ```  A sequência de letras exibida no console é:
+Status: ❌ Errou | Tempo: 253s | Avaliação: Não Avaliada
+Assinalou: C) A, D, E, F, C, B.
+Gabarito: D
+
+--- CARD 6 ---
+Questão: **Questão 101:**  Uma equipe de operações precisa publicar nova versão do serviço de emissão de guias de arrecadação, reduzindo o risco de indisponibilidade e permitindo o retorno rápido à versão anterior. Acerca das estratégias de implantação disponíveis, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 179s | Avaliação: Não Avaliada
+Assinalou: E) na implantação azul-verde, há dois ambientes de produção equivalentes, e o retorno à versão anterior consiste em redirecionar o tráfego ao ambiente que manteve a versão antiga.
+Gabarito: E
+> Ferramentas: C: 📌 Fixada | D: ✂️ Cortada
+
+--- CARD 7 ---
+Questão: **Chefe Intermediário: Engenharia de Software I (Q097 a Q101)**  Avalie a veracidade das afirmações abaixo e teste a fundação dos seus conceitos de CI/CD, Git e APF.
+Status: ✅ Acertou | Tempo: 150s | Avaliação: Não Avaliada
+Assinalou: A) F, V, F, V.
+Gabarito: A
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 8 ---
+Questão: **Questão 102:**  Uma fábrica de software entregou duas versões de um sistema. Na versão 1, com 250 pontos de função, foram encontrados 180 defeitos antes da implantação e 20 defeitos nos três meses seguintes a ela. Na versão 2, com 400 pontos de função, foram encontrados 228 defeitos antes da implantação e 12 nos três meses seguintes. Da versão 1 para a versão 2, a eficiência na remoção de defeitos e a densidade de defeitos entregues, por ponto de função, passaram, respectivamente:
+Status: ❌ Errou | Tempo: 269s | Avaliação: Não Avaliada
+Assinalou: C) de 10% para 5% e de 0,08 para 0,03.
+Gabarito: B
+
+--- CARD 9 ---
+Questão: **Questão 103:**  Julgue os itens a seguir, relativos a padrões de arquitetura de sistemas distribuídos e de microsserviços.
+Status: ✅ Acertou | Tempo: 254s | Avaliação: Não Avaliada
+Assinalou: C) I, II e III.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 10 ---
+Questão: **Questão 104:**  Uma API REST da Secretaria da Fazenda devolve a tabela de alíquotas vigentes, que poucas vezes por ano, e os sistemas clientes a consultam a cada minuto. Acerca do uso de cache e de requisições condicionais em HTTP, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 208s | Avaliação: Não Avaliada
+Assinalou: B) o servidor envia no cabeçalho ETag um identificador da versão; o cliente o reapresenta em If-None-Match e, sem mudança, recebe a resposta 304, sem corpo.
+Gabarito: B
+> Ferramentas: A: ✂️ Cortada | B: 📌 Fixada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 11 ---
+Questão: **Questão 105:**  O sistema estruturante de compras do Estado expõe serviços web no padrão SOAP, que passarão a ser consumidos por um novo sistema de controle. Acerca dessa tecnologia de integração, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 220s | Avaliação: Não Avaliada
+Assinalou: E) o envelope SOAP é documento XML com cabeçalho opcional e corpo obrigatório, e o esquema XML referenciado no WSDL permite validar a estrutura das mensagens trocadas.
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 12 ---
+Questão: **Questão 106:**  Todas as noites, o sistema de contratos envia ao sistema de execução orçamentária um arquivo com os empenhos a emitir. O registro de cabeçalho do arquivo informa a quantidade de registros, a soma dos valores e a soma dos números dos contratos, usada como total de verificação. Em uma noite, o arquivo chegou com um registro duplicado e sem outro registro, de mesmo valor e de contrato diferente, que deveria ter sido enviado. Em outra noite, um registro chegou com dois algarismos do valor transpostos, de R$ 15.400,00 para R$ 14.500,00. Acerca da capacidade de detecção desses controles de lote nos dois episódios, é correto afirmar que:
+Status: ❌ Errou | Tempo: 255s | Avaliação: Não Avaliada
+Assinalou: B) a soma dos valores detecta os dois episódios, porque as alterações no conteúdo dos registros modificam o total financeiro do lote em relação ao informado no cabeçalho.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | B: 📌 Fixada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 13 ---
+Questão: **Chefe Intermediário: Engenharia de Software II (Q102 a Q106)**  Avalie a veracidade das afirmações abaixo, que medem seu conhecimento técnico dos sistemas de informação de alto nível e qualificação.
+Status: ❌ Errou | Tempo: 260s | Avaliação: Não Avaliada
+Assinalou: E) F, V, V, F.
+Gabarito: A
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada
+
+--- CARD 14 ---
+Questão: **Questão 107:**  Na integração entre o sistema de contabilidade do Estado e um sistema de terceiro, não há usuário humano envolvido: os sistemas trocam dados de forma automatizada, por API, a cada hora. Acerca da autenticação e da proteção dessa integração, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 255s | Avaliação: Não Avaliada
+Assinalou: A) o fluxo de credenciais do cliente do OAuth 2.0, em que o sistema consumidor obtém o token com a própria identificação, é adequado à comunicação entre máquinas.
+Gabarito: A
+> Ferramentas: C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 15 ---
+Questão: **Questão 108:**  Julgue os itens a seguir, relativos a padrões de integração entre sistemas corporativos e sistemas estruturantes da Administração Pública.
+Status: ❌ Errou | Tempo: 267s | Avaliação: Não Avaliada
+Assinalou: D) I e IV.
+Gabarito: C
+> Ferramentas: B: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 16 ---
+Questão: **Questão 109:**  A tabela pagamentos contém as linhas a seguir.  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q109.png|100%|Tabela Pagamentos}}  Sobre ela, executou-se a consulta:  ```sql SELECT uf, fornecedor,  RANK() OVER (PARTITION BY uf  ORDER BY valor DESC) AS r,  DENSE_RANK() OVER (PARTITION BY uf  ORDER BY valor DESC) AS d FROM pagamentos; ```  No resultado, a quantidade de linhas com `r` menor ou igual a 2 e a quantidade de linhas com `d` menor ou igual a 2 são, respectivamente:
+Status: ❌ Errou | Tempo: 287s | Avaliação: Não Avaliada
+Assinalou: E) 6 e 6.
+Gabarito: D
+
+--- CARD 17 ---
+Questão: **Questão 110:**  Em um banco de dados relacional, o administrador executou o comando `GRANT SELECT ON contribuintes TO analista WITH GRANT OPTION`. Em seguida, o usuário `analista` concedeu o mesmo privilégio ao usuário `estagiario`. Acerca do controle de acesso nesse cenário, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 258s | Avaliação: Não Avaliada
+Assinalou: B) a revogação do privilégio do analista com a opção CASCADE alcança também o privilégio que ele concedeu ao estagiário, que deixa de consultar a tabela por essa via.
+Gabarito: B
+> Ferramentas: B: 📌 Fixada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 18 ---
+Questão: **Questão 111:**  Uma conta de compensação tem saldo de R$ 1.000,00. Duas sessões executam, em paralelo e no nível de isolamento READ COMMITTED, uma rotina que lê o saldo pela aplicação, calcula o novo valor e o grava com UPDATE. A sessão 1 credita R$ 300,00 e a sessão 2 debita R$ 200,00, nesta ordem de eventos: a sessão 1 lê o saldo; a sessão 2 lê o saldo; a sessão 1 grava e confirma; a sessão 2 grava e confirma. Em seguida, a rotina foi alterada para executar no próprio banco o comando `UPDATE conta SET saldo = saldo +:v`, e as duas operações foram repetidas, a partir de saldo de R$ 1.000,00 e na mesma ordem relativa. Os saldos finais nas duas execuções são, respectivamente:
+Status: ❌ Errou | Tempo: 333s | Avaliação: Não Avaliada
+Assinalou: D) R$ 800,00 e R$ 800,00.
+Gabarito: C
+
+--- CARD 19 ---
+Questão: **Chefe Intermediário: Engenharia de Software III (Q107 a Q111)**  Avalie a veracidade das afirmações abaixo, unindo a maldade da segurança das comunicações REST ao controle de acesso em SQL severo.
+Status: ✅ Acertou | Tempo: 243s | Avaliação: Não Avaliada
+Assinalou: C) V, F, V, V.
+Gabarito: C
+
+--- CARD 20 ---
+Questão: **Questão 112:**  Acerca de particionamento de tabelas e de índices em bancos de dados relacionais, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ❌ Errou | Tempo: 270s | Avaliação: Não Avaliada
+Assinalou: E) V, V, V, F.
+Gabarito: A
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 21 ---
+Questão: **Questão 113:**  Na modelagem física de uma base de documentos fiscais, a equipe discute os tipos de dados e as restrições de integridade das colunas. Acerca dessas escolhas, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 184s | Avaliação: Não Avaliada
+Assinalou: E) os tipos numéricos de precisão fixa, como NUMERIC e DECIMAL, são os indicados para valores monetários, por guardarem frações decimais sem erro de representação.
+Gabarito: E
+
+--- CARD 22 ---
+Questão: **Questão 114:**  A coleção notas de um banco MongoDB contém quatro documentos: o primeiro, com uf igual a “SC” e o vetor itens com dois elementos, cujos campos p valem 10 e 20; o segundo, com uf igual a “PR” e um elemento, de p igual a 15; o terceiro, com uf igual a “SC” e três elementos, de p igual a 5, 5 e 40; e o quarto, com uf igual a “SC” e o vetor itens vazio. Executou-se a agregação a seguir.  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q114.png|100%|Query MongoDB}}  Os valores de n e de t no documento resultante são, respectivamente:
+Status: ✅ Acertou | Tempo: 286s | Avaliação: Não Avaliada
+Assinalou: A) 5 e 80.
+Gabarito: A
+> Ferramentas: D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 23 ---
+Questão: **Questão 115:**  Julgue os itens a seguir, relativos às categorias de comandos da linguagem SQL.
+Status: ❌ Errou | Tempo: 203s | Avaliação: Não Avaliada
+Assinalou: E) III.
+Gabarito: A
+
+--- CARD 24 ---
+Questão: **Questão 116:**  Um banco de dados da Secretaria da Fazenda mantém réplicas de leitura, alimentadas por replicação assíncrona a partir do servidor principal. Acerca desse arranjo, é correto afirmar que:
+Status: ❌ Errou | Tempo: 209s | Avaliação: Não Avaliada
+Assinalou: D) a replicação síncrona elimina o atraso entre principal e réplicas sem impacto no tempo de confirmação das transações, porque a confirmação ocorre em paralelo à cópia.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 25 ---
+Questão: **Chefe Intermediário: Modelagem, NoSQL e DDL (Q112 a Q116)**  Nesta etapa final, seus conhecimentos sobre bancos de dados escaláveis e restrições estarão à prova.
+Status: ✅ Acertou | Tempo: 126s | Avaliação: Não Avaliada
+Assinalou: C) V, V, F.
+Gabarito: C
+> Ferramentas: B: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 26 ---
+Questão: **Chefe Final: Banco de Dados Avançado, CI/CD, Nuvem e Engenharia (Q107 a Q116)**  Esta é a Prova de Fogo Final. Os conceitos, estruturais e arquiteturais do bloco inteirinho da engenharia e SGBDs cairão aqui. Respire, invoque os deuses do silício e julgue as afirmações abaixo.
+Status: ❌ Errou | Tempo: 202s | Avaliação: Não Avaliada
+Assinalou: E) V, F, V, V.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
