@@ -1,7 +1,4 @@
 {
-  "messages": {
-    "aprovado": "Você foi curado da confusão de conceitos e destravou a lógica da banca!"
-  },
   "cards": [
     {
       "type": "normal",
@@ -9,14 +6,14 @@
       "subject": "Finanças Públicas",
       "source": "RECONHECIMENTO - Excesso de Arrecadação",
       "timer_override": 180,
-      "front": "**Otávio:** Antes de calcular, entenda as peças.\nO Excesso de Arrecadação é apenas o lucro do governo?\n(A) Sim, basta somar os meses que a arrecadação foi maior que a previsão.\n(B) Não, é o saldo acumulado (lucros menos os prejuízos de todos os meses).",
+      "front": "**Otávio:** Antes de calcular, entenda as peças. O Excesso de Arrecadação é apenas o lucro do governo? (A) Sim, basta somar os meses que a arrecadação foi maior que a previsão. (B) Não, é o saldo acumulado (lucros menos os prejuízos de todos os meses).",
       "stem": [],
       "options": [
         "A) Sim.",
         "B) Não."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O governo apura a arrecadação ao longo dos meses.\n**2)** Alguns meses dão lucro (+), outros dão prejuízo ou frustração (-).\n**3)** O Excesso de Arrecadação é o c(saldo líquido global). Você soma todos os positivos e c(subtrai todos os negativos).\n\n**Erro típico:** Somar apenas os valores positivos da tabela.\n**Correção:** Some os lucros e subtraia as frustrações mês a mês.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir excesso de arrecadação, **ENTÃO** você abate os meses de frustração (prejuízo) do valor final."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O governo apura a arrecadação ao longo dos meses. **2)** Alguns meses dão lucro (+), outros dão prejuízo ou frustração (-). **3)** O Excesso de Arrecadação é o c(saldo líquido global). Você soma todos os positivos e c(subtrai todos os negativos). **Erro típico:** Somar apenas os valores positivos da tabela. **Correção:** Some os lucros e subtraia as frustrações mês a mês. !Regra de Bolso! ~Lógica~ **1) SE** a banca pedir excesso de arrecadação, **ENTÃO** você abate os meses de frustração (prejuízo) do valor final."
     },
     {
       "type": "normal",
@@ -24,14 +21,14 @@
       "subject": "Finanças Públicas",
       "source": "MONTAGEM - Fórmula de Crédito Suplementar",
       "timer_override": 180,
-      "front": "**Otávio:** Vamos montar o esqueleto da fórmula.\n\nPara achar o Valor Máximo do Crédito Suplementar, você usa o Superávit Financeiro do ano anterior.\nMas você deve deduzir (subtrair) qual peça desse superávit antes de usá-lo?\n(A) Deduzir os créditos já comprometidos/usados.\n(B) Deduzir a inflação do período.",
+      "front": "**Otávio:** Vamos montar o esqueleto da fórmula. Para achar o Valor Máximo do Crédito Suplementar, você usa o Superávit Financeiro do ano anterior. Mas você deve deduzir (subtrair) qual peça desse superávit antes de usá-lo? (A) Deduzir os créditos já comprometidos/usados. (B) Deduzir a inflação do período.",
       "stem": [],
       "options": [
         "A) Deduzir os créditos já comprometidos/usados.",
         "B) Deduzir a inflação do período."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Superávit = Ativo - Passivo.\n**2)** Parte desse superávit já pode ter sido gasta.\n**3)** O recurso só serve c(desde que não comprometido). Logo, subtraia o que já foi usado.\n\n**Erro típico:** Usar o superávit financeiro total.\n**Correção:** Subtraia o valor do crédito suplementar já aberto no exercício.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca fala que o estado já abriu um crédito de R$ 90 antes, **ENTÃO** subtraia esses 90 do Superávit inicial."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Superávit = Ativo - Passivo. **2)** Parte desse superávit já pode ter sido gasta. **3)** O recurso só serve c(desde que não comprometido). Logo, subtraia o que já foi usado. **Erro típico:** Usar o superávit financeiro total. **Correção:** Subtraia o valor do crédito suplementar já aberto no exercício. !Regra de Bolso! ~Lógica~ **1) SE** a banca fala que o estado já abriu um crédito de R$ 90 antes, **ENTÃO** subtraia esses 90 do Superávit inicial."
     },
     {
       "type": "normal",
@@ -39,14 +36,14 @@
       "subject": "Finanças Públicas",
       "source": "CÁLCULO - Crédito Suplementar",
       "timer_override": 180,
-      "front": "**Otávio:** Calcule com segurança.\n\nDados:\n• Superávit Financeiro anterior: 230.\n• Créditos já abertos usando o superávit: 90.\n\nQual é o valor real que sobrou do superávit para novos créditos?\n(A) 230.\n(B) 140.",
+      "front": "**Otávio:** Calcule com segurança. Dados: • Superávit Financeiro anterior: 230. • Créditos já abertos usando o superávit: 90. Qual é o valor real que sobrou do superávit para novos créditos? (A) 230. (B) 140.",
       "stem": [],
       "options": [
         "A) 230.",
         "B) 140."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Identifique o Superávit: 230.\n**2)** Identifique o comprometimento: 90.\n**3)** Subtraia: 230 - 90 = c(140).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você vai apurar saldo livre, **ENTÃO** isole o valor total e deduza as partes já engessadas ou usadas.\n\n!Break para Respirar!\n~Otávio~\nSe você acertou o cálculo sem chutar, o conceito central do limite foi dominado. Avance."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Identifique o Superávit: 230. **2)** Identifique o comprometimento: 90. **3)** Subtraia: 230 - 90 = c(140). !Regra de Bolso! ~Lógica~ **1) SE** você vai apurar saldo livre, **ENTÃO** isole o valor total e deduza as partes já engessadas ou usadas. !Break para Respirar! ~Otávio~ Se você acertou o cálculo sem chutar, o conceito central do limite foi dominado. Avance."
     },
     {
       "type": "normal",
@@ -54,14 +51,14 @@
       "subject": "Finanças Públicas",
       "source": "PONTE - Créditos Extraordinários",
       "timer_override": 180,
-      "front": "**Otávio:** Atenção para não misturar as fatias de dinheiro.\n\nQuando você descobre o valor do Excesso de Arrecadação, você deve deduzir o quê?\n(A) A anulação de dotações.\n(B) Os créditos extraordinários abertos no exercício.",
+      "front": "**Otávio:** Atenção para não misturar as fatias de dinheiro. Quando você descobre o valor do Excesso de Arrecadação, você deve deduzir o quê? (A) A anulação de dotações. (B) Os créditos extraordinários abertos no exercício.",
       "stem": [],
       "options": [
         "A) A anulação de dotações.",
         "B) Os créditos extraordinários abertos no exercício."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O excesso de arrecadação (o dinheiro novo que entrou) sofre um desconto obrigatório na lei.\n**2)** A lei exige a dedução da importância dos c(créditos extraordinários) abertos no exercício.\n\n**Erro típico:** Deduzir anulação de dotações do excesso.\n**Correção:** Anulação de dotação é MAIS UMA FONTE de dinheiro (soma). Crédito extraordinário é DEDUÇÃO do excesso (subtrai).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** há créditos extraordinários abertos no ano, **ENTÃO** deduza esse valor apenas do bloco do Excesso de Arrecadação."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O excesso de arrecadação (o dinheiro novo que entrou) sofre um desconto obrigatório na lei. **2)** A lei exige a dedução da importância dos c(créditos extraordinários) abertos no exercício. **Erro típico:** Deduzir anulação de dotações do excesso. **Correção:** Anulação de dotação é MAIS UMA FONTE de dinheiro (soma). Crédito extraordinário é DEDUÇÃO do excesso (subtrai). !Regra de Bolso! ~Lógica~ **1) SE** há créditos extraordinários abertos no ano, **ENTÃO** deduza esse valor apenas do bloco do Excesso de Arrecadação."
     },
     {
       "type": "normal",
@@ -69,14 +66,14 @@
       "subject": "Finanças Públicas",
       "source": "RECONHECIMENTO - LDO vs LOA",
       "timer_override": 180,
-      "front": "**Otávio:** Não decore, entenda a função de cada lei.\nQual lei determina as regras e os critérios de como fazer cortes (limitação de empenho) no governo?\n(A) LDO (Lei de Diretrizes Orçamentárias).\n(B) LOA (Lei Orçamentária Anual).",
+      "front": "**Otávio:** Não decore, entenda a função de cada lei. Qual lei determina as regras e os critérios de como fazer cortes (limitação de empenho) no governo? (A) LDO (Lei de Diretrizes Orçamentárias). (B) LOA (Lei Orçamentária Anual).",
       "stem": [],
       "options": [
         "A) LDO.",
         "B) LOA."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A LOA é o arquivo de Excel com os números (Receitas e Despesas).\n**2)** A c(LDO) é a Constituição do orçamento. Ela traz as **regras**, **critérios** e **diretrizes**.\n**3)** Cortar empenho exige critérios rígidos. Logo, quem define a regra é a LDO.\n\n**Erro típico:** Achar que a limitação de empenho obedece critérios da LOA.\n**Correção:** A limitação de empenho segue os critérios da LDO.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado pedir \"regras de limitação de empenho\" ou \"anexos fiscais\", **ENTÃO** a competência é da LDO."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** A LOA é o arquivo de Excel com os números (Receitas e Despesas). **2)** A c(LDO) é a Constituição do orçamento. Ela traz as **regras**, **critérios** e **diretrizes**. **3)** Cortar empenho exige critérios rígidos. Logo, quem define a regra é a LDO. **Erro típico:** Achar que a limitação de empenho obedece critérios da LOA. **Correção:** A limitação de empenho segue os critérios da LDO. !Regra de Bolso! ~Lógica~ **1) SE** o enunciado pedir \"regras de limitação de empenho\" ou \"anexos fiscais\", **ENTÃO** a competência é da LDO."
     },
     {
       "type": "normal",
@@ -84,14 +81,14 @@
       "subject": "Finanças Públicas",
       "source": "MONTAGEM - Reserva de Contingência",
       "timer_override": 180,
-      "front": "**Otávio:** Onde fica a reserva de emergência e quem manda nela?\n\nA LOA contém a Reserva de Contingência. Mas quem estabelece a forma de utilização e o montante dessa reserva?\n(A) A LDO.\n(B) A própria LOA.",
+      "front": "**Otávio:** Onde fica a reserva de emergência e quem manda nela? A LOA contém a Reserva de Contingência. Mas quem estabelece a forma de utilização e o montante dessa reserva? (A) A LDO. (B) A própria LOA.",
       "stem": [],
       "options": [
         "A) A LDO.",
         "B) A própria LOA."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A LOA carrega a caixa forte (o dinheiro da Reserva).\n**2)** Mas a c(LDO) é a dona da chave. Ela define o montante e a forma de utilização.\n\n**Erro típico:** Dizer que a LOA define a forma de utilização da Reserva.\n**Correção:** A LOA só guarda. A LDO parametriza o uso.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** falar de \"Forma de utilização\" ou \"Montante\", **ENTÃO** atribua o poder sempre à LDO."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** A LOA carrega a caixa forte (o dinheiro da Reserva). **2)** Mas a c(LDO) é a dona da chave. Ela define o montante e a forma de utilização. **Erro típico:** Dizer que a LOA define a forma de utilização da Reserva. **Correção:** A LOA só guarda. A LDO parametriza o uso. !Regra de Bolso! ~Lógica~ **1) SE** falar de \"Forma de utilização\" ou \"Montante\", **ENTÃO** atribua o poder sempre à LDO."
     },
     {
       "type": "normal",
@@ -99,14 +96,14 @@
       "subject": "Finanças Públicas",
       "source": "ALFABETIZAÇÃO - Ingressos",
       "timer_override": 180,
-      "front": "**Otávio:** Entenda a diferença fatal de caixa.\n• **Orçamentário:** Dinheiro que pertence ao Estado em definitivo.\n• **Extraorçamentário:** Dinheiro que está apenas de passagem (é de outra pessoa e o Estado vai devolver).\n\nAs cauções recebidas de empresas são classificadas como:\n(A) Receita Orçamentária.\n(B) Ingresso Extraorçamentário.",
+      "front": "**Otávio:** Entenda a diferença fatal de caixa. • **Orçamentário:** Dinheiro que pertence ao Estado em definitivo. • **Extraorçamentário:** Dinheiro que está apenas de passagem (é de outra pessoa e o Estado vai devolver). As cauções recebidas de empresas são classificadas como: (A) Receita Orçamentária. (B) Ingresso Extraorçamentário.",
       "stem": [],
       "options": [
         "A) Receita Orçamentária.",
         "B) Ingresso Extraorçamentário."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** A caução é uma garantia dada por um fornecedor.\n**2)** Se o fornecedor cumprir o contrato, o Estado c(devolve) a caução.\n**3)** Dinheiro que precisa ser devolvido é c(Ingresso Extraorçamentário).\n\n**Erro típico:** Classificar caução como receita patrimonial.\n**Correção:** Caução gera um passivo (dívida) imediato. É extraorçamentário.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o Estado apenas guarda o dinheiro para devolver depois (Cauções e Consignações), **ENTÃO** é ingresso extraorçamentário."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** A caução é uma garantia dada por um fornecedor. **2)** Se o fornecedor cumprir o contrato, o Estado c(devolve) a caução. **3)** Dinheiro que precisa ser devolvido é c(Ingresso Extraorçamentário). **Erro típico:** Classificar caução como receita patrimonial. **Correção:** Caução gera um passivo (dívida) imediato. É extraorçamentário. !Regra de Bolso! ~Lógica~ **1) SE** o Estado apenas guarda o dinheiro para devolver depois (Cauções e Consignações), **ENTÃO** é ingresso extraorçamentário."
     },
     {
       "type": "normal",
@@ -114,14 +111,14 @@
       "subject": "Finanças Públicas",
       "source": "PONTE - Imposto Retido",
       "timer_override": 180,
-      "front": "**Otávio:** Atenção à origem do dinheiro.\nO Estado paga o salário do seu próprio servidor e retém o Imposto de Renda na Fonte (IRRF). De quem é esse dinheiro retido pela Constituição?\n(A) Da União (Governo Federal), portanto é extraorçamentário para o Estado.\n(B) Do próprio Estado, portanto é receita orçamentária própria estadual.",
+      "front": "**Otávio:** Atenção à origem do dinheiro. O Estado paga o salário do seu próprio servidor e retém o Imposto de Renda na Fonte (IRRF). De quem é esse dinheiro retido pela Constituição? (A) Da União (Governo Federal), portanto é extraorçamentário para o Estado. (B) Do próprio Estado, portanto é receita orçamentária própria estadual.",
       "stem": [],
       "options": [
         "A) Da União (extraorçamentário).",
         "B) Do próprio Estado (orçamentária)."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Geralmente, Imposto de Renda é da União.\n**2)** A Constituição abre uma exceção brutal: o IRRF retido sobre os pagamentos feitos pelos Estados, Municípios e Autarquias c(pertence a eles mesmos).\n**3)** Como o dinheiro é do Estado em definitivo, ele entra como c(Receita Orçamentária).\n\n**Erro típico:** Achar que todo Imposto de Renda é federal e deve ser repassado.\n**Correção:** O IRRF retido na folha estadual fica no cofre estadual.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o Estado reter o IRRF de seus próprios funcionários, **ENTÃO** a grana é 100% dele (receita orçamentária local)."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Geralmente, Imposto de Renda é da União. **2)** A Constituição abre uma exceção brutal: o IRRF retido sobre os pagamentos feitos pelos Estados, Municípios e Autarquias c(pertence a eles mesmos). **3)** Como o dinheiro é do Estado em definitivo, ele entra como c(Receita Orçamentária). **Erro típico:** Achar que todo Imposto de Renda é federal e deve ser repassado. **Correção:** O IRRF retido na folha estadual fica no cofre estadual. !Regra de Bolso! ~Lógica~ **1) SE** o Estado reter o IRRF de seus próprios funcionários, **ENTÃO** a grana é 100% dele (receita orçamentária local)."
     },
     {
       "type": "normal",
@@ -129,14 +126,14 @@
       "subject": "Finanças Públicas",
       "source": "RECONHECIMENTO - Vinculação de Fontes",
       "timer_override": 180,
-      "front": "**Otávio:** Entenda o \"carimbo\" do dinheiro.\nSe o dinheiro entra vinculado à Saúde no ano de 2025 e sobra um saldo para 2026. Em 2026, esse dinheiro perde o carimbo da Saúde e vira livre?\n(A) Não. A vinculação se mantém mesmo após o ano virar.\n(B) Sim. No novo ano tudo vira recurso ordinário livre.",
+      "front": "**Otávio:** Entenda o \"carimbo\" do dinheiro. Se o dinheiro entra vinculado à Saúde no ano de 2025 e sobra um saldo para 2026. Em 2026, esse dinheiro perde o carimbo da Saúde e vira livre? (A) Não. A vinculação se mantém mesmo após o ano virar. (B) Sim. No novo ano tudo vira recurso ordinário livre.",
       "stem": [],
       "options": [
         "A) Não. A vinculação se mantém.",
         "B) Sim. Vira livre."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O recurso vinculado nasce com um destino legal rígido (Saúde, Educação).\n**2)** O encerramento do ano fiscal (31 de dezembro) c(NÃO desfaz) a vinculação.\n**3)** O dinheiro continuará carimbado na Saúde até ser gasto com a Saúde.\n\n**Erro típico:** Acreditar que superávit financeiro perde o carimbo no ano seguinte.\n**Correção:** O art. 8º da LRF mantém a vinculação ainda que em exercício diverso.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o recurso ingressou carimbado para Saúde/Convênio, **ENTÃO** ele mantém esse carimbo eternamente, inclusive em superávits dos anos seguintes."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** O recurso vinculado nasce com um destino legal rígido (Saúde, Educação). **2)** O encerramento do ano fiscal (31 de dezembro) c(NÃO desfaz) a vinculação. **3)** O dinheiro continuará carimbado na Saúde até ser gasto com a Saúde. **Erro típico:** Acreditar que superávit financeiro perde o carimbo no ano seguinte. **Correção:** O art. 8º da LRF mantém a vinculação ainda que em exercício diverso. !Regra de Bolso! ~Lógica~ **1) SE** o recurso ingressou carimbado para Saúde/Convênio, **ENTÃO** ele mantém esse carimbo eternamente, inclusive em superávits dos anos seguintes."
     },
     {
       "type": "normal",
@@ -144,14 +141,14 @@
       "subject": "Finanças Públicas",
       "source": "INTERPRETAÇÃO - Compensação de Fontes",
       "timer_override": 180,
-      "front": "**Otávio:** Aplique a regra do carimbo.\nO Estado tem déficit (buraco) na conta de Convênios, e sobra de dinheiro na conta da Saúde. Ele pode usar a sobra da Saúde para tampar o buraco do Convênio?\n(A) Não, porque as fontes não podem ser compensadas entre si.\n(B) Sim, porque ambas são áreas sociais.",
+      "front": "**Otávio:** Aplique a regra do carimbo. O Estado tem déficit (buraco) na conta de Convênios, e sobra de dinheiro na conta da Saúde. Ele pode usar a sobra da Saúde para tampar o buraco do Convênio? (A) Não, porque as fontes não podem ser compensadas entre si. (B) Sim, porque ambas são áreas sociais.",
       "stem": [],
       "options": [
         "A) Não, não há compensação.",
         "B) Sim, pode compensar."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Vinculação significa exclusividade.\n**2)** Recurso vinculado à Saúde só pode pagar conta da Saúde.\n**3)** A natureza \"social\" da área não autoriza misturar as contas. c(É proibida a compensação entre fontes distintas).\n\n**Erro típico:** Achar que contas da mesma natureza abstrata podem se emprestar saldo.\n**Correção:** Contabilidade pública exige caixa segregado por fonte. Não compensa.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca sugere cobrir buraco de um fundo usando saldo de outro fundo diferente, **ENTÃO** a assertiva está sempre errada."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Vinculação significa exclusividade. **2)** Recurso vinculado à Saúde só pode pagar conta da Saúde. **3)** A natureza \"social\" da área não autoriza misturar as contas. c(É proibida a compensação entre fontes distintas). **Erro típico:** Achar que contas da mesma natureza abstrata podem se emprestar saldo. **Correção:** Contabilidade pública exige caixa segregado por fonte. Não compensa. !Regra de Bolso! ~Lógica~ **1) SE** a banca sugere cobrir buraco de um fundo usando saldo de outro fundo diferente, **ENTÃO** a assertiva está sempre errada."
     },
     {
       "type": "normal",
@@ -159,14 +156,14 @@
       "subject": "Finanças Públicas",
       "source": "MONTAGEM - Art 42 LRF",
       "timer_override": 180,
-      "front": "**Otávio:** Não calcule ainda. Apenas identifique a regra.\nNo fim do mandato (últimos 8 meses), o governo pode contrair obrigação (dívida) que passe para o próximo ano?\n(A) Apenas se houver suficiente disponibilidade de caixa LÍQUIDA.\n(B) De jeito nenhum, é vedado assumir contratos no último ano.",
+      "front": "**Otávio:** Não calcule ainda. Apenas identifique a regra. No fim do mandato (últimos 8 meses), o governo pode contrair obrigação (dívida) que passe para o próximo ano? (A) Apenas se houver suficiente disponibilidade de caixa LÍQUIDA. (B) De jeito nenhum, é vedado assumir contratos no último ano.",
       "stem": [],
       "options": [
         "A) Apenas se houver suficiente disponibilidade de caixa LÍQUIDA.",
         "B) De jeito nenhum."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A lei não proíbe governar no último ano.\n**2)** A lei proíbe deixar c(herança maldita) sem dinheiro.\n**3)** É permitido criar a despesa, c(desde que) você deixe no banco o caixa suficiente para pagá-la.\n\n**Erro típico:** Achar que o Art. 42 congela e proíbe toda contratação no final.\n**Correção:** Proíbe apenas se não houver lastro financeiro.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for fim de mandato (maio a dezembro), **ENTÃO** qualquer dívida transferida exige caixa líquido correspondente deixado no banco."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** A lei não proíbe governar no último ano. **2)** A lei proíbe deixar c(herança maldita) sem dinheiro. **3)** É permitido criar a despesa, c(desde que) você deixe no banco o caixa suficiente para pagá-la. **Erro típico:** Achar que o Art. 42 congela e proíbe toda contratação no final. **Correção:** Proíbe apenas se não houver lastro financeiro. !Regra de Bolso! ~Lógica~ **1) SE** for fim de mandato (maio a dezembro), **ENTÃO** qualquer dívida transferida exige caixa líquido correspondente deixado no banco."
     },
     {
       "type": "normal",
@@ -174,14 +171,14 @@
       "subject": "Finanças Públicas",
       "source": "CÁLCULO - Caixa Líquido do Art 42",
       "timer_override": 180,
-      "front": "**Otávio:** Hora da prova. \n\n• Saldo Bruto: 64 milhões.\n• Restos a pagar de outras contas: 38 milhões.\n• Valores retidos de fornecedores (cauções): 13 milhões.\n\nQual é a margem real de caixa (Caixa Líquido) que o prefeito dispõe para bancar um contrato novo no ano que vem?\n(A) 64 milhões.\n(B) 13 milhões.",
+      "front": "**Otávio:** Hora da prova. • Saldo Bruto: 64 milhões. • Restos a pagar de outras contas: 38 milhões. • Valores retidos de fornecedores (cauções): 13 milhões. Qual é a margem real de caixa (Caixa Líquido) que o prefeito dispõe para bancar um contrato novo no ano que vem? (A) 64 milhões. (B) 13 milhões.",
       "stem": [],
       "options": [
         "A) 64 milhões.",
         "B) 13 milhões."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O saldo bruto é 64. Mas ele tem correntes amarradas.\n**2)** Subtraia as contas velhas que já estavam na fila (Restos a Pagar = 38). Sobram 26.\n**3)** Subtraia o dinheiro que não é dele (Cauções = 13). 26 - 13 = c(13).\n**4)** Margem líquida limpa: c(13 milhões).\n\n**Erro típico:** Não deduzir os restos a pagar do saldo bruto.\n**Correção:** A disponibilidade de caixa do Art. 42 é c(após deduzir) todos os encargos e restos a pagar.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a questão pedir margem de contratação no Art 42, **ENTÃO** você pega o saldo e limpa (subtrai) as dívidas do passado e o dinheiro de terceiros."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O saldo bruto é 64. Mas ele tem correntes amarradas. **2)** Subtraia as contas velhas que já estavam na fila (Restos a Pagar = 38). Sobram 26. **3)** Subtraia o dinheiro que não é dele (Cauções = 13). 26 - 13 = c(13). **4)** Margem líquida limpa: c(13 milhões). **Erro típico:** Não deduzir os restos a pagar do saldo bruto. **Correção:** A disponibilidade de caixa do Art. 42 é c(após deduzir) todos os encargos e restos a pagar. !Regra de Bolso! ~Lógica~ **1) SE** a questão pedir margem de contratação no Art 42, **ENTÃO** você pega o saldo e limpa (subtrai) as dívidas do passado e o dinheiro de terceiros."
     },
     {
       "type": "normal",
@@ -189,14 +186,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "RECONHECIMENTO - COBIT 2019",
       "timer_override": 180,
-      "front": "**Otávio:** Entenda o fluxo. A cascata do COBIT traduz ordens de cima para baixo.\nQual é o topo da pirâmide (quem manda e inicia o processo)?\n(A) Objetivos de Governança e Gestão.\n(B) Necessidades das Partes Interessadas (Stakeholders).",
+      "front": "**Otávio:** Entenda o fluxo. A cascata do COBIT traduz ordens de cima para baixo. Qual é o topo da pirâmide (quem manda e inicia o processo)? (A) Objetivos de Governança e Gestão. (B) Necessidades das Partes Interessadas (Stakeholders).",
       "stem": [],
       "options": [
         "A) Objetivos de Governança e Gestão.",
         "B) Necessidades das Partes Interessadas."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O COBIT foca no valor para o negócio.\n**2)** O negócio existe para satisfazer os donos/clientes (Partes Interessadas).\n**3)** Logo, a Cascata c(nasce das necessidades) das partes interessadas.\n\n**Erro típico:** Achar que a TI manda e inicia os objetivos de cima.\n**Correção:** A TI é subserviente ao negócio. A cascata desce da diretoria para a TI.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for cascata de metas COBIT, **ENTÃO** o topo absoluto são as Necessidades das Partes Interessadas."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O COBIT foca no valor para o negócio. **2)** O negócio existe para satisfazer os donos/clientes (Partes Interessadas). **3)** Logo, a Cascata c(nasce das necessidades) das partes interessadas. **Erro típico:** Achar que a TI manda e inicia os objetivos de cima. **Correção:** A TI é subserviente ao negócio. A cascata desce da diretoria para a TI. !Regra de Bolso! ~Lógica~ **1) SE** for cascata de metas COBIT, **ENTÃO** o topo absoluto são as Necessidades das Partes Interessadas."
     },
     {
       "type": "normal",
@@ -204,14 +201,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "MONTAGEM - Cascata de Metas",
       "timer_override": 180,
-      "front": "**Otávio:** Conecte os passos.\nAbaixo das 'Necessidades das Partes Interessadas', o COBIT traduz isso para a empresa inteira, e depois especificamente para a área de TI.\n\nA ordem correta é:\n(A) Metas Corporativas -> Metas de Alinhamento (TI).\n(B) Metas de Alinhamento (TI) -> Metas Corporativas.",
+      "front": "**Otávio:** Conecte os passos. Abaixo das 'Necessidades das Partes Interessadas', o COBIT traduz isso para a empresa inteira, e depois especificamente para a área de TI. A ordem correta é: (A) Metas Corporativas -> Metas de Alinhamento (TI). (B) Metas de Alinhamento (TI) -> Metas Corporativas.",
       "stem": [],
       "options": [
         "A) Metas Corporativas -> Metas de Alinhamento (TI).",
         "B) Metas de Alinhamento (TI) -> Metas Corporativas."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Primeiro vem o CNPJ como um todo (Metas Corporativas).\n**2)** Depois a TI se curva para ajudar o CNPJ (Metas de Alinhamento).\n**3)** A cascata flui: Corporativo -> Alinhamento.\n\n**Erro típico:** Inverter a ordem e colocar o Alinhamento de TI acima das Metas Corporativas.\n**Correção:** O corporativo é macro. O alinhamento é a ponte da TI para atingir o macro.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado listar a ordem do COBIT, **ENTÃO** a palavra 'Corporativa' deve anteceder obrigatoriamente a palavra 'Alinhamento'."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Primeiro vem o CNPJ como um todo (Metas Corporativas). **2)** Depois a TI se curva para ajudar o CNPJ (Metas de Alinhamento). **3)** A cascata flui: Corporativo -> Alinhamento. **Erro típico:** Inverter a ordem e colocar o Alinhamento de TI acima das Metas Corporativas. **Correção:** O corporativo é macro. O alinhamento é a ponte da TI para atingir o macro. !Regra de Bolso! ~Lógica~ **1) SE** o enunciado listar a ordem do COBIT, **ENTÃO** a palavra 'Corporativa' deve anteceder obrigatoriamente a palavra 'Alinhamento'."
     },
     {
       "type": "normal",
@@ -219,14 +216,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "RECONHECIMENTO - Ciclos de Vida",
       "timer_override": 180,
-      "front": "**Otávio:** Leia o ambiente antes de aplicar a ferramenta.\nSe um projeto tem um 'escopo fixado rígido em contrato' e 'marcos de manutenção congelados há meses', ele combina com qual abordagem?\n(A) Abordagem Adaptativa (Ágil).\n(B) Abordagem Preditiva (Tradicional/Cascata).",
+      "front": "**Otávio:** Leia o ambiente antes de aplicar a ferramenta. Se um projeto tem um 'escopo fixado rígido em contrato' e 'marcos de manutenção congelados há meses', ele combina com qual abordagem? (A) Abordagem Adaptativa (Ágil). (B) Abordagem Preditiva (Tradicional/Cascata).",
       "stem": [],
       "options": [
         "A) Adaptativa (Ágil).",
         "B) Preditiva (Tradicional)."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Escopo fixo, engessado e com dependências rígidas conhecidas é um ambiente sem incertezas severas.\n**2)** Se você consegue c(prever) e congelar o futuro do projeto, você usa a abordagem c(Preditiva).\n\n**Erro típico:** Tentar forçar o Ágil (Adaptativo) em migrações de data center baseadas em contratos fechados duros.\n**Correção:** O Ágil exige mudança constante. Se o contrato proíbe mudanças, Ágil é suicídio.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o escopo é fixado, estável e conhecido com restrições duras, **ENTÃO** a estratégia mandatória é a Preditiva."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Escopo fixo, engessado e com dependências rígidas conhecidas é um ambiente sem incertezas severas. **2)** Se você consegue c(prever) e congelar o futuro do projeto, você usa a abordagem c(Preditiva). **Erro típico:** Tentar forçar o Ágil (Adaptativo) em migrações de data center baseadas em contratos fechados duros. **Correção:** O Ágil exige mudança constante. Se o contrato proíbe mudanças, Ágil é suicídio. !Regra de Bolso! ~Lógica~ **1) SE** o escopo é fixado, estável e conhecido com restrições duras, **ENTÃO** a estratégia mandatória é a Preditiva."
     },
     {
       "type": "normal",
@@ -234,14 +231,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "INTERPRETAÇÃO - Portfólios Híbridos",
       "timer_override": 180,
-      "front": "**Otávio:** Um diretor possui dois projetos na mesa: Um Preditivo e um Adaptativo.\nEle pode monitorar ambos os projetos dentro do MESMO portfólio executivo da empresa?\n(A) Não. Um portfólio exige uma única metodologia padrão imposta.\n(B) Sim. A governança do portfólio rastreia valor e recursos, acomodando ciclos diferentes (híbrido).",
+      "front": "**Otávio:** Um diretor possui dois projetos na mesa: Um Preditivo e um Adaptativo. Ele pode monitorar ambos os projetos dentro do MESMO portfólio executivo da empresa? (A) Não. Um portfólio exige uma única metodologia padrão imposta. (B) Sim. A governança do portfólio rastreia valor e recursos, acomodando ciclos diferentes (híbrido).",
       "stem": [],
       "options": [
         "A) Não.",
         "B) Sim."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Portfólio é a carteira de investimentos da diretoria.\n**2)** A diretoria não programa código, ela monitora dinheiro, risco e valor.\n**3)** A convivência de ciclos preditivos e adaptativos no mesmo portfólio c(é perfeitamente viável e comum) (Arranjo Híbrido).\n\n**Erro típico:** Achar que a governança obriga todos os projetos a usarem Scrum ou todos a usarem PMBOK.\n**Correção:** O portfólio é agnóstico. Cada projeto usa a ferramenta que melhor lhe serve.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado sugerir que um portfólio exige apenas uma metodologia engessada para todos os projetos, **ENTÃO** a assertiva é falsa."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Portfólio é a carteira de investimentos da diretoria. **2)** A diretoria não programa código, ela monitora dinheiro, risco e valor. **3)** A convivência de ciclos preditivos e adaptativos no mesmo portfólio c(é perfeitamente viável e comum) (Arranjo Híbrido). **Erro típico:** Achar que a governança obriga todos os projetos a usarem Scrum ou todos a usarem PMBOK. **Correção:** O portfólio é agnóstico. Cada projeto usa a ferramenta que melhor lhe serve. !Regra de Bolso! ~Lógica~ **1) SE** o enunciado sugerir que um portfólio exige apenas uma metodologia engessada para todos os projetos, **ENTÃO** a assertiva é falsa."
     },
     {
       "type": "normal",
@@ -249,14 +246,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "RECONHECIMENTO - Lei 14.133",
       "timer_override": 180,
-      "front": "**Otávio:** A Nova Lei de Licitações (14.133) inovou no pagamento de fornecedores.\nEla permite que o Estado pague uma 'Remuneração Variável' baseada nas metas e desempenho do contrato para quais tipos de contratação?\n(A) Apenas para contratos de Serviços de Engenharia.\n(B) Para Obras, Serviços e também Fornecimento de Bens contínuos.",
+      "front": "**Otávio:** A Nova Lei de Licitações (14.133) inovou no pagamento de fornecedores. Ela permite que o Estado pague uma 'Remuneração Variável' baseada nas metas e desempenho do contrato para quais tipos de contratação? (A) Apenas para contratos de Serviços de Engenharia. (B) Para Obras, Serviços e também Fornecimento de Bens contínuos.",
       "stem": [],
       "options": [
         "A) Apenas Serviços.",
         "B) Obras, Serviços e Fornecimento de Bens."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** No passado, bens físicos eram entregues e pagos de forma seca.\n**2)** A nova lei inovou. O art. 144 admite remuneração variável vinculada ao desempenho na contratação de obras, c(FORNECIMENTOS) de bens massificados, e serviços.\n\n**Erro típico:** Achar que fornecimento de computadores não pode ter SLA atrelado ao pagamento.\n**Correção:** Fornecimento também é alcançado pela remuneração por desempenho.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca limitar o uso de remuneração variável excluindo o Fornecimento de Bens, **ENTÃO** marque a alternativa como errada."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** No passado, bens físicos eram entregues e pagos de forma seca. **2)** A nova lei inovou. O art. 144 admite remuneração variável vinculada ao desempenho na contratação de obras, c(FORNECIMENTOS) de bens massificados, e serviços. **Erro típico:** Achar que fornecimento de computadores não pode ter SLA atrelado ao pagamento. **Correção:** Fornecimento também é alcançado pela remuneração por desempenho. !Regra de Bolso! ~Lógica~ **1) SE** a banca limitar o uso de remuneração variável excluindo o Fornecimento de Bens, **ENTÃO** marque a alternativa como errada."
     },
     {
       "type": "normal",
@@ -264,14 +261,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "MONTAGEM - Cálculo VME",
       "timer_override": 180,
-      "front": "**Otávio:** Risco vira dinheiro na planilha. \nO Valor Monetário Esperado (VME) pondera as ameaças e as oportunidades multiplicando pela probabilidade.\nComo você trata a matemática de uma OPORTUNIDADE (ex: Desconto)?\n(A) Soma junto com as ameaças para inflar a reserva financeira de cautela.\n(B) Subtrai do custo esperado das ameaças, pois alivia o bolso.",
+      "front": "**Otávio:** Risco vira dinheiro na planilha. O Valor Monetário Esperado (VME) pondera as ameaças e as oportunidades multiplicando pela probabilidade. Como você trata a matemática de uma OPORTUNIDADE (ex: Desconto)? (A) Soma junto com as ameaças para inflar a reserva financeira de cautela. (B) Subtrai do custo esperado das ameaças, pois alivia o bolso.",
       "stem": [],
       "options": [
         "A) Soma com as ameaças.",
         "B) Subtrai das ameaças."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Ameaça é dor. Dor c(SOMA) na sua conta a pagar (reserva sobe).\n**2)** Oportunidade é alívio (desconto/bônus). Alívio c(SUBTRAI) da sua conta a pagar (reserva desce).\n**3)** O VME cruza ambos com sinais opostos.\n\n**Erro típico:** Somar a oportunidade achando que é um risco puro que precisa de cobertura financeira cega.\n**Correção:** A oportunidade reduz o custo total do projeto esperado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** há uma oportunidade ou benefício na matriz de risco quantitativa, **ENTÃO** o valor esperado dela é injetado com sinal negativo (deduzindo a verba de contingência)."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Ameaça é dor. Dor c(SOMA) na sua conta a pagar (reserva sobe). **2)** Oportunidade é alívio (desconto/bônus). Alívio c(SUBTRAI) da sua conta a pagar (reserva desce). **3)** O VME cruza ambos com sinais opostos. **Erro típico:** Somar a oportunidade achando que é um risco puro que precisa de cobertura financeira cega. **Correção:** A oportunidade reduz o custo total do projeto esperado. !Regra de Bolso! ~Lógica~ **1) SE** há uma oportunidade ou benefício na matriz de risco quantitativa, **ENTÃO** o valor esperado dela é injetado com sinal negativo (deduzindo a verba de contingência)."
     },
     {
       "type": "normal",
@@ -279,14 +276,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "CÁLCULO - VME Aplicado",
       "timer_override": 180,
-      "front": "**Otávio:** Não calcule ainda. Primeiro multiplique linha a linha.\n\n• Risco A (Ameaça): 30% x R$ 200 mil\n• Risco B (Oportunidade de Desconto): 40% x R$ 150 mil\n\nQual é o Valor Monetário Esperado (Reserva) final desse pacote simples?\n(A) R$ 120 mil.\n(B) Zero (0).",
+      "front": "**Otávio:** Não calcule ainda. Primeiro multiplique linha a linha. • Risco A (Ameaça): 30% x R$ 200 mil • Risco B (Oportunidade de Desconto): 40% x R$ 150 mil Qual é o Valor Monetário Esperado (Reserva) final desse pacote simples? (A) R$ 120 mil. (B) Zero (0).",
       "stem": [],
       "options": [
         "A) R$ 120 mil.",
         "B) Zero (0)."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Multiplique Ameaça A: 0,30 x 200 = + 60 mil.\n**2)** Multiplique Oportunidade B: 0,40 x 150 = - 60 mil.\n**3)** Saldo Líquido: 60 - 60 = c(Zero).\n\n!Interpretando a Banca!\n~Ouro~\nA banca tentará te convencer na alternativa A de que Risco e Oportunidade se somam como meros números neutros (60 + 60). Mas finanças não permitem somar crédito com dívida na mesma direção.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você tem o valor esperado de uma ameaça e de uma oportunidade, **ENTÃO** você abate a oportunidade da ameaça para encontrar o peso da reserva."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Multiplique Ameaça A: 0,30 x 200 = + 60 mil. **2)** Multiplique Oportunidade B: 0,40 x 150 = - 60 mil. **3)** Saldo Líquido: 60 - 60 = c(Zero). !Interpretando a Banca! ~Ouro~ A banca tentará te convencer na alternativa A de que Risco e Oportunidade se somam como meros números neutros (60 + 60). Mas finanças não permitem somar crédito com dívida na mesma direção. !Regra de Bolso! ~Lógica~ **1) SE** você tem o valor esperado de uma ameaça e de uma oportunidade, **ENTÃO** você abate a oportunidade da ameaça para encontrar o peso da reserva."
     },
     {
       "type": "normal",
@@ -294,14 +291,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "RECONHECIMENTO - Efeito Melancia",
       "timer_override": 180,
-      "front": "**Otávio:** Os relatórios estão verdes, mas o cliente está gritando de ódio. O que há de errado na gestão do contrato de TI?\n(A) Nada. A insatisfação é subjetiva e alheia à gestão se o relatório técnico aponta sucesso verde.\n(B) A métrica escolhida mede esforço técnico em vez de medir a percepção e experiência do usuário (Efeito Melancia).",
+      "front": "**Otávio:** Os relatórios estão verdes, mas o cliente está gritando de ódio. O que há de errado na gestão do contrato de TI? (A) Nada. A insatisfação é subjetiva e alheia à gestão se o relatório técnico aponta sucesso verde. (B) A métrica escolhida mede esforço técnico em vez de medir a percepção e experiência do usuário (Efeito Melancia).",
       "stem": [],
       "options": [
         "A) Nada, a insatisfação é alheia.",
         "B) A métrica mede esforço no lugar de experiência."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Um indicador verde que gera ódio no cliente é inútil.\n**2)** Isso se chama c(Efeito Melancia): Verde brilhante por fora (no papelório de TI), mas Vermelho de dor por dentro (na operação real do cliente).\n**3)** A falha é na Escolha do Indicador. Ele mediu a 'ferramenta', não o 'resultado do negócio'.\n\n**Erro típico:** Acreditar que pesquisa de satisfação não pode entrar em contrato de SLA público por ser \"subjetiva\".\n**Correção:** Acordos modernos de nível de experiência (XLA) atrelam pagamentos à métrica formal de satisfação percebida na ponta.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o indicador no painel bate a meta, mas a percepção operacional do usuário é péssima, **ENTÃO** você diagnosticou a doença do Efeito Melancia e deve trocar o que se mede."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Um indicador verde que gera ódio no cliente é inútil. **2)** Isso se chama c(Efeito Melancia): Verde brilhante por fora (no papelório de TI), mas Vermelho de dor por dentro (na operação real do cliente). **3)** A falha é na Escolha do Indicador. Ele mediu a 'ferramenta', não o 'resultado do negócio'. **Erro típico:** Acreditar que pesquisa de satisfação não pode entrar em contrato de SLA público por ser \"subjetiva\". **Correção:** Acordos modernos de nível de experiência (XLA) atrelam pagamentos à métrica formal de satisfação percebida na ponta. !Regra de Bolso! ~Lógica~ **1) SE** o indicador no painel bate a meta, mas a percepção operacional do usuário é péssima, **ENTÃO** você diagnosticou a doença do Efeito Melancia e deve trocar o que se mede."
     },
     {
       "type": "normal",
@@ -309,14 +306,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "ALFABETIZAÇÃO - Scrum 2020",
       "timer_override": 180,
-      "front": "**Otávio:** Scrum sofreu mudanças drásticas em 2020. Atualize seus mapas.\nA Meta do Produto (Product Goal) foi introduzida como o 'Compromisso' atrelado a qual artefato?\n(A) Sprint Backlog.\n(B) Product Backlog.",
+      "front": "**Otávio:** Scrum sofreu mudanças drásticas em 2020. Atualize seus mapas. A Meta do Produto (Product Goal) foi introduzida como o 'Compromisso' atrelado a qual artefato? (A) Sprint Backlog. (B) Product Backlog.",
       "stem": [],
       "options": [
         "A) Sprint Backlog.",
         "B) Product Backlog."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O c(Product Backlog) é a lista inteira de desejos do futuro do software.\n**2)** O guia 2020 cravou a c(Meta do Produto) como sendo a alma, o norte e o c(compromisso restrito) exclusivo do Product Backlog.\n**3)** O Time deve cumprir essa meta, ou abandoná-la de vez, antes de assumir um novo foco.\n\n**Erro típico:** Atrelar a Meta do Produto à Sprint.\n**Correção:** A Sprint tem a \"Meta da Sprint\". O produto como um todo tem a \"Meta do Produto\".\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a prova citar 'Meta do Produto' como compromisso no Guia 2020, **ENTÃO** vincule cegamente essa meta ao artefato c(Product Backlog)."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O c(Product Backlog) é a lista inteira de desejos do futuro do software. **2)** O guia 2020 cravou a c(Meta do Produto) como sendo a alma, o norte e o c(compromisso restrito) exclusivo do Product Backlog. **3)** O Time deve cumprir essa meta, ou abandoná-la de vez, antes de assumir um novo foco. **Erro típico:** Atrelar a Meta do Produto à Sprint. **Correção:** A Sprint tem a \"Meta da Sprint\". O produto como um todo tem a \"Meta do Produto\". !Regra de Bolso! ~Lógica~ **1) SE** a prova citar 'Meta do Produto' como compromisso no Guia 2020, **ENTÃO** vincule cegamente essa meta ao artefato c(Product Backlog)."
     },
     {
       "type": "normal",
@@ -324,14 +321,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "PONTE - Scrum Events Timebox",
       "timer_override": 180,
-      "front": "**Otávio:** A FCC exige decorar tempo. Não falhe aqui.\nA **Retrospectiva da Sprint** é a última reunião do ciclo. Em uma Sprint máxima de um mês (4 semanas), qual é a duração MÁXIMA imposta pelo Guia?\n(A) 3 horas.\n(B) 4 horas.",
+      "front": "**Otávio:** A FCC exige decorar tempo. Não falhe aqui. A **Retrospectiva da Sprint** é a última reunião do ciclo. Em uma Sprint máxima de um mês (4 semanas), qual é a duração MÁXIMA imposta pelo Guia? (A) 3 horas. (B) 4 horas.",
       "stem": [],
       "options": [
         "A) 3 horas.",
         "B) 4 horas."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O evento c(Revisão da Sprint) (mostrar para o cliente) tem teto de c(4 horas).\n**2)** O evento c(Retrospectiva) (lavar roupa suja na equipe) tem teto limite blindado de c(3 horas).\n\n**Erro típico:** Confundir os limites de tempo da Review com a Retrospective.\n**Correção:** A retrospectiva é menor (3h) que a revisão (4h).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o evento fecha a porta final para a equipe discutir suas melhorias de processo (Retrospectiva), **ENTÃO** o relógio trava no máximo absoluto de 3 horas para sprints mensais."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** O evento c(Revisão da Sprint) (mostrar para o cliente) tem teto de c(4 horas). **2)** O evento c(Retrospectiva) (lavar roupa suja na equipe) tem teto limite blindado de c(3 horas). **Erro típico:** Confundir os limites de tempo da Review com a Retrospective. **Correção:** A retrospectiva é menor (3h) que a revisão (4h). !Regra de Bolso! ~Lógica~ **1) SE** o evento fecha a porta final para a equipe discutir suas melhorias de processo (Retrospectiva), **ENTÃO** o relógio trava no máximo absoluto de 3 horas para sprints mensais."
     },
     {
       "type": "normal",
@@ -339,14 +336,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "MONTAGEM - Fórmula Técnica e Preço",
       "timer_override": 180,
-      "front": "**Otávio:** O edital diz: Peso 70% Técnica e 30% Preço.\nA licitante Gamma ofertou o menor preço (R$ 640 mil). A nota técnica dela é 70/100.\nNão calcule ainda. Primeiro, qual a nota pura de PREÇO da Gamma?\n(A) 100.\n(B) 64.",
+      "front": "**Otávio:** O edital diz: Peso 70% Técnica e 30% Preço. A licitante Gamma ofertou o menor preço (R$ 640 mil). A nota técnica dela é 70/100. Não calcule ainda. Primeiro, qual a nota pura de PREÇO da Gamma? (A) 100. (B) 64.",
       "stem": [],
       "options": [
         "A) 100.",
         "B) 64."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A nota de preço é definida pela regra: (Menor Preço da Mesa / Seu Preço) * 100.\n**2)** Como a Gamma tem o menor preço, a conta dela é (640 / 640) * 100.\n**3)** 1 * 100 = c(100). Quem dá o menor preço ganha nota 100 estrita no critério financeiro.\n\n!Interpretando a Banca!\n~Ouro~\nA banca tenta confundir o valor absoluto ofertado (640 mil) com a Nota Ponderada. O menor valor monetário é convertido para a nota máxima 100.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a empresa oferece o menor preço financeiro no leilão, **ENTÃO** a nota estática de preenchimento dela no critério de preço é a pontuação máxima (100)."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** A nota de preço é definida pela regra: (Menor Preço da Mesa / Seu Preço) * 100. **2)** Como a Gamma tem o menor preço, a conta dela é (640 / 640) * 100. **3)** 1 * 100 = c(100). Quem dá o menor preço ganha nota 100 estrita no critério financeiro. !Interpretando a Banca! ~Ouro~ A banca tenta confundir o valor absoluto ofertado (640 mil) com a Nota Ponderada. O menor valor monetário é convertido para a nota máxima 100. !Regra de Bolso! ~Lógica~ **1) SE** a empresa oferece o menor preço financeiro no leilão, **ENTÃO** a nota estática de preenchimento dela no critério de preço é a pontuação máxima (100)."
     },
     {
       "type": "normal",
@@ -354,14 +351,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "ALFABETIZAÇÃO - Kanban",
       "timer_override": 180,
-      "front": "**Otávio:** No Kanban, medimos o fluxo do trabalho. \nO que mede exatamente o **Tempo de Ciclo (Cycle Time)**?\n(A) O tempo desde que o cliente pediu (entrou na fila suja de backlog) até a entrega final.\n(B) O tempo decorrido do instante de *início da ação* até o *término* do item no fluxo de produção.",
+      "front": "**Otávio:** No Kanban, medimos o fluxo do trabalho. O que mede exatamente o **Tempo de Ciclo (Cycle Time)**? (A) O tempo desde que o cliente pediu (entrou na fila suja de backlog) até a entrega final. (B) O tempo decorrido do instante de *início da ação* até o *término* do item no fluxo de produção.",
       "stem": [],
       "options": [
         "A) O tempo desde o pedido do cliente (Lead Time).",
         "B) O tempo decorrido do início da produção ao término."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** c(Lead Time) mede a dor da espera total: do pedido na fila do backlog até a entrega.\n**2)** c(Tempo de Ciclo (Cycle Time)) só liga o cronômetro quando o engenheiro efetivamente põe a mão na massa (cruza o ponto de Início do fluxo configurado).\n\n**Erro típico:** Confundir Cycle Time com o tempo total de espera na fila de pedidos inativos.\n**Correção:** Ciclo = Produção ativa.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a métrica foca estritamente nos pontos atômicos de 'Início' e 'Término' desenhados operacionais na lousa da fábrica, **ENTÃO** é c(Tempo de Ciclo)."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** c(Lead Time) mede a dor da espera total: do pedido na fila do backlog até a entrega. **2)** c(Tempo de Ciclo (Cycle Time)) só liga o cronômetro quando o engenheiro efetivamente põe a mão na massa (cruza o ponto de Início do fluxo configurado). **Erro típico:** Confundir Cycle Time com o tempo total de espera na fila de pedidos inativos. **Correção:** Ciclo = Produção ativa. !Regra de Bolso! ~Lógica~ **1) SE** a métrica foca estritamente nos pontos atômicos de 'Início' e 'Término' desenhados operacionais na lousa da fábrica, **ENTÃO** é c(Tempo de Ciclo)."
     },
     {
       "type": "normal",
@@ -369,14 +366,14 @@
       "subject": "Governança e Gestão de TI",
       "source": "PONTE - WIP Limits",
       "timer_override": 180,
-      "front": "**Otávio:** Cuidado com as prisões de metodologia.\nO Limite de Trabalho em Andamento (WIP Limit) é engessado e inalterado desde a concepção do quadro para preservar a matemática limpa?\n(A) Sim. Se alterar, quebra a comparação estatística das medidas.\n(B) Não. O Kanban evolui com a dor e ajusta limites para matar novos gargalos de esteira continuamente.",
+      "front": "**Otávio:** Cuidado com as prisões de metodologia. O Limite de Trabalho em Andamento (WIP Limit) é engessado e inalterado desde a concepção do quadro para preservar a matemática limpa? (A) Sim. Se alterar, quebra a comparação estatística das medidas. (B) Não. O Kanban evolui com a dor e ajusta limites para matar novos gargalos de esteira continuamente.",
       "stem": [],
       "options": [
         "A) Sim, é inalterado.",
         "B) Não, é adaptado e alterado sempre que o fluxo revelar gargalos."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** A essência Ágil e Kanban repudia c(regras fossilizadas).\n**2)** A filosofia vital base é c(melhorar perenemente o fluxo).\n**3)** Se o limite WIP de 5 tarefas numa coluna esgoelou a capacidade do time hoje, a revisão atômica e estratégica puxa e c(altera e adapta) o WIP para aliviar o gargalo. Nunca é inalterado de pedra.\n\n**Erro típico:** Achar que métrica matemática impede a adaptação do processo no pátio empírico real.\n**Correção:** O Kanban é guiado pelo empirismo do chão de fábrica, não pela planilha do gerente.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cravar que a agilidade impõe engessar e proibir adaptações de limites para preservar gráficos analíticos burocratas, **ENTÃO** decrete falsidade."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** A essência Ágil e Kanban repudia c(regras fossilizadas). **2)** A filosofia vital base é c(melhorar perenemente o fluxo). **3)** Se o limite WIP de 5 tarefas numa coluna esgoelou a capacidade do time hoje, a revisão atômica e estratégica puxa e c(altera e adapta) o WIP para aliviar o gargalo. Nunca é inalterado de pedra. **Erro típico:** Achar que métrica matemática impede a adaptação do processo no pátio empírico real. **Correção:** O Kanban é guiado pelo empirismo do chão de fábrica, não pela planilha do gerente. !Regra de Bolso! ~Lógica~ **1) SE** a banca cravar que a agilidade impõe engessar e proibir adaptações de limites para preservar gráficos analíticos burocratas, **ENTÃO** decrete falsidade."
     }
   ]
 }

@@ -1,7 +1,4 @@
 {
-  "messages": {
-    "aprovado": "Você foi curado da confusão de conceitos!"
-  },
   "cards": [
     {
       "type": "normal",
@@ -9,14 +6,14 @@
       "subject": "Programação Python",
       "source": "ALFABETIZAÇÃO - O Comando Yield",
       "timer_override": 180,
-      "front": "**Otávio:** Como funciona uma máquina de senhas de banco?\nSe a máquina usa o comando `return`, ela te entrega a senha número 1 e o programa morre (termina).\nSe a máquina usa o comando `yield` (gerador), ela te entrega a senha número 1, entra em coma (pausa) e fica esperando você pedir a próxima.\n\nMas o que acontece com a máquina de senhas quando a bobina de papel de senhas acaba (a lista foi esgotada)?\n(A) A máquina recomeça sozinha imprimindo a senha número 1 de novo para a próxima pessoa.\n(B) A máquina não recomeça. Ela fica vazia, sem produzir mais nenhuma senha.",
+      "front": "**Otávio:** Como funciona uma máquina de senhas de banco? Se a máquina usa o comando `return`, ela te entrega a senha número 1 e o programa morre (termina). Se a máquina usa o comando `yield` (gerador), ela te entrega a senha número 1, entra em coma (pausa) e fica esperando você pedir a próxima. Mas o que acontece com a máquina de senhas quando a bobina de papel de senhas acaba (a lista foi esgotada)? (A) A máquina recomeça sozinha imprimindo a senha número 1 de novo para a próxima pessoa. (B) A máquina não recomeça. Ela fica vazia, sem produzir mais nenhuma senha.",
       "stem": [],
       "options": [
         "A) A máquina recomeça do zero automaticamente.",
         "B) A máquina não recomeça. Ela se esgota."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nA diferença entre retornar uma c(lista) e usar um c(gerador) (yield) no Python é o estado de memória. O gerador não grava nada em disco. Ele apenas cospe o item no momento em que você pede e gasta aquele cartucho para sempre.\n\n~Aprofundamento Gold~\n**1) Consumo do Gerador:**\n- **Mecanismo:** Você chama o gerador a primeira vez com a função `sum()`. A função `sum()` espreme a máquina até sair a última gota (consome todos os números e soma). Se você chamar a função `sum()` de novo no mesmo gerador, ele estará vazio e não cuspirá nada. A soma de vazio em Python resulta em 0.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a variável é um gerador (produzida por `yield`) e você já aplicou a operação de extração `sum()` nela, **ENTÃO** na próxima linha ela estará e valerámente zero."
+      "back": "Gabarito: B. !Otávio! ~Front-Loading do Tutorial~ A diferença entre retornar uma c(lista) e usar um c(gerador) (yield) no Python é o estado de memória. O gerador não grava nada em disco. Ele apenas cospe o item no momento em que você pede e gasta aquele cartucho para sempre. ~Aprofundamento Gold~ **1) Consumo do Gerador:** - **Mecanismo:** Você chama o gerador a primeira vez com a função `sum()`. A função `sum()` espreme a máquina até sair a última gota (consome todos os números e soma). Se você chamar a função `sum()` de novo no mesmo gerador, ele estará vazio e não cuspirá nada. A soma de vazio em Python resulta em 0. !Regra de Bolso! ~Lógica~ **1) SE** a variável é um gerador (produzida por `yield`) e você já aplicou a operação de extração `sum()` nela, **ENTÃO** na próxima linha ela estará e valerámente zero."
     },
     {
       "type": "normal",
@@ -24,14 +21,14 @@
       "subject": "Programação Python",
       "source": "MONTAGEM - Rastreando o Yield",
       "timer_override": 180,
-      "front": "**Otávio:** Leia o código sem pressa. Apenas identifique a extração.\n\n```python\ndef pares(v):\n for x in v:\n if x % 2 == 0:\n yield x\n```\n\nEssa função filtra apenas números pares (divisíveis por 2 e cujo resto da divisão seja 0).\nSe eu entregar a lista de números `[3, 8, 10, 7, 30]` para a máquina, o que ela vai guardar internamente na fila de disparo do Gerador?\n(A) 3 e 7.\n(B) 8, 10 e 30.",
+      "front": "**Otávio:** Leia o código sem pressa. Apenas identifique a extração. ```python def pares(v): for x in v: if x % 2 == 0: yield x ``` Essa função filtra apenas números pares (divisíveis por 2 e cujo resto da divisão seja 0). Se eu entregar a lista de números `[3, 8, 10, 7, 30]` para a máquina, o que ela vai guardar internamente na fila de disparo do Gerador? (A) 3 e 7. (B) 8, 10 e 30.",
       "stem": [],
       "options": [
         "A) 3 e 7.",
         "B) 8, 10 e 30."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O laço `for` varre o array verificando a condição.\n**2)** O `x % 2 == 0` isola os pares. O 3 e o 7 dão resto 1 (caem fora).\n**3)** Sobram o 8, o 10 e o 30. Eles ficam c(engarrafados no tubo) do gerador.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o código testa `x % 2 == 0`, **ENTÃO** você tem a peneira clássica que extrai exclusivamente os números pares."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O laço `for` varre o array verificando a condição. **2)** O `x % 2 == 0` isola os pares. O 3 e o 7 dão resto 1 (caem fora). **3)** Sobram o 8, o 10 e o 30. Eles ficam c(engarrafados no tubo) do gerador. !Regra de Bolso! ~Lógica~ **1) SE** o código testa `x % 2 == 0`, **ENTÃO** você tem a peneira clássica que extrai exclusivamente os números pares."
     },
     {
       "type": "normal",
@@ -39,14 +36,14 @@
       "subject": "Programação Python",
       "source": "CÁLCULO - Soma do Gerador",
       "timer_override": 180,
-      "front": "**Otávio:** Hora de fechar o caixote. Acompanhe a esteira:\n\n`g = pares([3, 8, 10, 7, 30])`\n`a = sum(g)`\n`b = sum(g)`\n\n**Atenção: Não calcule ainda. Pense no estado da variável 'g'.**\nA primeira soma (a) vai drenar todos os pares: 8 + 10 + 30.\nO que a segunda soma (b) vai encontrar dentro da variável `g`?\n(A) Os mesmos números (8, 10, 30) porque variáveis guardam valor.\n(B) Nada, porque a primeira função `sum` bebeu o gerador atér.",
+      "front": "**Otávio:** Hora de fechar o caixote. Acompanhe a esteira: `g = pares([3, 8, 10, 7, 30])` `a = sum(g)` `b = sum(g)` **Atenção: Não calcule ainda. Pense no estado da variável 'g'.** A primeira soma (a) vai drenar todos os pares: 8 + 10 + 30. O que a segunda soma (b) vai encontrar dentro da variável `g`? (A) Os mesmos números (8, 10, 30) porque variáveis guardam valor. (B) Nada, porque a primeira função `sum` bebeu o gerador atér.",
       "stem": [],
       "options": [
         "A) Os mesmos números.",
         "B) Nada, a primeira soma bebeu tudo."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** `g` é um gerador. Ele tem `8`, `10`, `30` no cano.\n**2)** A variável `a` invoca o `sum()`. A função varre o cano: 8 + 10 + 30 = c(48).\n**3)** O cano do gerador agora está totalmente.\n**4)** A variável `b` invoca o `sum()` no cano. A soma de vazio no Python matemático é c(0).\n**5)** Ao imprimir `a` e `b`, o visor crava c(48) e c(0).\n\n**Erro típico:** Achar que `sum()` funciona como uma cópia de lista que sobrevive a múltiplas leituras.\n**Correção:** O gerador (`yield`) evapora o dado imediatamente após o uso.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca aplicar duas extrações seguidas no mesmo gerador sem instanciar a função novamente, **ENTÃO** o segundo disparo cairám fosso vazio."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** `g` é um gerador. Ele tem `8`, `10`, `30` no cano. **2)** A variável `a` invoca o `sum()`. A função varre o cano: 8 + 10 + 30 = c(48). **3)** O cano do gerador agora está totalmente. **4)** A variável `b` invoca o `sum()` no cano. A soma de vazio no Python matemático é c(0). **5)** Ao imprimir `a` e `b`, o visor crava c(48) e c(0). **Erro típico:** Achar que `sum()` funciona como uma cópia de lista que sobrevive a múltiplas leituras. **Correção:** O gerador (`yield`) evapora o dado imediatamente após o uso. !Regra de Bolso! ~Lógica~ **1) SE** a banca aplicar duas extrações seguidas no mesmo gerador sem instanciar a função novamente, **ENTÃO** o segundo disparo cairám fosso vazio."
     },
     {
       "type": "normal",
@@ -54,14 +51,14 @@
       "subject": "Programação Python",
       "source": "ALFABETIZAÇÃO - Pandas Transform",
       "timer_override": 180,
-      "front": "**Otávio:** Quando usamos `groupby` e `.mean()` simples no Pandas para calcular a média de uma cidade, o Pandas 'esmaga' os dados: se havia 100 linhas da cidade, sobra apenas 1 linha resumida com a média.\n\nMas o código usa o método mágico `.transform('mean')`.\nO que o transform faz de diferente?\n(A) Ele também esmaga a tabela reduzindo o número de linhas originais.\n(B) Ele calcula a média, mas não esmaga a tabela. Ele mantém as 100 linhas originais e 'cola' a média da cidade do lado de cada uma.",
+      "front": "**Otávio:** Quando usamos `groupby` e `.mean()` simples no Pandas para calcular a média de uma cidade, o Pandas 'esmaga' os dados: se havia 100 linhas da cidade, sobra apenas 1 linha resumida com a média. Mas o código usa o método mágico `.transform('mean')`. O que o transform faz de diferente? (A) Ele também esmaga a tabela reduzindo o número de linhas originais. (B) Ele calcula a média, mas não esmaga a tabela. Ele mantém as 100 linhas originais e 'cola' a média da cidade do lado de cada uma.",
       "stem": [],
       "options": [
         "A) Esmaga a tabela gerando menos linhas.",
         "B) Cola a média na frente de cada linha original preservando o tamanho da tabela."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** A palavra c(transform) serve exatamente para não alterar a silhueta da tabela. \n**2)** Ele calcula a agregação (a média do agrupamento) e joga o resultado em repetição do lado de c(CADA) registro original, alinhado perfeitamente com os dados originais.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca codificar `groupby.transform()`, **ENTÃO** você preserva a quantidade de linhas originais no resultado da tabela."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** A palavra c(transform) serve exatamente para não alterar a silhueta da tabela. **2)** Ele calcula a agregação (a média do agrupamento) e joga o resultado em repetição do lado de c(CADA) registro original, alinhado perfeitamente com os dados originais. !Regra de Bolso! ~Lógica~ **1) SE** a banca codificar `groupby.transform()`, **ENTÃO** você preserva a quantidade de linhas originais no resultado da tabela."
     },
     {
       "type": "normal",
@@ -69,14 +66,14 @@
       "subject": "Programação Python",
       "source": "MONTAGEM - Calculando a Média do Transform",
       "timer_override": 180,
-      "front": "**Otávio:** Mão na massa. O código divide a tabela pela coluna UF.\n\n`SC` tem os valores: 100, 300, 650.\n`PR` tem os valores: 200, 260.\n\n**Não filtre nada ainda. Apenas faça a matemática básica de média.**\nQuais serão os valores repetidos na coluna `m` para SC e para PR?\n(A) SC = 350 | PR = 230.\n(B) SC = 650 | PR = 260.",
+      "front": "**Otávio:** Mão na massa. O código divide a tabela pela coluna UF. `SC` tem os valores: 100, 300, 650. `PR` tem os valores: 200, 260. **Não filtre nada ainda. Apenas faça a matemática básica de média.** Quais serão os valores repetidos na coluna `m` para SC e para PR? (A) SC = 350 | PR = 230. (B) SC = 650 | PR = 260.",
       "stem": [],
       "options": [
         "A) SC = 350 | PR = 230.",
         "B) SC = 650 | PR = 260."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Identifique a UF `SC`: (100 + 300 + 650) = 1050.\n**2)** Divida pela quantidade de SC (3 itens): 1050 / 3 = c(350). Essa é a média de SC.\n**3)** Identifique a UF `PR`: (200 + 260) = 460.\n**4)** Divida pela quantidade de PR (2 itens): 460 / 2 = c(230). Essa é a média de PR.\n\n!Interpretando a Banca!\n~Ouro~\nA banca fará você esquecer a conta simples da média de grupo. Um erro na soma aqui destrói a próxima operação de filtro da questão.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o código puxou a média segregada em groupby, **ENTÃO** isole o cálculo para cada estado e crie colunas imaginárias separadas na prova."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Identifique a UF `SC`: (100 + 300 + 650) = 1050. **2)** Divida pela quantidade de SC (3 itens): 1050 / 3 = c(350). Essa é a média de SC. **3)** Identifique a UF `PR`: (200 + 260) = 460. **4)** Divida pela quantidade de PR (2 itens): 460 / 2 = c(230). Essa é a média de PR. !Interpretando a Banca! ~Ouro~ A banca fará você esquecer a conta simples da média de grupo. Um erro na soma aqui destrói a próxima operação de filtro da questão. !Regra de Bolso! ~Lógica~ **1) SE** o código puxou a média segregada em groupby, **ENTÃO** isole o cálculo para cada estado e crie colunas imaginárias separadas na prova."
     },
     {
       "type": "normal",
@@ -84,14 +81,14 @@
       "subject": "Programação Python",
       "source": "CÁLCULO - Filtragem de DataFrames",
       "timer_override": 180,
-      "front": "**Otávio:** Com os valores colados na tela, o código aplica um filtro:\n`r = df[df['v'] > df['m']]`\n(Me dê apenas as linhas onde o valor da nota 'v' for MAIOR que a média do seu próprio Estado 'm').\n\nLinhas:\n1. SC (v=100 | m=350)\n2. SC (v=300 | m=350)\n3. PR (v=200 | m=230)\n4. SC (v=650 | m=350)\n5. PR (v=260 | m=230)\n\nQuantas linhas passam pelo filtro `v > m`, e quanto soma o valor real 'v' delas juntas?\n(A) 2 linhas. Soma = 910.\n(B) 3 linhas. Soma = 1210.",
+      "front": "**Otávio:** Com os valores colados na tela, o código aplica um filtro: `r = df[df['v'] > df['m']]` (Me dê apenas as linhas onde o valor da nota 'v' for MAIOR que a média do seu próprio Estado 'm'). Linhas: 1. SC (v=100 | m=350) 2. SC (v=300 | m=350) 3. PR (v=200 | m=230) 4. SC (v=650 | m=350) 5. PR (v=260 | m=230) Quantas linhas passam pelo filtro `v > m`, e quanto soma o valor real 'v' delas juntas? (A) 2 linhas. Soma = 910. (B) 3 linhas. Soma = 1210.",
       "stem": [],
       "options": [
         "A) 2 linhas. Soma = 910.",
         "B) 3 linhas. Soma = 1210."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Teste a linha 1: 100 > 350? c(Falso).\n**2)** Teste a linha 2: 300 > 350? c(Falso).\n**3)** Teste a linha 3: 200 > 230? c(Falso).\n**4)** Teste a linha 4: 650 > 350? c(Verdadeiro). Passou a primeira linha (Valor = 650).\n**5)** Teste a linha 5: 260 > 230? c(Verdadeiro). Passou a segunda linha (Valor = 260).\n**6)** Contagem de linhas aprovadas (`len(r)`): c(2).\n**7)** Soma dos valores aprovados (`r['v'].sum()`): 650 + 260 = c(910).\n\n**Erro típico:** O candidato bate o olho e tenta somar o valor final com a Média Geral do País, quebrando o filtro.\n**Correção:** O filtro cruza a variável individual contra a variável gerada no grupo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o filtro de tabela no Pandas usar colunas relativas na mesma query, **ENTÃO** você deve fazer o teste lógico linha por linha como um loop visual."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Teste a linha 1: 100 > 350? c(Falso). **2)** Teste a linha 2: 300 > 350? c(Falso). **3)** Teste a linha 3: 200 > 230? c(Falso). **4)** Teste a linha 4: 650 > 350? c(Verdadeiro). Passou a primeira linha (Valor = 650). **5)** Teste a linha 5: 260 > 230? c(Verdadeiro). Passou a segunda linha (Valor = 260). **6)** Contagem de linhas aprovadas (`len(r)`): c(2). **7)** Soma dos valores aprovados (`r['v'].sum()`): 650 + 260 = c(910). **Erro típico:** O candidato bate o olho e tenta somar o valor final com a Média Geral do País, quebrando o filtro. **Correção:** O filtro cruza a variável individual contra a variável gerada no grupo. !Regra de Bolso! ~Lógica~ **1) SE** o filtro de tabela no Pandas usar colunas relativas na mesma query, **ENTÃO** você deve fazer o teste lógico linha por linha como um loop visual."
     },
     {
       "type": "normal",
@@ -99,14 +96,14 @@
       "subject": "Ciência de Dados",
       "source": "ALFABETIZAÇÃO - O Fluxo CRISP-DM",
       "timer_override": 180,
-      "front": "**Otávio:** O CRISP-DM (Cross-Industry Standard Process for Data Mining) não é um trilho de trem sem volta; é um mapa de experimentação cheio de balões de retorno. As fases são: Negócio -> Dados -> Preparação -> Modelagem -> Avaliação -> Implantação.\n\nSe a equipe testar o modelo e vir que a acurácia ficou horrível (Fase de Avaliação), o que acontece no modelo CRISP-DM real?\n(A) A equipe é obrigada a implantar o modelo defeituoso, pois retornar a fases passadas configura falhal grave de planejamento do projeto da via.\n(B) A equipe retrocede tranquilamente para a fase original do Entendimento do Negócio e reinicia a coleta ou afina a matriz dos dados.",
+      "front": "**Otávio:** O CRISP-DM (Cross-Industry Standard Process for Data Mining) não é um trilho de trem sem volta; é um mapa de experimentação cheio de balões de retorno. As fases são: Negócio -> Dados -> Preparação -> Modelagem -> Avaliação -> Implantação. Se a equipe testar o modelo e vir que a acurácia ficou horrível (Fase de Avaliação), o que acontece no modelo CRISP-DM real? (A) A equipe é obrigada a implantar o modelo defeituoso, pois retornar a fases passadas configura falhal grave de planejamento do projeto da via. (B) A equipe retrocede tranquilamente para a fase original do Entendimento do Negócio e reinicia a coleta ou afina a matriz dos dados.",
       "stem": [],
       "options": [
         "A) Segue engessada pro final por causa do escopo em cascata.",
         "B) Retrocede em feedback interativo pra refinar a base."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nCRISP-DM foi feito pra bater cabeça. Você modela, os dados dizem outra coisa, você volta pra mesa da diretoria e entende o negócio de novo. Idas e vindas iterativas de cruzamento de fita.\n\n~Aprofundamento Gold~\n**1) Interatividade do Ciclo:**\n- O modelo é iterativo: as setas do fluxograma possuem flechas bidirecionais (ex: voltar livremente e de forma lícita da c(Modelagem) de volta para a c(Preparação dos Dados)). \n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cravar que voltar um degrau no CRISP-DM reflete e denuncia \"falha ou fraqueza de planejamento\", **ENTÃO** está furado. Retornar no ciclo CRISP é regra salutar inegociável da fita."
+      "back": "Gabarito: B. !Otávio! ~Front-Loading do Tutorial~ CRISP-DM foi feito pra bater cabeça. Você modela, os dados dizem outra coisa, você volta pra mesa da diretoria e entende o negócio de novo. Idas e vindas iterativas de cruzamento de fita. ~Aprofundamento Gold~ **1) Interatividade do Ciclo:** - O modelo é iterativo: as setas do fluxograma possuem flechas bidirecionais (ex: voltar livremente e de forma lícita da c(Modelagem) de volta para a c(Preparação dos Dados)). !Regra de Bolso! ~Lógica~ **1) SE** a banca cravar que voltar um degrau no CRISP-DM reflete e denuncia \"falha ou fraqueza de planejamento\", **ENTÃO** está furado. Retornar no ciclo CRISP é regra salutar inegociável da fita."
     },
     {
       "type": "normal",
@@ -114,14 +111,14 @@
       "subject": "Ciência de Dados",
       "source": "PONTE - Aprendizado Supervisionado vs Não-Supervisionado",
       "timer_override": 180,
-      "front": "**Otávio:** Como as IAs aprendem coisas novas na delegacia?\n• **Supervisionado:** A máquina estuda com gabarito na mão. O humano já deu a lista rotulada de fotos \"Isto é fraude\", \"Isto é\". A máquina estuda isso e prevê as próximas faturassadas na cola aprendida de gabarito.\n• **Não Supervisionado:** A máquina não recebe gabarito. Ela joga 1 milhão de contribuintesm pote e acha \"3 panelaços de comportamentos que andam juntos\".\n\nQual é a classificação para uma máquina que c(Estima o valor em Dinheiro exato) que um sonegador novo vai dar calote, puxando eando o cálculo de regressão do cruzamento com planilhas de 20 anos de sonegadores c(previamente Rotulados) pela Receita Federal na?\n(A) É Tarefa de Aprendizado Supervisionado (Regressão).\n(B) É Tarefa Não-Supervisionada, porque o calote ainda não ocorreu na fita do sujeito investigado.",
+      "front": "**Otávio:** Como as IAs aprendem coisas novas na delegacia? • **Supervisionado:** A máquina estuda com gabarito na mão. O humano já deu a lista rotulada de fotos \"Isto é fraude\", \"Isto é\". A máquina estuda isso e prevê as próximas faturassadas na cola aprendida de gabarito. • **Não Supervisionado:** A máquina não recebe gabarito. Ela joga 1 milhão de contribuintesm pote e acha \"3 panelaços de comportamentos que andam juntos\". Qual é a classificação para uma máquina que c(Estima o valor em Dinheiro exato) que um sonegador novo vai dar calote, puxando eando o cálculo de regressão do cruzamento com planilhas de 20 anos de sonegadores c(previamente Rotulados) pela Receita Federal na? (A) É Tarefa de Aprendizado Supervisionado (Regressão). (B) É Tarefa Não-Supervisionada, porque o calote ainda não ocorreu na fita do sujeito investigado.",
       "stem": [],
       "options": [
         "A) Supervisionado (Tem gabarito prévio Rotulado).",
         "B) Não Supervisionado (O valor do sonegador novo não existe)."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** A fita entregou o ouro do segredo: \"dados históricos rotulados de de delegacia\". Isso é gabarito passado purista (Supervisionado).\n**2)** Se a IA tem que adivinhar uma 'Classe' de fita de (Cancelada ou Não Cancelada/ Gato ou Cachorro), a missão bate ponto de como c(Classificação).\n**3)** Se a IA adivinha e tira da mente crua um 'Número/Valor de via fluída livre e' na prancheta da de tabela (Ex: Valor monetário devido e sonegado em imposto / 1.345,22 R$), a missão é da aristocracia da c(Regressão).\n\n!Interpretando a Banca!\n~Ouro~\nA banca tentará te convencer que descobrir 'anomalias sem rótulos ou exemplos' é classificação. Falso. Se não tem rótulo prévio (gabarito cru), é tarefa crua c(Não Supervisionada).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a tarefa for atirar uma previsão estimativa na ponta sobre um número livre fluído de via e monetária atrelada (e possuir gabarito histórico prévio), **ENTÃO** você cruzou o marco de aprendizado Supervisionado do tipo Regressão."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** A fita entregou o ouro do segredo: \"dados históricos rotulados de de delegacia\". Isso é gabarito passado purista (Supervisionado). **2)** Se a IA tem que adivinhar uma 'Classe' de fita de (Cancelada ou Não Cancelada/ Gato ou Cachorro), a missão bate ponto de como c(Classificação). **3)** Se a IA adivinha e tira da mente crua um 'Número/Valor de via fluída livre e' na prancheta da de tabela (Ex: Valor monetário devido e sonegado em imposto / 1.345,22 R$), a missão é da aristocracia da c(Regressão). !Interpretando a Banca! ~Ouro~ A banca tentará te convencer que descobrir 'anomalias sem rótulos ou exemplos' é classificação. Falso. Se não tem rótulo prévio (gabarito cru), é tarefa crua c(Não Supervisionada). !Regra de Bolso! ~Lógica~ **1) SE** a tarefa for atirar uma previsão estimativa na ponta sobre um número livre fluído de via e monetária atrelada (e possuir gabarito histórico prévio), **ENTÃO** você cruzou o marco de aprendizado Supervisionado do tipo Regressão."
     },
     {
       "type": "normal",
@@ -129,14 +126,14 @@
       "subject": "Ciência de Dados",
       "source": "ALFABETIZAÇÃO - Os Erros de Regressão",
       "timer_override": 180,
-      "front": "**Otávio:** Como julgar a mentira estatística da IA?\nA IA prevê que a padaria lucrou 45. O fiscal audita e vê que o lucro foi de 40. O \"Erro\" da IA é 5 (pois chutou 5 a mais na via).\nEm outra padaria, a IA previu 45, mas o fiscal achou lucro de 50. O Erro matemático na fita foi de -5.\n\nSe você usar o **Erro Médio Comum e Simples** e na (somar os dois cruamentes), 5 positivo mais 5 negativo dá Zero. A fita engana o seu painel gerencial de Sefaz de afirmando que a IA é 100% perfeita sem falhas e sem desvios!\n\nQual recurso contábil destrói o sinal de 'Menos' (-) e obriga o cálculo a enxergar cruamente o peso da falha (ignorando se errou pra mais ou pra menos na ponta)?\n(A) Somar o valor absoluto das peças (Módulos cravadosssss).\n(B) Usar o Erro Médio e Simples na esteira atrelada.",
+      "front": "**Otávio:** Como julgar a mentira estatística da IA? A IA prevê que a padaria lucrou 45. O fiscal audita e vê que o lucro foi de 40. O \"Erro\" da IA é 5 (pois chutou 5 a mais na via). Em outra padaria, a IA previu 45, mas o fiscal achou lucro de 50. O Erro matemático na fita foi de -5. Se você usar o **Erro Médio Comum e Simples** e na (somar os dois cruamentes), 5 positivo mais 5 negativo dá Zero. A fita engana o seu painel gerencial de Sefaz de afirmando que a IA é 100% perfeita sem falhas e sem desvios! Qual recurso contábil destrói o sinal de 'Menos' (-) e obriga o cálculo a enxergar cruamente o peso da falha (ignorando se errou pra mais ou pra menos na ponta)? (A) Somar o valor absoluto das peças (Módulos cravados). (B) Usar o Erro Médio e Simples na esteira atrelada.",
       "stem": [],
       "options": [
         "A) Valor absoluto das peças (Módulos).",
         "B) Erro Médio Simples."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Front-Loading do Tutorial~\nA diferença do Erro Absoluto para o Quadrático é como eles punem a IA. O Absoluto bate de cinta linearmente. O Quadrático pega a bazuca quando a IA faz cagadas discrepantes muito gigantes de longe e pune pesado os desvios gordos forjando a raiz final da diferença de punição (Root Mean Squared Error).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for o Erro Absoluto Médio (MAE), **ENTÃO** não perca a cabeça: apenas arranque todos os sinais estáticosss puristasss matemáticosss na via de subtração da via (-) da conta da fita e faça a sua soma e média como se todo saldo cruza fosselmente emente na fita c(Positivo)."
+      "back": "Gabarito: A. !Otávio! ~Front-Loading do Tutorial~ A diferença do Erro Absoluto para o Quadrático é como eles punem a IA. O Absoluto bate de cinta linearmente. O Quadrático pega a bazuca quando a IA faz cagadas discrepantes muito gigantes de longe e pune pesado os desvios gordos forjando a raiz final da diferença de punição (Root Mean Squared Error). !Regra de Bolso! ~Lógica~ **1) SE** for o Erro Absoluto Médio (MAE), **ENTÃO** não perca a cabeça: apenas arranque todos os sinais estáticos puristas matemáticos na via de subtração da via (-) da conta da fita e faça a sua soma e média como se todo saldo cruza fosselmente emente na fita c(Positivo)."
     },
     {
       "type": "normal",
@@ -144,14 +141,14 @@
       "subject": "Ciência de Dados",
       "source": "MONTAGEM - Calculando a Linha",
       "timer_override": 180,
-      "front": "**Otávio:** Não calcule médias ainda. Apenas tire as diferenças absolutassss de.\nTabela do cruzamento:\nMunicípio | Real (O que entrou) | Previsto (O que a IA jurava)\nM1 | 40 | 45\nM2 | 52 | 48\nM3 | 30 | 32\n\nSubtraia a previsão atrelada da fita do Arrecadado na via da prova. Pegue as diferençassssssssss (sem o sinal de morte fluida estática do -):\nQuais são as três distânciasméricassssssss es do município 1, 2 e 3 em sequência?\n(A) 5, 4, 2.\n(B) 45, 48, 32.",
+      "front": "**Otávio:** Não calcule médias ainda. Apenas tire as diferenças absolutas de. Tabela do cruzamento: Município | Real (O que entrou) | Previsto (O que a IA jurava) M1 | 40 | 45 M2 | 52 | 48 M3 | 30 | 32 Subtraia a previsão atrelada da fita do Arrecadado na via da prova. Pegue as diferenças (sem o sinal de morte fluida estática do -): Quais são as três distânciasméricas es do município 1, 2 e 3 em sequência? (A) 5, 4, 2. (B) 45, 48, 32.",
       "stem": [],
       "options": [
         "A) 5, 4, 2.",
         "B) 45, 48, 32."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Previsão menos a realidade da rua.\nM1: Diferença entre 45 e 40 = c(5).\nM2: Diferença entre 48 e 52 = c(4).\nM3: Diferença entre 32 e 30 = c(2).\n\n**2)** Perceba: Em M2 o saldo seria matematicamente -4. Mas usando a virtude do **Valor Absoluto (Módulo)**, virou 4 e gordo. \n\n!Break para Respirar!\n~Otávio~\nÉ o suor da fundação. Com esses resíduoss em mão na mesa de poeira estática fluída da fita atrelada (5, 4, 2), você fará as duas contas difíceis do próximo round de fita sem piscar o olho cru da prova."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Previsão menos a realidade da rua. M1: Diferença entre 45 e 40 = c(5). M2: Diferença entre 48 e 52 = c(4). M3: Diferença entre 32 e 30 = c(2). **2)** Perceba: Em M2 o saldo seria matematicamente -4. Mas usando a virtude do **Valor Absoluto (Módulo)**, virou 4 e gordo. !Break para Respirar! ~Otávio~ É o suor da fundação. Com esses resíduoss em mão na mesa de poeira estática fluída da fita atrelada (5, 4, 2), você fará as duas contas difíceis do próximo round de fita sem piscar o olho cru da prova."
     },
     {
       "type": "normal",
@@ -159,14 +156,14 @@
       "subject": "Ciência de Dados",
       "source": "CÁLCULO - Erro Absoluto Médio (MAE)",
       "timer_override": 180,
-      "front": "**Otávio:** Complete os passos finos.\nLista de diferençass totaiss da questão de prova (são 5 municípios e 5 saldosss cruéiss da conta atrelada de módulo e cru):\nc(5), c(4), c(2), c(0), c(0).\n\nPara achar o c(Erro Absoluto Médio (MAE)), você apenas calcula a Média Simples de padaria dos módulos listados acimass. Quanto é a Média de?\n(A) 2,2.\n(B) 4,5.",
+      "front": "**Otávio:** Complete os passos finos. Lista de diferençass totaiss da questão de prova (são 5 municípios e 5 saldos da conta atrelada de módulo e cru): c(5), c(4), c(2), c(0), c(0). Para achar o c(Erro Absoluto Médio (MAE)), você apenas calcula a Média Simples de padaria dos módulos listados acimass. Quanto é a Média de? (A) 2,2. (B) 4,5.",
       "stem": [],
       "options": [
         "A) 2,2.",
         "B) 4,5."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Pegue todas as distânciassssiss de módulo (Sem Sinal Negativo) e coloque na balança da soma da prova estática: 5 + 4 + 2 + 0 + 0 = c(11).\n**2)** Divida pelo total de elementosssss crus listadosss da amostra (N = 5 Municípios cravadoss no papel ess estáticos da mesa de dados de ponta de rua).\n**3)** 11 dividido por 5 = c(2,2).\n\n!Interpretando a Banca!\n~Ouro~\nVocê acabou de achar a primeira resposta letal de ponta da fita e do problema de Sefaz (2,2). Guarde este valor, o próximo passo exige sanguel na raiz da prova para achar o Quadrático Médio raiz e."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Pegue todas as distânciasiss de módulo (Sem Sinal Negativo) e coloque na balança da soma da prova estática: 5 + 4 + 2 + 0 + 0 = c(11). **2)** Divida pelo total de elementos crus listados da amostra (N = 5 Municípios cravadoss no papel ess estáticos da mesa de dados de ponta de rua). **3)** 11 dividido por 5 = c(2,2). !Interpretando a Banca! ~Ouro~ Você acabou de achar a primeira resposta letal de ponta da fita e do problema de Sefaz (2,2). Guarde este valor, o próximo passo exige sanguel na raiz da prova para achar o Quadrático Médio raiz e."
     },
     {
       "type": "normal",
@@ -174,14 +171,14 @@
       "subject": "Ciência de Dados",
       "source": "CÁLCULO EXTREMO - Raiz do Erro Quadrático Médio (RMSE)",
       "timer_override": 180,
-      "front": "**Otávio:** Não se perca na fumaça. O RMSE é apenas jogar um foguete (Quadrado) em cada peça pra punir a IA e depois aplicar a chuva de redução (Raiz Quadrada) no resultado consolidado de rua na mesa.\n\nLista dos resíduoss (5 municípios de crua):\n[5, 4, 2, 0, 0]\n\n**Passo Mestre:** Eleve CADA número suado da fita cru acima ao c(QUADRADO) (Multiplique por ele mesmo). E depois c(SOME) os tijolos criados.\n\nQual é a SOMA dos quadrados crus puristas da matriz e crua?\n(A) 121 (Pega a soma anterior de 11 e faz o quadrado dela inteira em 11 x 11 e).\n(B) 45 (Elevamente em ponta cada peça: 25 + 16 + 4 + 0 + 0).",
+      "front": "**Otávio:** Não se perca na fumaça. O RMSE é apenas jogar um foguete (Quadrado) em cada peça pra punir a IA e depois aplicar a chuva de redução (Raiz Quadrada) no resultado consolidado de rua na mesa. Lista dos resíduoss (5 municípios de crua): [5, 4, 2, 0, 0] **Passo Mestre:** Eleve CADA número suado da fita cru acima ao c(QUADRADO) (Multiplique por ele mesmo). E depois c(SOME) os tijolos criados. Qual é a SOMA dos crus puristas da matriz e crua? (A) 121 (Pega a soma anterior de 11 e faz o quadrado dela inteira em 11 x 11 e). (B) 45 (Elevamente em ponta cada peça: 25 + 16 + 4 + 0 + 0).",
       "stem": [],
       "options": [
         "A) 121.",
         "B) 45."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** A essência do Quadrático é mordermente cru e o calcanhar e de cada dado sujo da lista e encarecer cru a pena de quem desvia absurdamente sujo da rota de e.\n**2)** Peça 1 (5): 5² = 25.\n**3)** Peça 2 (4): 4² = 16.\n**4)** Peça 3 (2): 2² = 4.\n**5)** Peças 4 e 5: Zeros eternoss = 0.\n**6)** A soma dos quadradossssssss cruéiss da es das diferenças: 25 + 16 + 4 = c(45).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for Erro Quadrático Médio da (MSE/RMSE), **ENTÃO** você proíbe e aborta cru e nato estática de tentar somar os termos suados cruss para depois elevar ao quadrado global atrelado na fita. O ato quadrado castiga obrigatoriamente a peça esporádica antes de subir pra conta do gerente e ser aglomerada de forma e da mesa."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** A essência do Quadrático é mordermente cru e o calcanhar e de cada dado sujo da lista e encarecer cru a pena de quem desvia absurdamente sujo da rota de e. **2)** Peça 1 (5): 5² = 25. **3)** Peça 2 (4): 4² = 16. **4)** Peça 3 (2): 2² = 4. **5)** Peças 4 e 5: Zeros eternoss = 0. **6)** A soma dos da es das diferenças: 25 + 16 + 4 = c(45). !Regra de Bolso! ~Lógica~ **1) SE** for Erro Quadrático Médio da (MSE/RMSE), **ENTÃO** você proíbe e aborta cru e nato estática de tentar somar os termos suados cruss para depois elevar ao quadrado global atrelado na fita. O ato quadrado castiga obrigatoriamente a peça esporádica antes de subir pra conta do gerente e ser aglomerada de forma e da mesa."
     },
     {
       "type": "normal",
@@ -189,14 +186,14 @@
       "subject": "Ciência de Dados",
       "source": "PONTE DE TRANSFERÊNCIA - Finalizando o RMSE",
       "timer_override": 180,
-      "front": "**Otávio:** Com os tijolos estáticoss somadosss e valendo (45), termine o fluxo. Faltam 2 pregos para fechar a porta e.\n\nA sigla é Raiz do Erro Quadrático c(MÉDIO).\nQual o pulo do gato final cru para encontrar o RMSE da raiz?\n(A) Você divide os 45 pela Média de Municípios cravada na fita (5) virando cru e 9. E no fim, aplica a pá de cal com a Raiz Quadrada do 9 na mesa (virando 3 na resposta).\n(B) Você aplica direto a Raiz Quadrada nos 45 da conta e fatia tudo e estático cru na mesa dividindo cravado no 5 da rua (virando ~1.34).",
+      "front": "**Otávio:** Com os tijolos estáticoss somados e valendo (45), termine o fluxo. Faltam 2 pregos para fechar a porta e. A sigla é Raiz do Erro Quadrático c(MÉDIO). Qual o pulo do gato final cru para encontrar o RMSE da raiz? (A) Você divide os 45 pela Média de Municípios cravada na fita (5) virando cru e 9. E no fim, aplica a pá de cal com a Raiz Quadrada do 9 na mesa (virando 3 na resposta). (B) Você aplica direto a Raiz Quadrada nos 45 da conta e fatia tudo e estático cru na mesa dividindo cravado no 5 da rua (virando ~1.34).",
       "stem": [],
       "options": [
         "A) Divide por 5 primeiro, depois aplica Raiz Quadrada no 9 cruzado seco limpo.",
         "B) Aplica Raiz Quadrada direto no 45 cruzado e depois divide tudo puro."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Você tem a soma dos quadrados inflados: 45.\n**2)** Mas a métrica clama e suplica pela c(MÉDIA). Média de 5 municípioss crus cravadossssss na fita. 45 / 5 = c(9). Esse coitado solitário de fita na rua (9) atende pelo nome estático cravado e emvem e atrelado cru de c(Erro Quadrático Médio - MSE).\n**3)** A banca não quer apenas o MSE. Ela mandou na veia e fatiou cru atrelado pedindo expressamente a c(RAÍZ) do Erro de Via (RMSE). A raiz suada da folha de 9 cravada exata na mesa da via do papel na Sefaz é cirúrgica de ponta = c(3).\n\n**Erro típico:** O aluno chega afoito e atira a raiz quadrada crua atrelada em 45, encontrando a dízima bizarra estática e errando na frente da alternativa na da via.\n**Correção:** A raiz é a tampa do caixão final e da estrutura de via em cimento. Opera-semente a média e atrelada de toda a poeira e resto primeiro.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o pilar da questão clamarmente por RMSE (Raiz de Média Quadrática de e), **ENTÃO** você tranca a raiz no bolso para usar unicamente no fim suado do percurso sobre a Média cravada do papel e cru.\n\n!Break para Respirar!\n~Otávio~\nFoi pesado, estrategista. Mas se você dominar o rito litúrgico cru de descer o martelo absoluto, o elevador e a pá (Módulo/Absoluto -> Quadrado -> Média -> Raiz), nenhuma banca do Brasil tira seu crachá federal em ML."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Você tem a soma dos inflados: 45. **2)** Mas a métrica clama e suplica pela c(MÉDIA). Média de 5 municípioss crus cravados na fita. 45 / 5 = c(9). Esse coitado solitário de fita na rua (9) atende pelo nome estático cravado e emvem e atrelado cru de c(Erro Quadrático Médio - MSE). **3)** A banca não quer apenas o MSE. Ela mandou na veia e fatiou cru atrelado pedindo expressamente a c(RAÍZ) do Erro de Via (RMSE). A raiz suada da folha de 9 cravada exata na mesa da via do papel na Sefaz é cirúrgica de ponta = c(3). **Erro típico:** O aluno chega afoito e atira a raiz quadrada crua atrelada em 45, encontrando a dízima bizarra estática e errando na frente da alternativa na da via. **Correção:** A raiz é a tampa do caixão final e da estrutura de via em cimento. Opera-semente a média e atrelada de toda a poeira e resto primeiro. !Regra de Bolso! ~Lógica~ **1) SE** o pilar da questão clamarmente por RMSE (Raiz de Média Quadrática de e), **ENTÃO** você tranca a raiz no bolso para usar unicamente no fim suado do percurso sobre a Média cravada do papel e cru. !Break para Respirar! ~Otávio~ Foi pesado, estrategista. Mas se você dominar o rito litúrgico cru de descer o martelo absoluto, o elevador e a pá (Módulo/Absoluto -> Quadrado -> Média -> Raiz), nenhuma banca do Brasil tira seu crachá federal em ML."
     },
     {
       "type": "normal",
@@ -204,14 +201,14 @@
       "subject": "Ciência de Dados",
       "source": "ALFABETIZAÇÃO - One-Hot Encoding",
       "timer_override": 180,
-      "front": "**Otávio:** Como a máquina entende palavras?\nO computador não sabe ler a coluna \"Cidade\" preenchida com \"Floripa\", \"Joinville\" ou \"Blumenau\". Ele só mastiga números.\n\nSe você trocar Blumenau por 1, Joinville por 2 e Floripa por 3 (Label Encoding), a IA vai achar estupidamente que Floripa é \"3 vezes maior matematicamente\" que Blumenau na régua da cidade. \nQual técnica converte isso em colunas com 'zeros e uns' (ex: ColunaFloripa=1, ColunaBlumenau=0), evitando que o robô imponha uma ordem que não existe?\n(A) One-Hot Encoding.\n(B) Target Encoding Linear.",
+      "front": "**Otávio:** Como a máquina entende palavras? O computador não sabe ler a coluna \"Cidade\" preenchida com \"Floripa\", \"Joinville\" ou \"Blumenau\". Ele só mastiga números. Se você trocar Blumenau por 1, Joinville por 2 e Floripa por 3 (Label Encoding), a IA vai achar estupidamente que Floripa é \"3 vezes maior matematicamente\" que Blumenau na régua da cidade. Qual técnica converte isso em colunas com 'zeros e uns' (ex: ColunaFloripa=1, ColunaBlumenau=0), evitando que o robô imponha uma ordem que não existe? (A) One-Hot Encoding. (B) Target Encoding Linear.",
       "stem": [],
       "options": [
         "A) One-Hot Encoding.",
         "B) Target Encoding."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Front-Loading do Tutorial~\nOne-Hot é a metralhadora de Zeros e Uns. Transforma cada palavra da categoria em uma coluna e estática separada de sim e não.\n\n~Aprofundamento Gold~\n**1) O Risco do Label Encoding:**\n- Mapear númeross cria o c(Viés de Ordem) fictício inútil da máquina. O algoritmo burro acharia que a categoria 3 tem maior prioridade que a 1.\n- O c(One-Hot) impede esse desastre pulverizando o impacto igualitário transversal das opções cravadas nominais em binário sem ranquear peso de escala ilusória.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a variável é categórica nominal (sem ranking natural, ex: Cores ou Nomes de Cidade), **ENTÃO** use a codificação c(One-Hot) para proteger o classificador de viés escalar."
+      "back": "Gabarito: A. !Otávio! ~Front-Loading do Tutorial~ One-Hot é a metralhadora de Zeros e Uns. Transforma cada palavra da categoria em uma coluna e estática separada de sim e não. ~Aprofundamento Gold~ **1) O Risco do Label Encoding:** - Mapear númeross cria o c(Viés de Ordem) fictício inútil da máquina. O algoritmo burro acharia que a categoria 3 tem maior prioridade que a 1. - O c(One-Hot) impede esse desastre pulverizando o impacto igualitário transversal das opções cravadas nominais em binário sem ranquear peso de escala ilusória. !Regra de Bolso! ~Lógica~ **1) SE** a variável é categórica nominal (sem ranking natural, ex: Cores ou Nomes de Cidade), **ENTÃO** use a codificação c(One-Hot) para proteger o classificador de viés escalar."
     },
     {
       "type": "normal",
@@ -219,14 +216,14 @@
       "subject": "Ciência de Dados",
       "source": "MONTAGEM - Pipeline Scikit-Learn e Vazamento",
       "timer_override": 180,
-      "front": "**Otávio:** Engenheiros de software erram feio na Validação (Cross-Validation).\nEles têm a mania de aplicar a padronização matemática na tabela inteira PRIMEIRO, e depois fatiarem a em dados de Treino e Teste.\nIsso gera a tragédia do **Vazamento de Dados (Data Leakage)**, porque o treino acabou absorvendo pistas médias matemáticas indevidas do saco do teste sem poder ver a fita real futura secreta cravada do cliente.\n\nQual é a solução cravada na biblioteca `scikit-learn` para impedir isso no código pythonico de IA?\n(A) Encadear o padronizador e o modelo preditivo atrelado dentro de um objeto da classe `Pipeline`. Isso obriga o fit matemático a rodar unicamente emente no bolso dos dados de cada ciclo de treino, blindando a infecção de vazamentos espúrios e colusão prévia de métricas.\n(B) Usar validação randômica manual externa sem encapsular etapas.",
+      "front": "**Otávio:** Engenheiros de software erram feio na Validação (Cross-Validation). Eles têm a mania de aplicar a padronização matemática na tabela inteira PRIMEIRO, e depois fatiarem a em dados de Treino e Teste. Isso gera a tragédia do **Vazamento de Dados (Data Leakage)**, porque o treino acabou absorvendo pistas médias matemáticas indevidas do saco do teste sem poder ver a fita real futura secreta cravada do cliente. Qual é a solução cravada na biblioteca `scikit-learn` para impedir isso no código pythonico de IA? (A) Encadear o padronizador e o modelo preditivo atrelado dentro de um objeto da classe `Pipeline`. Isso obriga o fit matemático a rodar unicamente emente no bolso dos dados de cada ciclo de treino, blindando a infecção de vazamentos espúrios e colusão prévia de métricas. (B) Usar validação randômica manual externa sem encapsular etapas.",
       "stem": [],
       "options": [
         "A) Usar o objeto Pipeline que blinda o fit no cross-validation.",
         "B) Usar Random Seed pura sem empacotar as etapas pregressas."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O c(Pipeline) é o trilho e tubo de trem sequencial cravado.\n**2)** Se você jogar o `StandardScaler` (padronizador) junto no tubo com o classificador final de ML e jogar no Cross-Validation, o scikit fará a mágica:\n**3)** A cada dobra (fold) nova do CV iterativo cravado, ele aciona o Scaler do zero, recalcula as médias sem espiar o set fechado de teste e garante uma prova purista sem contaminação do \"conhecimento do futuro\".\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca falar sobre prevenir e blindar o Data Leakage (Vazamento) durante transformações em validação, **ENTÃO** a cura sagrada no Python é encadear com c(Pipeline)."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** O c(Pipeline) é o trilho e tubo de trem sequencial cravado. **2)** Se você jogar o `StandardScaler` (padronizador) junto no tubo com o classificador final de ML e jogar no Cross-Validation, o scikit fará a mágica: **3)** A cada dobra (fold) nova do CV iterativo cravado, ele aciona o Scaler do zero, recalcula as médias sem espiar o set fechado de teste e garante uma prova purista sem contaminação do \"conhecimento do futuro\". !Regra de Bolso! ~Lógica~ **1) SE** a banca falar sobre prevenir e blindar o Data Leakage (Vazamento) durante transformações em validação, **ENTÃO** a cura sagrada no Python é encadear com c(Pipeline)."
     },
     {
       "type": "normal",
@@ -234,14 +231,14 @@
       "subject": "Detecção de Anomalias",
       "source": "ALFABETIZAÇÃO - Floresta de Isolamento",
       "timer_override": 180,
-      "front": "**Otávio:** Como a Receita acha fraudes?\nA **Isolation Forest (Floresta de Isolamento)** é o leão solitário da detecção.\n\nQual é o grande trunfo que torna esse algoritmo espetacular na busca por sonegadores ocultos que agem diferente no mapa?\n(A) Ele exige rótulos históricos para saber o que procurar como padrão criminal de corte.\n(B) Ele NÃO precisa de rotulada ou exemplos anteriores (é Não Supervisionado). A matemática dele apenas corta as fatias da em linha: fraudes e dados raros sãos em pouquíssimos cortes e ganham o escore de suspeitos. A normalidade da manada demora muitos cortes pra se isolar das garras das árvores em tela.",
+      "front": "**Otávio:** Como a Receita acha fraudes? A **Isolation Forest (Floresta de Isolamento)** é o leão solitário da detecção. Qual é o grande trunfo que torna esse algoritmo espetacular na busca por sonegadores ocultos que agem diferente no mapa? (A) Ele exige rótulos históricos para saber o que procurar como padrão criminal de corte. (B) Ele NÃO precisa de rotulada ou exemplos anteriores (é Não Supervisionado). A matemática dele apenas corta as fatias da em linha: fraudes e dados raros sãos em pouquíssimos cortes e ganham o escore de suspeitos. A normalidade da manada demora muitos cortes pra se isolar das garras das árvores em tela.",
       "stem": [],
       "options": [
         "A) Exige base rotulada prévia.",
         "B) Não supervisionado, isola pontos anômalos em poucos cortes aleatórios."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** As fraudes são pontos desgarrados, raros e esquisitos no meio davem.\n**2)** Se a IA passar uma navalha aleatória cortando o mapa de dados da Receita, a fraude cai sozinham quadrado segregado muito mais rápido do que os contribuintes que vivem socados no centro do bolo de normalidade da curva comum.\n**3)** Caminho curto da árvore para se isolar do rebanho = Escore de anomalia ALTO (sirene apita na tela na ponta de Sefaz).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado listar \"algoritmo não supervisionado\" e \"cortes ou partições aleatórias rápidas isolando dados desgarrados de anomalias\", **ENTÃO** você tem o gabarito c(Floresta de Isolamento)."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** As fraudes são pontos desgarrados, raros e esquisitos no meio davem. **2)** Se a IA passar uma navalha aleatória cortando o mapa de dados da Receita, a fraude cai sozinham quadrado segregado muito mais rápido do que os contribuintes que vivem socados no centro do bolo de normalidade da curva comum. **3)** Caminho curto da árvore para se isolar do rebanho = Escore de anomalia ALTO (sirene apita na tela na ponta de Sefaz). !Regra de Bolso! ~Lógica~ **1) SE** o enunciado listar \"algoritmo não supervisionado\" e \"cortes ou partições aleatórias rápidas isolando dados desgarrados de anomalias\", **ENTÃO** você tem o gabarito c(Floresta de Isolamento)."
     },
     {
       "type": "normal",
@@ -249,14 +246,14 @@
       "subject": "Detecção de Anomalias",
       "source": "CÁLCULO EXTREMO - Lei de Benford",
       "timer_override": 180,
-      "front": "**Otávio:** Auditores aplicam a **Lei de Benford** para pegar políticos criando orçamentos falsos com números mentirosos.\nSegundo essa lei mágica natural, na vida real de orçamentos e escalas financeiras dispersas fáticas, é mais comum que a conta de R$ ou nota fiscal de serviço comece pelo dígitomérico `1` ou pelo dígito `9`?\n(A) A distribuição e os números são equiprováveis perfeitamentes.\n(B) O dígito `1` desponta de forma esmagadora como o primeiro dígito dominante nas listagens autênticas por obedecer ao cálculo logarítmico (log 2).",
+      "front": "**Otávio:** Auditores aplicam a **Lei de Benford** para pegar políticos criando orçamentos falsos com números mentirosos. Segundo essa lei mágica natural, na vida real de orçamentos e escalas financeiras dispersas fáticas, é mais comum que a conta de R$ ou nota fiscal de serviço comece pelo dígitomérico `1` ou pelo dígito `9`? (A) A distribuição e os números são equiprováveis perfeitamentes. (B) O dígito `1` desponta de forma esmagadora como o primeiro dígito dominante nas listagens autênticas por obedecer ao cálculo logarítmico (log 2).",
       "stem": [],
       "options": [
         "A) Todos têm a mesma chance neutra.",
         "B) O número 1 lidera disparado em ordem logarítmica das distribuições fáticas cruzadas."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nO cérebro humano que forja números aleatórios para fraudar prefeituras sempre usa \"7, 6, 8\" para disfarçar e parecer 'natural' espalhado. A lei da física estatística financeira atrelada (Benford) diz que `1` (30%) e `2` (17%) da vida dominam a cadeia primária no início de escala e variação exponencial livre. É a chave-mestra pra checar adulterações sem fazer cálculo.\n\n!Interpretando a Banca!\n~Ouro~\nA banca te dá as armas do logaritmo (ex: `log 2 = 0.301`). É só você injetar isso e saber de cara que o número 1 ocorrerá estatisticamente em c(30,1% das notas daquele maço autêntico auditado)."
+      "back": "Gabarito: B. !Otávio! ~Front-Loading do Tutorial~ O cérebro humano que forja números aleatórios para fraudar prefeituras sempre usa \"7, 6, 8\" para disfarçar e parecer 'natural' espalhado. A lei da física estatística financeira atrelada (Benford) diz que `1` (30%) e `2` (17%) da vida dominam a cadeia primária no início de escala e variação exponencial livre. É a chave-mestra pra checar adulterações sem fazer cálculo. !Interpretando a Banca! ~Ouro~ A banca te dá as armas do logaritmo (ex: `log 2 = 0.301`). É só você injetar isso e saber de cara que o número 1 ocorrerá estatisticamente em c(30,1% das notas daquele maço autêntico auditado)."
     },
     {
       "type": "normal",
@@ -264,14 +261,14 @@
       "subject": "Detecção de Anomalias",
       "source": "MONTAGEM - Calculando Benford na Prova",
       "timer_override": 180,
-      "front": "**Otávio:** Faça o cálculo agora.\n\nA amostra contém c(2.000) notas fiscais e pagamentos da Prefeitura.\nA lei dita que a chance do dígito iniciarmente pelo '1' bate em c(log 2), que vale cerca de c(0,301).\nA chance do dígito iniciar cruamente pelos irmãos menores '1' ou '2' agrupadoss é medida cravada na fita de c(log 3), que a banca nos deu de lambuja a da tabela que vale c(0,477).\n\nQuantas notas a Prefeitura deve ter iniciando apenas no dígito \"1\" de fato se ela foi perfeitamente honesta?\n(A) Aproximadamente 602 notas.\n(B) Cerca de 222 notas (se dividir os números igualmente).",
+      "front": "**Otávio:** Faça o cálculo agora. A amostra contém c(2.000) notas fiscais e pagamentos da Prefeitura. A lei dita que a chance do dígito iniciarmente pelo '1' bate em c(log 2), que vale cerca de c(0,301). A chance do dígito iniciar cruamente pelos irmãos menores '1' ou '2' agrupadoss é medida cravada na fita de c(log 3), que a banca nos deu de lambuja a da tabela que vale c(0,477). Quantas notas a Prefeitura deve ter iniciando apenas no dígito \"1\" de fato se ela foi perfeitamente honesta? (A) Aproximadamente 602 notas. (B) Cerca de 222 notas (se dividir os números igualmente).",
       "stem": [],
       "options": [
         "A) 602 notas.",
         "B) 222 notas."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Pegue a real fática do total da folha auditada: c(2000 notas).\n**2)** Jogue a probabilidade cravada logarítmica concedida dada pelo problema do dígito 1 (0,301).\n**3)** 2.000 x 0,301 = c(602 notas esperadas).\n\nSe quiser para 1 ou 2 juntos na conta agregada?\n2.000 x 0,477 (log 3) = c(954 notas).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a questão citar detecção de fraude usando \"probabilidade do primeiro dígito d e curva logarítmica da fita\", **ENTÃO** você multiplica o número total de amostras atreladass pelo \"log fornecido\" da respectiva conta."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Pegue a real fática do total da folha auditada: c(2000 notas). **2)** Jogue a probabilidade cravada logarítmica concedida dada pelo problema do dígito 1 (0,301). **3)** 2.000 x 0,301 = c(602 notas esperadas). Se quiser para 1 ou 2 juntos na conta agregada? 2.000 x 0,477 (log 3) = c(954 notas). !Regra de Bolso! ~Lógica~ **1) SE** a questão citar detecção de fraude usando \"probabilidade do primeiro dígito d e curva logarítmica da fita\", **ENTÃO** você multiplica o número total de amostras atreladass pelo \"log fornecido\" da respectiva conta."
     },
     {
       "type": "normal",
@@ -279,7 +276,7 @@
       "subject": "Conhecimentos Específicos",
       "source": "BOSS FINAL - Anta-Einstein Lote 04",
       "timer_override": 400,
-      "front": "**Otávio:** O Boss da Aprovação. Analise e liquide as premissas de Código Python, ML e Anomalias:\n\nA sequência correta é:",
+      "front": "**Otávio:** O Boss da Aprovação. Analise e liquide as premissas de Código Python, ML e Anomalias: A sequência correta é:",
       "stem": [
         "vf(O modelo Random Forest (Floresta Aleatória) em Detecção de Fraudesadamente em Isolation Forest é incapaz de agir de forma independentem Data Lake da Sefaz e demanda previamente que um perito humano aplique os rótulos históricos categóricos em cada arquivo sujo na matriz da Receita Federal da fita.)",
         "vf(A anomalia temporal estatística que apaga cravado as gravações na falha da fita do Read Committed no banco é evitada aplicando a chave do motor via Update de equação na linha (c=c+x) preservando atomicidade de concorrência com bloqueio.)",
@@ -294,7 +291,7 @@
         "A) F, F, V, V."
       ],
       "answer": 1,
-      "back": "Gabarito: Letra correspondente à sequência F, V, F, V.\n\n!Otávio!\n~Teoria~\n**1) Isolation Forest (Fraudes):**\nA força da máquina que acha anomalias em de dados sem precisar de exemplos rotulados prévios na rua do governo de ponta.\n\n**2) ML Encoding:**\nOne-Hot é um banho de binários com igualdade estática de via.\n\n**3) Métrica de Regressão:**\nA potência do RMSE esmaga as predições bizarras e cobra o pedágio.\n\n~Gabarito~\n**D) F, V, F, V.**\n\n**1ª afirmação (F).**\n**> ERRADO <**\n(Isolation precisa de rótulo de perito?) Completamente errado, ela brilha justamente por ser c(NÃO Supervisionada) na via estática e não requerer nenhum rótulo para triturar os desgarrados.\n\n**2ª afirmação (V).**\n**> CERTO <**\n(Update na linha mata Lost Update) Sim. Evitar carregar na RAM e fazer o Update na é o antídoto.\n\n**3ª afirmação (F).**\n**> ERRADO <**\n(One-hot cria pesos em Label de hierarquia falsa?) Inverteu tudo. One-Hot dilui cravado a força criando colunas binárias paralelas idênticas sem peso em Zeros e Uns. Quem cria a burrice hierárquica falsa e é o Label Encoding da esteira.\n\n**4ª afirmação (V).**\n**> CERTO <**\n(Erro Quadrático pune desvios enormes com rigor) Exato. Por usar elevação, se o algoritmo errar feio a ponta, o erro explodel na fita quadrada final e pesa horrivelmente na conta do engenheiro.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar com a palavra 'Isolation Forest e Rótulos' ou 'One-Hot hierárquico e atrelado', **ENTÃO** você corta a raiz falsa com sangue.\n\n!Break para Respirar!\n~Otávio~\nSobrevivemos! O Anta-Einstein reconstrói os cabos quebrados da mente traduzindo o 'fácil do professor' para o 'visceral pragmático'. Revise essas cartas e seu desempenho baterá no teto nas provas da banca!"
+      "back": "Gabarito: Letra correspondente à sequência F, V, F, V. !Otávio! ~Teoria~ **1) Isolation Forest (Fraudes):** A força da máquina que acha anomalias em de dados sem precisar de exemplos rotulados prévios na rua do governo de ponta. **2) ML Encoding:** One-Hot é um banho de binários com igualdade estática de via. **3) Métrica de Regressão:** A potência do RMSE esmaga as predições bizarras e cobra o pedágio. ~Gabarito~ **D) F, V, F, V.** **1ª afirmação (F).** **> ERRADO <** (Isolation precisa de rótulo de perito?) Completamente errado, ela brilha justamente por ser c(NÃO Supervisionada) na via estática e não requerer nenhum rótulo para triturar os desgarrados. **2ª afirmação (V).** **> CERTO <** (Update na linha mata Lost Update) Sim. Evitar carregar na RAM e fazer o Update na é o antídoto. **3ª afirmação (F).** **> ERRADO <** (One-hot cria pesos em Label de hierarquia falsa?) Inverteu tudo. One-Hot dilui cravado a força criando colunas binárias paralelas idênticas sem peso em Zeros e Uns. Quem cria a burrice hierárquica falsa e é o Label Encoding da esteira. **4ª afirmação (V).** **> CERTO <** (Erro Quadrático pune desvios enormes com rigor) Exato. Por usar elevação, se o algoritmo errar feio a ponta, o erro explodel na fita quadrada final e pesa horrivelmente na conta do engenheiro. !Regra de Bolso! ~Lógica~ **1) SE** você cruzar com a palavra 'Isolation Forest e Rótulos' ou 'One-Hot hierárquico e atrelado', **ENTÃO** você corta a raiz falsa com sangue. !Break para Respirar! ~Otávio~ Sobrevivemos! O Anta-Einstein reconstrói os cabos quebrados da mente traduzindo o 'fácil do professor' para o 'visceral pragmático'. Revise essas cartas e seu desempenho baterá no teto nas provas da banca!"
     },
     {
       "type": "normal",
@@ -302,14 +299,14 @@
       "subject": "Estatística",
       "source": "ALFABETIZAÇÃO - Correlação vs Causalidade",
       "timer_override": 180,
-      "front": "**Otávio:** Como não ser enganado por gráficos?\nO coeficiente de Pearson mede a \"Correlação\" (quando A sobe, B sobe junto). Mas se a correlação entre Venda de Sorvete e Ataques de Tubarão bater quase 100%, isso significa cientificamente que Sorvetes CAUSAM ataques de tubarão?\n(A) Sim, se passar de 90%, a causalidade é comprovada e atestada.\n(B) Não, correlaçãonca demonstra causalidade. Ambas sobem juntas pelo fator escondido (Verão).",
+      "front": "**Otávio:** Como não ser enganado por gráficos? O coeficiente de Pearson mede a \"Correlação\" (quando A sobe, B sobe junto). Mas se a correlação entre Venda de Sorvete e Ataques de Tubarão bater quase 100%, isso significa cientificamente que Sorvetes CAUSAM ataques de tubarão? (A) Sim, se passar de 90%, a causalidade é comprovada e atestada. (B) Não, correlaçãonca demonstra causalidade. Ambas sobem juntas pelo fator escondido (Verão).",
       "stem": [],
       "options": [
         "A) Sim, acima de 90% prova causa.",
         "B) Não, correlação não é causalidade."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Front-Loading do Tutorial~\nPearson mede Associação c(Linear) e, não mede paternidade de evento.\n\n~Aprofundamento Gold~\n**1) Correlação de Pearson:**\n- Sensível a atípicos (outliers destroem a métrica).\n- Um valor ZERO não exclui que exista relação. Ele apenas diz que não existe relação LINEAR (reta). Pode existir uma relação parabólica perfeita (em formato de U) e Pearson vai marcar zero.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca cravar que \"alta correlação atesta e demonstra causalidade\", **ENTÃO** você decreta a morte da alternativa como absurda."
+      "back": "Gabarito: B. !Otávio! ~Front-Loading do Tutorial~ Pearson mede Associação c(Linear) e, não mede paternidade de evento. ~Aprofundamento Gold~ **1) Correlação de Pearson:** - Sensível a atípicos (outliers destroem a métrica). - Um valor ZERO não exclui que exista relação. Ele apenas diz que não existe relação LINEAR (reta). Pode existir uma relação parabólica perfeita (em formato de U) e Pearson vai marcar zero. !Regra de Bolso! ~Lógica~ **1) SE** a banca cravar que \"alta correlação atesta e demonstra causalidade\", **ENTÃO** você decreta a morte da alternativa como absurda."
     },
     {
       "type": "normal",
@@ -317,14 +314,14 @@
       "subject": "Detecção de Anomalias",
       "source": "ALFABETIZAÇÃO - Gráfico de Controle",
       "timer_override": 180,
-      "front": "**Otávio:** Você tem um painel medindo as despesas mensais.\nVocê traça os c(Limites de Controle) (a faixa onde é seguro oscilar,ada no histórico). Se a despesa bater 3 Desvios-Padrão acima, o alarme toca.\n\nE se a despesa de hoje NÃO quebrar o limite de 3 desvios, MAS formar uma sequência bizarra de 8 meses seguidos subindo sem parar, ainda dentro da faixa. Isso indica processo sob controle absoluto?\n(A) Não, sequências não-aleatórias suspeitas são alarmes de causas especiais que devem ser investigadas.\n(B) Sim, se não rompeu o teto dos limites estipulados, é impossível haver anomalia.",
+      "front": "**Otávio:** Você tem um painel medindo as despesas mensais. Você traça os c(Limites de Controle) (a faixa onde é seguro oscilar,ada no histórico). Se a despesa bater 3 Desvios-Padrão acima, o alarme toca. E se a despesa de hoje NÃO quebrar o limite de 3 desvios, MAS formar uma sequência bizarra de 8 meses seguidos subindo sem parar, ainda dentro da faixa. Isso indica processo sob controle absoluto? (A) Não, sequências não-aleatórias suspeitas são alarmes de causas especiais que devem ser investigadas. (B) Sim, se não rompeu o teto dos limites estipulados, é impossível haver anomalia.",
       "stem": [],
       "options": [
         "A) Não. Sequências não-aleatórias indicam causa especial.",
         "B) Sim. Abaixo do limite está tudo perfeito."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** Romper as faixas de limite do Desvio Padrão é o grito de alerta mais óbvio.\n**2)** Mas o Gráfico de Controle pune o comportamento c(viciado). Oito pontos cravados subindo, ou oito pontos apenas de um lado da média, apontam c(Causa Especial de Variação). O processo não está oscilando natural e; alguém está manipulando ou algo quebrou a esteira.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o enunciado citar longas sequências não-aleatórias no mesmo lado do gráfico de controle, **ENTÃO** está caracterizada a anomalia (causa especial), independentemente de não ter estourado os limites laterais."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** Romper as faixas de limite do Desvio Padrão é o grito de alerta mais óbvio. **2)** Mas o Gráfico de Controle pune o comportamento c(viciado). Oito pontos cravados subindo, ou oito pontos apenas de um lado da média, apontam c(Causa Especial de Variação). O processo não está oscilando natural e; alguém está manipulando ou algo quebrou a esteira. !Regra de Bolso! ~Lógica~ **1) SE** o enunciado citar longas sequências não-aleatórias no mesmo lado do gráfico de controle, **ENTÃO** está caracterizada a anomalia (causa especial), independentemente de não ter estourado os limites laterais."
     },
     {
       "type": "normal",
@@ -332,14 +329,14 @@
       "subject": "Detecção de Anomalias",
       "source": "RECONHECIMENTO - Deduplicação",
       "timer_override": 180,
-      "front": "**Otávio:** João abriu uma empresa fraudulenta.\nEle cobrou 100 reais na nota 1. Mas assinou como \"Joao Marcos\".\nNa nota 2, ele cobrou 100 reais, mas assinou como \"João Marcos\" (com acento).\n\nPara a máquina achar essa fraude, qual técnica pega as diferenças minúsculas que burlam o olho do filtro matemático igual e?\n(A) A técnica de Comparação Exata e simples.\n(B) A Deduplicação Aproximada (que usa similaridade para contornar pequenos erros de digitação e acentos).",
+      "front": "**Otávio:** João abriu uma empresa fraudulenta. Ele cobrou 100 reais na nota 1. Mas assinou como \"Joao Marcos\". Na nota 2, ele cobrou 100 reais, mas assinou como \"João Marcos\" (com acento). Para a máquina achar essa fraude, qual técnica pega as diferenças minúsculas que burlam o olho do filtro matemático igual e? (A) A técnica de Comparação Exata e simples. (B) A Deduplicação Aproximada (que usa similaridade para contornar pequenos erros de digitação e acentos).",
       "stem": [],
       "options": [
         "A) Comparação Exata.",
         "B) Deduplicação Aproximada."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** A comparação exata exige match perfeito (1 para 1 cravado). Um acento quebra a lupa.\n**2)** Deduplicação Aproximada usa regras de tolerância (como o famoso e russo Levenshtein). Ela checa o CPF e aceita margem de erro no nome, entregando de bandeja pagamentos fracionados disfarçados com pequenas falhas de texto.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** o objetivo for detectar pagamentos duplicados emitidos com variação milimétrica ou erros de digitação, **ENTÃO** a comparação exata falhamente e exige-se a similaridade e Deduplicação Aproximada."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** A comparação exata exige match perfeito (1 para 1 cravado). Um acento quebra a lupa. **2)** Deduplicação Aproximada usa regras de tolerância (como o famoso e russo Levenshtein). Ela checa o CPF e aceita margem de erro no nome, entregando de bandeja pagamentos fracionados disfarçados com pequenas falhas de texto. !Regra de Bolso! ~Lógica~ **1) SE** o objetivo for detectar pagamentos duplicados emitidos com variação milimétrica ou erros de digitação, **ENTÃO** a comparação exata falhamente e exige-se a similaridade e Deduplicação Aproximada."
     },
     {
       "type": "normal",
@@ -347,14 +344,14 @@
       "subject": "Programação Python",
       "source": "ALFABETIZAÇÃO - NumPy Cumsum",
       "timer_override": 180,
-      "front": "**Otávio:** O comando `np.cumsum(a)` cria uma soma acumulada.\nSe a lista original é `[4, 5, 0, 13]`, o que ele devolve?\n(A) Apenas a soma final: `[22]`.\n(B) A bola de neve passo a passo: `[4, 9, 9, 22]`.",
+      "front": "**Otávio:** O comando `np.cumsum(a)` cria uma soma acumulada. Se a lista original é `[4, 5, 0, 13]`, o que ele devolve? (A) Apenas a soma final: `[22]`. (B) A bola de neve passo a passo: `[4, 9, 9, 22]`.",
       "stem": [],
       "options": [
         "A) [22].",
         "B) [4, 9, 9, 22]."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** 4 desce = 4.\n**2)** 4 + 5 = 9.\n**3)** 9 + 0 = 9.\n**4)** 9 + 13 = 22.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for `cumsum`, **ENTÃO** você empilha os números progressivamente."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** 4 desce = 4. **2)** 4 + 5 = 9. **3)** 9 + 0 = 9. **4)** 9 + 13 = 22. !Regra de Bolso! ~Lógica~ **1) SE** for `cumsum`, **ENTÃO** você empilha os números progressivamente."
     },
     {
       "type": "normal",
@@ -362,14 +359,14 @@
       "subject": "Programação Python",
       "source": "MONTAGEM - NumPy Argmax com Lógica",
       "timer_override": 180,
-      "front": "**Otávio:** Na lista `c = [4, 9, 9, 22]`, rodamos a condição `c > 20`. Isso gera `[Falso, Falso, Falso, Verdadeiro]`.\nSe rodarmos `np.argmax(c > 20)`, o que sai?\n(A) Ele devolve o valor 22.\n(B) Ele devolve o ÍNDICE da primeira vez que deu Verdadeiro (posição 3).",
+      "front": "**Otávio:** Na lista `c = [4, 9, 9, 22]`, rodamos a condição `c > 20`. Isso gera `[Falso, Falso, Falso, Verdadeiro]`. Se rodarmos `np.argmax(c > 20)`, o que sai? (A) Ele devolve o valor 22. (B) Ele devolve o ÍNDICE da primeira vez que deu Verdadeiro (posição 3).",
       "stem": [],
       "options": [
         "A) Devolve 22.",
         "B) Devolve 3."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Argmax não devolve valores da lista. Ele devolve a c(POSIÇÃO) (índice) do maior elemento.\n**2)** Em booleano, Falso é 0 e Verdadeiro é 1.\n**3)** O primeiro Verdadeiro está na posição 3 (0, 1, 2, 3).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for `argmax` em booleano, **ENTÃO** você extrai a posição do primeiro acerto (Verdadeiro)."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Argmax não devolve valores da lista. Ele devolve a c(POSIÇÃO) (índice) do maior elemento. **2)** Em booleano, Falso é 0 e Verdadeiro é 1. **3)** O primeiro Verdadeiro está na posição 3 (0, 1, 2, 3). !Regra de Bolso! ~Lógica~ **1) SE** for `argmax` em booleano, **ENTÃO** você extrai a posição do primeiro acerto (Verdadeiro)."
     },
     {
       "type": "normal",
@@ -377,14 +374,14 @@
       "subject": "Programação Python",
       "source": "RECONHECIMENTO - Exceções Try/Except/Else",
       "timer_override": 180,
-      "front": "**Otávio:** Em um bloco `try / except / else`, para que serve o `else` no final do funil?\n(A) Roda apenas se o código der sucesso absoluto (sem nenhuma exceção explodir).\n(B) Roda se ocorrer um erro bizarro que os excepts de cima não seguraram.",
+      "front": "**Otávio:** Em um bloco `try / except / else`, para que serve o `else` no final do funil? (A) Roda apenas se o código der sucesso absoluto (sem nenhuma exceção explodir). (B) Roda se ocorrer um erro bizarro que os excepts de cima não seguraram.",
       "stem": [],
       "options": [
         "A) Sucesso absoluto.",
         "B) Erro não tratado."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O `else` nas exceções do Python é o prêmio.\n**2)** Se tudo no `try` deu certo, ele pula os `excepts` e executa a festa do `else`.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você usou `else` em exceções, **ENTÃO** ele atua como a via do sucesso."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** O `else` nas exceções do Python é o prêmio. **2)** Se tudo no `try` deu certo, ele pula os `excepts` e executa a festa do `else`. !Regra de Bolso! ~Lógica~ **1) SE** você usou `else` em exceções, **ENTÃO** ele atua como a via do sucesso."
     },
     {
       "type": "normal",
@@ -392,14 +389,14 @@
       "subject": "Programação Python",
       "source": "PONTE - With Open()",
       "timer_override": 180,
-      "front": "**Otávio:** Se o seu programa abrir um arquivo usando `with open(...) as f:` e der um erro fatal dentro do bloco. O arquivo fica corrompido e travado aberto exigindo que você o feche no catch do erro?\n(A) Sim, precisa fechar com `f.close()` no except.\n(B) Não, o superpoder do `with` é garantir o fechamento do arquivo automático, mesmo em caso de falha.",
+      "front": "**Otávio:** Se o seu programa abrir um arquivo usando `with open(...) as f:` e der um erro fatal dentro do bloco. O arquivo fica corrompido e travado aberto exigindo que você o feche no catch do erro? (A) Sim, precisa fechar com `f.close()` no except. (B) Não, o superpoder do `with` é garantir o fechamento do arquivo automático, mesmo em caso de falha.",
       "stem": [],
       "options": [
         "A) Sim, exige f.close() manual.",
         "B) Não, fecha automático."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** O Context Manager (`with`) cuida do lixo. Você não precisa usar `close()`.\n**2)** Se o script for abortado por erro, a porta é fechada antes de ejetar o usuário.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você abriu arquivo com `with`, **ENTÃO** risque o `close()` manual da prova."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** O Context Manager (`with`) cuida do lixo. Você não precisa usar `close()`. **2)** Se o script for abortado por erro, a porta é fechada antes de ejetar o usuário. !Regra de Bolso! ~Lógica~ **1) SE** você abriu arquivo com `with`, **ENTÃO** risque o `close()` manual da prova."
     },
     {
       "type": "normal",
@@ -407,14 +404,14 @@
       "subject": "Estruturas de Dados e Algoritmos",
       "source": "ALFABETIZAÇÃO - Busca Binária",
       "timer_override": 180,
-      "front": "**Otávio:** Você tem 1.000.000 de arquivos ordenados do menor para o maior.\nA c(Busca Binária) abre no meio e joga a metade inútil fora.\nQual é a média de tacadas (comparações no pior caso) pra você achar o arquivo alvo nessa montanha de um milhão?\n(A) Cerca de 500.000 (joga a primeira metade fora e varre a segunda um a um).\n(B) Cerca de 20 tacadas.",
+      "front": "**Otávio:** Você tem 1.000.000 de arquivos ordenados do menor para o maior. A c(Busca Binária) abre no meio e joga a metade inútil fora. Qual é a média de tacadas (comparações no pior caso) pra você achar o arquivo alvo nessa montanha de um milhão? (A) Cerca de 500.000 (joga a primeira metade fora e varre a segunda um a um). (B) Cerca de 20 tacadas.",
       "stem": [],
       "options": [
         "A) 500.000 tacadas.",
         "B) 20 tacadas."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** Busca Sequencial (ler um a um) gasta 1.000.000.\n**2)** Busca Binária ataca pela de Logaritmo 2 (Log2N).\n**3)** 2 elevado à potência 20 dá 1.048.576. \n**4)** Em 20 cortes no meio, você sobra com 1 único arquivo na mão.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca falar de busca binária em 1 milhão, **ENTÃO** a resposta logarítmica trava perto de 20."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** Busca Sequencial (ler um a um) gasta 1.000.000. **2)** Busca Binária ataca pela de Logaritmo 2 (Log2N). **3)** 2 elevado à potência 20 dá 1.048.576. **4)** Em 20 cortes no meio, você sobra com 1 único arquivo na mão. !Regra de Bolso! ~Lógica~ **1) SE** a banca falar de busca binária em 1 milhão, **ENTÃO** a resposta logarítmica trava perto de 20."
     },
     {
       "type": "normal",
@@ -422,14 +419,14 @@
       "subject": "Programação Python",
       "source": "RECONHECIMENTO - Classmethod vs Staticmethod",
       "timer_override": 180,
-      "front": "**Otávio:** O decorador `@staticmethod` no Python recebe qual parâmetro implicitamente?\n(A) Recebe o parâmetro `cls` que carrega a Classe.\n(B) Não recebe parâmetro implícito nenhum (nem `self`, nem `cls`). É uma função morando dentro da classe.",
+      "front": "**Otávio:** O decorador `@staticmethod` no Python recebe qual parâmetro implicitamente? (A) Recebe o parâmetro `cls` que carrega a Classe. (B) Não recebe parâmetro implícito nenhum (nem `self`, nem `cls`). É uma função morando dentro da classe.",
       "stem": [],
       "options": [
         "A) Recebe `cls`.",
         "B) Não recebe parâmetro implícito."
       ],
       "answer": 1,
-      "back": "Gabarito: B.\n\n!Otávio!\n~Passo a passo~\n**1)** `@classmethod` exige o `cls`.\n**2)** Métodos normais exigem o `self` (Instância).\n**3)** `@staticmethod` recusa os dois. Age como função livre.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** for `staticmethod`, **ENTÃO** ele não exige amarração orgânica no primeiro argumento da assinatura."
+      "back": "Gabarito: B. !Otávio! ~Passo a passo~ **1)** `@classmethod` exige o `cls`. **2)** Métodos normais exigem o `self` (Instância). **3)** `@staticmethod` recusa os dois. Age como função livre. !Regra de Bolso! ~Lógica~ **1) SE** for `staticmethod`, **ENTÃO** ele não exige amarração orgânica no primeiro argumento da assinatura."
     },
     {
       "type": "normal",
@@ -437,14 +434,14 @@
       "subject": "Ciência de Dados",
       "source": "ALFABETIZAÇÃO - Escala e Distância",
       "timer_override": 180,
-      "front": "**Otávio:** Algoritmos como o c(K-Vizinhos Mais Próximos - KNN) calculam a distância entre pontos com uma régua (Distância Euclidiana).\nSe um cliente comprou '5 balas' e o 'Imposto' foi 'R$ 20.000'. A máquina consegue nivelar o peso do 5 contra o 20.000 sozinha?\n(A) Não, os atributos não padronizados esmagam uns aos outros (o imposto de 20 mil dominará o cálculo de proximidade anulando a quantidade).\n(B) Sim, o KNN possui balanceador de grandezas.",
+      "front": "**Otávio:** Algoritmos como o c(K-Vizinhos Mais Próximos - KNN) calculam a distância entre pontos com uma régua (Distância Euclidiana). Se um cliente comprou '5 balas' e o 'Imposto' foi 'R$ 20.000'. A máquina consegue nivelar o peso do 5 contra o 20.000 sozinha? (A) Não, os atributos não padronizados esmagam uns aos outros (o imposto de 20 mil dominará o cálculo de proximidade anulando a quantidade). (B) Sim, o KNN possui balanceador de grandezas.",
       "stem": [],
       "options": [
         "A) O valor gigante (R$) domina a conta.",
         "B) O KNN equilibra as grandezas."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** KNN é. Ele só soma e eleva.\n**2)** Se você não passar um \"StandardScaler\" antes para colocar a quantidade de itens e o dinheiro na mesma régua (ex: entre 0 e 1), o dinheiro gigante apaga a variável pequena.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você tem algoritmosados em distância (KNN/K-Means), **ENTÃO** você é forçado a padronizar/normalizar a escala dos dados antes."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** KNN é. Ele só soma e eleva. **2)** Se você não passar um \"StandardScaler\" antes para colocar a quantidade de itens e o dinheiro na mesma régua (ex: entre 0 e 1), o dinheiro gigante apaga a variável pequena. !Regra de Bolso! ~Lógica~ **1) SE** você tem algoritmosados em distância (KNN/K-Means), **ENTÃO** você é forçado a padronizar/normalizar a escala dos dados antes."
     },
     {
       "type": "normal",
@@ -452,14 +449,14 @@
       "subject": "Estatística",
       "source": "CÁLCULO - Probabilidade do Complementar",
       "timer_override": 180,
-      "front": "**Otávio:** O pilar supremo de prova.\nQual a chance de você tirar \"Pelo Menos Uma\" bola preta (com reposição)m pote onde apenas 10% é preta em 4 tentativas exatas?\nA fórmula direta de fazer 1 bola preta, 2 pretas, 3 pretas e 4 pretas é o inferno na Terra.\nQual é o atalho divino?\n(A) Você calcula a chance de tirar NENHUMA bola preta (0,90 elevado a 4 = ~0,65) e subtrai isso do Todo (1 Inteiro), achando ~0,34.\n(B) Você multiplica os 10% da bola por 4 saques na mão dando 40%.",
+      "front": "**Otávio:** O pilar supremo de prova. Qual a chance de você tirar \"Pelo Menos Uma\" bola preta (com reposição)m pote onde apenas 10% é preta em 4 tentativas exatas? A fórmula direta de fazer 1 bola preta, 2 pretas, 3 pretas e 4 pretas é o inferno na Terra. Qual é o atalho divino? (A) Você calcula a chance de tirar NENHUMA bola preta (0,90 elevado a 4 = ~0,65) e subtrai isso do Todo (1 Inteiro), achando ~0,34. (B) Você multiplica os 10% da bola por 4 saques na mão dando 40%.",
       "stem": [],
       "options": [
         "A) Calcula Zero Pretas e subtrai de 100%.",
         "B) Multiplica 10% direto por 4."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O evento c(Pelo Menos Um) é inimigo jurado de contar tudo.\n**2)** O atalho de luz é o c(Evento Complementar).\n**3)** Calcule a Derrota Absoluta (A chance da bola pretanca sair na fita).\n**4)** 90% (boa) x 90% x 90% x 90% = c(0,6561) (65% de chance de só puxar bola boa).\n**5)** O que sobrou do mundo? O mundo inteiro (100%) menos 65%. 1 - 0,6561 = c(0,3439) (34,4%).\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca pedir 'pelo menos 1 sucesso em probabilidade de repetição', **ENTÃO** calcule o fracasso em todos os saques e abata do número 1."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** O evento c(Pelo Menos Um) é inimigo jurado de contar tudo. **2)** O atalho de luz é o c(Evento Complementar). **3)** Calcule a Derrota Absoluta (A chance da bola pretanca sair na fita). **4)** 90% (boa) x 90% x 90% x 90% = c(0,6561) (65% de chance de só puxar bola boa). **5)** O que sobrou do mundo? O mundo inteiro (100%) menos 65%. 1 - 0,6561 = c(0,3439) (34,4%). !Regra de Bolso! ~Lógica~ **1) SE** a banca pedir 'pelo menos 1 sucesso em probabilidade de repetição', **ENTÃO** calcule o fracasso em todos os saques e abata do número 1."
     },
     {
       "type": "normal",
@@ -467,14 +464,14 @@
       "subject": "Ciência de Dados",
       "source": "RECONHECIMENTO - Curva ROC e Acurácia",
       "timer_override": 180,
-      "front": "**Otávio:** O governo tem 100.000 notas fiscais, mas apenas 1.000 são fraudes (1% Fraude e 99% Sadias). Desbalanceada letal!\nSe uma IA burra chutar pra tela que TODAS as notas são honestas, qual a acurácia (taxa de acertos) e por que ela é um lixo estatístico para esse problema?\n(A) A acurácia será de 99% cravada, iludindo o chefe, pois o modelo não pegou 1 fraude sequer.\n(B) A acurácia será de 1%, mostrando a verdade ao chefe de cara.",
+      "front": "**Otávio:** O governo tem 100.000 notas fiscais, mas apenas 1.000 são fraudes (1% Fraude e 99% Sadias). Desbalanceada letal! Se uma IA burra chutar pra tela que TODAS as notas são honestas, qual a acurácia (taxa de acertos) e por que ela é um lixo estatístico para esse problema? (A) A acurácia será de 99% cravada, iludindo o chefe, pois o modelo não pegou 1 fraude sequer. (B) A acurácia será de 1%, mostrando a verdade ao chefe de cara.",
       "stem": [],
       "options": [
         "A) Acurácia de 99% (Falsa Ilusão).",
         "B) Acurácia de 1%."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Passo a passo~\n**1)** O modelo chutou \"Honesto\" 100.000 vezes. \n**2)** Ele acertou as 99.000 notas sadias e errou as 1.000 fraudadas. A conta dá 99% de acerto na nota da escola.\n**3)** A Acurácia c(esconde) que o modelo é inútil para a caça do desvio raro.\n**4)** Por isso, usamos Precision, Recall e a gloriosa Área ROC, que pune quem não foca no nicho do alvo real procurado.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a é desbalanceada (Evento Raro), **ENTÃO** a Acurácia deve ser expurgada do painel por inflar vitórias falsas nos distratores."
+      "back": "Gabarito: A. !Otávio! ~Passo a passo~ **1)** O modelo chutou \"Honesto\" 100.000 vezes. **2)** Ele acertou as 99.000 notas sadias e errou as 1.000 fraudadas. A conta dá 99% de acerto na nota da escola. **3)** A Acurácia c(esconde) que o modelo é inútil para a caça do desvio raro. **4)** Por isso, usamos Precision, Recall e a gloriosa Área ROC, que pune quem não foca no nicho do alvo real procurado. !Regra de Bolso! ~Lógica~ **1) SE** a é desbalanceada (Evento Raro), **ENTÃO** a Acurácia deve ser expurgada do painel por inflar vitórias falsas nos distratores."
     },
     {
       "type": "normal",
@@ -482,11 +479,11 @@
       "subject": "Conhecimentos Específicos",
       "source": "BOSS FINAL - Anta-Einstein Complementar",
       "timer_override": 180,
-      "front": "**Otávio:** O Boss Complementar. Analise as falácias de Estatística:\n\nA sequência correta é:",
+      "front": "**Otávio:** O Boss Complementar. Analise as falácias de Estatística: A sequência correta é:",
       "stem": [
         "vf(Correlações lineares robustas superiores ao marco cravado de 90% em painéis de análise declaram sob chancela estatística a relação orgânica de Causa e Efeito no bloco entre duas grandezas do mercado na via do modelo.)",
         "vf(A normalidade é decretada soberana de modo absoluto de controle cravado na se a plotagem dos fluxos de dados de caixa estacionar e reter todas as variaçõess abaixo da zona limítrofe dos 3 desvios, independentemente do desenho sequencial interno da fita de de rua.)",
-        "vf(A caça forense por pagamentos ilícitos espelhados esbarra de forma frustrante atrelada e crua na análise por Comparação Exata quando sonegadores fracionam lotes mascarando a grafia, exigindo socorro da Similaridade Aproximada de rua na esteira do banco de dadossss es.)"
+        "vf(A caça forense por pagamentos ilícitos espelhados esbarra de forma frustrante atrelada e crua na análise por Comparação Exata quando sonegadores fracionam lotes mascarando a grafia, exigindo socorro da Similaridade Aproximada de rua na esteira do banco de dados es.)"
       ],
       "options": [
         "A) F, F, V.",
@@ -496,7 +493,7 @@
         "E) F, V, V."
       ],
       "answer": 0,
-      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Correlação:**\nNunca prova causa, nem isenta de relação se for zerom gráfico de 'U'.\n\n**2) Gráfico de Controle:**\nAs anomalias não moram só nas extremidades (outliers); moram nas sequênciass de 8 repetições (Vício do processo).\n\n~Gabarito~\n**A) F, F, V.**\n\n**1ª afirmação (F).**\n**> ERRADO <**\n(Alta correlação atesta causalidade absoluta) Pearson mede proximidade linear conjunta, não filiação ou autoria criminal de ação de via.\n\n**2ª afirmação (F).**\n**> ERRADO <**\n(O Gráfico de Controle isenta de culpa quem não estoura limitesméricosss) Oito batidas em sequência do mesmo lado acusam anomalia viciosa de (Causa Especial) mesmo dentro da casinha de segurança.\n\n**3ª afirmação (V).**\n**> CERTO <**\n(Deduplicação Aproximada expurga falhas do match exato e acha fraudes de grafia) A técnica relaxa o limiar duro para aglutinar quem tentou fraudar botando ponto final ou acento onde não devia no campo de rua da tela do governo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a banca atrelar controle de desvio a sequências viciosasss em gráficos de série de estática, **ENTÃO** ative a bandeira da causa especial de anomalia.\n\n!Break para Respirar!\n~Otávio~\nCompletamos 100% dos conceitos exigidos do pacote final de ML e Detecção de Fraudes. As provas de TI em Fisco batem firme na teoria de controle de dados!"
+      "back": "Gabarito: A. !Otávio! ~Teoria~ **1) Correlação:** Nunca prova causa, nem isenta de relação se for zerom gráfico de 'U'. **2) Gráfico de Controle:** As anomalias não moram só nas extremidades (outliers); moram nas sequênciass de 8 repetições (Vício do processo). ~Gabarito~ **A) F, F, V.** **1ª afirmação (F).** **> ERRADO <** (Alta correlação atesta causalidade absoluta) Pearson mede proximidade linear conjunta, não filiação ou autoria criminal de ação de via. **2ª afirmação (F).** **> ERRADO <** (O Gráfico de Controle isenta de culpa quem não estoura limitesméricos) Oito batidas em sequência do mesmo lado acusam anomalia viciosa de (Causa Especial) mesmo dentro da casinha de segurança. **3ª afirmação (V).** **> CERTO <** (Deduplicação Aproximada expurga falhas do match exato e acha fraudes de grafia) A técnica relaxa o limiar duro para aglutinar quem tentou fraudar botando ponto final ou acento onde não devia no campo de rua da tela do governo. !Regra de Bolso! ~Lógica~ **1) SE** a banca atrelar controle de desvio a sequências viciosas em gráficos de série de estática, **ENTÃO** ative a bandeira da causa especial de anomalia. !Break para Respirar! ~Otávio~ Completamos 100% dos conceitos exigidos do pacote final de ML e Detecção de Fraudes. As provas de TI em Fisco batem firme na teoria de controle de dados!"
     }
   ]
 }
