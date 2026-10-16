@@ -1,0 +1,529 @@
+{
+  "title": "Conhecimentos Específicos Parte 5 - Auditoria e Inglês (Anta-Einstein)",
+  "messages": {
+    "reprovado": "Banca Águia: ((Com desprezo)) - Você confundiu 'Simulação Paralela' com 'Dados de Teste'. Volte para a alfabetização. Um auditor de verdade sabe a diferença entre testar os dados e testar a máquina.",
+    "reserva": "Banca Águia: ((Boceja)) - Acertou a lógica, mas escorregou no vocabulário em inglês. Faltou precisão na tradução de conectivos. Medíocre.",
+    "call4": "Banca Águia: ((Levanta uma sobrancelha)) - Entendeu a junção de banco de dados, mas não prestou atenção nos filtros de data. O raciocínio está correto, falta atenção aos detalhes.",
+    "call3": "Banca Águia: ((Aprova com a cabeça)) - Boa identificação das lacunas nas notas fiscais. Você domina o teste de sequência.",
+    "call2": "Banca Águia: ((Impressionada)) - Domínio total dos comandos SQL e das ferramentas de análise. Você não se deixa enganar por falsos positivos em auditoria.",
+    "call1": "Banca Águia: ((Entrega o distintivo)) - NÍVEL AUDITOR-FISCAL. Sua precisão em auditoria tecnológica e leitura de relatórios em inglês é cirúrgica. A vaga é sua."
+  },
+  "cards": [
+    {
+      "type": "normal",
+      "id": "ae5_aud_boss_tutorial",
+      "subject": "Auditoria de TI",
+      "source": "BOSS TUTORIAL - Mapeamento Tático (Auditoria)",
+      "timer_override": 1800,
+      "front": "(BOSS TUTORIAL MODO STANDARD) - Otávio:\n(abre o notebook do TCU)\n- Estrategista, auditoria com tecnologia não é ler papel. É varrer milhares de dados caçando rastros de corrupção ou erro. Se você não souber as técnicas para testar a caixa-preta de um sistema, a banca vai te reprovar sem dó. Domine estes 20 conceitos do zero absoluto antes de auditar qualquer coisa:",
+      "stem": [
+        "1) Teste de Sequência (Lacunas): \n Em notas fiscais ou cheques numéricos (1, 2, 3, 4), qualquer pulo/buraco na numeração (ex: 1, 2, 4) é uma 'Lacuna' (Missing). O auditor procura a ausência para caçar fraudes de sonegação.",
+        "2) Teste de Sequência (Duplicidade): \n Um número de nota ou cheque que aparece mais de uma vez (ex: 1, 2, 3, 3, 4). Duplicidade pode indicar pagamento dobrado ou fraude de clonagem de notas.",
+        "3) Como contar Lacunas: \n Nunca faça só de cabeça. Veja quantos números únicos (distintos) você tem na mão, subtraia do que DEVERIA ter, e você acha quantos faltam.",
+        "4) Dados de Teste (Test Data): \n O auditor cria transações falsas (fictícias) e joga no sistema do governo para ver se o sistema sabe bloquear erros (ex: jogar um CPF com 12 dígitos para ver se o sistema barra).",
+        "5) Instalação de Teste Integrada (ITF): \n Você cria uma 'empresa falsa' ou um 'setor falso' dentro do sistema real, que já está rodando em produção. Você processa os dados de teste junto com os reais, mas tem que isolar tudo no final para não sujar a contabilidade do órgão.",
+        "6) Simulação Paralela (Parallel Simulation): \n O auditor não mexe no sistema do órgão. Ele pega os dados REAIS, leva pro seu próprio notebook, roda no seu próprio programa (que ele criou) e compara se o resultado do seu programa bate com o do governo.",
+        "7) Módulos de Auditoria Embutidos: \n É um 'espião' (código) que o auditor planta dentro do sistema do órgão. O espião fica monitorando o sistema ao vivo (em produção) e captura transações estranhas em tempo real (auditoria contínua).",
+        "8) Chave de Cruzamento (Banco de Dados): \n Para cruzar a tabela de Pagamentos com a de Fornecedores, você precisa de um campo idêntico em ambas. O CNPJ é a melhor chave, mas ele DEVE estar formatado exatamente igual (texto puro vs números que cortam zeros à esquerda).",
+        "9) Por que evitar Razão Social?: \n A Razão Social não serve como chave principal. Um lugar pode escrever 'Supermercado João', o outro 'Supermercado Joao Ltda.'. Erro de digitação ou acento destrói o cruzamento.",
+        "10) Formato de Datas em Banco de Dados: \n Datas salvas como 'TEXTO' em formatos diferentes (20/10/2024 vs 2024-10-20) não se cruzam. O banco acha que são coisas distintas. Tem que padronizar o tipo (formato Date/Time).",
+        "11) SQL - O Filtro 'WHERE': \n O comando WHERE no banco de dados age como uma peneira grossa. Ele só deixa passar as linhas que cumprirem TODAS as regras que você mandar (ex: só data em 2026 E que não tenha Restos a Pagar).",
+        "12) Junção Interna (INNER JOIN): \n Quando cruzamos duas tabelas (Contratos e Pagamentos), o Inner Join SÓ mostra quem tem parzinho nas duas (Pagamentos QUE TÊM contrato).",
+        "13) Junção à Esquerda (LEFT JOIN): \n Pega todos os pagamentos (na esquerda) e tenta achar contratos. Se um pagamento não tiver contrato, o campo do contrato aparece como 'NULL' (Vazio). É assim que achamos pagamento sem licitação/contrato!",
+        "14) A Lei 4.320 (Despesas): \n Regra de finanças públicas: A despesa pertence ao ano em que ocorreu o fato gerador/empenho. Se liquidar só no ano seguinte, vira 'Restos a Pagar'.",
+        "15) IA na Triagem de Auditoria: \n A IA (como o ChatGPT) é maravilhosa para resumir contratos de 500 páginas. MAS (cuidado gigante), a IA pode errar (Alucinação). O achado de auditoria precisa sempre ser fundamentado pelo contrato original, conferido pelo ser humano.",
+        "16) IA e Evidência Suficiente: \n O escore (nota) de risco gerado por um modelo de inteligência artificial NÃO É PROVA. É só um alerta vermelho. A prova só existe após o auditor abrir o caso e verificar os papéis manualmente.",
+        "17) Reprodutibilidade na Auditoria: \n Apenas salvar o 'PDF final' não serve para nada na ciência de dados. Para ser reprodutível, você precisa salvar os dados originais, o script do código (R, Python, SQL) e a semente de aleatoriedade.",
+        "18) Sigilo Fiscal e ChatGPT Público: \n Proibição absoluta: Você NUNCA pode jogar CPF, CNPJ ou dados fiscais em ferramentas públicas/gratuitas na internet (como o ChatGPT aberto), pois elas leem e treinam com esses dados, quebrando o sigilo legal.",
+        "19) IA Gerativa vs. Análise Preditiva: \n Preditiva olha para o passado para adivinhar o futuro (Escore de Fraude). Generativa cria coisas novas do zero (cria textos, resume documentos, gera imagens).",
+        "20) O Ceticismo Profissional: \n O auditor não confia cegamente em nenhuma máquina ou gráfico bonitinho. O resultado da máquina é apenas a bússola; quem bate o martelo é o auditor após buscar as evidências substantivas (reais)."
+      ],
+      "options": [
+        "A) Ciente, Otávio. Ferramentas analíticas prontas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Lacunas:** Pulos na sequência. Alerta de fraude/desvio.\n**2) Duplicidades:** Nota fiscal ou cheque clonado/dobrado.\n**3) Cálculo:** Ache a faixa total esperada, tire os únicos reais.\n**4) Dados de Teste:** Testo a máquina jogando lixo fictício nela.\n**5) Instalação Integrada:** Empresa falsa dentro do sistema real.\n**6) Simulação Paralela:** Jogo dados REAIS no MEU notebook/software.\n**7) Embutidos:** Espião no código da prefeitura caçando erro ao vivo.\n**8) Chaves Base:** Padronização absoluta (CNPJ como texto para não perder zeros).\n**9) Nomes Próprios:** Péssimos como chaves (Muitos erros de acentuação/abreviação).\n**10) Datas:** Em formato de texto, não batem se o padrão for diferente.\n**11) WHERE:** Peneira que filtra os dados antes de contar/somar.\n**12) INNER JOIN:** Traz as interseções perfeitas.\n**13) LEFT/Anti Join:** A melhor arma para achar a falha (Aquele que não tem par).\n**14) RP:** Restos a Pagar. Sobras orçamentárias que não pagaram no ano.\n**15) Triagem IA:** Resumo não é prova. É ferramenta.\n**16) Escore não é Evidência:** A máquina diz 'olha lá', o auditor é quem prova.\n**17) Reprodutível:** Guarde o código e o dado limpo, não o PDF morto.\n**18) Sigilo vs Nuvem:** Ferramenta gratuita quebra o sigilo fiscal da União/Estado.\n**19) Preditiva vs Gerativa:** Analisar vs Criar.\n**20) Ceticismo:** O cérebro do auditor está sempre acima do algoritmo.\n\n!Regra de Bolso!\n~Lógica~\n1) SE o auditor usa sistema próprio, ENTÃO é Simulação Paralela.\n2) SE o auditor joga dado irreal no sistema real, ENTÃO é Dados de Teste.\n3) SE cria uma empresa fake junto com a operação real, ENTÃO é Instalação Integrada.\n4) SE a máquina apontou fraude (score alto), ENTÃO o auditor AINDA precisa provar nos papéis.\n\n!Break para Respirar!\n~Otávio~\n- Base pronta. Vamos começar a caçar notas fiscais frias e buracos nas contas do Estado."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q172_alfabetizacao",
+      "subject": "Auditoria Assistida (Alfabetização)",
+      "source": "Card 01 - O Teste de Sequência",
+      "timer_override": 360,
+      "front": "ALFABETIZAÇÃO: A CAÇA ÀS LACUNAS\n\nVocê é auditor da Fazenda e exigiu de uma empresa o bloco de Notas Fiscais que vai da número 1 até a 10 (Total de 10 notas esperadas).\n\nA empresa te mandou esta lista:\n1, 2, 4, 4, 5, 8, 9, 10.\n\nQuantas notas **distintas/únicas** vieram? E sabendo o que deveria vir (10 notas), quantas notas estão **escondidas/ausentes (Lacunas)**?",
+      "options": [
+        "A) Vieram 8 únicas. Faltam 2 lacunas.",
+        "B) Vieram 7 únicas. Faltam 3 lacunas.",
+        "C) Vieram 7 únicas. Faltam 2 lacunas.",
+        "D) Vieram 8 únicas. Faltam 3 lacunas."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Método de Sobrevivência para Sequências:**\n- Para achar lacunas (buracos), NUNCA conte o número de papéis que o cara te entregou, porque ele pode ter mandado xerox (duplicidade) no meio para disfarçar o volume.\n- Conte apenas as notas ÚNICAS.\n\n**O Cálculo:**\n- Esperado: 10 notas (do 1 ao 10).\n- Recebidas Únicas: 1, 2, 4, 5, 8, 9, 10. (Contando no dedo: são c(7 notas exclusivas)).\n- Lacunas = Esperado - Recebido Único = 10 - 7 = c(3 notas ausentes) (As que faltam são a 3, a 6 e a 7).\n\n!Regra de Bolso!\n~Lógica~\n**SE** quer saber o que falta, **ENTÃO** exclua as repetidas antes de subtrair do total esperado.\n\n!Break para Respirar!\n~Otávio~\n- Viu? Se contasse os papéis, você diria que vieram 8. Subtraindo de 10, você acharia que só faltam 2. A duplicidade mascara o crime."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q172_transfer",
+      "subject": "Auditoria Assistida (Transferência)",
+      "source": "Questão 172 (Transferência Real)",
+      "timer_override": 600,
+      "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nUma série de notas fiscais de entrada deveria conter os números de 501 a 520.\nA base extraída do sistema trouxe os seguintes números, já ordenados:\n501, 502, 503, 505, 506, 506, 507, 510, 511, 512, 513, 513, 514, 515, 517, 518, 519 e 520.\n\nA quantidade de **números ausentes** da sequência e a quantidade de **números que aparecem em duplicidade** são, respectivamente:",
+      "options": [
+        "A) 4 e 2.",
+        "B) 2 e 0.",
+        "C) 3 e 2.",
+        "D) 4 e 4.",
+        "E) 2 e 2."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Execução Tática:**\n**1) A Faixa Total:**\nDe 501 a 520, temos exatos c(20) números esperados (520 - 501 + 1 = 20).\n\n**2) Quantidade de Duplicidades:**\nObserve a lista. O número **506** repete uma vez. O número **513** repete uma vez.\nExistem c(2) números em duplicidade.\n\n**3) Quantidade de Lacunas (Ausentes):**\nA lista física fornecida tem 18 elementos anotados. Como 2 são repetidos (cópias), temos apenas c(16 números exclusivos) (18 - 2 = 16).\nSe o esperado era 20, e temos 16 únicos:\nAusentes = 20 - 16 = c(4).\n*(Verificando a olho nu, faltam: 504, 508, 509 e 516. Confere!).*\n\n~Gentalha~\n- **B) 2 e 0.** Erro grotesco. A pessoa viu 18 itens na lista e achou que de 20 faltavam apenas 2, não notando que as cópias mascararam 2 roubos reais da sequência.\n- **D) 4 e 4.** A pessoa contou a quantidade de REGISTROS envolvidos na repetição (dois 506 e dois 513, dando 4 linhas), e não a \"quantidade de números que aparecem\" em duplicidade (que são só as tipologias 506 e 513)."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q173_alfabetizacao",
+      "subject": "Auditoria Assistida (Reconhecimento)",
+      "source": "Card 01 - Quem audita quem?",
+      "timer_override": 360,
+      "front": "ALFABETIZAÇÃO: TÉCNICAS (CAATs)\n\nNas Técnicas de Auditoria Assistidas por Computador, o grande segredo é descobrir **O QUE** está sendo testado e **ONDE**.\n\nAssocie o nome à técnica:\n\n**Situação X:** O auditor cria um CPF fictício (ex: 999.999.999-99) e tenta jogar dentro do sistema do INSS para ver se o INSS apita e barra.\n**Situação Y:** O auditor não confia no sistema do INSS. Ele manda o INSS entregar a base de CPFs verdadeiros num pendrive, leva pro seu próprio notebook, roda no Python e vê se o resultado da folha de pagamento bate com a do INSS.\n\nQuem é X e quem é Y?",
+      "options": [
+        "A) X = Dados de Teste / Y = Simulação Paralela",
+        "B) X = Simulação Paralela / Y = Instalação Integrada",
+        "C) X = Módulo Embutido / Y = Dados de Teste",
+        "D) X = Instalação Integrada / Y = Módulo Embutido"
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Dados de Teste:**\n- Dados c(falsos) (criados pelo auditor) rodando na máquina c(real) (do governo).\n- Objetivo: Testar os controles bloqueadores (barreiras) da máquina do governo.\n\n**2) Simulação Paralela:**\n- Dados c(reais) (da população) rodando na máquina c(falsa/paralela) (do auditor).\n- Objetivo: Testar se o cálculo que a máquina do governo faz está mascarando desvios.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o dado é falso (fictício), **ENTÃO** é Dados de Teste ou ITF.\n**SE** o sistema usado é do auditor, **ENTÃO** é Simulação Paralela.\n\n!Break para Respirar!\n~Otávio~\n- Entendeu o espelhamento? Na vida real, a prova tenta te confundir trocando o endereço dessas duas técnicas."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q173_transfer",
+      "subject": "Auditoria Assistida (Transferência)",
+      "source": "Questão 173 (Transferência Real)",
+      "timer_override": 600,
+      "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nAcerca das técnicas de auditoria assistidas por computador, julgue as afirmativas a seguir:\n\n Na simulação paralela, o auditor submete dados de teste fictícios ao sistema em produção e compara os resultados obtidos com os resultados esperados.)\n Os módulos de auditoria embutidos são programas executados pelo auditor fora do sistema, após o processamento, sobre cópias das bases extraídas.)\n Na técnica de dados de teste, o auditor processa transações fictícias, preparadas com resultados conhecidos, para verificar se os controles do programa funcionam como esperado.)\n A instalação de teste integrada cria uma entidade fictícia no sistema em produção, por meio da qual transações de teste são processadas com as reais, o que exige cuidado para que não afetem os relatórios oficiais.)\n\nA sequência correta, de cima para baixo, é:",
+      "options": [
+        "A) F, V, V, V.",
+        "B) V, V, V, V.",
+        "C) F, V, V, F.",
+        "D) F, F, V, V.",
+        "E) F, F, F, V."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**(F) Na simulação paralela, o auditor submete dados de teste fictícios...**\n**> ERRADO <**\nA banca trocou tudo! Simulação Paralela submete dados REAIS ao sistema DO AUDITOR. Quem submete dados fictícios ao sistema em produção é a técnica de c(Dados de Teste).\n\n**(F) Os módulos de auditoria embutidos são executados... fora do sistema, após o processamento...**\n**> ERRADO <**\nComo o nome grita, são c(EMBUTIDOS) (Embedded). Ficam DENTRO da aplicação alvo, agindo de forma c(contínua) (ao vivo), e não \"fora\" ou \"após\" o processamento.\n\n**(V) Na técnica de dados de teste, o auditor processa transações fictícias... para verificar se os controles funcionam.**\n**> CERTO <**\nDefinição perfeita. Joga-se \"lixo\" ou casos bizarros no sistema do órgão (transações fictícias) para ver se o sistema barra (testar os controles).\n\n**(V) A instalação de teste integrada (ITF) cria uma entidade fictícia... processada com as reais, exigindo cuidado para não afetar os relatórios.**\n**> CERTO <**\nITF é o método mais avançado e perigoso de Dados de Teste. O auditor cria um departamento \"fantasma\" no sistema e roda operações diárias nele. Mas ele TEM que retirar esses dados fantasmas antes do fechamento contábil para o prefeito não declarar milhões de falsos gastos pro TCE.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca sempre inverte os conceitos de CAATs. O mantra \"Real na Máquina do Auditor = Simulação Paralela\" salva vidas.",
+      "stem": [
+        "vf(( )",
+        "vf(( )",
+        "vf(( )",
+        "vf(( )"
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "ae5_aud_boss_inter_1",
+      "subject": "Auditoria de TI",
+      "source": "BOSS INTERMEDIÁRIO I - Revisão (Q172 e Q173)",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n(cruza os braços)\n- Perito, as duas primeiras técnicas foram dominadas. Valide o raciocínio rápido para não cair em armadilhas bobas:",
+      "stem": [
+        "vf(I. Em um teste de sequência, para calcular o número de lacunas reais, basta subtrair a quantidade de registros físicos da quantidade máxima de notas esperadas.)",
+        "vf(II. Uma nota duplicada disfarça ou esconde uma nota ausente (lacuna) caso o auditor conte apenas o volume total de registros na tabela.)",
+        "vf(III. A 'Simulação Paralela' testa os controles da máquina do ente auditado injetando CPFs fictícios em sua rede.)",
+        "vf(IV. 'Módulos de Auditoria Embutidos' são softwares instalados no notebook do auditor que recebem arquivos extraídos ao final do mês.)"
+      ],
+      "options": [
+        "A) Apenas II é verdadeira.",
+        "B) I e II são verdadeiras.",
+        "C) Apenas III e IV são verdadeiras.",
+        "D) II e IV são verdadeiras.",
+        "E) Todas são falsas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Lacunas:** Subtrair o número de c(Registros Físicos) está errado, pois registros repetidos bagunçam a conta. Deve-se subtrair os registros c(ÚNICOS/DISTINTOS).\n**2) Duplicidade e Ocultação:** Sim. Se você espera 10 notas e lhe dão 10, você acha que está tudo certo. Mas se uma estiver repetida, isso significa que faltou uma (lacuna) e você não viu.\n**3) Simulação Paralela:** Usa dados REAIS e a máquina do AUDITOR. Quem injeta ficção no ente é a técnica de 'Dados de Teste'.\n**4) Módulos Embutidos:** Não rodam no notebook do auditor e nem ao final do mês. Rodam de forma contínua DENTRO do sistema da prefeitura/órgão.\n\n~Gabarito~\n**Apenas II é verdadeira.**\n\n~Gentalha~\n- **I:** Falsa. Deve-se calcular via \"números únicos\".\n- **III:** Falsa. Inversão de conceito clássica.\n- **IV:** Falsa. Esse é o conceito de \"Software Generalizado de Auditoria\" (ACL/IDEA).\n\n!Break para Respirar!\n~Otávio~\n- Bom trabalho. Passar na prova é desarmar as bombas de vocabulário que a banca planta. Vamos para o banco de dados."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q174_alfabetizacao",
+      "subject": "Banco de Dados em Auditoria",
+      "source": "Card 01 - Chaves e Tipos de Dados",
+      "timer_override": 360,
+      "front": "ALFABETIZAÇÃO: A CHAVE MESTRA E O FORMATO\n\nVocê precisa cruzar a 'Planilha da Prefeitura' com a 'Planilha do Banco', tentando unir as despesas de fornecedores.\n\nPara que o computador encontre a mesma empresa (ex: 00.123.456/0001-99), você precisa de uma chave de cruzamento.\n\nPor que **transformar o CNPJ em um NÚMERO INTEIRO** (Integer) no banco de dados é um crime contra a auditoria e destrói o seu cruzamento?",
+      "options": [
+        "A) Porque números inteiros não podem ser usados como chave primária.",
+        "B) Porque se um CNPJ começar com zeros (ex: 00123...), o banco de dados tratará como número e apagará os zeros à esquerda (virando 123...), impedindo que as tabelas se conectem perfeitamente.",
+        "C) Porque bancos de dados não suportam números com mais de 10 dígitos.",
+        "D) Porque a conversão para inteiro adiciona caracteres especiais na tabela."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Os Zeros à Esquerda:**\n- Em computação, o número \"005\" e o número \"5\" são a mesma quantidade. O banco de dados apaga os zeros inúteis.\n- Mas um CPF \"005...\" e \"5...\" são documentos **completamente diferentes** e com tamanhos diferentes! Se a máquina engolir os zeros, o auditor jamais conseguirá cruzar as bases, causando \"falsas ausências\" (o sistema diz que não achou, mas na verdade a máquina comeu o zero).\n\n!Regra de Bolso!\n~Lógica~\n**SE** é CPF, CNPJ, Telefone ou CEP, **ENTÃO** deve ser salvo sempre como c(TEXTO/STRING) para não perder formatação (zeros, hífens, extensão).\n\n!Break para Respirar!\n~Otávio~\n- Entendeu o risco dos tipos de dados? Por isso a Razão Social também é ruim: 'José Ltda' e 'Jose LTDA' o computador não junta. CNPJ (como texto) é rei."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q174_transfer",
+      "subject": "Banco de Dados em Auditoria",
+      "source": "Questão 174 (Transferência Real)",
+      "timer_override": 480,
+      "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nPara cruzar a base de pagamentos do sistema financeiro com a base de contratos do sistema de compras, o auditor precisa definir a chave de cruzamento e o tipo de junção (JOIN).\nAcerca desse cruzamento, é correto afirmar que:",
+      "options": [
+        "A) a conversão do CNPJ em número inteiro preserva os zeros à esquerda e, por isso, é a forma indicada de padronizar a chave de cruzamento entre as bases.",
+        "B) a junção interna (INNER JOIN) entre pagamentos e contratos revela os pagamentos sem contrato correspondente, que são o objeto principal do teste de auditoria.",
+        "C) a razão social do fornecedor é chave de cruzamento mais confiável que o CNPJ, por ser menos sujeita a erros de digitação e a abreviações nos cadastros.",
+        "D) datas gravadas como texto em formatos diferentes, como DD/MM/AAAA e AAAA-MM-DD, podem ser comparadas diretamente, por representarem as mesmas datas.",
+        "E) a chave de cruzamento deve ser padronizada nas duas bases, como o CNPJ em texto de 14 posições, com zeros à esquerda, para evitar falsas ausências."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**E) ...padronizada nas duas bases, como CNPJ em TEXTO de 14 posições, para evitar falsas ausências.**\n**> CERTO <**\nAí está. CNPJ sempre guardado e cruzado como Texto para preservar sua essência (incluindo os zeros iniciais essenciais).\n\n~Gentalha~\n**A) conversão do CNPJ em número inteiro PRESERVA os zeros à esquerda...**\n**ERRADA:** Conversão para inteiro (INT) c(DESTROI) os zeros à esquerda (ex: o 007 vira apenas 7).\n\n**B) a junção INTERNA (INNER JOIN)... revela os pagamentos SEM contrato...**\n**ERRADA:** Inner Join pega somente a c(INTERSEÇÃO) (quem tem nos dois lados). Para achar pagamentos \"solteiros\" (sem contrato), o auditor deve usar o c(LEFT JOIN) (ou Antijunção), que puxará os pagamentos nulos/vazios do lado direito.\n\n**C) razão social... mais confiável que CNPJ, por ser menos sujeita a erros...**\n**ERRADA:** Literalmente o oposto. Razão social é puro caos humano de abreviação e erro de dedo (Ltda., LTDA, L.t.d.a).\n\n**D) datas gravadas como texto em formatos diferentes... podem ser comparadas diretamente...**\n**ERRADA:** O banco não é vidente. Para comparar datas em texto bizarro (20/10/2026 vs 2026-10-20), o auditor tem que usar uma função (ex: TO_DATE) para padronizá-las e dizer que são a mesma coisa, senão o cruzamento falha."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q175_alfabetizacao",
+      "subject": "SQL na Auditoria",
+      "source": "Card 01 - Lógica Booleana e Datas",
+      "timer_override": 360,
+      "front": "ALFABETIZAÇÃO: O COMANDO WHERE (A PENEIRA)\n\nNa tabela abaixo, há eventos da prefeitura.\nA lei manda investigar \"Despesas com fato gerador ocorrido **EM** 2025\".\n\nSe o auditor escrever no SQL o filtro:\n`WHERE dt_fato < '2026-01-01'`\n\nEsse filtro cumpre a missão de reter apenas os fatos geradores de 2025 (e anos anteriores) e barra as despesas de 2026?",
+      "options": [
+        "A) Sim, porque 'menor que' o primeiro dia de 2026 significa de 31/12/2025 para trás.",
+        "B) Não, porque datas em SQL precisam usar obrigatoriamente o símbolo de igualdade (=) e não sinal matemático de maior/menor.",
+        "C) Sim, porém esse filtro vai incluir também o primeiro dia de 2026."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Filtrando Datas no SQL:**\n- No banco de dados, datas seguem uma linha do tempo estrita. O operador menor `<` aponta para o c(PASSADO).\n- `< '2026-01-01'` exclui o dia 01/01/2026 e pega tudo que veio antes (2025, 2024, etc).\n\n!Regra de Bolso!\n~Lógica~\n**SE** eu quero \"até o ano X acabar\", **ENTÃO** eu traço o limite rígido usando o operador `<` no c(primeiro dia do ano X+1).\n\n!Break para Respirar!\n~Otávio~\n- Cuidado com o `AND`. Ele obriga que TODAS as condições da peneira sejam cumpridas simultaneamente na mesma linha da tabela para ela passar."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q175_transfer",
+      "subject": "SQL na Auditoria",
+      "source": "Questão 175 (Transferência Real)",
+      "timer_override": 600,
+      "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nConsidere a tabela `despesas` e os seguintes dados (Milhares de reais):\n\n**D1**: Fato 15/12/2025 | Liq 10/01/2026 | RP 'N' | valor 20\n**D2**: Fato 28/12/2025 | Liq 05/01/2026 | RP 'S' | valor 30\n**D3**: Fato 02/01/2026 | Liq 08/01/2026 | RP 'N' | valor 15\n**D4**: Fato 30/11/2025 | Liq 03/02/2026 | RP 'N' | valor 12\n**D5**: Fato 31/12/2025 | Liq 31/12/2025 | RP 'N' | valor 40\n**D6**: Fato 20/12/2025 | Liq 15/01/2026 | RP 'N' | valor 13\n\nO auditor executou a consulta:\n`SELECT COUNT(*), SUM(valor) FROM despesas`\n`WHERE dt_fato < '2026-01-01' AND dt_liq >= '2026-01-01' AND rp = 'N';`\n\nOs valores retornados por `COUNT()` (quantidade de linhas válidas) e por `SUM(valor)` (soma do dinheiro das válidas) são, respectivamente:",
+      "options": [
+        "A) 4 e 75.",
+        "B) 3 e 45.",
+        "C) 4 e 60.",
+        "D) 2 e 33.",
+        "E) 5 e 90."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Destrinchando a Peneira (WHERE):**\nA linha da tabela tem que passar pelas TRÊS condições juntas (ligadas por AND).\n\n**1) Filtro 1: `dt_fato < '2026-01-01'` (Gerador em 2025 ou antes)**\n- D1, D2, D4, D5, D6 passam.\n- D3 foi reprovado (Fato em 2026).\n\n**2) Filtro 2: `dt_liq >= '2026-01-01'` (Liquidado DENTRO de 2026)**\n- D5 foi reprovado (Foi liquidado em 31/12/2025).\n- Sobraram vivos: D1, D2, D4, D6.\n\n**3) Filtro 3: `rp = 'N'` (Restos a pagar marcado como 'N')**\n- D2 foi reprovado (Está marcado como 'S' no resto a pagar).\n- Sobraram vivos, de forma definitiva, apenas 3 campeões: c(D1, D4 e D6).\n\n**O Cômputo Final:**\n- `COUNT(*)` = Quantas linhas sobraram vivas? = **3**.\n- `SUM(valor)` = Soma dos valores dessas 3 linhas = 20 (D1) + 12 (D4) + 13 (D6) = **45**.\n\n~Gentalha~\n- **A) 4 e 75:** Caiu na pegadinha da D2 (que tinha rp = 'S').\n- **C) 4 e 60:** Caiu na pegadinha da D3 (que tinha fato de 2026).\n- **D) 2 e 33:** Caiu na pegadinha da D4 (eliminou por causa de fevereiro, mas fevereiro é >= janeiro 2026).\n\n!Break para Respirar!\n~Otávio~\n- Em comandos SQL, você aplica as travas uma de cada vez. Riscar a linha com a caneta não é vergonha, é controle de qualidade tático."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q176_alfabetizacao",
+      "subject": "Auditoria de TI - Ferramentas",
+      "source": "Card 01 - Evidência vs Alerta",
+      "timer_override": 360,
+      "front": "ALFABETIZAÇÃO: A IA DECIDE OU AVISA?\n\nVocê roda um modelo preditivo de Inteligência Artificial na folha de pagamento do Estado.\nO modelo retorna que o servidor João tem 'Escore 99% de chance de fraude'.\n\nEsse escore alto já serve como PROVA SUFICIENTE para demitir o João e fechar o caso da auditoria?",
+      "stem": [],
+      "options": [
+        "A) Sim, se a máquina for validada e testada, o resultado dela é prova incontestável.",
+        "B) Não. O escore é apenas a bússola que manda o auditor olhar o caso. A prova documental verdadeira ainda precisará ser coletada pelo humano."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Evidência vs Triagem:** A IA acelera a triagem e aponta onde está a sujeira. Mas ela JAMAIS substitui a 'Evidência Suficiente' exigida pela lei. O auditor tem que abrir o PDF, olhar a nota fiscal falsa e assinar."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q176_transfer",
+      "subject": "Auditoria de TI - Ferramentas",
+      "source": "Questão 176 (Transferência Real)",
+      "timer_override": 480,
+      "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nJulgue os itens a seguir, relativos ao uso de inteligência artificial e de ferramentas analíticas em trabalhos de auditoria:\n\n\nEstão corretos os itens:",
+      "options": [
+        "A) I e IV.",
+        "B) I, II e IV.",
+        "C) Todos os itens estão incorretos.",
+        "D) I.",
+        "E) I, III e IV."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**I) ...desde que as conclusões que fundamentem achados sejam conferidas no texto original do contrato.**\n**> CERTO <**\nA IA acelera o trabalho sujo de varrer milhares de folhas, mas a máquina alucina. O 'Achado de Auditoria' legal e jurídico deve sempre se basear no PDF/texto original assinado pelo gestor, lido pelo ser humano.\n\n**II) Os escores de um modelo de risco... constituem evidência SUFICIENTE de irregularidade... que ENCERRA a etapa.**\n**> ERRADO <**\nA inteligência artificial ou algoritmo de risco c(aponta o alvo), mas não prende ninguém. O escore de fraude (mesmo de 99%) NÃO É prova cabal (evidência suficiente). O auditor DEVE abrir os autos, pedir as notas fiscais e comprovar na materialidade se houve crime. \n\n**III) A reprodutibilidade... fica assegurada com o arquivamento do relatório final e das planilhas de RESULTADO...**\n**> ERRADO <**\nIsso fere as regras da ciência de dados. Guardar só o resultado final é esconder a mágica (a 'caixa-preta'). A reprodutibilidade exige guardar os c(Dados Originais Brutos), o c(Código/Script Analítico) (Python, R, SQL) e os parâmetros. Se outro auditor não conseguir repetir o código na própria máquina e chegar na sua planilha, o teste é inválido.\n\n**IV) ...envio de documentos com dados de contribuintes a um serviço gratuito de IA generativa... preserva o sigilo fiscal...**\n**> ERRADO <**\nViolação brutal de segurança da informação e lei. Ferramentas gratuitas online retêm logs de chat para treinar novos modelos e os submetem a servidores estrangeiros. É crime vazar CPF de contribuinte para 'ver o resumo no GPT'.",
+      "stem": [
+        "vf(I. O uso de modelo de linguagem para resumir cláusulas de contratos pode acelerar a triagem, desde que as conclusões que fundamentem achados sejam conferidas no texto original do contrato.)",
+        "vf(II. Os escores de um modelo de risco validado com dados históricos constituem evidência suficiente de irregularidade nos casos sinalizados, o que encerra a etapa de exame desses casos.)",
+        "vf(III. A reprodutibilidade de uma análise de dados em auditoria fica assegurada com o arquivamento do relatório final e das planilhas de resultado, que permitem refazer a análise.)",
+        "vf(IV. O envio de documentos com dados de contribuintes a um serviço gratuito de IA generativa na internet preserva o sigilo fiscal, porque o serviço não armazena o conteúdo das conversas.)"
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "ae5_aud_boss_inter_2",
+      "subject": "Auditoria de TI",
+      "source": "BOSS INTERMEDIÁRIO II - Revisão (Q174 a Q176)",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n(fecha o notebook)\n- Perito, o banco de dados tem suas regras e a Inteligência Artificial também. Confirme se suas proteções técnicas resistem a um ataque:",
+      "stem": [
+        "vf(I. Na junção entre duas tabelas usando LEFT JOIN, pagamentos que não encontram um contrato correspondente serão completamente excluídos da listagem final de resultados.)",
+        "vf(II. A fim de permitir a padronização exata entre os cruzamentos, o CNPJ deve ser preservado e classificado como string (texto) no banco de dados, para que se evite o apagamento de zeros à esquerda.)",
+        "vf(III. A utilização do comando WHERE no SQL atua após o operador lógico AND somar cumulativamente as validações, eliminando as linhas que reprovam em pelo menos uma condição.)",
+        "vf(IV. A reprodutibilidade completa de um teste analítico na auditoria prescinde (não necessita) do armazenamento do código de extração, bastando o salvamento dos resultados em nuvem.)"
+      ],
+      "options": [
+        "A) Apenas II e III são verdadeiras.",
+        "B) I, II e III são verdadeiras.",
+        "C) Apenas I e IV são verdadeiras.",
+        "D) Apenas II é verdadeira.",
+        "E) Todas são falsas."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) LEFT JOIN:** A beleza do Left Join é justamente manter o lado esquerdo INTEIRO vivo (os pagamentos). Se ele não achar parzinho no lado direito (o contrato), ele não morre, ele fica com a coluna vazia (NULL). Excluir quem não encontra par é tarefa do INNER JOIN.\n**2) Padronização de CNPJ:** O zero inicial importa. Salvar como Texto salva vidas.\n**3) Operador AND / WHERE:** Se usou AND entre três filtros (como na Q175), se a linha falhar no filtro 1, ela é cortada na hora e morre. Correto.\n**4) Reprodutibilidade:** Se prescinde do código (abre mão dele), a reprodutibilidade é nula. Outro cientista tem que ver a 'receita do bolo' (o script Python/SQL), não só o 'bolo assado' (resultado na nuvem).\n\n~Gabarito~\n**Apenas II e III são verdadeiras.**\n\n~Gentalha~\n- **I:** Falsa. Left Join não exclui os órfãos do painel principal (da esquerda).\n- **IV:** Falsa. 'Prescindir' significa 'dispensar/não precisar'. O arquivamento do código fonte é obrigatório.\n\n!Break para Respirar!\n~Otávio~\n- Base blindada! Só nos resta um único obstáculo antes de mudarmos para o idioma internacional: o Boss Final de Auditoria."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_aud_boss_final",
+      "subject": "Auditoria de TI - Veredito Final",
+      "source": "BOSS FINAL (AUDITORIA) - O Parecer Técnico",
+      "timer_override": 600,
+      "front": "**(BOSS FINAL DE AUDITORIA) - Otávio:**\n(pega o carimbo para o Relatório de Fiscalização)\n- Último laudo desta área. Leia com atenção as afirmações abaixo, onde eu cobro todas as armadilhas (172 a 176) que a banca tentou plantar neste bloco. Julgue com frieza técnica:",
+      "stem": [
+        "vf(I. (Q172) O teste de sequência consegue revelar fraudes ao identificar lacunas, mas a quantidade bruta de registros físicos entregues pela empresa não é confiável se houver notas em duplicidade no meio do bloco.)",
+        "vf(II. (Q173) Os Módulos de Auditoria Embutidos diferenciam-se da Simulação Paralela, visto que os primeiros agem como um espião instalados e rodando ativamente dentro do sistema-alvo (em produção).)",
+        "vf(III. (Q174) O uso da Razão Social como chave de cruzamento no modelo relacional (SQL) é altamente indicado pelas boas práticas, pois letras evitam a perda acidental de zeros numéricos.)",
+        "vf(IV. (Q175) Na avaliação das cláusulas em SQL, uma linha onde o atributo 'rp' seja igual a 'S' será descartada do resultado caso o comando contenha o filtro imperativo 'WHERE rp = 'N''.)",
+        "vf(V. (Q176) As ferramentas de IA Generativa são seguras o suficiente para indexar dados sigilosos e fiscais da base do Governo em servidores abertos, visto que o algoritmo apenas calcula probabilidades lexicais das palavras.)"
+      ],
+      "options": [
+        "A) I, II e IV são verdadeiras.",
+        "B) I, III e V são verdadeiras.",
+        "C) Apenas II e IV são verdadeiras.",
+        "D) Todas são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) (Q172) Lacunas e Registros Físicos:** (V) Sim, a duplicidade mascara/esconde as lacunas. Só confie nos \"únicos\".\n**2) (Q173) Embutidos vs Simulação Paralela:** (V) O Módulo Embutido é código injetado *dentro* do software da entidade (ao vivo). Já a simulação pega dados de lá para testar *fora* (no PC do auditor).\n**3) (Q174) Cruzamento e Razão Social:** (F) É furada! Nomes possuem acentos, espaços, abreviações. CNPJ como String/Texto é o método seguro, não o nome fantasia ou razão social.\n**4) (Q175) Filtros de Exclusão (SQL):** (V) Simples fato condicional: se a máquina exige que restrição de restos a pagar seja igual a 'N' e a linha apresenta 'S', a linha morre na peneira.\n**5) (Q176) IA Generativa e Sigilo e LGPD:** (F) Inserir dado governamental sigiloso em GPT aberto da internet quebra todos os preceitos de privacidade, vazando imposto de renda e identidades em massa para matrizes no exterior.\n\n~Gabarito~\n**I, II e IV são verdadeiras.**\n\n~Gentalha~\n- **III:** Falsa. Pior chave possível.\n- **V:** Falsa. A desculpa de que ela só lê \"probabilidades\" não a exime da retenção da informação violadora de dados (Lei e Segurança de Sistemas).\n\n!Regra de Bolso!\n~Lógica~\n1) SE é cruzamento exato, ENTÃO evite Texto Humano Sujo (Razão social).\n2) SE rodou na máquina da Prefeitura/ente, ENTÃO não é Simulação Paralela.\n3) SE tem dado fiscal real e vivo, ENTÃO ferramentas abertas de IA da nuvem estão proibidas.\n\n!Break para Respirar!\n~Otávio~\n- Carimbo de Aprovado. Você zerou o manual de testes em TI. A próxima batalha é no idioma global da balística cibernética: O Inglês Técnico."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_ing_boss_tutorial",
+      "subject": "Inglês Técnico",
+      "source": "BOSS TUTORIAL - Mapeamento Tático (Inglês)",
+      "timer_override": 1800,
+      "front": "(BOSS TUTORIAL MODO STANDARD) - Otávio:\n(ajusta o microfone de tradução)\n- Estrategista, a prova de Inglês para fisco não quer saber se você é fluente em conversação, ela quer saber se você identifica o GATILHO lógico e lê tabelas tributárias gringas. Memorize esse glossário com as peças táticas cobradas nesse certame:",
+      "stem": [
+        "1) However (Conector): \n O Rei do Contraste (Porém/Contudo). Quando ele aparece, a frase anterior inteira leva um cavalo-de-pau argumentativo. O que era bom vira ruim, o que era certo ganha ressalva.",
+        "2) Rather Than (Conector): \n O Substituto (Em vez de / Mais do que). Usado para mostrar que você prefere a opção 'A' em exclusão da opção 'B' (Ex: 'Recalibrar com fatos 'rather than' com suposições').",
+        "3) Regardless of (Conector): \n O Inabalável (Independentemente de). É uma Concessão Absoluta. Tradução: 'Aconteça o que acontecer, caiam céus ou terras, a obrigação principal se mantém'.",
+        "4) So That (Conector): \n A Finalidade (Para que / A fim de). O que vem depois dele é o c(propósito/motivo) pelo qual uma atitude anterior foi tomada.",
+        "5) End Up (Phrasal Verb): \n A Consequência Fatal (Acabar fazendo algo, como último recurso ou consequência inesperada). Se a equipe tem muitos alertas, ela 'ends up choosing at random' (acaba tendo que escolher no chute).",
+        "6) Split into (Verbo de Fraude): \n Dividir em partes menores ('Fatiamento'). Ferramenta clássica de sonegação (Smurfing), onde o cara divide um Pix grande em vários pequenos para fugir da malha fina (Thresholds).",
+        "7) Threshold (Termo Fisco): \n É o 'Gatilho / Limite Legal'. Se o governo avisa acima de 10 mil (Threshold), os corruptos fazem saques de 9 mil. Significa fronteira ou limite de tolerância.",
+        "8) Overwhelm (Verbo): \n Sobrecarga/Sufocar. 'The alerts overwhelm the team' = Tem tanta notificação de fraude piscando na tela que a equipe paralisa e chuta casos.",
+        "9) In its own right (Expressão Idiomática): \n O Autônomo ('Por si mesmo / Em seu próprio direito'). Significa que o problema é tão grave que ele vira uma entidade independente. (Ter muitos alertas é um problema em si, e não mais uma ajuda).",
+        "10) Return (Termo Fisco): \n Cuidado brutal! No banco quer dizer 'retorno/rendimento', mas na Administração Tributária ('Tax Administration'), *Periodic Returns* significa 'Declarações Fiscais Periódicas' (como a do Imposto de Renda).",
+        "11) Flag (Verbo): \n Bandeira/Sinalizar. 'A model that flags transactions' = O computador levanta a mão amarela dizendo 'suspeito' a cada operação.",
+        "12) Outcome (Substantivo): \n Resultado Final (Outcome = O que saiu). É a conclusão empírica de um caso.",
+        "13) Assumption (Substantivo): \n A Suposição Perigosa. 'Assumptions of whoever designed them' = Achismo dos teóricos da mesa do escritório. O texto defende usar *real results* em vez de *assumptions*.",
+        "14) Warehouse (Substantivo): \n Armazém/Galpão/Depósito. 'Before the goods leave the warehouse' = Antes da muamba sair do barracão logístico.",
+        "15) Tax Authority (Entidade): \n A Besta Fera do pagador de impostos (A Receita / O Fisco).",
+        "16) Short-lived vs Shortly After (Diferença de Tempo): \n *Shortly After* = 'Logo Após' (um tempo muito rápido de sucessão entre atos, ex: fraudar nota logo depois de aprová-la).",
+        "17) Interpretação Exata (Técnica): \n A questão pede o 'Ponto Principal' (Main Point)? Cuidado com alternativas que falam a verdade, mas são detalhes (ex: fraude de empresa vazia). O Main Point tem que resumir o fluxo e a tese de controle dos modelos de dados.",
+        "18) Voz Passiva Forense: \n Textos do governo amam a passiva ('Invoices may be cancelled'). Foca na fraude da nota fiscal, escondendo estrategicamente o sonegador/agente que praticou o crime.",
+        "19) Regra de Concessão (Gramática): \n Uma oração concessiva (Regardless of, Even if, Although) ensina que um fato tentou atrapalhar (ex: Mudar o servidor) e FALHOU miseravelmente (o trabalho deve ser entregue mesmo assim).",
+        "20) Reading Trap (Armadilha de Leitura Rápida): \n Alternativas falsas pegam o começo correto da frase do texto e alteram só a última palavra. Cheque sempre as vírgulas e conectivos do final da afirmativa."
+      ],
+      "options": [
+        "A) Acknowledged, Chief. Proceeding to target text."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Connectors:** Contraste (However), Fim (So That), Concessão Absoluta (Regardless of).\n**2) Phrasal Verbs:** Ends up (Consequência indesejada). Split into (Cortar em pedaços para fugir do radar).\n**3) Jargão Fiscal:** Returns (Declarações de Imposto). Tax Authority (A Receita). Thresholds (Limites de disparo de alertas da Malha Fina).\n**4) Interpretação de Alertas:** 'Overwhelm' (Sufoca a equipe, faz escolher de forma aleatória).\n\n!Regra de Bolso!\n~Lógica~\n1) SE o texto fiscal fala 'Returns', ENTÃO não é 'devolução', é 'Declaração de IR'.\n2) SE a palavra é 'Regardless of', ENTÃO obriga a ação a acontecer a despeito/concessão do resto.\n3) SE pede o 'Main point', ENTÃO não marque alternativas de fatos secundários marginais.\n\n!Break para Respirar!\n~Otávio~\n- Inglês para auditor exige frieza. O texto base é sobre a burocracia de notas frias eletrônicas. Vista seu distintivo e entre no texto base sem medo."
+    },
+    {
+      "type": "reading_block",
+      "id": "ae5_ing_texto_base",
+      "timer_override": 1800,
+      "content": {
+        "title": "Electronic Invoicing and Tax Automation",
+        "body": "Electronic invoicing has changed the way tax administrations follow economic activity. Each invoice issued by a registered business is transmitted to the tax authority before the goods leave the warehouse, so auditors no longer wait for periodic returns to learn what was sold.\n\nThis flow of data, however, does not audit itself. Invoices may be cancelled shortly after authorization, issued to companies that have no real activity, or split into small amounts to stay below the thresholds that would trigger a closer review. Detecting such patterns requires models that combine invoice data with registration records, payment information and, increasingly, data shared by other states.\n\nAnalysts warn that the volume of alerts can become a problem in its own right. A model that flags too many transactions overwhelms the audit teams, who end up choosing cases almost at random. For this reason, several administrations now rank alerts by expected revenue and record the outcome of every review.\n\nThe aim is to feed those outcomes back into the models, so that they are recalibrated with real results rather than with the assumptions of whoever designed them.",
+        "source": "Simulado Águia - Conhecimentos Específicos Parte 5"
+      },
+      "questions": [
+        {
+          "type": "normal",
+          "id": "ae5_q177_alfabetizacao",
+          "subject": "Inglês (Interpretação Base)",
+          "source": "Card 01 - O Que é Main Point?",
+          "timer_override": 360,
+          "front": "ALFABETIZAÇÃO: A TESE CENTRAL (MAIN POINT)\n\nO texto possui dois grandes blocos de informação:\n1. A Nota Eletrônica deu muita velocidade e muitos dados para o Fisco.\n2. Mas todo esse dado 'sufoca' a equipe (Volume of Alerts), exigindo Modelos Analíticos (IA/Algoritmos) bem calibrados para focar só no que importa.\n\nSe a banca perguntar o 'Main Point' (Tese Central), o que é melhor marcar?",
+          "options": [
+            "A) Apenas a parte onde ele conta os esquemas de empresas falsas que cancelam as notas logo depois.",
+            "B) A conclusão de que os dados são maravilhosos, mas dependem totalmente da filtragem eficiente de Modelos e Alertas gerenciáveis.",
+            "C) O fato de que os auditores foram substituídos pela máquina já que o dado chega rápido."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**A Armadilha do Ponto Central:**\n- Bancas amam colocar alternativas c(verdadeiras) baseadas no texto, mas que são meros c(exemplos secundários) (como o exemplo da empresa falsa na letra A).\n- A tese central de um texto dissertativo sempre junta o \"Eixo de Ação 1\" + \"O Problema/Desafio de Ação 2\". O texto celebra a modernidade, mas foca mais no risco do sufocamento humano pelo dado gerado em massa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** pede o 'Main point', **ENTÃO** busque a alternativa mais abrangente que una a tese base e a sua consequência, fugindo de minúcias de exemplo (cascas de banana).\n\n!Break para Respirar!\n~Otávio~\n- Entendeu o risco? Se você vir uma alternativa bonita sobre 'sonegação dividida em notas pequenas', ignore. Isso não resume o texto."
+        },
+        {
+          "type": "normal",
+          "id": "ae5_q177_transfer",
+          "subject": "Inglês (Transferência)",
+          "source": "Questão 177 (Transferência Real)",
+          "timer_override": 600,
+          "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nAccording to the text, the **main point** made about electronic invoicing is that:",
+          "options": [
+            "A) it has replaced the work of audit teams, since every transaction now reaches the tax authority before the goods are shipped.",
+            "B) its main weakness is the delay between the sale and the transmission of the invoice to the tax authority.",
+            "C) it requires models designed to raise the number of alerts and reduce the irregular invoices that escape review.",
+            "D) it has made companies with no real activity the main source of irregular invoices in other states.",
+            "E) the data it generates is valuable, but effective audits depend on analytical models and on keeping alerts manageable."
+          ],
+          "answer": 4,
+          "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**E) ...o dado que ela gera é valioso, mas auditorias eficientes dependem de modelos analíticos e de manter os alertas gerenciáveis.**\n**> CERTO <**\nPerfeita síntese. O 1º parágrafo exalta o valor da automação. O 2º e 3º parágrafos alertam contra o afogamento nos dados e pedem gestão/modelos.\n\n~Gentalha~\n**A) Ele SUBSTITUIU o trabalho da equipe de auditoria...**\n**ERRADA:** O texto diz o contrário! \"This flow of data DOES NOT audit itself\" (o dado não se audita sozinho). A máquina não mandou o auditor embora.\n\n**B) ...Sua principal fraqueza é o ATRASO (delay)...**\n**ERRADA:** Não há atraso na nota eletrônica. Ela chega \"before the goods leave\" (antes do caminhão sair do pátio).\n\n**C) Ele exige modelos desenhados para AUMENTAR (raise) o número de alertas...**\n**ERRADA:** Aumentar os alertas causou o caos nas equipes de fiscalização! Eles precisam de modelos para focar (rank alerts) e diminuir a bagunça randômica, e não criar mais alertas idiotas.\n\n**D) Fez de empresas sem atividade a fonte PRINCIPAL...**\n**ERRADA:** Ele cita empresas de fachada como um dos exemplos no bolo da fraude, mas em nenhum lugar diz ser a \"Main Source\" conectada a \"Other states\"."
+        },
+        {
+          "type": "normal",
+          "id": "ae5_q178_alfabetizacao",
+          "subject": "Inglês (Vocabulário)",
+          "source": "Card 01 - 'In its own right'",
+          "timer_override": 300,
+          "front": "ALFABETIZAÇÃO: EXPRESSÃO IDIOMÁTICA\n\nNo 3º parágrafo: \"...the volume of alerts can become a problem c(in its own right).\"\n\nTradução mental:\nO objetivo dos alertas era **ajudar** o auditor a caçar notas falsas. Mas gerou TANTO alerta na tela piscando (9 milhões por segundo) que o analista teve um burnout e começou a fechar casos no chute (choosing at random).\n\nO que a expressão **\"In its own right\"** transmite nesse cenário do sufocamento digital?",
+          "options": [
+            "A) Transmite que os alertas são de propriedade (Right) apenas dos líderes da equipe.",
+            "B) Transmite que o volume de alertas virou um 'problema por si só', ou seja, ganhou vida própria e é um inferno independente da fraude que ele caçava.",
+            "C) Transmite a ideia de que a Receita está trabalhando de forma 'Correta' (Right)."
+          ],
+          "answer": 1,
+          "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Expressão: 'In its own right':**\n- O Foco Foge do Alvo e foca na Ferramenta.\n- O alerta era a vacina. Mas tomamos vacina demais. A vacina c(virou o problema principal).\n- É literalmente o \"Por si só\" ou \"De per si\" (Em si mesmo). Algo que alcança independência e causa peso individual.\n\n!Regra de Bolso!\n~Lógica~\n**SE** tem \"own right\" em análise de texto de caos, **ENTÃO** traduz como \"por conta própria / por si só\", não envolva moralidade ('certo ou errado') nem propriedade de posses (direitos legais).\n\n!Break para Respirar!\n~Otávio~\n- Cuidado com o falso cognato cognitivo. Right não tem nada a ver com direita, direito penal ou estar correto nesta frase. A banca vai usar essa armadilha agora."
+        },
+        {
+          "type": "normal",
+          "id": "ae5_q178_transfer",
+          "subject": "Inglês (Transferência)",
+          "source": "Questão 178 (Transferência Real)",
+          "timer_override": 600,
+          "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nIn the second (or third) paragraph, the expression **\"in its own right\"** indicates that the volume of alerts:",
+          "options": [
+            "A) results from invoices cancelled shortly after being authorized by the tax authority.",
+            "B) solves the problem of audit teams that choose cases almost at random.",
+            "C) matters less than the patterns described in the first paragraph of the text.",
+            "D) is a problem in itself, distinct from the irregularities the models try to detect.",
+            "E) belongs to the audit teams, who are responsible for designing the models."
+          ],
+          "answer": 3,
+          "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**D) ...é um problema POR SI PRÓPRIO (in itself), DISTINTO das irregularidades que tenta detectar.**\n**> CERTO <**\nPerfeita tradução. Em vez de focarmos só na fraude (nota fiscal dividida, etc), agora o governo tem que gastar dinheiro público consertando um banco de dados entupido e servidores esgotados psicologicamente.\n\n~Gentalha~\n**A) ...resulta das faturas canceladas logo após a autorização.**\n**ERRADA:** A expressão não indica Causa e Efeito logístico. Ela indica status do problema.\n\n**B) ...RESOLVE o problema das equipes que escolhem a esmo.**\n**ERRADA:** Inversão brutal! O volume de alertas NÃO resolve, o volume de alertas É O CULPADO por fazer a equipe escolher a esmo (por exaustão).\n\n**C) ...importa MENOS que os padrões do parágrafo primeiro.**\n**ERRADA:** O texto diz que pode se tornar \"A problem\", com força brutal, não faz juízo de \"importar menos\".\n\n**E) ...PERTENCE (belongs) às equipes, que são responsáveis pelo design dos modelos.**\n**ERRADA:** Caiu no conto do vigário (Right = Direito/Posse). E no texto quem desenhou o modelo foram teóricos (assumptions of whoever designed them), e não os times auditores na ponta da lança."
+        },
+        {
+          "type": "normal",
+          "id": "ae5_ing_boss_inter_1",
+          "subject": "Inglês Técnico",
+          "source": "BOSS INTERMEDIÁRIO I - Revisão (Q177 e Q178)",
+          "timer_override": 400,
+          "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n(pega o marcador de texto)\n- Perito, as duas primeiras armadilhas da prova estrangeira passaram. Valide a leitura crua da sintaxe e interpretação do que acabamos de traduzir:",
+          "stem": [
+            "vf(I. A expressão \"In its own right\", no jargão dos negócios e auditoria anglo-saxônica, remete a direitos processuais (legal rights) das autoridades fiscais que auditam faturas.)",
+            "vf(II. A frase \"who end up choosing cases almost at random\" comprova textualmente que a equipe humana de auditoria do Fisco tornou-se exímia ao invés de vulnerável graças aos modelos de software livre.)",
+            "vf(III. A tese central (Main Point) de um texto argumentativo, em provas investigativas, raramente pode ser resumida na listagem de um único exemplo técnico de segundo parágrafo.)",
+            "vf(IV. A substituição do papel pela nota eletrônica \"Before the goods leave the warehouse\" evidencia que a fiscalização moderna alcançou o nível antecedente da transação comercial, não sendo refém do atraso logístico.)"
+          ],
+          "options": [
+            "A) I e II são verdadeiras.",
+            "B) Apenas II e III são verdadeiras.",
+            "C) Apenas III e IV são verdadeiras.",
+            "D) Apenas IV é verdadeira.",
+            "E) Todas são falsas."
+          ],
+          "answer": 2,
+          "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**1) Idiomática \"Own Right\":** (Falsa) Refere-se a algo existir ou ser grave \"Por si só\", como entidade independente. Não tem a ver com direito no tribunal (Jurisprudence).\n**2) \"Choosing at random\" (Esmo):** (Falsa) Escolher casos na auditoria no \"chuveirinho da roleta\" (Random) atesta a c(Falência) mental do time (overwhelmed), e não a sua glória e eficácia.\n**3) Tese Central vs Exemplo:** (Verdadeira) É a primeira lei da perícia textual. O laudo principal nunca é uma folha do diário que relata o tipo da poeira do pneu; o laudo é a visão geral.\n**4) Interpretação Antecedente (Warehouse):** (Verdadeira) A nota vaza pro governo c(ANTES) de a carga (muamba) sair pela porta do galpão (warehouse), dizimando a velha guarda tributária que esperava meses por declarações de papel.\n\n~Gabarito~\n**Apenas III e IV são verdadeiras.**\n\n!Break para Respirar!\n~Otávio~\n- Destruição metódica de vocabulário. Vamos varrer agora a literalidade do texto e as famosas orações de gramática técnica com o 'Regardless of'."
+        },
+        {
+          "type": "normal",
+          "id": "ae5_q179_transfer",
+          "subject": "Inglês (Compreensão V/F)",
+          "source": "Questão 179 (Transferência Real)",
+          "timer_override": 600,
+          "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nCom base no texto lido sobre faturamento eletrônico (Electronic Invoicing), julgue as afirmativas a seguir:\n\n Segundo o texto, a nota fiscal eletrônica é transmitida ao fisco ANTES de a mercadoria sair do depósito.)\n O texto menciona a divisão de valores em montantes menores para ficar ABAIXO dos limites que levariam a uma revisão mais detida.)\n De acordo com o texto, o EXCESSO de alertas leva as equipes de auditoria a escolher os casos quase ao acaso.)\n O texto informa que várias administrações passaram a registrar o resultado de cada revisão, para RECALIBRAR os modelos com resultados REAIS.)\n\nA sequência correta, de cima para baixo, é:",
+          "options": [
+            "A) V, V, V, F.",
+            "B) F, V, V, F.",
+            "C) V, V, F, F.",
+            "D) V, V, V, V.",
+            "E) V, F, V, V."
+          ],
+          "answer": 3,
+          "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**(V) Segundo o texto, a nota fiscal eletrônica é transmitida ao fisco ANTES de a mercadoria sair do depósito.**\n**> CERTO <**\nTradução literal de: *\"transmitted to the tax authority before the goods leave the warehouse.\"* \n\n**(V) O texto menciona a divisão de valores em montantes menores para ficar ABAIXO dos limites que levariam a revisão.**\n**> CERTO <**\nTradução literal de: *\"split into small amounts to stay below the thresholds that would trigger a closer review.\"* Tática clássica de Smurfing!\n\n**(V) ...o EXCESSO de alertas leva as equipes de auditoria a escolher os casos quase ao acaso.**\n**> CERTO <**\nTradução literal de: *\"flag too many transactions overwhelms the audit teams, who end up choosing cases almost at random.\"*\n\n**(V) O texto informa que várias administrações passaram a registrar... para RECALIBRAR os modelos com resultados REAIS.**\n**> CERTO <**\nTradução de: *\"feed those outcomes back into the models, so that they are recalibrated with real results rather than assumptions...\"*\n\n!Regra de Bolso!\n~Lógica~\n**SE** o comando da questão diz \"De acordo com o texto\", **ENTÃO** é caça-palavras puro e chucro. Não envolva inferência filosófica. Bata o olho na sentença em inglês e dê 'match' com o em português.\n\n!Break para Respirar!\n~Otávio~\n- Viu? Caça-palavras literal. As bancas no Brasil evitam fazer perguntas subjetivas porque causam chuva de anulação na justiça. Procure no texto, copie e cole na cabeça. Se tiver lá, é Verdadeiro.",
+          "stem": [
+            "vf(( )",
+            "vf(( )",
+            "vf(( )",
+            "vf(( )"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q180_alfabetizacao",
+      "subject": "Inglês (Conjunções/Gramática)",
+      "source": "Card 01 - A Força do 'Regardless Of'",
+      "timer_override": 300,
+      "front": "ALFABETIZAÇÃO: A CONCESSÃO EM INGLÊS\n\nObserve a frase:\n\"O policial fará a operação amanhã à noite, c(independentemente de) chover granizo ou relâmpagos.\"\n\nO que o conectivo (Independentemente de / **Regardless of**) fez com o sentido lógico desta ordem da polícia?",
+      "options": [
+        "A) Criou uma Condição Mágica (O policial SÓ vai se chover).",
+        "B) Criou uma Consequência (A chuva é o resultado da operação da polícia).",
+        "C) Criou uma Concessão (Uma força oposta gigantesca ameaçou o evento, mas perdeu. A ordem principal passa por cima de qualquer barreira).",
+        "D) Criou uma causa indireta para o motivo fútil do texto citado."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**A Concessão (Concession):**\n- Oposição Fraca = Mas / Porém / However (Bati o carro, *MAS* fiquei bem).\n- Oposição Forte (Concessiva) = Embora / Mesmo Que / Independentemente de / *Regardless of* / *Even if* / *Although*.\n- A Concessão não impede e não condiciona! O cara avisa na lata: c(Não me importam os obstáculos, a ação principal não cai).\n\n!Regra de Bolso!\n~Lógica~\n**SE** tem c(Regardless of), c(In spite of), c(Despite) ou c(Even though), **ENTÃO** você esbarra com Força de **Concession**.\n\n!Break para Respirar!\n~Otávio~\n- Saber que *regardless* é concessão tira o seu peso da tradução inútil do resto da frase de software de nuvem e te dá os pontos limpos e secos no gabarito oficial."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_q180_transfer",
+      "subject": "Inglês (Transferência)",
+      "source": "Questão 180 (Transferência Real)",
+      "timer_override": 480,
+      "front": "**QUESTÃO TRANSFERÊNCIA (REAL DA PROVA)**\n\nConsider the sentence from a software contract specification:\n\n*\"The contractor shall ensure that service level indicators are measured and reported on a monthly basis, c(regardless of) any change in the underlying infrastructure.\"*\n\nThe expression **\"regardless of\"** introduces, in relation to the rest of the sentence, an idea of:",
+      "options": [
+        "A) CAUSE, indicating the reason why the contractor must measure and report the service level indicators on a monthly basis throughout the term of the contract.",
+        "B) PURPOSE, indicating the objective that the monthly measurement and reporting of the indicators is intended to achieve for the contracting party.",
+        "C) CONCESSION, indicating that the obligation to measure and report on a monthly basis holds even if the underlying infrastructure is changed.",
+        "D) CONDITION, indicating that the obligation to measure and report the indicators applies for as long as the underlying infrastructure remains unchanged.",
+        "E) CONSEQUENCE, indicating the result produced by a prior change in the underlying infrastructure of the service that is being contracted."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**C) CONCESSION, indicando que a obrigação de medir e reportar o mês se mantém ainda que a infraestrutura subjacente seja alterada.**\n**> CERTO <**\nCirúrgico e sem mistério! *Regardless of* não subordina nem dita cláusulas dependentes; ele impõe o famoso c('aconteça o que acontecer'). A nuvem de infraestrutura faliu e mudou pro Google? Azar, me mande o relatório no final do mês do mesmo jeito.\n\n~Gentalha~\n**A) CAUSE (Causa).**\n**ERRADA:** Se a mudança de servidor fosse a Causa (Reason why), eu usaria conectores como: c(Due to / Because of).\n\n**B) PURPOSE (Propósito/Finalidade).**\n**ERRADA:** Se for finalidade ou propósito moral, eu usaria: c(In order to / So that).\n\n**D) CONDITION (Condição dependente).**\n**ERRADA:** O apostador do caos cairia nessa. Mas a condição freia uma obrigação. Se eu quisesse limitar: \"Me envie o relatório c(SE, e SOMENTE SE) o servidor não for mudado\", eu usaria: c(Provided that / As long as / If). O \"Regardless of\" afirma justamente o OPOSTO, ele obriga de qualquer jeito.\n\n**E) CONSEQUENCE (Consequência ou resultado).**\n**ERRADA:** Para consequência usaríamos o nosso amigo do outro bloco: c(Consequently / As a result)."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_ing_boss_inter_2",
+      "subject": "Inglês Técnico",
+      "source": "BOSS INTERMEDIÁRIO II - Revisão (Q179 e Q180)",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n(guarda o dicionário)\n- Perito, as amarras do texto se confirmaram. Vamos varrer os resquícios logísticos da leitura fina e as regras das matrizes gramaticais do idioma:\n\nJulgue:",
+      "stem": [
+        "vf(I. Na interpretação focada na gramática de leitura, perguntas que pedem \"According to the text...\" requerem do candidato uma resposta inferencial criativa, afastada da leitura grosseira e literal do conteúdo traduzido.)",
+        "vf(II. A expressão \"regardless of\" indica concessão, a qual impõe a obrigatoriedade da execução de uma ação principal mesmo face aos distúrbios de circunstâncias adversas.)",
+        "vf(III. A prática criminosa do fatiamento logístico descrita como \"split into small amounts\" visa ultrapassar e estourar propositalmente os \"thresholds\" (limites) bancários da malha fina.)",
+        "vf(IV. A substituição gramatical linear do termo \"regardless of\" pela oração condicional de cláusula pesada \"as long as\" manteria ilesa a carga contratual da premissa.)"
+      ],
+      "options": [
+        "A) I e III são verdadeiras.",
+        "B) Apenas II é verdadeira.",
+        "C) Apenas I, II e IV são verdadeiras.",
+        "D) II e IV são verdadeiras.",
+        "E) Todas são falsas."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**1) Interpretação Extrapolada:** (Falsa) Se pede \"According to the text\", é leitura grossa, chucra, ctrl+C ctrl+V traduzido. Fugir para a inferência e imaginação criativa anula a assertiva.\n**2) \"Regardless of\" / Concessão:** (Verdadeira) É a definição gramatical exata de uma concessiva num ambiente hostil contratual. 'Vai ter que fazer independentemente do cenário ruim que chover amanhã'.\n**3) Fatiamento e Smurfing:** (Falsa) O erro é a palavra c(ULTRAPASSAR/Estourar). Quem fatia os depósitos em contas miúdas quer justamente ficar escondidinho c(ABAIXO) da linha de radar (\"Stay below the thresholds\").\n**4) Troca Falsa de Conectivo:** (Falsa) Concessão vs Condicional são água e vinho. Trocar \"Regardless of\" por \"As long as\" (Contanto que) muda a matriz da obrigação jurídica pro ralo.\n\n~Gabarito~\n**Apenas II é verdadeira.**\n\n!Break para Respirar!\n~Otávio~\n- Quase livre, Estrategista. Só falta a prova de fogo do Boss Final unindo as vertentes tributárias com a língua do Tio Sam."
+    },
+    {
+      "type": "normal",
+      "id": "ae5_ing_boss_final",
+      "subject": "Inglês Técnico - Veredito Final",
+      "source": "BOSS FINAL (INGLÊS) - O Report Executivo",
+      "timer_override": 600,
+      "front": "**(BOSS FINAL DE INGLÊS) - Otávio:**\n(assina os relatórios internacionais de fiscalização aduaneira)\n- A malha fina apitou, cruzamos todos os dados, emitimos os Autos de Infração nos bancos SQL e reportamos tudo ao conselho do G20 da Fazenda. Feche o caso, auditor:\n\nJulgue, sob pena do seu distintivo:",
+      "stem": [
+        "vf(I. (Q177) A fixação da Tese Central (Main Point) de uma documentação técnica internacional demanda isolar a problemática e a solução estrutural abordada no texto, em total detrimento das minúcias anedóticas ou exemplos isolados dos parágrafos inferiores.)",
+        "vf(II. (Q178) A locução idiomática de desespero analítico apontada no relatório de IA como \"A problem in its own right\" simboliza a mutação de uma ferramenta fiscal útil (os alarmes de sistema) em uma disfunção gravosa com força e prejuízo independente de suas intenções criminais de caça à corrupção.)",
+        "vf(III. (Q179) Segundo o exposto em língua inglesa, as autoridades fiscais buscam descalibrar retroativamente os modelos baseando-se nas suposições puras dos programadores originais ('assumptions of whoever designed them') ao invés do empirismo do resultado em campo ('real results').)",
+        "vf(IV. (Q180) O dispositivo conectivo 'regardless of' funciona como âncora concessiva de blindagem que estipula o isolamento da Ordem Principal ('A entrega da atividade ou relatórios') face a possíveis ruínas de elementos paralelos ('The underlying infrastructure').)"
+      ],
+      "options": [
+        "A) I, II e IV são verdadeiras.",
+        "B) II e III são verdadeiras.",
+        "C) Apenas I e III são verdadeiras.",
+        "D) Todas são verdadeiras.",
+        "E) Nenhuma é verdadeira."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) (Q177) Tese Central vs Exemplo Isolado:** (V) Perfeito. Ao procurar Main Point fuja de cascas de banana factualmente corretas sobre as miudezas ou casos episódicos listados na folha. Busque o macro-movimento.\n**2) (Q178) Locução In its Own Right:** (V) Em mosca. Significa a transição metafórica de algo que \"era pra ajudar e virou um fardo terrível com conta própria\" sufocando a equipe.\n**3) (Q179) Interpretação Exata:** (F) Inversão brutal da tese. A máquina e a administração exigem a fuga maciça do amadorismo da mesa (Assumptions) em prol maciço da vida real fiscal baseada na calibragem em sangue e campo (Real results).\n**4) (Q180) Ancoragem Concessiva:** (V) Exata definição morfológica. O Regardless of age como escudo para que a missão inicial seja feita a todo vapor e quebrando qualquer desculpa condicional.\n\n~Gabarito~\n**I, II e IV são verdadeiras.**\n\n!Regra de Bolso!\n~Lógica~\n1) SE é Main point, ENTÃO varra a sujeira anedótica.\n2) SE é \"in its own right\", ENTÃO o alerta em si é a doença nova na TI.\n3) SE é Regardless of, ENTÃO execute a missão sob quaisquer céus abertos.\n\n!Break para Respirar!\n~Otávio~\n- Acabou a contabilidade global e a fraude eletrônica. Seu inglês técnico garante que a nota fria internacional seja detectada antes de sair do armazém da transportadora. Parabéns, o simulado 01 se despede do seu gabarito com louvor absoluto."
+    }
+  ]
+}
