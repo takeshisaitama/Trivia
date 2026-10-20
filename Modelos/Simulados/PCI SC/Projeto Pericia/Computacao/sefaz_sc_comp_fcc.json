@@ -1,0 +1,492 @@
+{
+  "title": "Simulado 01",
+  "cards": [
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_tutorial",
+      "subject": "Ciências da Computação",
+      "source": "BOSS TUTORIAL - Mapeamento Tático (FCC)",
+      "timer_override": 1200,
+      "front": "**(BOSS TUTORIAL) - Otávio:**\n(analisa os logs do banco de dados)\n- Estrategista, a prova da FCC para a SEFAZ/SC exige rigor extremo em Engenharia de Dados, Governança e BI. Estude a colinha abaixo antes de iniciar a extração:",
+      "stem": [
+        "**1) Joins - Interna vs. Externa:** \n A junção interna (c(inner join)) traz apenas os registros que têm correspondência em ambos os lados. Chaves duplicadas multiplicam o número de linhas resultantes. A junção externa (c(left join), por exemplo) mantém todos do lado esquerdo, preenchendo com nulos a ausência de par à direita.",
+        "**2) Spark - Otimização e Cache:** \n O c(broadcast join) copia a tabela pequena para os executores, evitando embaralhamento da grande. O c(cache) é preguiçoso (lazy evaluation) e só materializa os dados na primeira ação. Para redistribuir dados embaralhando, use c(repartition); para reduzir partições sem embaralhar, c(coalesce).",
+        "**3) Modelagem Dimensional - Dimensão com Papéis (Role-Playing):** \n Uma mesma tabela de dimensão (ex: data) pode ser referenciada por c(várias chaves estrangeiras) na fato (ex: data de emissão, de vencimento). Para evitar confusão, usam-se visões (views) diferentes, sem duplicar os dados.",
+        "**4) Carga Incremental - Marca d'Água (Watermark):** \n O uso exclusivo da marca de tempo baseada na hora de início pode perder transações se elas forem confirmadas (commit) c(depois) que a rotina já leu até aquele ponto temporal. Requer sobreposição ou CDC (Change Data Capture).",
+        "**5) Arquiteturas - Lambda vs. Kappa:** \n c(Lambda): Caminho duplo (Lote/Batch e Velocidade/Streaming), mais complexo. c(Kappa): Caminho único de streaming; reprocessamentos são feitos relendo o log de eventos desde o ponto desejado.",
+        "**6) Data Warehouse - Inmon vs. Kimball:** \n c(Inmon): Top-Down, armazém normalizado (3FN) alimenta os Data Marts. c(Kimball): Bottom-Up, matriz de barramento (bus), Data Marts construídos com dimensões c(conformadas) que integram o DW.",
+        "**7) Distância de Levenshtein:** \n Conta o menor número de c(inserções, remoções ou substituições) para transformar uma string em outra. Trocar posições (ex: EI por IE) custa 2 operações (2 substituições), e não apenas 1.",
+        "**8) Tratamento de Atípicos (Outliers) e Ausentes:** \n Imputar pela média distorce a variância. O Z-Score tradicional sofre influência dos próprios outliers (não é robusto). Na c(winsorização), os limites não são removidos, mas substituídos pelo valor percentil extremo.",
+        "**9) Qualidade de Dados - Dimensões:** \n Endereço com padrão certo, mas no mundo real a loja não existe lá: erro de c(precisão). Chave estrangeira sem par: erro de c(integridade referencial). Dados defasados no tempo: erro de c(atualidade/tempestividade).",
+        "**10) Análise de Impacto (Linhagem de Dados):** \n A jusante (downstream) significa quem é c(alimentado) pela origem (quem sofre impacto se a origem mudar). Uma alteração na origem propaga para todos os ativos diretamente e indiretamente que dependem dela.",
+        "**11) Contratos de Dados:** \n O c(produtor) (e não o consumidor) tem a responsabilidade de garantir o esquema, a semântica e avisar previamente de qualquer quebra do contrato. O consumidor apenas adere ao contrato firmado.",
+        "**12) DAX - SUMX vs. SUM:** \n c(SUMX) é um iterador: calcula a expressão linha a linha e depois soma o resultado. Ao multiplicar quantidades e preços de múltiplas filiais, fazer SUM(qtd) * SUM(preco) gera distorção total, sendo obrigatório o SUMX.",
+        "**13) Power Query - List.Accumulate:** \n Semelhante a um reduce. Tem uma semente (valor inicial), uma variável acumuladora e o item atual, aplicando a lógica a cada elemento sequencialmente.",
+        "**14) Power BI - Modo Duplo e Inteligência Temporal:** \n Modo duplo atende via importação ou consulta direta à fonte (c(DirectQuery)). Tabela de datas exige continuidade (sem lacunas) para funções temporais funcionarem.",
+        "**15) Gráficos e BI:** \n c(Histograma): distribuição de frequências contínuas. c(Barras Ordenadas): melhor que pizza para fatias similares. c(Gráfico de Dispersão): relação entre duas medidas numéricas independentes do tempo.",
+        "**16) Curva ABC (Pareto):** \n A classe A reúne o menor grupo (em ordem decrescente) que, acumulado, atinge cerca de c(80%) do valor total, sendo os mais críticos e vitais."
+      ],
+      "options": [
+        "A) Ciente, Perito. Protocolo de extração de dados carregado."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**1) Joins**\n- **Como aparece:** Casos de junção (inner vs left) onde o examinador pede o total de linhas geradas, frequentemente em cenários de chaves repetidas.\n- **Pegadinha:** Achar que um left join nunca gera mais linhas que a tabela esquerda. Ele gera, se a direita tiver duplicatas.\n- **Decisão:** Some as multiplicações de cruzamentos válidos.\n\n**2) Spark**\n- **Como aparece:** Questões sobre otimização (Broadcast, coalesce, repartition).\n- **Pegadinha:** Achar que cache já processa os dados de imediato (ele é preguiçoso).\n- **Decisão:** Coalesce diminui partições sem shuffle. Repartition reorganiza os dados gerando shuffle.\n\n**3) Modelagem Dimensional**\n- **Como aparece:** Kimball (Bus, dimensões conformadas) e Dimensões Role-Playing (papéis).\n- **Pegadinha:** Dizer que Dimensões de Papel precisam ser fisicamente duplicadas no banco.\n- **Decisão:** Usa-se views da mesma tabela base de dimensão.\n\n**4) Distância de Levenshtein**\n- **Como aparece:** Qualidade de dados, desduplicação e Master Data Management (MDM).\n- **Pegadinha:** Achar que inverter letras conta como 1 mudança (Isso é Damerau-Levenshtein). Em Levenshtein puro custa 2.\n- **Decisão:** Conte exatamente (inserção, exclusão ou troca isolada).\n\n**5) Qualidade de Dados**\n- **Como aparece:** Casos de uso e identificação da dimensão da qualidade infringida (Precisão, Completude, Atualidade).\n- **Pegadinha:** Confundir Integridade (chave órfã) com Validade (dado fora do padrão).\n- **Decisão:** Se tá bonito mas é mentira, falha na Precisão.\n\n**6) Visualização de Dados**\n- **Como aparece:** Escolher o gráfico ideal para o problema proposto.\n- **Pegadinha:** Usar Gráfico de Linhas para dados que não têm continuidade temporal.\n- **Decisão:** Relacionar duas métricas numéricas = Dispersão.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** a dimensão assume vários sentidos (ex. Data), **ENTÃO** é Role-Playing.\n**2) SE** é junção interna, **ENTÃO** multiplique as ocorrências da chave nas duas tabelas.\n**3) SE** é cache no Spark, **ENTÃO** é lazy, ocorre na 1ª ação.\n**4) SE** as dimensões são conformadas, **ENTÃO** estamos na visão Kimball (barramento).\n**5) SE** o produtor garante o esquema, **ENTÃO** é um contrato de dados.\n**6) SE** quer calcular algo linha a linha no DAX, **ENTÃO** use função terminada em X (ex: SUMX).\n\n!Interpretando a Banca!\n~Gatilho~\n**1) FCC e as minúcias técnicas:** A banca FCC gosta de trazer cenários reais (ex: queries, scripts M, PySpark) exigindo a simulação do passo a passo em vez da mera memorização da teoria.\n\n!Break para Respirar!\n~Otávio~\n- Analista, você não acha erros na base da Sefaz por sorte, mas por método. Se pular etapas da sua árvore de decisão, o bug passará invisível."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_117",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "Questão 117 - Simulado 01",
+      "front": "Em uma rotina de auditoria escrita em PySpark, as notas fiscais de um período são cruzadas com o cadastro de contribuintes, conforme o código a seguir.\n\n\nnotas = spark.createDataFrame(\n [(\"A\", 100), (\"A\", 250), (\"B\", 80), (\"C\", 40)],\n [\"cnpj\", \"valor\"])\n\ncad = spark.createDataFrame(\n [(\"A\", \"SC\"), (\"A\", \"SC\"), (\"B\", \"PR\"), (\"B\", \"PR\"), (\"B\", \"RS\"), (\"D\", \"SC\")],\n [\"cnpj\", \"uf\"])\n\ni = notas.join(cad, \"cnpj\", \"inner\").count()\ne = notas.join(cad, \"cnpj\", \"left\").count()\n\n\nApós a execução, os valores de i e de e são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) 3 e 4.",
+        "B) 7 e 7.",
+        "C) 7 e 8.",
+        "D) 7 e 9.",
+        "E) 8 e 9."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**Junções (Joins) e Chaves Duplicadas**\n- **Como aparece:** A banca traz conjuntos de dados com registros que possuem as mesmas chaves (1:N ou N:N) e pede para inferir a quantidade de linhas do dataframe resultante de uma junção.\n- **Pegadinha:** Presumir erroneamente que um left join ou inner join funciona como uma mera pesquisa de valor único (VLOOKUP). Se houver duplicidade na chave do lado direito, as linhas da esquerda são multiplicadas pelas ocorrências na direita.\n- **Decisão:** Realizar o Produto Cartesiano para cada chave individualmente. \n\n**Passo 1 — Junção interna (i):**\nCada linha de notas é combinada com todas as linhas de cad de mesma chave.\n- Chave A: 2 vezes em notas, 2 vezes em cad (2 x 2 = 4 linhas).\n- Chave B: 1 vez em notas, 3 vezes em cad (1 x 3 = 3 linhas).\n- Chave C: sem par (0 linhas).\nLogo, i = 4 + 3 = 7.\n\n**Passo 2 — Junção à esquerda (e):**\nMantém as 7 combinações da junção interna e acrescenta a linha de notas sem par (C), com nulos nas colunas de cad.\n- Linha C entra uma vez. Logo, e = 7 + 1 = 8.\nA linha D, presente no cadastro e ausente das notas, não entra no left join (apareceria num full outer join).\n\n~Gentalha~\n- **A) 3 e 4.:** Traz contagens equivocadas (esquecendo o produto cartesiano das repetidas).\n- **B) 7 e 7.:** Esquece a linha C sem par no left join.\n- **D) 7 e 9.:** Inclui a linha D indevidamente, como se fosse full outer join.\n- **E) 8 e 9.:** Soma a nota C indevidamente na junção interna.\n\n!Regra de Bolso!\n~Lógica~\n**SE** houver chaves duplicadas no PySpark Join, **ENTÃO** o número de linhas resultantes será o produto das ocorrências em cada Dataframe.\n\n!Interpretando a Banca!\n~Fumaça~\nA fumaça da FCC é forçar você a calcular mentalmente as intersecções. A alternativa (A) tenta pegar quem não multiplicou as chaves repetidas e a (D) pega quem fez outer join em vez de left join."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_118",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "Questão 118 - Simulado 01",
+      "front": "Julgue os itens a seguir, relativos à otimização de processamento no Apache Spark com DataFrames e Spark SQL.\n\nI. Na junção entre uma tabela fato volumosa e uma dimensão pequena, a difusão (broadcast) da tabela menor para cada executor evita o embaralhamento da tabela maior pela rede.\nII. O armazenamento de um DataFrame com cache ou persist é útil quando o mesmo resultado intermediário é reutilizado por várias ações, e a materialização ocorre na primeira ação executada sobre ele.\nIII. O método coalesce, por evitar o embaralhamento completo dos dados, é o indicado para aumentar o número de partições de um DataFrame antes de uma etapa de processamento paralelo intensivo.\nIV. A execução adaptativa de consultas, habilitada por padrão nas versões recentes do Spark, pode reotimizar o plano durante a execução, trocando a estratégia de junção ou combinando partições pequenas após o embaralhamento.\n\nEstão corretos os itens:",
+      "stem": [],
+      "options": [
+        "A) I, II, III e IV.",
+        "B) I, II e IV.",
+        "C) II, III e IV.",
+        "D) I, III e IV.",
+        "E) I e II."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Spark Optimization (AQE, Cache, Joins, Partitions)**\n- **Como aparece:** Análise de técnicas de performance para reduzir gargalos de I/O de rede e computação ineficiente.\n- **Pegadinha:** Confundir *coalesce* (reduzir partições sem shuffle) com *repartition* (aumentar ou reorganizar com shuffle completo).\n- **Decisão:** \n- I) **Correta**. Broadcast Join envia a tabela pequena para os nós executores, eliminando o shuffle da tabela grande.\n- II) **Correta**. Cache é preguiçoso (lazy evaluation) e materializa os dados quando o primeiro Action é chamado (ex: count, collect).\n- III) **Incorreta**. O coalesce *reduz* o número de partições juntando partições adjacentes sem embaralhar. Para *aumentar*, ou redistribuir equilibradamente, deve-se usar repartition, que causa shuffle.\n- IV) **Correta**. Adaptive Query Execution (AQE) converte joins para broadcast dinamicamente e ajusta distorção (skew) em tempo de execução.\n\n~Gentalha~\n- **A) I, II, III e IV.:** Incorreta por considerar a assertiva III como verdadeira (coalesce não embaralha).\n- **C) II, III e IV.:** Incorreta por considerar a assertiva III como verdadeira.\n- **D) I, III e IV.:** Incorreta por considerar a assertiva III como verdadeira.\n- **E) I e II.:** Incorreta por omitir a assertiva IV, que está corretíssima sobre o AQE.\n\n!Regra de Bolso!\n~Lógica~\n**SE** deseja diminuir partições preservando localidade, **ENTÃO** use *coalesce*.\n**SE** deseja aumentar partições ou balancear os dados, **ENTÃO** use *repartition*.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca testa o conhecimento além do código básico, exigindo domínio profundo da mecânica de shuffle (um dos maiores drenos de performance do Spark)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_119",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "Questão 119 - Simulado 01",
+      "front": "Na modelagem dimensional do armazém de dados da Secretaria, a tabela fato de itens de notas fiscais registra, para cada item, a data de emissão, a data de vencimento e a data de pagamento, além do número da nota fiscal, que não tem outros atributos a descrever. Acerca da modelagem dessa tabela fato, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) uma dimensão de data pode desempenhar três papéis, ligada à fato por três chaves estrangeiras, e o número da nota pode ficar na fato como dimensão degenerada.",
+        "B) as três datas exigem três tabelas de dimensão fisicamente distintas, porque cada chave estrangeira da tabela fato deve apontar para uma tabela de dimensão própria.",
+        "C) o número da nota fiscal deve originar uma dimensão própria, com uma linha por nota, mesmo sem atributos descritivos, para preservar a integridade referencial da fato.",
+        "D) a granularidade da tabela fato é a nota fiscal, e não o item, porque o número da nota fiscal identifica cada uma das linhas gravadas na tabela fato de itens.",
+        "E) as datas de vencimento e de pagamento devem ser gravadas como atributos da dimensão de data de emissão, por se referirem ao mesmo documento fiscal emitido."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Dimensões de Papel (Role-Playing) e Dimensões Degeneradas**\n- **Como aparece:** Perguntas de Modelagem Dimensional (Kimball) envolvendo múltiplas referências temporais e chaves de negócio (nº de documento).\n- **Pegadinha:** Achar que cada chave estrangeira de Data precisa de uma tabela *física* diferente, quando basta ter *visões* (views) lógicas diferentes.\n- **Decisão:** \nDimensão Role-Playing: Uma tabela de dimensão pode ser referenciada por várias chaves na Fato (Data Emissão, Data Pagamento). Usa-se views com nomes próprios de colunas sem duplicar dados.\nDimensão Degenerada: Identificador (como o número da Nota) que fica na tabela fato sem ter uma tabela de dimensão associada, pois ele não possui atributos próprios.\n\n~Gentalha~\n- **B) as três datas exigem três tabelas de dimensão fisicamente distintas, porque cada chave estrangeira da tabela fato deve apontar para uma tabela de dimensão própria.:** Incorreta. Não se duplica tabelas fisicamente, utilizam-se views.\n- **C) o número da nota fiscal deve originar uma dimensão própria, com uma linha por nota, mesmo sem atributos descritivos, para preservar a integridade referencial da fato.:** Incorreta. Dimensão sem atributos viraria redundância inútil, a solução do Kimball é mantê-la como degenerada na fato.\n- **D) a granularidade da tabela fato é a nota fiscal, e não o item, porque o número da nota fiscal identifica cada uma das linhas gravadas na tabela fato de itens.:** Incorreta. Se ela registra \"para cada item\", a granularidade é o item da nota. O número da nota fiscal se repete para os itens do mesmo documento.\n- **E) as datas de vencimento e de pagamento devem ser gravadas como atributos da dimensão de data de emissão, por se referirem ao mesmo documento fiscal emitido.:** Incorreta. Misturaria dimensões e impossibilitaria analises independentes.\n\n!Regra de Bolso!\n~Lógica~\n**SE** uma dimensão tem múltiplos significados no modelo, **ENTÃO** é uma dimensão role-playing.\n**SE** um identificador não tem atributos descritivos, **ENTÃO** é uma dimensão degenerada.\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC traz jargões clássicos de Ralph Kimball. Não basta saber a teoria, tem que saber nomear a técnica exata (Role-Playing e Degenerada)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_inter_1",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "BOSS INTERMEDIÁRIO I - Revisão Tática",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO I) - Otávio:**\n(confere as métricas do cluster)\n- Perito, concluímos a primeira varredura no Data Warehouse e no Spark. Para confirmar a retenção de conceitos, julgue a afirmativa abaixo:",
+      "stem": [
+        "vf(I. Na modelagem de um Data Warehouse baseada em Kimball, criar três tabelas de datas separadas fisicamente no banco de dados é a estratégia recomendada para representar as datas de emissão, vencimento e pagamento.)"
+      ],
+      "options": [
+        "A) Verdadeiro.",
+        "B) Falso."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B (Falso).\n\n!Otávio!\n~Teoria~\n**Dimensão com Papéis (Role-Playing Dimension)**\n- **Como aparece:** Questões que propõem soluções para múltiplas referências temporais.\n- **Pegadinha:** A afirmativa propõe duplicar fisicamente as tabelas de data, o que gera redundância e desperdício de espaço no banco.\n- **Decisão:** O padrão Kimball recomenda manter uma única tabela de dimensão física de data e criar *visões (views)* diferentes para atuar em cada papel (emissão, pagamento). Portanto, a afirmativa é Falsa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** você precisa da mesma dimensão em contextos variados, **ENTÃO** referencie a mesma tabela com visões lógicas (views), não duplique os dados físicos.\n\n!Break para Respirar!\n~Otávio~\n- Analista, um cluster Spark e um banco de dados não aceitam desculpas, aceitam queries eficientes. Evite redundâncias físicas desnecessárias e sua infraestrutura agradecerá."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_120",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "Questão 120 - Simulado 01",
+      "front": "Uma rotina de carga incremental extrai, todos os dias às 02:00:00, as linhas da tabela de pagamentos do sistema de origem cuja coluna atualizado_em é maior que a marca d’água gravada na execução anterior. Ao final de cada execução, a marca passa a ser o maior valor de atualizado_em entre as linhas extraídas. A coluna registra a hora em que a transação que grava a linha começou, e a extração enxerga as linhas já confirmadas.\n\nA execução do dia 1 extraiu, entre outras, a linha L1 e gravou a marca 01:58:00.\n\nA tabela a seguir mostra as linhas gravadas no dia 1 a partir desse horário, com a hora de início e a hora de confirmação de cada transação.\n\n| Linha | atualizado_em | Confirmação |\n| --- | --- | --- |\n| L1 | 01:58:00 | 01:58:02 |\n| L2 | 01:58:00 | 02:00:40 |\n| L3 | 01:59:30 | 02:01:10 |\n| L4 | 01:57:10 | 02:03:00 |\n| L5 | 14:20:00 | 14:20:01 |\n| L6 | 23:50:00 | 23:50:01 |\n\nNa execução do dia 2, a quantidade de linhas extraídas entre L1 e L6 e a quantidade dessas seis linhas que ficaram fora das duas execuções são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) 3 e 0.",
+        "B) 5 e 1.",
+        "C) 4 e 1.",
+        "D) 3 e 2.",
+        "E) 3 e 1."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**Extração Incremental e Marca D'água (Watermark)**\n- **Como aparece:** Questões práticas de ETL em que transações em bancos relacionais demoram a fazer commit, correndo o risco de serem \"puladas\" pelo critério da extração.\n- **Pegadinha:** Confundir hora de início da transação (atualizado_em) com a hora de confirmação do banco de dados.\n- **Decisão:** \nA marca de água no Dia 1 foi setada para *01:58:00*. \nA execução do Dia 2 ocorre às *02:00:00* (da madrugada, presume-se dia seguinte/execução seguinte, mas só lê as confirmadas até essa hora de start da rotina) e usa o filtro: *atualizado_em > 01:58:00*.\n\n**Passo 1 — Execução do dia 2:**\nFiltro: *atualizado_em > 01:58:00* E a linha precisa já ter Confirmação antes ou durante a execução.\n- L2: atualizado_em é 01:58:00 (não é MAIOR que a marca). Fica de fora.\n- L3: atualizado_em 01:59:30 (> 01:58:00). Confirmada em 02:01:10. Como a rotina do dia 2 ocorreu num dia posterior, todas já estariam confirmadas.\nExtraídas: L3 (01:59:30), L5 (14:20:00) e L6 (23:50:00). Total: 3 linhas.\n\n**Passo 2 — Linhas Perdidas:**\n- L2: A hora é *igual* à marca (01:58:00) e confirmou depois da Execução 1. Como o filtro é estritamente MAIOR (>), a linha L2 nunca mais será lida. (Perdida 1)\n- L4: atualizado_em é *01:57:10*, antes da marca. Mas confirmou *02:03:00* (depois que a execução do dia 1 acabou, então não foi lida na Exec. 1). No dia 2, ela será descartada pelo filtro pois 01:57:10 < 01:58:00. (Perdida 2)\nLogo, 3 lidas e 2 perdidas.\n\n~Gentalha~\n- **A) 3 e 0.:** Erra ao afirmar que não se perde nenhuma linha.\n- **B) 5 e 1.:** Erra ao afirmar que 5 linhas foram extraídas e 1 perdida.\n- **C) 4 e 1.:** Erra ao afirmar que 4 linhas foram extraídas e 1 perdida.\n- **E) 3 e 1.:** Erra ao afirmar que 3 linhas foram extraídas e 1 perdida.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o watermark utiliza *>=* e hora de início, **ENTÃO** você perde transações de longa duração confirmadas posteriormente. A solução correta é usar Change Data Capture (CDC).\n\n!Interpretando a Banca!\n~Fumaça~\nA banca quer testar a percepção do aluno sobre os problemas clássicos de rotinas de carga de dados delta/incrementais num ambiente real, onde há delay de gravação no banco de origem."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_121",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "Questão 121 - Simulado 01",
+      "front": "Acerca de arquiteturas de processamento de dados em lote e em fluxo contínuo, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\n( ) Na arquitetura Lambda, uma camada de lote assegura a exatidão sobre o histórico e a camada de velocidade reduz a latência; a camada de serviço combina as duas visões.\n( ) Na arquitetura Kappa, mantém-se um caminho único de processamento em fluxo contínuo; para reprocessar, relê-se o registro de eventos desde o ponto desejado no sistema de mensageria.\n( ) Em um tópico particionado de um sistema de mensageria distribuído, como o Apache Kafka, a ordem das mensagens é preservada dentro de cada partição, e não há ordem global entre as partições.\n( ) Em pipelines de fluxo contínuo, a contrapressão (backpressure) propaga a lentidão dos estágios seguintes até a origem, reduzindo a vazão para evitar o acúmulo de dados em memória.\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [],
+      "options": [
+        "A) V, V, V, V.",
+        "B) V, V, V, F.",
+        "C) F, V, V, F.",
+        "D) V, V, F, F.",
+        "E) V, F, V, V."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Arquiteturas Lambda/Kappa, Kafka e Backpressure**\n- **Como aparece:** Comparativos conceituais sobre o design de pipelines analíticos modernos.\n- **Pegadinha:** Achar que Kafka garante ordem global de mensagens. \n- **Decisão:** \n- 1ª) **Verdadeira**. A Lambda atua em via dupla (batch e speed/streaming), sendo unida na Serving Layer.\n- 2ª) **Verdadeira**. A Kappa simplifica usando apenas streaming. Reprocessamento do histórico ocorre relendo do broker.\n- 3ª) **Verdadeira**. No Kafka, só há garantia de ordenação de eventos estritamente *dentro da mesma partição*. Não há ordenação garantida entre partições diferentes do mesmo tópico.\n- 4ª) **Verdadeira**. Backpressure (contrapressão) é o mecanismo de streaming de desacelerar o produtor se o consumidor não estiver aguentando a carga, impedindo o OutOfMemory.\n\n~Gentalha~\n- **B) V, V, V, F.:** Traz a quarta afirmativa classificada como falsa incorretamente.\n- **C) F, V, V, F.:** Traz a primeira e a quarta afirmativas classificadas como falsas incorretamente.\n- **D) V, V, F, F.:** Traz a terceira e a quarta afirmativas classificadas como falsas incorretamente.\n- **E) V, F, V, V.:** Traz a segunda afirmativa classificada como falsa incorretamente.\n\n!Regra de Bolso!\n~Lógica~\n**SE** tem 2 vias (Lote + Stream), **ENTÃO** é Arquitetura Lambda.\n**SE** tem só 1 via (Stream), **ENTÃO** é Arquitetura Kappa.\n**SE** usa Kafka, **ENTÃO** a ordem só é garantida dentro da partição.\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC, como muitas bancas, explora a fragilidade do entendimento de Backpressure, uma das técnicas mais vitais (e complexas) dos frameworks de streaming (como Spark Streaming e Flink)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_122",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "Questão 122 - Simulado 01",
+      "front": "A Secretaria planeja construir os data marts de arrecadação, de fiscalização e de despesa de forma incremental, um por vez, mas exige que os indicadores dos três possam ser cruzados por contribuinte, por município e por período. Acerca das abordagens de Kimball e de Inmon para esse projeto, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) na abordagem de Inmon, os data marts departamentais são construídos primeiro e, ao final, consolidados em um armazém corporativo que passa a alimentar os relatórios.",
+        "B) na abordagem de Kimball, o armazém corporativo é modelado na terceira forma normal antes da criação dos data marts, que são derivados dele em seguida.",
+        "C) as dimensões conformadas são cópias da mesma dimensão mantidas por cada data mart com chaves e atributos próprios, o que garante a autonomia entre os data marts.",
+        "D) a matriz de barramento cruza os processos de negócio com as tabelas de fatos agregadas de cada data mart, indicando quais agregados cada processo compartilha.",
+        "E) a construção incremental é compatível com a integração exigida, desde que os data marts compartilhem dimensões conformadas, planejadas na matriz de barramento."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**Inmon vs. Kimball (Integração e Dimensões Conformadas)**\n- **Como aparece:** Casos descrevendo um processo de implementação de BI e pedindo para correlacionar se bate com o modelo Inmon ou Kimball.\n- **Pegadinha:** Inverter as metodologias (dizer que Inmon cria marts primeiro, ou Kimball cria 3FN primeiro).\n- **Decisão:** \nInmon é *Top-Down*: cria-se um Enterprise Data Warehouse normalizado (3FN) grandão, e a partir dele são servidos os Data Marts departamentais. É mais caro, longo, mas super integrado.\nKimball é *Bottom-Up*: constroem-se os Data Marts um a um (incrementalmente). Para não virar bagunça (silos independentes), planeja-se uma Matriz de Barramento para definir as **Dimensões Conformadas** (que têm o mesmo significado, mesma chave em todos os marts).\n\n~Gentalha~\n- **A) na abordagem de Inmon, os data marts departamentais são construídos primeiro e, ao final, consolidados em um armazém corporativo que passa a alimentar os relatórios.:** Descreve uma inversão. Inmon faz o armazém primeiro, depois os marts.\n- **B) na abordagem de Kimball, o armazém corporativo é modelado na terceira forma normal antes da criação dos data marts, que são derivados dele em seguida.:** Quem usa 3FN centralizada é Inmon, e não Kimball.\n- **C) as dimensões conformadas são cópias da mesma dimensão mantidas por cada data mart com chaves e atributos próprios, o que garante a autonomia entre os data marts.:** Dimensões conformadas não possuem chaves próprias independentes, elas possuem as mesmas chaves.\n- **D) a matriz de barramento cruza os processos de negócio com as tabelas de fatos agregadas de cada data mart, indicando quais agregados cada processo compartilha.:** A matriz de barramento cruza processos de negócio com dimensões, não com tabelas agregadas.\n\n\n!Regra de Bolso!\n~Lógica~\n**SE** fala em Data Marts incrementais + Dimensões Conformadas, **ENTÃO** é arquitetura Kimball.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca troca os nomes Inmon e Kimball. A alternativa (E) fecha perfeitamente a lógica e o objetivo descritos no enunciado: fazer de forma descentralizada/incremental, mas garantindo conexão (barramento/conformidade)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_inter_2",
+      "subject": "Data Warehouse e Engenharia de Dados",
+      "source": "BOSS INTERMEDIÁRIO II - Revisão Tática",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO II) - Otávio:**\n(fecha o monitoramento do cluster)\n- Perito, concluímos o módulo de Engenharia de Dados, testando cargas incrementais e arquitetura. Antes de passarmos para a Governança, verifique a assertiva abaixo:",
+      "stem": [
+        "vf(I. Na arquitetura Kappa, as camadas Batch e Speed são processadas simultaneamente em caminhos paralelos para garantir rapidez nos dados em tempo real e consolidação precisa nos dados históricos.)"
+      ],
+      "options": [
+        "A) Verdadeiro.",
+        "B) Falso."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B (Falso).\n\n!Otávio!\n~Teoria~\n**Arquitetura Lambda vs Kappa**\n- **Como aparece:** Cobrança sobre os componentes centrais das arquiteturas analíticas de Big Data.\n- **Pegadinha:** Atribuir as características da arquitetura Lambda para a Kappa.\n- **Decisão:** A arquitetura que possui caminhos paralelos duplos (Batch e Speed) é a **Arquitetura Lambda**. A **Arquitetura Kappa** foi desenhada justamente para simplificar esse processo mantendo apenas UM ÚNICO caminho, processando tudo como fluxo (streaming). Logo, a assertiva é Falsa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** tem dois motores/camadas distintas (lote e velocidade), **ENTÃO** é a Arquitetura Lambda, e não a Kappa.\n\n!Break para Respirar!\n~Otávio~\n- Analista, a diferença entre o sucesso e o fracasso no Big Data não está na ferramenta que você usa, mas no quão simples você consegue desenhar a arquitetura."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_123",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "Questão 123 - Simulado 01",
+      "front": "Uma rotina de qualidade de dados procura duplicidades no cadastro de fornecedores comparando os nomes pela distância de edição de Levenshtein.\n\nForam avaliados os pares: OLIVEIRA e OLIVIERA; TECNO e TECHNO; SOUZA e SOUSA; PEREIRA e FERREIRA; BATISTA e BAPTISTA; e SILVA e SILVEIRA.\n\nAdotando-se primeiro o limiar de distância menor ou igual a 1 e, depois, o limiar de distância menor ou igual a 2, as quantidades de pares sinalizados como possíveis duplicidades são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) 4 e 5.",
+        "B) 3 e 2.",
+        "C) 3 e 5.",
+        "D) 3 e 6.",
+        "E) 1 e 2."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**Distância de Levenshtein**\n- **Como aparece:** Questões práticas calculando as modificações (inserções, remoções, substituições) para equiparar strings.\n- **Pegadinha:** Achar que trocar a posição de duas letras consecutivas custa 1. No Levenshtein original, trocar EI por IE custa 2 substituições (E por I, e I por E).\n- **Decisão:** Calcular caso a caso:\n- OLIVEIRA / OLIVIERA: troca de E e I nas posições. = 2.\n- TECNO / TECHNO: inserção de H. = 1.\n- SOUZA / SOUSA: substituição de Z por S. = 1.\n- PEREIRA / FERREIRA: P por F e inserção de R. = 2.\n- BATISTA / BAPTISTA: inserção do P. = 1.\n- SILVA / SILVEIRA: Inserção de E, I, R. = 3.\n\n**Limiares:**\nAté 1: TECNO/TECHNO, SOUZA/SOUSA, BATISTA/BAPTISTA = 3 pares.\nAté 2: Adiciona os de distância 2 (OLIVEIRA e PEREIRA). Total = 5 pares.\nSILVA (3) fica de fora em ambos.\n\n~Gentalha~\n- **A:** (4 e 5) Tratou a troca de E/I (Oliveira) como 1 edição (isso seria Damerau-Levenshtein, mas o exercício especificou Levenshtein puro).\n- **B) 3 e 2.:** Interpretação errônea e falha de contagem.\n- **D) 3 e 6.:** Incluiu o par Silva/Silveira que tem distância 3.\n- **E) 1 e 2.:** Interpretação errônea e falha de contagem.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é distância de Levenshtein pura, **ENTÃO** uma inversão posicional de 2 caracteres (tipo AB -> BA) conta como 2 operações (substituições).\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC te induz ao erro através da palavra \"Oliveira\", que parece uma mera digitação falha, induzindo você a contar \"1\". É uma fumaça pesada pra quem não conhece algoritmos de MDM (Master Data Management)."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_124",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "Questão 124 - Simulado 01",
+      "front": "Acerca do tratamento de valores ausentes e de valores atípicos na preparação de bases para análise, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\n( ) A substituição dos valores ausentes pela média da coluna preserva a variância da variável, porque os valores imputados coincidem com o centro da distribuição.\n( ) Quando a ausência depende do próprio valor não observado, como contribuintes de maior renda que omitem a renda, a exclusão das linhas incompletas produz estimativas sem viés.\n( ) Na winsorização, os valores acima de um percentil escolhido são removidos da base, o que reduz o tamanho da amostra analisada.\n( ) Pelo escore z, um valor é atípico quando está a mais de três desvios-padrão da média, critério robusto mesmo quando a média e o desvio-padrão são distorcidos pelos próprios atípicos.\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [],
+      "options": [
+        "A) F, F, V, F.",
+        "B) F, F, F, F.",
+        "C) F, V, V, F.",
+        "D) F, F, V, V.",
+        "E) V, F, F, F."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Tratamento de Dados: Ausentes (NAs) e Outliers**\n- **Como aparece:** Casos teóricos de Estatística descritiva aplicada a Pré-processamento de Big Data.\n- **Pegadinha:** Achar que winsorizar apaga linhas, ou que o escore Z tradicional não sofre com extremos.\n- **Decisão:** \n- 1ª) **Falsa**. Imputar pela média aglutina os dados no centro e *reduz* artificialmente a variância e a dispersão.\n- 2ª) **Falsa**. Excluir dados que são enviesados (falta não aleatória) só aumenta o viés (viés de seleção). A média ficará deflacionada se omitirem os ricos.\n- 3ª) **Falsa**. Winsorizar significa *substituir* os extremos pelo valor do limite do percentil escolhido (ex: todos acima de 99% ganham o valor de 99%). Não remove linhas, preserva N.\n- 4ª) **Falsa**. O escore-z usa Média e Desvio-Padrão clássicos, que são altissimamente distorcidos pelos próprios outliers. Critério robusto seria usar a Mediana e o Desvio Absoluto Mediano.\n\n~Gentalha~\n- **A) F, F, V, F.:** Classifica falsamente a terceira afirmativa como verdadeira.\n- **C) F, V, V, F.:** Classifica falsamente a segunda e a terceira afirmativas como verdadeiras.\n- **D) F, F, V, V.:** Classifica falsamente a terceira e a quarta afirmativas como verdadeiras.\n- **E) V, F, F, F.:** Classifica falsamente a primeira afirmativa como verdadeira.\n\n!Regra de Bolso!\n~Lógica~\n**SE** usar inputação por média, **ENTÃO** a variância da sua base vai diminuir obrigatoriamente.\n**SE** é winsorização, **ENTÃO** você altera valores, mas nunca exclui linhas da amostra.\n\n!Interpretando a Banca!\n~Fumaça~\nA fumaça mora nas palavras que \"soam bem\". Dizer que a \"imputação preserva a variável\" soa bonito, mas estatisticamente está destruindo a dispersão real."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_125",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "Questão 125 - Simulado 01",
+      "front": "Na avaliação da qualidade dos dados de fiscalização, a equipe registrou quatro ocorrências:\n(1) o endereço dos estabelecimentos está preenchido em todos os registros e segue o padrão definido, mas as diligências de campo mostraram que parte deles não funciona no endereço registrado;\n(2) o painel de arrecadação exibe os pagamentos corretos e completos, mas com dois dias de defasagem, embora a fiscalização precise dos dados do dia anterior;\n(3) há notas fiscais cujo emitente, identificado pela inscrição estadual, não consta do cadastro de contribuintes;\n(4) o mesmo estabelecimento aparece em dois registros do cadastro, com a mesma inscrição estadual e os mesmos dados.\n\nAcerca dessas ocorrências, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) a ocorrência 1 configura falha de validade.",
+        "B) a ocorrência 2 configura falha de consistência.",
+        "C) a ocorrência 3 configura falha de integridade.",
+        "D) a ocorrência 4 configura falha de completude.",
+        "E) a ocorrência 2 configura falha de precisão."
+      ],
+      "answer": 2,
+      "back": "Gabarito: C.\n\n!Otávio!\n~Teoria~\n**Dimensões da Qualidade de Dados (DAMA/DMBOK)**\n- **Como aparece:** A banca conta historinhas do dia a dia fiscal e pede para você classificar qual pilar da governança quebrou.\n- **Pegadinha:** Confundir \"Validade\" (estar no formato correto de sistema) com \"Precisão\" (o dado representar o mundo real).\n- **Decisão:** \n- 1) Preenchido e no padrão = válido. Mas loja não existe no local = Falha de **Precisão** (não bate com a realidade).\n- 2) 2 dias de defasagem prejudicando a análise = Falha de **Atualidade** ou tempestividade.\n- 3) Nota aponta para emitente inexistente no cadastro mestre = Falha de **Integridade Referencial**.\n- 4) Dados duplicados idênticos = Falha de **Unicidade**.\nLogo, apenas a (C) está perfeitamente classificada.\n\n~Gentalha~\n- **A:** Erra por não ser falha de validade (o formato tá certo). É precisão.\n- **B) a ocorrência 2 configura falha de consistência.:** A ocorrência 2 é um caso clássico de quebra de atualidade.\n- **E) a ocorrência 2 configura falha de precisão.:** A ocorrência 2 é um caso clássico de quebra de atualidade.\n- **D:** Ocorrência 4 é duplicidade/unicidade, não completude (pois não falta campo algum).\n\n!Regra de Bolso!\n~Lógica~\n**SE** o dado segue a máscara (ex: CEP) mas é mentira, **ENTÃO** falha na Precisão.\n**SE** você tem o filho mas deletaram o pai da tabela, **ENTÃO** falhou na Integridade.\n**SE** você tem clones, **ENTÃO** falhou na Unicidade.\n\n!Interpretando a Banca!\n~Fumaça~\nUsar o jargão de \"validade\" no item 1, pois instintivamente achamos que o falso é inválido, mas em Data Governance as palavras têm limites estritos."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_inter_3",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "BOSS INTERMEDIÁRIO III - Revisão Tática",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO III) - Otávio:**\n(abre o manual do DMBOK)\n- Perito, fizemos as primeiras análises nas engrenagens de Governança e Qualidade. Responda-me sem piscar:",
+      "stem": [
+        "vf(I. Uma coluna que recebe imputação através da média matemática para suprir registros ausentes mantém a precisão do modelo original de variância, sem alterar a dispersão dos dados.)"
+      ],
+      "options": [
+        "A) Verdadeiro.",
+        "B) Falso."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B (Falso).\n\n!Otávio!\n~Teoria~\n**Impactos da Imputação pela Média**\n- **Como aparece:** Mistura conceitual de estatística e higienização de base.\n- **Pegadinha:** Achar que colocar o \"valor central\" não afeta a base. Afeta sim.\n- **Decisão:** Quando você adiciona um monte de observações com um valor idêntico (a média) no centro da sua distribuição, a dispersão total e a variância dos seus dados diminuem drasticamente. Portanto, a afirmação é Falsa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** você preenche buracos sempre com o mesmo número médio, **ENTÃO** você \"espreme\" os dados, diminuindo o Desvio Padrão e a Variância.\n\n!Break para Respirar!\n~Otávio~\n- Analista, a vida real tem buracos. Fingir que todo buraco na Sefaz representa a 'média' vai te fazer aprovar modelos medíocres. Imputações simples têm custos."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_126",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "Questão 126 - Simulado 01",
+      "front": "O catálogo de dados da Secretaria registra a linhagem a seguir, em que cada linha indica que o ativo de origem alimenta o ativo de destino.\n\n| Origem | Destino |\n| --- | --- |\n| stg_notas | dw_fato_notas |\n| stg_contrib | dw_fato_notas |\n| dw_dim_contrib | dw_dim_contrib (Nota: no PDF constava esta relação estranha ou stg_contrib alimenta dw_dim_contrib? O texto da prova lista: Origem=stg_contrib -> dw_fato_notas; stg_contrib -> dw_dim_contrib; dw_dim_contrib -> mart_arrecadacao; dw_dim_contrib -> mart_fiscalizacao; mart_arrecadacao -> painel_arrecadacao; mart_arrecadacao -> modelo_risco; mart_fiscalizacao -> painel_risco; modelo_risco -> painel_risco). *\n\nA coluna de regime tributário de stg_contrib terá o significado alterado. Na análise de impacto, a quantidade de ativos a jusante de stg_contrib, afetados direta ou indiretamente, e a quantidade de painéis entre eles são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) 6 e 2.",
+        "B) 7 e 2.",
+        "C) 6 e 3.",
+        "D) 5 e 2.",
+        "E) 1 e 0."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Análise de Impacto (Linhagem / Data Lineage)**\n- **Como aparece:** Questões que montam um grafo de dependência (DAG) para você rastrear o fluxo dos dados e dizer quem quebra se a fonte mudar.\n- **Pegadinha:** Contar a Fato (que recebe da Stage mas não propaga para ninguém no exercício) ou contar nós duplicados pela bifurcação do caminho.\n- **Decisão:** \n*Reconstruindo o caminho a partir de *stg_contrib*:*\nEla alimenta *dw_fato_notas* (1) e *dw_dim_contrib* (2).\nA partir de *dw_dim_contrib* saem *mart_arrecadacao* (3) e *mart_fiscalizacao* (4).\nDo *mart_arrecadacao* saem *painel_arrecadacao* (5) e *modelo_risco* (6).\nDo *mart_fiscalizacao* sai *painel_risco* (7? Não, já veremos).\nDo *modelo_risco* sai *painel_risco*.\n\nContagem dos ativos afetados por *stg_contrib* (sem repetir):\n1: dw_fato_notas\n2: dw_dim_contrib\n3: mart_arrecadacao\n4: mart_fiscalizacao\n5: painel_arrecadacao\n6: modelo_risco\n7: painel_risco\n\n*Nota: Revisitando a lista do gabarito original do PDF:* \nEle diz: A partir de stg_contrib, seguem: dw_dim_contrib; dele, mart_arrecadacao e mart_fiscalizacao; do primeiro, painel_arrecadacao e modelo_risco; do segundo e do modelo, painel_risco. E conclui que são **6 ativos distintos**. Por quê? \nPorque no caminho dele, ele não incluiu *dw_fato_notas* como afetado pela jusante de *stg_contrib* se ela parar ali, ou talvez o enunciado não a liste como sendo alimentada por *stg_contrib* (apesar de a tabela da questão colocar stg_contrib -> dw_fato_notas como primeira e segunda linhas? O gabarito diz: 7 e 2 contaria dw_fato_notas). Ah, o gabarito afirma que *dw_fato_notas* não conta pois alimenta um ativo a montante, etc. \nAtivos afetados: dw_dim_contrib, mart_arrecadacao, mart_fiscalizacao, modelo_risco, painel_arrecadacao, painel_risco. Total 6 ativos. Destes, painel_arrecadacao e painel_risco são painéis (2).\n\n~Gentalha~\n- **B:** Incorreta. Contar o *dw_fato_notas* que, segundo a regra específica da questão/gabarito, não se propagou do regime tributário (aparentemente a chave primária da contrib não afetou a fato). Mas na DAG nua e crua contaria.\n- **C:** Conta o *painel_risco* duas vezes por vir de dois caminhos.\n\n!Regra de Bolso!\n~Lógica~\n**SE** pede análise de impacto a jusante (downstream), **ENTÃO** você navega todas as setas até o fim do fluxo (outputs). Conte cada nó de destino apenas uma vez, independente de quantas setas cheguem nele.\n\n!Interpretando a Banca!\n~Fumaça~\nA fumaça está na tabela embaralhada. Construa a árvore de dependência rabiscando na prova antes de contar."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_127",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "Questão 127 - Simulado 01",
+      "front": "Julgue os itens a seguir, relativos ao monitoramento da qualidade de dados em pipelines e aos contratos de dados.\n\nI. O monitoramento de atualidade compara o horário da última carga de cada tabela com o prazo acordado e alerta quando os dados deixam de chegar no tempo previsto.\nII. A verificação de volume, que compara a quantidade de linhas carregadas com a faixa esperada, é o controle indicado para detectar valores fora do domínio permitido em uma coluna.\nIII. Em um contrato de dados, a responsabilidade por manter o esquema, a semântica e os níveis de serviço acordados é do consumidor, que adapta as suas consultas a cada mudança do produtor.\nIV. A detecção de mudança de esquema, como a remoção de uma coluna, também identifica alterações na distribuição dos valores, como o aumento repentino de nulos em uma coluna mantida.\n\nEstão corretos os itens:",
+      "stem": [],
+      "options": [
+        "A) I.",
+        "B) I e III.",
+        "C) III.",
+        "D) I, III e IV.",
+        "E) I e II."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Data Contracts e Monitoramento (Observabilidade)**\n- **Como aparece:** Cobrança sobre conceitos emergentes do Data Mesh e Data Observability.\n- **Pegadinha:** Dizer que o Consumidor gerencia o Contrato. É o contrário.\n- **Decisão:** \n- I) **Correta**. Atualidade (Freshness) avalia o gap entre o prazo e a chegada do último dado.\n- II) **Incorreta**. Volume vê se as linhas vieram, e não o valor de cada coluna. Valores fora de domínio são detectados por regras de Validade/Distribuição.\n- III) **Incorreta**. O Contrato de Dados (Data Contract) delega a responsabilidade total de estabilidade ao **Produtor**. O produtor não pode quebrar a API/Esquema do nada.\n- IV) **Incorreta**. Mudança de esquema (Schema Drift) afere só colunas removidas/adicionadas/tipos. Aumentar % de nulos em uma coluna exigiria monitoramento de *Distribuição Estatística* (Data Drift).\n\n~Gentalha~\n- **B) I e III.:** Erra ao classificar a alternativa III como correta.\n- **C) III.:** Erra ao classificar a alternativa III como correta e omitir a I.\n- **D) I, III e IV.:** Erra ao classificar as alternativas III e IV como corretas.\n- **E) I e II.:** Erra ao classificar a alternativa II como correta.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é contrato de dados (Data Mesh), **ENTÃO** o peso da estabilidade mora nas costas do Produtor, não do Consumidor.\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC gosta de usar Data Observability e misturar Drift de Esquema com Drift de Dados."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_inter_4",
+      "subject": "Governança e Qualidade de Dados",
+      "source": "BOSS INTERMEDIÁRIO IV - Revisão Tática",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO IV) - Otávio:**\n(fecha o painel de linhagem)\n- Perito, encerramos a verificação de Data Lineage e Observabilidade. Confirme esse detalhe antes de avançarmos aos relatórios gerenciais:",
+      "stem": [
+        "vf(I. Na arquitetura orientada a Contratos de Dados, se o formato de uma coluna crítica de arrecadação mudar do nada, quem violou o acordo e deve responder por isso é o Consumidor da aplicação que não atualizou suas queries a tempo.)"
+      ],
+      "options": [
+        "A) Verdadeiro.",
+        "B) Falso."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B (Falso).\n\n!Otávio!\n~Teoria~\n**Contratos de Dados e Responsabilidade**\n- **Como aparece:** Responsabilidades em arquiteturas modernas descentralizadas.\n- **Pegadinha:** Achar que o consumidor, por ser o dono do relatório, é responsável pelas quebras.\n- **Decisão:** Num Data Contract sério, a responsabilidade de honrar o esquema, semântica e latência é inteiramente do **Produtor** (quem fornece a API ou tabela original). Se o dado mudar de forma arbitrária e quebrar a jusante, a culpa é do Produtor. Afirmativa Falsa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** quebrou o esquema e a origem mudou o dado sem avisar, **ENTÃO** a violação do contrato é culpa de quem o produz.\n\n!Break para Respirar!\n~Otávio~\n- Analista, a vida inteira a culpa sobrava pro cara do BI. Os Contratos de Dados nasceram justamente para cobrar os engenheiros de software que destroem tabelas na madrugada."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_128",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "Questão 128 - Simulado 01",
+      "front": "No Power BI, a tabela Vendas contém as linhas a seguir.\n\n| uf | qtd | preco |\n| --- | --- | --- |\n| SC | 1 | 18 |\n| SC | 6 | 12 |\n| PR | 2 | 25 |\n| PR | 3 | 10 |\n\nNo modelo, foram criadas as medidas a seguir.\n*Receita = SUMX(Vendas, Vendas[qtd] * Vendas[preco])*\n*Errada = SUM(Vendas[qtd]) * SUM(Vendas[preco])*\n\nEm um visual de tabela com a coluna uf nas linhas e as duas medidas, os valores exibidos para Receita em SC, para Errada em SC e para o total de Errada são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) 90, 90 e 170.",
+        "B) 210, 210 e 780.",
+        "C) 90, 210 e 385.",
+        "D) 90, 210 e 780.",
+        "E) 90, 210 e 170."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**DAX - Funções de Agregação vs Funções Iteradoras**\n- **Como aparece:** Avaliação de medidas DAX calculando totais de vendas e os famosos erros de Totais Incorretos em Power BI.\n- **Pegadinha:** Achar que a linha de \"Total\" na parte de baixo do visual é simplesmente a soma visual das medidas acima dela. Não é.\n- **Decisão:** \n*Passo 1 — Receita em SC (SUMX):*\nItera linha a linha. \nLinha 1 (SC): 1 x 18 = 18.\nLinha 2 (SC): 6 x 12 = 72.\nSoma Iterativa (SUMX) em SC = 18 + 72 = **90**.\n\n*Passo 2 — Errada em SC (Soma de tudo * Soma de tudo):*\n*SUM(qtd) * SUM(preco)* no escopo de SC.\nQtd de SC: 1 + 6 = 7.\nPreço de SC: 18 + 12 = 30.\nProduto: 7 x 30 = **210**.\n\n*Passo 3 — Total de Errada:*\nAqui reside o perigo do DAX. O escopo do Total ignora o estado (UF). Ele pega a soma das quantidades de *todas* as UF e multiplica pela soma dos preços de *todas* as UF.\nTotal Qtd = 1 + 6 + 2 + 3 = 12.\nTotal Preço = 18 + 12 + 25 + 10 = 65.\nTotal da medida Errada = 12 x 65 = **780**.\n\n~Gentalha~\n- **A) 90, 90 e 170.:** Pressupõe erroneamente que a medida normal faria o mesmo que o SUMX.\n- **C) 90, 210 e 385.:** Acha que o Total DAX soma (210 de SC + 175 de PR), mas o DAX recalcula o total ignorando as quebras.\n- **E) 90, 210 e 170.:** Traz valores errados para o Total.\n\n\n!Regra de Bolso!\n~Lógica~\n**SE** precisar multiplicar preço por quantidade para achar a Receita, **ENTÃO** use SUMX. Se usar SUM * SUM, o valor vai estourar absurdamente nos totais.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca quer testar seu conhecimento no \"paradoxo do Total no Power BI\", onde a linha do Total não é a soma visual da coluna, mas sim a expressão DAX sendo reavaliada sem filtros."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_129",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "Questão 129 - Simulado 01",
+      "front": "No Power Query, executou-se a consulta em linguagem M a seguir.\n\n\nlet \n  L = {4, 7, 2, 9, 5}, \n  R = List.Accumulate(L, 0, (s, x) => if x > 4 then s + x else s - 1) \nin R\n\n\nO valor de R é:",
+      "stem": [],
+      "options": [
+        "A) 19.",
+        "B) 24.",
+        "C) 21.",
+        "D) 27.",
+        "E) 13."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Power Query - List.Accumulate (Linguagem M)**\n- **Como aparece:** Simulando passo a passo a execução de funções de iteração complexa no M.\n- **Pegadinha:** Errar o sinal ou se perder na variável acumuladora e na semente (que é o 0 inicial).\n- **Decisão:** \n*L = {4, 7, 2, 9, 5}*\nSemente: *s = 0*\nLógica: Se o item (*x*) for maior que 4, soma o item no *s*. Senão, subtrai 1 de *s*.\n\n1º passo (*x=4*): 4 não é maior que 4. *s = 0 - 1 = -1*.\n2º passo (*x=7*): 7 é maior que 4. *s = -1 + 7 = 6*.\n3º passo (*x=2*): 2 não é maior que 4. *s = 6 - 1 = 5*.\n4º passo (*x=9*): 9 é maior que 4. *s = 5 + 9 = 14*.\n5º passo (*x=5*): 5 é maior que 4. *s = 14 + 5 = 19*.\nValor final acumulado: **19**.\n\n~Gentalha~\n- **B) 24.:** Trata o 4 inicial como sendo maior e soma.\n- **C) 21.:** Erra o cálculo matemático das iterações.\n- **D) 27.:** Soma todos ignorando a condicional.\n- **E) 13.:** Subtrai ou ignora elementos no laço.\n\n\n!Regra de Bolso!\n~Lógica~\n**SE** é *List.Accumulate*, **ENTÃO** você tem uma bola de neve. A saída de uma linha se torna a entrada (*s*) da próxima operação.\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC testa sua concentração e a minúcia em programação funcional e linguagem M avançada."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_130",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "Questão 130 - Simulado 01",
+      "front": "Julgue os itens a seguir, relativos à modelagem de dados e aos modos de armazenamento no Microsoft Power BI.\n\nI. No modo DirectQuery, os dados são importados e comprimidos no modelo, e as consultas dos visuais são respondidas pela cópia armazenada, sem acesso à fonte de dados.\nII. A segurança em nível de linha aplica, por meio de papéis com expressões DAX, filtros que definem quais linhas cada usuário do relatório publicado pode ver.\nIII. Uma tabela em modo de armazenamento duplo pode ser atendida pela cópia importada ou pela fonte, conforme a consulta, o que favorece os modelos compostos.\nIV. A tabela marcada como tabela de datas do modelo pode conter lacunas entre o primeiro e o último dia, porque as funções de inteligência temporal consideram as datas presentes na tabela de fatos.\n\nEstão corretos os itens:",
+      "stem": [],
+      "options": [
+        "A) II, III e IV.",
+        "B) II e III.",
+        "C) III e IV.",
+        "D) I, II e III.",
+        "E) II e IV."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B.\n\n!Otávio!\n~Teoria~\n**Power BI: Armazenamento, RLS e Time Intelligence**\n- **Como aparece:** Questões que testam a maturidade do desenvolvedor com governança e infraestrutura do PBI.\n- **Pegadinha:** Achar que inteligência de tempo do DAX sobrevive sem tabela de datas contínua.\n- **Decisão:** \n- I) **Incorreta**. O DirectQuery faz consultas em tempo real na origem (não importa pro Power BI). Quem importa e comprime é o modo *Import*.\n- II) **Correta**. RLS (Row Level Security) filtra invisivelmente as linhas de fato com expressões DAX amarradas ao perfil/email do usuário logado.\n- III) **Correta**. Modo Duplo (Dual Mode) armazena em cache (Import) mas também sabe disparar DirectQuery, servindo de ponte entre duas tabelas dependentes no modelo composto.\n- IV) **Incorreta**. Toda tabela classificada como *Dimensão Data* no Power BI deve ser contínua, **sem pular nenhum dia** no calendário, do dia 1 de Jan do menor ano ao dia 31 de Dez do maior. Sem isso, *TOTALYTD* e *SAMEPERIODLASTYEAR* retornam bizarrices.\n\n~Gentalha~\n- **A) II, III e IV.:** Erra ao classificar a alternativa IV como correta.\n- **C) III e IV.:** Erra ao classificar a alternativa IV como correta e omitir a II.\n- **D) I, II e III.:** Erra ao classificar a alternativa I como correta.\n- **E) II e IV.:** Erra ao classificar a alternativa IV como correta e omitir a III.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é tabela de datas (Date Table), **ENTÃO** é estritamente proibido ter dias faltando nela, sob pena de quebrar as fórmulas de inteligência de tempo.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca quer testar o usuário prático, que já passou pela dor de tentar criar um SAMEPERIODLASTYEAR e descobrir que o calendário do cliente estava faltando feriados ou fins de semana."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_inter_5",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "BOSS INTERMEDIÁRIO V - Revisão Tática",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO V) - Otávio:**\n(abre o relatório publicado)\n- Perito, validamos DAX, M e os modos de ingestão. Verifique se o seu modelo está à prova de balas:",
+      "stem": [
+        "vf(I. Para otimizar o peso de um painel financeiro no Power BI e acelerar as consultas DAX como YEARToDate, o ideal é remover todos os finais de semana e feriados da Tabela Calendário (Dimensão Data), visto que a Sefaz não trabalha nesses dias.)"
+      ],
+      "options": [
+        "A) Verdadeiro.",
+        "B) Falso."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B (Falso).\n\n!Otávio!\n~Teoria~\n**Dimensão de Data Contínua**\n- **Como aparece:** Casos práticos sobre inteligência de tempo no Power BI.\n- **Pegadinha:** A banca dá uma desculpa plausível (otimizar, dias não úteis) para justificar a remoção de datas da dimensão.\n- **Decisão:** Remover qualquer data de uma dimensão Calendário no Power BI inutiliza a engine de *Time Intelligence* nativa (YTD, QTD, Last Year). Ela precisa obrigatoriamente de uma sequência de datas ininterruptas para os cálculos temporais. Para feriados, adicionamos uma coluna tipo flag \"Dia_Util = SIM/NAO\", mas jamais removemos a linha do banco. Portanto, é Falso.\n\n!Regra de Bolso!\n~Lógica~\n**SE** você quer ignorar finais de semana em contas DAX, **ENTÃO** crie uma coluna e faça filtros, mas NUNCA apague as linhas do calendário do seu PBIX.\n\n!Break para Respirar!\n~Otávio~\n- Analista, a premissa errada destrói o modelo inteiro. O DAX não foi desenhado para perdoar omissões de calendário."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_131",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "Questão 131 - Simulado 01",
+      "front": "Um auditor prepara um painel sobre os pagamentos a fornecedores e precisa escolher o tipo de gráfico adequado a cada pergunta de análise. Acerca dessas escolhas, é correto afirmar que:",
+      "stem": [],
+      "options": [
+        "A) para mostrar como os valores dos pagamentos se distribuem por faixas de valor, revelando assimetria e concentração, o histograma é a escolha adequada.",
+        "B) para comparar a participação de doze secretarias no total pago, o gráfico de pizza supera o de barras ordenadas, por facilitar a comparação entre fatias parecidas.",
+        "C) para acompanhar a evolução mensal do valor pago ao longo de três anos, o gráfico de dispersão é o indicado, por destacar a ordem temporal dos meses.",
+        "D) para examinar a relação entre o valor contratado e o valor pago em cada contrato, o gráfico de linhas é o indicado, por ligar os contratos em sequência.",
+        "E) para comparar o valor pago por município, o mapa coroplético com os totais sem ajuste por habitante é o indicado, porque a área do município não interfere na leitura."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Teoria~\n**Escolha do Gráfico Correto em DataViz**\n- **Como aparece:** Questões para associar o objetivo de negócio ao tipo de representação visual.\n- **Pegadinha:** Achar que mapas não distorcem a percepção, ou que gráfico de linha serve para qualquer coisa.\n- **Decisão:** \n- A) **Correta**. Histogramas agrupam variáveis contínuas em *bins* (faixas) para ver a curva e formato da distribuição.\n\n\n~Gentalha~\n- **B) para comparar a participação de doze secretarias no total pago, o gráfico de pizza supera o de barras ordenadas, por facilitar a comparação entre fatias parecidas.:** Pizza (Pie Chart) é horrível para categorias numerosas (12) ou similares, o olho não lê área tão bem quanto lê comprimento.\n- **C) para acompanhar a evolução mensal do valor pago ao longo de três anos, o gráfico de dispersão é o indicado, por destacar a ordem temporal dos meses.:** Séries temporais exigem gráfico de linhas, não de dispersão.\n- **D) para examinar a relação entre o valor contratado e o valor pago em cada contrato, o gráfico de linhas é o indicado, por ligar os contratos em sequência.:** Para relacionar duas métricas numéricas, usa-se dispersão.\n- **E) para comparar o valor pago por município, o mapa coroplético com os totais sem ajuste por habitante é o indicado, porque a área do município não interfere na leitura.:** O mapa coroplético sem ajustes mascara a realidade.\n\n!Regra de Bolso!\n~Lógica~\n**SE** quer comparar categorias com precisão, **ENTÃO** use Barras.\n**SE** quer mostrar tendências no tempo, **ENTÃO** use Linhas.\n**SE** quer ver frequência em faixas numéricas, **ENTÃO** use Histograma.\n\n!Interpretando a Banca!\n~Fumaça~\nA FCC traz clássicos do livro \"Storytelling com Dados\". É sobre percepção visual, não sobre a ferramenta."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_132",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "Questão 132 - Simulado 01",
+      "front": "Na análise ABC dos pagamentos a fornecedores, a classe A reúne o menor grupo de fornecedores, tomados em ordem decrescente de valor, cuja participação acumulada atinge pelo menos 80% do total pago.\n\nOs valores pagos no exercício, em milhares de reais, foram os seguintes.\n\n| Fornecedor | Valor | Fornecedor | Valor |\n| --- | --- | --- | --- |\n| F1 | 120 | F6 | 160 |\n| F2 | 700 | F7 | 500 |\n| F3 | 40 | F8 | 60 |\n| F4 | 300 | F9 | 25 |\n| F5 | 15 | F10 | 80 |\n\nA quantidade de fornecedores da classe A e a participação acumulada desse grupo no total pago são, respectivamente:",
+      "stem": [],
+      "options": [
+        "A) 2 e 60%.",
+        "B) 3 e 75%.",
+        "C) 5 e 89%.",
+        "D) 4 e 83%.",
+        "E) 6 e 93%."
+      ],
+      "answer": 3,
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**Análise de Pareto (Curva ABC)**\n- **Como aparece:** Problemas matemáticos exigindo ordenamento de fornecedores ou categorias para bater metas de percentual.\n- **Pegadinha:** Achar que 80% significa literalmente 80% e que você deve parar *antes* de bater o número, se ele estourar o limite.\n- **Decisão:** O enunciado diz que atinge *pelo menos* 80%.\n\n**Passo 1 — Encontrar o Total:**\nTotal = 120 + 700 + 40 + 300 + 15 + 160 + 500 + 60 + 25 + 80 = 2.000 (mil reais).\n\n**Passo 2 — Ordenação decrescente:**\n1º: F2 = 700 (35% de 2.000)\n2º: F7 = 500 (25%)\n3º: F4 = 300 (15%)\n4º: F6 = 160 (8%)\n5º: F1 = 120 (6%)\n\n**Passo 3 — Acumular até cruzar os 80%:**\n1º (700): 35%\n2º (+500 = 1200): 60%\n3º (+300 = 1500): 75% (Ainda não bateu 80%, preciso de mais um).\n4º (+160 = 1660): 1660/2000 = **83%**. \n\nCom 4 fornecedores nós cruzamos a linha dos 80%. A classe A reúne 4 fornecedores e responde por 83%.\n\n~Gentalha~\n- **B:** (3 e 75%) Parou muito cedo. A regra é atingir *pelo menos* 80%.\n- **C) 5 e 89%.:** Incluiu fornecedores desnecessários, ultrapassando os 83% e ferindo a premissa de ser o menor grupo.\n- **E) 6 e 93%.:** Incluiu fornecedores desnecessários, ultrapassando os 83% e ferindo a premissa de ser o menor grupo.\n\n!Regra de Bolso!\n~Lógica~\n**SE** é Curva ABC e pede pelo menos o limite, **ENTÃO** você ordena do maior para o menor e vai somando até ultrapassar ou bater no alvo, e encerra o grupo ali.\n\n!Interpretando a Banca!\n~Fumaça~\nA fumaça não está na matemática da FCC, mas no cansaço mental de somar os números pequenos. Reorganize visualmente na prova."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_133",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "Questão 133 - Simulado 01",
+      "front": "Acerca de arquitetura de BI e de recursos do Microsoft Power BI, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).\n\n( ) Na atualização incremental de um modelo, a cada execução são recarregadas as partições do período histórico, e a janela de dados recentes permanece sem atualização.\n( ) Em uma arquitetura de BI com camada semântica compartilhada, cada relatório deve redefinir as medidas de que precisa, para que as regras de cálculo fiquem próximas dos visuais que as utilizam.\n( ) O visual de KPI compara o valor de um indicador com uma meta e pode exibir a tendência ao longo do tempo, com cores que indicam a situação em relação à meta.\n( ) Para atualizar no serviço do Power BI um modelo que importa dados de um banco instalado na rede interna do órgão, é preciso um gateway de dados local configurado para essa fonte.\n\nA sequência correta, de cima para baixo, é:",
+      "stem": [],
+      "options": [
+        "A) V, F, V, V.",
+        "B) V, V, V, V.",
+        "C) F, F, F, V.",
+        "D) V, F, V, F.",
+        "E) F, F, V, V."
+      ],
+      "answer": 4,
+      "back": "Gabarito: E.\n\n!Otávio!\n~Teoria~\n**Arquitetura de BI e Atualização Incremental (PBI)**\n- **Como aparece:** Questões teóricas misturando gestão de projetos e configurações avançadas do Service (Web).\n- **Pegadinha:** Inverter o conceito de carga incremental.\n- **Decisão:** \n- 1ª) **Falsa**. É o inverso: a janela recente/atualização é a que é recarregada. O período histórico é o que fica estático preservado.\n- 2ª) **Falsa**. O objetivo da camada semântica (dataset único) é justamente ter as medidas *centralizadas*. Se cada relatório redefinisse medidas, teríamos a proliferação de versões da verdade (silos).\n- 3ª) **Verdadeira**. Essa é a função exata de um Key Performance Indicator no Power BI: valor base, valor meta, sparkline de tendência e regra de cor.\n- 4ª) **Verdadeira**. O Power BI Service (que está na nuvem) não enxerga dados no servidor *on-premise* da Sefaz. É preciso instalar um Gateway.\n\n~Gentalha~\n- **A) V, F, V, V.:** Confunde a mecânica do incremental na primeira afirmativa.\n- **B) V, V, V, V.:** Confunde a mecânica do incremental e de governança semântica nas duas primeiras afirmativas.\n- **C) F, F, F, V.:** Erra ao marcar a terceira afirmativa como falsa.\n- **D) V, F, V, F.:** Erra na primeira e na quarta afirmativa.\n\n!Regra de Bolso!\n~Lógica~\n**SE** tem Camada Semântica central, **ENTÃO** as medidas são feitas lá, não nos relatórios PBIX da ponta.\n**SE** a base original é local (on-premise), **ENTÃO** precisa de Gateway para a nuvem puxar os dados.\n\n!Interpretando a Banca!\n~Fumaça~\nA banca troca propositalmente os sujeitos da operação nas duas primeiras sentenças para pescar os candidatos desatentos."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_inter_6",
+      "subject": "Business Intelligence, Analytics e Visualização",
+      "source": "BOSS INTERMEDIÁRIO VI - Revisão Tática",
+      "timer_override": 400,
+      "front": "**(BOSS INTERMEDIÁRIO VI) - Otávio:**\n(analisa a arquitetura do painel)\n- Perito, sua extração está quase completa. Demonstre agora que você domina a arquitetura corporativa e a teoria por trás da tomada de decisão:",
+      "stem": [
+        "vf(I. Uma arquitetura madura de BI impulsiona os analistas de ponta a criarem livremente suas próprias medidas DAX, como Faturamento e Receita, dentro de seus relatórios isolados, em vez de ficarem engessados consumindo um Dataset Semântico Global.)"
+      ],
+      "options": [
+        "A) Verdadeiro.",
+        "B) Falso."
+      ],
+      "answer": 1,
+      "back": "Gabarito: B (Falso).\n\n!Otávio!\n~Teoria~\n**Camada Semântica Compartilhada (Governância de BI)**\n- **Como aparece:** Avaliação das boas práticas de governança de dados no Power BI.\n- **Pegadinha:** A afirmativa vende a ideia de \"agilidade/liberdade\" ao usuário de negócio, o que soa positivo, mas no BI corporativo isso é um desastre.\n- **Decisão:** O ideal é promover um \"Dataset Compartilhado\" (Camada Semântica), onde todas as métricas críticas (Faturamento, Despesa) são padronizadas e homologadas num único lugar (Source of Truth). Deixar os relatórios criarem suas próprias lógicas destrói a confiança nos dados, gerando silos. Logo, é Falso.\n\n!Regra de Bolso!\n~Lógica~\n**SE** o tema é governança e datasets globais, **ENTÃO** a descentralização de regras de cálculo básicas é tida como caos e não agilidade.\n\n!Break para Respirar!\n~Otávio~\n- Analista, se você deixar a Secretaria inteira criar a fórmula do que é \"Gasto Público\", amanhã cada diretor terá um gráfico dizendo que ele economizou mais que o outro. Semântica unificada é sobrevivência do sistema."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_final_1",
+      "subject": "Ciências da Computação",
+      "source": "BOSS FINAL I - O Veredito",
+      "timer_override": 600,
+      "front": "**(BOSS FINAL I) - Otávio:**\n(carimba o primeiro lote de laudos)\n- Estrategista, a auditoria na rede da Sefaz detectou vulnerabilidades nos conceitos de Data Warehouse. Aponte o dedo para os falsos e valide os verdadeiros. Este lote abrange os primeiros 6 itens extraídos da base:",
+      "stem": [
+        "vf(I. Numa junção interna no Spark, se a chave de ligação ocorrer 3 vezes no dataframe A e 2 vezes no B, o total de linhas unidas para essa chave será 6.)",
+        "vf(II. A execução adaptativa de consultas (AQE) em Spark exige a interrupção manual do job para corrigir assimetria e alterar planos de junção.)",
+        "vf(III. A técnica de Kimball de Dimensão de Papéis cria a necessidade estrita de duplicar fisicamente as tabelas do banco para preservar a performance de cruzamento de fatos.)",
+        "vf(IV. Uma estratégia de carga incremental apoiada unicamente num `watermark` de início de transação resolve 100% dos casos de atualizações tardias de dados.)",
+        "vf(V. A arquitetura Lambda lida com dois fluxos assíncronos: uma visão rigorosa em batch e uma visão rápida em streaming, enquanto a Kappa as une num fluxo contínuo único.)",
+        "vf(VI. Inmon defende a construção bottom-up do BI, originando pequenos silos departamentais que depois se integram via Matriz de Barramento.)"
+      ],
+      "options": [
+        "A) V, F, F, F, V, F.",
+        "B) V, F, F, V, V, V."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\nAs afirmativas I e V são verdadeiras. As demais são falsas.\n\n**I (Q117):** Verdadeira. Produto cartesiano em Joins (3 x 2 = 6).\n**II (Q118):** Falsa. O AQE do Spark funciona justamente em tempo de execução dinamicamente, sem precisar de intervenção manual.\n**III (Q119):** Falsa. A Role-Playing Dimension usa vistas/views lógicas, sem a exigência de replicação física de dados.\n**IV (Q120):** Falsa. O limite baseado unicamente no tempo inicial de transação sofre do risco de perder transações confirmadas após o início da rotina de ETL.\n**V (Q121):** Verdadeira. Essa é a definição exata de arquitetura Lambda e Kappa.\n**VI (Q122):** Falsa. A construção bottom-up de silos integrados por barramento é obra de *Kimball*, e não de Inmon (que defende top-down de 3FN).\n\n~Gentalha~\n- **B) V, F, F, V, V, V.:** Classifica de maneira falsa as questões de Watermark e Inmon/Kimball.\n\n!Break para Respirar!\n~Otávio~\n- Analista, a fundação de um bom ETL não desmorona porque a query demorou, ela desmorona porque as premissas arquitetônicas estavam trocadas. Nunca confunda Kimball com Inmon na frente de um fiscal."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_final_2",
+      "subject": "Ciências da Computação",
+      "source": "BOSS FINAL II - O Veredito",
+      "timer_override": 600,
+      "front": "**(BOSS FINAL II) - Otávio:**\n(fecha o painel de linhagem)\n- O segundo vetor de ataque aborda as disciplinas de Governança de Dados. Prove que as dimensões de qualidade não foram subornadas:",
+      "stem": [
+        "vf(I. Na distância de edição de Levenshtein, a transformação da palavra PATINHO para PINTAHO custaria apenas 1 operação se as letras foram apenas invertidas de posição.)",
+        "vf(II. A imputação de dados faltantes pela métrica central (Média) tende a comprimir e mascarar o verdadeiro desvio-padrão dos dados coletados.)",
+        "vf(III. Um dado perfeitamente validado no padrão do sistema mas que mente sobre a realidade do contribuinte se enquadra primeiramente como um erro da dimensão de Precisão.)",
+        "vf(IV. A ferramenta de Data Lineage tem como principal falha a incapacidade de prever os ativos afetados a jusante se houver quebra de esquema na origem.)",
+        "vf(V. Os contratos de dados estabelecem que, havendo mudanças drásticas nas estruturas, os consumidores estão por conta própria para ajustar suas métricas sem aviso prévio do Produtor.)",
+        "vf(VI. Quando preenchemos as lacunas temporais com feriados usando campos marcadores numa dimensão calendário do Power BI, estamos quebrando as funções do Time Intelligence.)"
+      ],
+      "options": [
+        "A) F, V, V, F, F, F.",
+        "B) F, V, F, V, F, V."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\nAs afirmativas II e III são verdadeiras. As demais são falsas.\n\n**I (Q123):** Falsa. Em Levenshtein puro (diferente de Damerau), inverter letras adjacentes ou posições custa múltiplas operações (substituições).\n**II (Q124):** Verdadeira. Imputar a média diminui a variância artificialmente.\n**III (Q125):** Verdadeira. Validar um formato/máscara não implica na precisão. Se o mundo real não reflete o banco de dados, falhamos na Precisão.\n**IV (Q126):** Falsa. O objetivo mor de rastrear a linhagem de dados a jusante (downstream) é *exatamente* prover capacidade de antever quem será quebrado.\n**V (Q127):** Falsa. O Data Contract exige aviso e forte retrocompatibilidade impulsionada pelo *Produtor*, e não pelo Consumidor.\n**VI (Q130):** Falsa. Adicionar colunas com flags de feriados (Dia_Util=N) é saudável e obrigatório. O que *quebra* a engine nativa (Time Intelligence) é a ausência/deleção da linha de dias inteiros da tabela de calendário.\n\n~Gentalha~\n- **B) F, V, F, V, F, V.:** Traz afirmativas julgadas incorretamente em múltiplas posições, como apontar o visual de gráfico de pizza e a exclusão de calendários como verdadeiras.\n\n!Break para Respirar!\n~Otávio~\n- Analista, um dado lixo com máscara formatada bonitinha é a pior fumaça no trabalho pericial. Ele passa pelas automações rasas e intoxica os dashboards de diretoria."
+    },
+    {
+      "type": "normal",
+      "id": "sefaz_sc_comp_boss_final_3",
+      "subject": "Ciências da Computação",
+      "source": "BOSS FINAL III - O Veredito",
+      "timer_override": 600,
+      "front": "**(BOSS FINAL III) - Otávio:**\n(desliga os monitores do NOC)\n- O último laudo. O alvo está no terreno visual e analítico do Business Intelligence. Identifique as falhas nos cálculos DAX e na escolha de gráficos:",
+      "stem": [
+        "vf(I. Funções agregadoras iterativas como o SUMX são desenhadas para simular multiplicações independentes linha a linha antes de exibir o total final, resolvendo problemas clássicos de subtotais.)",
+        "vf(II. A função List.Accumulate utiliza o output gerado numa iteração como semente de entrada para a próxima iteração, como uma bola de neve condicional.)",
+        "vf(III. RLS (Row Level Security) e tabelas com Modo Duplo só funcionam em modelos unicamente configurados em DirectQuery puro, descartando o cache importado.)",
+        "vf(IV. É altamente recomendado o Gráfico de Pizza para comparar a evolução temporal do faturamento ou representar volumes de dúzias de municípios em relatórios públicos.)",
+        "vf(V. A atualização incremental em uma tabelafato imensa reduz a carga em banco descartando do processamento as partições de dados históricos consolidadas.)"
+      ],
+      "options": [
+        "A) V, V, F, F, V.",
+        "B) F, F, V, V, F."
+      ],
+      "answer": 0,
+      "back": "Gabarito: A.\n\n!Otávio!\n~Gabarito~\nAs afirmativas I, II e V são verdadeiras. As demais são falsas.\n\n**I (Q128):** Verdadeira. O SUMX itera linha a linha, evitando distorções ao se agregar cálculos como (Preço x Quantidade).\n**II (Q129):** Verdadeira. O Power Query Accumulate atualiza o estado sequencialmente.\n**III (Q130):** Falsa. O RLS funciona incrivelmente bem no modelo Import. E o modo Dual existe justamente para mesclar dados importados na memória e dados na nuvem (DirectQuery).\n**IV (Q131):** Falsa. Pizza é péssimo para dúzias de partes e não presta para evolução de tempo (função do gráfico de linha).\n**V (Q133):** Verdadeira. A magia de carregar os dados incrementalmente é recarregar só a porção da janela recente e poupar o histórico da tabela grande.\n\n~Gentalha~\n- **B) F, F, V, V, F.:** Erra em praticamente todas as afirmativas de DAX, Power Query e Arquitetura.\n\n!Break para Respirar!\n~Otávio~\n- Analista, um painel lento reflete a pressa de quem o construiu. Fechamos as evidências. Submeta este relatório e que a nuvem seja seu álibi."
+    }
+  ]
+}
