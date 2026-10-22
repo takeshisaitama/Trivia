@@ -74,3 +74,13 @@ Exemplo de formato obrigatório (note as quebras de linha `\n` separando cada el
 - **Fala:** `- Fala do personagem.`
 - **Pula linha (ir para linha de baixo):** `\n`
 - **Encerramento:** `Julgue:` (ou similar, terminando com dois pontos).
+
+### A Regra do Verso do Boss Tutorial (Literalidade Radical e Fórmulas)
+O verso do Boss Tutorial (`ti_ceX_boss_tutorial`) não deve utilizar a tag `~Front-Loading do Tutorial~`. Deve ir direto para `~Aprofundamento Gold~` seguindo estas regras de espaçamento e conteúdo:
+1. **Quebra de Linha (Obrigatório):** Após os rótulos secundários OBRIGATORIAMENTE EM NEGRITO (`**Como aparece:**`, `**Pegadinha:**`, `**Decisão:**`), deve-se usar os dois pontos e em seguida pular de linha OBRIGATORIAMENTE com um único `\n` antes de iniciar a explicação. Não escreva a explicação na mesma linha do rótulo.
+2. **A Decisão:** A "Decisão" deve ser focada exclusivamente na postura do candidato na prova. Não repita teoria aqui; entregue o comando final ou norte prático ("Viu a palavra X, associe a Y").
+3. **Fórmulas Matemáticas:** Sempre que um conceito matemático for ensinado (ex: Probabilidade Binomial, RMSE, Variância), a fórmula deve ser transcrita de modo acessível, destrinchando o significado de cada letra (N, K, P).
+4. **Proibição de Aspas Simples para Destaque:** NUNCA utilize aspas simples (`'`) para dar destaque em jargões, nomes de ferramentas, ou comandos de código (ex: NUNCA escreva 'groupby', 'finally', 'argmax'). Para destacar comandos e termos técnicos, utilize **obrigatoriamente itálico** (`*groupby*`, `*argmax*`) ou a tag de cor roxa `c(termo)`. Aspas simples servem estritamente para figuras de linguagem literais que todos entendam ou para citações textuais. O uso de backticks (crases) (\`) continua absolutamente banido em todo o material.
+5. **Regras de Bolso Autossuficientes (O Fim da Salada de Palavras):**
+   - A tag `!Regra de Bolso!` não deve possuir dependência de texto prévio para ser compreendida. Ela deve se explicar por si só na mesma frase estruturada em SE/ENTÃO.
+   - Qualquer português rebuscado, "salada de palavras" e adjetivos amontoados são rigorosamente proibidos (ex: "gigantemente numericamente", "avaliação estatística clássica nominal e do índice contínuo", "estático, atrilado orgânico"). A frase deve ser telegráfica, clara e direta.
