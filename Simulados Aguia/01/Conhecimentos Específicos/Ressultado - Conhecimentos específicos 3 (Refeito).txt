@@ -1,0 +1,172 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 25
+Acertos: 14
+Erros: 8
+Pulos: 2
+Time Out: 0
+Pontuação Líquida: 6
+Desempenho: 24%
+Resultado: Reprovado
+
+--- CARD 1 ---
+Questão: **[Boss Tutorial] - Engenharia e Análise de Dados**  **- Otávio:** (aponta para um diagrama de arquitetura de dados na tela) - Estrategista, este é o núcleo pesado de dados. Aqui separamos os amadores dos engenheiros reais. Leia com atenção absoluta, pois este é o mapa para dominar o bloco analítico da Sefaz:  
+Status: ✅ Acertou | Tempo: 4s | Avaliação: Não Avaliada
+Assinalou: A) Li com atenção e agora entendo a mecânica física e literal da arquitetura de dados.
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Questão 117:**  Em uma rotina de auditoria escrita em PySpark, as notas fiscais de um período são cruzadas com o cadastro de contribuintes, conforme o código a seguir.  notas = spark.createDataFrame([("A", 100), ("A", 250), ("B", 80), ("C", 40)], ["cnpj", "valor"]) cad = spark.createDataFrame([("A", "SC"), ("A", "SC"), ("B", "PR"), ("B", "PR"), ("B", "RS"), ("D", "SC")], ["cnpj", "uf"]) i = notas.join(cad, "cnpj", "inner").count() e = notas.join(cad, "cnpj", "left").count()  Após a execução, os valores de i e de e são, respectivamente:
+Status: ✅ Acertou | Tempo: 55s | Avaliação: Não Avaliada
+Assinalou: C) 7 e 8.
+Gabarito: C
+
+--- CARD 3 ---
+Questão: **Questão 118:**  Julgue os itens a seguir, relativos à otimização de processamento no Apache Spark com DataFrames e Spark SQL.
+Status: ✅ Acertou | Tempo: 134s | Avaliação: Não Avaliada
+Assinalou: B) I, II e IV.
+Gabarito: B
+> Ferramentas: A: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 4 ---
+Questão: **Questão 119:**  Na modelagem dimensional do armazém de dados da Secretaria, a tabela fato de itens de notas fiscais registra, para cada item, a data de emissão, a data de vencimento e a data de pagamento, além do número da nota fiscal, que não tem outros atributos a descrever. Acerca da modelagem dessa tabela fato, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 103s | Avaliação: Não Avaliada
+Assinalou: A) uma dimensão de data pode desempenhar três papéis, ligada à fato por três chaves estrangeiras, e o número da nota pode ficar na fato como dimensão degenerada.
+Gabarito: A
+> Ferramentas: A: 📌 Fixada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 5 ---
+Questão: **Questão 120:**  Uma rotina de carga incremental extrai, todos os dias às 02:00:00, as linhas da tabela de pagamentos do sistema de origem cuja coluna atualizado_em é maior que a marca d’água gravada na execução anterior. Ao final de cada execução, a marca passa a ser o maior valor de atualizado_em entre as linhas extraídas. A coluna registra a hora em que a transação que grava a linha começou, e a extração enxerga as linhas já confirmadas. A execução do dia 1 extraiu, entre outras, a linha L1 e gravou a marca 01:58:00. A tabela a seguir mostra as linhas gravadas no dia 1 a partir desse horário, com a hora de início e a hora de confirmação de cada transação.  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q120.png|100%|Tabela Transacional}}  Na execução do dia 2 (às 02:00:00), a quantidade de linhas extraídas entre L1 e L6 e a quantidade dessas seis linhas que ficaram fora das duas execuções (perdidas) são, respectivamente:
+Status: ✅ Acertou | Tempo: 403s | Avaliação: Não Avaliada
+Assinalou: D) 3 e 2.
+Gabarito: D
+
+--- CARD 6 ---
+Questão: **Questão 121:**  Acerca de arquiteturas de processamento de dados em lote e em fluxo contínuo, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ❌ Errou | Tempo: 141s | Avaliação: Não Avaliada
+Assinalou: E) V, F, V, V.
+Gabarito: A
+> Ferramentas: C: ✂️ Cortada
+
+--- CARD 7 ---
+Questão: **[Chefe Intermediário] - Validação Engenharia**  Nesta etapa, demonstre seu conhecimento sobre a carga física, modelagem lógica e comandos do Apache Spark. Julgue:
+Status: ❌ Errou | Tempo: 267s | Avaliação: Não Avaliada
+Assinalou: A) V, V, F, V.
+Gabarito: C
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 8 ---
+Questão: **Questão 122:**  A Secretaria planeja construir os data marts de arrecadação, de fiscalização e de despesa de forma incremental, um por vez, mas exige que os indicadores dos três possam ser cruzados por contribuinte, por município e por período. Acerca das abordagens de Kimball e de Inmon para esse projeto, é correto afirmar que:
+Status: ❌ Errou | Tempo: 86s | Avaliação: Não Avaliada
+Assinalou: C) as dimensões conformadas são cópias da mesma dimensão mantidas por cada data mart com chaves e atributos próprios, o que garante a autonomia entre os data marts.
+Gabarito: E
+
+--- CARD 9 ---
+Questão: **Questão 123:**  Uma rotina de qualidade de dados procura duplicidades no cadastro de fornecedores comparando os nomes pela distância de edição de Levenshtein. Foram avaliados os pares OLIVEIRA e OLIVIERA; TECNO e TECHNO; SOUZA e SOUSA; PEREIRA e FERREIRA; BATISTA e BAPTISTA; e SILVA e SILVEIRA. Adotando-se primeiro o limiar de distância menor ou igual a 1 e, depois, o limiar de distância menor ou igual a 2, as quantidades de pares sinalizados como possíveis duplicidades são, respectivamente:
+Status: ❌ Errou | Tempo: 114s | Avaliação: Não Avaliada
+Assinalou: A) 4 e 5.
+Gabarito: C
+
+--- CARD 10 ---
+Questão: **Questão 124:**  Acerca do tratamento de valores ausentes e de valores atípicos na preparação de bases para análise, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ❌ Errou | Tempo: 129s | Avaliação: Não Avaliada
+Assinalou: A) F, F, V, F.
+Gabarito: B
+
+--- CARD 11 ---
+Questão: **Questão 125:**  Na avaliação da qualidade dos dados de fiscalização, a equipe registrou quatro ocorrências: (1) o endereço dos estabelecimentos está preenchido em todos os registros e segue o padrão definido, mas as diligências de campo mostraram que parte deles não funciona no endereço registrado; (2) o painel de arrecadação exibe os pagamentos corretos e completos, mas com dois dias de defasagem, embora a fiscalização precise dos dados do dia anterior; (3) há notas fiscais cujo emitente, identificado pela inscrição estadual, não consta do cadastro de contribuintes; (4) o mesmo estabelecimento aparece em dois registros do cadastro, com a mesma inscrição estadual e os mesmos dados.  Acerca dessas ocorrências, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 157s | Avaliação: Não Avaliada
+Assinalou: C) a ocorrência 3 configura falha de integridade.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | C: 📌 Fixada
+
+--- CARD 12 ---
+Questão: **Questão 126:**  O catálogo de dados da Secretaria registra a linhagem a seguir, em que cada linha indica que o ativo de origem alimenta o ativo de destino.  **Origem -> Destino** stg_notas -> dw_fato_notas stg_contrib -> dw_dim_contrib dw_dim_contrib -> mart_arrecadacao dw_dim_contrib -> mart_fiscalizacao mart_arrecadacao -> painel_arrecadacao mart_arrecadacao -> modelo_risco mart_fiscalizacao -> painel_risco modelo_risco -> painel_risco  A coluna de regime tributário de stg_contrib terá o significado alterado. Na análise de impacto, a quantidade de ativos a jusante de stg_contrib, afetados direta ou indiretamente, e a quantidade de painéis entre eles são, respectivamente:
+Status: ❌ Errou | Tempo: 89s | Avaliação: Não Avaliada
+Assinalou: C) 6 e 3.
+Gabarito: A
+
+--- CARD 13 ---
+Questão: **[Chefe Intermediário] - Qualidade e Metodologia DW**  Você já mapeou a linhagem. Julgue de forma cirúrgica as dependências lógicas e os processos analíticos aplicados em governança:
+Status: ✅ Acertou | Tempo: 370s | Avaliação: Não Avaliada
+Assinalou: C) F, V, F, V.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 14 ---
+Questão: **Questão 127:**  Julgue os itens a seguir, relativos ao monitoramento da qualidade de dados em pipelines e aos contratos de dados.
+Status: ✅ Acertou | Tempo: 173s | Avaliação: Não Avaliada
+Assinalou: A) I.
+Gabarito: A
+
+--- CARD 15 ---
+Questão: **Questão 128:**  No Power BI, a tabela Vendas contém as linhas a seguir. uf  qtd preco SC  1   18 SC  6   12 PR  2   25 PR  3   10  No modelo, foram criadas as medidas a seguir. Receita = SUMX(Vendas, Vendas[qtd] * Vendas[preco]) Errada = SUM(Vendas[qtd]) * SUM(Vendas[preco])  Em um visual de tabela com a coluna uf nas linhas e as duas medidas, os valores exibidos para Receita em SC, para Errada em SC e para o total global agregado de Errada são, respectivamente:
+Status: ✅ Acertou | Tempo: 203s | Avaliação: Não Avaliada
+Assinalou: D) 90, 210 e 780.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada
+
+--- CARD 16 ---
+Questão: **Questão 129:**  No Power Query, executou-se a consulta em linguagem M a seguir.  powerquery let   L = {4, 7, 2, 9, 5},   R = List.Accumulate(L, 0,       (s, x) => if x > 4                 then s + x else s - 1) in   R   O valor de R é:
+Status: ✅ Acertou | Tempo: 161s | Avaliação: Não Avaliada
+Assinalou: A) 19.
+Gabarito: A
+
+--- CARD 17 ---
+Questão: **Questão 130:**  Julgue os itens a seguir, relativos à modelagem de dados e aos modos de armazenamento no Microsoft Power BI.
+Status: 💩 Não sabia | Tempo: 177s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: B
+
+--- CARD 18 ---
+Questão: **Questão 131:**  Um auditor prepara um painel sobre os pagamentos a fornecedores e precisa escolher o tipo de gráfico adequado a cada pergunta de análise. Acerca dessas escolhas, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 92s | Avaliação: Não Avaliada
+Assinalou: A) para mostrar como os valores dos pagamentos se distribuem por faixas de valor, revelando assimetria e concentração, o histograma é a escolha adequada.
+Gabarito: A
+> Ferramentas: A: 📌 Fixada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 19 ---
+Questão: **[Chefe Intermediário] - DAX, Power Query e Metadados**  A visualização e a auditoria em Power BI exigem raciocínio iterador. Julgue a arquitetura:
+Status: ✅ Acertou | Tempo: 185s | Avaliação: Não Avaliada
+Assinalou: A) V, F, F, V.
+Gabarito: A
+> Ferramentas: C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 20 ---
+Questão: **Questão 132:**  Na análise ABC dos pagamentos a fornecedores, a classe A reúne o menor grupo de fornecedores, tomados em ordem decrescente de valor, cuja participação acumulada atinge pelo menos 80% do total pago. Os valores pagos no exercício, em milhares de reais, foram os seguintes.  F1: 120 | F2: 700 | F3: 40 | F4: 300 | F5: 15 | F6: 160 | F7: 500 | F8: 60 | F9: 25 | F10: 80  A quantidade de fornecedores da classe A e a participação acumulada desse grupo no total pago são, respectivamente:
+Status: ✅ Acertou | Tempo: 190s | Avaliação: Não Avaliada
+Assinalou: D) 4 e 83%.
+Gabarito: D
+
+--- CARD 21 ---
+Questão: **Questão 133:**  Acerca de arquitetura de BI e de recursos do Microsoft Power BI, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: 💩 Não sabia | Tempo: 171s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 22 ---
+Questão: **[Chefe Final] - Engenharia Pesada (Parte 1 de 4)**  - Otávio: (inicia o console do servidor) - Acabou o aquecimento. Julgue os preceitos de carga e modelagem:
+Status: ❌ Errou | Tempo: 178s | Avaliação: Nota 9.5
+Assinalou: B) Apenas II e IV estão corretas.
+Gabarito: A
+> Ferramentas: A: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 23 ---
+Questão: **[Chefe Final] - Data Quality & Linha do Tempo (Parte 2 de 4)**  - Otávio: (aponta os erros no monitor) - Cace as quebras da governança. Julgue:
+Status: ✅ Acertou | Tempo: 106s | Avaliação: Não Avaliada
+Assinalou: E) Apenas I e IV estão corretas.
+Gabarito: E
+
+--- CARD 24 ---
+Questão: **[Chefe Final] - DAX, Power Query e BI Analytics (Parte 3 de 4)**  - Otávio: (Digita as métricas da dashboard) - O front-end da nossa inteligência. Aqui as medidas decidem o repasse tributário de SC. Julgue:
+Status: ❌ Errou | Tempo: 247s | Avaliação: Não Avaliada
+Assinalou: B) V, V, F, F.
+Gabarito: C
+> Ferramentas: C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 25 ---
+Questão: **[Chefe Final] - Dataviz e Análise Financeira (Parte 4 de 4)**  - Otávio: (fecha o notebook na sala de controle) - Para entregar o painel ao Secretário da Fazenda, valide o último pilar de Dataviz e da mecânica contábil. Julgue:
+Status: ✅ Acertou | Tempo: 44s | Avaliação: Não Avaliada
+Assinalou: D) Apenas I.
+Gabarito: D
+
