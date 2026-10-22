@@ -15,7 +15,7 @@
       "subject": "Programação, Estatística e ML",
       "source": "Banca Águia - Boss Tutorial",
       "timer_override": 1200,
-      "front": "**[Boss Tutorial] - Programação, Ciência e Aprendizado de Máquina**\n\n**- Otávio:** (aponta para o editor de código e os gráficos de dispersão na lousa digital) - Mente brilhante, a engenharia de dados precisa de códigos rápidos e fórmulas matemáticas precisas. O seu sucesso depende de dominar Python, Estatística e Algoritmos. Leia as regras abaixo antes de enfrentar as questões:\n\n",
+      "front": "**Boss Tutorial:**\n**Programação, Ciência e Aprendizado de Máquina**\n\n**- Otávio:** (aponta para o editor de código e os gráficos de dispersão na lousa digital) - Mente brilhante, a engenharia de dados precisa de códigos rápidos e fórmulas matemáticas precisas. O seu sucesso depende de dominar Python, Estatística e Algoritmos. Leia as regras abaixo antes de enfrentar as questões:\n\n",
       "stem": [
         "**1) Funções Geradoras e Esgotamento (Yield):**\nO comando *yield* no Python transforma uma função em um gerador. Um gerador não guarda todos os itens na memória ao mesmo tempo; ele entrega um item por vez apenas quando solicitado. \n- *Impacto:* Se você tentar ler a lista do gerador pela segunda vez, ele não devolverá nada, pois a lista já foi esvaziada na primeira leitura.\n- *Exemplo:* *g = (x for x in [1,2]); a = sum(g); b = sum(g)*\n- *Resultado:* A variável *a* soma c(3), e a variável *b* soma c(0).",
         "**2) Pandas GroupBy e Transform:**\nA função *.transform()* agrupa os dados (ex: por estado), calcula a média do grupo, mas em vez de resumir a tabela, ela cola a resposta lado a lado em cada linha original da tabela.\n- *Impacto:* Permite que você compare o valor individual de uma pessoa com a média do estado dela sem diminuir o tamanho da tabela.\n- *Exemplo:* *df.groupby('uf')['v'].transform('mean')*\n- *Resultado:* O DataFrame c(não diminui de tamanho); cada linha original recebe a média do grupo anexada ao lado.",
@@ -47,7 +47,7 @@
       "subject": "Programação - Python Yield",
       "source": "Banca Águia - Q134",
       "timer_override": 180,
-      "front": "**Questão 134:**\n\nConsidere o código em Python a seguir.\n\n``*python\ndef pares(v):\n    for x in v:\n        if x % 2 == 0:\n            yield x\n\ng = pares([3, 8, 10, 7, 30])\na = sum(g)\nb = sum(g)\nprint(a, b)\n*``\n\nApós a execução, é exibido:",
+      "front": "**Questão 134:**\n\nConsidere o código em Python a seguir.\n\n`**python\ndef pares(v):\n    for x in v:\n        if x % 2 == 0:\n            yield x\n\ng = pares([3, 8, 10, 7, 30])\na = sum(g)\nb = sum(g)\nprint(a, b)\n**`\n\nApós a execução, é exibido:",
       "stem": [],
       "options": [
         "A) 48 48.",
@@ -65,7 +65,7 @@
       "subject": "Programação - Pandas Transform",
       "source": "Banca Águia - Q135",
       "timer_override": 180,
-      "front": "**Questão 135:**\n\nConsidere o código em Python, com a biblioteca pandas, a seguir.\n\n``*python\nimport pandas as pd\ndf = pd.DataFrame({\n    \"uf\": [\"SC\", \"SC\", \"PR\", \"SC\", \"PR\"],\n    \"v\": [100, 300, 200, 650, 260]\n})\ndf[\"m\"] = (df.groupby(\"uf\")[\"v\"].transform(\"mean\"))\nr = df[df[\"v\"] > df[\"m\"]]\nprint(len(r), r[\"v\"].sum())\n*``\n\nApós a execução, é exibido:",
+      "front": "**Questão 135:**\n\nConsidere o código em Python, com a biblioteca pandas, a seguir.\n\n`**python\nimport pandas as pd\ndf = pd.DataFrame({\n    \"uf\": [\"SC\", \"SC\", \"PR\", \"SC\", \"PR\"],\n    \"v\": [100, 300, 200, 650, 260]\n})\ndf[\"m\"] = (df.groupby(\"uf\")[\"v\"].transform(\"mean\"))\nr = df[df[\"v\"] > df[\"m\"]]\nprint(len(r), r[\"v\"].sum())\n**`\n\nApós a execução, é exibido:",
       "stem": [],
       "options": [
         "A) 2 910.",
@@ -83,7 +83,7 @@
       "subject": "Programação - NumPy Cumsum e Argmax",
       "source": "Banca Águia - Q136",
       "timer_override": 180,
-      "front": "**Questão 136:**\n\nConsidere o código em Python, com a biblioteca NumPy, a seguir.\n\n``*python\nimport numpy as np\na = np.array([4, 5, 0, 13, 3, 5])\nc = np.cumsum(a)\ni = np.argmax(c > 20)\nprint(i, c[i], c[-1])\n*``\n\nApós a execução, é exibido:",
+      "front": "**Questão 136:**\n\nConsidere o código em Python, com a biblioteca NumPy, a seguir.\n\n`**python\nimport numpy as np\na = np.array([4, 5, 0, 13, 3, 5])\nc = np.cumsum(a)\ni = np.argmax(c > 20)\nprint(i, c[i], c[-1])\n**`\n\nApós a execução, é exibido:",
       "stem": [],
       "options": [
         "A) 4 25 30.",
@@ -124,12 +124,12 @@
       "subject": "Programação - Boss Intermediário 1",
       "source": "Banca Águia - Boss Intermediário 1",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - Validação em Lógica Pythonica**\n\nNesta etapa, demonstre sua maestria sobre a carga física, modelagem lógica e mecânica pesada do interpretador Python. Julgue:",
+      "front": "**Chefe Intermediário 1:**\n**Validação em Lógica Pythonica**\n\n- Otávio:\n(abre a interface do interpretador)\n- Demonstre sua maestria sobre as operações lógicas do Python. \nJulgue:",
       "stem": [
-        "vf(I. Na esteira implacável cirúrgica do Python em Pandas, o comando atrelado primitivo denso puro abstrato analítico cravado limpo exato vivo de agrupamento *transform* reduz taxativamente de forma estática pura o espelhamento do volume das linhas nativas puras originais do dataframe original para um pequeno box resumido achatado analítico numérico local e contábil.)",
-        "vf(II. A função analítica iteradora mestre local geradora contínua atrelada do yield tem natureza imutável esgotável e de uso único abstrato contínuo contábil cravado; ela desaba e quebra numa linha vazia sem acionar alerta mortal de erro técnico de barreira se iterada em nova tentativa posterior local original na pilha limpa .)",
-        "vf(III. O bloco de blindagem analítica sistêmica amarrada fina fechada fechada viva *with open(...)* delega aos braços analíticos cegos sujos s abstratos formais locais s originais duros secos soltos da ferramenta coletora universal abstrata Garbage Collector o selo da fechadura limítrofe abstrata no fecho e finalização relacional em caso fatal analítico limpo duro exato crônico do desastre abrupto local da Exception nua limpa exata originária local contínua do banco limpo.)",
-        "vf(IV. A varredura estrita cravada contínua lógica algorítmica imbuída num argmax que za a fronteira lógica nua de um array preenchido booleano puro nativo analítico Python retorna ao usuário impiedosamente fielmente isoladamente o valor numérico puro unário cravado do c(primeiro limite estipulado abstrato relacional cravado verdadeiro).)"
+        "vf(I. O comando *transform* da biblioteca Pandas calcula as agregações e injeta o resultado preservando o total de linhas originais da planilha.)",
+        "vf(II. O comando *with open* é um gerenciador de contexto focado em garantir o fechamento e limpeza de arquivos do sistema.)",
+        "vf(III. O bloco de programação *else* acoplado à técnica de *try/except* é executado estritamente como garantia final de parada se houver falhas.)",
+        "vf(IV. A função *sum* disparada sobre variáveis de tipo Gerador consome a fila de forma descartável.)"
       ],
       "options": [
         "C) F, F, F, V.",
@@ -242,12 +242,12 @@
       "subject": "Algoritmos, Exceções e Métricas - Boss Intermediário 2",
       "source": "Banca Águia - Boss Intermediário 2",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - Funções Exatas e Modelos Analíticos**\n\nNesta etapa, destrinche a precisão da engenharia de busca, os loops matemáticos soltos e a avaliação contábil de ciência de dados da SEFAZ.",
+      "front": "**Chefe Intermediário 2:**\n**Funções Exatas e Modelos Analíticos**\n\n- Otávio:\n(cruza os braços observando a tela)\n- Destrinche a precisão da engenharia de busca e a avaliação dos projetos de dados da SEFAZ. \nJulgue:",
       "stem": [
-        "vf(I. A busca primitiva solta abstrata exata e dura relacional linear de arquivo contábil sequencial perde de forma humilhante contundente na escala abstrata temporal local relacional viva imutável se e somente se o conjunto base contínuo numérico isolado for escaneado múltiplas incontáveis éis pesadas estáticas frequentes iteradas sucessivas na malha fina.)",
-        "vf(II. A arquitetura de sintaxe do operador nativo analítico *else* escorado abstrato exato e atrelado fino limpo na esteira try-except roda e invoca seu escopo cravado contábil de resposta quando os excepts cravam no abismo as barreiras mortais não computadas na blindagem contínua original abstrata analítica local .)",
-        "vf(III. A fenda geométrica algorítmica imposta da malha de crivo MAE pune desvios s numéricos isolados puros abstratos pontuais longes da reta matemática de forma magnânima infinitamente c(superior e mais agressiva) que a métrica RMSE original da base real local de regressões das pastas de modelos contínuos do governo.)",
-        "vf(IV. A esteira burocrática do CRISP-DM atrela a base da coroa analítica e fechamento da lide de Avaliação pautando seu termômetro exato rígido contábil e crivo nativo na amarração mestre original de escopo fechada estrita na raiz fundadora analítica de Negócio originária de concepção primitiva do painel.)"
+        "vf(I. A complexidade do operador *in* ao buscar registros inseridos no formato de Listas e Tuplas alcança a velocidade instantânea das Tabelas Hash O(1).)",
+        "vf(II. A métrica CRISP-DM opera em ciclos interativos que permitem o retorno às fases anteriores.)",
+        "vf(III. A Busca Binária aplica cortes eficientes sucessivos que descartam metades e exige que o vetor analisado esteja perfeitamente ordenado.)",
+        "vf(IV. A métrica Erro Médio Absoluto (MAE) pune severamente os grandes erros distantes ao elevá-los ao quadrado.)"
       ],
       "options": [
         "C) V, V, V, F.",
@@ -324,12 +324,12 @@
       "subject": "Algoritmos e Análise Forense - Boss Intermediário 3",
       "source": "Banca Águia - Boss Intermediário 3",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - Regressões e Distâncias Computacionais**\n\nProve a proficiência nos cálculos da matriz e avaliações lógicas do Python analítico. Julgue as frentes operacionais atreladas:",
+      "front": "**Chefe Intermediário 3:**\n**Regressões e Distâncias Computacionais**\n\n- Otávio:\n(ajusta o gráfico de dispersão no painel)\n- Prove sua proficiência nas métricas de avaliação e nas bibliotecas de predição do Python.\nJulgue:",
       "stem": [
-        "vf(I. A faca geométrica mestre estática algorítmica de Levenshtein ignora falhas estritamente finas de transposição contábil simples abstrata numérico isolada temporal, enxergando um intercâmbio adjacente como mísero escorregão contínuo perdoável brando de 1 único evento de substituição na matriz final de distância contábil originária fechada da linha temporal da palavra.)",
-        "vf(II. A imposição da métrica de raiz cravada matemática lógica de regressão contábil analítica dura (RMSE) fustiga penaliza atrofia severamente letal amarga abissal estática local desvios monstruosos estipulados alienígenas atípicos ao modelo em contraste exato isolado linear frontal a média nua amarrada solta passiva absoluta do Erro Médio Absoluto (MAE).)",
-        "vf(III. Em auditoria pesada de notas de emissão fiscal local solta com classe exata contínua densa ínfima esparsa de 2% temporal isolado fechado nativo originário real local , a acurácia se impõe inegociável abstrata fria absoluta dominante contínua esmagadora viva no veredito exato denso contábil de precisão isolada abstrata mestre dos limiares de acerto da roleta do painel contínuo abstrato limítrofe.)",
-        "vf(IV. A roleta algorítmica mestre abstrata pura analítica de K vizinhos na RAM do servidor não cospe uma equação analítica mestre fria final fechada dura unificada exata de ponderações finas algorítmicas de barreira na fase burocratizada analítica inicial estática de acoplamento do modelo; ela despeja toda a base física limpa original exata limítrofe isolada no cache da memória da predição local isolada contínua relacional viva.)"
+        "vf(I. O classificador numérico de inteligência de Área sob a Curva (ROC AUC) que receba exatamente a nota 0.5 exibe uma separação perfeita.)",
+        "vf(II. Tabelas com milhares de colunas inúteis deixam o modelo matemático do KNN cego na tomada de distâncias numéricas de predições.)",
+        "vf(III. A técnica preparatória matemática da codificação *One-hot* no Scikit-Learn protege as tabelas categóricas contra induções falsas de ordem de hierarquia.)",
+        "vf(IV. A ferramenta de corte percentual *stratify* no Scikit-Learn impede que parcelas raras de fraudadores sumam no isolamento da fase fatiada das provas de validação do robô.)"
       ],
       "options": [
         "C) V, V, F, V.",
@@ -416,7 +416,7 @@
         "E) 200 e 400."
       ],
       "answer": 3,
-      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Lei de Benford:**\nA Lei matemática de Benford diz que em grandes volumes de números gerados de forma natural, os números iniciados por dígitos menores (como 1 ou 2) aparecem muito mais vezes do que os números que começam com o dígito 9. \nSe uma empresa declara pagamentos e a contabilidade mostra uma proporção anormalmente diferente dessa lei, há indício de fraude ou números inventados, que deve ser examinado (mas não é prova definitiva).\n\n~Gabarito~\n**D) 602 e 954.**\n**> CERTO <**\n**Passo 1 — Dígito 1:** Pela Lei, a probabilidade é calculada por `log(1 + 1/d)`. Sendo o dígito d = 1, `log(2) ≈ 0,301`. Em 2.000 pagamentos: 0,301 ⋆ 2000 = c(602).\n**Passo 2 — Dígito 1 ou 2:** A chance de ser \"no máximo d\" é dada por `log(d+1)`. Sendo d = 2, temos `log(3) ≈ 0,477`. Em 2.000 pagamentos: 0,477 ⋆ 2000 = c(954).\n\n~Gentalha~\n**A) 222 e 444.**\n**> ERRADO <**\nO candidato calculou equivocadamente supondo que todos os nove dígitos básicos do teclado possuem a c(mesma probabilidade) matemática exata em um banco autêntico. A Lei de Benford anula essa tese.\n\n**B) 602 e 1.204.**\n**> ERRADO <**\nO candidato forneceu equivocadamente ao dígito 2 a mesma probabilidade encontrada com o c(dígito 1). Conforme a regra de Benford avança para números maiores da matemática de 1 a 9, suas chances enfraquecem e encolhem gradativamente.\n\n**C) 301 e 477.**\n**> ERRADO <**\nEssas seriam as proporções numéricas se a receita operasse apenas com c(1.000 registros). Multiplicar pelo número total (2000) é obrigatório.\n\n**E) 200 e 400.**\n**> ERRADO <**\nAdmite cegamente e conta equivocadamente com as marcações iniciadas no dígito c(zero). A ordem inicial oficial contabilizada inicia pelo bloco do dígito 1, excluindo zeros frontais no arranjo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar os cálculos de um auditor na prova usando a c(Lei de Benford), **ENTÃO** você descarta ativamente a noção mentirosa de que todos os algarismos de 1 a 9 matematicamente tenham a idêntica chance de sair na fita contábil.\n\n!Interpretando a Banca!\n~Gatilho~\nEssa lei mostra que quem tenta falsificar números para esconder fraudes, inventa notas de R$ 9.000, 8.000, 7.000, quando na natureza autêntica, a massa das notas teria mais volume começando com 1.000, 1.200, 2.000, etc."
+      "back": "Gabarito: D.\n\n!Otávio!\n~Teoria~\n**1) Lei de Benford:**\nA Lei matemática de Benford diz que em grandes volumes de números gerados de forma natural, os números iniciados por dígitos menores (como 1 ou 2) aparecem muito mais vezes do que os números que começam com o dígito 9. \nSe uma empresa declara pagamentos e a contabilidade mostra uma proporção anormalmente diferente dessa lei, há indício de fraude ou números inventados, que deve ser examinado (mas não é prova definitiva).\n\n~Gabarito~\n**D) 602 e 954.**\n**> CERTO <**\n**Passo 1 — Dígito 1:** Pela Lei, a probabilidade é calculada por *log(1 + 1/d)*. Sendo o dígito d = 1, *log(2) ≈ 0,301*. Em 2.000 pagamentos: 0,301 ⋆ 2000 = c(602).\n**Passo 2 — Dígito 1 ou 2:** A chance de ser \"no máximo d\" é dada por *log(d+1)*. Sendo d = 2, temos *log(3) ≈ 0,477*. Em 2.000 pagamentos: 0,477 ⋆ 2000 = c(954).\n\n~Gentalha~\n**A) 222 e 444.**\n**> ERRADO <**\nO candidato calculou equivocadamente supondo que todos os nove dígitos básicos do teclado possuem a c(mesma probabilidade) matemática exata em um banco autêntico. A Lei de Benford anula essa tese.\n\n**B) 602 e 1.204.**\n**> ERRADO <**\nO candidato forneceu equivocadamente ao dígito 2 a mesma probabilidade encontrada com o c(dígito 1). Conforme a regra de Benford avança para números maiores da matemática de 1 a 9, suas chances enfraquecem e encolhem gradativamente.\n\n**C) 301 e 477.**\n**> ERRADO <**\nEssas seriam as proporções numéricas se a receita operasse apenas com c(1.000 registros). Multiplicar pelo número total (2000) é obrigatório.\n\n**E) 200 e 400.**\n**> ERRADO <**\nAdmite cegamente e conta equivocadamente com as marcações iniciadas no dígito c(zero). A ordem inicial oficial contabilizada inicia pelo bloco do dígito 1, excluindo zeros frontais no arranjo.\n\n!Regra de Bolso!\n~Lógica~\n**1) SE** você cruzar os cálculos de um auditor na prova usando a c(Lei de Benford), **ENTÃO** você descarta ativamente a noção mentirosa de que todos os algarismos de 1 a 9 matematicamente tenham a idêntica chance de sair na fita contábil.\n\n!Interpretando a Banca!\n~Gatilho~\nEssa lei mostra que quem tenta falsificar números para esconder fraudes, inventa notas de R$ 9.000, 8.000, 7.000, quando na natureza autêntica, a massa das notas teria mais volume começando com 1.000, 1.200, 2.000, etc."
     },
     {
       "type": "normal",
@@ -442,12 +442,12 @@
       "subject": "Estatística e Qualidade - Boss Intermediário 4",
       "source": "Banca Águia - Boss Intermediário 4",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - Limpezas Estatísticas e Preditores**\n\nNesta rodada analítica pura pesada de Data Quality zada abstrata unificada com o aprendizado, teste suas muralhas métricas e lógicas de regressão:",
+      "front": "**Chefe Intermediário 4:**\n**Limpezas Estatísticas e Preditores**\n\n- Otávio:\n(fecha a análise de relatórios fiscais)\n- Teste suas muralhas métricas e identifique os padrões anômalos.\nJulgue:",
       "stem": [
-        "vf(I. A ausência massiva de preenchimento de campos vitais numéricos de faturamento na base, motivada de forma covarde original seletiva pela vergonha obscura do calote das esferas mais inadimplentes de um município original limítrofe puro limpo, impede e pune taxativamente rigorosamente a exclusão listwise isolada das linhas sem corromper as estimativas s locais.)",
-        "vf(II. Em algoritmos abstratos amarrados fechados nativos contábeis isolados de árvore Isolation Forest e Autoencoders profundos neurais s formais lícitos puros de painel, o Escore amarrado original de Alarme para fraudadores atinge seu cume letal agudo analítico isolado lógico relacional limpo nativo local quando a anomalia atinge um nó curto raso na arvore ou quando a rede cospe erro astronômico sujo brutal de recriação matemática abstrata.)",
-        "vf(III. A métrica clássica cravada dura de Acurácia de Classificadores triunfa solene absoluta implacável analítica em fatias s mortais estritas fechadas limítrofes finas densas as esparsas de apenas 1% s orgânicas cegas de base contábil, ao lado numérico da ROC e da Revocação limítrofe.)",
-        "vf(IV. O One-Hot Encoding protege blindadamente a matriz abstrata numérico analítica solta original amarrada zada local contínua oca isolada abstrata analítica temporal mestre original das features ordinais brutas ao cimentar falsas frentes de ranqueamento escalonado abstrato entre variáveis nominais orgânicas s inofensivas brutas.)"
+        "vf(I. Agrupamentos desprovidos de bases marcadas com anotações e rótulos de apostilas antigas ocorrem com o Aprendizado Supervisionado.)",
+        "vf(II. Cálculos estatísticos cobrando chances independentes mistas numa mesa sorteiam fórmulas pautadas na Distribuição Binomial.)",
+        "vf(III. A Lei estatística contábil de Benford decreta rigorosamente que algarismos grandes do teclado possuem prevalência imensa natural perante contagens que se iniciam pequenas.)",
+        "vf(IV. A técnica da Floresta de Isolamento detecta celeremente suspeitos ao desferir cortes mecânicos nas métricas da tabela densa.)"
       ],
       "options": [
         "A) I, II e IV estão corretas.",
@@ -506,13 +506,12 @@
       "subject": "Programação, Estatística e ML - CHEFE FINAL - Parte 1",
       "source": "Banca Águia - Chefe Final P1",
       "timer_override": 600,
-      "front": "**[Chefe Final] - Programação e Algoritmos (Parte 1 de 4)**\n\n- Otávio: (trava o terminal de código e vira o painel de auditoria) - Última barreira, estrategista. Execute a checagem sintática nas chaves Python. Julgue:",
+      "front": "**Chefe Final 1:**\n**Programação e Algoritmos (Parte 1 de 4)**\n\n- Otávio:\n(trava o terminal de código e vira o painel de auditoria)\n- Última barreira, estrategista. Execute a checagem sintática nas chaves Python.\nJulgue:",
       "stem": [
-        "vf(I. O envenenamento sistemático algorítmico do vetor iterável consumível gerador no Python *yield* paralisa sua vida estrita nula original, forçando a máquina a devolver o abismo seco nativo zero caso fustigada pela segunda chamada somatória indevida solta originária abstrata.)",
-        "vf(II. A máscara relacional isolada amarrada de *groupby().transform()* chata as colunas em grid curto numérico e destrói o espelho original das linhas, substituindo-o pelo resumo burro agregador nativo puro fechado lógico unificado abstrato .)",
-        "vf(III. A injeção pesada estrita unificada de argmax num mar de *True/False* puxa implacavelmente na veia contábil relacional isolada limpa fina o último *True* vislumbrado no ocaso abstrato numérico amarrado final.)",
-        "vf(IV. A blindagem da fenda algorítmica imbuída num *with open* tranca as válvulas lógicas fechadas originárias isoladas formais exatas independentemente da carnificina contábil letal local que venha a ocorrer na linha matemática viva de processamento do interior abstrato nativo fechado original limítrofe.)",
-        "vf(V. O operador Python de buscas pesadas e varreduras *in* massacra listas as nativas com a leveza logarítmica fina, deixando dicionários para o tempo linear fechado analítico limpo isolado nativo.)"
+        "vf(I. A função *with open* fecha o arquivo em disco independentemente das falhas ou exceções que venham a ocorrer na leitura interna de seu bloco de código.)",
+        "vf(II. O comando *transform* da biblioteca Pandas calcula agregações injetando o resultado e preservando o total de linhas originais da planilha de origem.)",
+        "vf(III. O bloco condicional *else* inserido após um laço *try/except* será executado sempre que o sistema disparar avisos internos de falha ou interrupção não programada no Python.)",
+        "vf(IV. A ferramenta nativa *sum* acionada sobre funções de estado de Gerador consumirá o código em caráter definitivo e não executará reinicialização de valores numa chamada seguinte posterior.)"
       ],
       "options": [
         "A) I e IV.",
@@ -530,12 +529,12 @@
       "subject": "Programação, Estatística e ML - CHEFE FINAL - Parte 2",
       "source": "Banca Águia - Chefe Final P2",
       "timer_override": 600,
-      "front": "**[Chefe Final] - Programação e Estatística Forense (Parte 2 de 4)**\n\n- Otávio: (ajusta o gráfico ROC na tela de controle abstrata estrita temporal fina limítrofe do tribunal analítico da Receita Estadual nativo puro estipulado contábil original exato). Analise:",
+      "front": "**Chefe Final 2:**\n**Programação e Estatística Forense (Parte 2 de 4)**\n\n- Otávio:\n(acessa os relatórios de validação no sistema da Receita)\n- Analise as diretrizes do código e metodologias estatísticas.\nJulgue:",
       "stem": [
-        "vf(I. A busca binária gloriosa abstrai e recusa nativamente vetores caóticos abstratos cegos nativos s puros soltos amarrados s locais originários originais fechados primitivos rasteiros contínuos em prol da ordem mestre unificada analítica estocástica exata isolada contínua, derrubando lide da pesquisa abstrata.)",
-        "vf(II. A manipulação de variação estatística com rebaixo na métrica de padronização limítrofe originária exata estrita cravada contábil fina isolada analítica pura local no sklearn exige a prisão isolada abstrata amarrada no Pipeline nativo para coibir estancar reprimir vazar Data Leakage contábil.)",
-        "vf(III. A curva contábil temporal limítrofe ROC sucumbe irremediavelmente deprimida atada nula suja amarrada vazia e falida estrita para a exatidão magnânima imponente letal crônica abstrata local fina limpa matemática contínua pura analítica original da Acurácia.)",
-        "vf(IV. A faca RMSE fustiga a dor original do erro penalizando exponencialmente os resíduos mortais anômalos esparsos s marginais s isolados da reta matemática pura original relacional fina, ignorando os amortecimentos fofos estáticos limpos cegos locais vazios analíticos do MAE local abstrato nativo da SEFAZ.)"
+        "vf(I. O algoritmo matemático *argmax* executado atrelado a testes lógicos Booleanos (True/False) retornará a posição no índice do primeiro registro classificado como verdadeiro no mapeamento.)",
+        "vf(II. A busca sequencial linear na linguagem Python utiliza o operador *in* para localizar itens instantaneamente com complexidade da tabela em O(1) em grandes vetores.)",
+        "vf(III. A métrica avaliativa de aprendizado preditiva Root Mean Squared Error (RMSE) extrai a raiz quadrada ao fim dos cálculos para compensar as punições aos desvios distantes do modelo matemático.)",
+        "vf(IV. As metodologias de ciclo de vida atreladas ao CRISP-DM proíbem severamente o retorno de projeto às fases predecessoras caso a implantação falhe, assumindo o comportamento de ciclo progressivo cego.)"
       ],
       "options": [
         "A) I e II.",
@@ -553,12 +552,12 @@
       "subject": "Programação, Estatística e ML - CHEFE FINAL - Parte 3",
       "source": "Banca Águia - Chefe Final P3",
       "timer_override": 600,
-      "front": "**[Chefe Final] - Modelos Preditivos e Lógica ML (Parte 3 de 4)**\n\n- Otávio: (carrega os algoritmos baseados em distância na RAM abstrata local amarrada pura isolada analítica limítrofe) - Siga a pista dos vizinhos:",
+      "front": "**Chefe Final 3:**\n**Modelos Preditivos e Lógica ML (Parte 3 de 4)**\n\n- Otávio:\n(carrega os algoritmos na tela de avaliação)\n- Identifique o modelo de aprendizado de máquina correto para nossa caçada.\nJulgue:",
       "stem": [
-        "vf(I. O vizinho mágico analítico KNN cospe uma equação limpa cravada original e ignora sumariamente contundentemente pesadamente a dor contínua de memória limítrofe pesada fechada contínua suja viva local de guardar o histórico nativo puro cravado na base temporal local fechada unificada solta original na hora do teste final prático abstrato.)",
-        "vf(II. A convergência abstrata pura original nua ríspida isolada cravada e unida limpa exata abstrata da Maldição da Dimensionalidade fere mortalmente letal e implacavelmente algoritmos euclidianos s finos cravados formais cegos lógicos.)",
-        "vf(III. A roleta do CRISP-DM trava o engate final amarrado de subida pro Deployment abstrato local limítrofe burocrático fechado puro caso a métrica fina pura falhe o teste limítrofe impiedoso exato amarrado na etapa de Avaliação contra as regras nativas originais as nativas puras abstratas de Negócio originais locais.)",
-        "vf(IV. A estimativa nua abstrata amarrada isolada contínua numérico contábil fina de cravamento analítico puro abstrato amarrado lógico financeiro temporal isolado atrelado original burocrata nativo numérico livre exato contábil analítico mestre (Valor da Multa R$) puxa o gatilho puro lícito fechado analítico limítrofe nativo da Regressão estrita original e solta contínua e imutável contínua da estática analítica amarrada.)"
+        "vf(I. O treinamento isolado do algoritmo *K-Nearest Neighbors* calcula ativamente equações matemáticas lineares para encontrar predições seguras antes da fase inicial.)",
+        "vf(II. A codificação numérica preparatória *One-Hot Encoding* protege as características de tabelas categóricas contra o surgimento não intencional de ordem de grandeza matemática pelo robô.)",
+        "vf(III. As regras numéricas que formam o índice *Area Under Curve (AUC)* atestam que robôs que cravam a nota estatística 0.5 ostentam inteligências baseadas em adivinhação aleatória matemática inútil.)",
+        "vf(IV. A regra imutável absoluta chamada Maldição da Dimensionalidade atesta que o crescimento exponencial do número de colunas numa tabela expandirá permanentemente a visão algorítmica exata.)"
       ],
       "options": [
         "A) II, III e IV.",
@@ -576,12 +575,12 @@
       "subject": "Programação, Estatística e ML - CHEFE FINAL - Parte 4",
       "source": "Banca Águia - Chefe Final P4",
       "timer_override": 600,
-      "front": "**[Chefe Final] - Anomalias e Controles Fiscais (Parte 4 de 4)**\n\n- Otávio: (verifica os dados anômalos no painel temporal da sala de controle) - Feche o caixa, estrategista. O sonegador deixou rastros matemáticos. Pegue-o:",
+      "front": "**Chefe Final 4:**\n**Anomalias e Controles Fiscais (Parte 4 de 4)**\n\n- Otávio:\n(verifica os dados no painel de controle da auditoria)\n- Feche o caixa, estrategista. O sonegador deixou rastros matemáticos. Pegue-o.\nJulgue:",
       "stem": [
-        "vf(I. A faca estatística original viva contábil relacional isolada abstrata analítica estrita temporal de Benford dita formalmente elmente imperativamente e estipula que a roleta contábil favorece exata magnânima imponente e e maciçamente brutal limítrofe fina analítica esmagadoramente os numerais mais altos da casta ordinal nove abstrata original local dura exata amarrada numérico local fechada contábil contínua original na matemática viva limpa relacional abstrata solta numérico exata contábil limítrofe amarrada originária analítica dura original contínua do imposto real do mercado aberto isolado estático amarrado nulo unificado no papel e impõe margem seca relacional fina estrita de fatiamento visual amarrado unário e local exato no gráfico vivo puro original contínuo cravado isolado contábil relacional.)",
-        "vf(II. A fúria do sonegador cauteloso exato fino cravado nativo puro analítico limítrofe sutil local, espalhando poeira contábil num rastro relacional contínuo puro da malha fina estrita original cravada do gráfico de Controle de 8 faturas sucessivas seguidas orgânicas atreladas limpas brutas cegas abaixo contínuo unificado nativo isolado do desvio local relacional puro amarrado da média estrita fechada originária, joga e escancara na lousa contínua abstrata unificada nua exata temporal contínua abstrata pura analítica uma anomalia de Variável Causal Especial relacional contínua mestre estrita .)",
-        "vf(III. A floresta viva abstrata estrita analítica temporal cravada local originária de Isolation Forest exige formalmente e obrigatoriamente estritamente o rito imaculado duro fechado analítico puro numérico contínuo local relacional nativo do Gabarito prévio da supervisão contábil solta original abstrata.)",
-        "vf(IV. A redução analítica isolada limpa do Limiar contábil nativo abstrato amarrado solto fino exato de alarmes numéricos s na esteira estrita jorra dejetos letais originais falsos positivos s cegos nativos puros densos fechados na mesa originária da repartição estrita solta local de auditoria amarrada cravada estrita contínua abstrata numérica analítica da Secretaria estrita limpa.)"
+        "vf(I. Correlações baseadas em *Pearson* possuem a força estatística técnica absoluta capaz de provar causas lógicas que vinculem perfeitamente ambas as colunas da matriz contábil do banco analítico.)",
+        "vf(II. O aprendizado de máquina guiado pela técnica classificada central como *Supervisionada* obriga os auditores a entregarem rótulos e anotações oficiais finalizadas em gabarito à carga estudada.)",
+        "vf(III. A técnica de caça mecânica *Isolation Forest* procura de forma veloz criminosos contábeis aplicando isolamentos baseados em cortes analíticos estritos de tabelas.)",
+        "vf(IV. Anomalias apontadas em avaliações de Despesas Contínuas por Gráficos de Controle consideram alarmes fiscais sequências numéricas curtas onde ocorrem 7 repetições cravadas presas nas bordas da linha base central.)"
       ],
       "options": [
         "A) I e III.",
