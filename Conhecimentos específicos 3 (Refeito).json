@@ -146,7 +146,7 @@
       "subject": "Engenharia de Dados - Boss Intermediário 1",
       "source": "Banca Águia - Boss Intermediário 1",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - Validação Engenharia**\n\nNesta etapa, demonstre seu conhecimento sobre a carga física, modelagem lógica e comandos do Apache Spark. Julgue:",
+      "front": "**Chefe Intermediário 1:**\n**Validação Engenharia**\n\n- Otávio:\n(Nesta etapa, demonstre seu conhecimento sobre a carga física, modelagem lógica e comandos do Apache Spark.)\n- Vamos validar a sua base.\nJulgue:",
       "stem": [
         "vf(I. Na linguagem Apache Spark, se duas tabelas possuem as mesmas chaves estrangeiras repetidas na base, a função Join efetuará a interseção descartando as repetições e mantendo apenas uma linha por chave.)",
         "vf(II. Uma arquitetura de dados que elimina a linha de processamento de lotes antigos (Batch) e realiza todo o cálculo lendo apenas informações contínuas em tempo real (streaming) é denominada arquitetura Kappa.)",
@@ -228,8 +228,13 @@
       "subject": "Governança de Dados - Qualidade",
       "source": "Banca Águia - Q125",
       "timer_override": 180,
-      "front": "**Questão 125:**\n\nNa avaliação da qualidade dos dados de fiscalização, a equipe registrou quatro ocorrências:\n(1) o endereço dos estabelecimentos está preenchido em todos os registros e segue o padrão definido, mas as diligências de campo mostraram que parte deles não funciona no endereço registrado;\n(2) o painel de arrecadação exibe os pagamentos corretos e completos, mas com dois dias de defasagem, embora a fiscalização precise dos dados do dia anterior;\n(3) há notas fiscais cujo emitente, identificado pela inscrição estadual, não consta do cadastro de contribuintes;\n(4) o mesmo estabelecimento aparece em dois registros do cadastro, com a mesma inscrição estadual e os mesmos dados.\n\nAcerca dessas ocorrências, é correto afirmar que:",
-      "stem": [],
+      "front": "**Questão 125:**\n\nNa avaliação da qualidade dos dados de fiscalização, a equipe registrou quatro ocorrências. Acerca dessas ocorrências, é correto afirmar que:",
+      "stem": [
+        "(1) o endereço dos estabelecimentos está preenchido em todos os registros e segue o padrão definido, mas as diligências de campo mostraram que parte deles não funciona no endereço registrado;",
+        "(2) o painel de arrecadação exibe os pagamentos corretos e completos, mas com dois dias de defasagem, embora a fiscalização precise dos dados do dia anterior;",
+        "(3) há notas fiscais cujo emitente, identificado pela inscrição estadual, não consta do cadastro de contribuintes;",
+        "(4) o mesmo estabelecimento aparece em dois registros do cadastro, com a mesma inscrição estadual e os mesmos dados."
+      ],
       "options": [
         "A) a ocorrência 1 configura falha de validade.",
         "B) a ocorrência 2 configura falha de consistência.",
@@ -264,7 +269,7 @@
       "subject": "Governança de Dados - Boss Intermediário 2",
       "source": "Banca Águia - Boss Intermediário 2",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - Qualidade e Metodologia DW**\n\nVocê já mapeou a linhagem. Julgue de forma cirúrgica as dependências lógicas e os processos analíticos aplicados em governança:",
+      "front": "**Chefe Intermediário 2:**\n**Qualidade e Metodologia DW**\n\n- Otávio:\n(Você já mapeou a linhagem.)\n- Julgue de forma cirúrgica as dependências lógicas e os processos analíticos aplicados em governança.\nJulgue:",
       "stem": [
         "vf(I. A substituição estatística sistemática de buracos de campo pela utilização do cálculo médio numérico da coluna atua positivamente garantindo a manutenção estável do espalhamento natural original dos dados, não afetando de forma expressiva o gráfico final.)",
         "vf(II. Uma equipe que reporta como erro o preenchimento válido contábil de um código postal (CEP), constatando tratar-se de um terreno sem construção física fora do sistema, evidencia uma falha estritamente classificada pela governança corporativa como quebra da dimensão de Precisão (Accuracy).)",
@@ -387,7 +392,7 @@
       "subject": "Business Intelligence - Boss Intermediário 3",
       "source": "Banca Águia - Boss Intermediário 3",
       "timer_override": 400,
-      "front": "**[Chefe Intermediário] - DAX, Power Query e Metadados**\n\nA visualização e a auditoria em Power BI exigem raciocínio iterador. Julgue a arquitetura:",
+      "front": "**Chefe Intermediário 3:**\n**DAX, Power Query e Metadados**\n\n- Otávio:\n(A visualização e a auditoria em Power BI exigem raciocínio iterador.)\n- Julgue a arquitetura.\nJulgue:",
       "stem": [
         "vf(I. Na linguagem DAX, a medida que carrega o sufixo X (como SUMX) realiza cálculos matemáticos percorrendo a tabela linha por linha de forma isolada antes de agrupar o montante, enquanto os agregadores comuns operam no bloco inteiro de uma vez.)",
         "vf(II. A função de Power Query List.Accumulate dispensa o uso de um estado ou valor inicial numérico, operando apenas o somatório simples dos dados.)",
@@ -451,7 +456,7 @@
       "subject": "Data Warehouse, Engenharia e BI - CHEFE FINAL - Parte 1",
       "source": "Banca Águia - Chefe Final P1",
       "timer_override": 600,
-      "front": "**[Chefe Final] - Engenharia Pesada (Parte 1 de 4)**\n\n- Otávio: (inicia o console do servidor) - Acabou o aquecimento. Julgue os preceitos de carga e modelagem:",
+      "front": "**Chefe Final 1:**\n**Engenharia Pesada**\n\n- Otávio:\n(Inicia o console do servidor)\n- Acabou o aquecimento. Julgue os preceitos de carga e modelagem.\nJulgue:",
       "stem": [
         "vf(I. A multiplicação do Produto Cartesiano parcial em um comando Left Join com chaves repetidas resulta em explosão de linhas da tabela Fato.)",
         "vf(II. A exigência de apontar para a Dimensão Calendário por múltiplas frentes (como emissão e vencimento) na tabela Fato obriga a criação de tabelas físicas separadas para evitar colapso na junção do modelo.)",
@@ -474,7 +479,7 @@
       "subject": "Data Warehouse, Engenharia e BI - CHEFE FINAL - Parte 2",
       "source": "Banca Águia - Chefe Final P2",
       "timer_override": 600,
-      "front": "**[Chefe Final] - Data Quality & Linha do Tempo (Parte 2 de 4)**\n\n- Otávio: (aponta os erros no monitor) - Cace as quebras da governança. Julgue:",
+      "front": "**Chefe Final 2:**\n**Data Quality & Linha do Tempo**\n\n- Otávio:\n(Aponta os erros no monitor)\n- Cace as quebras da governança.\nJulgue:",
       "stem": [
         "vf(I. A ausência de preenchimento intencional de campos de renda pelas faixas altas da população anula a utilidade de se adotar a exclusão das linhas (remoção listwise), pois a remoção enviesará artificialmente a métrica geral.)",
         "vf(II. Os acordos formais de contratos de dados (Data Contracts) exigem a penalização sobre as alterações estruturais do Consumidor da tabela do painel final de BI, eximindo o Produtor da origem.)",
@@ -497,7 +502,7 @@
       "subject": "Data Warehouse, Engenharia e BI - CHEFE FINAL - Parte 3",
       "source": "Banca Águia - Chefe Final P3",
       "timer_override": 600,
-      "front": "**[Chefe Final] - DAX, Power Query e BI Analytics (Parte 3 de 4)**\n\n- Otávio: (Digita as métricas da dashboard) - O front-end da nossa inteligência. Aqui as medidas decidem o repasse tributário de SC. Julgue:",
+      "front": "**Chefe Final 3:**\n**DAX, Power Query e BI Analytics**\n\n- Otávio:\n(Digita as métricas da dashboard)\n- O front-end da nossa inteligência. Aqui as medidas decidem o repasse tributário de SC.\nJulgue:",
       "stem": [
         "vf(I. A função iteradora de listas List.Accumulate na linguagem M demanda a adoção de um estado ou valor base matemático inicial fornecido diretamente (semente) na sua sintaxe.)",
         "vf(II. A barra de subtotal e total no visual da matriz no Power BI com a função SUMX refaz e recalcula a fórmula matemática despida dos filtros contextuais locais da região da linha atrelada (Contexto de Filtro).)",
@@ -520,7 +525,7 @@
       "subject": "Data Warehouse, Engenharia e BI - CHEFE FINAL - Parte 4",
       "source": "Banca Águia - Chefe Final P4",
       "timer_override": 400,
-      "front": "**[Chefe Final] - Dataviz e Análise Financeira (Parte 4 de 4)**\n\n- Otávio: (fecha o notebook na sala de controle) - Para entregar o painel ao Secretário da Fazenda, valide o último pilar de Dataviz e da mecânica contábil. Julgue:",
+      "front": "**Chefe Final 4:**\n**Dataviz e Análise Financeira**\n\n- Otávio:\n(Fecha o notebook na sala de controle)\n- Para entregar o painel ao Secretário da Fazenda, valide o último pilar de Dataviz e da mecânica contábil.\nJulgue:",
       "stem": [
         "vf(I. A distribuição orgânica visual da massa de dados identificando a assimetria e blocos concentrados de números acha a sua correspondência adequada utilizando a ferramenta gráfica dos gráficos de Histograma.)",
         "vf(II. O método analítico contábil financeiro da Curva ABC obriga a limitação da quantidade fixa exata de fornecedores selecionados ao número restrito máximo de 20%, ignorando assim o volume matemático imposto na soma agregada do caixa monetário da instituição.)"
