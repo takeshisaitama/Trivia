@@ -50,9 +50,10 @@ Na construção de textos, **não adote presunção de conhecimento prévio do c
 
 ## 8. Novas Regras de Enunciado e Formatação de Chefes
 
-### Uso do `stem` para Itens Enumerados Sem V/F
-Quando uma questão (comum ou chefe) possuir uma lista de afirmações ou itens numerados (ex: (1), (2), (3), (4) ou I, II, III) que NÃO são avaliados individualmente como Certo/Errado pelos botões interativos (por exemplo, quando o usuário tem que escolher a alternativa que diz qual tipo de falha cada item configura), esses itens **devem** ser alocados dentro do array `stem`.
-Entretanto, nestes casos em que a questão não possui interação V/F, os itens **NÃO devem ser encapsulados na tag `vf()`**. Devem ser inseridos como strings limpas dentro do array `stem`.
+### Uso do `stem` para Itens Enumerados com ou sem V/F
+A regra geral é **SEMPRE** utilizar o botão de Verdadeiro ou Falso (`vf()`) para itens enumerados (I, II, III).
+- Se a questão avaliar se os itens são verdadeiros ou falsos (ex: nas alternativas diz "Apenas I e II estão corretas", ou "I é verdadeira e II é falsa", ou "V, V, F, F"), os itens **DEVEM** obrigatoriamente ser encapsulados com `vf()` dentro do `stem`.
+- O único caso em que os itens enumerados devem ser colocados no `stem` **sem** a tag `vf()` é quando a questão não tem relação com certo/errado, mas sim pede uma correlação direta (Ex: "A ocorrência 1 configura falha de X, a ocorrência 2 configura falha de Y"). Apenas neste cenário muito específico de correlação/associação, a tag `vf()` é dispensada.
 
 ### Estrutura do Enunciado (`front`) para Chefes (Intermediários e Finais)
 O título e a apresentação dos Chefes (com exceção do Tutorial) no campo `front` devem seguir um padrão rígido de espaçamento e negrito, abandonando a linha única contínua.
