@@ -24,6 +24,14 @@ Na construção de textos, **não adote presunção de conhecimento prévio do c
     *   *Exemplo Prático:* Se um bloco tem 9 questões, não crie um Chefe Final abrangendo apenas as 4 primeiras questões e omitindo as restantes. Crie dois cards: "Chefe Final - Parte 1" (cobrindo as questões 1 a 5) e "Chefe Final - Parte 2" (cobrindo as questões 6 a 9). **O fechamento da matéria deve recuperar ativamente 100% das questões do simulado.**
 
 ### Literalidade e Analogias Concretas (Neurodidática Avançada)
+
+### Tolerância ZERO para "Salada de Palavras" e Excesso de Adjetivos
+O texto deve ser obrigatoriamente seco, telegráfico, literal e estritamente gramatical.
+É **Rigorosamente Proibido** aglomerar múltiplos adjetivos, jargões sem sentido ou utilizar linguagem poética/abstrata para tentar tornar o texto "bonito" ou "forte".
+**Palavras proibidas no sentido figurado e proibidas de serem aglomeradas de forma exagerada:** `orgânico, bruto, nativo, purista, limítrofe, estático, cego, mestre, absoluto, letal, cru, geométrico, abissal, estrito`.
+*   *Incorreto (Aberração Gramatical):* "A faca geométrica mestre estática purista algorítmica de Levenshtein ignora falhas estritamente finas de transposição..."
+*   *Correto (Literal e Telegráfico):* "O algoritmo clássico de Levenshtein ignora a transposição humana, cobrando 2 substituições por uma letra invertida."
+
 1. **Termos Subjetivos e Poéticos SÃO PROIBIDOS:** Nunca utilize adjetivos ou metáforas que exijam abstração interpretativa (ex: usar "tesoura fria" para *Coalesce*, "furacão" para *Repartition*, "ajusante/downstream" para *Linhagem*, ou "panaceia mastodôntica"). O cérebro neurodivergente (TEA/TDAH) precisa da imagem mecânica e literal: 
    - *Correto:* "Coalesce junta blocos vizinhos sem gastar rede da internet. Repartition reorganiza todos os blocos enviando dados pela rede."
 2. **Definição de Jargões Embutidos:** Se para explicar um conceito você precisa usar outro conceito complexo, **defina-o imediatamente em parênteses ou em uma frase anexa**.
