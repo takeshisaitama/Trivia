@@ -45,3 +45,32 @@ Na construção de textos, **não adote presunção de conhecimento prévio do c
 ### A Tag "!Break para Respirar!" e Relevância do Otávio
 - A tag secundária `~Otávio~` que reside dentro do `!Break para Respirar!` não pode ser uma frase genérica inútil de motivação barata (ex: "Continue estudando e você vai passar!").
 - Ela deve OBRIGATORIAMENTE entregar uma **Dica Estratégica de Alto Valor (High-Yield)** sobre a natureza da prova, o estilo da banca, a mecânica da matéria ou como resolver aquele problema em ambiente de pressão. O conteúdo deve ser tão valioso que a sua remoção causaria perda educacional real para o aluno.
+
+---
+
+## 8. Novas Regras de Enunciado e Formatação de Chefes
+
+### Uso do `stem` para Itens Enumerados com ou sem V/F
+A regra geral é **SEMPRE** utilizar o botão de Verdadeiro ou Falso (`vf()`) para itens enumerados (I, II, III).
+- Se a questão avaliar se os itens são verdadeiros ou falsos (ex: nas alternativas diz "Apenas I e II estão corretas", ou "I é verdadeira e II é falsa", ou "V, V, F, F"), os itens **DEVEM** obrigatoriamente ser encapsulados com `vf()` dentro do `stem`.
+- O único caso em que os itens enumerados devem ser colocados no `stem` **sem** a tag `vf()` é quando a questão não tem relação com certo/errado, mas sim pede uma correlação direta (Ex: "A ocorrência 1 configura falha de X, a ocorrência 2 configura falha de Y"). Apenas neste cenário muito específico de correlação/associação, a tag `vf()` é dispensada.
+
+### Estrutura do Enunciado (`front`) para Chefes (Intermediários e Finais)
+O título e a apresentação dos Chefes (com exceção do Tutorial) no campo `front` devem seguir um padrão rígido de espaçamento e negrito, abandonando a linha única contínua.
+Exemplo de formato obrigatório (note as quebras de linha `\n` separando cada elemento):
+
+```json
+"**Chefe Final 3:**\n**DAX, Power Query e BI Analytics**\n\n- Otávio:\n(Digita as métricas da dashboard)\n- O front-end da nossa inteligência. Aqui as medidas decidem o repasse tributário de SC.\nJulgue:"
+```
+
+- **Primeira linha:** `**[Tipo do Chefe] [Número/Parte]:**`
+- **Pula linha (ir para linha de baixo):** `\n`
+- **Assunto:** `**[Assunto]**`
+- **Pula linha (deixa uma linha em branco inteira de distância):** `\n\n`
+- **Persona:** `- Otávio:`
+- **Pula linha (ir para linha de baixo):** `\n`
+- **Ação:** `(Ação descritiva do personagem entre parênteses)`
+- **Pula linha (ir para linha de baixo):** `\n`
+- **Fala:** `- Fala do personagem.`
+- **Pula linha (ir para linha de baixo):** `\n`
+- **Encerramento:** `Julgue:` (ou similar, terminando com dois pontos).
