@@ -54,8 +54,7 @@ A linguagem do verso **NÃO PODE** ser robótica, rebuscada ou pedante. Você de
 
 ### Matemática, Estatística e Exatas (O Nível Iniciante Absoluto / Totalmente Mastigado)
 - Assuma que o leitor é **100% leigo ("explique de um jeito que até um macaco entenderia")**.
-- **NÃO PULE ETAPAS MENTAIS.** Explique de onde surgiu a fórmula, o que significa cada letra (ex: *o que é o 'd' na Lei de Benford?*) e mostre a conta linha por linha. Em Exatas, é permitido e exigido que o verso seja mais longo, separando cada passagem matemática com `
-` e rótulos do tipo **Passo 1**, **Passo 2**.
+- **NÃO PULE ETAPAS MENTAIS.** Explique de onde surgiu a fórmula, o que significa cada letra (ex: *o que é o 'd' na Lei de Benford?*) e mostre a conta linha por linha. Em Exatas, é permitido e exigido que o verso seja mais longo, separando cada passagem matemática com `\n` e rótulos do tipo **Passo 1**, **Passo 2**.
 
 ### A Regra da Integralidade do Boss Tutorial
 - O "Boss Tutorial" é a fundação do bloco de questões. Quando solicitado para criar ou revisar um Boss Tutorial, a IA deve **SEMPRE gerar o card completo**, do primeiro ao último item solicitado (geralmente entre 10 e 20 itens). 
@@ -122,20 +121,12 @@ A Teoria serve para explicar o conceito do zero antes de o aluno ler por que ele
 - **Proporcionalidade:** Se a questão fala de A e B, a Teoria deve explicar A e B com a mesma profundidade.
 - **Nos Chefes:** É **PROIBIDO** deixar a Teoria apenas citando os temas (ex: "Revisão de Benford e Clustering"). Você deve enumerar e **explicar rapidamente** cada conceito cobrado no Chefe.
 - **Numeração:** Só use `**1) ...**`, `**2) ...**` se houver mais de um conceito. Se houver apenas 1, não numere.
-- **Quebras de Linha (`
-` vs `
-
-`):** Após o título em negrito de um subtópico na Teoria, aplique um único `
-` para que a explicação comece na linha de baixo (nunca na mesma linha). Use `
-
-` apenas para separar blocos distintos.
+- **Quebras de Linha (`\n` vs `\n\n`):** Após o título em negrito de um subtópico na Teoria, aplique um único `\n` para que a explicação comece na linha de baixo (nunca na mesma linha). Use `\n\n` apenas para separar blocos distintos.
 
 ### Formato Imutável de `~Gabarito~` e `~Gentalha~`
 - **1ª linha:** Reescreva o texto exato da alternativa/assertiva. (Evita que o aluno precise voltar o card para ler).
-- **2ª linha:** Pule uma linha (`
-`) e escreva `**> CERTO <**` ou `**> ERRADO <**`.
-- **3ª linha:** Pule uma linha (`
-`) e forneça a explicação clara.
+- **2ª linha:** Pule uma linha (`\n`) e escreva `**> CERTO <**` ou `**> ERRADO <**`.
+- **3ª linha:** Pule uma linha (`\n`) e forneça a explicação clara.
 - Nos Chefes, separe claramente as análises de cada item (I, II, III, IV) para consulta rápida.
 ### CLÁUSULA PÉTREA da `!Regra de Bolso!` -> `~Lógica~` (Quantidade 1-para-1)
 É **Rigorosamente Proibido** fazer apenas 1 item genérico na Lógica se a questão cobrou vários conceitos.

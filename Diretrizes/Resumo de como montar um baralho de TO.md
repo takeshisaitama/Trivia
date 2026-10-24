@@ -46,7 +46,7 @@ Cada questão no Trivia Otávio é representada por um objeto JSON dentro de uma
 - O aplicativo **NÃO SUPORTA LaTeX**. Tudo deve ser transcrito em texto puro.
 - Substituições obrigatórias:
   - Potências: use o acento circunflexo (ex: `0,9^9`).
-  - Multiplicação e divisão: use asterisco/x (`*`, `x`) e barra (`/`).
+  - Multiplicação e divisão: use OBRIGATORIAMENTE a estrela especial `⋆` para multiplicação (nunca `*` ou `x`) e a barra (`/`) para divisão.
   - Fatorial: Escreva a palavra ou sigla `FAT` (ex: `FAT 5`).
   - Aproximação: Use til (`~`).
   - Combinações: `C(8,3)`.
@@ -100,6 +100,11 @@ Nas seções `~Gabarito~` ou `~Gentalha~`, a explicação de uma afirmativa espe
 3. Outro `\n` e então a explicação do motivo.
 4. Duplo `\n` (`\n\n`) antes da próxima afirmação.
 
+**Formato Imutável de `~Gabarito~` e `~Gentalha~` (3 linhas):**
+- **1ª linha:** Reescreva o texto exato da alternativa/assertiva (evita virar o card).
+- **2ª linha:** Pule uma linha (`\n`) e escreva `**> CERTO <**` ou `**> ERRADO <**`.
+- **3ª linha:** Pule uma linha (`\n`) e forneça a explicação mastigada.
+
 **Exemplo de string JSON para Gabarito:**
 ```json
 "**1ª afirmação (V).**\n**> CERTO <**\nA fração amostral global é de proporção 120 / 2.400.\n\n**2ª afirmação (F).**\n**> ERRADO <**\nEsta técnica na verdade não funciona assim."
@@ -151,9 +156,9 @@ As interações da Inteligência Artificial devem assumir o personagem do "Mestr
 ### Obrigatoriedade das Tags Principais
 O verso do card é composto por tags primárias (ex: `!Otávio!`) e secundárias (ex: `~Teoria~`).
 - `!Otávio!`: Obrigatório. Suas tags secundárias são `~Teoria~` (obrigatória e pode ter múltiplos itens), `~Gabarito~` e `~Gentalha~`.
-- `!Regra de Bolso!`: **OBRIGATÓRIO EM TODOS OS CARDS**. Deve conter a tag secundária `~Lógica~` no formato de silogismo lógico (Ex: **1) SE** X, **ENTÃO** Y).
-- `!Interpretando a Banca!`: **Obrigatório em questões comuns** (não vai nos chefes). Não use frases genéricas óbvias (ex: "Atenção nas crases"). Seja cirúrgico: explique exatamente a pegadinha nuclear daquela questão com base no material fornecido.
-- `!Break para Respirar!`: Vai em TODOS os Bosses e, em cartas normais, APENAS naquelas com alto nível de dificuldade (conforme extraído do comentário da resolução). Comece o texto na linha seguinte sem hífens.
+- `!Regra de Bolso!`: **OBRIGATÓRIO EM TODOS OS CARDS**. Deve conter a tag secundária `~Lógica~` no formato de silogismo lógico. **Cláusula Pétrea:** Você deve criar no mínimo 1 regra "SE... ENTÃO..." para CADA conceito abordado na questão.
+- `!Interpretando a Banca!`: **Exclusivo para armadilhas específicas da banca naquela questão** (ex: trocar a palavra X por Y). Não use nos Chefes, a menos que o Chefe foque em uma armadilha clássica.
+- `!Break para Respirar!`: Vai em TODOS os Bosses e nas cartas de alto nível de dificuldade. Função: O Otávio dará macetes, analogias do cotidiano ou "Foreshadowing" (dicas para preparar o candidato para o próximo card sem revelar o gabarito). Comece na linha seguinte sem hífens.
 
 ---
 
@@ -235,6 +240,8 @@ O 'front' deve seguir uma estrutura narrativa precisa para máxima imersão.
 **Objetivo Primário:** Transformar o verso em uma micro-aula completa e autossuficiente. O aluno deve atingir a compreensão total do assunto sem lacunas, partindo do "Zero Absoluto".
 
 **3.3.1. Diretrizes de Tom e Conteúdo:**
+* **Proibido "Sopa de Adjetivos":** É rigorosamente banido aglomerar jargões e adjetivos rebuscados (ex: "fita contígua orgânica limítrofe"). Explique como se conversasse num bar.
+* **Tradução Imediata de Jargão:** Use Sujeito + Verbo + Complemento. Traduza os jargões instantaneamente em parênteses.
 * **Explicação Sem Lacunas:** É proibido deixar termos técnicos sem definição.
 * **Fidelidade às Tags:** As tags estruturais são permanentes e obrigatórias para manter a imersão e organização: `!Otávio!`, `~Aprofundamento Gold~` (ou `~Teoria~`), `~Casca de Banana~`, `!Regra de Bolso!`, `~Lógica~`, `!Interpretando a Banca!`, `!Break para Respirar!`.
 
