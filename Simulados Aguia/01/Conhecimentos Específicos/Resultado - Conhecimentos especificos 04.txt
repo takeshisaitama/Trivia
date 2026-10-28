@@ -1,0 +1,192 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 28
+Acertos: 12
+Erros: 11
+Pulos: 3
+Time Out: 1
+Pontuação Líquida: 1
+Desempenho: 4%
+Resultado: Reprovado
+
+--- CARD 1 ---
+Questão: **Boss Tutorial:** **Programação, Ciência e Aprendizado de Máquina**  **- Otávio:** (aponta para o editor de código e os gráficos de dispersão na lousa digital) - Mente brilhante, a engenharia de dados precisa de códigos rápidos e fórmulas matemáticas precisas. O seu sucesso na Banca Águia depende de dominar Python, Estatística e Algoritmos do zero ao avançado. Leia o mapa da mina abaixo antes de enfrentar as questões:  
+Status: ✅ Acertou | Tempo: 520s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Questão 134:**  Considere o código em Python a seguir.  *def pares(v):*     *for x in v:*         *if x % 2 == 0:*             *yield x*  *g = pares([3, 8, 10, 7, 30])* *a = sum(g)* *b = sum(g)* *print(a, b)*  Após a execução, é exibido:
+Status: ✅ Acertou | Tempo: 126s | Avaliação: Não Avaliada
+Assinalou: D) 48 0.
+Gabarito: D
+
+--- CARD 3 ---
+Questão: **Questão 135:**  Considere o código em Python, com a biblioteca pandas, a seguir.  *import pandas as pd* *df = pd.DataFrame({*     *"uf": ["SC", "SC", "PR", "SC", "PR"],*     *"v": [100, 300, 200, 650, 260]* *})* *df["m"] = (df.groupby("uf")["v"].transform("mean"))* *r = df[df["v"] > df["m"]]* *print(len(r), r["v"].sum())*  Após a execução, é exibido:
+Status: 💩 Não sabia | Tempo: 239s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: A
+
+--- CARD 4 ---
+Questão: **Questão 136:**  Considere o código em Python, com a biblioteca NumPy, a seguir.  *import numpy as np* *a = np.array([4, 5, 0, 13, 3, 5])* *c = np.cumsum(a)* *i = np.argmax(c > 20)* *print(i, c[i], c[-1])*  Após a execução, é exibido:
+Status: ❌ Errou | Tempo: 176s | Avaliação: Não Avaliada
+Assinalou: C) 3 13 30.
+Gabarito: B
+
+--- CARD 5 ---
+Questão: **Questão 137:**  Acerca de tratamento de exceções, de arquivos e de dados em Python 3, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ❌ Errou | Tempo: 151s | Avaliação: Não Avaliada
+Assinalou: E) F, F, F, V.
+Gabarito: B
+> Ferramentas: A: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 6 ---
+Questão: **Chefe Intermediário 1:** **Geradores, Pandas Transform, NumPy e Exceções em Python**  - Otávio: (abre a interface do interpretador Python) - Vamos revisar os fundamentos de código que acabamos de treinar nas questões 134 a 137. Prove que você dominou cada regra com os testes abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 256s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: B
+
+--- CARD 7 ---
+Questão: **Questão 138:**  Uma rotina em Python confere se o CNPJ do emitente de cada uma de c(2 milhões de notas fiscais) consta de uma relação de c(300 mil CNPJs) de empresas declaradas inidôneas, carregada de um arquivo. Acerca da c(estrutura de dados) para guardar essa relação, é correto afirmar que:
+Status: ❌ Errou | Tempo: 157s | Avaliação: Não Avaliada
+Assinalou: A) a lista ordenada permite verificar a pertinência com o operador in em tempo logarítmico, porque o interpretador detecta a ordenação e aplica a busca binária.
+Gabarito: D
+> Ferramentas: A: 📌 Fixada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 8 ---
+Questão: **Questão 139:**  Um c(vetor ordenado) contém c(1.000.000) de números de processos administrativos fiscais, sem repetição. Acerca da c(busca de um número) nesse vetor, é correto afirmar que:
+Status: ❌ Errou | Tempo: 146s | Avaliação: Não Avaliada
+Assinalou: D) ordenar um vetor desordenado para fazer uma busca binária compensa mesmo quando haverá uma busca, porque a ordenação custa menos que a busca sequencial.
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | D: 📌 Fixada
+
+--- CARD 9 ---
+Questão: **Questão 140:**  Julgue os itens a seguir, relativos à c(programação orientada a objetos em Python).
+Status: ❌ Errou | Tempo: 167s | Avaliação: Não Avaliada
+Assinalou: D) III e IV.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 10 ---
+Questão: **Questão 141:**  Um modelo de regressão estimou a arrecadação de ICMS de cinco municípios em um mês, em milhões de reais. A tabela a seguir traz os valores arrecadados e os previstos.  {{img:C:/Users/ACER/Documents/GitHub/Trivia/Simulados Aguia/01/Conhecimentos Específicos/IMG/Q141.png|100%|Tabela Previsões}}  O c(erro absoluto médio) e a c(raiz do erro quadrático médio) das previsões, em milhões de reais, são, respectivamente:
+Status: ❌ Errou | Tempo: 172s | Avaliação: Não Avaliada
+Assinalou: B) 2,2 e 9.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | C: ✂️ Cortada
+
+--- CARD 11 ---
+Questão: **Questão 142:**  Uma equipe de auditoria inicia um projeto de ciência de dados para priorizar os contribuintes a fiscalizar, conduzido segundo o modelo c(CRISP-DM). Acerca das c(fases desse ciclo de vida), é correto afirmar que:
+Status: ✅ Acertou | Tempo: 117s | Avaliação: Não Avaliada
+Assinalou: E) o entendimento do negócio define os objetivos e os critérios de sucesso, e a avaliação verifica se o modelo os atende antes da implantação.
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 12 ---
+Questão: **Chefe Intermediário 2:** **Estruturas de Dados, Busca Binária, CRISP-DM e Métricas de Erro**  - Otávio: (cruza os braços observando o painel de performance) - Vamos revisar os algoritmos de busca, métricas de regressão e o ciclo CRISP-DM vistos nas questões 138 a 142. Prove que você dominou cada conceito com os testes abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 110s | Avaliação: Não Avaliada
+Assinalou: A) V, F, F, V.
+Gabarito: C
+
+--- CARD 13 ---
+Questão: **Questão 143:**  Julgue os itens a seguir, relativos a c(algoritmos de aprendizado de máquina baseados em distância).
+Status: ✅ Acertou | Tempo: 137s | Avaliação: Não Avaliada
+Assinalou: C) IV.
+Gabarito: C
+
+--- CARD 14 ---
+Questão: **Questão 144:**  Em uma base de notas fiscais, c(10% apresentam alguma irregularidade). Selecionam-se ao acaso c(quatro notas), de forma c(independente). As probabilidades de que c(exatamente uma) das quatro notas seja irregular e de que c(pelo menos uma) delas seja irregular são, aproximadamente e respectivamente:
+Status: ❌ Errou | Tempo: 353s | Avaliação: Não Avaliada
+Assinalou: E) 29,2% e 70,8%.
+Gabarito: B
+
+--- CARD 15 ---
+Questão: **Questão 145:**  Um c(classificador probabilístico) atribui a cada nota fiscal a probabilidade de fraude, e a nota é sinalizada quando a probabilidade supera um c(limiar). Acerca da c(avaliação desse classificador), é correto afirmar que:
+Status: 💩 Não sabia | Tempo: 151s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: C
+> Ferramentas: B: ✂️ Cortada
+
+--- CARD 16 ---
+Questão: **Chefe Intermediário 3:** **KNN, Probabilidade Binomial, Curva ROC e Scikit-Learn**  - Otávio: (ajusta o gráfico de dispersão e a curva ROC no painel) - Vamos revisar os algoritmos de distância, probabilidades e métricas de avaliação que estudamos. Prove que você dominou cada conceito julgando os testes abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 155s | Avaliação: Não Avaliada
+Assinalou: B) F, V, F, V.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 17 ---
+Questão: **Questão 146:**  Na análise exploratória de uma base de contratos, o auditor examina a c(associação entre pares de variáveis numéricas). Acerca das medidas e das técnicas aplicáveis, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 233s | Avaliação: Não Avaliada
+Assinalou: A) o coeficiente de correlação de Pearson mede a associação linear, e um valor próximo de zero não exclui uma relação forte e não linear entre as variáveis.
+Gabarito: A
+> Ferramentas: A: 📌 Fixada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 18 ---
+Questão: **Questão 147:**  Acerca da c(preparação de atributos) e do c(treinamento de modelos) com a biblioteca c(scikit-learn), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ⏲️ Time Out | Tempo: 240s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: B
+
+--- CARD 19 ---
+Questão: **Questão 148:**  A Secretaria pretende aplicar c(aprendizado de máquina) a diferentes problemas de fiscalização. Acerca da c(natureza dessas tarefas), é correto afirmar que:
+Status: ✅ Acertou | Tempo: 227s | Avaliação: Não Avaliada
+Assinalou: D) estimar o valor do imposto devido por um contribuinte a partir de dados históricos rotulados é problema de regressão, tarefa de aprendizado supervisionado.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | B: 📌 Fixada | C: ✂️ Cortada | D: 📌 Fixada | E: ✂️ Cortada
+
+--- CARD 20 ---
+Questão: **Questão 149:**  Para testar a aderência dos valores de c(2.000 pagamentos) à c(lei de Benford), o auditor calcula as quantidades esperadas de pagamentos c(segundo o primeiro dígito do valor). Considerando *log 2 ~ 0,301* e *log 3 ~ 0,477* (logaritmos decimais), as quantidades esperadas de pagamentos com c(primeiro dígito igual a 1) e com c(primeiro dígito igual a 1 ou a 2) são, respectivamente:
+Status: 💩 Não sabia | Tempo: 301s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: D
+
+--- CARD 21 ---
+Questão: **Questão 150:**  Uma equipe aplica c(técnicas de detecção de anomalias) às despesas com diárias e passagens dos servidores de um órgão, c(sem dispor de casos de fraude previamente rotulados). Acerca dessas técnicas, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 231s | Avaliação: Não Avaliada
+Assinalou: C) a floresta de isolamento aponta como anômalas as observações separadas com poucas partições aleatórias, que recebem os escores de anomalia mais altos.
+Gabarito: C
+
+--- CARD 22 ---
+Questão: **Chefe Intermediário 4:** **Aprendizado Não-Supervisionado, Distribuição Binomial, Lei de Benford e Floresta de Isolamento**  - Otávio: (fecha a análise de relatórios fiscais) - Vamos revisar os métodos de detecção de anomalias e probabilidades que estudamos até a questão 150. Prove que você entendeu cada um dos conceitos com os testes abaixo. Julgue:
+Status: ❌ Errou | Tempo: 396s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: B
+
+--- CARD 23 ---
+Questão: **Questão 151:**  Para acompanhar o valor mensal das despesas de custeio de um órgão, o auditor monta um c(gráfico de controle) com c(linha central na média) do período de referência e c(limites a três desvios-padrão). Acerca da análise de séries como essa na detecção de anomalias, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 231s | Avaliação: Não Avaliada
+Assinalou: D) pontos fora dos limites ou sequências longas do mesmo lado da linha central indicam causas especiais de variação, que devem ser investigadas.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | D: 📌 Fixada
+
+--- CARD 24 ---
+Questão: **Questão 152:**  Julgue os itens a seguir, relativos à identificação de c(inconsistências, duplicidades e fracionamentos) em bases de despesas públicas.
+Status: ❌ Errou | Tempo: 223s | Avaliação: Não Avaliada
+Assinalou: A) I, II e IV.
+Gabarito: B
+> Ferramentas: D: ✂️ Cortada
+
+--- CARD 25 ---
+Questão: **Chefe Final 1:** **Programação Python: Arquivos, Pandas Transform, Exceções e Geradores (Parte 1 de 4)**  - Otávio: (trava o terminal de código e vira o painel de auditoria) - Chegamos à revisão final do bloco. Vamos validar seu domínio sobre Python, Pandas e Geradores. Julgue cada item abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 151s | Avaliação: Não Avaliada
+Assinalou: A) I, II e IV.
+Gabarito: A
+
+--- CARD 26 ---
+Questão: **Chefe Final 2:** **NumPy Argmax, Estruturas de Busca, Busca Binária, POO, RMSE e CRISP-DM (Parte 2 de 4)**  - Otávio: (acessa os relatórios de validação e performance no sistema da Receita) - Segunda etapa da revisão final. Analise com precisão os algoritmos de busca, orientação a objetos, métricas de regressão e o ciclo CRISP-DM. Julgue:
+Status: ❌ Errou | Tempo: 267s | Avaliação: Não Avaliada
+Assinalou: A) Apenas I e II.
+Gabarito: B
+
+--- CARD 27 ---
+Questão: **Chefe Final 3:** **KNN, Probabilidade Binomial, Curva ROC e Scikit-Learn (Parte 3 de 4)**  - Otávio: (carrega os algoritmos de aprendizado de máquina na tela de avaliação) - Terceira etapa da revisão final. Avalie o funcionamento do KNN, da Distribuição Binomial, da Curva ROC e do Scikit-Learn. Julgue:
+Status: ✅ Acertou | Tempo: 317s | Avaliação: Não Avaliada
+Assinalou: D) Apenas II e III.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 28 ---
+Questão: **Chefe Final 4:** **Correlação de Pearson, Tarefas de ML, Lei de Benford, Anomalias e Controles Fiscais (Parte 4 de 4)**  - Otávio: (verifica os dados no painel de controle da auditoria) - Última etapa, estrategista. O sonegador deixou rastros estatísticos nos pagamentos. Julgue os itens finais para cravar sua aprovação. Julgue:
+Status: ❌ Errou | Tempo: 341s | Avaliação: Não Avaliada
+Assinalou: C) Apenas I, II e IV.
+Gabarito: B
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | D: ✂️ Cortada
+

@@ -1,0 +1,201 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 30
+Acertos: 20
+Erros: 6
+Pulos: 3
+Time Out: 0
+Pontuação Líquida: 14
+Desempenho: 47%
+Resultado: Reprovado
+
+--- CARD 1 ---
+Questão: **Boss Tutorial (Modo Leve):** **IA Generativa, Redes Neurais, Infraestrutura, Nuvem e Segurança**  **- Otávio:** (abre o painel de arquitetura da nuvem e o monitor de segurança) Mente brilhante, desenhei do absoluto zero os 43 conceitos que resolvem as questões 153 a 171. Leia cada regra direta abaixo antes de enfrentar a bateria:
+Status: ✅ Acertou | Tempo: 7s | Avaliação: Não Avaliada
+Assinalou: A) Mapeamento compreendido. Pode liberar as questões 153 a 171, Otávio.
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Questão 153:**  Na geração de texto, um modelo de linguagem atribuiu a três tokens candidatos os c(escores (logits) 2, 1 e 0), e a escolha do próximo token usa a c(função softmax com temperatura T). Considerando *e ≈ 2,718*, *e^0,5 ≈ 1,649*, *e^2 ≈ 7,389* e *e^4 ≈ 54,598*, a probabilidade do c(token de escore 2) com c(T = 1) e com c(T = 2) é, aproximadamente e respectivamente:
+Status: ✅ Acertou | Tempo: 91s | Avaliação: Não Avaliada
+Assinalou: B) 66,5% e 50,6%.
+Gabarito: B
+
+--- CARD 3 ---
+Questão: **Questão 154:**  Uma equipe treina uma c(rede neural profunda) para classificar documentos fiscais digitalizados. Acerca do c(treinamento dessa rede), é correto afirmar que:
+Status: ✅ Acertou | Tempo: 196s | Avaliação: Não Avaliada
+Assinalou: A) o abandono aleatório de neurônios durante o treinamento (dropout) reduz o sobreajuste, e essa técnica fica desativada na fase de inferência.
+Gabarito: A
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 4 ---
+Questão: **Questão 155:**  Acerca da c(adaptação e do uso de grandes modelos de linguagem), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ✅ Acertou | Tempo: 121s | Avaliação: Não Avaliada
+Assinalou: E) F, V, V, V.
+Gabarito: E
+
+--- CARD 5 ---
+Questão: **Questão 156:**  Um órgão de controle implantou um assistente baseado em c(modelo de linguagem) que consulta documentos internos por c(geração aumentada por recuperação) e pode c(acionar ferramentas), como a abertura de chamados. Acerca dos c(riscos de segurança) desse arranjo, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 109s | Avaliação: Não Avaliada
+Assinalou: C) um documento recuperado pode conter comandos que o modelo passa a seguir, razão para tratá-lo como não confiável e reduzir as permissões das ferramentas.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: 📌 Fixada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 6 ---
+Questão: **Chefe Intermediário 1:** **Softmax com Temperatura, Dropout, RAG, LoRA e Segurança em LLMs**  **- Otávio:** (analisa o gráfico de probabilidades dos tokens no monitor) Vamos validar os conceitos de Redes Neurais e IA Generativa das questões 153 a 156. Julgue cada item abaixo. Julgue:
+Status: ❌ Errou | Tempo: 91s | Avaliação: Não Avaliada
+Assinalou: A) V, V, V, F.
+Gabarito: B
+
+--- CARD 7 ---
+Questão: **Questão 157:**  Julgue os itens a seguir, relativos a c(redes neurais) e a c(frameworks de aprendizado profundo).
+Status: ❌ Errou | Tempo: 187s | Avaliação: Não Avaliada
+Assinalou: B) II, III e IV.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 8 ---
+Questão: **Questão 158:**  Em uma solução de geração aumentada por recuperação, um documento de c(4.100 tokens) é dividido em c(trechos de 500 tokens), com c(sobreposição de 100 tokens) entre trechos consecutivos. O modelo tem c(janela de contexto de 8.000 tokens), e cada chamada reserva c(500 tokens) para as instruções de sistema, c(100 tokens) para a pergunta e c(1.000 tokens) para a resposta. A c(quantidade de trechos gerados) a partir do documento e a c(quantidade máxima de trechos de 500 tokens que cabem em uma chamada) são, respectivamente:
+Status: ❌ Errou | Tempo: 236s | Avaliação: Não Avaliada
+Assinalou: A) 9 e 12.
+Gabarito: D
+
+--- CARD 9 ---
+Questão: **Questão 159:**  Um servidor de arquivos da Secretaria tem c(seis discos de 4 TB), e a equipe compara os arranjos c(RAID 5, RAID 6 e RAID 10). A c(capacidade útil no RAID 5), a c(capacidade útil no RAID 10) e a c(quantidade de discos que podem falhar ao mesmo tempo no RAID 6) sem perda de dados são, respectivamente:
+Status: ✅ Acertou | Tempo: 102s | Avaliação: Não Avaliada
+Assinalou: D) 20 TB, 12 TB e 2.
+Gabarito: D
+
+--- CARD 10 ---
+Questão: **Questão 160:**  Julgue os itens a seguir, relativos a c(serviços e a tecnologias de redes de computadores).
+Status: ✅ Acertou | Tempo: 185s | Avaliação: Não Avaliada
+Assinalou: B) Todos os itens estão incorretos.
+Gabarito: B
+
+--- CARD 11 ---
+Questão: **Chefe Intermediário 2:** **PyTorch Autograd, CNN, Fragmentação no RAG, RAID e Redes (PAT/VLAN/DNS)**  **- Otávio:** (verifica os cabos dos servidores de armazenamento e a topologia de rede) Vamos testar sua retenção sobre as questões 157 a 160. Julgue cada afirmação com atenção. Julgue:
+Status: ✅ Acertou | Tempo: 200s | Avaliação: Não Avaliada
+Assinalou: C) V, V, V, F.
+Gabarito: C
+
+--- CARD 12 ---
+Questão: **Questão 161:**  Uma aplicação de consulta a débitos fiscais será executada em um c(cluster Kubernetes). Acerca dos c(objetos e dos recursos dessa plataforma), é correto afirmar que:
+Status: 💩 Não sabia | Tempo: 227s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: E
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada
+
+--- CARD 13 ---
+Questão: **Questão 162:**  Uma transferência de arquivo por c(TCP) ocorre entre a Secretaria e um provedor de nuvem por um enlace de c(100 Mbit/s), com c(tempo de ida e volta de 40 ms). A c(janela de recepção) anunciada pelo destino é de c(64.000 bytes), sem a opção de escala de janela. Desprezando perdas e cabeçalhos, a c(vazão máxima da conexão) e o c(tamanho de janela necessário para aproveitar a capacidade do enlace) são, respectivamente:
+Status: 💩 Não sabia | Tempo: 244s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: E
+
+--- CARD 14 ---
+Questão: **Questão 163:**  Um sistema da Secretaria será hospedado em c(nuvem pública) e deve continuar disponível diante da c(falha de um data center). Acerca da c(distribuição dos recursos e da escalabilidade), é correto afirmar que:
+Status: ✅ Acertou | Tempo: 117s | Avaliação: Não Avaliada
+Assinalou: E) a distribuição das instâncias por zonas de disponibilidade da mesma região protege contra a falha de um data center, com baixa latência entre as zonas.
+Gabarito: E
+> Ferramentas: B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 15 ---
+Questão: **Questão 164:**  Acerca da construção e da execução de c(contêineres com Docker), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: ❌ Errou | Tempo: 92s | Avaliação: Não Avaliada
+Assinalou: E) F, F, V, V.
+Gabarito: A
+
+--- CARD 16 ---
+Questão: **Chefe Intermediário 3:** **Kubernetes, Vazão TCP, Zonas de Disponibilidade em Nuvem e Docker**  **- Otávio:** (monitora o tráfego do cluster Kubernetes na nuvem pública) Vamos consolidar a infraestrutura de contêineres, redes TCP e nuvem das questões 161 a 164. Julgue os testes abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 181s | Avaliação: Não Avaliada
+Assinalou: A) V, V, F, V.
+Gabarito: A
+
+--- CARD 17 ---
+Questão: **Questão 165:**  Na auditoria de uma c(aplicação web) de consulta a débitos fiscais, a equipe avalia os c(controles contra vulnerabilidades comuns em aplicações). Acerca desses controles, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 209s | Avaliação: Não Avaliada
+Assinalou: B) as consultas parametrizadas tratam os valores informados pelo usuário como dados, e não como parte do comando SQL, o que evita a injeção.
+Gabarito: B
+> Ferramentas: B: 📌 Fixada | C: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 18 ---
+Questão: **Questão 166:**  Cinquenta servidores de um órgão precisam trocar mensagens sigilosas c(dois a dois), de modo que cada par possa se comunicar sem que os demais servidores leiam as mensagens. A c(quantidade de chaves necessárias com criptografia simétrica), com uma chave secreta para cada par de servidores, e a c(quantidade de chaves necessárias com criptografia assimétrica), em que cada servidor gera as suas próprias chaves, são, respectivamente:
+Status: ✅ Acertou | Tempo: 220s | Avaliação: Não Avaliada
+Assinalou: A) 1.225 e 100.
+Gabarito: A
+
+--- CARD 19 ---
+Questão: **Questão 167:**  Acerca da c(gestão de identidades e acessos) em sistemas da Administração Pública, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).
+Status: 💩 Não sabia | Tempo: 82s | Avaliação: Não Avaliada
+Assinalou: -) 
+Gabarito: A
+
+--- CARD 20 ---
+Questão: **Questão 168:**  Concluído um projeto de análise de dados que usou dados pessoais de contribuintes, a Secretaria discute o c(destino desses dados). À luz da c(Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)), é correto afirmar que:
+Status: ✅ Acertou | Tempo: 164s | Avaliação: Não Avaliada
+Assinalou: C) os dados devem ser eliminados após o término do tratamento, permitida a conservação para uso do controlador, vedado o acesso por terceiro, se anonimizados.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: 📌 Fixada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 21 ---
+Questão: **Chefe Intermediário 4:** **Segurança Web (SQLi/XSS), Chaves Criptográficas, Gestão de Acessos (PAM) e LGPD**  **- Otávio:** (aciona as travas do cofre de credenciais da Secretaria) Vamos validar sua blindagem nas questões 165 a 168. Julgue cada item com atenção. Julgue:
+Status: ✅ Acertou | Tempo: 128s | Avaliação: Não Avaliada
+Assinalou: C) V, V, F, V.
+Gabarito: C
+
+--- CARD 22 ---
+Questão: **Questão 169:**  Um sistema da Secretaria cifra com o algoritmo c(AES) os arquivos de notas fiscais armazenados em nuvem. Acerca dos c(modos de operação) e do c(uso correto dos algoritmos criptográficos), é correto afirmar que:
+Status: ❌ Errou | Tempo: 185s | Avaliação: Não Avaliada
+Assinalou: E) o modo CBC detecta, na decifração, as alterações feitas no texto cifrado, porque cada bloco cifrado depende do bloco cifrado anterior.
+Gabarito: B
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada
+
+--- CARD 23 ---
+Questão: **Questão 170:**  Julgue os itens a seguir, relativos ao c(monitoramento de segurança), à c(resposta a incidentes) e às c(cópias de segurança).
+Status: ✅ Acertou | Tempo: 122s | Avaliação: Não Avaliada
+Assinalou: C) I, II e IV.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | D: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 24 ---
+Questão: **Questão 171:**  Um pipeline que carrega informações fiscais em um c(lago de dados na nuvem) precisa proteger os c(dados em repouso) e as c(credenciais de acesso às fontes). Acerca das práticas de proteção, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 111s | Avaliação: Não Avaliada
+Assinalou: E) na cifração envelopada, os dados são cifrados com uma chave de dados, que é cifrada com a chave mestra mantida no serviço de gestão de chaves.
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada
+
+--- CARD 25 ---
+Questão: **Chefe Final 1/6:** **Softmax com Temperatura, Dropout, Taxa de Aprendizado, Parada Antecipada e Épocas**  **- Otávio:** (abre o terminal de treinamento de redes neurais da Receita) Os parâmetros da rede neural estão na mesa. Julgue cada conceito individualmente para validar a base de Inteligência Artificial. Julgue:
+Status: ✅ Acertou | Tempo: 403s | Avaliação: Não Avaliada
+Assinalou: A) I, II e IV.
+Gabarito: A
+
+--- CARD 26 ---
+Questão: **Chefe Final 2/6:** **RAG, LoRA, Few-Shot, Modelos Multimodais e Injeção Indireta de Instruções**  **- Otávio:** (audita os logs de chamadas do assistente de IA da fiscalização) Um documento suspeito entrou na base de consulta do assistente. Avalie cada técnica de adaptação e segurança de LLMs abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 80s | Avaliação: Não Avaliada
+Assinalou: B) II, III e IV.
+Gabarito: B
+
+--- CARD 27 ---
+Questão: **Chefe Final 3/6:** **PyTorch Autograd, Redes Convolucionais (CNN), LSTM/GRU, Transfer Learning e Cálculo de Trechos no RAG**  **- Otávio:** (confere o grafo computacional do PyTorch e o fatiador de documentos) Analise individualmente cada mecanismo de aprendizado profundo e o dimensionamento da janela de contexto. Julgue:
+Status: ✅ Acertou | Tempo: 190s | Avaliação: Não Avaliada
+Assinalou: A) I, II, III e IV.
+Gabarito: A
+
+--- CARD 28 ---
+Questão: **Chefe Final 4/6:** **Arranjos RAID 5/6/10, PAT, VLAN, DNS (AAAA/MX), DHCP e Kubernetes**  **- Otávio:** (inspeciona o rack de servidores de armazenamento e o cluster de contêineres) Hora de validar a infraestrutura de armazenamento, redes e orquestração Kubernetes. Julgue os itens abaixo. Julgue:
+Status: ❌ Errou | Tempo: 184s | Avaliação: Não Avaliada
+Assinalou: A) I, II, III e IV.
+Gabarito: B
+
+--- CARD 29 ---
+Questão: **Chefe Final 5/6:** **Produto Banda x Atraso no TCP, Zonas de Disponibilidade, Docker, SQL Injection e Chaves Criptográficas**  **- Otávio:** (analisa o tráfego criptografado entre a Secretaria e a nuvem) Avalie com precisão cada cálculo de rede e criptografia e os mecanismos de nuvem e contêineres abaixo. Julgue:
+Status: ✅ Acertou | Tempo: 242s | Avaliação: Não Avaliada
+Assinalou: C) I, II, IV e V.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada
+
+--- CARD 30 ---
+Questão: **Chefe Final 6/6:** **PAM e FIDO2, Término na LGPD (Art. 16), AES-GCM, SIEM/Incidentes/Backup 3-2-1 e Cifração Envelopada**  **- Otávio:** (fecha o relatório final de auditoria de segurança da SEFAZ) Última bateria do bloco. Analise os controles de criptografia, resposta a incidentes e proteção de dados para cravar sua aprovação. Julgue:
+Status: ✅ Acertou | Tempo: 204s | Avaliação: Não Avaliada
+Assinalou: B) I, II, III e V.
+Gabarito: B
+

@@ -1,0 +1,90 @@
+--- [RELATÓRIO DE SESSÃO] ---
+Total de Cards: 12
+Acertos: 11
+Erros: 0
+Pulos: 0
+Time Out: 0
+Pontuação Líquida: 11
+Desempenho: 92%
+Resultado: Aprovado
+
+--- CARD 1 ---
+Questão: **Boss Tutorial (Modo Ultra):**    **- Otávio:**   (abre o terminal de auditoria contínua e os autos digitais da fiscalização)   ((Este é o bloco final do simulado: quem domina a diferença exata entre as técnicas de auditoria e a leitura cirúrgica do inglês fecha a prova na frente da concorrência...))   Estrategista, mapeei do zero todos os 12 pilares de Auditoria de Sistemas, Banco de Dados, Inteligência Artificial e Inglês Técnico das questões 172 a 180:
+Status: ✅ Acertou | Tempo: 43s | Avaliação: Não Avaliada
+Assinalou: A) Mapeamento Ultra compreendido. Pode liberar as questões 172 a 180, Otávio.
+Gabarito: A
+
+--- CARD 2 ---
+Questão: **Questão 172:**    Uma série de notas fiscais de entrada deveria conter os c(números de 501 a 520). A base extraída do sistema trouxe os seguintes números, já ordenados: 501, 502, 503, 505, 506, 506, 507, 510, 511, 512, 513, 513, 514, 515, 517, 518, 519 e 520. A c(quantidade de números ausentes da sequência) e a c(quantidade de números que aparecem em duplicidade) são, respectivamente:
+Status: ✅ Acertou | Tempo: 67s | Avaliação: Não Avaliada
+Assinalou: A) 4 e 2.
+Gabarito: A
+
+--- CARD 3 ---
+Questão: **Questão 173:**    Acerca das c(técnicas de auditoria assistidas por computador), julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).    A sequência correta, de cima para baixo, é:
+Status: ✅ Acertou | Tempo: 101s | Avaliação: Não Avaliada
+Assinalou: D) F, F, V, V.
+Gabarito: D
+> Rascunho V/F (Apenas Rascunho): I1(F), I2(F), I3(V), I4(V)
+
+--- CARD 4 ---
+Questão: **Questão 174:**    Para cruzar a c(base de pagamentos) do sistema financeiro com a c(base de contratos) do sistema de compras, o auditor precisa definir a c(chave de cruzamento) e o c(tipo de junção). Acerca desse cruzamento, é correto afirmar que:
+Status: ✅ Acertou | Tempo: 89s | Avaliação: Não Avaliada
+Assinalou: E) a chave de cruzamento deve ser padronizada nas duas bases, como o CNPJ em texto de 14 posições, com zeros à esquerda, para evitar falsas ausências.
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | D: ✂️ Cortada | E: 📌 Fixada
+
+--- CARD 5 ---
+Questão: **Questão 175:**    A tabela *despesas* registra a c(data do fato gerador (*dt_fato*)), a c(data da liquidação (*dt_liq*)), a indicação de c(inscrição em restos a pagar (*rp*)) e o c(valor), em milhares de reais, de despesas de um órgão.    **Registros da tabela *despesas* (*doc* — *dt_fato* — *dt_liq* — *rp* — *valor*):**   **D1:** *2025-12-15* — *2026-01-10* — *N* — *20*   **D2:** *2025-12-28* — *2026-01-05* — *S* — *30*   **D3:** *2026-01-02* — *2026-01-08* — *N* — *15*   **D4:** *2025-11-30* — *2026-02-03* — *N* — *12*   **D5:** *2025-12-31* — *2025-12-31* — *N* — *40*   **D6:** *2025-12-20* — *2026-01-15* — *N* — *13*    Para identificar despesas com c(fato gerador em 2025), c(liquidadas em 2026) e c(sem inscrição em restos a pagar), o auditor executou a consulta a seguir:    *SELECT COUNT(*), SUM(valor)*   *FROM despesas*   *WHERE dt_fato < “2026-01-01”*   *AND dt_liq >= “2026-01-01”*   *AND rp = “N”;*    Os valores retornados por c(*COUNT(*)*) e por c(*SUM(valor)*) são, respectivamente:
+Status: ✅ Acertou | Tempo: 177s | Avaliação: Não Avaliada
+Assinalou: B) 3 e 45.
+Gabarito: B
+
+--- CARD 6 ---
+Questão: **Questão 176:**    Julgue os itens a seguir, relativos ao c(uso de inteligência artificial) e de c(ferramentas analíticas) em trabalhos de auditoria.    Estão corretos os itens:
+Status: ✅ Acertou | Tempo: 145s | Avaliação: Não Avaliada
+Assinalou: D) I.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada | E: ✂️ Cortada
+
+--- CARD 7 ---
+Questão: **Chefe Intermediário 1:**   **Teste de Sequência, CAATs (Dados de Teste, Simulação Paralela, EAM e ITF), Joins, SQL e IA na Auditoria**    **- Otávio:**   (abre o relatório de cruzamento de malhas fiscais no monitor principal)   ((Se eles dominaram a diferença entre cada técnica de auditoria e a lógica dos filtros no banco de dados, vão passar por este bloqueio sem hesitar...))   Estrategista, vamos validar a sua retenção técnica sobre as questões 172 a 176 antes de avançarmos para o Inglês Técnico.   Julgue:
+Status: ✅ Acertou | Tempo: 280s | Avaliação: Não Avaliada
+Assinalou: A) V, V, V, F, V, F.
+Gabarito: A
+> Rascunho V/F (Apenas Rascunho): I1(V), I2(V), I3(V), I4(F), I5(V), I6(F)
+
+--- CARD 8 ---
+Questão: **Questão 177:**    **TEXT — Read the text below and answer questions 177 to 179.**    Electronic invoicing has changed the way tax administrations follow economic activity. Each invoice issued by a registered business is transmitted to the tax authority c(before the goods leave the warehouse), so auditors no longer wait for periodic returns to learn what was sold. This flow of data, c(however, does not audit itself). Invoices may be cancelled shortly after authorization, issued to companies that have no real activity, or split into small amounts to stay below the thresholds that would trigger a closer review.    Detecting such patterns requires c(models that combine invoice data) with registration records, payment information and, increasingly, data shared by other states. Analysts warn that the c(volume of alerts can become a problem in its own right). A model that flags too many transactions overwhelms the audit teams, who end up choosing cases almost at random.    For this reason, several administrations now rank alerts by expected revenue and record the outcome of every review. The aim is to feed those outcomes back into the models, so that they are recalibrated with real results rather than with the assumptions of whoever designed them.    According to the text, the c(main point) made about c(electronic invoicing) is that:
+Status: ✅ Acertou | Tempo: 218s | Avaliação: Não Avaliada
+Assinalou: E) the data it generates is valuable, but effective audits depend on analytical models and on keeping alerts manageable.
+Gabarito: E
+> Ferramentas: A: ✂️ Cortada
+
+--- CARD 9 ---
+Questão: **Questão 178:**    **TEXT (2nd paragraph reference):**   *“Detecting such patterns requires models that combine invoice data with registration records, payment information and, increasingly, data shared by other states. Analysts warn that c(the volume of alerts can become a problem in its own right). A model that flags too many transactions overwhelms the audit teams, who end up choosing cases almost at random.”*    In the second paragraph, the expression c(“in its own right”) indicates that the c(volume of alerts):
+Status: ✅ Acertou | Tempo: 149s | Avaliação: Não Avaliada
+Assinalou: D) is a problem in itself, distinct from the irregularities the models try to detect.
+Gabarito: D
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada | C: ✂️ Cortada
+
+--- CARD 10 ---
+Questão: **Questão 179:**    **TEXT — Reference for items I to IV:**   Electronic invoicing has changed the way tax administrations follow economic activity. Each invoice issued by a registered business is transmitted to the tax authority c(before the goods leave the warehouse), so auditors no longer wait for periodic returns to learn what was sold. This flow of data, however, does not audit itself. Invoices may be cancelled shortly after authorization, issued to companies that have no real activity, or c(split into small amounts to stay below the thresholds) that would trigger a closer review.    Detecting such patterns requires models that combine invoice data with registration records, payment information and, increasingly, data shared by other states. Analysts warn that the volume of alerts can become a problem in its own right. A model that flags too many transactions c(overwhelms the audit teams, who end up choosing cases almost at random).    For this reason, several administrations now rank alerts by expected revenue and c(record the outcome of every review). The aim is to feed those outcomes back into the models, so that they are c(recalibrated with real results) rather than with the assumptions of whoever designed them.    Com base no texto, julgue as afirmativas a seguir em verdadeiras (V) ou falsas (F).    A sequência correta, de cima para baixo, é:
+Status: ✅ Acertou | Tempo: 225s | Avaliação: Não Avaliada
+Assinalou: D) V, V, V, V.
+Gabarito: D
+
+--- CARD 11 ---
+Questão: **Questão 180:**    Consider the sentence from a software contract specification: “The contractor shall ensure that c(service level indicators are measured and reported on a monthly basis), c(regardless of) any change in the underlying infrastructure.” The expression c(“regardless of”) introduces, in relation to the rest of the sentence, an idea of:
+Status: ✅ Acertou | Tempo: 85s | Avaliação: Não Avaliada
+Assinalou: C) concession, indicating that the obligation to measure and report on a monthly basis holds even if the underlying infrastructure is changed.
+Gabarito: C
+> Ferramentas: A: ✂️ Cortada | B: ✂️ Cortada
+
+--- CARD 12 ---
+Questão: **Chefe Final 1/1:**   **Teste de Sequência, CAATs (ITF, EAM e Simulação Paralela), Joins, SQL, IA na Auditoria e Inglês Técnico**    **- Otávio:**   (fecha o dossiê completo das 180 questões do Simulado 01 sobre a mesa da fiscalização)   ((Último confronto do simulado: se eles cravarem essas seis decisões sem confundir ITF com Dados de Teste nem concessão com condição, estão prontos para a prova real...))   Estrategista, chegamos ao confronto final do bloco. Julgue as seis afirmativas abaixo para selar o seu domínio sobre as questões 172 a 180.   Julgue:
+Status: ✅ Acertou | Tempo: 219s | Avaliação: Não Avaliada
+Assinalou: A) V, V, V, F, V, F.
+Gabarito: A
+> Rascunho V/F (Apenas Rascunho): I1(V), I2(V), I3(V), I4(F), I5(V), I6(F)
+
